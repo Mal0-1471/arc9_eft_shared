@@ -1,0 +1,63 @@
+$modelname "entities/eft_attachments/foregrips/eft_foregrip_heracqr.mdl"
+ 
+$scale 40
+
+$bodygroup "body"
+{
+	studio "eft_foregrip_heracqr.smd"
+}
+
+$cdmaterials "entities/eft_attachments/foregrips/heracqr"
+
+$maxverts "9999999"
+
+$surfaceprop "weapon"
+
+$illumposition 0 0 0
+ 
+$contents "solid"
+
+$cbox 0 0 0 0 0 0
+
+      $definebone "blender_implicit" "" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+      $definebone "Base HumanLCollarbone" "" 1.972720 -0.226040 59.993202 22.361568 24.097803 178.113785 0.000002 -0.000000 0.000000 -0.000000 0.000000 0.000001
+      $definebone "Base HumanLUpperarm" "Base HumanLCollarbone" 5.336119 0.001760 -0.001602 -10.301092 68.711052 -12.799478 0.000001 0.000000 -0.000004 -0.000003 -0.000002 -0.000005
+      $definebone "Base HumanLForearm1" "Base HumanLUpperarm" 11.860400 -0.000004 0.000000 -3.225178 37.338165 1.510025 0.000002 -0.000002 0.000000 0.000000 -0.000001 -0.000007
+      $definebone "Base HumanLForearm2" "Base HumanLForearm1" 3.346041 0.000004 0.000000 0.000000 -0.000001 -3.737180 0.000000 0.000002 0.000000 0.000001 -0.000001 -0.000005
+      $definebone "Base HumanLForearm3" "Base HumanLForearm2" 3.346041 -0.000004 0.000042 0.000001 -0.000001 -6.934972 0.000000 -0.000002 0.000000 0.000001 -0.000001 -0.000005
+      $definebone "Base HumanLPalm" "Base HumanLForearm3" -17.342241 -31.874365 51.356323 32.953415 167.332306 135.030777 0.000000 0.000000 0.000000 -0.000003 0.000003 -0.000004
+      $definebone "Base HumanLDigit11" "Base HumanLPalm" 1.650960 -0.834800 1.601601 -12.486648 -35.001644 99.710640 0.000000 0.000000 0.000000 0.000007 0.000004 0.000002
+      $definebone "Base HumanLDigit12" "Base HumanLDigit11" 1.590800 -0.000040 0.000040 4.033513 -21.058777 17.304190 0.000000 0.000000 0.000000 0.000007 -0.000002 -0.000002
+      $definebone "Base HumanLDigit13" "Base HumanLDigit12" 1.490880 -0.000120 -0.000080 4.480076 -37.505478 15.448652 -0.000000 0.000000 0.000000 -0.000001 -0.000007 -0.000010
+      $definebone "Base HumanLDigit21" "Base HumanLPalm" 4.213320 0.012760 1.442081 22.029427 -23.375866 -18.355965 0.000000 0.000000 0.000000 -0.000003 0.000005 -0.000001
+      $definebone "Base HumanLDigit22" "Base HumanLDigit21" 2.248400 0.000240 -0.000080 -5.435425 -65.150459 -1.550421 -0.000000 0.000000 0.000000 -0.000005 -0.000003 0.000003
+      $definebone "Base HumanLDigit23" "Base HumanLDigit22" 1.085680 0.000040 0.000000 -2.808754 -59.844307 -0.255420 0.000000 0.000000 0.000000 0.000000 -0.000009 0.000006
+      $definebone "Base HumanLDigit31" "Base HumanLPalm" 4.299840 0.475520 0.355080 11.877931 -45.996529 -28.233410 0.000000 0.000000 0.000000 -0.000004 0.000009 -0.000001
+      $definebone "Base HumanLDigit32" "Base HumanLDigit31" 2.350480 0.000160 -0.000080 -0.004357 -62.832161 0.001722 -0.000000 0.000000 0.000000 -0.000002 -0.000005 0.000003
+      $definebone "Base HumanLDigit33" "Base HumanLDigit32" 1.339680 -0.000040 0.000000 0.006877 -74.122925 0.004988 0.000000 0.000000 0.000000 0.000002 0.000003 0.000003
+      $definebone "Base HumanLDigit41" "Base HumanLPalm" 4.205520 0.397160 -0.650680 8.600952 -57.704464 -36.169567 0.000000 0.000000 0.000000 -0.000004 0.000003 -0.000003
+      $definebone "Base HumanLDigit42" "Base HumanLDigit41" 2.024000 0.000080 -0.000080 -0.003499 -52.773609 -0.000285 0.000000 0.000000 0.000000 -0.000004 -0.000007 0.000001
+      $definebone "Base HumanLDigit43" "Base HumanLDigit42" 1.201200 -0.000040 0.000000 -0.002523 -62.979980 0.009229 0.000000 0.000000 0.000000 -0.000002 -0.000001 0.000004
+      $definebone "Base HumanLDigit51" "Base HumanLPalm" 3.947640 0.084760 -1.545440 1.292074 -62.242126 -35.006802 -0.000000 0.000000 0.000000 -0.000007 -0.000002 0.000000
+      $definebone "Base HumanLDigit52" "Base HumanLDigit51" 1.606320 0.000040 -0.000080 -0.000864 -48.038280 -0.001943 0.000000 0.000000 0.000000 -0.000004 -0.000012 0.000006
+      $definebone "Base HumanLDigit53" "Base HumanLDigit52" 0.791240 -0.000040 -0.000040 -0.015985 -48.289913 0.012498 0.000000 0.000000 0.000000 0.000001 0.000002 0.000007
+
+$include "EFT_Bones_NoWrist.qci"
+
+$sequence "idle" {
+	"anims/heracqr.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 24
+	loop
+}
+
+$collisionmodel "eft_foregrip_heracqr.smd"
+{
+	$automass
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+}

@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/arc9_eft_shared/atts/scope/hamr/hamrglass2_d"
+	"$bumpmap" "models/weapons/arc9_eft_shared/atts/scope/hamr/hamr_n"
+	"$phongexponenttexture" "models/weapons/arc9_eft_shared/atts/scope/hamr/hamr_e"
+	"$translucent" 1
+
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongalbedotint" "1"
+	//"$phongexponent" "10"
+	"$phongfresnelranges" "[0.5 5 22.5]"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.01 0.01 0.01]"
+	"$envmapfresnel" "0.1"
+	"$normalmapalphaenvmapmask" "0"
+	"$basemapalphaenvmapmask" "1"
+}
