@@ -18,6 +18,8 @@ ATT.Sights = {
     }
 }
 
+ATT.ActivateElements = {"IronsBlockingSight"}
+
 ATT.HoloSight = false
 ATT.HoloSightReticle = Material("arc9/eotech.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)

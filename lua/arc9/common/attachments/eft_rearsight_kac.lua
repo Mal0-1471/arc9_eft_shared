@@ -24,8 +24,8 @@ end
 // Allows a custom sight position to be defined
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -1.4),
-        Ang = Angle(0, -0.5, 0),
+        Pos = Vector(0, 7.5, -1.345),
+        Ang = Angle(0, -0, 0),
         Magnification = 1.1,
         IsIronSight = true
     }
