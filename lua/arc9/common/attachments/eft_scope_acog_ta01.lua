@@ -22,7 +22,7 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_ta01.png", "mips smooth")
 ATT.RTScopeColorable = false

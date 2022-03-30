@@ -13,6 +13,12 @@ $contents "solid"
 
 $illumposition 0 0 0
 
+$texturegroup <name>
+{
+	{ "eft_scope_acog_ta01" } //Skin 0 (default)
+	{ "eft_scope_acog_ta01_fde" } //Skin 1
+}
+
 $cdmaterials "models/weapons/arc9_eft_shared/atts/scope/ta01"
 $cdmaterials "effects/arc9/"
 
