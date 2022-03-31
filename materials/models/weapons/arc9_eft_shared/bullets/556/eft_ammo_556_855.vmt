@@ -1,0 +1,18 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/arc9_eft_shared/bullets/556/556_m855_d"
+	"$bumpmap" "models/weapons/arc9_eft_shared/bullets/556/556_m855_n"
+	"$phongexponenttexture" "models/weapons/arc9_eft_shared/bullets/556/556_m855_e"
+
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongalbedotint" "1"
+	//"$phongexponent" "10"
+	"$phongfresnelranges" "[1 5 22.5]"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.1 0.1 0.1]"
+	"$envmapfresnel" "0.1"
+	"$normalmapalphaenvmapmask" "0"
+	"$basemapalphaenvmapmask" "1"
+}

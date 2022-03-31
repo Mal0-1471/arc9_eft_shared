@@ -13,5 +13,7 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.ChamberSizeOverride = 1
 ATT.ClipSizeOverride = 30
 
+ATT.ActivateElements = {"ar15_mag_30"}
+
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, -90, 0)

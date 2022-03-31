@@ -1,5 +1,5 @@
 ATT.PrintName = "Magpul MBUS Gen2 flip-up rear sight FDE"
-ATT.CompactName = "KAC"
+ATT.CompactName = "MBUS"
 ATT.Icon = Material("entities/eft_attachments/ironsights/eft_ironsight_mbus.png", "mips smooth")
 ATT.Description = [[The MBUS Gen2 removable flip-up rear sight, installed on the mount. Manufactured by Magpul.]]
 ATT.SortOrder = 1

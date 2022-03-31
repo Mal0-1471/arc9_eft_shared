@@ -15,5 +15,7 @@ ATT.DropMagazineModel = "models/weapons/arc9_eft_shared/atts/mag/eft_mag_ar15_pm
 ATT.ChamberSizeOverride = 1
 ATT.ClipSizeOverride = 30
 
+ATT.ActivateElements = {"ar15_mag_30"}
+
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, -90, 0)
