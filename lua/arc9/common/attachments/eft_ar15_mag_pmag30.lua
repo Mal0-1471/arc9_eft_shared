@@ -10,6 +10,8 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_mag"
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
+ATT.DropMagazineModel = "models/weapons/arc9_eft_shared/atts/mag/eft_mag_ar15_pmag.mdl"
+
 ATT.ChamberSizeOverride = 1
 ATT.ClipSizeOverride = 30
 
