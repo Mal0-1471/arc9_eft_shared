@@ -29,3 +29,12 @@ $sequence "idle" {
 	fps 24
 	loop
 }
+
+$collisionmodel "eft_mag_ar15_pmag.smd"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone "root"
+}

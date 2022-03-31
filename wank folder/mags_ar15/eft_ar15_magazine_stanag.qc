@@ -23,3 +23,12 @@ $sequence "idle" {
 	fps 24
 	loop
 }
+
+$collisionmodel "eft_ar15_magazine_stanag.smd"
+{
+	$mass 1
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone "root"
+}
