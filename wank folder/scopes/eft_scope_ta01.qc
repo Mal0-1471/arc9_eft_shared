@@ -13,6 +13,10 @@ $contents "solid"
 
 $illumposition 0 0 0
 
+$definebone "blender_implicit" "" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
+
+$attachment "lens" "blender_implicit" 0.03 -0.00 0.0325 rotate -0 0 0
+
 $texturegroup <name>
 {
 	{ "eft_scope_acog_ta01" } //Skin 0 (default)

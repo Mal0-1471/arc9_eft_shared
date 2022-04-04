@@ -5,6 +5,7 @@ ATT.Description = [[Detachable Carry Handle with a rear sight for AR-15. Standar
 ATT.SortOrder = 1
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/ironsight/eft_rearsight_m4carry.mdl"
+ATT.Scale = 1
 
 ATT.Category = {"eft_ar_rearsight"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
@@ -14,7 +15,8 @@ ATT.Sights = {
     {
         Pos = Vector(0, 7.5, -1.4),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.1
+        Magnification = 1.1,
+        IsIronSight = true
     }
 }
 
@@ -28,3 +30,13 @@ ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "SCOPE",
+        Category = {"eft_scope_trijicon"},
+        Pos = Vector(1, -3, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}

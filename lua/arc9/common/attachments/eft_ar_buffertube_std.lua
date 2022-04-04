@@ -24,5 +24,6 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
 		Bone = "mod_stock_000",
         ExcludeElements = {"pgrip_stock"},
+        Installed = "eft_ar_stock_m4ss",
     },
 }

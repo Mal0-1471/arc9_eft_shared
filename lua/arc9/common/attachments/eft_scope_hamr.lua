@@ -31,6 +31,11 @@ ATT.RTScopeShadowIntensity = 10
 
 ATT.ScopeScreenRatio = 0.66
 
+ATT.Flare = true
+ATT.FlareColor = Color(255, 255, 255)
+ATT.FlareSize = 10
+ATT.FlareAttachment = 1
+
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {

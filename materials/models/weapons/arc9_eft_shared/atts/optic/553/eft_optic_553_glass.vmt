@@ -7,10 +7,10 @@
 	"$phongboost" "10"
 	"$phongalbedotint" "1"
 	"$phongexponent" "10"
-	"$phongfresnelranges" "[0.22 0.856 20]"
+	"$phongfresnelranges" "[5.22 5.856 20]"
 
 	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.1 0.1 0.1]"
+	"$envmaptint" "[0.2 0.2 0.2]"
 	"$envmapfresnel" "0.1"
 	"$normalmapalphaenvmapmask" "0"
 	"$basemapalphaenvmapmask" "1"
