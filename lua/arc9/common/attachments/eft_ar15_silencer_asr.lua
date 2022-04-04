@@ -19,5 +19,22 @@ ATT.MuzzleParticleOverride = "muzzleflash_suppressed"
 ATT.MuzzleParticleOverride_Priority = 10
 ATT.MuzzleDevice = true
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+ATT.RecoilMult = 0.86
+ATT.VisualRecoilMultMult = 0.86
+
+-- Speed and Handling
+
+ATT.SpeedMult = 0.98
+
+ATT.SwayAdd = 0.6
+ATT.SprintToFireTimeMult = 1.22
+ATT.AimDownSightsTimeMult = 1.22
+
+ATT.PhysBulletMuzzleVelocityMult = 1.075
+
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, -90, 0)

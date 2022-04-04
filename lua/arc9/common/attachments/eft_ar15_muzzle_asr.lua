@@ -13,6 +13,23 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 1
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+ATT.RecoilMult = 0.91
+ATT.VisualRecoilMultMult = 0.91
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.96
+
+--ATT.SwayAdd = 0.8
+ATT.SprintToFireTimeMult = 1.02
+ATT.AimDownSightsTimeMult = 1.02
+
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, -90, 0)
 

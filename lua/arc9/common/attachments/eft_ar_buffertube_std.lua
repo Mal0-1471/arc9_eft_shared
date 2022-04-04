@@ -14,6 +14,21 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, -90, 0)
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMultMult = 0.99
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 1
+
+--ATT.SwayAdd = -7
+--ATT.SprintToFireTimeMult = 0.5
+--ATT.AimDownSightsTimeMult = 0.5
+
 ATT.HasBufferTube = true
 
 ATT.Attachments = {

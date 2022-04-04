@@ -9,6 +9,23 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/ironsight/eft_frontsight_kac.md
 ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+--ATT.RecoilMult = 0.86
+--ATT.VisualRecoilMultMult = 0.86
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.98
+
+--ATT.SwayAdd = 0.6
+ATT.SprintToFireTimeMult = 0.99
+ATT.AimDownSightsTimeMult = 0.99
+
+--ATT.PhysBulletMuzzleVelocityMult = 1.075
+
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
     model:SetBodygroup(0, 1)

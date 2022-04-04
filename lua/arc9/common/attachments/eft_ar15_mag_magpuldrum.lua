@@ -15,6 +15,23 @@ ATT.DropMagazineModel = "models/weapons/arc9_eft_shared/atts/mag/eft_mag_ar15_ma
 ATT.ChamberSizeOverride = 1
 ATT.ClipSizeOverride = 60
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+--ATT.RecoilMult = 0.5
+--ATT.VisualRecoilMultMult = 0.5
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 1
+
+--ATT.SwayAdd = -7
+ATT.SprintToFireTimeMult = 1.16
+ATT.AimDownSightsTimeMult = 1.16
+
+ATT.ReloadTimeMult = 1.25
+
 ATT.ActivateElements = {"ar15_mag_drum"}
 
 ATT.ModelOffset = Vector(0, 0, -0)

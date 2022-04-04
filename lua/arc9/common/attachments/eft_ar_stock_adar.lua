@@ -15,6 +15,23 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgripstock"
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+ATT.RecoilMult = 0.51
+ATT.VisualRecoilMultMult = 0.51
+
+-- Speed and Handling
+
+ATT.SpeedMult = 0.85
+
+ATT.SwayAdd = -6
+ATT.SprintToFireTimeMult = 0.45
+ATT.AimDownSightsTimeMult = 0.45
+
+ATT.HasGrip = true
+
 ATT.Attachments = {
  
 }

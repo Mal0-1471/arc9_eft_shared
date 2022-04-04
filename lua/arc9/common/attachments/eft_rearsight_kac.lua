@@ -13,6 +13,23 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+--ATT.RecoilMult = 0.86
+--ATT.VisualRecoilMultMult = 0.86
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.98
+
+--ATT.SwayAdd = 0.6
+ATT.SprintToFireTimeMult = 0.99
+ATT.AimDownSightsTimeMult = 0.99
+
+--ATT.PhysBulletMuzzleVelocityMult = 1.075
+
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
     model:SetBodygroup(0, 1)

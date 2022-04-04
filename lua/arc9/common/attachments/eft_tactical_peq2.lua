@@ -9,6 +9,23 @@ ATT.Category = {"eft_tactical_top"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9_eft_shared/atts/tactical/eft_tactical_peq2.mdl"
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+--ATT.RecoilMult = 0.86
+--ATT.VisualRecoilMultMult = 0.86
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.98
+
+--ATT.SwayAdd = 0.6
+ATT.SprintToFireTimeMult = 1.02
+ATT.AimDownSightsTimeMult = 1.02
+
+--ATT.PhysBulletMuzzleVelocityMult = 1.075
+
 ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {

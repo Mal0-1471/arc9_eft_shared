@@ -13,7 +13,24 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.DropMagazineModel = "models/weapons/arc9_eft_shared/atts/mag/eft_mag_ar15_stanag100.mdl"
 
 ATT.ChamberSizeOverride = 1
-ATT.ClipSizeOverride = 60
+ATT.ClipSizeOverride = 100
+
+-- Stat Multipliers
+
+-- Recoil Changes
+
+--ATT.RecoilMult = 0.5
+--ATT.VisualRecoilMultMult = 0.5
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 1
+
+--ATT.SwayAdd = -7
+ATT.SprintToFireTimeMult = 1.27
+ATT.AimDownSightsTimeMult = 1.27
+
+ATT.ReloadTimeMult = 1.35
 
 ATT.ActivateElements = {"ar15_mag_60"}
 

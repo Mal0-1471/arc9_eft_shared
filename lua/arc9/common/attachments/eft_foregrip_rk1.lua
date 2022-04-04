@@ -10,6 +10,23 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMultMult = 0.97
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.98
+
+--ATT.SwayAdd = 0.6
+ATT.SprintToFireTimeMult = 0.99
+ATT.AimDownSightsTimeMult = 0.99
+
+--ATT.PhysBulletMuzzleVelocityMult = 1.075
+
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 

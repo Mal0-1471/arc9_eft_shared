@@ -10,6 +10,23 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_muzzle"
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+ATT.RecoilMult = 0.93
+ATT.VisualRecoilMultMult = 0.93
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.96
+
+--ATT.SwayAdd = 0.8
+ATT.SprintToFireTimeMult = 1.01
+ATT.AimDownSightsTimeMult = 1.01
+
+ATT.PhysBulletMuzzleVelocityMult = 1.05
+
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 1
 

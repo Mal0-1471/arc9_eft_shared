@@ -11,6 +11,23 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Category = "eft_optic_large"
 ATT.Folder = "SCOPE"
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+--ATT.RecoilMult = 0.99
+--ATT.VisualRecoilMultMult = 0.99
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.98
+
+--ATT.SwayAdd = 0.6
+ATT.SprintToFireTimeMult = 1.01
+ATT.AimDownSightsTimeMult = 1.01
+
+--ATT.PhysBulletMuzzleVelocityMult = 1.075
+
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {

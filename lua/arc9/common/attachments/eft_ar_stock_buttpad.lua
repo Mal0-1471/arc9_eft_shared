@@ -11,5 +11,21 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar_buttpad"
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
+-- Stat Multipliers
+
+-- Recoil Changes
+
+ATT.RecoilMult = 0.97
+--ATT.VisualRecoilMult = 1.5
+
+-- Speed and Handling
+
+--ATT.SpeedMult = 0.95
+
+--ATT.SwayAdd = -6.5
+--ATT.SprintToFireTimeMult = 0.44
+ATT.AimDownSightsTimeMult = 0.98
+
+
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, -90, 0)
