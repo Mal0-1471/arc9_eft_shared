@@ -14,6 +14,8 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
+ATT.HasGrip = true
+
 ATT.Attachments = {
  
 }
