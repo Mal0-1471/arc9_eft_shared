@@ -20,7 +20,7 @@ ATT.Sights = {
     }
 }
 
--- ATT.ActivateElements = {"IronsBlockingSight"}
+ATT.ActivateElements = {"IronsBlockingSight"}
 
 ATT.HoloSight = false
 ATT.HoloSightReticle = Material("arc9/eotech.png", "mips smooth")
