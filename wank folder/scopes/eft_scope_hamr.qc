@@ -15,7 +15,7 @@ $illumposition 0 0 0
 
 $definebone "blender_implicit" "" 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 -0.000000 0.000000 0.000000
 
-$attachment "lens" "blender_implicit" 0.00 -0.05 0.0375 rotate -0 -90 0
+$attachment "lens" "blender_implicit" 0.00 -0.05 0.0375 rotate -0 180 0
 
 $cdmaterials "models/weapons/arc9_eft_shared/atts/scope/hamr"
 $cdmaterials "effects/arc9/"
