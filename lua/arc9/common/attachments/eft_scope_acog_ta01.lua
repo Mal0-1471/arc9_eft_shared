@@ -32,18 +32,22 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 7, -1.34),
+        Pos = Vector(0, 7.6, -1.34),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.25
+        Magnification = 1.15,
+        ViewModelFOV = 36
     },
 }
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 12
+ATT.RTScopeFOV = 36/4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_ta01.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.975
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true 
 
 ATT.ScopeScreenRatio = 0.66
 

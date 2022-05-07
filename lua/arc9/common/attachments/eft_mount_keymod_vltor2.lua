@@ -6,7 +6,7 @@ ATT.Description = [[Vltor CASV guide for KeyMod 2 inch system allows you to inst
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymod.mdl"
 ATT.ModelBodygroups = "2"
 
-ATT.Category = {"eft_mount_keymod"}
+ATT.Category = {"eft_mount_keymod", "eft_mount_keymod2"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)

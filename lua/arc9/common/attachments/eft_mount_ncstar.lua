@@ -31,11 +31,12 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "OPTIC",
+        PrintName = "Optic",
         Category = "eft_optic_small",
-        Pos = Vector(0.35, -0.85, -0.2),
+        Pos = Vector(0, 0.85, -0.2),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(-45, 0, 90),
         Icon_Offset = Vector(0, 0, 1),
+        ExtraSightDistance = 8
     },
 }

@@ -33,9 +33,10 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 7, -1.62),
+        Pos = Vector(0, 7.6, -1.62),
         Ang = Angle(0, 0, 0),
-        Magnification = 1.25
+        Magnification = 1.15,
+        ViewModelFOV = 36
     },
 }
 
@@ -59,7 +60,7 @@ ATT.Attachments = {
     {
         PrintName = "BACKUP OPTIC",
         Category = {"eft_deltapoint"},
-        Pos = Vector(2.3, -0.7, 0),
+        Pos = Vector(-0.7, 0, -2.32),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
