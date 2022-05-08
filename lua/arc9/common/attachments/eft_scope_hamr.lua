@@ -46,6 +46,8 @@ ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("arc9/bravo.png", "mips smooth")
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true 
 
 ATT.ScopeScreenRatio = 0.66
 
