@@ -15,9 +15,11 @@ ATT.Attachments = {
     {
         PrintName = "Optic",
         Category = {"eft_optic_kmz"},
-        Pos = Vector(-0.8, 0, -3.5),
-        Ang = Angle(0, -90, 0),
+        Pos = Vector(0, 0.8, -3.5),
+        Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 1, 0),
         -- ExtraSightDistance = 8
     },
 }
+
+ATT.ModelAngleOffset = Angle(0, 90, 0)

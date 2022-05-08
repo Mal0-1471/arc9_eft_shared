@@ -16,8 +16,8 @@ ATT.Attachments = {
     {
         PrintName = "Optic",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
-        Pos = Vector(1.05, -2.5, -2.4),
-        Ang = Angle(0, -90, 0),
+        Pos = Vector(2.5, 1.05, -2.4),
+        Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 1, 0),
         -- ExtraSightDistance = 8
     },
@@ -25,8 +25,10 @@ ATT.Attachments = {
     {
         PrintName = "Tactical",
         Category = "eft_tactical_top",
-        Pos = Vector(-0.5, -2, -1.4),
-        Ang = Angle(-90, -90, 0),
+        Pos = Vector(2, -0.5, -1.4),
+        Ang = Angle(-90, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+
+ATT.ModelAngleOffset = Angle(0, 90, 0)
