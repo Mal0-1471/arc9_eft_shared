@@ -6,6 +6,7 @@ ATT.Description = [[Universal 1P59 scope base mount for installation on Dovetail
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
 ATT.ModelBodygroups = "1"
 
+ATT.ActivateElements = {"nolongrear"}
 ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
@@ -15,9 +16,9 @@ ATT.Attachments = {
     {
         PrintName = "Optic",
         Category = {"eft_optic_kmz"},
-        Pos = Vector(0, 0.8, -3.5),
+        Pos = Vector(-2.7, -0.8+1, -3.2),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 1, 0),
+        Icon_Offset = Vector(0, 0, 0),
         -- ExtraSightDistance = 8
     },
 }

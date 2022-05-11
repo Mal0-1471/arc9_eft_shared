@@ -13,6 +13,7 @@ ATT.Category = {"eft_mount_dovetail"}
 ATT.Folder = "COLLIMATOR"
 
 
+ATT.ActivateElements = {"nolongrear"}
 -- Stat Multipliers
 
 -- Recoil Changes

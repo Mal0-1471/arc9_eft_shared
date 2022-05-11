@@ -32,12 +32,23 @@ ATT.AimDownSightsTimeMult = 1.02
 ATT.FoldSights = true
 
 
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1m2_1_4x24_marks_0.png", "mips smooth")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1m2_1_4x24_marks_1.png", "mips smooth")
+
 ATT.Sights = {
     {
         Pos = Vector(0.575, 7.6, -0.8),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 38
+        ViewModelFOV = 38,
+        Reticle = Reticle0
+    },
+    {
+        Pos = Vector(0.575, 7.6, -0.8),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        Reticle = Reticle1
     },
 }
 
@@ -45,7 +56,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 38/4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1m2_1_4x24_marks_1.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.975
+ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
@@ -67,3 +78,5 @@ ATT.Attachments = {
         ExtraSightDistance = 5
     },
 }
+
+ATT.ActivateElements = {"nolongrear"}

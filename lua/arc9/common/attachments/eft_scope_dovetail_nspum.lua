@@ -84,3 +84,4 @@ ATT.Attachments = {
         ExtraSightDistance = 5
     },
 }
+ATT.ActivateElements = {"nolongrear"}

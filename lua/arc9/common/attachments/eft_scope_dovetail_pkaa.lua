@@ -12,6 +12,7 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Category = {"eft_mount_dovetail"}
 ATT.Folder = "COLLIMATOR"
 
+ATT.ActivateElements = {"nolongrear"}
 
 -- Stat Multipliers
 
