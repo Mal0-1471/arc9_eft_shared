@@ -8,7 +8,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/pgrip/eft_pgrip_hg15.mdl"
 ATT.WorldModel = "models/weapons/arc9_eft_shared/atts/pgrip/eft_pgrip_hg15.mdl"
 ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, -90, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 -- Stat Multipliers
 

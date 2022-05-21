@@ -34,7 +34,7 @@ ATT.Attachments = {
     {
         PrintName = "SCOPE",
         Category = {"eft_scope_trijicon"},
-        Pos = Vector(0.1, 0.8, 0),
+        Pos = Vector(0.8, 0, -0.1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },

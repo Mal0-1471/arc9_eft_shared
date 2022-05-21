@@ -30,15 +30,15 @@ ATT.SprintToFireTimeMult = 0.42
 ATT.AimDownSightsTimeMult = 0.42
 
 ATT.ModelOffset = Vector(0, 0, -0)
-ATT.ModelAngleOffset = Angle(0, -90, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Attachments = {
     {
         PrintName = "BUTTPAD",
         Category = "eft_ar_buttpad",
-        Pos = Vector(-1.12, -0, 4.2),
+        Pos = Vector(4.2, 0, 1.12),
         --Pos = Vector(0, 0, 0),
-        Ang = Angle(-90, 0, 90),
+        Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
 }

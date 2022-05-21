@@ -31,7 +31,7 @@ ATT.AimDownSightsTimeMult = 1.02
 ATT.PhysBulletMuzzleVelocityMult = 1.01
 
 ATT.ModelOffset = Vector(0, 0, -0)
-ATT.ModelAngleOffset = Angle(0, -90, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Attachments = {
     {
@@ -39,7 +39,7 @@ ATT.Attachments = {
         Category = "eft_asr_surpressor",
         Pos = Vector(0, -0.5, 0),
         --Pos = Vector(0, 0, 0),
-        Ang = Angle(-90, 0, 90),
+        Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, -2),
     },
 }

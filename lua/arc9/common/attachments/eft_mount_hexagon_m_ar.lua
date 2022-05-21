@@ -19,7 +19,7 @@ ATT.Attachments = {
         PrintName = "Grip",
         Category = {"eft_foregrip_small"},
         Pos = Vector(0, 0, -0.45),
-        Ang = Angle(180, 0, 0),
+        Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, -1),
     },
 }

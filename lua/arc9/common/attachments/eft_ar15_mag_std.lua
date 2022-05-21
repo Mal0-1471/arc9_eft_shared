@@ -31,4 +31,4 @@ ATT.AimDownSightsTimeMult = 1.03
 ATT.ActivateElements = {"ar15_mag_30"}
 
 ATT.ModelOffset = Vector(0, 0, -0)
-ATT.ModelAngleOffset = Angle(0, -90, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)

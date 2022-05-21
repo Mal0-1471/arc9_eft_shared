@@ -12,7 +12,7 @@ ATT.Category = "eft_ar15_buffertube"
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
-ATT.ModelAngleOffset = Angle(0, -90, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 -- Stat Multipliers
 
@@ -35,9 +35,9 @@ ATT.Attachments = {
     {
         PrintName = "STOCK",
         Category = "eft_ar_stock",
-        Pos = Vector(0, -2.75, 0.9),
+        Pos = Vector(2.75, 0, 0.9),
         --Pos = Vector(0, 0, 0),
-        Ang = Angle(-90, 0, 90),
+        Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
 		Bone = "mod_stock_000",
         ExcludeElements = {"pgrip_stock"},

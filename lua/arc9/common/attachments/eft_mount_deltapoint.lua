@@ -17,9 +17,9 @@ ATT.Attachments = {
     {
         PrintName = "OPTIC",
         Category = "eft_deltapoint",
-        Pos = Vector(0.35, -0, 0),
+        Pos = Vector(0, -0, -0.35),
         --Pos = Vector(0, 0, 0),
-        Ang = Angle(-90, 0, 90),
+        Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1),
     },
 }

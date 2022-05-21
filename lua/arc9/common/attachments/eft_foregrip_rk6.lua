@@ -31,4 +31,4 @@ ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
 ATT.ModelOffset = Vector(0.0, 0, -0)
-ATT.ModelAngleOffset = Angle(180, 90, 180)
+ATT.ModelAngleOffset = Angle(0, 0, 0)

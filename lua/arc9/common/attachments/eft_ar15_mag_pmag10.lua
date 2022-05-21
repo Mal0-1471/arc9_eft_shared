@@ -35,4 +35,4 @@ ATT.ReloadTimeMult = 0.8
 ATT.ActivateElements = {"ar15_mag_10"}
 
 ATT.ModelOffset = Vector(0, 0, -0)
-ATT.ModelAngleOffset = Angle(0, -90, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)

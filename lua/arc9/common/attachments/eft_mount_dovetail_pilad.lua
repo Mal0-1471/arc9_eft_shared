@@ -10,7 +10,7 @@ ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(-0.06, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
 ATT.Attachments = {
