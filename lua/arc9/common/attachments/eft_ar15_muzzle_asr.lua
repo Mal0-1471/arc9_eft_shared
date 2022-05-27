@@ -37,9 +37,9 @@ ATT.Attachments = {
     {
         PrintName = "SURRESSOR",
         Category = "eft_asr_surpressor",
-        Pos = Vector(0, -0.5, 0),
+        Pos = Vector(-0.5, -0, 0),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, -2),
+        Icon_Offset = Vector(2, 0, 0),
     },
 }
