@@ -10,14 +10,14 @@ ATT.Category = {"eft_mount_mlok41"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.ModelAngleOffset = Angle(180, 0, 0)
 
 ATT.Attachments = {
     {
         PrintName = "Grip",
         Category = {"eft_foregrip_small"},
         Pos = Vector(0, 1.0, -0.35),
-        Ang = Angle(0, 0, 0),
+        Ang = Angle(180, -90, 0),
         Icon_Offset = Vector(0, 0, -1),
     },
 }

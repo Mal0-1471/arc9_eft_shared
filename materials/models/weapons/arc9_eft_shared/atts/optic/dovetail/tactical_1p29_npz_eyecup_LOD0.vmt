@@ -12,7 +12,7 @@
 	"$basemapalphaenvmapmask" "1"
 
 	"$phong" "1"
-	"$phongboost" "5"
+	"$phongboost" "1"
 	"$phongalbedotint" "1"
 	"$phongfresnelranges" "[0.5 1 1]"
 	
@@ -20,9 +20,6 @@
 	"$rimlightexponent" "4"
 	"$rimmask" "1"
 	
-	"$envmap" "env_cubemap"
-	"$envmapfresnel" "0.1"
 
-	"$envmaptint" "[0.125 0.125 0.125]"
 	"$color2" "[0.88 0.88 0.88]"
 }

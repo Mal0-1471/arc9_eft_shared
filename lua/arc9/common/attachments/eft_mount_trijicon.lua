@@ -25,7 +25,6 @@ ATT.Folder = "SCOPE"
 --ATT.SwayAdd = 0.6
 ATT.SprintToFireTimeMult = 1.01
 ATT.AimDownSightsTimeMult = 1.01
-
 --ATT.PhysBulletMuzzleVelocityMult = 1.075
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -36,6 +35,6 @@ ATT.Attachments = {
         Category = {"eft_scope_trijicon"},
         Pos = Vector(0.8, 0, -0.1),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
+        Icon_Offset = Vector(-1, 0, 1.5),
     },
 }
