@@ -19,7 +19,7 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 ATT.RecoilMult = 0.5
 ATT.VisualRecoilMultMult = 0.5
-ATT.VisualRecoilMultSightsMult = 0.5
+ATT.VisualRecoilMultSights = 0.5
 
 -- Speed and Handling
 
