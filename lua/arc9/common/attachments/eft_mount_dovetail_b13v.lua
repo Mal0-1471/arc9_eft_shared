@@ -6,7 +6,7 @@ ATT.Description = [[The B-13 rail platform above receiver mounts on the standard
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
 ATT.ModelBodygroups = "4"
 
-ATT.Category = {"eft_mount_dovetail_pp19"}
+ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
 -- ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
