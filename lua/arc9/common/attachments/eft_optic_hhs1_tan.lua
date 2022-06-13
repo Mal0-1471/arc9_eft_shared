@@ -35,19 +35,19 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 11, -1.722),
-        Ang = Angle(0, 0, 0),
-        Magnification = 1.25,
-        ViewModelFOV = 38,
-        RTScopeFOV = 38/3,
-    },
-    {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 57,
         RTScopeFOV = 38/1,
         ShadowPos = Vector(16,0,0)
+    },
+    {
+        Pos = Vector(0, 11, -1.722),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 38,
+        RTScopeFOV = 38/6,
     },
 }
 
@@ -65,7 +65,7 @@ ATT.ScopeScreenRatio = 0.66
 
 ATT.DrawFunc = function(swep, model, wm) 
     if !wm then
-        model:SetBodygroup(2, swep:GetMultiSight()-1)
+        model:SetBodygroup(2, 2-swep:GetMultiSight())
     end
 end
 
@@ -76,4 +76,4 @@ ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 550
 ATT.HoloSightColorable = false
 
-ATT.ModelOffset = Vector(0, 0, -0)
+ATT.ModelOffset = Vector(1.5, 0, 0)
