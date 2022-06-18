@@ -2,10 +2,10 @@ ATT.PrintName = "Wilcox RAPTAR ES Tactical Rangefinder"
 ATT.CompactName = "RAPTAR"
 ATT.Description = [[The early generation of the tactical device called "RAPTAR" combined with a rangefinder. It has visible and IR lasers, as well as an infrared illuminator.]]
 
-ATT.Icon = Material("entities/eft_attachments/tactical/eft_tactical_peq2.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/tactical/raptar.png", "mips smooth")
 
 ATT.SortOrder = 0
-ATT.Category = {"eft_tactical_top"}
+ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_raptar.mdl"
 
@@ -35,22 +35,29 @@ if CLIENT then
     })
 end
 
-local textoffset = Vector(-1.84, 0, 0.69)
+local textoffset = Vector(-1.9, 0, 0.69)
 local textcolor = Color(255, 239, 22)
 local text = ""
+local nextcall = CurTime()
 
-ATT.DrawFunc = function(swep, model, wm) 
-    local trace = util.TraceLine({
-        start = swep:GetShootPos(),
-        endpos = swep:GetShootPos() + (swep:GetShootDir():Forward() * 32000),
-        mask = MASK_SHOT,
-        filter = swep:GetOwner()
-    })
+ATT.DrawFunc = function(swep, model, wm)
+    if !swep:GetProcessedValue("RAPTAR") then return end
 
-    if trace.HitSky then
-        text = "0000"
-    else
-        text = string.format("%04d", math.ceil(trace.Fraction * 32000 * ARC9.HUToM))
+    if CurTime() > nextcall then
+        nextcall = CurTime() + 0.5
+
+        local trace = util.TraceLine({
+            start = swep:GetShootPos(),
+            endpos = swep:GetShootPos() + (swep:GetShootDir():Forward() * 64000),
+            mask = MASK_SHOT,
+            filter = swep:GetOwner()
+        })
+
+        if trace.HitSky then
+            text = "0000"
+        else
+            text = string.format("%04d", math.ceil(trace.Fraction * 64000 * ARC9.HUToM))
+        end
     end
 
     local pos = model:GetPos()
@@ -65,16 +72,66 @@ ATT.DrawFunc = function(swep, model, wm)
     cam.End3D2D()
 end
 
+-- screen
+-- s + l
+-- s + l2
+-- s + ir
+-- s + ir + l
+
 ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
+        PrintName = "Screen",
+        RAPTAR = true,
+    },
+    {
         PrintName = "Laser",
+        RAPTAR = true,
         Laser = true,
         LaserStrength = 0.5,
-        LaserColor = Color(255, 0, 0),
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 1,
+    },    
+    {
+        PrintName = "Laser 2",
+        RAPTAR = true,
+        Laser = true,
+        LaserStrength = 0.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        --SwayMult = 1.02,
-        --FreeAimRadiusMultHipFire = 0.75
+    },    
+    {
+        PrintName = "IR Light",
+        RAPTAR = true,
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0.05,
+    },
+    {
+        PrintName = "IR + Laser",
+        RAPTAR = true,
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0.05,
+        
+        Laser = true,
+        LaserStrength = 0.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
     },
     {
         PrintName = "None",
