@@ -48,5 +48,5 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_ekb_okp
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.01
+ATT.HoloSightDepthAdjustment = 0.001
 ATT.ModelOffset = Vector(-2.4, 0.97, 2.05)
