@@ -33,7 +33,37 @@ ATT.Sights = {
         Pos = Vector(0, 7.6, -1.52),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 36
+        ViewModelFOV = 36,
+        InvertColors = true,
+        ExtraSightData = {
+            RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+                ["$pp_colour_addr"] = 1 - 0,
+                ["$pp_colour_addg"] = 1 - 1,
+                ["$pp_colour_addb"] = 1 - 0.063,
+                ["$pp_colour_brightness"] = 0.7,
+                ["$pp_colour_contrast"] = 0.15,
+                ["$pp_colour_colour"] = 0.4,
+                ["$pp_colour_mulr"] = 0,
+                ["$pp_colour_mulg"] = 0,
+                ["$pp_colour_mulb"] = 0
+            },
+            RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+                ["$pp_colour_addr"] = 1 - 0,
+                ["$pp_colour_addg"] = 1 - 0.2,
+                ["$pp_colour_addb"] = 1 - 0.02,
+                ["$pp_colour_brightness"] = 0.1,
+                ["$pp_colour_contrast"] = 0.9,
+                ["$pp_colour_colour"] = 0.8,
+                ["$pp_colour_mulr"] = 0,
+                ["$pp_colour_mulg"] = 0,
+                ["$pp_colour_mulb"] = 0
+            },
+            RTScopeCustomPPFunc = function(swep)
+                DrawMotionBlur(0.75, 1, 1/35)
+                DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
+                -- DrawSharpen(2, 1)
+            end
+        }
     },
     {
         Pos = Vector(0, 7.6, -1.52),
@@ -65,7 +95,7 @@ ATT.Sights = {
             },
             RTScopeCustomPPFunc = function(swep)
                 DrawMotionBlur(0.75, 1, 1/35)
-                DrawBloom(0.3, 3, 2, 2, 0, 0, 1, 1, 1)
+                DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
                 -- DrawSharpen(2, 1)
             end
         }
