@@ -28,5 +28,5 @@ ATT.MenuCategory = "ARC-9 - EFT Attachments"
 -- ATT.SprintToFireTimeMult = 0.42
 -- ATT.AimDownSightsTimeMult = 0.42
 
-ATT.ModelOffset = Vector(0, 0, -0)
+ATT.ModelOffset = Vector(0, 0, -0.13)
 ATT.ModelAngleOffset = Angle(0, 0, 0)

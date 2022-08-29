@@ -13,7 +13,7 @@
 		ARC9_EFT_FAKEAMMO
 		{
 			resultVar	$frame
-			minusframe 2
+			minusframe 1
 		}
 	}
 

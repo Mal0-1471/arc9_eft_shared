@@ -13,7 +13,7 @@ matproxy.Add({
         if IsValid(ent) and IsValid(ent:GetOwner()) and IsValid(ent:GetOwner():GetActiveWeapon()) and ent:GetClass() != "arc9_droppedmag" then
             local weapon = ent:GetOwner():GetActiveWeapon()
             if weapon and weapon.ARC9 then
-                mat:SetFloat(self.Frame, math.Clamp(30-weapon:GetLoadedRounds(), 0,  30 - self.Minusframe))
+                mat:SetFloat(self.Frame, math.Clamp(30-weapon:GetLoadedRounds()+1, 0,  30 - self.Minusframe))
             end
         end
     end
