@@ -2,7 +2,7 @@ ATT.PrintName = "Olight Baldr Pro tactical flashlight with laser"
 ATT.CompactName = "BaldrPro"
 ATT.Description = [[The Baldr Pro flashlight by Olight is engineered to fit virtually any rail-equipped pistol or rifle. Combines a laser designator and a flashlight.]]
 
-ATT.Icon = Material("entities/eft_attachments/tactical/wmx200.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/tactical/baldr.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

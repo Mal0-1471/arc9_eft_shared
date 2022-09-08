@@ -1,6 +1,6 @@
 ATT.PrintName = "VOMZ Pilad 043-02 dovetail mount"
 ATT.CompactName = "043-02"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/dt_pilad.png", "mips smooth")
 ATT.Description = [[Aluminium sight support with Picatinny rail mount for installation of scopes and accessories.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"

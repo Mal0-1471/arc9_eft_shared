@@ -4,7 +4,7 @@ ATT.Description = [[The Baldr Pro flashlight by Olight is engineered to fit virt
 
 Tan version.]]
 
-ATT.Icon = Material("entities/eft_attachments/tactical/wmx200.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/tactical/baldr_tan.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

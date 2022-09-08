@@ -1,6 +1,6 @@
 ATT.PrintName = "Axion Kobra dovetail mount"
 ATT.CompactName = "A. Cobra"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/dt_kobra.png", "mips smooth")
 ATT.Description = [[Aluminum mount for mounting sights and various accessories, commonly can be found in the kit with Cobra sights.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"

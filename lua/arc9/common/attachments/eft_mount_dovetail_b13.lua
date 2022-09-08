@@ -1,6 +1,6 @@
 ATT.PrintName = "Zenit B-13 \"Klassika\" dovetail rail platform"
 ATT.CompactName = "B-13"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/dt_b13.png", "mips smooth")
 ATT.Description = [[The B-13 rail platform mounts on the standard Dovetail mount of the AK 103, 104, 105, 74M, AKMN, Saiga MK, Saiga MK-03, Saiga 410 carbines. Provides a platform for sighting devices.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"

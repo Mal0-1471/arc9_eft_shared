@@ -1,6 +1,6 @@
 ATT.PrintName = "NSPU-M night vision scope"
 ATT.CompactName = "NSPU-M"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/s_nspum.png", "mips smooth")
 ATT.Description = [[Russian nightvision scope for a AK series rifles with 3.5x magnification.]]
 ATT.SortOrder = 3
 

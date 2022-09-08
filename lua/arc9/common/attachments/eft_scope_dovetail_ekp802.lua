@@ -1,6 +1,6 @@
 ATT.PrintName = "Axion Kobra EKP-8-02 reflex sight (dovetail)"
 ATT.CompactName = "EKP-8-02"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/s_kobra.png", "mips smooth")
 ATT.Description = [[Cobra is a very popular reflex sight among security agencies and civilian shooters. It was designed for the armed forces of the Russian Federation, but was never formally adopted.
 
 

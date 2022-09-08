@@ -1,6 +1,6 @@
 ATT.PrintName = "BelOMO PSO-1 4x24 scope"
 ATT.CompactName = "PSO-1"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/s_pso1.png", "mips smooth")
 ATT.Description = [[Military grade sniper optical scope PSO 1M2, manufactured by Zenit-Belomo. This optical scope is designed for precision sight fire with Dragunov Sniper Rifle (SVD) on the variety of targets with 4x magnification and 6 degree FOV.]]
 ATT.SortOrder = 3
 

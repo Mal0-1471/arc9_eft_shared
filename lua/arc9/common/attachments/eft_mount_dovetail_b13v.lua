@@ -1,6 +1,6 @@
 ATT.PrintName = "Zenit B-13V \"Klassika\" dovetail rail platform"
 ATT.CompactName = "B-13V"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/dt_b13v.png", "mips smooth")
 ATT.Description = [[The B-13 rail platform above receiver mounts on the standard Dovetail joint located on the PP-19-01 "Vityaz". Provides a platform for sighting devices.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"

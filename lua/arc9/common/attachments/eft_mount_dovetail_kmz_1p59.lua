@@ -1,6 +1,6 @@
 ATT.PrintName = "KMZ 1P59 dovetail mount"
 ATT.CompactName = "1P59 mount"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/dt_1p59.png", "mips smooth")
 ATT.Description = [[Universal 1P59 scope base mount for installation on Dovetail mount.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"

@@ -1,6 +1,6 @@
 ATT.PrintName = "BelOMO PK-AA reflex sight"
 ATT.CompactName = "PK-AA"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/s_pkaa.png", "mips smooth")
 ATT.Description = [[The PK-AA reflex sight, designed to fit any AK-style model with a dovetail rail mount. 
 Manufactured by BelOMO.]]
 ATT.SortOrder = 3

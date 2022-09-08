@@ -1,6 +1,6 @@
 ATT.PrintName = "NPZ USP-1 \"Tyulpan\" 4x scope"
 ATT.CompactName = "USP-1"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/s_tyulpan.png", "mips smooth")
 ATT.Description = [[Unified rifle sight USP-1 is designed to conduct accurate fire from AK-74N, AK-74 M, AN-94 and machine guns RPK-74N and PKMN in the daytime and at night on glowing and illuminated targets.]]
 ATT.SortOrder = 3
 

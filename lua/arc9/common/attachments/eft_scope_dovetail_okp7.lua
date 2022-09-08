@@ -1,6 +1,6 @@
 ATT.PrintName = "OKP-7 reflex sight (dovetail)"
 ATT.CompactName = "OKP-7"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/s_okp.png", "mips smooth")
 ATT.Description = [[The original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing. 
 This variant is installed on the dovetail type mount.]]
 ATT.SortOrder = 3

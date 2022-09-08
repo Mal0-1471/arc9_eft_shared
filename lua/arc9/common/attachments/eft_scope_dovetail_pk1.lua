@@ -1,6 +1,6 @@
 ATT.PrintName = "NPZ PK1 \"Obzor\" reflex sight"
 ATT.CompactName = "\"Obzor\""
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/s_obzor.png", "mips smooth")
 ATT.Description = [[A reflex sight designed for hunters for fast acquisition of the target while operating in highly cold temperatures, Installed on dovetail rails. 
 Manufactured by NPZ.]]
 ATT.SortOrder = 3

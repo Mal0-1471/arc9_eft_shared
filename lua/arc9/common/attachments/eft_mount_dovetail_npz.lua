@@ -1,6 +1,6 @@
 ATT.PrintName = "NPZ 1P78-1 dovetail mount"
 ATT.CompactName = "NPZ 1P78"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/dt_1p78.png", "mips smooth")
 ATT.Description = [[An aluminum sight mount manufactured by NPZ for the installation of scopes and accessories. Installed on dovetail rails.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"

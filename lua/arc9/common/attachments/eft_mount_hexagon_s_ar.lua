@@ -1,6 +1,6 @@
 ATT.PrintName = "Hexagon short length rail (Anodized Red)"
 ATT.CompactName = "HEX S (AR)"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_ak_attachments/hg/hexrailr.png", "mips smooth")
 ATT.Description = [[A short length rail for the Hexagon handguard, allows installation of additional tactical equipment.
 
 Anodized Red version.]]
