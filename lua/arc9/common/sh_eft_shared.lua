@@ -1,3 +1,5 @@
+ARC9EFTBASE = true
+
 if SERVER then
     util.AddNetworkString("arc9eftjam")
     util.AddNetworkString("arc9eftmagcheck")
@@ -23,18 +25,19 @@ else
         end
     })
 
+    if !ARC9.ScreenScale then ARC9.ScreenScale = function(size) return size * (ScrW() / 640) * GetConVar("arc9_hud_scale"):GetFloat() end end
 
     local jammed = false
     local glowmat = Material("vgui/arc9_eft_shared/glow_particle.png", "mips smooth")
     local jammat = Material("vgui/arc9_eft_shared/notification_icon_alert_red.png", "mips smooth")
     local magcheckmat = Material("vgui/arc9_eft_shared/icon_info_magsize.png", "")
     local malftable = {
-        [0] = "Bolt jammed",
-        [1] = "Misfire",
+        [0] = "Misfire",
+        [1] = "Failure to eject",
         [2] = "Failure to feed",
         [3] = "Bolt jammed",
         [4] = "Bolt jammed",
-        [5] = "Failure to eject",
+        [5] = "Bolt jammed",
     }
 
     local function aproxammo(checktype, mag, max)

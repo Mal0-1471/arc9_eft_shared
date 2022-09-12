@@ -60,9 +60,9 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "BACKUP OPTIC",
+        PrintName = "Backup optic",
         Category = {"eft_backup_ta01"},
-        Pos = Vector(2.3, -0.7, 0),
+        Pos = Vector(3.65, 0, -1.5),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },

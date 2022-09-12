@@ -1,9 +1,9 @@
-ATT.PrintName = "DeltaPoint Cross Slot Mount base"
-ATT.CompactName = "DPCSM"
+ATT.PrintName = "Trijicon RMR low profile mount"
+ATT.CompactName = "RM33"
 ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
-ATT.Description = [[A universal base for mounting compact sights of the Leupold DeltaPoint series on Weaver rails.]]
+ATT.Description = [[A low-profile mount for installation of the Trijicon RMR series reflex sights on Picatinny and Weaver rails.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mount/eft_mount_deltapoint.mdl"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_trijicon_rm33.mdl"
 ATT.Folder = "COLLIMATOR"
 
 ATT.Category = {"eft_optic_small"}
@@ -14,8 +14,8 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.Attachments = {
     {
         PrintName = "Optic",
-        Category = "eft_deltapoint",
-        Pos = Vector(0, -0, -0.35),
+        Category = "eft_rmr",
+        Pos = Vector(0, -0, -0.19),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 1),
