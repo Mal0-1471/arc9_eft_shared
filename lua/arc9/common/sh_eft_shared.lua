@@ -50,7 +50,7 @@ else
             elseif mag >= max*0.8 then return "Nearly full"
             elseif mag >= max*0.4 then return "About half"
             elseif mag >= max*0.3 then return "Less than half"
-            elseif mag >= max*0.1 then return "Almost empty"
+            elseif mag >= max*0.01 then return "Almost empty"
             else return "Empty" end
         end
     end

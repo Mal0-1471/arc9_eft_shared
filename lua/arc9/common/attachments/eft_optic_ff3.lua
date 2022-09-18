@@ -13,7 +13,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -0.65),
+        Pos = Vector(0, 10, -0.55),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 57
@@ -21,9 +21,9 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_deltapoint.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)

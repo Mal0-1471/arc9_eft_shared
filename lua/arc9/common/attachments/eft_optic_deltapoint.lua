@@ -25,7 +25,7 @@ ATT.Sights = {
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_deltapoint.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightSize = 300
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)

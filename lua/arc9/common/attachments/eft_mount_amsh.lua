@@ -13,7 +13,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.Attachments = {
     {
         PrintName = "Optic",
-        -- Category = {"eft_t1", "eft_h2", "eft_romeo4", "eft_amsh"},
+        -- Category = {"eft_t1", "eft_h2", "eft_romeo4", "eft_amsh"}, -- troll
         Category = {"eft_t1", "eft_h2", "eft_romeo4"},
         Pos = Vector(0, -0, -0.83),
         --Pos = Vector(0, 0, 0),

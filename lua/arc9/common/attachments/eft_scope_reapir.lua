@@ -110,7 +110,8 @@ ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeBlackBoxShadow = false 
+ATT.RTScopeNoShadow = true 
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look

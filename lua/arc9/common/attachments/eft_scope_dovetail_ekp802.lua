@@ -79,3 +79,14 @@ ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
 ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.1, 1, 2.0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Shade",
+        Category = {"eft_ekp_shade"},
+        Pos = Vector(2.05, 1, -2),
+        --Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(3, 0, 1.5),
+    },
+}
