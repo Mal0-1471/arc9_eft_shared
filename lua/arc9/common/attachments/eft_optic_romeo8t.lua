@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips s
 ATT.Description = [[The ROMEO8T reflex sight, designed for precision shooting for modern sporting rifles and shotguns. Manufactured by SIG Sauer.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_sig_romeo_8t.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips s
 ATT.Description = [[A modern open reflex sight with automatic reticle brightness adjustment and switching between 3 reticle types, manufactured by Zenit-BelOMO.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_belomo_pk_06.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_optic_small"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

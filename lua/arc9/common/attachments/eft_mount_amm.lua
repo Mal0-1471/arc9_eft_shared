@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.p
 ATT.Description = [[The Aimpoint Micro Standard Mount base for T-1 and H-1 reflex sights of the Micro series.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_h1_t1_weaver.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex/Mounts"
 
 ATT.Category = {"eft_optic_small"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

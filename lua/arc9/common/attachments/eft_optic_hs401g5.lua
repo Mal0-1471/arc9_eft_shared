@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips s
 ATT.Description = [[The HS401G5 reflex sight whith a built-in laser designator, manufactured by Holosun.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_holosun_hs401g5.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_optic_large"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

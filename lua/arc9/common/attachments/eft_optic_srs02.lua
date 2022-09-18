@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips s
 ATT.Description = [[The Trijicon SRS Sealed Reflex Sight is compact and takes up less rail space while maintaining durability and performance. The large 38mm aperture allows for a wide field of view and rapid target engagement. The Trijicon SRS Sealed Reflex Sight features a 1.75 MOA dot for precision. The SRS is powered by a solar cell and a single AA battery.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_trijicon_srs_02.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.p
 ATT.Description = [[A universal base for mounting compact sights of the Leupold DeltaPoint series on Weaver rails.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mount/eft_mount_deltapoint.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex/Mounts"
 
 ATT.Category = {"eft_optic_small"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

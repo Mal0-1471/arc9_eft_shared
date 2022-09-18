@@ -6,7 +6,7 @@ ATT.SortOrder = 1
 
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_553.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Holo"
 
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.p
 ATT.Description = [[A low-profile mount for installation of the Trijicon RMR series reflex sights on Picatinny and Weaver rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_trijicon_rm33.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex/Mounts"
 
 ATT.Category = {"eft_optic_small"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

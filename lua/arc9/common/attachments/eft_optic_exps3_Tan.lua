@@ -1,4 +1,4 @@
-ATT.PrintName = "OTech EXPS3 holographic sight (TAN)"
+ATT.PrintName = "EOTech EXPS3 holographic sight (TAN)"
 ATT.CompactName = "EXPS3 TAN"
 ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_exps3.png", "mips smooth")
 ATT.Description = [[Eotech EXPS3 holo sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces.]]
@@ -7,7 +7,7 @@ ATT.SortOrder = 1
 ATT.ModelSkin = 1
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_exps3.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Holo"
 
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

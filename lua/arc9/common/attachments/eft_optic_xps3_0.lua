@@ -1,12 +1,12 @@
-ATT.PrintName = "EOTech XPS3-2 holographic sight"
+ATT.PrintName = "EOTech XPS3-0 holographic sight"
 ATT.CompactName = "XPS3-0"
 ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_xps3_0.png", "mips smooth")
-ATT.Description = [[XPS3 is more compact than the other holographic sights, but just as effective; moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-2 features a two-dot reticle of 1 MOA.]]
+ATT.Description = [[XPS3 is more compact than the other holographic sights, but just as effective. Moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-0 features a single-dot reticle of 1 MOA.]]
 ATT.SortOrder = 1
 
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_xps3_0.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Holo"
 
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
@@ -40,7 +40,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_eotech.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_eotech_xps3.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 500
 ATT.HoloSightColorable = false

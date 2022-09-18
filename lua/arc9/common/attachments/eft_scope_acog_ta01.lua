@@ -9,7 +9,6 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/scope/eft_scope_ta01.mdl"
 
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Category = "eft_scope_trijicon"
-ATT.Folder = "SCOPE"
 
 -- Stat Multipliers
 

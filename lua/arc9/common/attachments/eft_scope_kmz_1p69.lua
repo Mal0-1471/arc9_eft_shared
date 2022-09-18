@@ -9,7 +9,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_1p69.mdl"
 
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Category = {"eft_optic_kmz"}
-ATT.Folder = "SCOPE"
+ATT.Folder = "Scopes"
 
 
 -- Stat Multipliers

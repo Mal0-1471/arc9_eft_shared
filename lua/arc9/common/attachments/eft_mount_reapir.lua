@@ -6,7 +6,7 @@ ATT.SortOrder = 1
 
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_reapir.mdl"
-ATT.Folder = "SCOPE"
+ATT.Folder = "Special"
 
 ATT.Category = {"eft_optic_large"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

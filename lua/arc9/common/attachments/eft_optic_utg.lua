@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips s
 ATT.Description = [[The UTG reflex sight with a Red/Green circle dot, manufactured by Leapers Inc. This model is a compact, small-size reflex sight, which mounts on Weaver/Picatinny rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_leapers_utg_38_ita_1x30.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

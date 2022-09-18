@@ -13,7 +13,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/dovetail/ekp802.mdl"
 
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex"
 
 
 -- Stat Multipliers

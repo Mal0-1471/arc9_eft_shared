@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/mods/scope_all_swampfox_trihawk_prism_scope_3x30_LOD0_linza_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/scope_all_swampfox_trihawk_prism_scope_3x30_LOD0_linza_nrm"
+	
+	"$phong" "1"
+	"$phongboost" "10"
+	"$phongalbedotint" "1"
+	"$phongexponent" "20"
+	"$phongfresnelranges" "[0.22 0.856 20]"
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$envmapfresnel" "0.1"
+	"$normalmapalphaenvmapmask" "0"
+	"$basemapalphaenvmapmask" "1"
+}

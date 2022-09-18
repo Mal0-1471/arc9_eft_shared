@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.p
 ATT.Description = [[Aimpoint LRP is a quick detach base mount for CompM4 sights.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_lrp_mount.mdl"
-ATT.Folder = "COLLIMATOR"
+ATT.Folder = "Reflex/Mounts"
 
 ATT.Category = {"eft_optic_small"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

@@ -1,0 +1,9 @@
+// ESCAPE FROM TARKOV TACTICAL REALISM WITH HARDCORE MATERIALS
+// Auto converter by Darsu, material setup and vmt by Mal0
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/mods/scope_base_trijicon_acog_ta11_35x35_LOD0_diff"
+	"$translucent" "1"
+	"$color2" "[1 1 1]"
+}
