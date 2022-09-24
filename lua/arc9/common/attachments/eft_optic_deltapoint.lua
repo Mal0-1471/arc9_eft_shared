@@ -6,7 +6,7 @@ ATT.SortOrder = 1
 
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_deltapoint.mdl"
-ATT.Folder = "Reflex"
+-- ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_deltapoint"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"

@@ -1,7 +1,7 @@
 ATT.PrintName = "NcSTAR MPR45 Backup mount"
-ATT.CompactName = "BACKUP MOUNT"
+ATT.CompactName = "MPR45"
 ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
-ATT.Description = [[Universal base for mounting compact sights of Leupold DeltaPoint series on Weaver rails.]]
+ATT.Description = [[A universal mount by NcStar that allows installing an auxiliary sight at 45 degrees angle.]]
 ATT.SortOrder = 1
 
 ATT.Scale = 1

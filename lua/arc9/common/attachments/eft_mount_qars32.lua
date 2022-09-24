@@ -14,9 +14,9 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.Attachments = {
     {
         PrintName = "Tactical",
-        Category = "eft_tactical_top",
+        Category = {"eft_tactical_top","eft_tactical"},
         Pos = Vector(0, 0, 0.25),
-        Ang = Angle(0, 0, 0),
+        Ang = Angle(90, 90, 90),
         Icon_Offset = Vector(-1, 0, 1),
     },
 }

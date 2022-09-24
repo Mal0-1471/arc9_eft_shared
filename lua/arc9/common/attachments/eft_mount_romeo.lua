@@ -6,7 +6,7 @@ ATT.Description = [[The SIG Sauer mount base for ROMEO-type reflex sights.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_sig_romeo_4_base_weaver.mdl"
 ATT.Folder = "Reflex/Mounts"
 
-ATT.Category = {"eft_optic_small"}
+ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)

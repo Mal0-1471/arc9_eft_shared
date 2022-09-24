@@ -42,6 +42,7 @@ local nextcall = CurTime()
 
 ATT.DrawFunc = function(swep, model, wm)
     if !swep:GetProcessedValue("RAPTAR") then return end
+    if !IsValid(swep:GetOwner()) or !swep:GetOwner():IsPlayer() then return end
 
     if CurTime() > nextcall then
         nextcall = CurTime() + 0.5
@@ -54,7 +55,7 @@ ATT.DrawFunc = function(swep, model, wm)
         })
 
         if trace.HitSky then
-            text = "0000"
+            text = "----"
         else
             text = string.format("%04d", math.ceil(trace.Fraction * 64000 * ARC9.HUToM))
         end

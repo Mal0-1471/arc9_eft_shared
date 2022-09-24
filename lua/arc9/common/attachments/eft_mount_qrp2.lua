@@ -6,7 +6,7 @@ ATT.Description = [[The QRP2 quick-detach base mount for the CompM4 and PRO seri
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_qrp2_mount.mdl"
 ATT.Folder = "Reflex/Mounts"
 
-ATT.Category = {"eft_optic_small"}
+ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)

@@ -6,7 +6,7 @@ ATT.Description = [[An open-type reflex sight designed for precision aiming of s
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_vomz_pilad_p1x42_weaver.mdl"
 ATT.Folder = "Reflex"
 
-ATT.Category = {"eft_optic_small"}
+ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 

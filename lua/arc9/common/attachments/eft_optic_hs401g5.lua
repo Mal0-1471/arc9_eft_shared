@@ -6,7 +6,7 @@ ATT.Description = [[The HS401G5 reflex sight whith a built-in laser designator, 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_holosun_hs401g5.mdl"
 ATT.Folder = "Reflex"
 
-ATT.Category = {"eft_optic_large"}
+ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 
 
