@@ -96,6 +96,7 @@ else
     end    
     
     local function makeeftmagcheck(text, ammotype)
+        ammotype = ammotype or "???"
         surface.SetFont("eftammocount")
         local tw = surface.GetTextSize(text) + ARC9.ScreenScale(10)
         surface.SetFont("eftammotype")
@@ -150,9 +151,9 @@ else
         local ply = LocalPlayer()
         if !IsValid(ply) then return end
         local wep = ply:GetActiveWeapon()
-        if !IsValid(ply:GetActiveWeapon()) and wep.Trivia and wep.Trivia.Calibre then return end
+        if !IsValid(ply:GetActiveWeapon()) and wep.Trivia then return end
 
-        local rndtype = wep.Trivia.Calibre
+        local rndtype = wep.Trivia.Calibre2 or wep.Trivia.Calibre or "????"
         
         makeeftmagcheck(rnds.."", rndtype)
     end)
