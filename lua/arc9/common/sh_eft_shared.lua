@@ -2,6 +2,7 @@ ARC9EFTBASE = true
 
 if SERVER then
     util.AddNetworkString("arc9eftjam")
+    util.AddNetworkString("arc9eftmissingparts")
     util.AddNetworkString("arc9eftmagcheck")
 else
     matproxy.Add({
@@ -138,6 +139,14 @@ else
         jammed = true 
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
         makeeftnotif("Malfunction: \"" .. malftable[jid] .. "\"", jammat)
+        timer.Simple(1.2, function() jammed = false end)
+    end)    
+    
+    net.Receive("arc9eftmissingparts", function(len)
+        local jid = net.ReadUInt(3)
+        jammed = true 
+        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
+        makeeftnotif("Missing critical parts!", jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
     
