@@ -35,15 +35,15 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.7),
+        Pos = Vector(0, 11.25, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 57,
-        RTScopeFOV = 38/1,
-        ShadowPos = Vector(16,0,0)
+        ShadowPos = Vector(16,0,0),
+        Disassociate = true
     },
     {
-        Pos = Vector(0, 11, -1.722),
+        Pos = Vector(0, 10.7, -1.722),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 38,
@@ -55,8 +55,8 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 38/4
-ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks2.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.02
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks_rt.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.05
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
@@ -73,7 +73,7 @@ end
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 550
+ATT.HoloSightSize = 380
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(1.5, 0, 0)
