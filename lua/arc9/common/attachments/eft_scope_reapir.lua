@@ -139,7 +139,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
 }
 
 ATT.RTScopeCustomPPFunc = function(swep)
-    DrawMotionBlur(0.75, 1, 1/35)
+    DrawMotionBlur(0.95, 1, 1/35)
     DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
     -- DrawSharpen(4, 0.6)
 end
