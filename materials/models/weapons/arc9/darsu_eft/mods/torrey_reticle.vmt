@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$basetexture" "vgui/arc9_eft_shared/reticles/torrey_reticle"
+	"$translucent" "1"
+}

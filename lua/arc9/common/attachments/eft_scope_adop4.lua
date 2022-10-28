@@ -32,7 +32,8 @@ ATT.Sights = {
         Pos = Vector(0, 9.5, -3.23),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 60,
-        ShadowPos = Vector(0,0,3)
+        ShadowPos = Vector(0,0,3),
+        Disassociate = true
     },
 }
 
