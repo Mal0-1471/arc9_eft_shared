@@ -1,6 +1,6 @@
 ATT.PrintName = "DeltaPoint Cross Slot Mount base"
 ATT.CompactName = "DPCSM"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/dpcsm.png", "mips smooth")
 ATT.Description = [[A universal base for mounting compact sights of the Leupold DeltaPoint series on Weaver rails.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mount/eft_mount_deltapoint.mdl"

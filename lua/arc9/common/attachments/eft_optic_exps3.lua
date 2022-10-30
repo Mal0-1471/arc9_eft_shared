@@ -1,6 +1,11 @@
+
+ATT.Ignore = true
+
+-- Only tan version exist in game though having black texture in files
+
 ATT.PrintName = "EOTech EXPS3 holographic sight"
 ATT.CompactName = "EXPS3"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_exps3.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/exps3.png", "mips smooth")
 ATT.Description = [[Eotech EXPS3 holo sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces.]]
 ATT.SortOrder = 1
 

@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint Standard Spacer"
 ATT.CompactName = "SS"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/amss.png", "mips smooth")
 ATT.Description = [[The Standard Spacer mount for Aimpoint CompM4 sight models, raises the scope mount position.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_base_aimpoint_standart_spacer.mdl"

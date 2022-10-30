@@ -1,6 +1,6 @@
 ATT.PrintName = "NcSTAR MPR45 Backup mount"
 ATT.CompactName = "MPR45"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/??.png", "mips smooth")
 ATT.Description = [[A universal mount by NcStar that allows installing an auxiliary sight at 45 degrees angle.]]
 ATT.SortOrder = 1
 

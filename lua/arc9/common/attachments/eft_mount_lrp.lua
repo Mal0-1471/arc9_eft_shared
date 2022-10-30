@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint LRP mount for CompM4 sights"
 ATT.CompactName = "LRP"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/lrp.png", "mips smooth")
 ATT.Description = [[Aimpoint LRP is a quick detach base mount for CompM4 sights.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_lrp_mount.mdl"

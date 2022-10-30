@@ -1,6 +1,6 @@
 ATT.PrintName = "Nightforce ATACR 7-35x56 34mm riflescope"
 ATT.CompactName = "ATA. 7-35x56"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/34mmatacr.png", "mips smooth")
 ATT.Description = [[The NightForce ATACR 7-35x56 versatile scope with an extensive magnification range and a wide field-of-view across the entire range making it easy to see and engage targets.
 
 EFT Wiki: Despite being described as 7x-35x scope, currently only a 7x and a 16x zoom mode are functional.]]

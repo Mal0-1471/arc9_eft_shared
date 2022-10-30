@@ -1,6 +1,6 @@
 ATT.PrintName = "SIG Sauer ROMEO4 reflex sight"
 ATT.CompactName = "ROMEO4"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/romeo4.png", "mips smooth")
 ATT.Description = [[SIG Sauer ROMEO4 is a reflex sight for fast and accurate target acquisition.]]
 ATT.SortOrder = 1
 

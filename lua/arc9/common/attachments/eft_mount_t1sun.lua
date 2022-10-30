@@ -1,6 +1,6 @@
 ATT.PrintName = "Recknagel Era-Tac Sunshade mount for Aimpoint"
 ATT.CompactName = "T-1 Sun"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/t1sun.png", "mips smooth")
 ATT.Description = [[The Recknagel Era-Tac Sunshade mount for the Aimpoint Micro T-1 reflex sight.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_recknagel_era_tac_aimpoint_t1_sunshade_mount.mdl"

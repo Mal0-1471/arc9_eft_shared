@@ -1,6 +1,6 @@
 ATT.PrintName = "Burris FastFire 3 reflex sight"
 ATT.CompactName = "FF3"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/ff3.png", "mips smooth")
 ATT.Description = [[Light and tough, the FastFire series collimator puts a clear bright red dot on your target to give you an immediate speed and accuracy advantage. Can be used as a primary sight or mounted on top of an existing sight.]]
 ATT.SortOrder = 1
 

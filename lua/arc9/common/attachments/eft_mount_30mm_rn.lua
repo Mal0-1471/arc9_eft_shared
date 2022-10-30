@@ -1,6 +1,6 @@
 ATT.PrintName = "Recknagel Era-Tac 30mm ring scope mount"
 ATT.CompactName = "RN 30mm ET"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmrecknagel.png", "mips smooth")
 ATT.Description = [[The Recknagel Era-Tac is a versatile base for mounting 30mm riflescopes. Equipped with additional top mounts for installation of various tactical equipment.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_recknagel_era_tac_one_piece_mount.mdl"

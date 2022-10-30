@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon RMR high profile mount"
 ATT.CompactName = "AC32062"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/rmrhigh.png", "mips smooth")
 ATT.Description = [[A high-profile mount for installation of the Trijicon RMR series reflex sights on Picatinny and Weaver rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_trijicon_ac32062.mdl"

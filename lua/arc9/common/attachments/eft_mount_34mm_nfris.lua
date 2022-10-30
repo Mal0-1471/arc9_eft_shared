@@ -1,6 +1,6 @@
 ATT.PrintName = "Nightforce Magmount 34mm ring scope mount with Ruggedized Accessory Platform"
 ATT.CompactName = "NF 34mm RIS"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/34mmnfris.png", "mips smooth")
 ATT.Description = [[Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 34mm scope base mount for installation on Picatinny rails. Comes attached with the Ruggedized Accessory Platform (RAP) for installing additional tactical devices and reflex sights.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_nightforce_x_treme_duty.mdl"

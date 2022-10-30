@@ -1,6 +1,6 @@
 ATT.PrintName = "Torrey Pines Logic T12W 30Hz thermal reflex sight"
 ATT.CompactName = "T12W"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/t12w.png", "mips smooth")
 ATT.Description = [[A compact termal reflex sight with a low frequency. Manufactured by Torrey Pines Logic.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_torrey_t12w.mdl"

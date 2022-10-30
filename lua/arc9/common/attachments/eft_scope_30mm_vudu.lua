@@ -1,6 +1,6 @@
 ATT.PrintName = "EOTech Vudu 1-6x24 30mm riflescope"
 ATT.CompactName = "Vudu 1-6x24"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmvudu.png", "mips smooth")
 ATT.Description = [[The EOTech Vudu 1-6x24 riflescope, equally effective on AR platforms and bolt-action rifles. Its EOTech-style speed ring reticle is designed for fast target engagement at low power, while delivering the resolution and accuracy needed for longer range targets.]]
 ATT.SortOrder = 3
 

@@ -1,6 +1,6 @@
 ATT.PrintName = "Hensoldt FF 4-16x56 34mm riflescope"
 ATT.CompactName = "FF 4-16"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/34mmff416.png", "mips smooth")
 ATT.Description = [[The Hensoldt FF 4-16x56 telescopic sight was developed to deliver maximum performance and high adjustment ranges while maintaining a short optical system. The FF version of the scope has the reticle placed in the first image plane, thus, the reticle pattern is also magnified when the magnification is changed. This makes it possible to determine the distance using the MIL-DOT without having to calculate.]]
 ATT.SortOrder = 3
 

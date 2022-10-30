@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint Micro T-1 reflex sight"
 ATT.CompactName = "T-1"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/t1.png", "mips smooth")
 ATT.Description = [[The Micro T-1 compact reflex sight by Aimpoint was designed for use with any kind of firearms and even with bows. Lightweight, compact, and durable.]]
 ATT.SortOrder = 1
 

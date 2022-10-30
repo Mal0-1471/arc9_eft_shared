@@ -1,6 +1,6 @@
 ATT.PrintName = "EOTech HHS-1 hybrid sight"
 ATT.CompactName = "HHS-1"
-ATT.Icon = Material("entities/eft_attachments/scopes/Untitled2.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/hhs1.png", "mips smooth")
 ATT.Description = [[Holographic hybrid sight-1 (HHS-1) features EXPS3-4 holographic sight with a G33.STS magnifier. Produced by EOTech. Comes in Black and Tan.
 
 The magnifier changes the zoom factor to 3x]]

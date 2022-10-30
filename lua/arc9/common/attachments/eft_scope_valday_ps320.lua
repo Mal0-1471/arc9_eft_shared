@@ -1,6 +1,6 @@
 ATT.PrintName = "Valday PS-320 1/6x scope"
 ATT.CompactName = "PS-320"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/ps320.png", "mips smooth")
 ATT.Description = [[PS-320 1x/6x is a prototype scope designed by Valday.]]
 ATT.SortOrder = 3
 

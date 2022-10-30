@@ -1,6 +1,6 @@
 ATT.PrintName = "ELCAN SpecterDR 1x/4x scope (FDE)"
 ATT.CompactName = "SpecterDR (F)"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/spectrdrtan.png", "mips smooth")
 ATT.Description = [[The SpecterDR (Dual Role) 1x/4x scope from Specter scope series designed by ELCAN has marked a breakthrough in the optic sight development by becoming the first variable scope that truly has two work modes, switching from 4x magnification to 1x in one touch. Also features a backup iron sight.
 
 Flat Dark Earth version.]]

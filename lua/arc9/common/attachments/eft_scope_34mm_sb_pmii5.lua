@@ -1,6 +1,6 @@
 ATT.PrintName = "Schmidt & Bender PM II 5-25x56 34mm riflescope"
 ATT.CompactName = "PM II 5-25x56"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/34mmpmii525x56.png", "mips smooth")
 ATT.Description = [[The Schmidt & Bender PM II 5-25x56 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.]]
 ATT.SortOrder = 3
 

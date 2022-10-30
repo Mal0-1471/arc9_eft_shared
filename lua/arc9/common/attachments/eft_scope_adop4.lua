@@ -1,6 +1,6 @@
 ATT.PrintName = "NcSTAR ADO P4 Sniper 3-9x42 riflescope"
 ATT.CompactName = "ADO P4"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/adop4.png", "mips smooth")
 ATT.Description = [[The Advance Dual Optic (ADO) 3X-9X variable magnification scope with a 42mm objective lens. The ADO Scope features an integrated Red Dot Reflex Optic on top of the scope body. 
 Manufactured by NcSTAR.]]
 ATT.SortOrder = 3

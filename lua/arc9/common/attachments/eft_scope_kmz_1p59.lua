@@ -1,6 +1,6 @@
 ATT.PrintName = "KMZ 1P59 3-10x riflescope"
 ATT.CompactName = "KMZ 1P59"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/1p59.png", "mips smooth")
 ATT.Description = [[The 1P59 "Hyperon" pancratic sight is designed to increase the effectiveness of firing from SVD in comparison with the standard PSO-1 sight by 1.3 ... 2 times (depending on the range and size of the target) due to a larger zoom, the use of a more accurate range finder, combining operations of measuring the distance to the target and entering the aiming angles, as well as placing the scale for entering the aiming angles in the sight field of view.]]
 ATT.SortOrder = 3
 
@@ -9,7 +9,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_1p59.mdl"
 
 ATT.MenuCategory = "ARC-9 - EFT Attachments"
 ATT.Category = {"eft_optic_kmz"}
-ATT.Folder = "SCOPE"
+ATT.Folder = "Scopes"
 
 
 -- Stat Multipliers

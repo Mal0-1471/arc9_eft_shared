@@ -1,6 +1,6 @@
 ATT.PrintName = "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
 ATT.CompactName = "Razor HD Gen"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmrazor.png", "mips smooth")
 ATT.Description = [[A tactical riflescope designed for quick target acquisition and maximum precision. Manufactured by Vortex Optics.]]
 ATT.SortOrder = 3
 

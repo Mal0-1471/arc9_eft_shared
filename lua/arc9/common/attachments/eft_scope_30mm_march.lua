@@ -1,6 +1,6 @@
 ATT.PrintName = "March Tactical 3-24x42 FFP 30mm riflescope"
 ATT.CompactName = "3-24x42 FFP"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmmarch.png", "mips smooth")
 ATT.Description = [[The March Tactical 3-24x42 FFP optical scope is reliable and accurate with ammunition of any power.]]
 ATT.SortOrder = 3
 

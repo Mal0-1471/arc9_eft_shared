@@ -1,6 +1,6 @@
 ATT.PrintName = "BelOMO PK-06 reflex sight"
 ATT.CompactName = "PK-06"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/pk06.png", "mips smooth")
 ATT.Description = [[A modern open reflex sight with automatic reticle brightness adjustment and switching between 3 reticle types, manufactured by Zenit-BelOMO.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_belomo_pk_06.mdl"

@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint QRP2 mount for CompM4/PRO reflex sights"
 ATT.CompactName = "QRP2"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/qrp2.png", "mips smooth")
 ATT.Description = [[The QRP2 quick-detach base mount for the CompM4 and PRO series reflex sights, manufactured by Aimpoint.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_qrp2_mount.mdl"

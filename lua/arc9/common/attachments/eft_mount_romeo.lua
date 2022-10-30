@@ -1,6 +1,6 @@
 ATT.PrintName = "SIG Sauer ROMEO sight mount"
 ATT.CompactName = "ROMEO"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/romeomount.png", "mips smooth")
 ATT.Description = [[The SIG Sauer mount base for ROMEO-type reflex sights.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_sig_romeo_4_base_weaver.mdl"

@@ -1,6 +1,6 @@
 ATT.PrintName = "SwampFox Trihawk Prism Scope 3x30"
 ATT.CompactName = "Trihawk 3x30"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/swampfox.png", "mips smooth")
 ATT.Description = [[A prismatic scope with 3x magnification manufactured by SwampFox.]]
 ATT.SortOrder = 3
 

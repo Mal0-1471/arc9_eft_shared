@@ -1,6 +1,6 @@
 ATT.PrintName = "SIG Sauer BRAVO4 4x30 scope"
 ATT.CompactName = "BRAVO4"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/bravo4.png", "mips smooth")
 ATT.Description = [[Designed by SIG Sauer, the BRAVO4 4x30 optical scope sight features the uniquely large FOV, 43% wider than closest competitors. It also has an extra rail mount on top of it that allows installation of a backup compact sight.]]
 ATT.SortOrder = 3
 

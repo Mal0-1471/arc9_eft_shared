@@ -1,6 +1,6 @@
 ATT.PrintName = "Burris FastFire Weaver Base"
 ATT.CompactName = "FFWB"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/ffwb.png", "mips smooth")
 ATT.Description = [[This base from Burris allows to mount the compact FastFire Series Sights to Weaver or Picatinny-style rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_burris_fast_fire_weaver.mdl"

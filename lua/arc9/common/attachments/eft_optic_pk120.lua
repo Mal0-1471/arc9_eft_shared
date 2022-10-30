@@ -1,6 +1,6 @@
 ATT.PrintName = "Valday PK-120 (1P87) holographic sight"
 ATT.CompactName = "PK-120"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/pk120.png", "mips smooth")
 ATT.Description = [[PK-120 (GRAU index - 1P87) is a holographic sight produced by Valday. It is part of the DPSK complex (day-night sight-observation complex) of the experimental design work "Ratnik".]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_valday_1p87.mdl"

@@ -1,6 +1,6 @@
 ATT.PrintName = "Geissele Super Precision 30mm ring scope mount (DDC)"
 ATT.CompactName = "Geis 30mm D"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmgeistan.png", "mips smooth")
 ATT.Description = [[A universal 30mm optical scope base mount by Lobaev Arms for installation on Picatinny rails.
 
 Desert Dirt Color version.]]

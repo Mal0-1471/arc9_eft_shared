@@ -1,6 +1,6 @@
 ATT.PrintName = "Monstrum Tactical Compact Prism Scope 2x32"
 ATT.CompactName = "Compact 2x32"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/compact.png", "mips smooth")
 ATT.Description = [[A compact prismatic scope with 2x magnification manufactured by Monstrum Tactical.]]
 ATT.SortOrder = 3
 

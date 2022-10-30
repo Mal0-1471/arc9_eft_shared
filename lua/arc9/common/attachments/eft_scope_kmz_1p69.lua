@@ -1,6 +1,6 @@
 ATT.PrintName = "KMZ 1P69 3-10x riflescope"
 ATT.CompactName = "KMZ 1P69"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/1p69.png", "mips smooth")
 ATT.Description = [[The 1P69 "Hyperon" pancratic Sight is a further development of the "Hyperon" sights and is intended for installation on the SV-98 in order to increase the effectiveness on the battlefield. The sight has a flexible adjustment of the multiples, as well as a fairly accurate range finder, facilitating the operation of combining, measuring the distance to the target and entering the aiming angles.]]
 ATT.SortOrder = 3
 

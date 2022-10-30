@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint Micro Standard Mount"
 ATT.CompactName = "AMM"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/amm.png", "mips smooth")
 ATT.Description = [[The Aimpoint Micro Standard Mount base for T-1 and H-1 reflex sights of the Micro series.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_h1_t1_weaver.mdl"

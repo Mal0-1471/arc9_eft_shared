@@ -1,6 +1,6 @@
 ATT.PrintName = "VOMZ Pilad 4x32 24.5mm riflescope"
 ATT.CompactName = "Pilad 4x32"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/25mmpilad.png", "mips smooth")
 ATT.Description = [[Designed for shooting at small and medium distances. The sight will be practical for shooting at moving objects at a distance of up to 150m.]]
 ATT.SortOrder = 3
 

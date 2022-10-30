@@ -1,6 +1,6 @@
 ATT.PrintName = "EOTech XPS3-2 holographic sight"
 ATT.CompactName = "XPS3-2"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_xps3_0.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/xps3.png", "mips smooth")
 ATT.Description = [[XPS3 is more compact than the other holographic sights, but just as effective; moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-2 features a two-dot reticle of 1 MOA.]]
 ATT.SortOrder = 1
 

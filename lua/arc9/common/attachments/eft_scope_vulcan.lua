@@ -1,6 +1,6 @@
 ATT.PrintName = "Armasight Vulcan MG 3.5x Bravo night vision scope"
 ATT.CompactName = "Vulcan 3.5x"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/vulcan.png", "mips smooth")
 ATT.Description = [[Vulcan MG is a 3rd generation night vision scope with a 3.5x magnification manufactured by Armasight.]]
 
 ATT.Scale = 1

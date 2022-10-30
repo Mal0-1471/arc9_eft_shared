@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint PRO reflex sight"
 ATT.CompactName = "PRO"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/pro.png", "mips smooth")
 ATT.Description = [[The Aimpoint PRO (Patrol Rifle Optic) reflex sight is installed on the QRP2 or LRP mount that attaches to picatinny rails without any additional tools. The optic has flip-up lens covers – the solid front and transparent rear – allowing the user to shoot with the lens caps closed and both eyes open in an emergency situation. The PRO sight is fully compatible with all generations of night vision devices.]]
 ATT.SortOrder = 1
 

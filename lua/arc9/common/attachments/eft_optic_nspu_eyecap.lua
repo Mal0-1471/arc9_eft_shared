@@ -1,6 +1,6 @@
 ATT.PrintName = "NSPU-M scope eyecup"
 ATT.CompactName = "Eyecup"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/nspumcup.png", "mips smooth")
 ATT.Description = [[Rubber eyecup for NSPU-M scope.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/dovetail/1p78_eyecap.mdl"

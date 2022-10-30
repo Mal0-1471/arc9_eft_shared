@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon RMR mount for ACOG scopes"
 ATT.CompactName = "RM35"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/rm35.png", "mips smooth")
 ATT.Description = [[A universal mount on a place of a backup sight to allow the mounting of the Trijicon RMR reflex sight on the ACOG scopes.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_acog_trijicon_rm35.mdl"

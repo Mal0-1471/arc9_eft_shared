@@ -1,6 +1,6 @@
 ATT.PrintName = "Armasight Vulcan universal base"
 ATT.CompactName = "Vulcan"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/vulcanmount.png", "mips smooth")
 ATT.Description = [[The Armasight universal base mount for installation of the Vulcan series scopes.]]
 ATT.SortOrder = 1
 

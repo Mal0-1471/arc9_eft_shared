@@ -1,6 +1,6 @@
 ATT.PrintName = "Lobaev Arms 30mm scope mount"
 ATT.CompactName = "Lobaev 30mm"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmlobaev.png", "mips smooth")
 ATT.Description = [[A universal 30mm optical scope base mount by Lobaev Arms for installation on Picatinny rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_lobaev_dvl.mdl"

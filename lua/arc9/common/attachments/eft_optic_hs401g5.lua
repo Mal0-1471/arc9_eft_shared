@@ -1,6 +1,6 @@
 ATT.PrintName = "Holosun HS401G5 reflex sight"
 ATT.CompactName = "HS401G5"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/hs401g5.png", "mips smooth")
 ATT.Description = [[The HS401G5 reflex sight whith a built-in laser designator, manufactured by Holosun.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_holosun_hs401g5.mdl"

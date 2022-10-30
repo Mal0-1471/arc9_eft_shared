@@ -1,6 +1,6 @@
 ATT.PrintName = "EOTech 553 holographic sight"
 ATT.CompactName = "553"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/553.png", "mips smooth")
 ATT.Description = [[Eotech 553 holographic collimator sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a primary sight for operations in confined spaces.]]
 ATT.SortOrder = 1
 

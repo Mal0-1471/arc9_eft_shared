@@ -1,6 +1,6 @@
 ATT.PrintName = "LaRue LT101 QD Tactical Picatinny Riser mount"
 ATT.CompactName = "QD LT101"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/lt101.png", "mips smooth")
 ATT.Description = [[A Quick-Detach Picatinny riser to elevate the reflex or optical sight position, manufactured by LaRue.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_larue_picatinny_raiser_qd_lt101.mdl"

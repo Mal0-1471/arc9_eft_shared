@@ -1,6 +1,6 @@
 ATT.PrintName = "JP Enterprises Flat-Top 30mm ring scope mount"
 ATT.CompactName = "JP 30mm"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmjp.png", "mips smooth")
 ATT.Description = [[A universal 30mm scope base mount for installation on Picatinny rails. 
 Manufactured by JP Enterprises.]]
 

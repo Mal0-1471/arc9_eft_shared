@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon ACOG TA01NSN 4x32 scope (TAN)"
 ATT.CompactName = "TA01NSN TAN"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/ta01nsntan.png", "mips smooth")
 ATT.Description = [[ACOG TA01NSN 4x32 rifle scope manufactured by Trijicon. Comes in black and tan.]]
 ATT.SortOrder = 3
 

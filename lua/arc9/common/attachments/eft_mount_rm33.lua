@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon RMR low profile mount"
 ATT.CompactName = "RM33"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/rm33.png", "mips smooth")
 ATT.Description = [[A low-profile mount for installation of the Trijicon RMR series reflex sights on Picatinny and Weaver rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_trijicon_rm33.mdl"

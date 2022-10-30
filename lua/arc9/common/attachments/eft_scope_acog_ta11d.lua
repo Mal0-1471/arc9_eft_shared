@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon ACOG TA11D 3.5x35 scope"
 ATT.CompactName = "TA11D"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_acog.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/ta11d.png", "mips smooth")
 ATT.Description = [[The ACOG 3.5x35 riflescope manufactured by Trijicon. Still remains a favorite among competitive shooters, law enforcement and freedom-loving civilians from everywhere around the world.]]
 ATT.SortOrder = 3
 

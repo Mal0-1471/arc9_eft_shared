@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint Micro H-2 reflex sight"
 ATT.CompactName = "H-2"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/h2.png", "mips smooth")
 ATT.Description = [[The Micro H-2 compact reflex sight by Aimpoint was designed for use with any kind of firearms and even with bows. Lightweight, compact, and durable.]]
 ATT.SortOrder = 1
 

@@ -1,6 +1,6 @@
 ATT.PrintName = "KMZ 1P69 Weaver mount"
 ATT.CompactName = "1P69 mount"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/1p69mount.png", "mips smooth")
 ATT.Description = [[Universal base with integrated power supply for installation of the sight 1P59 on the "Weaver" type rails.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_weaver.mdl"

@@ -1,6 +1,6 @@
 ATT.PrintName = "Compact Mount adapter for sights"
 ATT.CompactName = "Compact"
---ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/compactmount.png", "mips smooth")
 ATT.Description = [[Compact Mount is a universal mount for installation of Primary Arms manufactured scopes.]]
 ATT.SortOrder = 3
 

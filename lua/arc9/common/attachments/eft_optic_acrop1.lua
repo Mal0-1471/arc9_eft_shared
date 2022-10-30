@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint ACRO P-1 reflex sight"
 ATT.CompactName = "ACRO P-1"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/acrop1.png", "mips smooth")
 ATT.Description = [[The compact ACRO P-1 reflex sight by Aimpoint was designed for use with special mounts. Lightweight, compact, and durable.]]
 ATT.SortOrder = 1
 

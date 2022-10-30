@@ -1,6 +1,6 @@
 ATT.PrintName = "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
 ATT.CompactName = "FLIR RS-32"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/flir.png", "mips smooth")
 ATT.Description = [[A versatile thermal imaging telescope/sight with many uses and advantages. It can be installed on weapons for use as a sight, or on the helmet as a monocular via an adapter, or as a separate observation device.]]
 
 ATT.Scale = 1

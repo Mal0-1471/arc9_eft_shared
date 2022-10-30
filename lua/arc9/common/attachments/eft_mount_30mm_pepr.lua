@@ -1,6 +1,6 @@
 ATT.PrintName = "Burris AR-P.E.P.R. 30mm ring scope mount"
 ATT.CompactName = "PEPR 30mm"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmpepr.png", "mips smooth")
 ATT.Description = [[The Burris P.E.P.R. universal 30mm scope base mount for installation on Picatinny rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_burris_pepr.mdl"

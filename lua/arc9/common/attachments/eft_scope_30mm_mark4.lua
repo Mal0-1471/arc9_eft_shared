@@ -1,6 +1,6 @@
 ATT.PrintName = "Leupold Mark 4 LR 6.5-20x50 30mm riflescope"
 ATT.CompactName = "6.5-20x50"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmmark4.png", "mips smooth")
 ATT.Description = [[Precise, accurate, durable and dependable - the Leupold Mark 4 6.5-20x50 rifle scope. The model provides 6.5 - 20x magnification giving you a clear idea of the actual size of the targeted object.]]
 ATT.SortOrder = 3
 

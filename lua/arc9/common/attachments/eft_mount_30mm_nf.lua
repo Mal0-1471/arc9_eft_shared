@@ -1,6 +1,6 @@
 ATT.PrintName = "Nightforce Magmount 30mm ring scope mount"
 ATT.CompactName = "NF 30mm"
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmnf.png", "mips smooth")
 ATT.Description = [[Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 30mm scope base mount for installation on Picatinny rails.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_nightforce_x_treme_duty.mdl"

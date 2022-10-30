@@ -1,6 +1,6 @@
 ATT.PrintName = "SIG Sauer ROMEO8T reflex sight"
 ATT.CompactName = "ROMEO8T"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/romeo8t.png", "mips smooth")
 ATT.Description = [[The ROMEO8T reflex sight, designed for precision shooting for modern sporting rifles and shotguns. Manufactured by SIG Sauer.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_sig_romeo_8t.mdl"

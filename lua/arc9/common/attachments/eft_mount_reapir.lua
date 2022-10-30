@@ -1,6 +1,6 @@
 ATT.PrintName = "UNV DLOC-IRD sight mount"
 ATT.CompactName = "DLOC-IRD"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/reapirmount.png", "mips smooth")
 ATT.Description = [[The UNV DLOC-IRD universal quick release mount for installing various scopes.]]
 ATT.SortOrder = 1
 

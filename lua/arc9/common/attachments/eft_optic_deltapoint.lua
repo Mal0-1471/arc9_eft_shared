@@ -1,6 +1,6 @@
 ATT.PrintName = "Leupold DeltaPoint Reflex Sight"
-ATT.CompactName = "DELTA"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.CompactName = "Delta"
+ATT.Icon = Material("entities/eft_attachments/scopes/dp.png", "mips smooth")
 ATT.Description = [[Compact DeltaPoint Reflex Sight by Leupold knows almost no limits in the range of application. Originally designed for use on pump-action shotguns in competitions and practical shooting, it was recognized for good performance on a wide range of weapons. From shotguns and handguns to AR-based rifles, as a main or auxiliary sight, it will show excellent results.]]
 ATT.SortOrder = 1
 

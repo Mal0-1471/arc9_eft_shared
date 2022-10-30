@@ -1,6 +1,6 @@
 ATT.PrintName = "Burris FullField TAC30 1-4x24 30mm riflescope"
 ATT.CompactName = "TAC30"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/30mmtac30.png", "mips smooth")
 ATT.Description = [[The TAC30 offers a very wide field of view, and 1x magnification at the lower end - making for easy, fast target acquisition. The 4x full zoom and Ballistic CQ reticle make shots out to about 300 yards very practical. The illuminated center dot and large, bright circle allow for instant target engagement at close distances.]]
 ATT.SortOrder = 3
 

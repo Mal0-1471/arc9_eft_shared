@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon REAP-IR thermal scope"
 ATT.CompactName = "REAP-IR"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_scope_hamr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/reapir.png", "mips smooth")
 ATT.Description = [[A versatile thermal imaging telescope/sight. It can be installed on weapons for use in the form of a riflesight, on a helmet - via adapter - as a monocular, and as a separate observation device.]]
 
 ATT.Scale = 1

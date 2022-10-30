@@ -1,6 +1,6 @@
 ATT.PrintName = "Trijicon RMR reflex sight"
 ATT.CompactName = "RMR"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapoint.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/rmr.png", "mips smooth")
 ATT.Description = [[RMR (Ruggedized Miniature Reflex) is a durable and lightweight compact reflex sight. Can be used as a main or backup sight. Requires a specific mount for installation on Weaver rails. Manufactured by Trijicon.]]
 ATT.SortOrder = 1
 

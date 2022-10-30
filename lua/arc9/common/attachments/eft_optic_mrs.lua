@@ -1,6 +1,6 @@
 ATT.PrintName = "Walther MRS reflex sight"
 ATT.CompactName = "MRS"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/mrs.png", "mips smooth")
 ATT.Description = [[The Walther MRS (Multi-Reticle Sight) reflex sight features 2 dots and 2 reticles with adjustable brightness levels. Cheap, accurate (but has to be zeroed every time the reticle type is switched), compact and offers good battery life - but not too sturdy and reliable.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_walther_mrs.mdl"

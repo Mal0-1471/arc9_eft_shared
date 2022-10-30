@@ -1,6 +1,6 @@
 ATT.PrintName = "Valday Krechet reflex sight"
 ATT.CompactName = "Krechet"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_553.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/krechet.png", "mips smooth")
 ATT.Description = [[The Krechet reflex sight, designed for precision shooting at day and at night when used in combination with a night vision device. Manufactured by Valday.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_valday_krechet.mdl"

@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint Micro H-2 Standard Mount"
 ATT.CompactName = "H-2"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/h2mount.png", "mips smooth")
 ATT.Description = [[Aimpoint Micro Standard Mount is a base mount for H-2 sights of the Micro series. Backwards-compatible with both T-1 and H-1 series reflex sights.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_h2_weaver.mdl"

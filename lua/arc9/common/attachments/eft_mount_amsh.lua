@@ -1,6 +1,6 @@
 ATT.PrintName = "Aimpoint Micro Spacer High"
 ATT.CompactName = "AMSH"
-ATT.Icon = Material("entities/eft_attachments/scopes/eft_optic_deltapointmount.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/amsh.png", "mips smooth")
 ATT.Description = [[The Micro Spacer High mount raises the height of the optical axis. Made to work with the Aimpoint Micro red dot sights.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_base_aimpoint_h1_t1_spacer.mdl"
