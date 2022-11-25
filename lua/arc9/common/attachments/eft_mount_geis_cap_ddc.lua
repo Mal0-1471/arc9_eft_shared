@@ -1,6 +1,6 @@
 ATT.PrintName = "Geissele Super Precision top ring cap (DDC)"
 ATT.CompactName = "Geis top"
-ATT.Icon = Material("entities/eft_attachments/mount/geistoptan.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/geistoptan.png", "mips smooth")
 ATT.Description = [[A regular top ring cap for the Geissele Super Precision mounts.
 
 Desert Dirt Color version.]]

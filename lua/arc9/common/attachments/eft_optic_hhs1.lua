@@ -39,7 +39,8 @@ ATT.Sights = {
         Magnification = 1.25,
         ViewModelFOV = 57,
         ShadowPos = Vector(16,0,0),
-        Disassociate = true
+        Disassociate = true,
+        Blur = true,
     },
     {
         Pos = Vector(0, 10.7, -1.722),
@@ -47,6 +48,7 @@ ATT.Sights = {
         Magnification = 1.25,
         ViewModelFOV = 38,
         RTScopeFOV = 38/6,
+        Blur = false,
     },
 }
 

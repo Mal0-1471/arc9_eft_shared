@@ -1,6 +1,6 @@
 ATT.PrintName = "Reptilia ROF-90 RMR mount for Geissele scope mounts"
 ATT.CompactName = "ROF-90 RMR"
-ATT.Icon = Material("entities/eft_attachments/mount/rof90.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/rof90.png", "mips smooth")
 ATT.Description = [[The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Geissele scope mount series. Replaces the standard Geissele top ring caps.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_geissele_tops.mdl"

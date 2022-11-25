@@ -1,6 +1,6 @@
 ATT.PrintName = "Reptilia ROF-90 RMR mount for Geissele scope mounts (DDC)"
 ATT.CompactName = "ROF-90 RMR"
-ATT.Icon = Material("entities/eft_attachments/mount/rof90tan.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/rof90tan.png", "mips smooth")
 ATT.Description = [[The Reptilia ROF-90 mount allows installation of the Trijicon RMR reflex sight on the Geissele scope mount series. Replaces the standard Geissele top ring caps.
 
 Desert Dirt Color version.]]
