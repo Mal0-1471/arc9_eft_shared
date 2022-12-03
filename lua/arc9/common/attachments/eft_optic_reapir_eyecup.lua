@@ -6,7 +6,7 @@ ATT.Description = [[A rubber eyecup for the Trijicon REAP-IR thermal scope.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/optic_reapir_eyecup.mdl"
 
 ATT.Category = {"eft_reapir_cup"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdditionalSightDistance = 2
 

@@ -3,7 +3,7 @@ ATT.CompactName = "Big Stick"
 ATT.Icon = Material("entities/eft_glock_attachments/stick.png", "mips smooth")
 ATT.Description = [[A factory-produced 33-round 9x19 magazine for Glock pistols.]]
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_bigstick_33.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_bigstick_33.mdl"

@@ -6,7 +6,7 @@ ATT.Description = [[A universal mount on a place of a backup sight to allow the 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_acog_trijicon_rm35.mdl"
 
 ATT.Category = {"eft_backup_ta01"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 

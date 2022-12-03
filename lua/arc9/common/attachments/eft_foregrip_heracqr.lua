@@ -8,7 +8,7 @@ ATT.Model = "models/entities/eft_attachments/foregrips/eft_foregrip_heracqr.mdl"
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_large"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

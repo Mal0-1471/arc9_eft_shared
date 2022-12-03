@@ -5,7 +5,7 @@ ATT.Description = [[The Steiner DBAL-PL tactical device with an LED flashlight a
 ATT.Icon = Material("entities/eft_attachments/tactical/dbal.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_dbal_pl.mdl"
 
 -- light

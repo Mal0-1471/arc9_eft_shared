@@ -13,7 +13,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

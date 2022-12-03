@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/foregip/eft_foregrip_express.md
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

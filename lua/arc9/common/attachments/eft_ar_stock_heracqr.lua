@@ -14,7 +14,7 @@ ATT.ActivateElements = {"pgrip_stock"}
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgripstock"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

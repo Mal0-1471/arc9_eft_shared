@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_weaver.mdl"
 ATT.ActivateElements = {"nolongrear"}
 ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(2, 0, 1.9)
 

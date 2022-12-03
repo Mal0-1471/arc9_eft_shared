@@ -5,7 +5,7 @@ ATT.Description = [[The "Klesch-2U" LED tactical flashlight with a mount on the 
 ATT.Icon = Material("entities/eft_attachments/tactical/k2u.png", "mips smooth")
 
 ATT.Category = {"eft_tactical"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kleh2u.mdl"
 
 ATT.ToggleOnF = true

@@ -5,7 +5,7 @@ ATT.Description = [[The WMX200 tactical flashlight manufactured by Insight Techn
 ATT.Icon = Material("entities/eft_attachments/tactical/wmx200.png", "mips smooth")
 
 ATT.Category = {"eft_tactical"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_wmx200.mdl"
 
 -- idk about this one

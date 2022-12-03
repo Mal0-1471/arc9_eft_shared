@@ -3,7 +3,7 @@ ATT.CompactName = "Glock 9x19"
 ATT.Icon = Material("entities/eft_glock_attachments/mag.png", "mips smooth")
 ATT.Description = [[A standard-issue 17-round 9x19 magazine for Glock pistols.]]
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_std_17.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_std_17.mdl"

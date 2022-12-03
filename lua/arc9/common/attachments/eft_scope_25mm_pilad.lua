@@ -6,7 +6,7 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_vomz_pilad.mdl"
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_25mm"
 
 ATT.FoldSights = true

@@ -6,7 +6,7 @@ ATT.Description = [[A versatile thermal imaging telescope/sight with many uses a
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_flir_rs32.mdl"
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_large"
 ATT.Folder = "Special"
 

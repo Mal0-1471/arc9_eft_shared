@@ -7,7 +7,7 @@ ATT.SortOrder = 3
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_1p69.mdl"
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_optic_kmz"}
 ATT.Folder = "Scopes"
 

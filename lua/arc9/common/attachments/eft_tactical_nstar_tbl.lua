@@ -5,7 +5,7 @@ ATT.Description = [[A compact tactical Laser Aiming Module with a blue dot. Moun
 ATT.Icon = Material("entities/eft_attachments/tactical/tbl.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_ncstar_tbl.mdl"
 
 ATT.ToggleOnF = true

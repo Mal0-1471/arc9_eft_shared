@@ -6,7 +6,7 @@ ATT.Description = [[The Standard Spacer mount for Aimpoint CompM4 sight models, 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_base_aimpoint_standart_spacer.mdl"
 
 ATT.Category = {"eft_compm4_spacer"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 

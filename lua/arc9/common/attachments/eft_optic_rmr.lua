@@ -7,7 +7,7 @@ ATT.SortOrder = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_base_trijicon_rmr.mdl"
 
 ATT.Category = {"eft_rmr"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.FoldSights = true
 

@@ -7,7 +7,7 @@ ATT.SortOrder = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_base_aimpoint_micro_t1.mdl"
 
 ATT.Category = {"eft_t1"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.FoldSights = true
 

@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_geissele_tops.mdl"
 ATT.ModelBodygroups = "1"
 
 ATT.Category = {"eft_mount_geis"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {

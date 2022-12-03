@@ -5,7 +5,7 @@ ATT.Description = [[The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL
 ATT.Icon = Material("entities/eft_attachments/tactical/la5b.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_la5b.mdl"
 
 ATT.ToggleOnF = true

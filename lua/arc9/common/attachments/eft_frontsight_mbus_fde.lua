@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/ironsight/eft_frontsight_mbus.m
 ATT.ModelSkin = 1
 
 ATT.Category = {"eft_frontsight"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

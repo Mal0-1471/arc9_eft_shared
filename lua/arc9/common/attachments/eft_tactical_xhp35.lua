@@ -5,7 +5,7 @@ ATT.Description = [[A powerful flashlight in a heavy-duty frame, manufactured by
 ATT.Icon = Material("entities/eft_attachments/tactical/xhp35.png", "mips smooth")
 
 ATT.Category = {"eft_25mm"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_flashlights.mdl"
 
 ATT.ToggleOnF = true

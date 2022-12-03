@@ -6,7 +6,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/raptar.png", "mips smooth
 
 ATT.SortOrder = 0
 ATT.Category = {"eft_tactical", "eft_tactical_top", "eft_raptar"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_raptar.mdl"
 
 -- Stat Multipliers

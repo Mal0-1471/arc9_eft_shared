@@ -9,7 +9,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/buffertube/eft_ar_buffertube_st
 ATT.Scale = 1
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)

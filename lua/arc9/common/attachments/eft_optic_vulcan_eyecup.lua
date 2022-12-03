@@ -6,7 +6,7 @@ ATT.Description = [[A rubber eyecup for the Vulcan MG riflescope, manufactured b
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_vulcan_eyecup.mdl"
 
 ATT.Category = {"eft_vulcan_cup"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdditionalSightDistance = 1.5
 

@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
 ATT.ModelBodygroups = "2"
 
 ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(-0.06, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 90, 0)

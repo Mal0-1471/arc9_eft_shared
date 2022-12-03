@@ -9,7 +9,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_deltapoint.mdl"
 -- ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_deltapoint"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.FoldSights = true
 

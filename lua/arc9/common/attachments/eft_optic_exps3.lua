@@ -14,7 +14,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_exps3.mdl"
 ATT.Folder = "Holo"
 
 ATT.Category = {"eft_optic_medium"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

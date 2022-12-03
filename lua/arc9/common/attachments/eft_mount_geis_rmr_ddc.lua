@@ -10,7 +10,7 @@ ATT.ModelBodygroups = "1"
 ATT.ModelSkin = 1
 
 ATT.Category = {"eft_mount_geis"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {

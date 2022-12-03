@@ -8,7 +8,7 @@ ATT.ModelBodygroups = "1"
 
 ATT.ActivateElements = {"nolongrear"}
 ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)
 

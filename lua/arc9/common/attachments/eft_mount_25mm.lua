@@ -5,7 +5,7 @@ ATT.Description = [[A universal platform for installation of 25mm tactical acces
 ATT.Icon = Material("entities/eft_attachments/tactical/25mm.png", "mips smooth")
 
 ATT.Category = {"eft_tactical"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mount_25mm.mdl"
 
 ATT.Attachments = {

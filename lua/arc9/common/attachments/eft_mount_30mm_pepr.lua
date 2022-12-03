@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_burris_pepr.mdl"
 
 ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {

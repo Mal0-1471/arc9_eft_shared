@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_vortex_razor_amg_uh-1.
 ATT.Folder = "Holo"
 
 ATT.Category = {"eft_optic_medium"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.FoldSights = true

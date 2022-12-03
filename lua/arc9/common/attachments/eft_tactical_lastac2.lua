@@ -5,7 +5,7 @@ ATT.Description = [[A tactical LED flashlight manufactured by Steiner.]]
 ATT.Icon = Material("entities/eft_attachments/tactical/lastac.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_lastac2.mdl"
 
 ATT.ToggleOnF = true

@@ -5,7 +5,7 @@ ATT.Description = [[A simple but powerful LED flashlight with a sturdy body, dur
 ATT.Icon = Material("entities/eft_attachments/tactical/wf.png", "mips smooth")
 
 ATT.Category = {"eft_25mm"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_flashlights.mdl"
 ATT.ModelBodygroups = "1"
 

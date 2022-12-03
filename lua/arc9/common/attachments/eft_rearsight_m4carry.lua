@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/ironsight/eft_rearsight_m4carry
 ATT.Scale = 1
 
 ATT.Category = {"eft_ar_rearsight"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 // Allows a custom sight position to be defined
 ATT.Sights = {

@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/mag/eft_mag_ar15_pmag10.mdl"
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_mag"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.DropMagazineModel = "models/weapons/arc9_eft_shared/atts/mag/eft_mag_ar15_pmag10.mdl"
 

@@ -9,7 +9,7 @@ ATT.ModelSkin = 1
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_buttpad"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

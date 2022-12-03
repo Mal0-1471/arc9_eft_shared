@@ -7,7 +7,7 @@ ATT.SortOrder = 3
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mount/eft_mount_ta51.mdl"
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_large"
 ATT.Folder = "Scopes/Mounts"
 

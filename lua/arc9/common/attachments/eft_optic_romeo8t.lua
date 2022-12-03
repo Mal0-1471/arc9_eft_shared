@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_sig_romeo_8t.mdl"
 ATT.Folder = "Reflex"
 
 ATT.Category = {"eft_optic_medium"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.FoldSights = true

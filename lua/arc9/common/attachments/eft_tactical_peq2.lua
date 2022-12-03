@@ -6,7 +6,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/peq2.png", "mips smooth")
 
 -- ATT.Category = {"eft_tactical_top"}
 ATT.Category = {"eft_tactical_top_big"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq2.mdl"
 
 -- red laser

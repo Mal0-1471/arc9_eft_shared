@@ -9,7 +9,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_vulcan_gen3.mdl"
 ATT.Folder = "Special"
 
 ATT.Category = {"eft_optic_large"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 

@@ -7,7 +7,7 @@ ATT.SortOrder = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/ironsight/eft_frontsight_kac.mdl"
 
 ATT.Category = {"eft_frontsight"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

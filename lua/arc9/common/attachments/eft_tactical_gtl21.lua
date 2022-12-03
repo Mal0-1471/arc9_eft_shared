@@ -5,7 +5,7 @@ ATT.Description = [[An underbarrel-mounted LED flashlight with a laser aiming mo
 ATT.Icon = Material("entities/eft_attachments/tactical/gtl21.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_gtl21.mdl"
 
 ATT.ToggleOnF = true

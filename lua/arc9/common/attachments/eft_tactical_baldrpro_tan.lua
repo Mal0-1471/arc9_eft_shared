@@ -7,7 +7,7 @@ Tan version.]]
 ATT.Icon = Material("entities/eft_attachments/tactical/baldr_tan.png", "mips smooth")
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_baldr_pro.mdl"
 ATT.ModelSkin = 1
 

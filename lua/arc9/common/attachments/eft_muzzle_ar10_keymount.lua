@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/muzzle_ar10_dead_air_sil
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar10_muzzle"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 

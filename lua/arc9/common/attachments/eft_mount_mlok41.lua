@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mlok.mdl"
 ATT.ModelBodygroups = "1"
 
 ATT.Category = {"eft_mount_mlok41"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(180, 0, 0)

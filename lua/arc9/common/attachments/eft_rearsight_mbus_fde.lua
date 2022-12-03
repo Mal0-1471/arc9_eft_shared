@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/ironsight/eft_rearsight_mbus.md
 ATT.ModelSkin = 1
 
 ATT.Category = {"eft_rearsight"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0)

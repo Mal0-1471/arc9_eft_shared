@@ -6,7 +6,7 @@ ATT.Description = [[A Quick-Detach Picatinny riser to elevate the reflex or opti
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_larue_picatinny_raiser_qd_lt101.mdl"
 
 ATT.Category = {"eft_optic_large"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Max = 1
 
 ATT.ModelOffset = Vector(0, 0, -0)

@@ -6,7 +6,7 @@ ATT.Description = [[Vulcan MG is a 3rd generation night vision scope with a 3.5x
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_vulcan_mg35x.mdl"
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_vulcan_scope"
 
 -- Stat Multipliers

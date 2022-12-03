@@ -5,7 +5,7 @@ ATT.Description = [[The UM Tactical UM3 sight mount. Allows mounting of addition
 ATT.Icon = Material("entities/eft_attachments/tactical/um3.png", "mips smooth")
 
 ATT.Category = {"eft_um3"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_pistol_um3.mdl"
 
 ATT.Attachments = {

@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/hexagon.mdl"
 ATT.ModelBodygroups = "0"
 
 ATT.Category = {"eft_mount_hexagon"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)
 

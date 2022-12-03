@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/eft_ar15_muzzle_usgi2.md
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_muzzle"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- Stat Multipliers
 

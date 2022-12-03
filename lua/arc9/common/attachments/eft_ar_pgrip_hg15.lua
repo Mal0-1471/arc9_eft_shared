@@ -27,7 +27,7 @@ ATT.AimDownSightsTimeAdd = -0.1
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasGrip = true
 

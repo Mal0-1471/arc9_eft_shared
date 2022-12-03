@@ -8,7 +8,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/eft_silencer_ar15_asr.md
 
 ATT.SortOrder = 0
 ATT.Category = "eft_asr_surpressor"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 ATT.MuzzleDevice_Priority = 2

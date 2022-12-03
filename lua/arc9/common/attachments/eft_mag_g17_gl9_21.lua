@@ -3,7 +3,7 @@ ATT.CompactName = "GL9"
 ATT.Icon = Material("entities/eft_glock_attachments/gl9.png", "mips smooth")
 ATT.Description = [[A 21-round GL9 polymer magazine, manufactured by Magpul.]]
 
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_pmag_21.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_pmag_21.mdl"

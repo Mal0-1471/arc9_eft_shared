@@ -10,7 +10,7 @@ ATT.ModelSkin = 1
 
 ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {

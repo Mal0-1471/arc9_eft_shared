@@ -7,7 +7,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_torrey_t12w.mdl"
 ATT.Folder = "Special"
 
 ATT.Category = {"eft_optic_medium"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.FoldSights = true
 

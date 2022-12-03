@@ -6,7 +6,7 @@ ATT.Description = [[The Micro Spacer High mount raises the height of the optical
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_base_aimpoint_h1_t1_spacer.mdl"
 
 ATT.Category = {"eft_amsh"}
-ATT.MenuCategory = "ARC-9 - EFT Attachments"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
