@@ -11,6 +11,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_large"
 ATT.Folder = "Scopes"
 
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
 ATT.FoldSights = true
 
 ATT.Sights = {

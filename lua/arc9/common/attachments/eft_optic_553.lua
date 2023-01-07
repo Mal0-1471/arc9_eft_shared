@@ -1,5 +1,5 @@
 ATT.PrintName = "EOTech 553 holographic sight"
-ATT.CompactName = "553"
+ATT.CompactName = "EOT 553"
 ATT.Icon = Material("entities/eft_attachments/scopes/553.png", "mips smooth")
 ATT.Description = [[Eotech 553 holographic collimator sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a primary sight for operations in confined spaces.]]
 ATT.SortOrder = 1
@@ -11,22 +11,9 @@ ATT.Folder = "Holo"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
--- Stat Multipliers
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
--- Recoil Changes
-
---ATT.RecoilMult = 0.99
---ATT.VisualRecoilMultMult = 0.99
-
--- Speed and Handling
-
---ATT.SpeedMult = 0.98
-
---ATT.SwayAdd = 0.6
-ATT.SprintToFireTimeMult = 1.03
-ATT.AimDownSightsTimeMult = 1.03
-
---ATT.PhysBulletMuzzleVelocityMult = 1.075
 
 ATT.FoldSights = true
 

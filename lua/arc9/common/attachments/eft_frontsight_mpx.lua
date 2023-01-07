@@ -9,8 +9,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fs_sig_mpx.mdl"
 ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.SprintToFireTimeMult = 0.99
-ATT.AimDownSightsTimeMult = 0.99
 
 
 ATT.DrawFunc = function(swep, model)

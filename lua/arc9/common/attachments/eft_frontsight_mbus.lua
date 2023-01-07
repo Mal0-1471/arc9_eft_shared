@@ -9,8 +9,9 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/ironsight/eft_frontsight_mbus.m
 ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.SprintToFireTimeMult = 0.99
-ATT.AimDownSightsTimeMult = 0.99
+
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)

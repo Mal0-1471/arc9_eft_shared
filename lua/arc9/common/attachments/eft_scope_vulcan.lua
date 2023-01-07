@@ -9,22 +9,10 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_vulcan_mg35x.mdl"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_vulcan_scope"
 
--- Stat Multipliers
+ATT.EFTErgoAdd = -15
+ATT.CustomCons = { Ergonomics = "-15" }
 
--- Recoil Changes
 
---ATT.RecoilMult = 0.99
---ATT.VisualRecoilMultMult = 0.99
-
--- Speed and Handling
-
---ATT.SpeedMult = 0.98
-
---ATT.SwayAdd = 0.6
-ATT.SprintToFireTimeMult = 1.035
-ATT.AimDownSightsTimeMult = 1.035
-
---ATT.PhysBulletMuzzleVelocityMult = 1.075
 
 ATT.FoldSights = true
 

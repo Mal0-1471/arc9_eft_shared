@@ -9,6 +9,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_sb_pm_ii_5_25x56.mdl"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_34mm"
 
+ATT.EFTErgoAdd = -8
+ATT.CustomCons = { Ergonomics = "-8" }
+
 ATT.FoldSights = true
 
 local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_34mm_s&b_pm_ii_5_25x56_LOD0_mark_5.png", "mips smooth")

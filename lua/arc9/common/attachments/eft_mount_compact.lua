@@ -10,6 +10,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_large"
 ATT.Folder = "Scopes/Mounts"
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = "Scope",

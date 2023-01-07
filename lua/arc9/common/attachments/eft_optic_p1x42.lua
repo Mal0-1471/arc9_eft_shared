@@ -10,6 +10,10 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
+
 ATT.FoldSights = true
 
 local R0 = Material("vgui/arc9_eft_shared/reticles/scope_all_vomz_pilad_p1x42_mark_mode_000.png", "mips smooth")

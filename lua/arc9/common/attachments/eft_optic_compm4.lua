@@ -9,6 +9,10 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_base_aimpooint_comp_m4.mdl
 ATT.Category = {"eft_compm4"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
+
 ATT.FoldSights = true
 
 ATT.Sights = {

@@ -4,6 +4,9 @@ ATT.Description = [[ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN
 
 ATT.Icon = Material("entities/eft_attachments/tactical/peq2.png", "mips smooth")
 
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
 -- ATT.Category = {"eft_tactical_top"}
 ATT.Category = {"eft_tactical_top_big"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"

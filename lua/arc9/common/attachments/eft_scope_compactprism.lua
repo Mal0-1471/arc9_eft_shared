@@ -10,6 +10,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_large"
 ATT.Folder = "Scopes"
 
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
 ATT.FoldSights = true
 local R0 = Material("vgui/arc9_eft_shared/reticles/scope_all_monstrum_compact_prism_scope_2x32_mark_0.png", "mips smooth")
 local R1 = Material("vgui/arc9_eft_shared/reticles/scope_all_monstrum_compact_prism_scope_2x32_mark_1.png", "mips smooth")

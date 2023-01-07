@@ -8,6 +8,9 @@ ATT.Category = {"eft_tactical"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mount_25mm.mdl"
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
 ATT.Attachments = {
     {
         PrintName = "Flashlight",

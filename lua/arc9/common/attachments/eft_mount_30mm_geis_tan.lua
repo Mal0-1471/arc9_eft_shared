@@ -8,6 +8,9 @@ Desert Dirt Color version.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_geissele_super_precision.mdl"
 ATT.ModelSkin = 1
 
+ATT.EFTErgoAdd = 0.5
+ATT.CustomPros = { Ergonomics = "+0.5" }
+
 ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"

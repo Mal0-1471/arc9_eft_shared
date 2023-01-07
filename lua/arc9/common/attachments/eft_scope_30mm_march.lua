@@ -9,6 +9,10 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_fullfield_tac30.mdl"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
+ATT.EFTErgoAdd = -4
+ATT.CustomCons = { Ergonomics = "-4" }
+
+
 ATT.FoldSights = true
 
 ATT.Sights = {

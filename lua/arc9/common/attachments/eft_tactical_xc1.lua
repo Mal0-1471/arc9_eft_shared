@@ -4,6 +4,9 @@ ATT.Description = [[A compact tactical LED flashlight, manufactured by SureFire.
 
 ATT.Icon = Material("entities/eft_attachments/tactical/xc1.png", "mips smooth")
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
 ATT.Category = {"eft_tactical", "eft_tactical_pistol", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_xc1.mdl"

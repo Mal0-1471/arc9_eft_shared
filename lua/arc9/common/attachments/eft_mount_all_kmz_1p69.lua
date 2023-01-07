@@ -10,6 +10,8 @@ ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
 ATT.ModelOffset = Vector(2, 0, 1.9)
 
 ATT.Attachments = {

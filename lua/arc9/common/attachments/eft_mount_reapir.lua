@@ -13,6 +13,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = "Optic",

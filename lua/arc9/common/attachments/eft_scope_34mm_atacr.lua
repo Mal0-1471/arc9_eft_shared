@@ -1,5 +1,5 @@
 ATT.PrintName = "Nightforce ATACR 7-35x56 34mm riflescope"
-ATT.CompactName = "ATA. 7-35x56"
+ATT.CompactName = "ATACR 7-35x56"
 ATT.Icon = Material("entities/eft_attachments/scopes/34mmatacr.png", "mips smooth")
 ATT.Description = [[The NightForce ATACR 7-35x56 versatile scope with an extensive magnification range and a wide field-of-view across the entire range making it easy to see and engage targets.
 
@@ -10,6 +10,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_nightforce_atacr.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_34mm"
+
+ATT.EFTErgoAdd = -8
+ATT.CustomCons = { Ergonomics = "-8" }
 
 ATT.FoldSights = true
 

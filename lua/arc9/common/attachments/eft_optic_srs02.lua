@@ -9,6 +9,9 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
 
 ATT.FoldSights = true
 

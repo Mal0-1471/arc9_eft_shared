@@ -1,5 +1,5 @@
 ATT.PrintName = "AR-15 Leapers UTG Low Profile A2 front sight"
-ATT.CompactName = "UTG A2"
+ATT.CompactName = "LPA2F"
 ATT.Icon = Material("entities/eft_attachments/ironsights/a2f.png", "mips smooth")
 ATT.Description = [[The UTG Low Profile A2 front sight, installed on the Windham Weaponry gas block. Manufactured by Leapers Inc.]]
 ATT.SortOrder = 1

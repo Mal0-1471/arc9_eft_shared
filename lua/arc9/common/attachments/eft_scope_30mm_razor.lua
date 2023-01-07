@@ -1,5 +1,5 @@
 ATT.PrintName = "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
-ATT.CompactName = "Razor HD Gen"
+ATT.CompactName = "Razor HD Gen.2"
 ATT.Icon = Material("entities/eft_attachments/scopes/30mmrazor.png", "mips smooth")
 ATT.Description = [[A tactical riflescope designed for quick target acquisition and maximum precision. Manufactured by Vortex Optics.]]
 ATT.SortOrder = 3
@@ -8,6 +8,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_razor_hd.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
+
+ATT.EFTErgoAdd = -4
+ATT.CustomCons = { Ergonomics = "-4" }
 
 ATT.FoldSights = true
 

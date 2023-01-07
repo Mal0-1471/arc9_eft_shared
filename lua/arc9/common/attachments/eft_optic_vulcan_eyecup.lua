@@ -4,6 +4,9 @@ ATT.Icon = Material("entities/eft_attachments/scopes/vulcancup.png", "mips smoot
 ATT.Description = [[A rubber eyecup for the Vulcan MG riflescope, manufactured by Armasight.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_vulcan_eyecup.mdl"
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+
 
 ATT.Category = {"eft_vulcan_cup"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"

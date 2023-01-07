@@ -13,22 +13,9 @@ ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
 ATT.Folder = "Reflex"
 
 
--- Stat Multipliers
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
--- Recoil Changes
-
---ATT.RecoilMult = 0.99
---ATT.VisualRecoilMultMult = 0.99
-
--- Speed and Handling
-
---ATT.SpeedMult = 0.98
-
---ATT.SwayAdd = 0.6
-ATT.SprintToFireTimeMult = 1.02
-ATT.AimDownSightsTimeMult = 1.02
-
---ATT.PhysBulletMuzzleVelocityMult = 1.075
 
 ATT.FoldSights = true
 

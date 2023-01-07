@@ -4,6 +4,9 @@ ATT.Description = [[An underbarrel-mounted LED flashlight "Klesch-2P + LAM" manu
 
 ATT.Icon = Material("entities/eft_attachments/tactical/k2p.png", "mips smooth")
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kleh2.mdl"

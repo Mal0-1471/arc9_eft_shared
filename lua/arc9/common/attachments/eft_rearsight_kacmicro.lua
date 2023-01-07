@@ -13,8 +13,9 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
-ATT.SprintToFireTimeMult = 0.99
-ATT.AimDownSightsTimeMult = 0.99
+
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)

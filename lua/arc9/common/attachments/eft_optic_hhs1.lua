@@ -13,22 +13,11 @@ ATT.Folder = "Holo"
 ATT.Category = {"eft_optic_large"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
--- Stat Multipliers
 
--- Recoil Changes
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
---ATT.RecoilMult = 0.99
---ATT.VisualRecoilMultMult = 0.99
 
--- Speed and Handling
-
---ATT.SpeedMult = 0.98
-
---ATT.SwayAdd = 0.6
-ATT.SprintToFireTimeMult = 1.02
-ATT.AimDownSightsTimeMult = 1.02
-
---ATT.PhysBulletMuzzleVelocityMult = 1.075
 
 ATT.FoldSights = true
 

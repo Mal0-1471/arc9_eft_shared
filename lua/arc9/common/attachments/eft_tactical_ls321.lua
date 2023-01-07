@@ -4,6 +4,9 @@ ATT.Description = [[Holosun LS321 is a multi-laser tactical device with green la
 
 ATT.Icon = Material("entities/eft_attachments/tactical/ls321.png", "mips smooth")
 
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_ls321.mdl"

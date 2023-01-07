@@ -9,6 +9,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_hensoldt_zf_4.mdl"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_34mm"
 
+ATT.EFTErgoAdd = -6
+ATT.CustomCons = { Ergonomics = "-6" }
+
 ATT.FoldSights = true
 
 ATT.Sights = {

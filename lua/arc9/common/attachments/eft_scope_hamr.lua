@@ -10,22 +10,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_large"
 ATT.Folder = "Scopes"
 
--- Stat Multipliers
 
--- Recoil Changes
-
---ATT.RecoilMult = 0.99
---ATT.VisualRecoilMultMult = 0.99
-
--- Speed and Handling
-
---ATT.SpeedMult = 0.98
-
---ATT.SwayAdd = 0.6
-ATT.SprintToFireTimeMult = 1.035
-ATT.AimDownSightsTimeMult = 1.035
-
---ATT.PhysBulletMuzzleVelocityMult = 1.075
+ATT.EFTErgoAdd = -3.5
+ATT.CustomCons = { Ergonomics = "-3.5" }
 
 ATT.FoldSights = true
 

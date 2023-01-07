@@ -4,6 +4,9 @@ ATT.Description = [[Perst-3 is a tactical device that combines laser designators
 
 ATT.Icon = Material("entities/eft_attachments/tactical/perst3.png", "mips smooth")
 
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_perst3.mdl"

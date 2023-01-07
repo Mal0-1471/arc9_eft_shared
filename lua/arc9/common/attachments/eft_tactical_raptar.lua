@@ -4,6 +4,9 @@ ATT.Description = [[The early generation of the tactical device called "RAPTAR" 
 
 ATT.Icon = Material("entities/eft_attachments/tactical/raptar.png", "mips smooth")
 
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
 ATT.SortOrder = 0
 ATT.Category = {"eft_tactical", "eft_tactical_top", "eft_raptar"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"

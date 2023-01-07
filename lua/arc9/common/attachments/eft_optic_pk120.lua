@@ -10,6 +10,10 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
+ATT.EFTErgoAdd = -4
+ATT.CustomCons = { Ergonomics = "-4" }
+
+
 ATT.FoldSights = true
 
 ATT.Sights = {

@@ -9,6 +9,9 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_leupold_mark4.mdl"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
 ATT.FoldSights = true
 
 ATT.Sights = {

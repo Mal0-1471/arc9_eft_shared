@@ -12,22 +12,11 @@ ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
 ATT.Folder = "Scopes"
 
 
--- Stat Multipliers
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.EFTErgoAdd = -20
+ATT.CustomCons = { Ergonomics = "-20" }
 
--- Recoil Changes
-
---ATT.RecoilMult = 0.99
---ATT.VisualRecoilMultMult = 0.99
-
--- Speed and Handling
-
---ATT.SpeedMult = 0.98
-
---ATT.SwayAdd = 0.6
-ATT.SprintToFireTimeMult = 1.02
-ATT.AimDownSightsTimeMult = 1.02
-
---ATT.PhysBulletMuzzleVelocityMult = 1.075
 
 ATT.FoldSights = true
 

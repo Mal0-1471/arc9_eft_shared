@@ -12,6 +12,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(-0.06, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 90, 0)
 
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
 
 ATT.Attachments = {
     {

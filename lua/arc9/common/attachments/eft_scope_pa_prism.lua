@@ -9,6 +9,8 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_compact_prism.mdl"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_scope_compact"
 
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.FoldSights = true
 
