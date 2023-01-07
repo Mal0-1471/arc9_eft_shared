@@ -1,3 +1,4 @@
+ARC9EFT = ARC9EFT or {}
 ARC9EFTBASE = true
 
 if SERVER then
@@ -166,4 +167,8 @@ else
         
         makeeftmagcheck(rnds.."", rndtype)
     end)
+end
+
+ARC9EFT.ErgoHook = function(self, orig)
+    return (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) * 0.01 + 0.35 -- so real
 end
