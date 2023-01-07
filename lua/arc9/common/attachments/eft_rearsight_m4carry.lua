@@ -1,6 +1,6 @@
 ATT.PrintName = "AR-15 rear sight carry handle"
 ATT.CompactName = "CARRY"
-ATT.Icon = Material("entities/eft_attachments/ironsights/eft_rearsight_m4carry.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/ironsights/carry.png", "mips smooth")
 ATT.Description = [[Detachable Carry Handle with a rear sight for AR-15. Standard issue for M4A1.]]
 ATT.SortOrder = 1
 
@@ -10,7 +10,6 @@ ATT.Scale = 1
 ATT.Category = {"eft_ar_rearsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-// Allows a custom sight position to be defined
 ATT.Sights = {
     {
         Pos = Vector(0, 7.5, -1.4),
@@ -22,11 +21,6 @@ ATT.Sights = {
 
 ATT.ActivateElements = {"IronsBlockingSight"}
 
-ATT.HoloSight = false
-ATT.HoloSightReticle = Material("arc9/eotech.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 800
-ATT.HoloSightColorable = true
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
