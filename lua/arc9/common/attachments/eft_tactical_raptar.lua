@@ -41,6 +41,7 @@ local text = ""
 local nextcall = CurTime()
 
 ATT.DrawFunc = function(swep, model, wm)
+    if !swep:GetProcessedValue("RAPTAR") then return end
     if !IsValid(swep:GetOwner()) or !swep:GetOwner():IsPlayer() then return end
 
     if CurTime() > nextcall then
@@ -72,6 +73,73 @@ ATT.DrawFunc = function(swep, model, wm)
     cam.End3D2D()
 end
 
+-- screen
+-- s + l
+-- s + l2
+-- s + ir
+-- s + ir + l
+
+ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
+ATT.ToggleStats = {
+    {
+        PrintName = "Screen",
+        RAPTAR = true,
+    },
+    {
+        PrintName = "Laser",
+        RAPTAR = true,
+        Laser = true,
+        LaserStrength = 0.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 1,
+    },    
+    {
+        PrintName = "Laser 2",
+        RAPTAR = true,
+        Laser = true,
+        LaserStrength = 0.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+    },    
+    {
+        PrintName = "IR Light",
+        RAPTAR = true,
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0.05,
+    },
+    {
+        PrintName = "IR + Laser",
+        RAPTAR = true,
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0.05,
+        
+        Laser = true,
+        LaserStrength = 0.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+    },
+    {
+        PrintName = "None",
+    }
+}
+
+
 ATT.Scale = 1
 
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, -0)
