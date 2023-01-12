@@ -163,12 +163,16 @@ else
         local wep = ply:GetActiveWeapon()
         if !IsValid(ply:GetActiveWeapon()) and wep.Trivia then return end
 
-        local rndtype = wep.Trivia.Calibre2 or wep.Trivia.Calibre or "????"
+        local rndtype = wep:GetValue("EFTRoundName") or wep.Trivia.Calibre2 or wep.Trivia.Calibre or "????"
         
+        if rnds == "Empty" then rndtype = "None" end
+
         makeeftmagcheck(rnds.."", rndtype)
     end)
 end
 
+local ergoadsmult = 0.5 -- default eft lvl1 character will be 1 here, but we are going to pretend we have high skill 
+
 ARC9EFT.ErgoHook = function(self, orig)
-    return (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) * 0.01 + 0.35 -- so real
+    return ((100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) * 0.01 + 0.35) * ergoadsmult -- so real
 end

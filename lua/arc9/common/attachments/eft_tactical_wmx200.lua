@@ -26,7 +26,8 @@ ATT.ToggleStats = {
         Flare = true,
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
-        FlareAttachment = 1
+        FlareAttachment = 1,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "IR Light",
@@ -36,7 +37,8 @@ ATT.ToggleStats = {
         FlashlightDistance = 1024,
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
-        FlashlightBrightness = 0.05
+        FlashlightBrightness = 0.05,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "None",

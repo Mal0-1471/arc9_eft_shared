@@ -28,7 +28,8 @@ ATT.ToggleStats = {
         Flare = true,
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
-        FlareAttachment = 1
+        FlareAttachment = 1,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "Light + Laser",
@@ -49,6 +50,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "Red Laser",
@@ -58,6 +60,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
+        SpreadMultHipfire = 0.5,
     },   
     {
         PrintName = "None",

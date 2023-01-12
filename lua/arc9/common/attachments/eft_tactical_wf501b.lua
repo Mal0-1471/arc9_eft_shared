@@ -25,7 +25,8 @@ ATT.ToggleStats = {
         Flare = true,
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
-        FlareAttachment = 1
+        FlareAttachment = 1,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "Light Low",
@@ -38,7 +39,8 @@ ATT.ToggleStats = {
         Flare = true,
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
-        FlareAttachment = 1
+        FlareAttachment = 1,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "None",

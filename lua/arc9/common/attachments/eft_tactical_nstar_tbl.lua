@@ -21,6 +21,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(27, 30, 238),
         LaserAttachment = 1,
+        SpreadMultHipfire = 0.5,
     },   
     {
         PrintName = "None",

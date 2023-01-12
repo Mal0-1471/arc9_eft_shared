@@ -31,7 +31,8 @@ ATT.ToggleStats = {
         Flare = true,
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
-        FlareAttachment = 1
+        FlareAttachment = 1,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "Green Laser",
@@ -41,6 +42,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(31, 172, 18),
         LaserAttachment = 2,
+        SpreadMultHipfire = 0.5,
     },  
     {
         PrintName = "Light + Green Laser",
@@ -61,6 +63,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(31, 172, 18),
         LaserAttachment = 2,
+        SpreadMultHipfire = 0.5,
     }, 
     {
         PrintName = "IR Light",
@@ -70,7 +73,8 @@ ATT.ToggleStats = {
         FlashlightDistance = 1024,
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
-        FlashlightBrightness = 0.05
+        FlashlightBrightness = 0.05,
+        SpreadMultHipfire = 0.5,
     },   
     {
         PrintName = "Red Laser",
@@ -80,6 +84,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
+        SpreadMultHipfire = 0.5,
     },   
     {
         PrintName = "IR + Red Laser",
@@ -97,6 +102,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
+        SpreadMultHipfire = 0.5,
     },
     {
         PrintName = "None",
