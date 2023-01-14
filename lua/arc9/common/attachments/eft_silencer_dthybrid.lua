@@ -7,6 +7,10 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_mount_silencerco_hybrid_46_multi.mdl"
 
+ATT.MuzzleDevice = true
+ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.NoFlash = true
+
 ATT.Category = {"eft_dt_hybrid"}
 
 ATT.Silencer = true

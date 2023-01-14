@@ -7,6 +7,10 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_rotor_43_v2.mdl"
 
+ATT.MuzzleDevice = true
+ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.NoFlash = true
+
 ATT.Category = {"eft_ak101_muzzle", "eft_ar15_muzzle"}
 
 ATT.Silencer = true

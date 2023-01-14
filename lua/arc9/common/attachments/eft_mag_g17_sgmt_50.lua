@@ -5,6 +5,10 @@ ATT.Description = [[A high-capacity 50-round magazine for the Glock family pisto
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTErgoAdd = -19
+ATT.CustomCons = { Ergonomics = "-19" }
+ATT.MalfunctionMeanShotsToFailMult = 0.77
+
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_drum_50.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_drum_50.mdl"
 ATT.ChamberSize = 1

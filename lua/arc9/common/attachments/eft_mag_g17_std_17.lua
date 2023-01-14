@@ -5,6 +5,11 @@ ATT.Description = [[A standard-issue 17-round 9x19 magazine for Glock pistols.]]
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTErgoAdd = -1
+ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
+ATT.CustomCons = { Ergonomics = "-1" }
+-- ATT.MalfunctionMeanShotsToFailMult = 0.85
+
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_std_17.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_std_17.mdl"
 ATT.ChamberSize = 1

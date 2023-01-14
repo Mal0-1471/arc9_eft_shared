@@ -6,7 +6,7 @@ ATT.Description = [[A low-profile mount for installation of the Trijicon RMR ser
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_trijicon_rm33.mdl"
 ATT.Folder = "Reflex/Mounts"
 
-ATT.Category = {"eft_optic_small"}
+ATT.Category = {"eft_optic_small", "eft_optic_micro"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)

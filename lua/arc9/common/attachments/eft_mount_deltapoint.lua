@@ -6,7 +6,7 @@ ATT.Description = [[A universal base for mounting compact sights of the Leupold 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mount/eft_mount_deltapoint.mdl"
 ATT.Folder = "Reflex/Mounts"
 
-ATT.Category = {"eft_optic_small"}
+ATT.Category = {"eft_optic_small", "eft_optic_micro"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)

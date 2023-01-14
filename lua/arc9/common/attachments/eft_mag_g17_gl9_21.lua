@@ -5,6 +5,10 @@ ATT.Description = [[A 21-round GL9 polymer magazine, manufactured by Magpul.]]
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+-- ATT.MalfunctionMeanShotsToFailMult = 0.85
+
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_pmag_21.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_pmag_21.mdl"
 ATT.ChamberSize = 1

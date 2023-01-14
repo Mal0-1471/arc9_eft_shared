@@ -6,7 +6,7 @@ ATT.Description = [[The Aimpoint Micro Standard Mount base for T-1 and H-1 refle
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_aimpoint_h1_t1_weaver.mdl"
 ATT.Folder = "Reflex/Mounts"
 
-ATT.Category = {"eft_optic_small"}
+ATT.Category = {"eft_optic_small", "eft_optic_micro"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
