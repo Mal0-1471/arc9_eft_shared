@@ -1,7 +1,9 @@
 ATT.PrintName = "Trijicon REAP-IR thermal scope"
 ATT.CompactName = "REAP-IR"
 ATT.Icon = Material("entities/eft_attachments/scopes/reapir.png", "mips smooth")
-ATT.Description = [[A versatile thermal imaging telescope/sight. It can be installed on weapons for use in the form of a riflesight, on a helmet - via adapter - as a monocular, and as a separate observation device.]]
+ATT.Description = [[A versatile thermal imaging telescope/sight. It can be installed on weapons for use in the form of a riflesight, on a helmet - via adapter - as a monocular, and as a separate observation device.
+
+! Note: low refresh rate effect was temporarly disabled to not cause glitches on certain maps. I hope better implementation will be implemented some day.]]
 
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/optic_reapir.mdl"
@@ -46,7 +48,7 @@ ATT.Sights = {
                 ["$pp_colour_mulb"] = 0
             },
             RTScopeCustomPPFunc = function(swep)
-                DrawMotionBlur(0.75, 1, 1/35)
+                -- DrawMotionBlur(0.75, 1, 1/35)
                 DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
                 -- DrawSharpen(2, 1)
             end
@@ -81,7 +83,7 @@ ATT.Sights = {
                 ["$pp_colour_mulb"] = 0
             },
             RTScopeCustomPPFunc = function(swep)
-                DrawMotionBlur(0.75, 1, 1/35)
+                -- DrawMotionBlur(0.75, 1, 1/35)
                 DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
                 -- DrawSharpen(2, 1)
             end
@@ -126,7 +128,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
 }
 
 ATT.RTScopeCustomPPFunc = function(swep)
-    DrawMotionBlur(0.95, 1, 1/35)
+    -- DrawMotionBlur(0.95, 1, 1/35)
     DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
     -- DrawSharpen(4, 0.6)
 end

@@ -1,8 +1,9 @@
 ATT.PrintName = "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
 ATT.CompactName = "FLIR RS-32"
 ATT.Icon = Material("entities/eft_attachments/scopes/flir.png", "mips smooth")
-ATT.Description = [[A versatile thermal imaging telescope/sight with many uses and advantages. It can be installed on weapons for use as a sight, or on the helmet as a monocular via an adapter, or as a separate observation device.]]
+ATT.Description = [[A versatile thermal imaging telescope/sight with many uses and advantages. It can be installed on weapons for use as a sight, or on the helmet as a monocular via an adapter, or as a separate observation device.
 
+! Note: low refresh rate effect was temporarly disabled to not cause glitches on certain maps. I hope better implementation will be implemented some day.]]
 ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_flir_rs32.mdl"
 
@@ -67,7 +68,7 @@ ATT.ToggleStats = {
             ["$pp_colour_mulb"] = 0
         },
         RTScopeCustomPPFunc = function(swep)
-            DrawMotionBlur(0.95, 1, 1/21)
+            -- DrawMotionBlur(0.95, 1, 1/21)
             DrawBloom(0.06, 2, 7, 7, 0, 0.1, 1, 0.5, 0.5)
             -- DrawSharpen(4, 0.6)
         end
@@ -111,7 +112,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
 }
 
 ATT.RTScopeCustomPPFunc = function(swep)
-    DrawMotionBlur(0.95, 1, 1/21)
+    -- DrawMotionBlur(0.95, 1, 1/21)
     DrawBloom(0.16, 2, 5.5, 5.5, 0, 0.1, 71/255, 1, 93/255)
 
     -- DrawSharpen(4, 0.6)

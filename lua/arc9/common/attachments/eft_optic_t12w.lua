@@ -1,7 +1,9 @@
 ATT.PrintName = "Torrey Pines Logic T12W 30Hz thermal reflex sight"
 ATT.CompactName = "T12W"
 ATT.Icon = Material("entities/eft_attachments/scopes/t12w.png", "mips smooth")
-ATT.Description = [[A compact termal reflex sight with a low frequency. Manufactured by Torrey Pines Logic.]]
+ATT.Description = [[A compact termal reflex sight with a low frequency. Manufactured by Torrey Pines Logic.
+
+! Note: low refresh rate effect was temporarly disabled to not cause glitches on certain maps. I hope better implementation will be implemented some day.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_torrey_t12w.mdl"
 ATT.Folder = "Special"
@@ -62,7 +64,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
 }
 
 ATT.RTScopeCustomPPFunc = function(swep)
-    DrawMotionBlur(0.85, 1, 1/10)
+    -- DrawMotionBlur(0.85, 1, 1/10)
     DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
     -- DrawSharpen(4, 0.6)
 end
