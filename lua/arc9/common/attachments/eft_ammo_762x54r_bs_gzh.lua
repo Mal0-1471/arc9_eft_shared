@@ -6,6 +6,7 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
+ATT.ActivateElements = {"76254r"}
 
 ATT.EFTRoundName = "7.62x54mm R BS gs"
 
