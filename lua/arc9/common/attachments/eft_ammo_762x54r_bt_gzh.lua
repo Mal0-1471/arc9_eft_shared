@@ -21,6 +21,9 @@ ATT.PenetrationDelta = 87/100
 ATT.ArmorPiercing =    87/100
 ATT.RicochetChance =   26/100
 
+ATT.TracerNum = 1
+ATT.TracerColor = Color(255, 16, 16)
+
 ATT.VisualRecoilMult = 0.96
 ATT.SpreadMult = 1.02
 
