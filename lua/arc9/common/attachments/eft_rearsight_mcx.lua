@@ -9,13 +9,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/rs_sig_mcx.mdl"
 ATT.Category = {"eft_rearsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.Scale = 1
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
-ATT.SprintToFireTimeMult = 0.99
-ATT.AimDownSightsTimeMult = 0.99
-
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then

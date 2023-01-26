@@ -21,6 +21,7 @@ ATT.ArmorPiercing =    55/100
 ATT.RicochetChance =   20/100
 
 ATT.VisualRecoilMult = 1.15
+ATT.RecoilMult = 1.15
 ATT.SpreadMult = 0.95
 
 ATT.DamageLookupTable = {

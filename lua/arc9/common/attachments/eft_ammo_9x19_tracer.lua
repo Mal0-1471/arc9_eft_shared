@@ -21,6 +21,7 @@ ATT.ArmorPiercing =    33/100
 ATT.RicochetChance =   5/100
 
 ATT.VisualRecoilMult = 0.94
+ATT.RecoilMult = 0.94
 ATT.SpreadMult = 1.05
 ATT.TracerNum = 1
 ATT.TracerColor = Color(16, 255, 36)

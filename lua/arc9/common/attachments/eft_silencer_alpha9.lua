@@ -8,6 +8,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_alpha_dog_alpha_9_9x19.mdl"
 
 ATT.VisualRecoilMult = 0.92
+ATT.RecoilMult = 0.92
 ATT.EFTErgoAdd = -13
 ATT.CustomCons = { Ergonomics = "-13" }
 ATT.SpreadMult = 0.98
