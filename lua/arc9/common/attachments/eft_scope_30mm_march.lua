@@ -4,7 +4,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/30mmmarch.png", "mips smoot
 ATT.Description = [[The March Tactical 3-24x42 FFP optical scope is reliable and accurate with ammunition of any power.]]
 ATT.SortOrder = 3
 
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_fullfield_tac30.mdl"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_march_tactical_3.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
