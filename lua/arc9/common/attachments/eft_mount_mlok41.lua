@@ -1,6 +1,6 @@
 ATT.PrintName = "Magpul M-LOK 4.1 inch rail"
 ATT.CompactName = "M-LOK 4.1\""
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/mlok41.png", "mips smooth")
 ATT.Description = [[The Magpul M-LOK 4.1 inch rail allows installation of additional equipment on the handguards with the standard M-LOK interface.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mlok.mdl"

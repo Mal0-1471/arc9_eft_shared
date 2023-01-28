@@ -1,6 +1,6 @@
 ATT.PrintName = "TROY QARS 4.2 inch rail"
 ATT.CompactName = "QARS 4.2\""
-ATT.Icon = Material("entities/eft_attachments/mount/eft_mount_ncstar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/qars4.png", "mips smooth")
 ATT.Description = [[Troy QARS 4.2 inch rail for a Troy industries handguard allows you to install additional equipment.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/qars.mdl"

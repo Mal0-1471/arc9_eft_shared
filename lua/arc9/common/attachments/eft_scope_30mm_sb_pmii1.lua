@@ -1,6 +1,6 @@
 ATT.PrintName = "Schmidt & Bender PM II 1-8x24 30mm riflescope"
 ATT.CompactName = "PM II 1-8x24"
-ATT.Icon = Material("entities/eft_attachments/scopes/30mmpmii18x24.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/34mmpmii312x50.png", "mips smooth")
 ATT.Description = [[The Schmidt & Bender PM II 1-8x24 riflescope was originally created for elite military forces for high-quality target acquisition and pinpoint accuracy.]]
 ATT.SortOrder = 3
 
