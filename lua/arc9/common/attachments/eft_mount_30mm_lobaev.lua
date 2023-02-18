@@ -5,7 +5,7 @@ ATT.Description = [[A universal 30mm optical scope base mount by Lobaev Arms for
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_lobaev_dvl.mdl"
 
-ATT.Category = {"eft_optic_large"}
+ATT.Category = {"eft_optic_large", "eft_mount_lobaev_only"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 

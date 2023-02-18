@@ -6,6 +6,8 @@ ATT.SortOrder = 3
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_march_tactical_3.mdl"
 
+ATT.ExcludeElements = {"eft_rsh12_mag_std"} -- wawa not for rsh12
+
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
