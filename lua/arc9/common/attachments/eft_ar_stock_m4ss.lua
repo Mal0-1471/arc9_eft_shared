@@ -1,35 +1,18 @@
 ATT.PrintName = "High Standard M4SS Stock"
 ATT.CompactName = "M4SS"
-ATT.Description = [[Telescopic High Standard M4SS stock closely follows the classic M4A1 stock except for few geometry details.]]
+ATT.Description = [[The High Standard M4SS telescoping stock closely follows the classic M4A1 stock except for a few geometry details.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/m4ss.png", "mips smooth")
 
-ATT.Icon = Material("entities/eft_attachments/stocks/eft_stock_ar_m4ss.png", "mips smooth")
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_high_standart_m4ss.mdl"
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/stock/eft_ar_stock_m4ss.mdl"
-ATT.Scale = 1
+ATT.HasStock = true
 
-ATT.ExcludeElements = {"pgrip_stock"}
+ATT.RecoilMult = 0.83
+ATT.VisualRecoilMult = 0.83
+
+ATT.EFTErgoAdd = 4
+ATT.CustomPros = { Ergonomics = "+4" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-
--- Stat Multipliers
-
--- Recoil Changes
-
-ATT.RecoilMult = 0.5
-ATT.VisualRecoilMultMult = 0.5
-ATT.VisualRecoilMultSights = 0.5
-
--- Speed and Handling
-
---ATT.SpeedMult = 1
-
-ATT.SwayAdd = -7
-ATT.SprintToFireTimeMult = 0.5
-ATT.AimDownSightsTimeMult = 0.5
-
--- Model Offset
-
-ATT.ModelOffset = Vector(0, 0, -0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
