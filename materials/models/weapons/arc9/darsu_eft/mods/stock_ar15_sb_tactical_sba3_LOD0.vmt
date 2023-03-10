@@ -3,9 +3,9 @@
 
 "VertexLitGeneric"
 {
-	"$basetexture" "models/weapons/arc9_eft_shared/atts/stock/stock_ar15_sb_tactical_sba3_LOD0_diff"
-	"$bumpmap" "models/weapons/arc9_eft_shared/atts/stock/stock_ar15_sb_tactical_sba3_LOD0_nrm"
-	"$phongexponenttexture" "models/weapons/arc9_eft_shared/atts/stock/stock_ar15_sb_tactical_sba3_LOD0_gloss"
+	"$basetexture" "models/weapons/arc9/darsu_eft/mods/stock_ar15_sb_tactical_sba3_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/stock_ar15_sb_tactical_sba3_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/mods/stock_ar15_sb_tactical_sba3_LOD0_gloss"
 
 	"$phong" "1"
 	"$phongboost" "2.5"
