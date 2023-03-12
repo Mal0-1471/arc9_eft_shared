@@ -134,6 +134,38 @@ else
             surface.DrawText(ammotype)
         end
     end
+    
+    local numpanel
+
+    timer.Simple(3, function() 
+        numpanel = vgui.Create("DPanel", GetHUDPanel())
+        numpanel:SetPos(ScrW(), ScrH())
+        numpanel:SetSize(0, 0)
+    end)
+
+    function ARC9EFTdrawnumber(num)
+        num = tostring(num)
+        surface.SetFont("eftammocount")
+        local tw = surface.GetTextSize(num) + ARC9.ScreenScale(10)
+
+        numpanel:SetPos(ScrW() - ARC9.ScreenScale(30) - tw, ScrH() - ARC9.ScreenScale(40))
+        numpanel:SetSize(tw, ARC9.ScreenScale(26))
+        
+        numpanel:AlphaTo(255, 0.3, 0, nil) -- in
+        timer.Create("arc9eftnumpanel", 3, 1, function() numpanel:AlphaTo(0, 0.2, 0, nil) end) -- out
+        
+        numpanel:MoveToBack()
+
+        numpanel.Paint = function(self2, w, h) 
+            surface.SetDrawColor(0, 0, 0, 128)
+            surface.DrawRect(w-tw, 0, tw, h * 0.5)
+            
+            surface.SetFont("eftammocount")
+            surface.SetTextPos(w - tw + ARC9.ScreenScale(5), ARC9.ScreenScale(0.5))
+            surface.SetTextColor(255, 255, 255, 255)
+            surface.DrawText(num)
+        end
+    end
 
     net.Receive("arc9eftjam", function(len)
         local jid = net.ReadUInt(3)
