@@ -3,8 +3,7 @@ ATT.CompactName = "B-13V"
 ATT.Icon = Material("entities/eft_attachments/mount/dt_b13v.png", "mips smooth")
 ATT.Description = [[The B-13 rail platform above receiver mounts on the standard Dovetail joint located on the PP-19-01 "Vityaz". Provides a platform for sighting devices.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
-ATT.ModelBodygroups = "4"
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_zenit_b13v.mdl"
 
 ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
 -- ATT.Category = {"eft_mount_dovetail"}

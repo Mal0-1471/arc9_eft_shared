@@ -3,8 +3,7 @@ ATT.CompactName = "A. Kobra"
 ATT.Icon = Material("entities/eft_attachments/mount/dt_kobra.png", "mips smooth")
 ATT.Description = [[Aluminum mount for mounting sights and various accessories, commonly can be found in the kit with Cobra sights.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
-ATT.ModelBodygroups = "0"
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_aksion_kobra.mdl"
 
 ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -28,7 +27,7 @@ ATT.Attachments = {
         PrintName = "Tactical",
         Category = "eft_tactical_top",
         Pos = Vector(2, -0.5, -1.4),
-        Ang = Angle(-90, 0, 0),
+        Ang = Angle(0, 0, -90),
         Icon_Offset = Vector(0, 0, 0),
     },
 }

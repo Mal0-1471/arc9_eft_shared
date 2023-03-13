@@ -3,8 +3,7 @@ ATT.CompactName = "1P59 mount"
 ATT.Icon = Material("entities/eft_attachments/mount/dt_1p59.png", "mips smooth")
 ATT.Description = [[Universal 1P59 scope base mount for installation on Dovetail mount.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
-ATT.ModelBodygroups = "1"
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_kmz_1p59.mdl"
 
 ATT.ActivateElements = {"nolongrear"}
 ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}

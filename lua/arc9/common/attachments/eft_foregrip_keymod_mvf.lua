@@ -4,6 +4,7 @@ ATT.Description = [[The A3 tactical grip MVF001 A3. The grip was designed specif
 ATT.Icon = Material("entities/eft_attachments/foregrips/mvf001.png", "mips smooth")
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_km_mvf001.mdl"
+ATT.ModelAngleOffset = Angle(0, 0, 90)
 
 ATT.LHIK_Priority = 2
 ATT.LHIK = true

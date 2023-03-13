@@ -8,7 +8,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_reapir.mdl"
 ATT.Folder = "Special"
 
-ATT.Category = {"eft_optic_large"}
+ATT.Category = {"eft_optic_large", "eft_reapir"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)

@@ -4,6 +4,7 @@ ATT.Description = [[Sig Sauer Vertical Foregrip tactical grip for Keymod interfa
 ATT.Icon = Material("entities/eft_attachments/foregrips/kmsig.png", "mips smooth")
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_km_sig.mdl"
+ATT.ModelAngleOffset = Angle(0, 0, 90)
 
 ATT.LHIK_Priority = 2
 ATT.LHIK = true

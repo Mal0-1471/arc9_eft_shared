@@ -3,8 +3,7 @@ ATT.CompactName = "B-13"
 ATT.Icon = Material("entities/eft_attachments/mount/dt_b13.png", "mips smooth")
 ATT.Description = [[The B-13 rail platform mounts on the standard Dovetail mount of the AK 103, 104, 105, 74M, AKMN, Saiga MK, Saiga MK-03, Saiga 410 carbines. Provides a platform for sighting devices.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
-ATT.ModelBodygroups = "3"
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_zenit_b13.mdl"
 
 ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
