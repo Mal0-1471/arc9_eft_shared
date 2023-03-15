@@ -5,6 +5,7 @@ ATT.Description = [[A 12/70 shell loaded with 9 6.5mm buckshot pellets for 12 ga
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
 ATT.DamageOverride = 35
 ATT.Num = 9
 

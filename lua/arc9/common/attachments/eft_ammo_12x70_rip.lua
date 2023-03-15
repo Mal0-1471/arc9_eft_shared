@@ -5,6 +5,7 @@ ATT.Description = [[RIP (Radically Invasive Projectile) ammunition is a devastat
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_rip_shell.mdl"
 ATT.DamageOverride = 265
 ATT.Num = 1
 

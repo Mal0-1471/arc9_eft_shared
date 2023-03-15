@@ -5,6 +5,7 @@ ATT.Description = [[A 12/70 armor-piercing slug shell for 12 gauge shotguns. Des
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_ap_20_shell.mdl"
 ATT.DamageOverride = 164
 ATT.Num = 1
 

@@ -5,6 +5,7 @@ ATT.Description = [[A 12/70 shell loaded with razor-sharp flechettes for 12ga sh
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_flechette_shell.mdl"
 ATT.DamageOverride = 25
 ATT.Num = 8
 

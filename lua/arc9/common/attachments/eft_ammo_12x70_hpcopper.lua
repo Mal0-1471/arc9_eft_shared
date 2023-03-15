@@ -5,6 +5,7 @@ ATT.Description = [[A 12/70 copper solid slug shell for 12 gauge shotguns.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_hp_copper_shell.mdl"
 ATT.DamageOverride = 206
 ATT.Num = 1
 

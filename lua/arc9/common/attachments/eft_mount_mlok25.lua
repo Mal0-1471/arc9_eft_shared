@@ -15,7 +15,8 @@ ATT.ModelAngleOffset = Angle(180, 0, 0)
 ATT.Attachments = {
     {
         PrintName = "Tactical",
-        Category = "eft_tactical_top",
+        Category = "eft_tactical",
+        RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.05, 0.2, -0.37),
         Ang = Angle(90, 90, -90),
         -- Ang = Angle(0, 0, -0),

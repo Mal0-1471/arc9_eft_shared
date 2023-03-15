@@ -5,6 +5,7 @@ ATT.Description = [[A custom-made 12/70 slug shell with a shortened .50 BMG trac
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_50_bmg_m17_traccer_shell.mdl"
 ATT.DamageOverride = 197
 ATT.Num = 1
 
