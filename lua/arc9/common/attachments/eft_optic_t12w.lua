@@ -8,7 +8,7 @@ ATT.Description = [[A compact termal reflex sight with a low frequency. Manufact
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_torrey_t12w.mdl"
 ATT.Folder = "Special"
 
-ATT.Category = {"eft_optic_medium"}
+ATT.Category = {"eft_optic_medium", "eft_t12w"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
