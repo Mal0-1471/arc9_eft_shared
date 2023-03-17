@@ -137,11 +137,11 @@ else
     
     local numpanel
 
-    -- timer.Simple(3, function() 
+    timer.Simple(3, function() 
         numpanel = vgui.Create("DPanel", GetHUDPanel())
         numpanel:SetPos(ScrW(), ScrH())
         numpanel:SetSize(0, 0)
-    -- end)
+    end)
 
     function ARC9EFTdrawnumber(num)
         num = tostring(num)
