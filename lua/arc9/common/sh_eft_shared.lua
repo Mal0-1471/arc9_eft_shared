@@ -137,11 +137,11 @@ else
     
     local numpanel
 
-    timer.Simple(3, function() 
+    -- timer.Simple(3, function() 
         numpanel = vgui.Create("DPanel", GetHUDPanel())
         numpanel:SetPos(ScrW(), ScrH())
         numpanel:SetSize(0, 0)
-    end)
+    -- end)
 
     function ARC9EFTdrawnumber(num)
         num = tostring(num)
@@ -149,7 +149,7 @@ else
         local tw = surface.GetTextSize(num) + ARC9.ScreenScale(10)
 
         numpanel:SetPos(ScrW() - ARC9.ScreenScale(30) - tw, ScrH() - ARC9.ScreenScale(40))
-        numpanel:SetSize(tw, ARC9.ScreenScale(26))
+        numpanel:SetSize(tw, ARC9.ScreenScale(28))
         
         numpanel:AlphaTo(255, 0.3, 0, nil) -- in
         timer.Create("arc9eftnumpanel", 3, 1, function() numpanel:AlphaTo(0, 0.2, 0, nil) end) -- out

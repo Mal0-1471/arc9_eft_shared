@@ -30,6 +30,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/4,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
 }
 
@@ -86,6 +89,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/24,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("24x") end
+        end,
     },
     {
         Pos = Vector(0, 14.2, 0),
@@ -93,6 +99,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/14,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("14x") end
+        end,
     },
     {
         Pos = Vector(0, 14.2, 0),
@@ -100,6 +109,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/3,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3x") end
+        end,
     },
 }
 
@@ -155,6 +167,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/20,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("20x") end
+        end,
     },
     {
         Pos = Vector(0, 12.6, 0),
@@ -162,6 +177,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/6.5,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("6.5x") end
+        end,
     },
 }
 
@@ -215,6 +233,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/6,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("6x") end
+        end,
     },
     {
         Pos = Vector(0, 12.9, 0),
@@ -222,6 +243,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
 }
 
@@ -279,6 +303,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/8,
         Reticle = Reticle1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("8x") end
+        end,
     },
     {
         Pos = Vector(0, 16.15, 0),
@@ -287,6 +314,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/1,
         Reticle = Reticle0,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
 }
 
@@ -340,6 +370,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/4,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
     {
         Pos = Vector(0, 12.8, 0),
@@ -347,6 +380,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
 }
 
@@ -404,6 +440,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/8,
         Reticle = Reticle1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("8x") end
+        end,
     },
     {
         Pos = Vector(0, 13.9, 0),
@@ -412,6 +451,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/1,
         Reticle = Reticle0,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
 }
 
@@ -467,6 +509,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/16,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("16x") end
+        end,
     },
     {
         Pos = Vector(0, 13.3, 0),
@@ -474,6 +519,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/7,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("7x") end
+        end,
     },
 }
 
@@ -527,6 +575,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/16,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("16x") end
+        end,
     },
     {
         Pos = Vector(0, 11.6, 0),
@@ -534,6 +585,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/4,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
 }
 
@@ -591,6 +645,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/12,
         Reticle = Reticle1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("12x") end
+        end,
     },
     {
         Pos = Vector(0, 13.2, 0),
@@ -599,6 +656,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/3,
         Reticle = Reticle0,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3x") end
+        end,
     },
 }
 
@@ -656,6 +716,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/25,
         Reticle = Reticle1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("25x") end
+        end,
     },
     {
         Pos = Vector(0, 11.9, 0),
@@ -664,6 +727,9 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/5,
         Reticle = Reticle0,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("5x") end
+        end,
     },
 }
 
@@ -718,7 +784,10 @@ ATT.Sights = {
         Pos = Vector(0, 7.6, -1.34),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 36
+        ViewModelFOV = 36,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
 }
 
@@ -785,7 +854,10 @@ ATT.Sights = {
         Pos = Vector(0, 7.6, -1.34),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 36
+        ViewModelFOV = 36,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
 }
 
@@ -850,6 +922,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/3.5,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3.5x") end
+        end,
     },
 }
 
@@ -899,6 +974,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/3,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3x") end
+        end,
     },
     {
         Pos = Vector(0, 9.0, -1.577),
@@ -906,13 +984,19 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/9,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("9x") end
+        end,
     },
     {
         Pos = Vector(0, 9.5, -3.23),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 60,
         ShadowPos = Vector(0,0,3),
-        Disassociate = true
+        Disassociate = true,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
 }
 
@@ -967,6 +1051,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/4,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
 }
 
@@ -1085,7 +1172,10 @@ ATT.Sights = {
         Pos = Vector(0, 5.5, -1.3),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 38
+        ViewModelFOV = 38,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("2.8x") end
+        end,
     },
 }
 
@@ -1704,6 +1794,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/4,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
     {
         Pos = Vector(0, 8.0, -1.567),
@@ -1711,6 +1804,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
     {
         Pos = Vector(0, 8, -2.71),
@@ -1774,6 +1870,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/4,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("4x") end
+        end,
     },
     {
         Pos = Vector(0, 8.0, -1.567),
@@ -1781,6 +1880,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
     {
         Pos = Vector(0, 8, -2.71),
@@ -1847,6 +1949,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/2.25,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("2.25x") end
+        end,
         Reticle = Reticle0,
     },
     {
@@ -1855,6 +1960,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/9,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("9x") end
+        end,
         Reticle = Reticle1,
     },
 }
@@ -2047,6 +2155,9 @@ ATT.Sights = {
         ViewModelFOV = 38,
         Reticle = Reticle0,
         RTScopeFOV = 38/3,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3x") end
+        end,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2055,6 +2166,9 @@ ATT.Sights = {
         ViewModelFOV = 38,
         Reticle = Reticle1,
         RTScopeFOV = 38/10,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("10x") end
+        end,
     },
 }
 
@@ -2132,6 +2246,9 @@ ATT.Sights = {
         ViewModelFOV = 38,
         Reticle = Reticle0,
         RTScopeFOV = 38/3,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3x") end
+        end,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2140,6 +2257,9 @@ ATT.Sights = {
         ViewModelFOV = 38,
         Reticle = Reticle1,
         RTScopeFOV = 38/10,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("10x") end
+        end,
     },
 }
 
@@ -2469,6 +2589,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
     },
     {
         Pos = Vector(0, 8.0, -1.496),
@@ -2476,6 +2599,9 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/6,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("6x") end
+        end,
     },
 }
 
