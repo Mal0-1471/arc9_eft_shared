@@ -14,8 +14,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_50_bmg_m17_traccer_shell.mdl"
-ATT.DamageOverride = 197
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 makeshift .50 BMG slug"
+
+ATT.DamageMax = 197/2
+ATT.DamageMin = 163/2
+ATT.PhysBulletMuzzleVelocity = 410 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      26 *2.54/100/0.0254
+ATT.PenetrationDelta = 57/100
+ATT.ArmorPiercing =    57/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+ATT.RecoilMult = 1.25
+ATT.VisualRecoilMult = 1.25
+ATT.SpreadMult = 0.1
+ATT.HeatPerShotMult = 2
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -36,8 +56,26 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
-ATT.DamageOverride = 37
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 5.25mm buckshot"
+
+ATT.DamageMax = 37/2
+ATT.DamageMin = 28.3/2
+ATT.PhysBulletMuzzleVelocity = 330 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 100 /0.0254
+
+ATT.Penetration =      1 *2.54/100/0.0254
+ATT.PenetrationDelta = 15/100
+ATT.ArmorPiercing =    15/100
+ATT.RicochetChance =   0
+
 ATT.Num = 8
+-- ATT.VisualRecoilMult = 1.25
+-- ATT.SpreadMult = 0.1
 
 ATT.ActivateElements = {"eft_ammo_12x70_std"}
 ATT.Category = {"eft_ammo_12x70"}
@@ -59,8 +97,26 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
-ATT.DamageOverride = 39
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 7mm buckshot"
+
+ATT.DamageMax = 39/2
+ATT.DamageMin = 24.57/2
+ATT.PhysBulletMuzzleVelocity = 415 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 100 /0.0254
+
+ATT.Penetration =      3 *2.54/100/0.0254
+ATT.PenetrationDelta = 26/100
+ATT.ArmorPiercing =    26/100
+ATT.RicochetChance =   0
+
 ATT.Num = 8
+-- ATT.VisualRecoilMult = 1.25
+-- ATT.SpreadMult = 0.1
 
 ATT.ActivateElements = {"eft_ammo_12x70_std"}
 ATT.Category = {"eft_ammo_12x70"}
@@ -82,8 +138,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_ap_20_shell.mdl"
-ATT.DamageOverride = 164
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 AP-20 armor-piercing slug"
+
+ATT.DamageMax = 164/2
+ATT.DamageMin = 121.67/2
+ATT.PhysBulletMuzzleVelocity = 510 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      37 *2.54/100/0.0254
+ATT.PenetrationDelta = 65/100
+ATT.ArmorPiercing =    65/100
+ATT.RicochetChance =   10/100
+ATT.HeatPerShotMult = 2.2
+
 ATT.Num = 1
+ATT.RecoilMult = 1.5
+ATT.VisualRecoilMult = 1.5
+ATT.SpreadMult = 0.2
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -104,8 +180,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_dual_sabot_slug_shell.mdl"
-ATT.DamageOverride = 85
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 Dual Sabot slug"
+
+ATT.DamageMax = 85/2
+ATT.DamageMin = 49/2
+ATT.PhysBulletMuzzleVelocity = 415 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      17 *2.54/100/0.0254
+ATT.PenetrationDelta = 65/100
+ATT.ArmorPiercing =    65/100
+ATT.RicochetChance =   10/100
+ATT.HeatPerShotMult = 1.5
+
 ATT.Num = 2
+ATT.RecoilMult = 1.15
+ATT.VisualRecoilMult = 1.15
+ATT.SpreadMult = 0.1
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -126,8 +222,27 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
-ATT.DamageOverride = 35
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 6.5mm Express buckshot"
+
+ATT.DamageMax = 35/2
+ATT.DamageMin = 25/2
+ATT.PhysBulletMuzzleVelocity = 430 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 100 /0.0254
+
+ATT.Penetration =      3 *2.54/100/0.0254
+ATT.PenetrationDelta = 26/100
+ATT.ArmorPiercing =    26/100
+ATT.RicochetChance =   0
+
 ATT.Num = 9
+-- ATT.RecoilMult = 1.15
+-- ATT.VisualRecoilMult = 1.25
+ATT.SpreadMult = 0.85
 
 ATT.ActivateElements = {"eft_ammo_12x70_std"}
 ATT.Category = {"eft_ammo_12x70"}
@@ -149,8 +264,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_flechette_shell.mdl"
-ATT.DamageOverride = 25
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 flechette"
+
+ATT.DamageMax = 25/2
+ATT.DamageMin = 24/2
+ATT.PhysBulletMuzzleVelocity = 320 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 100 /0.0254
+
+ATT.Penetration =      31 *2.54/100/0.0254
+ATT.PenetrationDelta = 26/100
+ATT.ArmorPiercing =    26/100
+ATT.RicochetChance =   0/100
+
 ATT.Num = 8
+-- ATT.RecoilMult = 1.15
+-- ATT.VisualRecoilMult = 1.25
+ATT.SpreadMult = 1.1
+ATT.HeatPerShotMult = 1.6
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -171,8 +306,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_ftx_custom_lite_shell.mdl"
-ATT.DamageOverride = 183
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 FTX Custom Lite slug"
+
+ATT.DamageMax = 183/2
+ATT.DamageMin = 123.7/2
+ATT.PhysBulletMuzzleVelocity = 480 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      20 *2.54/100/0.0254
+ATT.PenetrationDelta = 50/100
+ATT.ArmorPiercing =    50/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+ATT.RecoilMult = 0.75
+ATT.VisualRecoilMult = 0.75
+ATT.SpreadMult = 0.05
+ATT.HeatPerShotMult = 1.5
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -193,8 +348,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_grizzly_40_shell.mdl"
-ATT.DamageOverride = 190
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 Grizzly 40 slug"
+
+ATT.DamageMax = 190/2
+ATT.DamageMin = 138.7/2
+ATT.PhysBulletMuzzleVelocity = 390 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      12 *2.54/100/0.0254
+ATT.PenetrationDelta = 48/100
+ATT.ArmorPiercing =    48/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+ATT.RecoilMult = 1.2
+ATT.VisualRecoilMult = 1.2
+ATT.SpreadMult = 0.2
+ATT.HeatPerShotMult = 1.5
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -215,8 +390,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_hp_copper_shell.mdl"
-ATT.DamageOverride = 206
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 Copper Sabot Premier HP slug"
+
+ATT.DamageMax = 206/2
+ATT.DamageMin = 123.5/2
+ATT.PhysBulletMuzzleVelocity = 442 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      14 *2.54/100/0.0254
+ATT.PenetrationDelta = 46/100
+ATT.ArmorPiercing =    46/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+ATT.RecoilMult = 1.1
+ATT.VisualRecoilMult = 1.1
+ATT.SpreadMult = 0.04
+ATT.HeatPerShotMult = 1.5
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -237,8 +432,27 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
-ATT.DamageOverride = 50
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 8.5mm Magnum buckshot"
+
+ATT.DamageMax = 50/2
+ATT.DamageMin = 36.1/2
+ATT.PhysBulletMuzzleVelocity = 385 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 100 /0.0254
+
+ATT.Penetration =      2 *2.54/100/0.0254
+ATT.PenetrationDelta = 26/100
+ATT.ArmorPiercing =    26/100
+ATT.RicochetChance =   0/100
+
 ATT.Num = 8
+-- ATT.RecoilMult = 1.15
+-- ATT.VisualRecoilMult = 1.25
+ATT.SpreadMult = 0.85
 
 ATT.ActivateElements = {"eft_ammo_12x70_std"}
 ATT.Category = {"eft_ammo_12x70"}
@@ -260,8 +474,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_poleva_3_shell.mdl"
-ATT.DamageOverride = 140
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 \"Poleva-3\" slug"
+
+ATT.DamageMax = 140/2
+ATT.DamageMin = 88/2
+ATT.PhysBulletMuzzleVelocity = 410 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      17 *2.54/100/0.0254
+ATT.PenetrationDelta = 40/100
+ATT.ArmorPiercing =    40/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+ATT.RecoilMult = 0.85
+ATT.VisualRecoilMult = 0.85
+ATT.SpreadMult = 0.09
+ATT.HeatPerShotMult = 1.5
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -282,8 +516,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_poleva_6u_shell.mdl"
-ATT.DamageOverride = 150
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 \"Poleva-6u\" slug"
+
+ATT.DamageMax = 150/2
+ATT.DamageMin = 84.7/2
+ATT.PhysBulletMuzzleVelocity = 430 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      20 *2.54/100/0.0254
+ATT.PenetrationDelta = 50/100
+ATT.ArmorPiercing =    50/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+ATT.RecoilMult = 0.9
+ATT.VisualRecoilMult = 0.9
+ATT.SpreadMult = 0.085
+ATT.HeatPerShotMult = 1.6
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -304,8 +558,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_rip_shell.mdl"
-ATT.DamageOverride = 265
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 RIP"
+
+ATT.DamageMax = 265/2
+ATT.DamageMin = 150.19/2
+ATT.PhysBulletMuzzleVelocity = 410 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      2 *2.54/100/0.0254
+ATT.PenetrationDelta = 11/100
+ATT.ArmorPiercing =    11/100
+ATT.RicochetChance =   1/100
+
 ATT.Num = 1
+ATT.RecoilMult = 1.1
+ATT.VisualRecoilMult = 1.1
+ATT.SpreadMult = 0.04
+ATT.HeatPerShotMult = 1.6
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -326,8 +600,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_slug_shell.mdl"
-ATT.DamageOverride = 167
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 lead slug"
+
+ATT.DamageMax = 167/2
+ATT.DamageMin = 107.7/2
+ATT.PhysBulletMuzzleVelocity = 370 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      15 *2.54/100/0.0254
+ATT.PenetrationDelta = 55/100
+ATT.ArmorPiercing =    55/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+-- ATT.RecoilMult = 1.1
+-- ATT.VisualRecoilMult = 1.1
+ATT.SpreadMult = 0.085
+ATT.HeatPerShotMult = 1.5
 
 ATT.Category = {"eft_ammo_12x70"}
 
@@ -348,8 +642,28 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_superformance_shell.mdl"
-ATT.DamageOverride = 220
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 SuperFormance HP slug"
+
+ATT.DamageMax = 220/2
+ATT.DamageMin = 144.2/2
+ATT.PhysBulletMuzzleVelocity = 594 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254
+
+ATT.Penetration =      5 *2.54/100/0.0254
+ATT.PenetrationDelta = 12/100
+ATT.ArmorPiercing =    12/100
+ATT.RicochetChance =   10/100
+
 ATT.Num = 1
+ATT.RecoilMult = 0.85
+ATT.VisualRecoilMult = 0.85
+ATT.SpreadMult = 0.05
+ATT.HeatPerShotMult = 1.2
 
 ATT.Category = {"eft_ammo_12x70"}
 
