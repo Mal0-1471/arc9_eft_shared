@@ -1718,6 +1718,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+ATT.EFTErgoAdd = 3
+ATT.CustomPros = { Ergonomics = "+3" }
+
 
 
 ARC9.LoadAttachment(ATT, "eft_aux_ekp_shade")

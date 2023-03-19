@@ -15,6 +15,12 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_12g_silencerco_salvo_adaper_12g.mdl"
 
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.SpreadMult = 0.99
+ATT.HeatCapacityMult = 0.987
+ATT.PhysBulletMuzzleVelocityMult = 1.0025
+
 ATT.Category = {"eft_saiga12_muzzle"}
 
 ATT.Attachments = {
@@ -45,20 +51,16 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_saiga12_css_monster_caw_large_12g.mdl"
 
--- ATT.VisualRecoilMult = 0.93
--- ATT.RecoilMult = 0.93
--- ATT.EFTErgoAdd = -15
--- ATT.CustomCons = { Ergonomics = "-15" }
--- ATT.SpreadMult = 0.98
--- ATT.PhysBulletMuzzleVelocityMult = 1.015
--- ATT.HeatCapacityAdd = -62*0.5
+
+ATT.EFTErgoAdd = -5
+ATT.CustomCons = { Ergonomics = "-5" }
+ATT.RecoilMult = 0.76
+ATT.VisualRecoilMult = 0.76
+ATT.HeatCapacityMult = 0.98
 
 ATT.MuzzleDevice = true
--- ATT.MuzzleParticle = "muzzleflash_suppressed"
--- ATT.NoFlash = true
 ATT.BarrelLengthAdd = 2
 
--- ATT.Silencer = true
 
 ATT.Category = {"eft_saiga12_muzzle", "eft_12k_cylinder"}
 
@@ -80,20 +82,16 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_12g_red_heat_gk-02_12g.mdl"
 
--- ATT.VisualRecoilMult = 0.93
--- ATT.RecoilMult = 0.93
--- ATT.EFTErgoAdd = -15
--- ATT.CustomCons = { Ergonomics = "-15" }
--- ATT.SpreadMult = 0.98
--- ATT.PhysBulletMuzzleVelocityMult = 1.015
--- ATT.HeatCapacityAdd = -62*0.5
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.86
+ATT.VisualRecoilMult = 0.86
+ATT.HeatCapacityMult = 0.983
+ATT.PhysBulletMuzzleVelocityMult = 1.0025
 
 ATT.MuzzleDevice = true
--- ATT.MuzzleParticle = "muzzleflash_suppressed"
--- ATT.NoFlash = true
 ATT.BarrelLengthAdd = 2
 
--- ATT.Silencer = true
 
 ATT.Category = {"eft_saiga12_muzzle", "eft_12k_cylinder"}
 
@@ -115,13 +113,15 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_12g_hexagon_12k.mdl"
 
--- ATT.VisualRecoilMult = 0.93
--- ATT.RecoilMult = 0.93
--- ATT.EFTErgoAdd = -15
--- ATT.CustomCons = { Ergonomics = "-15" }
--- ATT.SpreadMult = 0.98
--- ATT.PhysBulletMuzzleVelocityMult = 1.015
--- ATT.HeatCapacityAdd = -62*0.5
+
+ATT.EFTErgoAdd = -27
+ATT.CustomCons = { Ergonomics = "-27" }
+ATT.RecoilMult = 0.84
+ATT.VisualRecoilMult = 0.84
+ATT.SpreadMult = 1.01
+ATT.HeatCapacityMult = 1.18
+ATT.PhysBulletMuzzleVelocityMult = 1.0075
+
 
 ATT.MuzzleDevice = true
 ATT.MuzzleParticle = "muzzleflash_suppressed"
@@ -150,13 +150,15 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_silencerco_salvo_12g.mdl"
 
--- ATT.VisualRecoilMult = 0.93
--- ATT.RecoilMult = 0.93
--- ATT.EFTErgoAdd = -15
--- ATT.CustomCons = { Ergonomics = "-15" }
--- ATT.SpreadMult = 0.98
--- ATT.PhysBulletMuzzleVelocityMult = 1.015
--- ATT.HeatCapacityAdd = -62*0.5
+
+ATT.EFTErgoAdd = -28
+ATT.CustomCons = { Ergonomics = "-28" }
+ATT.RecoilMult = 0.82
+ATT.VisualRecoilMult = 0.82
+ATT.SpreadMult = 0.93
+ATT.HeatCapacityMult = 1.18
+ATT.PhysBulletMuzzleVelocityMult = 1.0075
+
 
 ATT.MuzzleDevice = true
 ATT.MuzzleParticle = "muzzleflash_suppressed"

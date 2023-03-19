@@ -206,8 +206,7 @@ ATT.CompactName = "043-02"
 ATT.Icon = Material("entities/eft_attachments/mount/dt_pilad.png", "mips smooth")
 ATT.Description = [[Aluminium sight support with Picatinny rail mount for installation of scopes and accessories.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/dovetail.mdl"
-ATT.ModelBodygroups = "2"
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_pilad.mdl"
 
 ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"

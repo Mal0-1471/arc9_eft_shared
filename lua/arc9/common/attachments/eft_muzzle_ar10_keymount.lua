@@ -14,5 +14,12 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
 
+ATT.EFTErgoAdd = -1.5
+ATT.CustomCons = { Ergonomics = "-1.5" }
+ATT.RecoilMult = 0.895
+ATT.VisualRecoilMult = 0.895
+ATT.SpreadMult = 0.97
+ATT.HeatCapacityMult = 0.987
+
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)

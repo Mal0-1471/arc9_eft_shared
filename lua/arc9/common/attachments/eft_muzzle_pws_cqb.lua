@@ -7,4 +7,11 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/muzzle_ar15_pws_cqb_556x45.mdl"
 
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+ATT.RecoilMult = 0.88
+ATT.VisualRecoilMult = 0.88
+ATT.HeatCapacityMult = 0.989
+ATT.PhysBulletMuzzleVelocityMult = 1.005
+
 ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle"}
