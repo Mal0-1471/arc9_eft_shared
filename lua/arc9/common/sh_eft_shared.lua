@@ -203,8 +203,12 @@ else
     end)
 end
 
-local ergoadsmult = 0.5 -- default eft lvl1 character will be 1 here, but we are going to pretend we have high skill 
+local ergoadsmult = 0.65 -- default eft lvl1 character will be 1 here, but we are going to pretend we have high skill 
 
 ARC9EFT.ErgoHook = function(self, orig)
     return ((100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) * 0.01 + 0.35) * ergoadsmult -- so real
+end
+
+ARC9EFT.ErgoBreathHook = function(self, orig)
+    return orig - (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) / 3
 end
