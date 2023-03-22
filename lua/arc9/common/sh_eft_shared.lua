@@ -212,3 +212,10 @@ end
 ARC9EFT.ErgoBreathHook = function(self, orig)
     return orig - (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) / 3
 end
+
+ARC9EFT.ErgoAdsVolume = function(self, data)
+    if data.name == "exitsights" or data.name == "entersights" then
+        data.volume = 0.75 * (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) / 100 -- real tarball
+    end
+    return data
+end
