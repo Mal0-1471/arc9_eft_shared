@@ -17,8 +17,8 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fs_a2.mdl"
 ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.SprintToFireTimeMult = 0.99
-ATT.AimDownSightsTimeMult = 0.99
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.ModelOffset = Vector(0, 0, -0)

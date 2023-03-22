@@ -608,7 +608,7 @@ ATT = {}
 
 ATT.PrintName = "KMZ 1P59 scope eyecup"
 ATT.CompactName = "Eyecup"
-ATT.Icon = Material("entities/eft_attachments/mount/??.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/usp1cup.png", "mips smooth") -- wrong icon but i do not care
 ATT.Description = [[Rubber eyecup for KMZ 1P59 scope.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_eyecup.mdl"

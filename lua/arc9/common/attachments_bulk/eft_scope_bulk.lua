@@ -2135,7 +2135,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_1p59.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_optic_kmz"}
-ATT.Folder = "Scopes"
+-- ATT.Folder = "Scopes"
 
 
 
@@ -2145,7 +2145,9 @@ ATT.CustomCons = { Ergonomics = "-8" }
 ATT.FoldSights = true
 
 local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_3x.png", "mips smooth")
-local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_10x_nv.png", "mips smooth")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_3x_nv.png", "mips smooth")
+local Reticle2 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_10x.png", "mips smooth")
+local Reticle3 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_10x_nv.png", "mips smooth")
 
 ATT.Sights = {
     {
@@ -2165,12 +2167,35 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 38,
         Reticle = Reticle1,
+        RTScopeFOV = 38/3,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3x") end
+        end,
+    },
+    {
+        Pos = Vector(0, 11.9, 0.03),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        Reticle = Reticle2,
+        RTScopeFOV = 38/10,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("10x") end
+        end,
+    },
+    {
+        Pos = Vector(0, 11.9, 0.03),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        Reticle = Reticle3,
         RTScopeFOV = 38/10,
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("10x") end
         end,
     },
 }
+
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
@@ -2227,7 +2252,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_1p69.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_optic_kmz"}
-ATT.Folder = "Scopes"
+-- ATT.Folder = "Scopes"
 
 
 ATT.EFTErgoAdd = -8
@@ -2236,7 +2261,9 @@ ATT.CustomCons = { Ergonomics = "-8" }
 ATT.FoldSights = true
 
 local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_3x.png", "mips smooth")
-local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_10x_nv.png", "mips smooth")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_3x_nv.png", "mips smooth")
+local Reticle2 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_10x.png", "mips smooth")
+local Reticle3 = Material("vgui/arc9_eft_shared/reticles/scope_base_kmz_1p59_3_10x_mark_10x_nv.png", "mips smooth")
 
 ATT.Sights = {
     {
@@ -2256,6 +2283,28 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 38,
         Reticle = Reticle1,
+        RTScopeFOV = 38/3,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3x") end
+        end,
+    },
+    {
+        Pos = Vector(0, 11.9, 0.03),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        Reticle = Reticle2,
+        RTScopeFOV = 38/10,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("10x") end
+        end,
+    },
+    {
+        Pos = Vector(0, 11.9, 0.03),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        Reticle = Reticle3,
         RTScopeFOV = 38/10,
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("10x") end
