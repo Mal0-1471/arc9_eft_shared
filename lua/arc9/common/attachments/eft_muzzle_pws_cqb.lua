@@ -1,6 +1,6 @@
 ATT.PrintName = "PWS CQB 5.56x45 muzzle brake"
 ATT.CompactName = "PWS CQB"
-ATT.Icon = Material("entities/eft_attachments/stocks/eft_stock_ar_magpulmoe.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/muzzles/pwscqb.png", "mips smooth")
 ATT.Description = [[The PWS CQB 5.56x45mm muzzle brake is designed specifically for compact arms and use in confined spaces.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"

@@ -1,6 +1,6 @@
 ATT.PrintName = "Rotor 43 5.56x45 muzzle brake-compensator"
 ATT.CompactName = "R43 556"
-ATT.Icon = Material("entities/eft_attachments/stocks/eft_stock_ar_magpulmoe.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/muzzles/rotor.png", "mips smooth")
 ATT.Description = [[The Rotor 43 muzzle brake is designed for installation on AR- or AK- based 5.56x45 rifles. Although positioned as a muzzle brake, it also works as a sound suppressor.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
