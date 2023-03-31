@@ -542,12 +542,12 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.Attachments = {
     {
         PrintName = "Optic",
-        Category = "eft_optic_small",
+        Category = {"eft_optic_small", "eft_t12w"},
         Pos = Vector(0, 0.85, -0.2),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 45),
         Icon_Offset = Vector(0, 0, 1),
-        ExtraSightDistance = 8
+        ExtraSightDistance = 4
     },
 }
 
@@ -691,6 +691,38 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_mount_rm35")
+
+///////////////////////////////////////      eft_mount_acogrs
+
+
+ATT = {}
+
+ATT.PrintName = "Trijicon ACOG backup rear sight"
+ATT.CompactName = "Trij.Bck-up"
+ATT.Icon = Material("entities/eft_attachments/mount/acogbackup.png", "mips smooth")
+ATT.Description = [[Removable backup sight, installed on the ACOG scope.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/sight_rear_acog_trijicon_acog_backup_rear_sight.mdl"
+
+ATT.Category = {"eft_backup_ta01"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+ATT.Sights = {
+    {
+        Pos = Vector(0, 5.5, -1.07),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.1,
+        ViewModelFOV = 54,
+        -- IsIronSight = true
+    }
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_acogrs")
 
 
 ///////////////////////////////////////      eft_mount_romeo
