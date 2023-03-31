@@ -121,8 +121,8 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.Attachments = {
     {
         PrintName = "Grip",
-        Category = {"eft_foregrip_small"},
-        Pos = Vector(-0, -0.32, 0),
+        Category = {"eft_foregrip_small","eft_foregrip_large"},
+        Pos = Vector(0.75, -0.32, 0),
         Ang = Angle(0, 0, 90),
         Icon_Offset = Vector(0, 0, -1),
     },
@@ -178,7 +178,7 @@ ATT.Description = [[Vltor CASV guide for KeyMod 4 inch system allows you to inst
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymod.mdl"
 ATT.ModelBodygroups = "3"
 
-ATT.Category = {"eft_mount_keymod"}
+ATT.Category = {"eft_mount_keymod","eft_mount_keymod_casv4"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)

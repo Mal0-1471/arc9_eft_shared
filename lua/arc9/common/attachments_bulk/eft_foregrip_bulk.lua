@@ -516,8 +516,8 @@ ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
-ATT.ModelAngleOffset = Angle(180, -90, 0)
-ATT.ModelOffset = Vector(1.75, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 90)
+ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
@@ -547,8 +547,8 @@ ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
-ATT.ModelAngleOffset = Angle(180, -90, 0)
-ATT.ModelOffset = Vector(1.75, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 90)
+ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
@@ -578,8 +578,8 @@ ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
-ATT.ModelAngleOffset = Angle(180, -90, 0)
-ATT.ModelOffset = Vector(1.75, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 90)
+ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
@@ -609,8 +609,8 @@ ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
-ATT.ModelAngleOffset = Angle(180, -90, 0)
-ATT.ModelOffset = Vector(1.75, 0, 0)
+ATT.ModelAngleOffset = Angle(0, 0, 90)
+ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
