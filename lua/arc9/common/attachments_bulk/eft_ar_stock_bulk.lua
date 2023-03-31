@@ -12,10 +12,7 @@ ATT.Description = [[A wooden SVD-style stock for ADAR 2-15 carbines.]]
 
 ATT.Icon = Material("entities/eft_attachments/stocks/eft_stock_ar_adar.png", "mips smooth")
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/stock/eft_ar_stock_adar.mdl"
-ATT.WorldModel = "models/weapons/arc9_eft_shared/atts/stock/eft_ar_stock_adar.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_adar_wood_v1.mdl"
 
 ATT.ActivateElements = {"pgrip_stock"}
 
@@ -23,29 +20,9 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgripstock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
--- Stat Multipliers
-
--- Recoil Changes
-
-ATT.RecoilMult = 0.51
-ATT.VisualRecoilMultMult = 0.51
-ATT.VisualRecoilMultSights = 0.5
-
--- Speed and Handling
-
-ATT.SpeedMult = 0.85
-
-ATT.SwayAdd = -6
-ATT.SprintToFireTimeMult = 0.45
-ATT.AimDownSightsTimeMult = 0.45
 
 ATT.HasGrip = true
 
-ATT.Attachments = {
- 
-}
-
--- test
 
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_adar")
@@ -405,39 +382,15 @@ ATT.Description = [[Designed for the cilvilian market as well as for military us
 
 ATT.Icon = Material("entities/eft_attachments/stocks/eft_stock_ar_heracqr.png", "mips smooth")
 
-ATT.Scale = 1
-ATT.Model = "models/weapons/arc9_eft_shared/atts/stock/eft_ar_stock_heracqr.mdl"
-ATT.WorldModel = "models/weapons/arc9_eft_shared/atts/stock/eft_ar_stock_heracqr.mdl"
-ATT.ModelOffset = Vector(0, 0, 0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_hera_arms_cqr.mdl"
 ATT.ActivateElements = {"pgrip_stock"}
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgripstock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
--- Stat Multipliers
-
--- Recoil Changes
-
-ATT.RecoilMult = 0.46
-ATT.VisualRecoilMultMult = 0.46
-ATT.VisualRecoilMultSights = 0.5
-
--- Speed and Handling
-
-ATT.SpeedMult = 0.85
-
-ATT.SwayAdd = -6.5
-ATT.SprintToFireTimeMult = 0.4
-ATT.AimDownSightsTimeMult = 0.4
-
 ATT.HasGrip = true
 
-ATT.Attachments = {
- 
-}
 
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_heracqr")

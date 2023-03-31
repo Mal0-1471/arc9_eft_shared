@@ -75,7 +75,7 @@ ARC9.LoadAttachment(ATT, "eft_mount_mlok41")
 ATT = {}
 
 ATT.PrintName = "Magpul M-LOK Cantilever Mount"
-ATT.CompactName = "M-LOK 2.5\""
+ATT.CompactName = "M-LOK RL"
 ATT.Icon = Material("entities/eft_attachments/mount/mlokcanti.png", "mips smooth")
 ATT.Description = [[The Magpul M-LOK Cantilever mount allows installation of additional equipment on the handguards with the standard M-LOK interface.]]
 
@@ -102,4 +102,73 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_mount_mlokcanti")
+
+
+///////////////////////////////////////      eft_mount_mlokoffset
+
+
+ATT = {}
+
+ATT.PrintName = "Magpul M-LOK Offset Light Mount"
+ATT.CompactName = "M-LOK Off"
+ATT.Icon = Material("entities/eft_attachments/mount/mlokoffset.png", "mips smooth")
+ATT.Description = [[The Magpul M-LOK Cantilever mount allows installation of additional equipment on the handguards with the standard M-LOK interface.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_m_lok_magpul_offset_light_optic_mount.mdl"
+
+ATT.Category = {"eft_mount_mlokoffset"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(90, 90, 90)
+
+ATT.Attachments = {
+    {
+        PrintName = "Tactical",
+        Category = "eft_tactical",
+        -- RejectAttachments = { ["eft_tactical_raptar"] = true },
+        Pos = Vector(0.8, 0, -0.15),
+        Ang = Angle(90, 90, -90-45),
+        -- Ang = Angle(0, 0, -0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_mlokoffset")
+
+
+
+///////////////////////////////////////      eft_mount_mlokoffset2
+
+
+ATT = {}
+
+ATT.PrintName = "Magpul M-LOK Offset Light Mount"
+ATT.CompactName = "M-LOK Off"
+ATT.Icon = Material("entities/eft_attachments/mount/mlokoffset.png", "mips smooth")
+ATT.Description = [[The Magpul M-LOK Cantilever mount allows installation of additional equipment on the handguards with the standard M-LOK interface.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_m_lok_magpul_offset_light_optic_mount.mdl"
+
+ATT.Category = {"eft_mount_mlokoffset_right"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelAngleOffset = Angle(90, 90, 90)
+
+ATT.Attachments = {
+    {
+        PrintName = "Tactical",
+        Category = "eft_tactical",
+        -- RejectAttachments = { ["eft_tactical_raptar"] = true },
+        Pos = Vector(-0.8, 0, -0.15),
+        Ang = Angle(90, 90, -90-45),
+        -- Ang = Angle(0, 0, -0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_mlokoffset2")
 
