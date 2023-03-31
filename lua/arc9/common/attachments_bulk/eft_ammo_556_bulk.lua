@@ -883,7 +883,7 @@ ATT.PrintName = "Airsoft 6mm BB"
 ATT.CompactName = "6mm BB"
 ATT.Icon = Material("entities/eft_attachments/ammo/556/bb.png", "mips smooth")
 ATT.Description = [[Airsoft 6mm 0.2g BBs.]]
-ATT.SortOrder = 0
+ATT.SortOrder = 99
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- ATT.HasAmmoooooooo = true 
