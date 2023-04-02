@@ -2664,9 +2664,9 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_valday_ps320_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.985
+ATT.RTScopeReticleScale = 0.95
 ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeShadowIntensity = 20
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
