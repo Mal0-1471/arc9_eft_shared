@@ -140,6 +140,14 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_rotor_43_v1.mdl"
 
+ATT.VisualRecoilMult = 0.935
+ATT.RecoilMult = 0.935
+ATT.EFTErgoAdd = -17
+ATT.CustomCons = { Ergonomics = "-17" }
+ATT.SpreadMult = 1.02
+ATT.PhysBulletMuzzleVelocityMult = 0.75
+ATT.HeatCapacityAdd = -50*0.5
+
 ATT.MuzzleDevice = true
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
