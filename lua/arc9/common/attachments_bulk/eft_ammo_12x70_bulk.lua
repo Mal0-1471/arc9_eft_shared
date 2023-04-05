@@ -1,5 +1,8 @@
 local ATT = {}
 
+local dmgrange = (GetConVar("arc9_eft_mindmgrange"):GetInt() or 1000)/1000
+local dmgrangesg = (GetConVar("arc9_eft_mindmgrange_sg"):GetInt() or 1000)/1000
+local mult1270 = GetConVar("arc9_eft_mult_shotgun"):GetFloat() or 0.5
 
 ///////////////////////////////////////      eft_ammo_12x70_50bmg
 
@@ -19,12 +22,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 makeshift .50 BMG slug"
 
-ATT.DamageMax = 197/2
-ATT.DamageMin = 163/2
+ATT.DamageMax = 197 * mult1270
+ATT.DamageMin = 163 * mult1270
 ATT.PhysBulletMuzzleVelocity = 410 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      26 *2.54/100/0.0254
 ATT.PenetrationDelta = 57/100
@@ -61,12 +64,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 5.25mm buckshot"
 
-ATT.DamageMax = 37/2
-ATT.DamageMin = 28.3/2
+ATT.DamageMax = 37 * mult1270
+ATT.DamageMin = 28.3 * mult1270
 ATT.PhysBulletMuzzleVelocity = 330 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 100 /0.0254
+ATT.RangeMax = 100 /0.0254 * dmgrangesg
 
 ATT.Penetration =      1 *2.54/100/0.0254
 ATT.PenetrationDelta = 15/100
@@ -102,12 +105,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 7mm buckshot"
 
-ATT.DamageMax = 39/2
-ATT.DamageMin = 24.57/2
+ATT.DamageMax = 39 * mult1270
+ATT.DamageMin = 24.57 * mult1270
 ATT.PhysBulletMuzzleVelocity = 415 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 100 /0.0254
+ATT.RangeMax = 100 /0.0254 * dmgrangesg
 
 ATT.Penetration =      3 *2.54/100/0.0254
 ATT.PenetrationDelta = 26/100
@@ -143,12 +146,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 AP-20 armor-piercing slug"
 
-ATT.DamageMax = 164/2
-ATT.DamageMin = 121.67/2
+ATT.DamageMax = 164 * mult1270
+ATT.DamageMin = 121.67 * mult1270
 ATT.PhysBulletMuzzleVelocity = 510 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      37 *2.54/100/0.0254
 ATT.PenetrationDelta = 65/100
@@ -185,12 +188,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 Dual Sabot slug"
 
-ATT.DamageMax = 85/2
-ATT.DamageMin = 49/2
+ATT.DamageMax = 85 * mult1270
+ATT.DamageMin = 49 * mult1270
 ATT.PhysBulletMuzzleVelocity = 415 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      17 *2.54/100/0.0254
 ATT.PenetrationDelta = 65/100
@@ -227,12 +230,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 6.5mm Express buckshot"
 
-ATT.DamageMax = 35/2
-ATT.DamageMin = 25/2
+ATT.DamageMax = 35 * mult1270
+ATT.DamageMin = 25 * mult1270
 ATT.PhysBulletMuzzleVelocity = 430 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 100 /0.0254
+ATT.RangeMax = 100 /0.0254 * dmgrangesg
 
 ATT.Penetration =      3 *2.54/100/0.0254
 ATT.PenetrationDelta = 26/100
@@ -269,12 +272,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 flechette"
 
-ATT.DamageMax = 25/2
-ATT.DamageMin = 24/2
+ATT.DamageMax = 25 * mult1270
+ATT.DamageMin = 24 * mult1270
 ATT.PhysBulletMuzzleVelocity = 320 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 100 /0.0254
+ATT.RangeMax = 100 /0.0254 * dmgrangesg
 
 ATT.Penetration =      31 *2.54/100/0.0254
 ATT.PenetrationDelta = 26/100
@@ -311,12 +314,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 FTX Custom Lite slug"
 
-ATT.DamageMax = 183/2
-ATT.DamageMin = 123.7/2
+ATT.DamageMax = 183 * mult1270
+ATT.DamageMin = 123.7 * mult1270
 ATT.PhysBulletMuzzleVelocity = 480 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      20 *2.54/100/0.0254
 ATT.PenetrationDelta = 50/100
@@ -353,12 +356,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 Grizzly 40 slug"
 
-ATT.DamageMax = 190/2
-ATT.DamageMin = 138.7/2
+ATT.DamageMax = 190 * mult1270
+ATT.DamageMin = 138.7 * mult1270
 ATT.PhysBulletMuzzleVelocity = 390 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      12 *2.54/100/0.0254
 ATT.PenetrationDelta = 48/100
@@ -395,12 +398,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 Copper Sabot Premier HP slug"
 
-ATT.DamageMax = 206/2
-ATT.DamageMin = 123.5/2
+ATT.DamageMax = 206 * mult1270
+ATT.DamageMin = 123.5 * mult1270
 ATT.PhysBulletMuzzleVelocity = 442 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      14 *2.54/100/0.0254
 ATT.PenetrationDelta = 46/100
@@ -437,12 +440,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 8.5mm Magnum buckshot"
 
-ATT.DamageMax = 50/2
-ATT.DamageMin = 36.1/2
+ATT.DamageMax = 50 * mult1270
+ATT.DamageMin = 36.1 * mult1270
 ATT.PhysBulletMuzzleVelocity = 385 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 100 /0.0254
+ATT.RangeMax = 100 /0.0254 * dmgrangesg
 
 ATT.Penetration =      2 *2.54/100/0.0254
 ATT.PenetrationDelta = 26/100
@@ -479,12 +482,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 \"Poleva-3\" slug"
 
-ATT.DamageMax = 140/2
-ATT.DamageMin = 88/2
+ATT.DamageMax = 140 * mult1270
+ATT.DamageMin = 88 * mult1270
 ATT.PhysBulletMuzzleVelocity = 410 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      17 *2.54/100/0.0254
 ATT.PenetrationDelta = 40/100
@@ -521,12 +524,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 \"Poleva-6u\" slug"
 
-ATT.DamageMax = 150/2
-ATT.DamageMin = 84.7/2
+ATT.DamageMax = 150 * mult1270
+ATT.DamageMin = 84.7 * mult1270
 ATT.PhysBulletMuzzleVelocity = 430 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      20 *2.54/100/0.0254
 ATT.PenetrationDelta = 50/100
@@ -563,12 +566,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 RIP"
 
-ATT.DamageMax = 265/2
-ATT.DamageMin = 150.19/2
+ATT.DamageMax = 265 * mult1270
+ATT.DamageMin = 150.19 * mult1270
 ATT.PhysBulletMuzzleVelocity = 410 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      2 *2.54/100/0.0254
 ATT.PenetrationDelta = 11/100
@@ -605,12 +608,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 lead slug"
 
-ATT.DamageMax = 167/2
-ATT.DamageMin = 107.7/2
+ATT.DamageMax = 167 * mult1270
+ATT.DamageMin = 107.7 * mult1270
 ATT.PhysBulletMuzzleVelocity = 370 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      15 *2.54/100/0.0254
 ATT.PenetrationDelta = 55/100
@@ -647,12 +650,12 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "12/70 SuperFormance HP slug"
 
-ATT.DamageMax = 220/2
-ATT.DamageMin = 144.2/2
+ATT.DamageMax = 220 * mult1270
+ATT.DamageMin = 144.2 * mult1270
 ATT.PhysBulletMuzzleVelocity = 594 /0.0254
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      5 *2.54/100/0.0254
 ATT.PenetrationDelta = 12/100

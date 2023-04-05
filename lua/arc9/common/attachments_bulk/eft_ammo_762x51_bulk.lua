@@ -1,5 +1,8 @@
 local ATT = {}
 
+local dmgrange = (GetConVar("arc9_eft_mindmgrange"):GetInt() or 1000)/1000
+local mult51 = GetConVar("arc9_eft_mult_massive"):GetFloat() or 0.5
+
 
 ///////////////////////////////////////      eft_ammo_762x51_bpzfmj
 
@@ -18,11 +21,11 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm BCP FMJ"
 
-ATT.DamageMax = 88/1.5
-ATT.DamageMin = 60/1.5
+ATT.DamageMax = 88 * mult51
+ATT.DamageMin = 60 * mult51
 ATT.PhysBulletMuzzleVelocity = 840 /0.0254
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      31 *2.54/100/0.0254
 ATT.PenetrationDelta = 33/100
@@ -36,38 +39,38 @@ ATT.MalfunctionMeanShotsToFailMult = 0.99
 
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    88/1.5     },
+    {   10/0.0254 * dmgrange, 
+    88 * mult51     },
 
-    {   100 /0.0254, 
-    84/1.5     },
+    {   100 /0.0254 * dmgrange, 
+    84 * mult51     },
 
-    {   200 /0.0254, 
-    80.2/1.5     },
+    {   200 /0.0254 * dmgrange, 
+    80.2 * mult51     },
 
-    {   300 /0.0254, 
-    76.6/1.5     },
+    {   300 /0.0254 * dmgrange, 
+    76.6 * mult51     },
 
-    {   400 /0.0254, 
-    73/1.5     },
+    {   400 /0.0254 * dmgrange, 
+    73 * mult51     },
 
-    {   500 /0.0254, 
-    69/1.5     },
+    {   500 /0.0254 * dmgrange, 
+    69 * mult51     },
 
-    {   600 /0.0254, 
-    65.5/1.5     },
+    {   600 /0.0254 * dmgrange, 
+    65.5 * mult51     },
 
-    {   700 /0.0254, 
-    63.4/1.5     },
+    {   700 /0.0254 * dmgrange, 
+    63.4 * mult51     },
 
-    {   800 /0.0254, 
-    62/1.5     },
+    {   800 /0.0254 * dmgrange, 
+    62 * mult51     },
 
-    {   900 /0.0254, 
-    60.8/1.5     },
+    {   900 /0.0254 * dmgrange, 
+    60.8 * mult51     },
 
-    {   1000 /0.0254, 
-    60/1.5     },
+    {   1000 /0.0254 * dmgrange, 
+    60 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -96,11 +99,11 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm M61"
 
-ATT.DamageMax = 70/1.5
-ATT.DamageMin = 47/1.5
+ATT.DamageMax = 70 * mult51
+ATT.DamageMin = 47 * mult51
 ATT.PhysBulletMuzzleVelocity = 849 /0.0254
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      64 *2.54/100/0.0254
 ATT.PenetrationDelta = 83/100
@@ -115,38 +118,38 @@ ATT.MalfunctionMeanShotsToFailMult = 0.92
 
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    70/1.5     },
+    {   10/0.0254 * dmgrange, 
+    70 * mult51     },
 
-    {   100 /0.0254, 
-    66.3/1.5     },
+    {   100 /0.0254 * dmgrange, 
+    66.3 * mult51     },
 
-    {   200 /0.0254, 
-    63/1.5     },
+    {   200 /0.0254 * dmgrange, 
+    63 * mult51     },
 
-    {   300 /0.0254, 
-    59.7/1.5     },
+    {   300 /0.0254 * dmgrange, 
+    59.7 * mult51     },
 
-    {   400 /0.0254, 
-    56.1/1.5     },
+    {   400 /0.0254 * dmgrange, 
+    56.1 * mult51     },
 
-    {   500 /0.0254, 
-    52.64/1.5     },
+    {   500 /0.0254 * dmgrange, 
+    52.64 * mult51     },
 
-    {   600 /0.0254, 
-    50.4/1.5     },
+    {   600 /0.0254 * dmgrange, 
+    50.4 * mult51     },
 
-    {   700 /0.0254, 
-    49/1.5     },
+    {   700 /0.0254 * dmgrange, 
+    49 * mult51     },
 
-    {   800 /0.0254, 
-    48/1.5     },
+    {   800 /0.0254 * dmgrange, 
+    48 * mult51     },
 
-    {   900 /0.0254, 
-    47.3/1.5     },
+    {   900 /0.0254 * dmgrange, 
+    47.3 * mult51     },
 
-    {   1000 /0.0254, 
-    47/1.5     },
+    {   1000 /0.0254 * dmgrange, 
+    47 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -175,11 +178,11 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm M62 Tracer"
 
-ATT.DamageMax = 79/1.5
-ATT.DamageMin = 53/1.5
+ATT.DamageMax = 79 * mult51
+ATT.DamageMin = 53 * mult51
 ATT.PhysBulletMuzzleVelocity = 816 /0.0254
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      44 *2.54/100/0.0254
 ATT.PenetrationDelta = 75/100
@@ -194,38 +197,38 @@ ATT.MalfunctionMeanShotsToFailMult = 0.95
 
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    79/1.5     },
+    {   10/0.0254 * dmgrange, 
+    79 * mult51     },
 
-    {   100 /0.0254, 
-    74.7/1.5     },
+    {   100 /0.0254 * dmgrange, 
+    74.7 * mult51     },
 
-    {   200 /0.0254, 
-    70.4/1.5     },
+    {   200 /0.0254 * dmgrange, 
+    70.4 * mult51     },
 
-    {   300 /0.0254, 
-    66/1.5     },
+    {   300 /0.0254 * dmgrange, 
+    66 * mult51     },
 
-    {   400 /0.0254, 
-    61.6/1.5     },
+    {   400 /0.0254 * dmgrange, 
+    61.6 * mult51     },
 
-    {   500 /0.0254, 
-    58.2/1.5     },
+    {   500 /0.0254 * dmgrange, 
+    58.2 * mult51     },
 
-    {   600 /0.0254, 
-    56.3/1.5     },
+    {   600 /0.0254 * dmgrange, 
+    56.3 * mult51     },
 
-    {   700 /0.0254, 
-    55/1.5     },
+    {   700 /0.0254 * dmgrange, 
+    55 * mult51     },
 
-    {   800 /0.0254, 
-    54/1.5     },
+    {   800 /0.0254 * dmgrange, 
+    54 * mult51     },
 
-    {   900 /0.0254, 
-    53.3/1.5     },
+    {   900 /0.0254 * dmgrange, 
+    53.3 * mult51     },
 
-    {   1000 /0.0254, 
-    53/1.5     },
+    {   1000 /0.0254 * dmgrange, 
+    53 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -254,11 +257,11 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm M80"
 
-ATT.DamageMax = 80/1.5
-ATT.DamageMin = 53/1.5
+ATT.DamageMax = 80 * mult51
+ATT.DamageMin = 53 * mult51
 ATT.PhysBulletMuzzleVelocity = 833 /0.0254
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      41 *2.54/100/0.0254
 ATT.PenetrationDelta = 66/100
@@ -270,38 +273,38 @@ ATT.MalfunctionMeanShotsToFailMult = 0.97
 
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    80/1.5     },
+    {   10/0.0254 * dmgrange, 
+    80 * mult51     },
 
-    {   100 /0.0254, 
-    75.7/1.5     },
+    {   100 /0.0254 * dmgrange, 
+    75.7 * mult51     },
 
-    {   200 /0.0254, 
-    71.7/1.5     },
+    {   200 /0.0254 * dmgrange, 
+    71.7 * mult51     },
 
-    {   300 /0.0254, 
-    67.5/1.5     },
+    {   300 /0.0254 * dmgrange, 
+    67.5 * mult51     },
 
-    {   400 /0.0254, 
-    63.3/1.5     },
+    {   400 /0.0254 * dmgrange, 
+    63.3 * mult51     },
 
-    {   500 /0.0254, 
-    59.5/1.5     },
+    {   500 /0.0254 * dmgrange, 
+    59.5 * mult51     },
 
-    {   600 /0.0254, 
-    57.3/1.5     },
+    {   600 /0.0254 * dmgrange, 
+    57.3 * mult51     },
 
-    {   700 /0.0254, 
-    55.88/1.5     },
+    {   700 /0.0254 * dmgrange, 
+    55.88 * mult51     },
 
-    {   800 /0.0254, 
-    54.8/1.5     },
+    {   800 /0.0254 * dmgrange, 
+    54.8 * mult51     },
 
-    {   900 /0.0254, 
-    54/1.5     },
+    {   900 /0.0254 * dmgrange, 
+    54 * mult51     },
 
-    {   1000 /0.0254, 
-    53/1.5     },
+    {   1000 /0.0254 * dmgrange, 
+    53 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -330,11 +333,11 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm M993"
 
-ATT.DamageMax = 67/1.5
-ATT.DamageMin = 43/1.5
+ATT.DamageMax = 67 * mult51
+ATT.DamageMin = 43 * mult51
 ATT.PhysBulletMuzzleVelocity = 910 /0.0254
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      70 *2.54/100/0.0254
 ATT.PenetrationDelta = 85/100
@@ -349,38 +352,38 @@ ATT.MalfunctionMeanShotsToFailMult = 0.9
 
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    67/1.5     },
+    {   10/0.0254 * dmgrange, 
+    67 * mult51     },
 
-    {   100 /0.0254, 
-    63/1.5     },
+    {   100 /0.0254 * dmgrange, 
+    63 * mult51     },
 
-    {   200 /0.0254, 
-    59.5/1.5     },
+    {   200 /0.0254 * dmgrange, 
+    59.5 * mult51     },
 
-    {   300 /0.0254, 
-    55.75/1.5     },
+    {   300 /0.0254 * dmgrange, 
+    55.75 * mult51     },
 
-    {   400 /0.0254, 
-    52/1.5     },
+    {   400 /0.0254 * dmgrange, 
+    52 * mult51     },
 
-    {   500 /0.0254, 
-    48.6/1.5     },
+    {   500 /0.0254 * dmgrange, 
+    48.6 * mult51     },
 
-    {   600 /0.0254, 
-    44.63/1.5     },
+    {   600 /0.0254 * dmgrange, 
+    44.63 * mult51     },
 
-    {   700 /0.0254, 
-    44.6/1.5     },
+    {   700 /0.0254 * dmgrange, 
+    44.6 * mult51     },
 
-    {   800 /0.0254, 
-    44/1.5     },
+    {   800 /0.0254 * dmgrange, 
+    44 * mult51     },
 
-    {   900 /0.0254, 
-    44/1.5     },
+    {   900 /0.0254 * dmgrange, 
+    44 * mult51     },
 
-    {   1000 /0.0254, 
-    43/1.5     },
+    {   1000 /0.0254 * dmgrange, 
+    43 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -409,11 +412,11 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm TCW SP"
 
-ATT.DamageMax = 67/1.5
-ATT.DamageMin = 46/1.5
+ATT.DamageMax = 67 * mult51
+ATT.DamageMin = 46 * mult51
 ATT.PhysBulletMuzzleVelocity = 808 /0.0254
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      34 *2.54/100/0.0254
 ATT.PenetrationDelta = 40/100
@@ -427,38 +430,38 @@ ATT.VisualRecoilMult = 0.95
 
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    67/1.5     },
+    {   10/0.0254 * dmgrange, 
+    67 * mult51     },
 
-    {   100 /0.0254, 
-    63.6/1.5     },
+    {   100 /0.0254 * dmgrange, 
+    63.6 * mult51     },
 
-    {   200 /0.0254, 
-    60.7/1.5     },
+    {   200 /0.0254 * dmgrange, 
+    60.7 * mult51     },
 
-    {   300 /0.0254, 
-    57.7/1.5     },
+    {   300 /0.0254 * dmgrange, 
+    57.7 * mult51     },
 
-    {   400 /0.0254, 
-    54.4/1.5     },
+    {   400 /0.0254 * dmgrange, 
+    54.4 * mult51     },
 
-    {   500 /0.0254, 
-    51.3/1.5     },
+    {   500 /0.0254 * dmgrange, 
+    51.3 * mult51     },
 
-    {   600 /0.0254, 
-    49.2/1.5     },
+    {   600 /0.0254 * dmgrange, 
+    49.2 * mult51     },
 
-    {   700 /0.0254, 
-    47.9/1.5     },
+    {   700 /0.0254 * dmgrange, 
+    47.9 * mult51     },
 
-    {   800 /0.0254, 
-    46.9/1.5     },
+    {   800 /0.0254 * dmgrange, 
+    46.9 * mult51     },
 
-    {   900 /0.0254, 
-    46.2/1.5     },
+    {   900 /0.0254 * dmgrange, 
+    46.2 * mult51     },
 
-    {   1000 /0.0254, 
-    46/1.5     },
+    {   1000 /0.0254 * dmgrange, 
+    46 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -487,11 +490,11 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm Ultra Nosler"
 
-ATT.DamageMax = 107/1.5
-ATT.DamageMin = 72.4/1.5
+ATT.DamageMax = 107 * mult51
+ATT.DamageMin = 72.4 * mult51
 ATT.PhysBulletMuzzleVelocity = 822 /0.0254
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      15 *2.54/100/0.0254
 ATT.PenetrationDelta = 20/100
@@ -505,38 +508,38 @@ ATT.MalfunctionMeanShotsToFailMult = 0.986
 
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    107/1.5     },
+    {   10/0.0254 * dmgrange, 
+    107 * mult51     },
 
-    {   100 /0.0254, 
-    102/1.5     },
+    {   100 /0.0254 * dmgrange, 
+    102 * mult51     },
 
-    {   200 /0.0254, 
-    97/1.5     },
+    {   200 /0.0254 * dmgrange, 
+    97 * mult51     },
 
-    {   300 /0.0254, 
-    92.1/1.5     },
+    {   300 /0.0254 * dmgrange, 
+    92.1 * mult51     },
 
-    {   400 /0.0254, 
-    87/1.5     },
+    {   400 /0.0254 * dmgrange, 
+    87 * mult51     },
 
-    {   500 /0.0254, 
-    81.7/1.5     },
+    {   500 /0.0254 * dmgrange, 
+    81.7 * mult51     },
 
-    {   600 /0.0254, 
-    78.3/1.5     },
+    {   600 /0.0254 * dmgrange, 
+    78.3 * mult51     },
 
-    {   700 /0.0254, 
-    76.1/1.5     },
+    {   700 /0.0254 * dmgrange, 
+    76.1 * mult51     },
 
-    {   800 /0.0254, 
-    74.6/1.5     },
+    {   800 /0.0254 * dmgrange, 
+    74.6 * mult51     },
 
-    {   900 /0.0254, 
-    73.4/1.5     },
+    {   900 /0.0254 * dmgrange, 
+    73.4 * mult51     },
 
-    {   1000 /0.0254, 
-    72.4/1.5     },
+    {   1000 /0.0254 * dmgrange, 
+    72.4 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m

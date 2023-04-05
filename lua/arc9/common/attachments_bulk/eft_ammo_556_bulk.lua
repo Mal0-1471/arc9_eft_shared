@@ -1,5 +1,7 @@
 local ATT = {}
 
+local dmgrange = (GetConVar("arc9_eft_mindmgrange"):GetInt() or 1000)/1000
+local mult556 = GetConVar("arc9_eft_mult_carabine"):GetFloat() or 0.5
 
 ///////////////////////////////////////      eft_ammo_556_warma
 
@@ -17,8 +19,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm Warmageddon"
 
-ATT.DamageMax = 88/2
-ATT.DamageMin = 57.77/2
+ATT.DamageMax = 88 * mult556
+ATT.DamageMin = 57.77 * mult556
 ATT.PhysBulletMuzzleVelocity = 936 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -28,7 +30,7 @@ ATT.VisualRecoilMult = 1.1
 ATT.HeatPerShotMult = 1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      3 *2.54/100/0.0254
 ATT.PenetrationDelta = 11/100
@@ -36,38 +38,38 @@ ATT.ArmorPiercing =    11/100
 ATT.RicochetChance =   5/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    88/2     },
+    {   10/0.0254 * dmgrange, 
+    88 * mult556     },
 
-    {   100 /0.0254, 
-    83.35/2     },
+    {   100 /0.0254 * dmgrange, 
+    83.35 * mult556     },
 
-    {   200 /0.0254, 
-    79.41/2     },
+    {   200 /0.0254 * dmgrange, 
+    79.41 * mult556     },
 
-    {   300 /0.0254, 
-    75.46/2     },
+    {   300 /0.0254 * dmgrange, 
+    75.46 * mult556     },
 
-    {   400 /0.0254, 
-    71.5/2     },
+    {   400 /0.0254 * dmgrange, 
+    71.5 * mult556     },
 
-    {   500 /0.0254, 
-    67.17/2     },
+    {   500 /0.0254 * dmgrange, 
+    67.17 * mult556     },
 
-    {   600 /0.0254, 
-    63.4/2     },
+    {   600 /0.0254 * dmgrange, 
+    63.4 * mult556     },
 
-    {   700 /0.0254, 
-    61.1/2     },
+    {   700 /0.0254 * dmgrange, 
+    61.1 * mult556     },
 
-    {   800 /0.0254, 
-    59.64/2     },
+    {   800 /0.0254 * dmgrange, 
+    59.64 * mult556     },
 
-    {   900 /0.0254, 
-    58.6/2     },
+    {   900 /0.0254 * dmgrange, 
+    58.6 * mult556     },
 
-    {   1000 /0.0254, 
-    57.77/2     },
+    {   1000 /0.0254 * dmgrange, 
+    57.77 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -96,8 +98,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm HP"
 
-ATT.DamageMax = 79/2
-ATT.DamageMin = 48.8/2
+ATT.DamageMax = 79 * mult556
+ATT.DamageMin = 48.8 * mult556
 ATT.PhysBulletMuzzleVelocity = 947 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -107,7 +109,7 @@ ATT.PhysBulletMuzzleVelocity = 947 /0.0254
 ATT.HeatPerShotMult = 1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      8 *2.54/100/0.0254
 ATT.PenetrationDelta = 22/100
@@ -115,38 +117,38 @@ ATT.ArmorPiercing =    22/100
 ATT.RicochetChance =   20/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    79/2     },
+    {   10/0.0254 * dmgrange, 
+    79 * mult556     },
 
-    {   100 /0.0254, 
-    72.57/2     },
+    {   100 /0.0254 * dmgrange, 
+    72.57 * mult556     },
 
-    {   200 /0.0254, 
-    66.8/2     },
+    {   200 /0.0254 * dmgrange, 
+    66.8 * mult556     },
 
-    {   300 /0.0254, 
-    61/2     },
+    {   300 /0.0254 * dmgrange, 
+    61 * mult556     },
 
-    {   400 /0.0254, 
-    55.88/2     },
+    {   400 /0.0254 * dmgrange, 
+    55.88 * mult556     },
 
-    {   500 /0.0254, 
-    53.43/2     },
+    {   500 /0.0254 * dmgrange, 
+    53.43 * mult556     },
 
-    {   600 /0.0254, 
-    52/2     },
+    {   600 /0.0254 * dmgrange, 
+    52 * mult556     },
 
-    {   700 /0.0254, 
-    51/2     },
+    {   700 /0.0254 * dmgrange, 
+    51 * mult556     },
 
-    {   800 /0.0254, 
-    50/2     },
+    {   800 /0.0254 * dmgrange, 
+    50 * mult556     },
 
-    {   900 /0.0254, 
-    49.4/2     },
+    {   900 /0.0254 * dmgrange, 
+    49.4 * mult556     },
 
-    {   1000 /0.0254, 
-    48.8/2     },
+    {   1000 /0.0254 * dmgrange, 
+    48.8 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -175,8 +177,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm MK 318 Mod 0 (SOST)"
 
-ATT.DamageMax = 69/2
-ATT.DamageMin = 44.24/2
+ATT.DamageMax = 69 * mult556
+ATT.DamageMin = 44.24 * mult556
 ATT.PhysBulletMuzzleVelocity = 902 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -186,7 +188,7 @@ ATT.SpreadMult = 0.9
 ATT.HeatPerShotMult = 1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      20 *2.54/100/0.0254
 ATT.PenetrationDelta = 35/100
@@ -194,38 +196,38 @@ ATT.ArmorPiercing =    35/100
 ATT.RicochetChance =   10/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    69/2     },
+    {   10/0.0254 * dmgrange, 
+    69 * mult556     },
 
-    {   100 /0.0254, 
-    64.64/2     },
+    {   100 /0.0254 * dmgrange, 
+    64.64 * mult556     },
 
-    {   200 /0.0254, 
-    60.47/2     },
+    {   200 /0.0254 * dmgrange, 
+    60.47 * mult556     },
 
-    {   300 /0.0254, 
-    56.45/2     },
+    {   300 /0.0254 * dmgrange, 
+    56.45 * mult556     },
 
-    {   400 /0.0254, 
-    52.2/2     },
+    {   400 /0.0254 * dmgrange, 
+    52.2 * mult556     },
 
-    {   500 /0.0254, 
-    49/2     },
+    {   500 /0.0254 * dmgrange, 
+    49 * mult556     },
 
-    {   600 /0.0254, 
-    47.4/2     },
+    {   600 /0.0254 * dmgrange, 
+    47.4 * mult556     },
 
-    {   700 /0.0254, 
-    46.32/2     },
+    {   700 /0.0254 * dmgrange, 
+    46.32 * mult556     },
 
-    {   800 /0.0254, 
-    45.5/2     },
+    {   800 /0.0254 * dmgrange, 
+    45.5 * mult556     },
 
-    {   900 /0.0254, 
-    44.82/2     },
+    {   900 /0.0254 * dmgrange, 
+    44.82 * mult556     },
 
-    {   1000 /0.0254, 
-    44.24/2     },
+    {   1000 /0.0254 * dmgrange, 
+    44.24 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -254,8 +256,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm MK 255 Mod 0 (RRLP)"
 
-ATT.DamageMax = 63/2
-ATT.DamageMin = 41.36/2
+ATT.DamageMax = 63 * mult556
+ATT.DamageMin = 41.36 * mult556
 ATT.PhysBulletMuzzleVelocity = 936 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -265,7 +267,7 @@ ATT.PhysBulletMuzzleVelocity = 936 /0.0254
 ATT.HeatPerShotMult = 1.1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      18 *2.54/100/0.0254
 ATT.PenetrationDelta = 32/100
@@ -273,38 +275,38 @@ ATT.ArmorPiercing =    32/100
 ATT.RicochetChance =   10/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    63/2     },
+    {   10/0.0254 * dmgrange, 
+    63 * mult556     },
 
-    {   100 /0.0254, 
-    59.7/2     },
+    {   100 /0.0254 * dmgrange, 
+    59.7 * mult556     },
 
-    {   200 /0.0254, 
-    56.85/2     },
+    {   200 /0.0254 * dmgrange, 
+    56.85 * mult556     },
 
-    {   300 /0.0254, 
-    54/2     },
+    {   300 /0.0254 * dmgrange, 
+    54 * mult556     },
 
-    {   400 /0.0254, 
-    51.2/2     },
+    {   400 /0.0254 * dmgrange, 
+    51.2 * mult556     },
 
-    {   500 /0.0254, 
-    48/2     },
+    {   500 /0.0254 * dmgrange, 
+    48 * mult556     },
 
-    {   600 /0.0254, 
-    45.4/2     },
+    {   600 /0.0254 * dmgrange, 
+    45.4 * mult556     },
 
-    {   700 /0.0254, 
-    43.74/2     },
+    {   700 /0.0254 * dmgrange, 
+    43.74 * mult556     },
 
-    {   800 /0.0254, 
-    42.7/2     },
+    {   800 /0.0254 * dmgrange, 
+    42.7 * mult556     },
 
-    {   900 /0.0254, 
-    42/2     },
+    {   900 /0.0254 * dmgrange, 
+    42 * mult556     },
 
-    {   1000 /0.0254, 
-    41.36/2     },
+    {   1000 /0.0254 * dmgrange, 
+    41.36 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -332,8 +334,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm M856"
 
-ATT.DamageMax = 59/2
-ATT.DamageMin = 37.46/2
+ATT.DamageMax = 59 * mult556
+ATT.DamageMin = 37.46 * mult556
 ATT.PhysBulletMuzzleVelocity = 874 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -343,7 +345,7 @@ ATT.VisualRecoilMult = 0.98
 ATT.HeatPerShotMult = 1.14
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      23 *2.54/100/0.0254
 ATT.PenetrationDelta = 34/100
@@ -351,38 +353,38 @@ ATT.ArmorPiercing =    34/100
 ATT.RicochetChance =   38/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    59/2     },
+    {   10/0.0254 * dmgrange, 
+    59 * mult556     },
 
-    {   100 /0.0254, 
-    54.63/2     },
+    {   100 /0.0254 * dmgrange, 
+    54.63 * mult556     },
 
-    {   200 /0.0254, 
-    50.84/2     },
+    {   200 /0.0254 * dmgrange, 
+    50.84 * mult556     },
 
-    {   300 /0.0254, 
-    46.6/2     },
+    {   300 /0.0254 * dmgrange, 
+    46.6 * mult556     },
 
-    {   400 /0.0254, 
-    43/2     },
+    {   400 /0.0254 * dmgrange, 
+    43 * mult556     },
 
-    {   500 /0.0254, 
-    41/2     },
+    {   500 /0.0254 * dmgrange, 
+    41 * mult556     },
 
-    {   600 /0.0254, 
-    40/2     },
+    {   600 /0.0254 * dmgrange, 
+    40 * mult556     },
 
-    {   700 /0.0254, 
-    39.1/2     },
+    {   700 /0.0254 * dmgrange, 
+    39.1 * mult556     },
 
-    {   800 /0.0254, 
-    38.5/2     },
+    {   800 /0.0254 * dmgrange, 
+    38.5 * mult556     },
 
-    {   900 /0.0254, 
-    38/2     },
+    {   900 /0.0254 * dmgrange, 
+    38 * mult556     },
 
-    {   1000 /0.0254, 
-    37.46/2     },
+    {   1000 /0.0254 * dmgrange, 
+    37.46 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -410,8 +412,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm M856A1"
 
-ATT.DamageMax = 54/2
-ATT.DamageMin = 34.45/2
+ATT.DamageMax = 54 * mult556
+ATT.DamageMin = 34.45 * mult556
 ATT.PhysBulletMuzzleVelocity = 640 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -421,7 +423,7 @@ ATT.VisualRecoilMult = 1.04
 ATT.HeatPerShotMult = 1.2
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      37 *2.54/100/0.0254
 ATT.PenetrationDelta = 52/100
@@ -429,38 +431,38 @@ ATT.ArmorPiercing =    52/100
 ATT.RicochetChance =   38/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    54/2     },
+    {   10/0.0254 * dmgrange, 
+    54 * mult556     },
 
-    {   100 /0.0254, 
-    50.5/2     },
+    {   100 /0.0254 * dmgrange, 
+    50.5 * mult556     },
 
-    {   200 /0.0254, 
-    47.43/2     },
+    {   200 /0.0254 * dmgrange, 
+    47.43 * mult556     },
 
-    {   300 /0.0254, 
-    44.47/2     },
+    {   300 /0.0254 * dmgrange, 
+    44.47 * mult556     },
 
-    {   400 /0.0254, 
-    41.3/2     },
+    {   400 /0.0254 * dmgrange, 
+    41.3 * mult556     },
 
-    {   500 /0.0254, 
-    38.56/2     },
+    {   500 /0.0254 * dmgrange, 
+    38.56 * mult556     },
 
-    {   600 /0.0254, 
-    37/2     },
+    {   600 /0.0254 * dmgrange, 
+    37 * mult556     },
 
-    {   700 /0.0254, 
-    36.12/2     },
+    {   700 /0.0254 * dmgrange, 
+    36.12 * mult556     },
 
-    {   800 /0.0254, 
-    35.45/2     },
+    {   800 /0.0254 * dmgrange, 
+    35.45 * mult556     },
 
-    {   900 /0.0254, 
-    35/2     },
+    {   900 /0.0254 * dmgrange, 
+    35 * mult556     },
 
-    {   1000 /0.0254, 
-    34.45/2     },
+    {   1000 /0.0254 * dmgrange, 
+    34.45 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -490,8 +492,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm FMJ"
 
-ATT.DamageMax = 54/2
-ATT.DamageMin = 34.1/2
+ATT.DamageMax = 54 * mult556
+ATT.DamageMin = 34.1 * mult556
 ATT.PhysBulletMuzzleVelocity = 957 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -501,7 +503,7 @@ ATT.VisualRecoilMult = 0.95
 ATT.HeatPerShotMult = 1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      23 *2.54/100/0.0254
 ATT.PenetrationDelta = 33/100
@@ -509,38 +511,38 @@ ATT.ArmorPiercing =    33/100
 ATT.RicochetChance =   26/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    54/2     },
+    {   10/0.0254 * dmgrange, 
+    54 * mult556     },
 
-    {   100 /0.0254, 
-    50.2/2     },
+    {   100 /0.0254 * dmgrange, 
+    50.2 * mult556     },
 
-    {   200 /0.0254, 
-    47/2     },
+    {   200 /0.0254 * dmgrange, 
+    47 * mult556     },
 
-    {   300 /0.0254, 
-    44/2     },
+    {   300 /0.0254 * dmgrange, 
+    44 * mult556     },
 
-    {   400 /0.0254, 
-    40.65/2     },
+    {   400 /0.0254 * dmgrange, 
+    40.65 * mult556     },
 
-    {   500 /0.0254, 
-    38/2     },
+    {   500 /0.0254 * dmgrange, 
+    38 * mult556     },
 
-    {   600 /0.0254, 
-    36.5/2     },
+    {   600 /0.0254 * dmgrange, 
+    36.5 * mult556     },
 
-    {   700 /0.0254, 
-    35.7/2     },
+    {   700 /0.0254 * dmgrange, 
+    35.7 * mult556     },
 
-    {   800 /0.0254, 
-    35/2     },
+    {   800 /0.0254 * dmgrange, 
+    35 * mult556     },
 
-    {   900 /0.0254, 
-    34.5/2     },
+    {   900 /0.0254 * dmgrange, 
+    34.5 * mult556     },
 
-    {   1000 /0.0254, 
-    34.1/2     },
+    {   1000 /0.0254 * dmgrange, 
+    34.1 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -570,8 +572,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm SSA AP"
 
-ATT.DamageMax = 38/2
-ATT.DamageMin = 23.1/2
+ATT.DamageMax = 38 * mult556
+ATT.DamageMin = 23.1 * mult556
 ATT.PhysBulletMuzzleVelocity = 1013 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -581,7 +583,7 @@ ATT.VisualRecoilMult = 1.06
 ATT.HeatPerShotMult = 1.8
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      57 *2.54/100/0.0254
 ATT.PenetrationDelta = 64/100
@@ -589,38 +591,38 @@ ATT.ArmorPiercing =    64/100
 ATT.RicochetChance =   48/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    38/2     },
+    {   10/0.0254 * dmgrange, 
+    38 * mult556     },
 
-    {   100 /0.0254, 
-    34.84/2     },
+    {   100 /0.0254 * dmgrange, 
+    34.84 * mult556     },
 
-    {   200 /0.0254, 
-    32/2     },
+    {   200 /0.0254 * dmgrange, 
+    32 * mult556     },
 
-    {   300 /0.0254, 
-    29.35/2     },
+    {   300 /0.0254 * dmgrange, 
+    29.35 * mult556     },
 
-    {   400 /0.0254, 
-    26.6/2     },
+    {   400 /0.0254 * dmgrange, 
+    26.6 * mult556     },
 
-    {   500 /0.0254, 
-    25.32/2     },
+    {   500 /0.0254 * dmgrange, 
+    25.32 * mult556     },
 
-    {   600 /0.0254, 
-    24.64/2     },
+    {   600 /0.0254 * dmgrange, 
+    24.64 * mult556     },
 
-    {   700 /0.0254, 
-    24.14/2     },
+    {   700 /0.0254 * dmgrange, 
+    24.14 * mult556     },
 
-    {   800 /0.0254, 
-    23.75/2     },
+    {   800 /0.0254 * dmgrange, 
+    23.75 * mult556     },
 
-    {   900 /0.0254, 
-    23.4/2     },
+    {   900 /0.0254 * dmgrange, 
+    23.4 * mult556     },
 
-    {   1000 /0.0254, 
-    23.1/2     },
+    {   1000 /0.0254 * dmgrange, 
+    23.1 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -650,8 +652,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm M855"
 
-ATT.DamageMax = 53/2
-ATT.DamageMin = 33.3/2
+ATT.DamageMax = 53 * mult556
+ATT.DamageMin = 33.3 * mult556
 ATT.PhysBulletMuzzleVelocity = 922 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -661,7 +663,7 @@ ATT.SpreadMult = 1.05
 ATT.HeatPerShotMult = 1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      30 *2.54/100/0.0254
 ATT.PenetrationDelta = 37/100
@@ -669,38 +671,38 @@ ATT.ArmorPiercing =    37/100
 ATT.RicochetChance =   40/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    53/2     },
+    {   10/0.0254 * dmgrange, 
+    53 * mult556     },
 
-    {   100 /0.0254, 
-    49.14/2     },
+    {   100 /0.0254 * dmgrange, 
+    49.14 * mult556     },
 
-    {   200 /0.0254, 
-    45.57/2     },
+    {   200 /0.0254 * dmgrange, 
+    45.57 * mult556     },
 
-    {   300 /0.0254, 
-    42/2     },
+    {   300 /0.0254 * dmgrange, 
+    42 * mult556     },
 
-    {   400 /0.0254, 
-   38.58/2     },
+    {   400 /0.0254 * dmgrange, 
+   38.58 * mult556     },
 
-    {   500 /0.0254, 
-    36.58/2     },
+    {   500 /0.0254 * dmgrange, 
+    36.58 * mult556     },
 
-    {   600 /0.0254, 
-    35.54/2     },
+    {   600 /0.0254 * dmgrange, 
+    35.54 * mult556     },
 
-    {   700 /0.0254, 
-    34.81/2     },
+    {   700 /0.0254 * dmgrange, 
+    34.81 * mult556     },
 
-    {   800 /0.0254, 
-    34.22/2     },
+    {   800 /0.0254 * dmgrange, 
+    34.22 * mult556     },
 
-    {   900 /0.0254, 
-    33.72/2     },
+    {   900 /0.0254 * dmgrange, 
+    33.72 * mult556     },
 
-    {   1000 /0.0254, 
-    33.3/2     },
+    {   1000 /0.0254 * dmgrange, 
+    33.3 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -730,8 +732,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm M855A1"
 
-ATT.DamageMax = 49/2
-ATT.DamageMin = 30.7/2
+ATT.DamageMax = 49 * mult556
+ATT.DamageMin = 30.7 * mult556
 ATT.PhysBulletMuzzleVelocity = 945 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -741,7 +743,7 @@ ATT.VisualRecoilMult = 1.05
 ATT.HeatPerShotMult = 1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      44 *2.54/100/0.0254
 ATT.PenetrationDelta = 52/100
@@ -749,38 +751,38 @@ ATT.ArmorPiercing =    52/100
 ATT.RicochetChance =   38/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    49/2     },
+    {   10/0.0254 * dmgrange, 
+    49 * mult556     },
 
-    {   100 /0.0254, 
-    45.4/2     },
+    {   100 /0.0254 * dmgrange, 
+    45.4 * mult556     },
 
-    {   200 /0.0254, 
-    42.28/2     },
+    {   200 /0.0254 * dmgrange, 
+    42.28 * mult556     },
 
-    {   300 /0.0254, 
-    39.1/2     },
+    {   300 /0.0254 * dmgrange, 
+    39.1 * mult556     },
 
-    {   400 /0.0254, 
-    35.85/2     },
+    {   400 /0.0254 * dmgrange, 
+    35.85 * mult556     },
 
-    {   500 /0.0254, 
-    33.81/2     },
+    {   500 /0.0254 * dmgrange, 
+    33.81 * mult556     },
 
-    {   600 /0.0254, 
-    32.8/2     },
+    {   600 /0.0254 * dmgrange, 
+    32.8 * mult556     },
 
-    {   700 /0.0254, 
-    32.1/2     },
+    {   700 /0.0254 * dmgrange, 
+    32.1 * mult556     },
 
-    {   800 /0.0254, 
-    31.5/2     },
+    {   800 /0.0254 * dmgrange, 
+    31.5 * mult556     },
 
-    {   900 /0.0254, 
-    31/2     },
+    {   900 /0.0254 * dmgrange, 
+    31 * mult556     },
 
-    {   1000 /0.0254, 
-    30.7/2     },
+    {   1000 /0.0254 * dmgrange, 
+    30.7 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -810,8 +812,8 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = "5.56x45mm M995"
 
-ATT.DamageMax = 42/2
-ATT.DamageMin = 25.5/2
+ATT.DamageMax = 42 * mult556
+ATT.DamageMin = 25.5 * mult556
 ATT.PhysBulletMuzzleVelocity = 1013 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -821,7 +823,7 @@ ATT.VisualRecoilMult = 1.08
 ATT.HeatPerShotMult = 1
 
 ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254
+ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      53 *2.54/100/0.0254
 ATT.PenetrationDelta = 58/100
@@ -829,38 +831,38 @@ ATT.ArmorPiercing =    58/100
 ATT.RicochetChance =   36/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    53/2     },
+    {   10/0.0254 * dmgrange, 
+    53 * mult556     },
 
-    {   100 /0.0254, 
-    38.5/2     },
+    {   100 /0.0254 * dmgrange, 
+    38.5 * mult556     },
 
-    {   200 /0.0254, 
-    35.43/2     },
+    {   200 /0.0254 * dmgrange, 
+    35.43 * mult556     },
 
-    {   300 /0.0254, 
-    32.44/2     },
+    {   300 /0.0254 * dmgrange, 
+    32.44 * mult556     },
 
-    {   400 /0.0254, 
-    29.38/2     },
+    {   400 /0.0254 * dmgrange, 
+    29.38 * mult556     },
 
-    {   500 /0.0254, 
-    28/2     },
+    {   500 /0.0254 * dmgrange, 
+    28 * mult556     },
 
-    {   600 /0.0254, 
-    27.24/2     },
+    {   600 /0.0254 * dmgrange, 
+    27.24 * mult556     },
 
-    {   700 /0.0254, 
-    26.7/2     },
+    {   700 /0.0254 * dmgrange, 
+    26.7 * mult556     },
 
-    {   800 /0.0254, 
-    26.25/2     },
+    {   800 /0.0254 * dmgrange, 
+    26.25 * mult556     },
 
-    {   900 /0.0254, 
-    25.9/2     },
+    {   900 /0.0254 * dmgrange, 
+    25.9 * mult556     },
 
-    {   1000 /0.0254, 
-    25.5/2     },
+    {   1000 /0.0254 * dmgrange, 
+    25.5 * mult556     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -891,8 +893,8 @@ ATT.RequireElements = {"eft_bb_mag"}
 
 ATT.EFTRoundName = "Airsoft 6mm BB"
 
-ATT.DamageMax = 1/2
-ATT.DamageMin = 0.63/2
+ATT.DamageMax = 1 * mult556
+ATT.DamageMin = 0.63 * mult556
 ATT.PhysBulletMuzzleVelocity = 100 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -910,11 +912,11 @@ ATT.ArmorPiercing =    1/100
 ATT.RicochetChance =   100/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254, 
-    1/2     },
+    {   10/0.0254 * dmgrange, 
+    1 * mult556     },
 
-    {   100 /0.0254, 
-    0.63/2     },
+    {   100 /0.0254 * dmgrange, 
+    0.63 * mult556     },
 }
 
 ATT.Category = {"eft_ammo_556bb"}

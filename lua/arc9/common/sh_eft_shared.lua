@@ -219,3 +219,64 @@ ARC9EFT.ErgoAdsVolume = function(self, data)
     end
     return data
 end
+
+local conVars = {
+    {name = "eft_mult_pistol", default = "0.5", replicated = true },
+    {name = "eft_mult_shotgun", default = "0.5", replicated = true },
+    {name = "eft_mult_carabine", default = "0.5", replicated = true },
+    {name = "eft_mult_rifle", default = "0.5", replicated = true },
+    {name = "eft_mult_bigrifle", default = "0.75", replicated = true },
+    {name = "eft_mult_338", default = "0.75", replicated = true },
+    {name = "eft_mult_massive", default = "0.5", replicated = true },
+    {name = "eft_mindmgrange", default = "1000", replicated = true },
+    {name = "eft_mindmgrange_sg", default = "100", replicated = true },
+}
+
+for _, var in ipairs(conVars) do
+    local convar_name = "arc9_" .. var.name
+
+    if var.client and CLIENT then
+        CreateClientConVar(convar_name, var.default, true, var.userinfo)
+    else
+        local flags = FCVAR_ARCHIVE
+        if var.replicated then
+            flags = flags + FCVAR_REPLICATED
+        end
+        if var.userinfo then
+            flags = flags + FCVAR_USERINFO
+        end
+        CreateConVar(convar_name, var.default, flags, var.helptext, var.min, var.max)
+    end
+end
+
+
+if CLIENT then
+    timer.Simple(1, function()
+    
+        local eftsettings = {
+            TabName = "Escape From Tarkov",
+            sv = true,
+            { type = "label", text = "Settings for ARC9 Escape From Tarkov weapons" },
+ 
+            { type = "slider", text = "Minimal damage range", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "Bullets lose their damage on ranges but gmod maps are kinda small.\n\nMinimal damage range.\n\nDefault - 1000 (original EFT)" },
+            { type = "slider", text = "^ for shotguns", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "Same but for shotgun pellets. \n\nMinimal damage range.\n\nDefault - 100" },
+
+            { type = "label", text = "Damage mults", desc = "Damage multipliers for different caliber types. True EFT is 1x, but players there have 450 hp, so better to lower damage values for gmod." },
+
+            { type = "slider", text = "9x19mm, 5.7x28mm", convar = "eft_mult_pistol", min = 0.1, max = 1.5, decimals = 2, desc = "Pistol calibers (9x19mm, 5.7x28mm).\n\nDefault - 0.5" },
+            { type = "slider", text = "12 gauge, 20ga", convar = "eft_mult_shotgun", min = 0.1, max = 1.5, decimals = 2, desc = "Shotgun calibers (12/70, 20/70).\n\nDefault - 0.5" },
+            { type = "slider", text = "5.56x45, 5.45x39", convar = "eft_mult_carabine", min = 0.1, max = 1.5, decimals = 2, desc = "Carabine calibers (5.56x45, 5.45x39).\n\nDefault - 0.5" },
+            { type = "slider", text = "7.62x39", convar = "eft_mult_rifle", min = 0.1, max = 1.5, decimals = 2, desc = "Rifle caliber (only 7.62x39 for now).\n\nDefault - 0.5" },
+            { type = "slider", text = "7.62x51, 7.62x54R", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "Big rifle calibers (7.62x51, 7.62x54R).\n\nDefault - 0.75" },
+            { type = "slider", text = ".338 Lapua", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "Big sniper bullet (8.6x70mm aka .338 Lapua Magnum).\n\nDefault - 0.75" },
+            { type = "slider", text = ".366TKM, 12.7x55mm", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "Massive bullets (.366 TKM, 12.7x55mm).\n\nDefault - 0.5" },
+
+            { type = "button", text = "settings.developer.reloadatts.title", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.developer.reload", func = function(self2)
+                RunConsoleCommand("arc9_reloadatts")
+            end},
+        }
+        
+        table.insert(ARC9.SettingsTable, 3, eftsettings)
+    
+    end)
+end
