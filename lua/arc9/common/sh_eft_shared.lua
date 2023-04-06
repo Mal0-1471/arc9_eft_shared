@@ -258,8 +258,8 @@ if CLIENT then
             sv = true,
             { type = "label", text = "Settings for ARC9 Escape From Tarkov weapons" },
  
-            { type = "slider", text = "Minimal damage range", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "Bullets lose their damage on ranges but gmod maps are kinda small.\n\nMinimal damage range.\n\nDefault - 1000 (original EFT)" },
-            { type = "slider", text = "^ for shotguns", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "Same but for shotgun pellets. \n\nMinimal damage range.\n\nDefault - 100" },
+            { type = "slider", text = "Minimal damage range", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "Bullets lose their damage on ranges but gmod maps are kinda small.\n\nMinimal damage range in meters.\n\nDefault - 1000 (original EFT)" },
+            { type = "slider", text = "^ for shotguns", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "Same but for shotgun pellets. \n\nMinimal damage range in meters.\n\nDefault - 100" },
 
             { type = "label", text = "Damage mults", desc = "Damage multipliers for different caliber types. True EFT is 1x, but players there have 450 hp, so better to lower damage values for gmod." },
 
