@@ -18,6 +18,9 @@ ATT.HasBufferTube = true
 ATT.RecoilMult = 0.98
 ATT.VisualRecoilMult = 0.98
 
+ATT.ExcludeElements = {"pgrip_stock"}
+
+
 -- ATT.EFTErgoAdd = 4
 -- ATT.CustomPros = { Ergonomics = "+4" }
 
@@ -101,6 +104,9 @@ ATT.VisualRecoilMult = 0.7
 ATT.EFTErgoAdd = 10
 ATT.CustomPros = { Ergonomics = "+10" }
 
+ATT.ExcludeElements = {"pgrip_stock"}
+
+
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -128,6 +134,8 @@ ATT.VisualRecoilMult = 0.74
 
 ATT.EFTErgoAdd = 18
 ATT.CustomPros = { Ergonomics = "+18" }
+
+ATT.ExcludeElements = {"pgrip_stock"}
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
@@ -157,6 +165,8 @@ ATT.VisualRecoilMult = 0.74
 
 ATT.EFTErgoAdd = 18
 ATT.CustomPros = { Ergonomics = "+18" }
+
+ATT.ExcludeElements = {"pgrip_stock"}
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
@@ -307,6 +317,9 @@ ATT.VisualRecoilMult = 0.68
 ATT.EFTErgoAdd = 4
 ATT.CustomPros = { Ergonomics = "+4" }
 
+ATT.ExcludeElements = {"pgrip_stock"}
+
+
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -375,6 +388,9 @@ ATT.VisualRecoilMult = 0.67
 ATT.EFTErgoAdd = 7
 ATT.CustomPros = { Ergonomics = "+7" }
 
+
+ATT.ExcludeElements = {"pgrip_stock"}
+
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -404,6 +420,9 @@ ATT.VisualRecoilMult = 0.67
 ATT.EFTErgoAdd = 7
 ATT.CustomPros = { Ergonomics = "+7" }
 
+ATT.ExcludeElements = {"pgrip_stock"}
+
+
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -431,6 +450,9 @@ ATT.VisualRecoilMult = 0.75
 
 ATT.EFTErgoAdd = 21
 ATT.CustomPros = { Ergonomics = "+21" }
+
+ATT.ExcludeElements = {"pgrip_stock"}
+
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
