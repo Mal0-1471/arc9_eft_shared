@@ -5,6 +5,7 @@ if SERVER then
     util.AddNetworkString("arc9eftjam")
     util.AddNetworkString("arc9eftmissingparts")
     util.AddNetworkString("arc9eftmagcheck")
+    util.AddNetworkString("arc9eftquestionnotif")
 else
     matproxy.Add({
         name = "ARC9_EFT_FAKEAMMO",
@@ -176,10 +177,14 @@ else
     end)    
     
     net.Receive("arc9eftmissingparts", function(len)
-        local question = net.ReadBool()
-        jammed = true 
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
-        makeeftnotif(question and "???" or "Missing critical parts!", jammat)
+        makeeftnotif("Missing critical parts!", jammat)
+        timer.Simple(1.2, function() jammed = false end)
+    end)   
+
+    net.Receive("arc9eftquestionnotif", function(len)
+        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
+        makeeftnotif("???", magcheckmat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
     
