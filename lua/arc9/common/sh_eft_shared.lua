@@ -176,10 +176,10 @@ else
     end)    
     
     net.Receive("arc9eftmissingparts", function(len)
-        local jid = net.ReadUInt(3)
+        local question = net.ReadBool()
         jammed = true 
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
-        makeeftnotif("Missing critical parts!", jammat)
+        makeeftnotif(question and "???" or "Missing critical parts!", jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
     
