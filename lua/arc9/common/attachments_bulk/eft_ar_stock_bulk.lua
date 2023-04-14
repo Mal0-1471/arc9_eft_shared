@@ -10,7 +10,7 @@ ATT.PrintName = "ADAR 2-15 wooden stock"
 ATT.CompactName = "ADAR"
 ATT.Description = [[A wooden SVD-style stock for ADAR 2-15 carbines.]]
 
-ATT.Icon = Material("entities/eft_attachments/stocks/eft_stock_ar_adar.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/stocks/adarsock.png", "mips smooth")
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_adar_wood_v1.mdl"
 
@@ -20,10 +20,12 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgripstock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTErgoAdd = 13
+ATT.CustomPros = { Ergonomics = "+13" }
+ATT.RecoilMult = 0.72
+ATT.VisualRecoilMult = 0.72
 
 ATT.HasGrip = true
-
-
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_adar")
 
@@ -376,11 +378,11 @@ ARC9.LoadAttachment(ATT, "eft_ar_stock_glshock")
 
 ATT = {}
 
-ATT.PrintName = "ADAR 2-15 wooden stock"
+ATT.PrintName = "AR-15 Hera Arms CQR pistol grip/buttstock"
 ATT.CompactName = "CQR"
 ATT.Description = [[Designed for the cilvilian market as well as for military use, to create one of the most rigid and compact Rifle Systems based on the widely available AR-15 platform. The CQR Riflestock is an easy to install replacement buttstock for Mil-Spec AR-15 Rifles using a Mil-Spec Carbine buffer tube.]]
 
-ATT.Icon = Material("entities/eft_attachments/stocks/eft_stock_ar_heracqr.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/stocks/cqrsock.png", "mips smooth")
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_hera_arms_cqr.mdl"
 ATT.ActivateElements = {"pgrip_stock"}
@@ -391,7 +393,10 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasGrip = true
 
-
+ATT.EFTErgoAdd = 20
+ATT.CustomPros = { Ergonomics = "+20" }
+ATT.RecoilMult = 0.67
+ATT.VisualRecoilMult = 0.67
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_heracqr")
 
