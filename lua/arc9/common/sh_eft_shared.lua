@@ -220,6 +220,12 @@ ARC9EFT.ErgoAdsVolume = function(self, data)
     return data
 end
 
+ARC9EFT.SpreadBonus = function(wep, spread) 
+    if !wep:GetInSights() and !wep:GetCustomize() and wep:GetValue("EFTHipFireSpreadBonus") then 
+        return spread - wep.SpreadAddHipFire * 0.5 
+    end
+end
+
 local conVars = {
     {name = "eft_mult_pistol", default = "0.5", replicated = true },
     {name = "eft_mult_shotgun", default = "0.5", replicated = true },

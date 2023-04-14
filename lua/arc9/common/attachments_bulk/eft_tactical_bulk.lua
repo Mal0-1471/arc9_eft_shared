@@ -14,6 +14,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/baldr.png", "mips smooth"
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -35,7 +36,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Red Laser",
@@ -45,7 +46,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "Light + Laser",
@@ -66,7 +67,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -91,6 +92,7 @@ Tan version.]]
 ATT.Icon = Material("entities/eft_attachments/tactical/baldr_tan.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -114,7 +116,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Red Laser",
@@ -124,7 +126,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "Light + Laser",
@@ -145,7 +147,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -169,6 +171,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/dbal.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -195,7 +198,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Green Laser",
@@ -205,7 +208,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(31, 172, 18),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },  
     {
         PrintName = "Light + Green Laser",
@@ -226,7 +229,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(31, 172, 18),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     }, 
     {
         PrintName = "IR Light",
@@ -237,7 +240,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "Red Laser",
@@ -247,7 +250,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "IR + Red Laser",
@@ -265,7 +268,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -289,6 +292,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/gtl21.png", "mips smooth"
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -308,7 +312,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Red Laser",
@@ -318,7 +322,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "Light + Laser",
@@ -339,7 +343,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -363,6 +367,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/k2iks.png", "mips smooth"
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -386,7 +391,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Light + Laser",
@@ -407,7 +412,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Red Laser",
@@ -417,7 +422,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "None",
@@ -441,6 +446,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/k2p.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -462,7 +468,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Light + Laser",
@@ -483,7 +489,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Red Laser",
@@ -493,7 +499,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "None",
@@ -517,6 +523,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/k2u.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -536,7 +543,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -560,6 +567,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/la5b.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -575,7 +583,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },    
     {
         PrintName = "IR Light",
@@ -586,7 +594,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "IR + Laser",
@@ -604,7 +612,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -628,6 +636,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/lastac.png", "mips smooth
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -647,7 +656,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -671,6 +680,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/ls321.png", "mips smooth"
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -686,7 +696,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(31, 172, 18),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },  
     {
         PrintName = "Red Laser",
@@ -696,7 +706,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },    
     {
         PrintName = "IR Light",
@@ -707,7 +717,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "IR + Laser",
@@ -725,7 +735,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -749,6 +759,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/tbl.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -764,7 +775,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(27, 30, 238),
         LaserAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "None",
@@ -788,6 +799,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth"
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -803,7 +815,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },    
     {
         PrintName = "IR Light",
@@ -814,7 +826,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "IR + Laser",
@@ -832,7 +844,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -856,6 +868,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/peq2.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 -- ATT.Category = {"eft_tactical_top"}
 ATT.Category = {"eft_tactical_top_big"}
@@ -875,7 +888,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },    
     {
         PrintName = "IR + Laser",
@@ -893,7 +906,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -917,6 +930,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/perst3.png", "mips smooth
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -932,7 +946,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },        
     {
         PrintName = "Laser 2",
@@ -942,7 +956,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },    
     {
         PrintName = "IR Light",
@@ -953,7 +967,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "IR + Laser",
@@ -971,7 +985,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -995,6 +1009,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/raptar.png", "mips smooth
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.SortOrder = 0
 ATT.Category = {"eft_tactical", "eft_tactical_top", "eft_raptar"}
@@ -1086,7 +1101,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },    
     {
         PrintName = "Laser 2",
@@ -1097,7 +1112,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },    
     {
         PrintName = "IR Light",
@@ -1109,7 +1124,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "IR + Laser",
@@ -1128,7 +1143,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -1157,6 +1172,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/wf.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_25mm"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1177,7 +1193,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Light Low",
@@ -1191,7 +1207,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -1215,6 +1231,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/wmx200.png", "mips smooth
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1236,7 +1253,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "IR Light",
@@ -1247,7 +1264,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -1271,6 +1288,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/x400.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1290,7 +1308,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Red Laser",
@@ -1300,7 +1318,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },   
     {
         PrintName = "Light + Laser",
@@ -1321,7 +1339,7 @@ ATT.ToggleStats = {
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -1345,6 +1363,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/xc1.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1364,7 +1383,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
@@ -1388,6 +1407,7 @@ ATT.Icon = Material("entities/eft_attachments/tactical/xhp35.png", "mips smooth"
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_25mm"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1407,7 +1427,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "Light Low",
@@ -1421,7 +1441,7 @@ ATT.ToggleStats = {
         FlareColor = Color(255, 255, 255),
         FlareSize = 125,
         FlareAttachment = 1,
-        SpreadMultHipfire = 0.5,
+        EFTHipFireSpreadBonus = true,
     },
     {
         PrintName = "None",
