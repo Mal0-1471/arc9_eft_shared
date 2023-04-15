@@ -56,14 +56,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-0_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 485
+ATT.HoloSightSize = 465
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -92,17 +92,17 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 9.5, -0.5),
+        Pos = Vector(0, 9.95, -0.5),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 444
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -138,14 +138,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -0.95),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_sig_romeo_4_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 450
+ATT.HoloSightSize = 600
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -179,14 +179,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_deltapoint.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 300
+ATT.HoloSightSize = 275
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -231,7 +231,7 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
@@ -278,14 +278,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-0_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 395
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -317,14 +317,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -0.55),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aimpoint_micro_h1_high_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 550
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -353,17 +353,17 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 9, -0.65),
+        Pos = Vector(0, 10.2, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 600
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -405,7 +405,7 @@ ATT.Sights = {
         Pos = Vector(0, 11.25, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         ShadowPos = Vector(16,0,0),
         Disassociate = true,
         Blur = true,
@@ -431,7 +431,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 38/4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks_rt.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
@@ -448,7 +448,7 @@ end
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 380
+ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(1.5, 0, 0)
@@ -491,7 +491,7 @@ ATT.Sights = {
         Pos = Vector(0, 11.25, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         ShadowPos = Vector(16,0,0),
         Disassociate = true,
         OnSwitchToSight = function(self, slottbl)
@@ -515,7 +515,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 38/4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks_rt.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
@@ -532,7 +532,7 @@ end
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 380
+ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(1.5, 0, 0)
@@ -569,7 +569,7 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.4),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
@@ -660,28 +660,28 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R0
     },
     {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R1
     },
     {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R2
     },
     {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R3
     },
 }
@@ -739,14 +739,14 @@ ATT.Sights = {
         Pos = Vector(0, 10.4, -2.3),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_valday_krechet_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightSize = 333
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -791,28 +791,28 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.4),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R0
     },
     {
         Pos = Vector(0, 10, -1.4),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R1
     },
     {
         Pos = Vector(0, 10, -1.4),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R2
     },
     {
         Pos = Vector(0, 10, -1.4),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R3
     },
 }
@@ -890,14 +890,14 @@ ATT.Sights = {
         Pos = Vector(0.1, 10, -1.1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_ekb_okp7_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 400
+ATT.HoloSightSize = 385
 ATT.HoloSightColorable = false
 ATT.HoloSightDepthAdjustment = 0.001
 
@@ -942,21 +942,21 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R0
     },
     {
         Pos = Vector(0, 10, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R1
     },
     {
         Pos = Vector(0, 10, -1.25),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R2
     },
 }
@@ -1003,21 +1003,21 @@ ATT.Sights = {
         Pos = Vector(0, 10.7, -1.05),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R0
     },
     {
         Pos = Vector(0, 10.7, -1.05),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R1
     },
     {
         Pos = Vector(0, 10.7, -1.05),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R2
     },
 }
@@ -1062,14 +1062,14 @@ ATT.Sights = {
         Pos = Vector(0.066, 10.4, -2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_valday_1p87_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 575
+ATT.HoloSightSize = 545
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -1105,7 +1105,7 @@ ATT.Sights = {
         Pos = Vector(0, 9, -1),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
@@ -1196,14 +1196,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -0.57),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_trijicon_rmr_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 1000
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -1235,7 +1235,7 @@ ATT.Sights = {
         Pos = Vector(0, 10, -0.75),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
@@ -1278,14 +1278,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.5),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_romeo_8t_LOD0_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 550
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -1321,14 +1321,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.47),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 666
+ATT.HoloSightSize = 522
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -1360,14 +1360,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -0.62),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 650
+ATT.HoloSightSize = 550
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -1405,7 +1405,7 @@ ATT.Sights = {
         Pos = Vector(0, 10, -0.9),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
     }
 }
 ATT.RTScope = true
@@ -1510,14 +1510,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_vortex_razor_amg_uh-1_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 380
+ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -1559,14 +1559,14 @@ ATT.Sights = {
         Pos = Vector(0, 9.7, -1.05),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R0
     },
     {
         Pos = Vector(0, 9.7, -1.05),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57,
+        ViewModelFOV = 53,
         Reticle = R1
     },
 }
@@ -1639,14 +1639,14 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.45),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-0_marks.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 400
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -1684,7 +1684,7 @@ ATT.Sights = {
         Pos = Vector(0, 10, -1.45),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
-        ViewModelFOV = 57
+        ViewModelFOV = 53
     }
 }
 

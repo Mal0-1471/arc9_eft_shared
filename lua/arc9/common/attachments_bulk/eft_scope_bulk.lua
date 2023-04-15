@@ -989,7 +989,7 @@ ATT.Sights = {
         end,
     },
     {
-        Pos = Vector(0, 9.5, -3.23),
+        Pos = Vector(0, 9.2, -3.23),
         Ang = Angle(0, 0, 0),
         ViewModelFOV = 60,
         ShadowPos = Vector(0,0,3),
@@ -1015,7 +1015,7 @@ ATT.ScopeScreenRatio = 0.66
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_walther_mrs_mark_000.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 1024
+ATT.HoloSightSize = 700
 ATT.HoloSightColorable = false
 
 
