@@ -1,6 +1,42 @@
 ARC9EFT = ARC9EFT or {}
 ARC9EFTBASE = true
 
+ARC9EFT.RicochetSounds = {
+    "arc9_eft_shared/ricochet/ricochet1.wav",
+    "arc9_eft_shared/ricochet/ricochet2.wav",
+    "arc9_eft_shared/ricochet/ricochet3.wav",
+    "arc9_eft_shared/ricochet/ricochet4.wav",
+    "arc9_eft_shared/ricochet/ricochet5.wav",
+    "arc9_eft_shared/ricochet/ricochet6.wav",
+    "arc9_eft_shared/ricochet/ricochet7.wav",
+    "arc9_eft_shared/ricochet/ricochet9.wav",
+    "arc9_eft_shared/ricochet/ricochet10.wav",
+    "arc9_eft_shared/ricochet/ricochet11.wav",
+    "arc9_eft_shared/ricochet/ricochet12.wav",
+    "arc9_eft_shared/ricochet/ricochet13.wav",
+}
+
+ARC9EFT.Shells556 = {
+    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+}
+ARC9EFT.Shells9mm = {
+    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+}
+ARC9EFT.Shells12cal = {
+    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+}
+ARC9EFT.ShellsHeavy = {
+    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+}
+
 if SERVER then
     util.AddNetworkString("arc9eftjam")
     util.AddNetworkString("arc9eftmissingparts")
