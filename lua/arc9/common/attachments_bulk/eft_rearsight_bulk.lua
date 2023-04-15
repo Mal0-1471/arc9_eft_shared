@@ -28,6 +28,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.345),
         Ang = Angle(0, -0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
@@ -75,6 +76,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.345),
         Ang = Angle(0, -0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
@@ -127,6 +129,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.32),
         Ang = Angle(0, -0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
@@ -173,6 +176,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.5),
         Ang = Angle(0, -0.6, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
@@ -203,6 +207,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.4),
         Ang = Angle(0, 0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
@@ -265,6 +270,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.345),
         Ang = Angle(0, -0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
@@ -311,6 +317,7 @@ ATT.Sights = {
     {
         Pos = Vector(0, 7.5, -1.345),
         Ang = Angle(0, -0, 0),
+        ViewModelFOV = 53,
         Magnification = 1.1,
         IsIronSight = true
     }
@@ -349,6 +356,7 @@ ATT.Sights = {
     {
         Pos = Vector(0, 7.5, -1.47),
         Ang = Angle(0, -0.05, 0),
+        ViewModelFOV = 53,
         Magnification = 1.1,
         IsIronSight = true
     }
@@ -388,6 +396,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.37),
         Ang = Angle(0, -0, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
@@ -432,6 +441,7 @@ ATT.Sights = {
         Pos = Vector(0, 7.5, -1.345),
         Ang = Angle(0, 0.35, 0),
         Magnification = 1.1,
+        ViewModelFOV = 53,
         IsIronSight = true
     }
 }
