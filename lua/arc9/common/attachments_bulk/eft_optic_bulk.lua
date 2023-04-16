@@ -1408,48 +1408,88 @@ ATT.Sights = {
         ViewModelFOV = 53,
     }
 }
-ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 8
-ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/empty.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
-ATT.RTScopeColorable = false
-ATT.RTScopeShadowIntensity = 0
-ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = false 
-ATT.RTScopeNoShadow = true 
-ATT.RTCollimator = true 
-ATT.ScopeScreenRatio = 0.12
 
-ATT.RTScopeFLIR = true
-ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
-ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
-    ["$pp_colour_addr"] = 1.5,
-    ["$pp_colour_addg"] = 1,
-    ["$pp_colour_addb"] = 7.1,
-    ["$pp_colour_brightness"] = -2.5,
-    ["$pp_colour_contrast"] = 0.2,
-    ["$pp_colour_colour"] = 0.2,
-    ["$pp_colour_mulr"] = 0,
-    ["$pp_colour_mulg"] = 0,
-    ["$pp_colour_mulb"] = 0
-}
-ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-    ["$pp_colour_addr"] = 3.25,
-    ["$pp_colour_addg"] = -0.5,
-    ["$pp_colour_addb"] = 1.5,
-    ["$pp_colour_brightness"] = -1.32,
-    ["$pp_colour_contrast"] = 0.2,
-    ["$pp_colour_colour"] = 1,
-    ["$pp_colour_mulr"] = 0,
-    ["$pp_colour_mulg"] = 0,
-    ["$pp_colour_mulb"] = 0
-}
+local rtmat, rtsurf, rtsize, rtnextdraw
 
-ATT.RTScopeCustomPPFunc = function(swep)
-    -- DrawMotionBlur(0.85, 1, 1/10)
-    DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
-    -- DrawSharpen(4, 0.6)
+if CLIENT then
+    rtsize = 64
+    rtmat = GetRenderTarget("arc9_pipscope_extra5", rtsize, rtsize, false)
+    rtsurf = Material("effects/arc9_eft/rt")
+    rtnextdraw = 0
+end
+
+ATT.Hook_DoRT = function(swep)
+    if !swep:GetOwner() then return end
+
+    if !(CurTime() > rtnextdraw) then return end
+    rtnextdraw = CurTime() + 1/10
+    local fovv = swep:GetViewModelFOV()/10
+
+    if ARC9.OverDraw then return end
+    
+    local rtpos, rtang = swep:GetShootPos()
+
+    rtang.r = rtang.r + EyeAngles().z -- lean fix
+
+    local sighttbl = swep:GetSight()
+
+    local rt = {
+        x = 0,
+        y = 0,
+        w = rtsize,
+        h = rtsize,
+        angles = rtang,
+        origin = rtpos,
+        drawviewmodel = false,
+        fov = 3.5,
+        fov = fovv,
+        znear = 16,
+        zfar = 16000
+    }
+    
+    render.PushRenderTarget(rtmat, 0, 0, rtsize, rtsize)
+
+    ARC9.OverDraw = true
+    render.RenderView(rt)
+    ARC9.OverDraw = false
+
+    cam.Start3D(rtpos, rtang, fovv, 0, 0, rtsize, rtsize, 16, 16000)
+        swep:DoFLIR({
+            RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+                ["$pp_colour_addr"] = 1.5,
+                ["$pp_colour_addg"] = 1,
+                ["$pp_colour_addb"] = 7.1,
+                ["$pp_colour_brightness"] = -2.5,
+                ["$pp_colour_contrast"] = 0.2,
+                ["$pp_colour_colour"] = 0.2,
+                ["$pp_colour_mulr"] = 0,
+                ["$pp_colour_mulg"] = 0,
+                ["$pp_colour_mulb"] = 0
+            }, 
+            RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+                ["$pp_colour_addr"] = 3.25,
+                ["$pp_colour_addg"] = -0.5,
+                ["$pp_colour_addb"] = 1.5,
+                ["$pp_colour_brightness"] = -1.32,
+                ["$pp_colour_contrast"] = 0.2,
+                ["$pp_colour_colour"] = 1,
+                ["$pp_colour_mulr"] = 0,
+                ["$pp_colour_mulg"] = 0,
+                ["$pp_colour_mulb"] = 0
+            }
+        })
+    cam.End3D()
+    render.UpdateScreenEffectTexture()
+
+    render.PopRenderTarget()
+
+    rtsurf:SetTexture("$basetexture", rtmat)
+end
+
+ATT.DrawFunc = function(swep, model, wm)
+    if !swep:GetOwner() or wm then return end
+    model:SetSubMaterial()
+    model:SetSubMaterial(1, "effects/arc9_eft/rt")
 end
 
 ATT.ModelOffset = Vector(0, 0, -0)
