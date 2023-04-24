@@ -7,8 +7,7 @@ $bodygroup "body"
 	studio "eft_optic_exps3.smd"
 }
 
-$cdmaterials "models/weapons/arc9_eft_shared/atts/optic/553"
-$cdmaterials "models/weapons/arc9_eft_shared/atts/optic/exps3"
+$cdmaterials "models/weapons/arc9/darsu_eft/mods"
 
 $surfaceprop "weapon"
 
@@ -16,8 +15,8 @@ $illumposition 0 0 0
  
 $texturegroup <name>
 {
-	{ "eft_optic_exps3" } //Skin 0 (default)
-	{ "eft_optic_exps3_tan" } //Skin 1
+	{ "scope_all_eotech_exps3_LOD0" } //Skin 0 (default)
+	{ "scope_all_eotech_exps3_LOD0_tan" } //Skin 1
 }
  
 $contents "solid"

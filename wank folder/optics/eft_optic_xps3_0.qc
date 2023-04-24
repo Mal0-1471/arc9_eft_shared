@@ -7,8 +7,7 @@ $bodygroup "body"
 	studio "eft_optic_xps3_0.smd"
 }
 
-$cdmaterials "models/weapons/arc9_eft_shared/atts/optic/553"
-$cdmaterials "models/weapons/arc9_eft_shared/atts/optic/xps3_0"
+$cdmaterials "models/weapons/arc9/darsu_eft/mods"
 
 $surfaceprop "weapon"
 
