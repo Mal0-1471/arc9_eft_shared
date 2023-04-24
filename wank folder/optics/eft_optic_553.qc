@@ -7,7 +7,7 @@ $bodygroup "body"
 	studio "eft_optic_553.smd"
 }
 
-$cdmaterials "models/weapons/arc9_eft_shared/atts/optic/553"
+$cdmaterials "models/weapons/arc9/darsu_eft/mods"
 
 $surfaceprop "weapon"
 
