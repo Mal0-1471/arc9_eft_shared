@@ -7,7 +7,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/muzzle_all_silencerco_hybrid_46_multi.mdl"
 
-ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle", "eft_ak103_muzzle", "eft_ak74_muzzle", "eft_pp1901_muzzle", "eft_akm_muzzle", "eft_pm_muzzle", "eft_9mm_muzzle", "eft_308_muzzle"} -- crazy, not all list, should add here more later
+ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle", "eft_ak103_muzzle", "eft_ak74_muzzle", "eft_pp1901_muzzle", "eft_akm_muzzle", "eft_pm_muzzle", "eft_9mm_muzzle", "eft_ar10_muzzle"} -- crazy, not all list, should add here more later
 -- https://tarkov-database.com/item/muzzle/59bffc1f86f77435b128b872
 
 

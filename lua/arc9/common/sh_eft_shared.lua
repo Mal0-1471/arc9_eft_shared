@@ -236,7 +236,7 @@ else
         local wep = ply:GetActiveWeapon()
         if !IsValid(ply:GetActiveWeapon()) and wep.Trivia then return end
 
-        local rndtype = wep:GetValue("EFTRoundName") or wep.Trivia.Calibre2 or wep.Trivia.Calibre or "????"
+        local rndtype = wep:GetValue("EFTRoundName") or "????"
         
         if rnds == "Empty" then rndtype = "None" end
 
