@@ -8,6 +8,7 @@ $bodygroup "body"
 }
 
 $cdmaterials "models/weapons/arc9_eft_shared/atts/optic/deltapoint"
+$cdmaterials "models/weapons/arc9/darsu_eft/mods/"
 
 $surfaceprop "weapon"
 
