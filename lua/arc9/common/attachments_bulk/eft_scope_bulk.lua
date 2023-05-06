@@ -959,7 +959,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_ncstar_advance_dual.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -2
@@ -1036,7 +1036,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_sig_bravo4.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -2
@@ -1097,7 +1097,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_monstrum_compact_prism.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -3
@@ -1779,7 +1779,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_elcan_specter.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -4
@@ -1856,7 +1856,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_elcan_specter.mdl"
 ATT.ModelSkin = 1
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -4
@@ -1930,7 +1930,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_flir_rs32.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Special"
 
 
@@ -2074,7 +2074,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_leupold_mark4_hamr.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 
@@ -2575,7 +2575,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_swampfox_trihawk.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -3
@@ -2623,7 +2623,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_all_valday_ps320.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -5
