@@ -153,7 +153,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_primary_arms_compact.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes/Mounts"
 
 ATT.EFTErgoAdd = -1
@@ -806,7 +806,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mount/eft_mount_ta51.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_optic_large"
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes/Mounts"
 
 
@@ -887,7 +887,7 @@ ATT.Folder = "Special"
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
 
-ATT.Category = {"eft_optic_large"}
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)

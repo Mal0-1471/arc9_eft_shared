@@ -889,7 +889,7 @@ ATT.SortOrder = 99
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 -- ATT.HasAmmoooooooo = true 
-ATT.RequireElements = {"eft_bb_mag"}
+ATT.RequireElements = {"eft_mag_ar15_airsoft"}
 
 ATT.EFTRoundName = "Airsoft 6mm BB"
 

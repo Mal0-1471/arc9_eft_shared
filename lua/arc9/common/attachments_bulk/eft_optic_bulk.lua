@@ -389,7 +389,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_hhs1.mdl"
 ATT.Folder = "Holo"
 
-ATT.Category = {"eft_optic_large"}
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
@@ -475,7 +475,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_hhs1.mdl"
 ATT.ModelSkin = 1
 ATT.Folder = "Holo"
 
-ATT.Category = {"eft_optic_large"}
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
