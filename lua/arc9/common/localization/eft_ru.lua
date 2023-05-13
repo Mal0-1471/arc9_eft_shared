@@ -22,6 +22,7 @@ L["eft_trivia_manuf_kbp"] = "Конструкторское бюро прибо�
 L["eft_trivia_act_bolt"] = "Скользящий затвор"
 L["eft_trivia_act_blow"] = "Свободный затвор"
 L["eft_trivia_act_gas"] = "Отвод пороховых газов"
+L["eft_trivia_act_recoil"] = "Отдача ствола"
 
 L["eft_trivia_country_ussr"] = "Советский Союз"
 L["eft_trivia_country_rus"] = "Российская Федерация"
@@ -31,6 +32,7 @@ L["eft_trivia_country_usa"] = "США"
 L["eft_trivia_country_usa_eu"] = "США/Европа"
 L["eft_trivia_country_aust"] = "Австрийская Республика"
 L["eft_trivia_country_germ"] = "Германия"
+L["eft_trivia_country_italy"] = "Италия"
 
 -- [[ Weapon Categories ]]
 L["eft_subcat_carb"] = "  Штурмовые карабины"
@@ -54,6 +56,7 @@ L["eft_class_weapon_pumpsg"] = "Помповое ружье"
 L["eft_class_weapon_lmg"] = "Ручной пулемет"
 L["eft_class_weapon_boltsnip"] = "Болтовая снайперская винтовка"
 L["eft_class_weapon_marks"] = "Марксманская винтовка"
+L["eft_class_weapon_dualsg"] = "Ружьё"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "РШ-12"

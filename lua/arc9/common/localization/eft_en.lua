@@ -22,6 +22,7 @@ L["eft_trivia_manuf_kbp"] = "KBP Instrument Design Bureau"
 L["eft_trivia_act_bolt"] = "Bolt"
 L["eft_trivia_act_blow"] = "Blow"
 L["eft_trivia_act_gas"] = "Gas"
+L["eft_trivia_act_recoil"] = "Recoil"
 
 L["eft_trivia_country_ussr"] = "Soviet Union"
 L["eft_trivia_country_rus"] = "Russian Federation"
@@ -31,6 +32,7 @@ L["eft_trivia_country_usa"] = "USA"
 L["eft_trivia_country_usa_eu"] = "USA/Europe"
 L["eft_trivia_country_aust"] = "Republic of Austria"
 L["eft_trivia_country_germ"] = "Germany"
+L["eft_trivia_country_italy"] = "Italy"
 
 -- [[ Weapon Categories ]]
 L["eft_subcat_carb"] = "Assault Carbines"
@@ -54,6 +56,7 @@ L["eft_class_weapon_pumpsg"] = "Pump Shotgun"
 L["eft_class_weapon_lmg"] = "Light Machine Gun"
 L["eft_class_weapon_boltsnip"] = "Bolt-action Sniper Rifle"
 L["eft_class_weapon_marks"] = "Marksman Rifle"
+L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "RSh-12"

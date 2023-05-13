@@ -1,14 +1,14 @@
 local ATT = {}
 
 
-///////////////////////////////////////      eft_muzzle_12g_chokeapadter
+///////////////////////////////////////      eft_muzzle_12g_threadapadter
 
 
 ATT = {}
 
-ATT.PrintName = "SilencerCo Salvo 12 choke adapter"
-ATT.CompactName = "Thread adapter"
-ATT.Icon = Material("entities/eft_attachments/muzzles/salvochoke.png", "mips smooth")
+ATT.PrintName = "SilencerCo Salvo 12 thread adapter"
+ATT.CompactName = "12ga thr."
+ATT.Icon = Material("entities/eft_attachments/muzzles/savlo12thr.png", "mips smooth")
 ATT.Description = [[The SilencerCo choke adapter for Salvo 12g sound suppressors.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -34,7 +34,96 @@ ATT.Attachments = {
 }
 
 
+ARC9.LoadAttachment(ATT, "eft_muzzle_12g_threadapadter")
+
+///////////////////////////////////////      eft_muzzle_12g_chokeapadter
+
+
+ATT = {}
+
+ATT.PrintName = "SilencerCo Salvo 12 choke adapter"
+ATT.CompactName = "12ga adpt."
+ATT.Icon = Material("entities/eft_attachments/muzzles/salvochoke.png", "mips smooth")
+ATT.Description = [[The SilencerCo choke adapter for Salvo 12g sound suppressors.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_12g_silencerco_salvo_adaper_12g.mdl"
+
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+ATT.SpreadMult = 0.99
+ATT.HeatCapacityMult = 0.987
+ATT.PhysBulletMuzzleVelocityMult = 1.0025
+
+ATT.Category = {"eft_12ga_muzzle"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Suppressor",
+        Category = "eft_salvo12",
+        Pos = Vector(-0.2, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+    },
+}
+
 ARC9.LoadAttachment(ATT, "eft_muzzle_12g_chokeapadter")
+
+///////////////////////////////////////      eft_muzzle_12g_mecyl
+
+ATT = {}
+
+ATT.PrintName = "ME Cylinder 12ga muzzle adapter"
+ATT.CompactName = "Cylinder 12ga"
+ATT.Icon = Material("entities/eft_attachments/muzzles/mecyl.png", "mips smooth")
+ATT.Description = [[A muzzle thread adapter for 12ga barrels, designed for installing additional muzzle devices.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_12g_me_muzzle_adapter.mdl"
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.HeatCapacityMult = 0.99
+ATT.PhysBulletMuzzleVelocityMult = 1.0025
+
+ATT.Category = {"eft_12ga_muzzle"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Muzzle",
+        Category = "eft_12k_cylinder",
+        Pos = Vector(-1.3, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_12g_mecyl")
+
+///////////////////////////////////////      eft_muzzle_12g_rtc
+
+ATT = {}
+
+ATT.PrintName = "Remington Tactical Choke 12ga"
+ATT.CompactName = "RTC 12ga"
+ATT.Icon = Material("entities/eft_attachments/muzzles/rtc12.png", "mips smooth")
+ATT.Description = [[Remington Tactical Choke 12ga is designed specifically for use on tactical shotguns and home-defense shotguns. Combines the properties of both cylinder and flash hider.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_12g_remington.mdl"
+
+ATT.RecoilMult = 0.92
+ATT.VisualRecoilMult = 0.92
+ATT.SpreadMult = 0.95
+ATT.HeatCapacityMult = 0.987
+ATT.PhysBulletMuzzleVelocityMult = 1.0025
+
+ATT.Category = {"eft_12ga_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_12g_rtc")
 
 
 ///////////////////////////////////////      eft_muzzle_12g_claw
