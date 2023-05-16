@@ -2,39 +2,39 @@ ARC9EFT = ARC9EFT or {}
 ARC9EFTBASE = true
 
 ARC9EFT.RicochetSounds = {
-    "arc9_eft_shared/ricochet/ricochet1.wav",
-    "arc9_eft_shared/ricochet/ricochet2.wav",
-    "arc9_eft_shared/ricochet/ricochet3.wav",
-    "arc9_eft_shared/ricochet/ricochet4.wav",
-    "arc9_eft_shared/ricochet/ricochet5.wav",
-    "arc9_eft_shared/ricochet/ricochet6.wav",
-    "arc9_eft_shared/ricochet/ricochet7.wav",
-    "arc9_eft_shared/ricochet/ricochet9.wav",
-    "arc9_eft_shared/ricochet/ricochet10.wav",
-    "arc9_eft_shared/ricochet/ricochet11.wav",
-    "arc9_eft_shared/ricochet/ricochet12.wav",
-    "arc9_eft_shared/ricochet/ricochet13.wav",
+    "arc9_eft_shared/ricochet/ricochet1.ogg",
+    "arc9_eft_shared/ricochet/ricochet2.ogg",
+    "arc9_eft_shared/ricochet/ricochet3.ogg",
+    "arc9_eft_shared/ricochet/ricochet4.ogg",
+    "arc9_eft_shared/ricochet/ricochet5.ogg",
+    "arc9_eft_shared/ricochet/ricochet6.ogg",
+    "arc9_eft_shared/ricochet/ricochet7.ogg",
+    "arc9_eft_shared/ricochet/ricochet9.ogg",
+    "arc9_eft_shared/ricochet/ricochet10.ogg",
+    "arc9_eft_shared/ricochet/ricochet11.ogg",
+    "arc9_eft_shared/ricochet/ricochet12.ogg",
+    "arc9_eft_shared/ricochet/ricochet13.ogg",
 }
 
 ARC9EFT.Shells556 = {
-    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.ogg", "arc9_eft_shared/shells/556mm_shell_concrete2.ogg", "arc9_eft_shared/shells/556mm_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.ogg", "arc9_eft_shared/shells/556mm_shell_concrete2.ogg", "arc9_eft_shared/shells/556mm_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.ogg", "arc9_eft_shared/shells/556mm_shell_concrete2.ogg", "arc9_eft_shared/shells/556mm_shell_concrete3.ogg",
 }
 ARC9EFT.Shells9mm = {
-    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.ogg", "arc9_eft_shared/shells/9mm_shell_concrete2.ogg", "arc9_eft_shared/shells/9mm_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.ogg", "arc9_eft_shared/shells/9mm_shell_concrete2.ogg", "arc9_eft_shared/shells/9mm_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.ogg", "arc9_eft_shared/shells/9mm_shell_concrete2.ogg", "arc9_eft_shared/shells/9mm_shell_concrete3.ogg",
 }
 ARC9EFT.Shells12cal = {
-    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
-    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
-    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.ogg", "arc9_eft_shared/shells/12cal_shell_concrete2.ogg", "arc9_eft_shared/shells/12cal_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.ogg", "arc9_eft_shared/shells/12cal_shell_concrete2.ogg", "arc9_eft_shared/shells/12cal_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.ogg", "arc9_eft_shared/shells/12cal_shell_concrete2.ogg", "arc9_eft_shared/shells/12cal_shell_concrete3.ogg",
 }
 ARC9EFT.ShellsHeavy = {
-    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
-    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
-    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.ogg", "arc9_eft_shared/shells/heavy_shell_concrete2.ogg", "arc9_eft_shared/shells/heavy_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.ogg", "arc9_eft_shared/shells/heavy_shell_concrete2.ogg", "arc9_eft_shared/shells/heavy_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.ogg", "arc9_eft_shared/shells/heavy_shell_concrete2.ogg", "arc9_eft_shared/shells/heavy_shell_concrete3.ogg",
 }
 
 if SERVER then
@@ -207,19 +207,19 @@ else
     net.Receive("arc9eftjam", function(len)
         local jid = net.ReadUInt(3)
         jammed = true 
-        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
+        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
         makeeftnotif("Malfunction: \"" .. malftable[jid] .. "\"", jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
     
     net.Receive("arc9eftmissingparts", function(len)
-        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
+        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
         makeeftnotif("Missing critical parts!", jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)   
 
     net.Receive("arc9eftquestionnotif", function(len)
-        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.wav")
+        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
         makeeftnotif("???", magcheckmat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
