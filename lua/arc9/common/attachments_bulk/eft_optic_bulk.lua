@@ -38,7 +38,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/553.png", "mips smooth")
 ATT.Description = [[Eotech 553 holographic collimator sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a primary sight for operations in confined spaces.]]
 ATT.SortOrder = 1
 
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_553.mdl"
 ATT.Folder = "Holo"
 
@@ -165,7 +165,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/dp.png", "mips smooth")
 ATT.Description = [[Compact DeltaPoint Reflex Sight by Leupold knows almost no limits in the range of application. Originally designed for use on pump-action shotguns in competitions and practical shooting, it was recognized for good performance on a wide range of weapons. From shotguns and handguns to AR-based rifles, as a main or auxiliary sight, it will show excellent results.]]
 ATT.SortOrder = 1
 
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_deltapoint.mdl"
 -- ATT.Folder = "Reflex"
 
@@ -200,18 +200,17 @@ ARC9.LoadAttachment(ATT, "eft_optic_deltapoint")
 
 ATT = {}
 
-
-ATT.Ignore = true
-
 -- Only tan version exist in game though having black texture in files
 
 ATT.PrintName = "EOTech EXPS3 holographic sight"
 ATT.CompactName = "EXPS3"
 ATT.Icon = Material("entities/eft_attachments/scopes/exps3.png", "mips smooth")
-ATT.Description = [[Eotech EXPS3 holo sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces.]]
+ATT.Description = [[Eotech EXPS3 holo sight. Thanks to design features it can be used with a wide range of weapons even with non-folding sights. Compatible with night vision devices by the means of NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces.
+
+Not presents in EFT, custom att.]]
 ATT.SortOrder = 1
 
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_exps3.mdl"
 ATT.Folder = "Holo"
 
@@ -259,7 +258,7 @@ ATT.Description = [[Eotech EXPS3 holo sight. Thanks to design features it can be
 ATT.SortOrder = 1
 
 ATT.ModelSkin = 1
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_exps3.mdl"
 ATT.Folder = "Holo"
 
@@ -385,7 +384,7 @@ ATT.Description = [[Holographic hybrid sight-1 (HHS-1) features EXPS3-4 holograp
 The magnifier changes the zoom factor to 3x]]
 ATT.SortOrder = 1
 
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_hhs1.mdl"
 ATT.Folder = "Holo"
 
@@ -470,7 +469,7 @@ ATT.Description = [[Holographic hybrid sight-1 (HHS-1) features EXPS3-4 holograp
 The magnifier changes the zoom factor to 3x]]
 ATT.SortOrder = 1
 
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_hhs1.mdl"
 ATT.ModelSkin = 1
 ATT.Folder = "Holo"
@@ -1660,7 +1659,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/xps3.png", "mips smooth")
 ATT.Description = [[XPS3 is more compact than the other holographic sights, but just as effective. Moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-0 features a single-dot reticle of 1 MOA.]]
 ATT.SortOrder = 1
 
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_xps3_0.mdl"
 ATT.Folder = "Holo"
 
@@ -1706,7 +1705,7 @@ ATT.Icon = Material("entities/eft_attachments/scopes/xps3.png", "mips smooth")
 ATT.Description = [[XPS3 is more compact than the other holographic sights, but just as effective; moreover, such approach leaves more mounting space for additional equipment. Both hunters and armed forces operatives value it for small size and weight, which are particularly noticeable over long missions. The model 3-2 features a two-dot reticle of 1 MOA.]]
 ATT.SortOrder = 1
 
-ATT.Scale = 1
+
 ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/eft_optic_xps3_0.mdl"
 ATT.Folder = "Holo"
 
