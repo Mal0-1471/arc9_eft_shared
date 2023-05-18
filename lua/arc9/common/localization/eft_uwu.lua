@@ -87,6 +87,12 @@ L["eft_weapon_vpo136"] = "WPO-136 \"UWUpr-KM\""
 L["eft_weapon_vpo209"] = "WPO-209"
 
 
+L["eft_weapon_veresk"] = "SW-2Mwa \"UWUresk\""
+L["eft_weapon_gyurza"] = "SW-1MwaP GyuwwzA"
+L["eft_trivia_manuf_tsniitochmash"] = "TsNIITowochMawash >.<"
+L["eft_trivia_calibr_9x21"] = "9x21mm GyuwwzA!"
+
+
 -- [[ Weapon descs ]] fuckkkkkkkk
 -- L["eft_weapon_vpo209"] = "VPO-209"
 
