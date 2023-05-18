@@ -884,7 +884,11 @@ ATT = {}
 ATT.PrintName = "Airsoft 6mm BB"
 ATT.CompactName = "6mm BB"
 ATT.Icon = Material("entities/eft_attachments/ammo/556/bb.png", "mips smooth")
-ATT.Description = [[Airsoft 6mm 0.2g BBs.]]
+ATT.Description = [[Airsoft 6mm 0.2g BBs.
+
+This ammo type really exists in tarkov but not used! because there is no fucking airsoft rifles in tarkov!
+https://tarkov-changes.com/item/Airsoft%206mm%20BB
+you can unlock this attachment by installing airsoft magazine (last one in selection) on ar15 type rifles]]
 ATT.SortOrder = 99
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
