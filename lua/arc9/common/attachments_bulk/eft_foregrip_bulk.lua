@@ -963,3 +963,28 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_uvg")
 
+
+///////////////////////////////////////      eft_foregrip_sturm
+
+
+ATT = {}
+
+ATT.PrintName = "HK Sturmgriff foregrip"
+ATT.CompactName = "Sturmgriff"
+ATT.Description = [[The Sturmgriff vertical foregrip. Manufactured by Heckler & Koch.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/sturm.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_sturmgriff.mdl"
+
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 7
+ATT.CustomPros = { Ergonomics = "+7" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_sturm")
