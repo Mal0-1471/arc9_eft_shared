@@ -975,6 +975,7 @@ ATT.Description = [[The Sturmgriff vertical foregrip. Manufactured by Heckler & 
 ATT.Icon = Material("entities/eft_attachments/foregrips/sturm.png", "mips smooth")
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_sturmgriff.mdl"
+ATT.ModelAngleOffset = Angle(0, 90, 0)
 
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
