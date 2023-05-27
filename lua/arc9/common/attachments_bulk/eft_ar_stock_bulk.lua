@@ -665,7 +665,7 @@ ATT = {}
 ATT.PrintName = "Magpul PRS GEN2 stock (FDE)"
 ATT.CompactName = "PRS GEN2"
 ATT.Description = [[The PRS GEN2 stock manufactured by Magpul. Flat Dark Earth version.]]
-ATT.Icon = Material("entities/eft_attachments/stocks/gen2f.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/stocks/prsgen2.png", "mips smooth")
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_magpul_prs_gen2_fde.mdl"
 
