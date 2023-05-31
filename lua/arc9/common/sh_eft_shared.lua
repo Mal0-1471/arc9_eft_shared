@@ -85,7 +85,7 @@ else
             elseif mag == 0 then return "Empty"
             else return mag end
         else
-            if mag >= max-1 then return "Full"
+            if mag >= max*0.9 then return "Full"
             elseif mag >= max*0.8 then return "Nearly full"
             elseif mag >= max*0.4 then return "About half"
             elseif mag >= max*0.3 then return "Less than half"
@@ -229,7 +229,7 @@ else
         local rnds = net.ReadUInt(9)
         local maxrnds = net.ReadUInt(9)
         
-        rnds = aproxammo(checktype, rnds, maxrnds)
+        rnds = aproxammo(checktype, math.Clamp(rnds-1, 0, maxrnds), maxrnds)
 
         local ply = LocalPlayer()
         if !IsValid(ply) then return end
