@@ -94,6 +94,21 @@ L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
 L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
 
+L["eft_hud_full"] = "Full"
+L["eft_hud_empty"] = "Empty"
+L["eft_hud_nearlyfull"] = "Nearly full"
+L["eft_hud_aboutfull"] = "About half"
+L["eft_hud_lessthanhlaf"] = "Less than half"
+L["eft_hud_almostempty"] = "Almost empty"
+L["eft_hud_none"] = "None"
+L["eft_hud_malf"] = "Malfunction: \""
+L["eft_hud_misfire"] = "Misfire"
+L["eft_hud_eject"] = "Failure to eject"
+L["eft_hud_feed"] = "Failure to feed"
+L["eft_hud_bolt"] = "Bolt jammed"
+L["eft_hud_missing"] = "Missing critical parts!"
+
+
 -- [[ Weapon descs ]] fuckkkkkkkk
 -- L["eft_weapon_vpo209"] = "VPO-209"
 

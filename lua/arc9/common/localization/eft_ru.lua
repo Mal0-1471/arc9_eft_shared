@@ -92,6 +92,21 @@ L["eft_weapon_gyurza"] = "СР-1МП Гюрза"
 L["eft_trivia_manuf_tsniitochmash"] = "АО «ЦНИИточмаш»"
 L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
 
+L["eft_hud_full"] = "Полон"
+L["eft_hud_empty"] = "Пуст"
+L["eft_hud_nearlyfull"] = "Почти полон"
+L["eft_hud_aboutfull"] = "Около половины"
+L["eft_hud_lessthanhlaf"] = "Меньше половины"
+L["eft_hud_almostempty"] = "Почти пуст"
+L["eft_hud_none"] = "Пусто"
+L["eft_hud_malf"] = "Неполадка: \""
+L["eft_hud_misfire"] = "Осечка"
+L["eft_hud_eject"] = "Неизвлечение гильзы"
+L["eft_hud_feed"] = "Неподача патрона"
+L["eft_hud_bolt"] = "Заклинивание затвора"
+L["eft_hud_missing"] = "Отсутствуют критические части!"
+
+
 -- [[ Weapon descs ]] fuckkkkkkkk
 -- L["eft_weapon_vpo209"] = "VPO-209"
 
