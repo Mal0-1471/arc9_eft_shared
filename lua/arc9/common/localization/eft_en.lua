@@ -22,6 +22,7 @@ L["eft_trivia_manuf_kbp"] = "KBP Instrument Design Bureau"
 L["eft_trivia_act_bolt"] = "Bolt"
 L["eft_trivia_act_blow"] = "Blow"
 L["eft_trivia_act_gas"] = "Gas"
+L["eft_trivia_act_recoil"] = "Recoil"
 
 L["eft_trivia_country_ussr"] = "Soviet Union"
 L["eft_trivia_country_rus"] = "Russian Federation"
@@ -31,6 +32,7 @@ L["eft_trivia_country_usa"] = "USA"
 L["eft_trivia_country_usa_eu"] = "USA/Europe"
 L["eft_trivia_country_aust"] = "Republic of Austria"
 L["eft_trivia_country_germ"] = "Germany"
+L["eft_trivia_country_italy"] = "Italy"
 
 -- [[ Weapon Categories ]]
 L["eft_subcat_carb"] = "Assault Carbines"
@@ -54,6 +56,7 @@ L["eft_class_weapon_pumpsg"] = "Pump Shotgun"
 L["eft_class_weapon_lmg"] = "Light Machine Gun"
 L["eft_class_weapon_boltsnip"] = "Bolt-action Sniper Rifle"
 L["eft_class_weapon_marks"] = "Marksman Rifle"
+L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "RSh-12"
@@ -82,6 +85,28 @@ L["eft_weapon_saiga9"] = "Saiga-9"
 L["eft_weapon_saiga12k"] = "Saiga 12ga ver.10"
 L["eft_weapon_vpo136"] = "VPO-136 \"Vepr-KM\""
 L["eft_weapon_vpo209"] = "VPO-209"
+
+
+
+L["eft_weapon_veresk"] = "SR-2M \"Veresk\""
+L["eft_weapon_gyurza"] = "SR-1MP Gyurza"
+L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
+L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
+
+
+L["eft_hud_full"] = "Full"
+L["eft_hud_empty"] = "Empty"
+L["eft_hud_nearlyfull"] = "Nearly full"
+L["eft_hud_aboutfull"] = "About half"
+L["eft_hud_lessthanhlaf"] = "Less than half"
+L["eft_hud_almostempty"] = "Almost empty"
+L["eft_hud_none"] = "None"
+L["eft_hud_malf"] = "Malfunction: \""
+L["eft_hud_misfire"] = "Misfire"
+L["eft_hud_eject"] = "Failure to eject"
+L["eft_hud_feed"] = "Failure to feed"
+L["eft_hud_bolt"] = "Bolt jammed"
+L["eft_hud_missing"] = "Missing critical parts!"
 
 
 -- [[ Weapon descs ]] fuckkkkkkkk

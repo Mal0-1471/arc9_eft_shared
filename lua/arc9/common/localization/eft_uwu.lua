@@ -22,6 +22,7 @@ L["eft_trivia_manuf_kbp"] = "KBP Instwument Dewign Buweauwu"
 L["eft_trivia_act_bolt"] = "Bowt >w<"
 L["eft_trivia_act_blow"] = "Bwow uwu"
 L["eft_trivia_act_gas"] = "Gaws owo"
+L["eft_trivia_act_recoil"] = "Wecoil uwu"
 
 L["eft_trivia_country_ussr"] = "Sowiet Uniown uwu"
 L["eft_trivia_country_rus"] = "Rusian Fedewation owo"
@@ -31,6 +32,7 @@ L["eft_trivia_country_usa"] = "USwA 'w'"
 L["eft_trivia_country_usa_eu"] = "USwA/Euwuwope"
 L["eft_trivia_country_aust"] = "Wepublwic of Austwia"
 L["eft_trivia_country_germ"] = "Gewmany"
+L["eft_trivia_country_italy"] = "Itawy owo"
 
 -- [[ Weapon Categories ]]
 L["eft_subcat_carb"] = "Awwault Cawwbines owo"
@@ -54,6 +56,7 @@ L["eft_class_weapon_pumpsg"] = "Puwump Showtgun"
 L["eft_class_weapon_lmg"] = "Liwwt Machwine Guwn"
 L["eft_class_weapon_boltsnip"] = "Bowt-actiowon Sniper Wifle"
 L["eft_class_weapon_marks"] = "Mawksmwan Wifle"
+L["eft_class_weapon_dualsg"] = "Duwal-mowode Showtgun"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "WShh-12"
@@ -83,6 +86,25 @@ L["eft_weapon_saiga12k"] = "Saigawa 12ga wew.10"
 L["eft_weapon_vpo136"] = "WPO-136 \"UWUpr-KM\""
 L["eft_weapon_vpo209"] = "WPO-209"
 
+
+L["eft_weapon_veresk"] = "SW-2Mwa \"UWUresk\""
+L["eft_weapon_gyurza"] = "SW-1MwaP GyuwwzA"
+L["eft_trivia_manuf_tsniitochmash"] = "TsNIITowochMawash >.<"
+L["eft_trivia_calibr_9x21"] = "9x21mm GyuwwzA!"
+
+L["eft_hud_full"] = "Fuwl :3"
+L["eft_hud_empty"] = "Emptwy >.<"
+L["eft_hud_nearlyfull"] = "Neawwy fuwl"
+L["eft_hud_aboutfull"] = "Abuwut haww >w<"
+L["eft_hud_lessthanhlaf"] = "Lewss twan haww"
+L["eft_hud_almostempty"] = "Awmowst emptwy !"
+L["eft_hud_none"] = "None uwu"
+L["eft_hud_malf"] = "Mawwwunktiwon!!!! \""
+L["eft_hud_misfire"] = "Miwwfiwe :3"
+L["eft_hud_eject"] = "Faiwuwe to ewect owo"
+L["eft_hud_feed"] = "Faiwuwe to fewd >w<"
+L["eft_hud_bolt"] = "Bowt jam !!"
+L["eft_hud_missing"] = "Miwwing cwiticawal pawts owo"
 
 -- [[ Weapon descs ]] fuckkkkkkkk
 -- L["eft_weapon_vpo209"] = "VPO-209"

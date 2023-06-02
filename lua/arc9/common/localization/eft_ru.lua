@@ -22,6 +22,7 @@ L["eft_trivia_manuf_kbp"] = "Конструкторское бюро прибо�
 L["eft_trivia_act_bolt"] = "Скользящий затвор"
 L["eft_trivia_act_blow"] = "Свободный затвор"
 L["eft_trivia_act_gas"] = "Отвод пороховых газов"
+L["eft_trivia_act_recoil"] = "Отдача ствола"
 
 L["eft_trivia_country_ussr"] = "Советский Союз"
 L["eft_trivia_country_rus"] = "Российская Федерация"
@@ -31,6 +32,7 @@ L["eft_trivia_country_usa"] = "США"
 L["eft_trivia_country_usa_eu"] = "США/Европа"
 L["eft_trivia_country_aust"] = "Австрийская Республика"
 L["eft_trivia_country_germ"] = "Германия"
+L["eft_trivia_country_italy"] = "Италия"
 
 -- [[ Weapon Categories ]]
 L["eft_subcat_carb"] = "  Штурмовые карабины"
@@ -54,6 +56,7 @@ L["eft_class_weapon_pumpsg"] = "Помповое ружье"
 L["eft_class_weapon_lmg"] = "Ручной пулемет"
 L["eft_class_weapon_boltsnip"] = "Болтовая снайперская винтовка"
 L["eft_class_weapon_marks"] = "Марксманская винтовка"
+L["eft_class_weapon_dualsg"] = "Ружьё"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "РШ-12"
@@ -82,6 +85,26 @@ L["eft_weapon_saiga9"] = "Сайга-9"
 L["eft_weapon_saiga12k"] = "Сайга 12К исп.10"
 L["eft_weapon_vpo136"] = "ВПО-136 \"Вепрь-КМ\""
 L["eft_weapon_vpo209"] = "ВПО-209"
+
+
+L["eft_weapon_veresk"] = "СР-2М \"Вереск\""
+L["eft_weapon_gyurza"] = "СР-1МП Гюрза"
+L["eft_trivia_manuf_tsniitochmash"] = "АО «ЦНИИточмаш»"
+L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
+
+L["eft_hud_full"] = "Полон"
+L["eft_hud_empty"] = "Пуст"
+L["eft_hud_nearlyfull"] = "Почти полон"
+L["eft_hud_aboutfull"] = "Около половины"
+L["eft_hud_lessthanhlaf"] = "Меньше половины"
+L["eft_hud_almostempty"] = "Почти пуст"
+L["eft_hud_none"] = "Пусто"
+L["eft_hud_malf"] = "Неполадка: \""
+L["eft_hud_misfire"] = "Осечка"
+L["eft_hud_eject"] = "Неизвлечение гильзы"
+L["eft_hud_feed"] = "Неподача патрона"
+L["eft_hud_bolt"] = "Заклинивание затвора"
+L["eft_hud_missing"] = "Отсутствуют критические части!"
 
 
 -- [[ Weapon descs ]] fuckkkkkkkk

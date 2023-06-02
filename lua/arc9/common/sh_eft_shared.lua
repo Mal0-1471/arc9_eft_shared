@@ -71,26 +71,26 @@ else
     local jammat = Material("vgui/arc9_eft_shared/notification_icon_alert_red.png", "mips smooth")
     local magcheckmat = Material("vgui/arc9_eft_shared/icon_info_magsize.png", "")
     local malftable = {
-        [0] = "Misfire",
-        [1] = "Failure to eject",
-        [2] = "Failure to feed",
-        [3] = "Bolt jammed",
-        [4] = "Bolt jammed",
-        [5] = "Bolt jammed",
+        [0] = "eft_hud_misfire",
+        [1] = "eft_hud_eject",
+        [2] = "eft_hud_feed",
+        [3] = "eft_hud_bolt",
+        [4] = "eft_hud_bolt",
+        [5] = "eft_hud_bolt",
     }
 
     local function aproxammo(checktype, mag, max)
         if checktype then
-            if mag == max then return "Full"
-            elseif mag == 0 then return "Empty"
+            if mag == max then return ARC9:GetPhrase("eft_hud_full")
+            elseif mag == 0 then return ARC9:GetPhrase("eft_hud_empty")
             else return mag end
         else
-            if mag >= max-1 then return "Full"
-            elseif mag >= max*0.8 then return "Nearly full"
-            elseif mag >= max*0.4 then return "About half"
-            elseif mag >= max*0.3 then return "Less than half"
-            elseif mag >= max*0.01 then return "Almost empty"
-            else return "Empty" end
+            if mag >= max*0.9 then return ARC9:GetPhrase("eft_hud_full")
+            elseif mag >= max*0.8 then return ARC9:GetPhrase("eft_hud_nearlyfull")
+            elseif mag >= max*0.4 then return ARC9:GetPhrase("eft_hud_aboutfull")
+            elseif mag >= max*0.3 then return ARC9:GetPhrase("eft_hud_lessthanhlaf")
+            elseif mag >= max*0.01 then return ARC9:GetPhrase("eft_hud_almostempty")
+            else return ARC9:GetPhrase("eft_hud_empty") end
         end
     end
 
@@ -208,13 +208,13 @@ else
         local jid = net.ReadUInt(3)
         jammed = true 
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
-        makeeftnotif("Malfunction: \"" .. malftable[jid] .. "\"", jammat)
+        makeeftnotif(ARC9:GetPhrase("eft_hud_malf") .. ARC9:GetPhrase(malftable[jid]) .. "\"", jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
     
     net.Receive("arc9eftmissingparts", function(len)
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
-        makeeftnotif("Missing critical parts!", jammat)
+        makeeftnotif(ARC9:GetPhrase("eft_hud_missing"), jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)   
 
@@ -229,7 +229,7 @@ else
         local rnds = net.ReadUInt(9)
         local maxrnds = net.ReadUInt(9)
         
-        rnds = aproxammo(checktype, rnds, maxrnds)
+        rnds = aproxammo(checktype, math.Clamp(rnds-1, 0, maxrnds), maxrnds)
 
         local ply = LocalPlayer()
         if !IsValid(ply) then return end
@@ -238,9 +238,9 @@ else
 
         local rndtype = wep:GetValue("EFTRoundName") or "????"
         
-        if rnds == "Empty" then rndtype = "None" end
+        if rnds == ARC9:GetPhrase("eft_hud_empty") then rndtype = ARC9:GetPhrase("eft_hud_none") end
 
-        makeeftmagcheck(rnds.."", rndtype)
+        makeeftmagcheck(rnds .. "", rndtype)
     end)
 end
 
