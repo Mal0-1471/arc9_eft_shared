@@ -71,12 +71,12 @@ else
     local jammat = Material("vgui/arc9_eft_shared/notification_icon_alert_red.png", "mips smooth")
     local magcheckmat = Material("vgui/arc9_eft_shared/icon_info_magsize.png", "")
     local malftable = {
-        [0] = ARC9:GetPhrase("eft_hud_misfire"),
-        [1] = ARC9:GetPhrase("eft_hud_eject"),
-        [2] = ARC9:GetPhrase("eft_hud_feed"),
-        [3] = ARC9:GetPhrase("eft_hud_bolt"),
-        [4] = ARC9:GetPhrase("eft_hud_bolt"),
-        [5] = ARC9:GetPhrase("eft_hud_bolt"),
+        [0] = "eft_hud_misfire",
+        [1] = "eft_hud_eject",
+        [2] = "eft_hud_feed",
+        [3] = "eft_hud_bolt",
+        [4] = "eft_hud_bolt",
+        [5] = "eft_hud_bolt",
     }
 
     local function aproxammo(checktype, mag, max)
@@ -208,7 +208,7 @@ else
         local jid = net.ReadUInt(3)
         jammed = true 
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
-        makeeftnotif(ARC9:GetPhrase("eft_hud_malf") .. malftable[jid] .. "\"", jammat)
+        makeeftnotif(ARC9:GetPhrase("eft_hud_malf") .. ARC9:GetPhrase(malftable[jid]) .. "\"", jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
     
