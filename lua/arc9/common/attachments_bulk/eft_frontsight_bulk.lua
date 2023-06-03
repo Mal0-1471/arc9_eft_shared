@@ -237,7 +237,7 @@ ATT.DrawFunc = function(swep, model)
     end
 end
 
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0, -0.03, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
