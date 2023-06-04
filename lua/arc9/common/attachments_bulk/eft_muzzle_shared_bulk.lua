@@ -40,7 +40,7 @@ ATT.BarrelLengthAdd = 0.5
 
 
 
-ATT.Category = {"eft_ar15_muzzle"}
+ATT.Category = {"eft_ar15_muzzle", "eft_gemtechmount"}
 
 ATT.Attachments = {
     {
@@ -72,6 +72,9 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
+
 ATT.EFTErgoAdd = -20
 ATT.CustomCons = { Ergonomics = "-20" }
 ATT.RecoilMult = 0.91
@@ -100,6 +103,9 @@ ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
+
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 
 ATT.EFTErgoAdd = -17
 ATT.CustomCons = { Ergonomics = "-17" }
@@ -130,6 +136,9 @@ ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
+
 ATT.EFTErgoAdd = -23
 ATT.CustomCons = { Ergonomics = "-23" }
 ATT.RecoilMult = 0.87
@@ -159,6 +168,9 @@ ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
+
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 
 ATT.EFTErgoAdd = -26
 ATT.CustomCons = { Ergonomics = "-26" }
@@ -191,6 +203,7 @@ ATT.Category = "eft_ar10_muzzle"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
+ATT.MuzzleDevice_Priority = 4
 
 ATT.EFTErgoAdd = -1.5
 ATT.CustomCons = { Ergonomics = "-1.5" }
@@ -217,7 +230,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/muzzle_all_silencerco_hybrid_46_multi.mdl"
 
-ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle", "eft_ak103_muzzle", "eft_ak74_muzzle", "eft_pp1901_muzzle", "eft_akm_muzzle", "eft_pm_muzzle", "eft_9mm_muzzle", "eft_ar10_muzzle"} -- crazy, not all list, should add here more later
+ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle", "eft_ak103_muzzle", "eft_ak74_muzzle", "eft_pp1901_muzzle", "eft_akm_muzzle", "eft_pm_muzzle", "eft_9mm_muzzle", "eft_ar10_muzzle", "eft_dthybrid"} -- crazy, not all list, should add here more later
 -- https://tarkov-database.com/item/muzzle/59bffc1f86f77435b128b872
 
 
@@ -279,6 +292,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.005
 
 ATT.Silencer = true
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 
@@ -309,9 +323,236 @@ ATT.PhysBulletMuzzleVelocityMult = 1.0075
 
 ATT.Silencer = true
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 
 ATT.Category = {"eft_ak101_muzzle", "eft_ar15_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_silencer_r43_556")
+
+
+
+
+
+
+
+///////////////////////////////////////      eft_muzzle_ar10_sig_taperlok
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter"
+ATT.CompactName = "T-LOK"
+ATT.Icon = Material("entities/eft_ar10_attachments/tlok.png", "mips smooth")
+ATT.Description = [[The patented "Taper-LOK" mounting system allows the installation of various muzzle devices on 7.62x51 and .300 Blackout chambered weapons. Manufactured by SIG Sauer.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_sig_qd_muzzle_base_762x51.mdl"
+
+ATT.Attachments = {
+    {
+        PrintName = "Muzzle",
+        Category = "eft_tlok_muzzle",
+        Pos = Vector(-0.78, 0, 0),
+        Icon_Offset = Vector(0.3, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Silencer",
+        Category = "eft_tlok_silencer",
+        Pos = Vector(-0.35, 0, 0),
+        Icon_Offset = Vector(1.3, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+
+ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_sig_taperlok")
+
+///////////////////////////////////////      eft_muzzle_tlok_3prong
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer 7.62x51 3-prong flash hider"
+ATT.CompactName = "3-pr 762"
+ATT.Icon = Material("entities/eft_ar10_attachments/tlok3.png", "mips smooth")
+ATT.Description = [[The SIG Sauer 3-prong flash hider can be installed on a patented Taper-LOK mounting system.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_base_sig_flash_hider_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 3
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.95
+ATT.VisualRecoilMult = 0.95
+ATT.HeatCapacityMult = 0.99
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
+ATT.Category = {"eft_tlok_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_tlok_3prong")
+
+///////////////////////////////////////      eft_muzzle_tlok_mirco
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer Micro Brake 7.62x51 muzzle brake"
+ATT.CompactName = "Micro 762"
+ATT.Icon = Material("entities/eft_ar10_attachments/tlokmicro.png", "mips smooth")
+ATT.Description = [[The SIG Sauer Micro Brake muzzle brake that can be installed on the patented Taper-LOK mounting system.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_base_sig_micro_brake_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 3
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.94
+ATT.VisualRecoilMult = 0.94
+ATT.HeatCapacityMult = 0.99
+ATT.PhysBulletMuzzleVelocityMult = 1.005
+
+ATT.Category = {"eft_tlok_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_tlok_mirco")
+
+///////////////////////////////////////      eft_muzzle_tlok_tpb
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer Two Port Brake 7.62x51 muzzle brake"
+ATT.CompactName = "TPB 762"
+ATT.Icon = Material("entities/eft_ar10_attachments/tlok2.png", "mips smooth")
+ATT.Description = [[The SIG Sauer Two Port Brake can be installed on a patented Taper-LOK mounting system.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_base_sig_muzzle_break_2_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 3
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.92
+ATT.VisualRecoilMult = 0.92
+ATT.HeatCapacityMult = 0.99
+ATT.PhysBulletMuzzleVelocityMult = 1.005
+
+ATT.Category = {"eft_tlok_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_tlok_tpb")
+
+///////////////////////////////////////      eft_silencer_ar10_tlok_srd
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer SRD762-QD 7.62x51 sound suppressor"
+ATT.CompactName = "SRD762-QD"
+ATT.Icon = Material("entities/eft_ar10_attachments/srdqd.png", "mips smooth")
+ATT.Description = [[SRD762-QD is a Grade 5 titanium suppressor that uses quick-release muzzle devices to attach the suppressor to the gun. Manufactured by SIG Sauer.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_sig_srd_762_qd_762x51.mdl"
+ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.NoFlash = true
+ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
+
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
+
+ATT.EFTErgoAdd = -24
+ATT.CustomCons = { Ergonomics = "-24" }
+ATT.RecoilMult = 0.87
+ATT.VisualRecoilMult = 0.87
+ATT.SpreadMult = 0.98
+ATT.HeatCapacityMult = 0.865
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
+ATT.Category = {"eft_tlok_silencer"}
+
+ARC9.LoadAttachment(ATT, "eft_silencer_ar10_tlok_srd")
+
+
+///////////////////////////////////////      eft_muzzle_ar10_qdc_sup
+
+ATT = {}
+
+ATT.PrintName = "AR-10 KAC QDC 7.62x51 Flash Suppressor Kit"
+ATT.CompactName = "KAC QDC"
+ATT.Icon = Material("entities/eft_ar10_attachments/kacqdc.png", "mips smooth")
+ATT.Description = [[Knight's Armament Company Flash Suppressor Kit is an effective flash hider that also serves as a platform for attaching a PRS QDC sound suppressor. It can be Installed on AR-10 platform weapons.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_kac_qdc_flash_supressor_kit_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.92
+ATT.VisualRecoilMult = 0.92
+ATT.HeatCapacityMult = 0.99
+ATT.SpreadMult = 0.97
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
+ATT.Attachments = {
+    {
+        PrintName = "Silencer",
+        Category = "eft_ar10_qdc_muzzle",
+        Pos = Vector(-0.35, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_qdc_sup")
+
+
+///////////////////////////////////////      eft_silencer_ar10_srdti
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer SRD762Ti 7.62x51 sound suppressor"
+ATT.CompactName = "SRD762"
+ATT.Icon = Material("entities/eft_ar10_attachments/srd.png", "mips smooth")
+ATT.Description = [[SRD762Ti is a Grade 5 titanium sound suppressor designed for use with .308/7.62/300BLK barrels, manufactured by SIG Sauer.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_all_sig_srd_762_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.NoFlash = true
+ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
+
+ATT.EFTErgoAdd = -23
+ATT.CustomCons = { Ergonomics = "-23" }
+ATT.RecoilMult = 0.89
+ATT.VisualRecoilMult = 0.89
+ATT.SpreadMult = 0.98
+ATT.HeatCapacityMult = 0.86
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
+ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_silencer_ar10_srdti")
