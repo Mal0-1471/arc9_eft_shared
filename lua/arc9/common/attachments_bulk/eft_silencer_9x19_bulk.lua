@@ -24,6 +24,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.02
 ATT.HeatCapacityAdd = -60*0.5
 
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
@@ -78,6 +79,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.015
 ATT.HeatCapacityAdd = -62*0.5
 
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
@@ -113,6 +115,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.005
 ATT.HeatCapacityAdd = -65*0.5
 
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
@@ -149,6 +152,7 @@ ATT.PhysBulletMuzzleVelocityMult = 0.75
 ATT.HeatCapacityAdd = -50*0.5
 
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 
@@ -184,6 +188,7 @@ ATT.HeatCapacityAdd = -50*0.5
 
 
 ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
