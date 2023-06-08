@@ -41,6 +41,7 @@ L["eft_subcat_sg"] = "Shotguns"
 L["eft_subcat_snip"] = "Sniper/Marksman Rifles"
 L["eft_subcat_smg"] = "Submachine Guns"
 L["eft_subcat_pist"] = "Pistols"
+L["eft_subcat_melee"] = " Melee"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Single-shot Rifle"
@@ -57,6 +58,7 @@ L["eft_class_weapon_lmg"] = "Light Machine Gun"
 L["eft_class_weapon_boltsnip"] = "Bolt-action Sniper Rifle"
 L["eft_class_weapon_marks"] = "Marksman Rifle"
 L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
+L["eft_class_weapon_melee"] = "Melee Weapon"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "RSh-12"

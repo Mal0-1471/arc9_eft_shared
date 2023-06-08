@@ -41,6 +41,7 @@ L["eft_subcat_sg"] = " Дробовики"
 L["eft_subcat_snip"] = " Снайперские/марксманские винтовки"
 L["eft_subcat_smg"] = " Пистолеты-пулеметы"
 L["eft_subcat_pist"] = " Пистолеты"
+L["eft_subcat_melee"] = "  Ближний бой"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Однозарядное ружье"
@@ -57,6 +58,7 @@ L["eft_class_weapon_lmg"] = "Ручной пулемет"
 L["eft_class_weapon_boltsnip"] = "Болтовая снайперская винтовка"
 L["eft_class_weapon_marks"] = "Марксманская винтовка"
 L["eft_class_weapon_dualsg"] = "Ружьё"
+L["eft_class_weapon_melee"] = "Оружие ближнего боя"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "РШ-12"
