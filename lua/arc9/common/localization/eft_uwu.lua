@@ -41,6 +41,7 @@ L["eft_subcat_sg"] = "Showtguwuns"
 L["eft_subcat_snip"] = "Snipew/Mawksmwan Wifles"
 L["eft_subcat_smg"] = "Suwubmawwine Guwns"
 L["eft_subcat_pist"] = "Pistows"
+L["eft_subcat_melee"] = " Mewwee"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Single-shot Wifle"
@@ -57,6 +58,7 @@ L["eft_class_weapon_lmg"] = "Liwwt Machwine Guwn"
 L["eft_class_weapon_boltsnip"] = "Bowt-actiowon Sniper Wifle"
 L["eft_class_weapon_marks"] = "Mawksmwan Wifle"
 L["eft_class_weapon_dualsg"] = "Duwal-mowode Showtgun"
+L["eft_class_weapon_melee"] = "Mewwee weapwon"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "WShh-12"
