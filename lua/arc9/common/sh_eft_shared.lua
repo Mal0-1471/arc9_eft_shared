@@ -319,7 +319,7 @@ if CLIENT then
             { type = "slider", text = "7.62x51, 7.62x54R", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "Big rifle calibers (7.62x51, 7.62x54R).\n\nDefault - 0.75" },
             { type = "slider", text = ".338 Lapua", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "Big sniper bullet (8.6x70mm aka .338 Lapua Magnum).\n\nDefault - 0.75" },
             { type = "slider", text = ".366TKM, 12.7x55mm", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "Massive bullets (.366 TKM, 12.7x55mm).\n\nDefault - 0.5" },
-            { type = "slider", text = "Melee", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "Melee weapons.\n\nDefault - 1" },
+            -- { type = "slider", text = "Melee", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "Melee weapons.\n\nDefault - 1" },
 
             { type = "button", text = "settings.developer.reloadatts.title", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.developer.reload", func = function(self2)
                 RunConsoleCommand("arc9_reloadatts")
