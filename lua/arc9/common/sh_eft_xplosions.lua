@@ -196,6 +196,8 @@ net.Receive("arc9eftexplosion", function(len)
 
         -- LocalPlayer():SetDSP(34)
         LocalPlayer():SetDSP(36)
+        RunConsoleCommand("soundfade", "98", "" .. (flashbangLength * 0.25), "20", "0.5") -- muting your fucking game loL!
+
         -- for thing below
         contusionEffectMult = contusionEffectMult * 0.5 -- 2x less contusion range
     end
