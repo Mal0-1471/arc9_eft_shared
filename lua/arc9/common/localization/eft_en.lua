@@ -41,7 +41,8 @@ L["eft_subcat_sg"] = "Shotguns"
 L["eft_subcat_snip"] = "Sniper/Marksman Rifles"
 L["eft_subcat_smg"] = "Submachine Guns"
 L["eft_subcat_pist"] = "Pistols"
-L["eft_subcat_melee"] = " Melee"
+L["eft_subcat_melee"] = "⠀Melee"
+L["eft_subcat_grenades"] = "⠀Grenades"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Single-shot Rifle"
@@ -58,7 +59,13 @@ L["eft_class_weapon_lmg"] = "Light Machine Gun"
 L["eft_class_weapon_boltsnip"] = "Bolt-action Sniper Rifle"
 L["eft_class_weapon_marks"] = "Marksman Rifle"
 L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
+
 L["eft_class_weapon_melee"] = "Melee Weapon"
+L["eft_class_weapon_grenade"] = "Hand Grenade"
+L["eft_class_weapon_flashbang"] = "Flash Bang Grenade"
+L["eft_class_weapon_improvised_grenade"] = "Improvised Gand Grenade"
+L["eft_class_weapon_stun"] = "Stun Grenade"
+L["eft_class_weapon_smoke"] = "Smoke Grenade"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "RSh-12"
@@ -87,6 +94,26 @@ L["eft_weapon_saiga9"] = "Saiga-9"
 L["eft_weapon_saiga12k"] = "Saiga 12ga ver.10"
 L["eft_weapon_vpo136"] = "VPO-136 \"Vepr-KM\""
 L["eft_weapon_vpo209"] = "VPO-209"
+
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rgd5"] = "RGD-5"
+L["eft_weapon_rgn"] = "RGN"
+L["eft_weapon_rgo"] = "RGO"
+L["eft_weapon_vog17"] = "VOG-17 Khattabka"
+L["eft_weapon_vog25"] = "VOG-25 Khattabka"
+L["eft_weapon_zarya"] = "Zarya"
+
+L["eft_weapon_6x5"] = "6Kh5 Bayonet"
+L["eft_weapon_a2607"] = "Bars A-2607"
+L["eft_weapon_a2607d"] = "Bars A-2607 Damascus"
+L["eft_weapon_camper"] = "Camper axe"
+L["eft_weapon_freeman"] = "Freeman crowbar"
+L["eft_weapon_cultist"] = "Cultist knife"
+L["eft_weapon_mpl50"] = "MPL-50 entr. tool"
+L["eft_weapon_rebel"] = "Red Rebel ice pick"
+L["eft_weapon_sp8"] = "SP-8 Machete"
+L["eft_weapon_taiga"] = "UVSR Taiga-1"
+L["eft_weapon_wycc"] = "Antique axe"
 
 
 

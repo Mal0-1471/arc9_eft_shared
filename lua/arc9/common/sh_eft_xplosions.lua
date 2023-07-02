@@ -103,6 +103,44 @@ local function addFlashbangSpot(ent, scale)
     })
 end
 
+ARC9EFT.Smokeslist = ARC9EFT.Smokeslist or {}
+
+function EFTSmoking() -- type   quit smoking    in console
+    local slist = ARC9EFT.Smokeslist
+
+    local intensity = 0
+    
+    if #slist > 0 then
+        local ourpos = EyePos()
+        for k, v in ipairs(slist) do
+            if IsValid(v) then
+                if v.SpawnTime < CurTime() - 12 and (v.SpawnTime + v.LifeTime + v.StartTime) > CurTime() then
+                    local aaa = (CurTime() - v.SpawnTime) / v.EmitTime
+                    if aaa > 1.3 then aaa = 2.95 - aaa * 1.5 end
+                    local effectrange = 40000 * math.min(1, aaa)
+                    
+                    local disttothat = ourpos:DistToSqr(v:GetPos())
+                    if disttothat < effectrange then
+                        local thisintensity = (1 - (disttothat / effectrange)) * 2
+
+                        intensity = math.max(intensity, thisintensity)
+                    end
+                elseif (v.SpawnTime + v.LifeTime + v.StartTime - 1) <= CurTime() then
+                    table.remove(slist, k)
+                end
+            end
+        end
+
+        if intensity > 0 then
+            cam.Start2D()
+                surface.SetDrawColor(30, 30, 30, intensity*255)
+                surface.DrawRect(0, 0, ScrW(), ScrH())
+            cam.End2D()
+        end
+    end
+
+end
+
 hook.Add("RenderScreenspaceEffects", "PostProcessingExample", function()
     local ct = CurTime()
     local thismult
@@ -137,6 +175,8 @@ hook.Add("RenderScreenspaceEffects", "PostProcessingExample", function()
     if contusionStart >= ct then -- need this twice for right order
         EFTContusia(thismult)
     end
+    
+    EFTSmoking()
 end)
 
 net.Receive("arc9eftexplosion", function(len)
