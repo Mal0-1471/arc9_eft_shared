@@ -55,6 +55,7 @@ local function EFTIsLookingAt(targetVec)
 	return math.max(0, math.ease.OutQuad(LocalPlayer():GetAimVector():Dot(diff) / diff:Length()))
 end
 
+local ahmad = GetConVar("arc9_eft_flashbang_ahmad")
 
 function EFTFlashBanged(mult, quickwhite)
 	render.CopyRenderTargetToTexture( render.GetScreenEffectTexture() )
@@ -79,9 +80,12 @@ function EFTFlashBanged(mult, quickwhite)
             surface.DrawTexturedRectRotated(v.x, v.y, v.size, v.size, v.ang)  
             
             surface.SetDrawColor(quickwhite, quickwhite, quickwhite, quickwhite)
-            surface.DrawRect(0, 0, ScrW(), ScrH())
-            -- surface.SetMaterial(matTestreplacement)
-            -- surface.DrawTexturedRect(0, 0, ScrW(), ScrH())
+            if ahmad:GetBool() then
+                surface.SetMaterial(matTestreplacement)
+                surface.DrawTexturedRect(0, 0, ScrW(), ScrH())
+            else
+                surface.DrawRect(0, 0, ScrW(), ScrH())
+            end
         end
     cam.End2D()
 end
@@ -154,6 +158,8 @@ hook.Add("RenderScreenspaceEffects", "PostProcessingExample", function()
             contusionStart = 0
             contusionLength = 0
             contusionEffectMult = 0
+            flashbangSpots = {}
+            RunConsoleCommand("soundfade", "100", "1") -- UNmuting your fucking game loL!
         end
     end
 
