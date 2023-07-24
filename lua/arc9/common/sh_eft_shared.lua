@@ -281,7 +281,7 @@ local conVars = {
     {name = "eft_mult_melee", default = "1", replicated = true },
     {name = "eft_enable_concussion", default = "1", replicated = true },
     {name = "eft_mult_flashbang", default = "1", replicated = true },
-    {name = "eft_flashbang_ahmad", default = "0", replicated = true },
+    {name = "eft_flashbang_ahmad", default = "0" },
 }
 
 for _, var in ipairs(conVars) do
