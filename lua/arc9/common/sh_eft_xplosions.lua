@@ -145,7 +145,7 @@ function EFTSmoking() -- type   quit smoking    in console
 
 end
 
-hook.Add("RenderScreenspaceEffects", "PostProcessingExample", function()
+hook.Add("PreDrawHUD", "arc9eftexplosionspredrawhud", function()
     local ct = CurTime()
     local thismult
     local lp = LocalPlayer()
@@ -216,14 +216,15 @@ else -- SERVER
 
 util.AddNetworkString("arc9eftexplosion")
 
-hook.Add("OnDamagedByExplosion", "DisableSound", function(ply, dmginfo)
+hook.Add("OnDamagedByExplosion", "arc9eftexplosionsdisablesound", function(ply, dmginfo)
     local inflictor =  dmginfo:GetInflictor()
     
-    if inflictor and string.find(inflictor:GetClass(), "arc9_eft_") then
-        return true -- no tinnitus for eft
+    if IsValid(inflictor) then
+        if string.find(inflictor:GetClass(), "arc9_eft_") then
+            return true -- no tinnitus for eft
+        end
     end
 end)
-
 
 
 end
