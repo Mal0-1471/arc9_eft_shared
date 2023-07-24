@@ -59,6 +59,7 @@ L["eft_class_weapon_lmg"] = "Liwwt Machwine Guwn"
 L["eft_class_weapon_boltsnip"] = "Bowt-actiowon Sniper Wifle"
 L["eft_class_weapon_marks"] = "Mawksmwan Wifle"
 L["eft_class_weapon_dualsg"] = "Duwal-mowode Showtgun"
+L["eft_class_weapon_melee"] = "Mewwee weapwon"
 
 L["eft_class_weapon_melee"] = "Mewwee weapwon"
 L["eft_class_weapon_grenade"] = "Hawand Gwenad owo"

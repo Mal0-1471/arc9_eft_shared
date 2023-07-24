@@ -59,6 +59,7 @@ L["eft_class_weapon_lmg"] = "Ручной пулемет"
 L["eft_class_weapon_boltsnip"] = "Болтовая снайперская винтовка"
 L["eft_class_weapon_marks"] = "Марксманская винтовка"
 L["eft_class_weapon_dualsg"] = "Ружьё"
+L["eft_class_weapon_melee"] = "Оружие ближнего боя"
 
 L["eft_class_weapon_melee"] = "Оружие ближнего боя"
 L["eft_class_weapon_grenade"] = "Ручная граната"

@@ -59,6 +59,7 @@ L["eft_class_weapon_lmg"] = "Light Machine Gun"
 L["eft_class_weapon_boltsnip"] = "Bolt-action Sniper Rifle"
 L["eft_class_weapon_marks"] = "Marksman Rifle"
 L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
+L["eft_class_weapon_melee"] = "Melee Weapon"
 
 L["eft_class_weapon_melee"] = "Melee Weapon"
 L["eft_class_weapon_grenade"] = "Hand Grenade"
