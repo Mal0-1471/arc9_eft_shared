@@ -279,6 +279,9 @@ local conVars = {
     {name = "eft_mindmgrange_sg", default = "100", replicated = true },
 
     {name = "eft_mult_melee", default = "1", replicated = true },
+    {name = "eft_enable_concussion", default = "1", replicated = true },
+    {name = "eft_mult_flashbang", default = "1", replicated = true },
+    {name = "eft_flashbang_ahmad", default = "0", replicated = true },
 }
 
 for _, var in ipairs(conVars) do
@@ -307,23 +310,29 @@ if CLIENT then
             sv = true,
             { type = "label", text = "Settings for ARC9 Escape From Tarkov weapons" },
  
-            { type = "slider", text = "Minimal damage range", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "Bullets lose their damage on ranges but gmod maps are kinda small.\n\nMinimal damage range in meters.\n\nDefault - 1000 (original EFT)" },
-            { type = "slider", text = "^ for shotguns", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "Same but for shotgun pellets. \n\nMinimal damage range in meters.\n\nDefault - 100" },
+            { sv = true, type = "slider", text = "Minimal damage range", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "Bullets lose their damage on ranges but gmod maps are kinda small.\n\nMinimal damage range in meters.\n\nDefault - 1000 (original EFT)" },
+            { sv = true, type = "slider", text = "^ for shotguns", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "Same but for shotgun pellets. \n\nMinimal damage range in meters.\n\nDefault - 100" },
 
             { type = "label", text = "Damage mults", desc = "Damage multipliers for different caliber types. True EFT is 1x, but players there have 450 hp, so better to lower damage values for gmod." },
 
-            { type = "slider", text = "9x19mm, 5.7x28mm", convar = "eft_mult_pistol", min = 0.1, max = 1.5, decimals = 2, desc = "Pistol calibers (9x19mm, 5.7x28mm).\n\nDefault - 0.5" },
-            { type = "slider", text = "12 gauge, 20ga", convar = "eft_mult_shotgun", min = 0.1, max = 1.5, decimals = 2, desc = "Shotgun calibers (12/70, 20/70).\n\nDefault - 0.5" },
-            { type = "slider", text = "5.56x45, 5.45x39", convar = "eft_mult_carabine", min = 0.1, max = 1.5, decimals = 2, desc = "Carabine calibers (5.56x45, 5.45x39).\n\nDefault - 0.5" },
-            { type = "slider", text = "7.62x39", convar = "eft_mult_rifle", min = 0.1, max = 1.5, decimals = 2, desc = "Rifle caliber (only 7.62x39 for now).\n\nDefault - 0.5" },
-            { type = "slider", text = "7.62x51, 7.62x54R", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "Big rifle calibers (7.62x51, 7.62x54R).\n\nDefault - 0.75" },
-            { type = "slider", text = ".338 Lapua", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "Big sniper bullet (8.6x70mm aka .338 Lapua Magnum).\n\nDefault - 0.75" },
-            { type = "slider", text = ".366TKM, 12.7x55mm", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "Massive bullets (.366 TKM, 12.7x55mm).\n\nDefault - 0.5" },
-            -- { type = "slider", text = "Melee", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "Melee weapons.\n\nDefault - 1" },
+            { sv = true, type = "slider", text = "9x19mm, 5.7x28mm", convar = "eft_mult_pistol", min = 0.1, max = 1.5, decimals = 2, desc = "Pistol calibers (9x19mm, 5.7x28mm).\n\nDefault - 0.5" },
+            { sv = true, type = "slider", text = "12 gauge, 20ga", convar = "eft_mult_shotgun", min = 0.1, max = 1.5, decimals = 2, desc = "Shotgun calibers (12/70, 20/70).\n\nDefault - 0.5" },
+            { sv = true, type = "slider", text = "5.56x45, 5.45x39", convar = "eft_mult_carabine", min = 0.1, max = 1.5, decimals = 2, desc = "Carabine calibers (5.56x45, 5.45x39).\n\nDefault - 0.5" },
+            { sv = true, type = "slider", text = "7.62x39", convar = "eft_mult_rifle", min = 0.1, max = 1.5, decimals = 2, desc = "Rifle caliber (only 7.62x39 for now).\n\nDefault - 0.5" },
+            { sv = true, type = "slider", text = "7.62x51, 7.62x54R", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "Big rifle calibers (7.62x51, 7.62x54R).\n\nDefault - 0.75" },
+            { sv = true, type = "slider", text = ".338 Lapua", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "Big sniper bullet (8.6x70mm aka .338 Lapua Magnum).\n\nDefault - 0.75" },
+            { sv = true, type = "slider", text = ".366TKM, 12.7x55mm", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "Massive bullets (.366 TKM, 12.7x55mm).\n\nDefault - 0.5" },
+            { sv = true, type = "slider", text = "Melee", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "Melee weapons.\n\nDefault - 1" },
 
-            { type = "button", text = "settings.developer.reloadatts.title", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.developer.reload", func = function(self2)
+            { sv = true, type = "button", text = "settings.developer.reloadatts.title", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.developer.reload", func = function(self2)
                 RunConsoleCommand("arc9_reloadatts")
             end},
+
+            { type = "label", text = "Features", desc = "Some features" },
+            { sv = true, type = "bool", text = "Concussion", convar = "eft_enable_concussion", desc = "Concussion from explosions (distorted view and motion blur)" },
+            { sv = true, type = "slider", text = "Flashbang duration", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "Multiplier for flashbang blindness.\n\nDefault - 1" },
+            { type = "bool", text = "Ahmad flashbang", convar = "eft_flashbang_ahmad", desc = "Ahmad on your screen when flashbanged" },
+
         }
         
         table.insert(ARC9.SettingsTable, 3, eftsettings)
