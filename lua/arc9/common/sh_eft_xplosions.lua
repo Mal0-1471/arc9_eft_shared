@@ -192,6 +192,7 @@ net.Receive("arc9eftexplosion", function(len)
     contusionLength = net.ReadUInt(9)
 
     if net.ReadBool() then -- it is flash banga
+        contusionLength = math.max(contusionLength, 3)
         local intensity = math.max(contusionEffectMult, math.ease.OutQuad(contusionEffectMult))
 
         flashbangLength = math.max(flashbangLength, flashbangConstantLength * intensity) -- don't make smaller one if we already flashed
@@ -205,7 +206,7 @@ net.Receive("arc9eftexplosion", function(len)
         RunConsoleCommand("soundfade", "98", "" .. (flashbangLength * 0.25), "20", "0.5") -- muting your fucking game loL!
 
         -- for thing below
-        contusionEffectMult = contusionEffectMult * 0.5 -- 2x less contusion range
+        contusionLength = contusionLength * 0.5 -- 2x less contusion range
     end
 
     contusionStart = CurTime() + contusionLength * contusionEffectMult
