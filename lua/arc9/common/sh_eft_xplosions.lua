@@ -18,7 +18,7 @@ local flashbangLength = 0
 local flashbangStart = 0
 local flashbangSpots = {}
 local flashbangLastLookMult = 0
-local flashbangSize = ScrH() * 1.25
+local flashbangSize = ScrH() * 1
 
 function EFTContusia(mult)
 	render.CopyRenderTargetToTexture( render.GetScreenEffectTexture() )
@@ -50,9 +50,19 @@ local fhcolortab = {
 	[ "$pp_colour_mulb" ] = 0
 }
 
-local function EFTIsLookingAt(targetVec)
-	local diff = targetVec - LocalPlayer():EyePos()
-	return math.max(0, math.ease.OutQuad(LocalPlayer():GetAimVector():Dot(diff) / diff:Length()))
+local function EFTIsLookingAt(granat)
+	local targetVec = granat:GetPos()
+    local lp = LocalPlayer()
+    local eypos = lp:EyePos()
+	local diff = targetVec - eypos
+    -- local tr = util.TraceLine({start = targetVec+Vector(0,0,2), endpos = eypos, filter = granat, mask = MASK_VISIBLE})
+    -- local tr = util.TraceLine({start = targetVec+Vector(0,0,2), endpos = eypos, filter = {granat = false}, mask = MASK_VISIBLE_AND_NPCS})
+    local tr = util.TraceLine({start = targetVec + Vector(0, 0, 6), endpos = eypos, mask = MASK_VISIBLE_AND_NPCS})
+    -- debugoverlay.Line(targetVec+Vector(0,0,2), tr.HitPos, 5, _, true)
+    -- print(tr.Entity, math.max(0, math.ease.OutQuad(lp:GetAimVector():Dot(diff) / diff:Length())))
+    if tr.Entity != lp then return 0 end
+
+	return math.max(0, math.ease.OutQuad(lp:GetAimVector():Dot(diff) / diff:Length()))
 end
 
 local ahmad = GetConVar("arc9_eft_flashbang_ahmad")
@@ -198,9 +208,8 @@ net.Receive("arc9eftexplosion", function(len)
         flashbangLength = math.max(flashbangLength, flashbangConstantLength * intensity) -- don't make smaller one if we already flashed
         flashbangStart = CurTime() + flashbangLength
         local granata = net.ReadEntity()
-        addFlashbangSpot(granata, intensity)
-        flashbangLastLookMult = math.max(flashbangLastLookMult, EFTIsLookingAt(granata:GetPos())) -- don't make smaller one if we already flashed
-
+        flashbangLastLookMult = math.max(flashbangLastLookMult, EFTIsLookingAt(granata)) -- don't make smaller one if we already flashed
+        addFlashbangSpot(granata, intensity * flashbangLastLookMult)
         -- LocalPlayer():SetDSP(34)
         LocalPlayer():SetDSP(36)
         RunConsoleCommand("soundfade", "98", "" .. (flashbangLength * 0.25), "20", "0.5") -- muting your fucking game loL!
