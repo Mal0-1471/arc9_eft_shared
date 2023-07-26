@@ -220,12 +220,32 @@ net.Receive("arc9eftexplosion", function(len)
     end
 
     contusionStart = CurTime() + contusionLength * contusionEffectMult
-end)   
+end)
 
+net.Receive("arc9eftflasbangdlight", function(len)
+    if !IsValid(LocalPlayer()) then return end
+
+    local entind = net.ReadUInt(14)
+    local flashorigin = net.ReadVector()
+
+    local light = DynamicLight(entind)
+    
+    if light then
+        light.Pos = flashorigin
+        light.r = 255
+        light.g = 255
+        light.b = 255
+        light.Brightness = 10
+        light.Decay = 4000
+        light.Size = 2048
+        light.DieTime = CurTime() + 2
+    end
+end)
 
 else -- SERVER
 
 util.AddNetworkString("arc9eftexplosion")
+util.AddNetworkString("arc9eftflasbangdlight")
 
 hook.Add("OnDamagedByExplosion", "arc9eftexplosionsdisablesound", function(ply, dmginfo)
     local inflictor =  dmginfo:GetInflictor()
