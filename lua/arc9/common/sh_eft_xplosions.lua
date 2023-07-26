@@ -18,7 +18,7 @@ local flashbangLength = 0
 local flashbangStart = 0
 local flashbangSpots = {}
 local flashbangLastLookMult = 0
-local flashbangSize = ScrH() * 1
+local flashbangSize = ScrH() * 0.75
 
 function EFTContusia(mult)
 	render.CopyRenderTargetToTexture( render.GetScreenEffectTexture() )
@@ -206,6 +206,7 @@ net.Receive("arc9eftexplosion", function(len)
         local intensity = math.max(contusionEffectMult, math.ease.OutQuad(contusionEffectMult))
 
         flashbangLength = math.max(flashbangLength, flashbangConstantLength * intensity) -- don't make smaller one if we already flashed
+        flashbangLength = flashbangLength * GetConVar("arc9_eft_mult_flashbang"):GetFloat()
         flashbangStart = CurTime() + flashbangLength
         local granata = net.ReadEntity()
         flashbangLastLookMult = math.max(flashbangLastLookMult, EFTIsLookingAt(granata)) -- don't make smaller one if we already flashed

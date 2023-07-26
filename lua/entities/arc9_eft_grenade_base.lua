@@ -190,7 +190,6 @@ function ENT:Detonate()
 
             if ply:IsPlayer() or ply:IsNPC() then
                 local contmult = (self.shakeradiusM - selfpos:Distance(ply:GetPos()) * 0.0254) / self.shakeradiusM * 2 -- how close we are
-                contmult = contmult * GetConVar("arc9_eft_mult_flashbang"):GetFloat()
 
                 if ply:IsPlayer() then
                     net.Start("arc9eftexplosion")
