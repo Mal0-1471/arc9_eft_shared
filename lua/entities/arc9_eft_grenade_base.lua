@@ -202,10 +202,12 @@ function ENT:Detonate()
                     ply:ViewPunch(Angle(1.5, 0, -7.5) * contmult)
                 elseif ply:IsNPC() and self.isflashbang then
                     ply:SetNPCState(NPC_STATE_PLAYDEAD)
+                    ply:SetSchedule(SCHED_COWER)
     
-                    timer.Simple(contmult * self.contusionLength * 0.5, function()
+                    timer.Simple(contmult * self.contusionLength, function()
                         if not IsValid(ply) then return end
                         ply:SetNPCState(NPC_STATE_ALERT)
+                        ply:SetSchedule(SCHED_ALERT_WALK)
                     end)
                 end
             end
