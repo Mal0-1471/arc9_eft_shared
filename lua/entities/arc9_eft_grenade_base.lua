@@ -192,11 +192,26 @@ function ENT:Detonate()
                 local contmult = (self.shakeradiusM - selfpos:Distance(ply:GetPos()) * 0.0254) / self.shakeradiusM * 2 -- how close we are
 
                 if ply:IsPlayer() then
+                    local ihatewalls = false
+
+                    if self.isflashbang then
+                        local traceres = util.TraceLine({
+                            start = self:GetPos() + Vector(0, 0, 8),
+                            endpos = (ply.GetShootPos and ply:GetShootPos() or ply:GetPos()),
+                            filter = {self, ply, ply.GetActiveWeapon and ply:GetActiveWeapon() or ply},
+                            mask = MASK_VISIBLE_AND_NPCS
+                        })
+                        if not traceres.Hit or traceres.Fraction >= 1 or traceres.Fraction <= 0 then
+                            ihatewalls = true
+                        end
+                    end
+
                     net.Start("arc9eftexplosion")
                     net.WriteFloat(contmult)
                     net.WriteUInt(self.contusionLength, 9)
                     net.WriteBool(self.isflashbang)
                     net.WriteEntity(self)
+                    net.WriteBool(ihatewalls)
                     net.Send(ply)
 
                     ply:ViewPunch(Angle(1.5, 0, -7.5) * contmult)

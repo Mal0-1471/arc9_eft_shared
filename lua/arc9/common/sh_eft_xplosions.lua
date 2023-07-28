@@ -51,17 +51,20 @@ local fhcolortab = {
 }
 
 
-local function EFTIsLookingAt(granat)
+local function EFTIsLookingAt(granat, wallss)
 	local targetVec = granat:GetPos()
     local lp = LocalPlayer()
     local eypos = lp:EyePos()
 	local diff = targetVec - eypos
 
     -- local tr = util.TraceLine({start = targetVec + Vector(0, 0, 6), endpos = eypos, mask = MASK_VISIBLE_AND_NPCS})
-    local tr = util.TraceLine({start = targetVec + Vector(0, 0, 10), endpos = eypos, mask = MASK_VISIBLE_AND_NPCS, filter = function( ent ) return ( ent:GetClass() == "prop_physics" or ent==lp ) end})
+    -- local tr = util.TraceLine({start = targetVec + Vector(0, 0, 10), endpos = eypos, mask = CONTENTS_PLAYERCLIP, filter = function( ent ) return ( ent:GetClass() == "prop_physics" or ent==lp ) end})
     -- debugoverlay.Line(targetVec + Vector(0,0,10), tr.HitPos, 5, _, true)
-    if tr.Entity != lp then return 0 end
+    -- if tr.Entity != lp then print("TRACE DIDNT TOUCHED PLAYER", tr.Entity, targetVec) end
+    -- if tr.Entity != lp then return 0 end
+    if !wallss then return 0 end
 
+    -- print("TRACE TOUCHED PLAYER, HE LOOKING AT", math.max(0, lp:GetAimVector():Dot(diff) / diff:Length()))
 	return math.max(0, math.ease.OutQuad(lp:GetAimVector():Dot(diff) / diff:Length()))
 end
 
@@ -202,6 +205,7 @@ net.Receive("arc9eftexplosion", function(len)
     contusionLength = net.ReadUInt(9)
 
     if net.ReadBool() then -- it is flash banga
+
         contusionLength = math.max(contusionLength, 3)
         local intensity = math.max(contusionEffectMult, math.ease.OutQuad(contusionEffectMult))
 
@@ -209,7 +213,8 @@ net.Receive("arc9eftexplosion", function(len)
         flashbangLength = flashbangLength * GetConVar("arc9_eft_mult_flashbang"):GetFloat()
         flashbangStart = CurTime() + flashbangLength
         local granata = net.ReadEntity()
-        flashbangLastLookMult = math.max(flashbangLastLookMult, EFTIsLookingAt(granata)) -- don't make smaller one if we already flashed
+        local walls = net.ReadBool()
+        flashbangLastLookMult = math.max(flashbangLastLookMult, EFTIsLookingAt(granata, walls)) -- don't make smaller one if we already flashed
         addFlashbangSpot(granata, intensity * flashbangLastLookMult)
         -- LocalPlayer():SetDSP(34)
         LocalPlayer():SetDSP(36)
