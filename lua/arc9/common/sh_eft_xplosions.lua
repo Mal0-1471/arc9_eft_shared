@@ -50,16 +50,16 @@ local fhcolortab = {
 	[ "$pp_colour_mulb" ] = 0
 }
 
+
 local function EFTIsLookingAt(granat)
 	local targetVec = granat:GetPos()
     local lp = LocalPlayer()
     local eypos = lp:EyePos()
 	local diff = targetVec - eypos
-    -- local tr = util.TraceLine({start = targetVec+Vector(0,0,2), endpos = eypos, filter = granat, mask = MASK_VISIBLE})
-    -- local tr = util.TraceLine({start = targetVec+Vector(0,0,2), endpos = eypos, filter = {granat = false}, mask = MASK_VISIBLE_AND_NPCS})
-    local tr = util.TraceLine({start = targetVec + Vector(0, 0, 6), endpos = eypos, mask = MASK_VISIBLE_AND_NPCS})
-    -- debugoverlay.Line(targetVec+Vector(0,0,2), tr.HitPos, 5, _, true)
-    -- print(tr.Entity, math.max(0, math.ease.OutQuad(lp:GetAimVector():Dot(diff) / diff:Length())))
+
+    -- local tr = util.TraceLine({start = targetVec + Vector(0, 0, 6), endpos = eypos, mask = MASK_VISIBLE_AND_NPCS})
+    local tr = util.TraceLine({start = targetVec + Vector(0, 0, 10), endpos = eypos, mask = MASK_VISIBLE_AND_NPCS, filter = function( ent ) return ( ent:GetClass() == "prop_physics" or ent==lp ) end})
+    -- debugoverlay.Line(targetVec + Vector(0,0,10), tr.HitPos, 5, _, true)
     if tr.Entity != lp then return 0 end
 
 	return math.max(0, math.ease.OutQuad(lp:GetAimVector():Dot(diff) / diff:Length()))

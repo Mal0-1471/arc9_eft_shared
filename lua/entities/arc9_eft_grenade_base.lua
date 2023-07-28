@@ -237,7 +237,7 @@ function ENT:Detonate()
     end
     self.Defused = true
 
-    SafeRemoveEntityDelayed(self, self.SmokeTrailTime)
+    SafeRemoveEntityDelayed(self, (self.isflashbang and 0.5 or 0))
     self:SetRenderMode(RENDERMODE_NONE)
     self:SetMoveType(MOVETYPE_NONE)
     self:SetCollisionGroup(COLLISION_GROUP_DEBRIS)
