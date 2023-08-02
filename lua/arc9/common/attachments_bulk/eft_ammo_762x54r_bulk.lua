@@ -49,10 +49,10 @@ ATT.DamageLookupTable = {
     62.7 * mult54     },
 
     {   400 /0.0254 * dmgrange, 
-    59.5 * mult54     },
+    59.46 * mult54     },
 
     {   500 /0.0254 * dmgrange, 
-    53.3 * mult54     },
+    56.3 * mult54     },
 
     {   600 /0.0254 * dmgrange, 
     54 * mult54     },
@@ -190,7 +190,7 @@ ATT.RicochetChance =   39/100
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    52 * mult54     },
+    81 * mult54     },
 
     {   100 /0.0254 * dmgrange, 
     76.6 * mult54     },
@@ -199,7 +199,7 @@ ATT.DamageLookupTable = {
     72.8 * mult54     },
 
     {   300 /0.0254 * dmgrange, 
-    38.7 * mult54     },
+    68.72 * mult54     },
 
     {   400 /0.0254 * dmgrange, 
     64.5 * mult54     },

@@ -1764,3 +1764,44 @@ ATT.CustomPros = { Ergonomics = "+3" }
 
 ARC9.LoadAttachment(ATT, "eft_aux_ekp_shade")
 
+
+
+///////////////////////////////////////      eft_optic_targetring
+
+
+ATT = {}
+
+ATT.PrintName = "VOMZ Pilad TargetRing reflex sight"
+ATT.CompactName = "TargetRing"
+ATT.Icon = Material("entities/eft_attachments/scopes/targetring.png", "mips smooth")
+ATT.Description = [[Designed for hunting birds or small game, for sport shooting at stationary or fast-moving targets. Ideal for this purpose, it creates a contrasting circle on the target, giving the shooter an opportunity to make the pre-direction and not to lose speed. It is mounted only on smoothbore (shotgun) weapons.]]
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_7mm_vomz_target_ring.mdl"
+
+ATT.Category = {"eft_targetring"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.FoldSights = true
+
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 13, -0.65),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_7mm_vomz_target_ring_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 200
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ARC9.LoadAttachment(ATT, "eft_optic_targetring")
