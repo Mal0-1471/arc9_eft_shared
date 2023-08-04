@@ -1053,10 +1053,12 @@ ATT.DrawFunc = function(swep, model, wm)
 
     if CurTime() > nextcall then
         nextcall = CurTime() + 0.5
-
+        local shoordir = swep:GetShootDir()
+        if swep.raptarpleaseshutthefuckup then shoordir = shoordir + swep.raptarpleaseshutthefuckup end
+        
         local trace = util.TraceLine({
             start = swep:GetShootPos(),
-            endpos = swep:GetShootPos() + (swep:GetShootDir():Forward() * 64000),
+            endpos = swep:GetShootPos() + (shoordir:Forward() * 64000),
             mask = MASK_SHOT,
             filter = swep:GetOwner()
         })
