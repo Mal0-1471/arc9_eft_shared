@@ -67,6 +67,7 @@ L["eft_class_weapon_flashbang"] = "Светозвуковая граната"
 L["eft_class_weapon_improvised_grenade"] = "Самодельная ручная граната"
 L["eft_class_weapon_stun"] = "Оглушающая граната"
 L["eft_class_weapon_smoke"] = "Дымовая граната"
+L["eft_class_weapon_grenadelauncher"] = "Гранатомёт"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "РШ-12"

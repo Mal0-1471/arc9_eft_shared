@@ -41,7 +41,7 @@ if SERVER then
     function ENT:PhysicsCollide(data, phys)
         timer.Simple(0, function()
             if IsValid(self) then
-                if CurTime() > self.FuseTime then
+                if CurTime() > self.SpawnTime + self.FuseTime then
                     self:Detonate()
                 else
                     self:FireBullets({Attacker = self:GetOwner(), Damage = self.dmg, Force = 16, HullSize = 16, Tracer = false, Dir = self:GetAngles():Forward(), Src = self:GetPos(), IgnoreEntity = self, AmmoType = 9})

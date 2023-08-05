@@ -184,6 +184,12 @@ ATT.RicochetChance =   0
 ATT.Num = 5
 ATT.Spread = 0.03
 
+local path = "weapons/darsu_eft/m870/"
+ATT.ShootSound = { path .. "rem870_fire_close1.ogg", path .. "rem870_fire_close2.ogg" }
+ATT.ShootSoundIndoor = path .. "rem870_fire_indoor_close.ogg"
+ATT.DistantShootSound = { path .. "rem870_fire_distant1.ogg", path .. "rem870_fire_distant2.ogg" }
+ATT.DistantShootSoundIndoor = path .. "rem870_fire_indoor_distant.ogg"
+
 ATT.ClipSize = 1
 ATT.ShootEnt = false
 

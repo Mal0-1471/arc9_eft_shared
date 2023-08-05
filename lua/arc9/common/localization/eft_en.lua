@@ -67,6 +67,7 @@ L["eft_class_weapon_flashbang"] = "Flash Bang Grenade"
 L["eft_class_weapon_improvised_grenade"] = "Improvised Gand Grenade"
 L["eft_class_weapon_stun"] = "Stun Grenade"
 L["eft_class_weapon_smoke"] = "Smoke Grenade"
+L["eft_class_weapon_grenadelauncher"] = "Grenade launcher"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "RSh-12"

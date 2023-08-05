@@ -67,6 +67,7 @@ L["eft_class_weapon_flashbang"] = "Fwawh Bawang Gwenad >w<"
 L["eft_class_weapon_improvised_grenade"] = "Impwowised Hand Gwenad"
 L["eft_class_weapon_stun"] = "StUwUn Gwenad"
 L["eft_class_weapon_smoke"] = "SmOwOke Gwenad"
+L["eft_class_weapon_grenadelauncher"] = "Gwenad wauncheww"
 
 -- [[ Weapon Display Names ]]
 L["eft_weapon_rsh12"] = "WShh-12"
