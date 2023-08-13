@@ -125,6 +125,10 @@ L["eft_weapon_gyurza"] = "СР-1МП Гюрза"
 L["eft_trivia_manuf_tsniitochmash"] = "АО «ЦНИИточмаш»"
 L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
 
+L["eft_weapon_ak12"] = "AK-12"
+L["eft_weapon_pkm"] = "ПКМ"
+L["eft_weapon_pkp"] = "ПКП \"Печенег\""
+
 L["eft_hud_full"] = "Полон"
 L["eft_hud_empty"] = "Пуст"
 L["eft_hud_nearlyfull"] = "Почти полон"

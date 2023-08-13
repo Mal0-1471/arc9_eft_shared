@@ -127,6 +127,9 @@ L["eft_weapon_gyurza"] = "SR-1MP Gyurza"
 L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
 L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
+L["eft_weapon_ak12"] = "AK-12"
+L["eft_weapon_pkm"] = "PKM"
+L["eft_weapon_pkp"] = "PKP \"Pecheneg\""
 
 L["eft_hud_full"] = "Full"
 L["eft_hud_empty"] = "Empty"

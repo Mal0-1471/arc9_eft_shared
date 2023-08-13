@@ -1805,3 +1805,102 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 ARC9.LoadAttachment(ATT, "eft_optic_targetring")
+
+
+
+
+
+
+-- 13.5
+
+///////////////////////////////////////      eft_optic_elcan_hco
+
+
+ATT = {}
+
+ATT.PrintName = "ELCAN Specter HCO sight"
+ATT.CompactName = "HCO"
+ATT.Icon = Material("entities/eft_attachments/scopes/hco.png", "mips smooth")
+ATT.Description = [[The Specter Holographic Combat Optic sight. Manufactured by ELCAN.]]
+ATT.SortOrder = 1
+
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_elcan_specter_hco.mdl"
+ATT.Folder = "Holo"
+
+ATT.Category = {"eft_optic_medium"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.75),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_elcan_specter_hco_LOD0_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 500
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+
+ARC9.LoadAttachment(ATT, "eft_optic_elcan_hco")
+
+///////////////////////////////////////      eft_optic_sig_romeo7
+
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer ROMEO7 1x30 reflex sight (prototype)"
+ATT.CompactName = "ROMEO7"
+ATT.Icon = Material("entities/eft_attachments/scopes/romeo7.png", "mips smooth")
+ATT.Description = [[An early prototype of the ROMEO7 1x30 reflex sight. Manufactured by SIG Sauer.]]
+ATT.SortOrder = 1
+
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_sig_sauer_romeo7.mdl"
+ATT.Folder = "Reflex"
+
+ATT.Category = {"eft_optic_medium"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.3),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 500
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+
+ARC9.LoadAttachment(ATT, "eft_optic_sig_romeo7")

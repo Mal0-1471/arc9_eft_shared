@@ -125,6 +125,10 @@ L["eft_weapon_gyurza"] = "SW-1MwaP GyuwwzA"
 L["eft_trivia_manuf_tsniitochmash"] = "TsNIITowochMawash >.<"
 L["eft_trivia_calibr_9x21"] = "9x21mm GyuwwzA!"
 
+L["eft_weapon_ak12"] = "AwK-12"
+L["eft_weapon_pkm"] = "PKM uwu"
+L["eft_weapon_pkp"] = "PKP \"Pewchewnewg\""
+
 L["eft_hud_full"] = "Fuwl :3"
 L["eft_hud_empty"] = "Emptwy >.<"
 L["eft_hud_nearlyfull"] = "Neawwy fuwl"

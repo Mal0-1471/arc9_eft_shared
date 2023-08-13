@@ -170,7 +170,7 @@ ATT.VisualRecoilMult = 0.97
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
-ATT.Category = "eft_foregrip_small"
+ATT.Category = {"eft_foregrip_small", "eft_foregrip_b25u"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
