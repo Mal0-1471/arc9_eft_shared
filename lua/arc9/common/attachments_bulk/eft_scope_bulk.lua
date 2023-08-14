@@ -2796,97 +2796,110 @@ ATT.CustomCons = { Ergonomics = "-10" }
 
 ATT.FoldSights = true
 
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_00.png", "mips smooth")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_01.png", "mips smooth")
+
 ATT.Sights = {
     {
-        Pos = Vector(0, 9, -2.005),
+        Pos = Vector(0, 10.7, -2.005),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
-        InvertColors = true,
-        ExtraSightData = {
-            RTScopeCustomPPFunc = function(swep)
-                -- DrawMotionBlur(0.75, 1, 1/35)
-                DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
-                -- DrawSharpen(2, 1)
-            end
-        }
+        RTScopeFOV = 36/2.25,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("2.25x") end
+        end,
+        Reticle = Reticle0,
     },
     {
-        Pos = Vector(0, 9, -2.005),
+        Pos = Vector(0, 10.7, -2.005),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
-        ExtraSightData = {
-            RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
-                ["$pp_colour_addr"] = 0,
-                ["$pp_colour_addg"] = 1,
-                ["$pp_colour_addb"] = 0.063,
-                ["$pp_colour_brightness"] = 0.7,
-                ["$pp_colour_contrast"] = 0.15,
-                ["$pp_colour_colour"] = 0.4,
-                ["$pp_colour_mulr"] = 0,
-                ["$pp_colour_mulg"] = 0,
-                ["$pp_colour_mulb"] = 0
-            },
-            RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-                ["$pp_colour_addr"] = 0,
-                ["$pp_colour_addg"] = 0.2,
-                ["$pp_colour_addb"] = 0.02,
-                ["$pp_colour_brightness"] = 0.1,
-                ["$pp_colour_contrast"] = 0.9,
-                ["$pp_colour_colour"] = 0.8,
-                ["$pp_colour_mulr"] = 0,
-                ["$pp_colour_mulg"] = 0,
-                ["$pp_colour_mulb"] = 0
-            },
-            RTScopeCustomPPFunc = function(swep)
-                -- DrawMotionBlur(0.75, 1, 1/35)
-                DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
-                -- DrawSharpen(2, 1)
-            end
-        }
+        RTScopeFOV = 36/9,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("9x") end
+        end,
+        Reticle = Reticle1,
+    },
+}
+
+ATT.ToggleStats = {
+    {
+        PrintName = "Red hot",
+        RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+            ["$pp_colour_addr"] = 0/255,
+            ["$pp_colour_addg"] = 110/255,
+            ["$pp_colour_addb"] = 70/255,
+            ["$pp_colour_brightness"] = 0.15,
+            ["$pp_colour_contrast"] = 0.12,
+            ["$pp_colour_colour"] = 0.4,
+            ["$pp_colour_mulr"] = 0,
+            ["$pp_colour_mulg"] = 0,
+            ["$pp_colour_mulb"] = 0
+        },
+        RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+            ["$pp_colour_addr"] = 1,
+            ["$pp_colour_addg"] = 0.01,
+            ["$pp_colour_addb"] = 0.01,
+            ["$pp_colour_brightness"] = -0.75,
+            ["$pp_colour_contrast"] = 1,
+            ["$pp_colour_colour"] = 0.8,
+            ["$pp_colour_mulr"] = 0,
+            ["$pp_colour_mulg"] = 0,
+            ["$pp_colour_mulb"] = 0
+        },
+        RTScopeCustomPPFunc = function(swep)
+            -- DrawMotionBlur(0.95, 1, 1/21)
+            DrawBloom(0.06, 2, 7, 7, 0, 0.7, 1, 0.5, 0.5)
+            -- DrawSharpen(4, 0.6)
+        end
+    },
+    {
+        PrintName = "Purple hot",
     },
 }
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 4
-ATT.RTScopeFOV = 12
+ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeFOV = 36/9
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_00.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeReticleScale = 0.97
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
 ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = false   
-ATT.RTScopeNoShadow = true   
+ATT.RTScopeBlackBoxShadow = false 
+ATT.RTScopeNoShadow = true 
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
 ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
-["$pp_colour_addr"] = 60/255,
-["$pp_colour_addg"] = 50/255,
-["$pp_colour_addb"] = 20/255,
-["$pp_colour_brightness"] = 0.25,
-["$pp_colour_contrast"] = 0.27,
-["$pp_colour_colour"] = 0.1,
-["$pp_colour_mulr"] = 0,
-["$pp_colour_mulg"] = 0,
-["$pp_colour_mulb"] = 0
+    ["$pp_colour_addr"] = 1.5,
+    ["$pp_colour_addg"] = 1,
+    ["$pp_colour_addb"] = 7.1,
+    ["$pp_colour_brightness"] = -2.5,
+    ["$pp_colour_contrast"] = 0.2,
+    ["$pp_colour_colour"] = 0.4,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
 }
 ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-["$pp_colour_addr"] = 0.5,
-["$pp_colour_addg"] = 0.1,
-["$pp_colour_addb"] = 0.05,
-["$pp_colour_brightness"] = -0.55,
-["$pp_colour_contrast"] = 1,
-["$pp_colour_colour"] = 0.8,
-["$pp_colour_mulr"] = 0,
-["$pp_colour_mulg"] = 0,
-["$pp_colour_mulb"] = 0
-}
+    ["$pp_colour_addr"] = 2.25,
+    ["$pp_colour_addg"] = -0.5,
+    ["$pp_colour_addb"] = 2.5,
+    ["$pp_colour_brightness"] = -0.32,
+    ["$pp_colour_contrast"] = 10.2,
+    ["$pp_colour_colour"] = 5,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+    }
 
 ATT.RTScopeCustomPPFunc = function(swep)
-    -- DrawMotionBlur(0.95, 1, 1/35)
-    DrawBloom(0.56, 2, 1.5, 1.5, 0, 0.1, 71/255, 1, 93/255)
+    -- DrawMotionBlur(0.95, 1, 1/21)
+            DrawBloom(0.06, 2, 55, 55, 0, 0.7, 1, 0.5, 0.5)
+
     -- DrawSharpen(4, 0.6)
 end
 
@@ -2899,15 +2912,169 @@ ATT.FlareAttachment = 1
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
--- ATT.Attachments = {
---     {
---         PrintName = "Aux",
---         Category = {"eft_reapir_cup"},
---         Pos = Vector(0, 0, 0),
---         Ang = Angle(0, 0, 0),
---         Icon_Offset = Vector(-3, 0, 1.7),
---     },
--- }
-
-
 ARC9.LoadAttachment(ATT, "eft_scope_echo1")
+
+
+///////////////////////////////////////      eft_scope_zeuspro
+
+
+ATT = {}
+
+ATT.PrintName = "Armasight Zeus-Pro 640 2-16x50 thermal scope"
+ATT.CompactName = "ZeusPro 640"
+ATT.Icon = Material("entities/eft_attachments/scopes/zeus.png", "mips smooth")
+ATT.Description = [[The Zeus-Pro 640 is a thermal scope with a 1.8x and 2.1x magnification. Manufactured by Armasight.
+
+! Note: low refresh rate effect was temporarly disabled to not cause glitches on certain maps. I hope better implementation will be implemented some day.]]
+
+ATT.Scale = 1
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_armasight_zeus_pro.mdl"
+
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = "eft_zeus_scope"
+
+
+ATT.EFTErgoAdd = -18
+ATT.CustomCons = { Ergonomics = "-18" }
+
+ATT.FoldSights = true
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_00.png", "mips smooth")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_01.png", "mips smooth")
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 7.8, -2.0185),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/2,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("2x") end
+        end,
+        -- Reticle = Reticle0,
+    },
+    {
+        Pos = Vector(0, 7.8, -2.0185),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/8,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("8x") end
+        end,
+        -- Reticle = Reticle1,
+    },
+}
+
+local pattern = Material("vgui/arc9_eft_shared/HeatRamp.png")
+
+ATT.ToggleStats = {
+    {
+        PrintName = "White hot",
+        RTScopeReticle = Reticle0
+    },
+    {
+        PrintName = "Yellow hot",
+        RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+            ["$pp_colour_addr"] = 0,
+            ["$pp_colour_addg"] = 0,
+            ["$pp_colour_addb"] = 0,
+            ["$pp_colour_brightness"] = 0.3,
+            ["$pp_colour_contrast"] = 0.4,
+            ["$pp_colour_colour"] = 0.7,
+            ["$pp_colour_mulr"] = 0,
+            ["$pp_colour_mulg"] = 0,
+            ["$pp_colour_mulb"] = 0
+        },
+        RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+
+            ["$pp_colour_addr"] = -0.5,
+            ["$pp_colour_addg"] = -0.5,
+            ["$pp_colour_addb"] = 0.5,
+            ["$pp_colour_brightness"] = 11,
+            ["$pp_colour_contrast"] = 1,
+            ["$pp_colour_colour"] = 1,
+            ["$pp_colour_mulr"] = 0,
+            ["$pp_colour_mulg"] = 0,
+            ["$pp_colour_mulb"] = 0
+        },
+        RTScopeCustomPPFunc = function(swep)
+            -- DrawMotionBlur(0.95, 1, 1/21)
+	        DrawTexturize( 0, pattern )
+            DrawBloom(0.05, 1, 12, 8, 1, 2, 1.1, 1.2, 0.75)
+        end,
+        RTScopeReticle = Reticle1
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeFOV = 12
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.97
+ATT.RTScopeColorable = false
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true  
+ATT.RTScopeNoShadow = false  
+
+ATT.RTScopeFLIR = true
+ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
+ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 100/255,
+    ["$pp_colour_addg"] = 33/255,
+    ["$pp_colour_addb"] = 10/255,
+    ["$pp_colour_brightness"] = 0.1,
+    ["$pp_colour_contrast"] = 0.6,
+    ["$pp_colour_colour"] = 0.1,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 0.49,
+    ["$pp_colour_addg"] = 0.49,
+    ["$pp_colour_addb"] = 0.49,
+    ["$pp_colour_brightness"] = -0.59,
+    ["$pp_colour_contrast"] = 1,
+    ["$pp_colour_colour"] = 0,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+
+ATT.RTScopeCustomPPFunc = function(swep)
+    -- DrawMotionBlur(0.95, 1, 1/21)
+    DrawBloom(0.12, 2, 5.5, 5.5, 0, 0.1, 71/255, 1, 93/255)
+
+    -- DrawSharpen(4, 0.6)
+end
+
+ATT.ScopeScreenRatio = 0.66
+
+ATT.Flare = true
+ATT.FlareColor = Color(255, 255, 255)
+ATT.FlareSize = 10
+ATT.FlareAttachment = 1
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Aux",
+        Category = {"eft_zeus_cup"},
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-4.5, 0, 2.2),
+    },
+    {
+        PrintName = "R Tactical",
+        Category = "eft_tactical_pistol",
+        Pos = Vector(0.5, 1.4, -2),
+        Ang = Angle(0, 0, 90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_scope_zeuspro")

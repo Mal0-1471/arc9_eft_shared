@@ -1518,3 +1518,74 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_mount_25mm_dd_offset")
+
+
+--13.5
+
+///////////////////////////////////////      eft_tactical_mawlc
+
+
+ATT = {}
+
+ATT.PrintName = "MAWL-C1+ tactical device"
+ATT.CompactName = "MAWL-C1+"
+ATT.Description = [[Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E. Meyers is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/mawl.png", "mips smooth")
+
+ATT.EFTErgoAdd = -1.5
+ATT.CustomCons = { Ergonomics = "-1.5" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"eft_tactical_top"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mawl_c1_plus.mdl"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = "Laser",
+        Laser = true,
+        LaserStrength = 0.65,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(22, 255, 14),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+    },    
+    {
+        PrintName = "IR Light",
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0.05,
+        EFTHipFireSpreadBonus = true,
+    },   
+    {
+        PrintName = "IR + Laser",
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0.05,
+        
+        Laser = true,
+        LaserStrength = 0.65,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(22, 255, 14),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = "None",
+    }
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_tactical_mawlc")

@@ -1851,7 +1851,7 @@ ATT.Sights = {
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_elcan_specter_hco_LOD0_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 500
+ATT.HoloSightSize = 360
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -1904,3 +1904,26 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 
 ARC9.LoadAttachment(ATT, "eft_optic_sig_romeo7")
+
+
+///////////////////////////////////////      eft_optic_zeus_eyecup
+
+
+ATT = {}
+
+ATT.PrintName = "Armasight Zeus Pro scope eyecup"
+ATT.CompactName = "ZeusPro"
+ATT.Icon = Material("entities/eft_attachments/scopes/zeuscup.png", "mips smooth")
+ATT.Description = [[A rubber eyecup for the Zeus Pro riflescope. Manufactured by Armasight.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_zeus_armasight_eyecup.mdl"
+
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+
+ATT.Category = {"eft_zeus_cup"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.AdditionalSightDistance = 2
+
+ARC9.LoadAttachment(ATT, "eft_optic_zeus_eyecup")

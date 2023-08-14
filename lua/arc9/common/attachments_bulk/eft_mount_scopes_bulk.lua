@@ -905,3 +905,42 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_mount_vulcan")
 
+
+-- 13.5
+
+///////////////////////////////////////      eft_mount_zeus
+
+
+ATT = {}
+
+ATT.PrintName = "Armasight Zeus universal base"
+ATT.CompactName = "Zeus"
+ATT.Icon = Material("entities/eft_attachments/scopes/zeusmount.png", "mips smooth")
+ATT.Description = [[The Armasight universal base mount for installation of the Zeus series scopes.]]
+ATT.SortOrder = 1
+
+ATT.Scale = 1
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_zeus_pro.mdl"
+ATT.Folder = "Special"
+
+-- ATT.EFTErgoAdd = -1
+-- ATT.CustomCons = { Ergonomics = "-1" }
+
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = "eft_zeus_scope",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-1, 0, 2.0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_zeus")
+
