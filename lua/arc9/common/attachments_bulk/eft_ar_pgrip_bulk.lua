@@ -658,3 +658,27 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_tdskelet")
 
+
+///////////////////////////////////////      eft_ar_pgrip_orion
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Aeroknox Orion pistol grip"
+ATT.CompactName = "Orion"
+ATT.Description = [[The Orion pistol grip can be installed on any weapon compatible with AR-15 grips. Manufactured Aeroknox.]]
+ATT.Icon = Material("entities/eft_attachments/pgrips/ar15grips/orion.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_aeroknox_orion.mdl"
+
+ATT.HasGrip = true
+
+ATT.EFTErgoAdd = 12
+ATT.CustomPros = { Ergonomics = "+12" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_ar15_pgrip"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ARC9.LoadAttachment(ATT, "eft_ar_pgrip_orion")
