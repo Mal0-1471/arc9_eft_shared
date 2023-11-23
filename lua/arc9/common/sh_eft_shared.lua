@@ -263,7 +263,7 @@ end
 
 ARC9EFT.SpreadBonus = function(wep, spread) 
     if !wep:GetInSights() and !wep:GetCustomize() and wep:GetValue("EFTHipFireSpreadBonus") then 
-        return spread - wep.SpreadAddHipFire * 0.5 
+        return spread - (wep.SpreadAddHipFire or 0) * 0.5 
     end
 end
 
@@ -339,3 +339,8 @@ if CLIENT then
     
     end)
 end
+
+
+-- As of 2023-11-12, this feature is only available on dev branch.
+-- Won't break anything on release branch though.
+list.Set("ContentCategoryIcons", "ARC9 - Escape From Tarkov", "eft_16.png")
