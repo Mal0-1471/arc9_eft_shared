@@ -34,8 +34,8 @@ ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      15 *2.54/100/0.0254
-ATT.PenetrationDelta = 35/100
-ATT.ArmorPiercing =    35/100
+ATT.PenetrationDelta = 20/100
+ATT.ArmorPiercing =    20/100
 ATT.RicochetChance =   18/100
 
 ATT.DamageLookupTable = {
@@ -162,6 +162,162 @@ ATT.Category = {"eft_ammo_76239"}
 
 ARC9.LoadAttachment(ATT, "eft_ammo_76239_t45m1")
 
+///////////////////////////////////////      eft_ammo_76239_fmj
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x39mm FMJ"
+ATT.CompactName = "FMJ"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x39/t45m1.png", "mips smooth")
+ATT.Description = [[Lead bullet with full metal jacket. Excellent for practical and recreational shooting.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "7.62x39mm FMJ"
+
+ATT.DamageMax = 63 * mult39
+ATT.DamageMin = 41.43 * mult39
+ATT.PhysBulletMuzzleVelocity = 775 /0.0254
+-- ATT.TracerNum = 1
+-- ATT.TracerColor = Color(255, 16, 16)
+ATT.SpreadMult = 0.98
+ATT.RecoilMult = 1.02
+ATT.VisualRecoilMult =1.02
+ATT.HeatPerShotMult = 1.1
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      30 *2.54/100/0.0254
+ATT.PenetrationDelta = 46/100
+ATT.ArmorPiercing =    46/100
+ATT.RicochetChance =   35/100
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    63 * mult39     },
+
+    {   100 /0.0254 * dmgrange, 
+    59 * mult39     },
+
+    {   200 /0.0254 * dmgrange, 
+    52.38 * mult39     },
+
+    {   300 /0.0254 * dmgrange, 
+    48.43 * mult39     },
+
+    {   400 /0.0254 * dmgrange, 
+    46.44 * mult39     },
+
+    {   500 /0.0254 * dmgrange, 
+    45.16 * mult39     },
+
+    {   600 /0.0254 * dmgrange, 
+    44.15 * mult39     },
+
+    {   700 /0.0254 * dmgrange, 
+    43.33 * mult39     },
+
+    {   800 /0.0254 * dmgrange, 
+    42.63 * mult39     },
+
+    {   900 /0.0254 * dmgrange, 
+    42 * mult39     },
+
+    {   1000 /0.0254 * dmgrange, 
+    41.43 * mult39     },
+}
+
+-- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
+-- 58.24	52.38	48.43	46.44	45.16	44.15	43.33	42.63	42	    41.43
+
+
+ATT.Category = {"eft_ammo_76239"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_76239_fmj")
+
+///////////////////////////////////////      eft_ammo_76239_sp
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x39mm SP"
+ATT.CompactName = "SP"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x39/t45m1.png", "mips smooth")
+ATT.Description = [[7.62x39 rifled ammunition with SP 123 gr (8 g) bullet is great for practice and recreational shooting.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "7.62x39mm SP"
+
+ATT.DamageMax = 68 * mult39
+ATT.DamageMin = 41.43 * mult39
+ATT.PhysBulletMuzzleVelocity = 772 /0.0254
+-- ATT.TracerNum = 1
+-- ATT.TracerColor = Color(255, 16, 16)
+ATT.SpreadMult = 0.95
+ATT.RecoilMult = 1.05
+ATT.VisualRecoilMult = 1.05
+ATT.HeatPerShotMult = 1.1
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      20 *2.54/100/0.0254
+ATT.PenetrationDelta = 27/100
+ATT.ArmorPiercing =    27/100
+ATT.RicochetChance =   35/100
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    68 * mult39     },
+
+    {   100 /0.0254 * dmgrange, 
+    62 * mult39     },
+
+    {   200 /0.0254 * dmgrange, 
+    52.38 * mult39     },
+
+    {   300 /0.0254 * dmgrange, 
+    48.43 * mult39     },
+
+    {   400 /0.0254 * dmgrange, 
+    46.44 * mult39     },
+
+    {   500 /0.0254 * dmgrange, 
+    45.16 * mult39     },
+
+    {   600 /0.0254 * dmgrange, 
+    44.15 * mult39     },
+
+    {   700 /0.0254 * dmgrange, 
+    43.33 * mult39     },
+
+    {   800 /0.0254 * dmgrange, 
+    42.63 * mult39     },
+
+    {   900 /0.0254 * dmgrange, 
+    42 * mult39     },
+
+    {   1000 /0.0254 * dmgrange, 
+    41.43 * mult39     },
+}
+
+-- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
+-- 58.24	52.38	48.43	46.44	45.16	44.15	43.33	42.63	42	    41.43
+
+
+ATT.Category = {"eft_ammo_76239"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_76239_sp")
+
 
 
 
@@ -243,6 +399,84 @@ ATT.Category = {"eft_ammo_76239"}
 
 ARC9.LoadAttachment(ATT, "eft_ammo_76239_us")
 
+///////////////////////////////////////      eft_ammo_76239_pp
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x39mm PP gzh"
+ATT.CompactName = "PP"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x39/us.png", "mips smooth")
+ATT.Description = [[A PP gzh (GRAU index - 7N27) cartridge with an improved penetration bullet. The PP bullet consists of a tompak-clad steel jacket with a truncated tip, a sharp core of hardened steel, a cap of thin metal foil coated with green varnish, and a lead jacket. The foil is used to prevent wear and tear on the gun and magazine when feeding cartridges.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "7.62x39mm PP gzh"
+
+ATT.DamageMax = 55 * mult39
+ATT.DamageMin = 47 * mult39
+ATT.PhysBulletMuzzleVelocity = 732 /0.0254
+-- ATT.TracerNum = 1
+-- ATT.TracerColor = Color(255, 16, 16)
+ATT.SpreadMult = 1.01
+ATT.RecoilMult = 1.05
+ATT.VisualRecoilMult = 1.05
+ATT.HeatPerShotMult = 0.8
+
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      41 *2.54/100/0.0254
+ATT.PenetrationDelta = 57/100
+ATT.ArmorPiercing =    57/100
+ATT.RicochetChance =   36/100
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    55 * mult39     },
+
+    {   100 /0.0254 * dmgrange, 
+    54 * mult39     },
+
+    {   200 /0.0254 * dmgrange, 
+    53.44 * mult39     },
+
+    {   300 /0.0254 * dmgrange, 
+    52.4 * mult39     },
+
+    {   400 /0.0254 * dmgrange, 
+    51.44 * mult39     },
+
+    {   500 /0.0254 * dmgrange, 
+    50.55 * mult39     },
+
+    {   600 /0.0254 * dmgrange, 
+    49.74 * mult39     },
+
+    {   700 /0.0254 * dmgrange, 
+    49 * mult39     },
+
+    {   800 /0.0254 * dmgrange, 
+    48.3 * mult39     },
+
+    {   900 /0.0254 * dmgrange, 
+    47.6 * mult39     },
+
+    {   1000 /0.0254 * dmgrange, 
+    47 * mult39     },
+}
+
+-- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
+-- 54.62	53.44	52.4	51.44	50.55	49.74	48.97	48.27	47.59	46.96
+
+
+ATT.Category = {"eft_ammo_76239"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_76239_pp")
+
 
 
 ///////////////////////////////////////      eft_ammo_76239_bp
@@ -267,8 +501,8 @@ ATT.PhysBulletMuzzleVelocity = 730 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
 ATT.SpreadMult = 1.03
-ATT.RecoilMult = 1.05
-ATT.VisualRecoilMult = 1.05
+ATT.RecoilMult = 1.07
+ATT.VisualRecoilMult = 1.07
 ATT.HeatPerShotMult = 1.45
 
 ATT.RangeMin = 10

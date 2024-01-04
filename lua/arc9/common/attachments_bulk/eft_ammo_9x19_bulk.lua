@@ -365,6 +365,77 @@ ATT.Category = {"eft_ammo_9x19"}
 
 ARC9.LoadAttachment(ATT, "eft_ammo_9x19_pst_gzh")
 
+///////////////////////////////////////      eft_ammo_9x19_fmj_m882
+
+
+ATT = {}
+
+ATT.PrintName = "9x19mm FMJ M882"
+ATT.CompactName = "M882"
+ATT.Icon = Material("entities/eft_attachments/ammo/9x19/pstgzh.png", "mips smooth")
+ATT.Description = [[US Military 9mm ammunition is some of the most reliable ammunition available in the market, great for target shooting, plinking and practice. Loaded with M882 124-grain full metal jacket bullets rated at 1140 fps, this cartridge is considered +P (but slightly less than +P+) ammo. These increased pressure cartridges travel farther and penetrate better than standard 9mm rounds.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "9x19mm FMJ M882"
+
+ATT.DamageMax = 56 * mult9
+ATT.DamageMin = 30 * mult9
+ATT.PhysBulletMuzzleVelocity = 385 /0.0254
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      18 *2.54/100/0.0254
+ATT.PenetrationDelta = 35/100
+ATT.ArmorPiercing =    35/100
+ATT.RicochetChance =   5/100
+
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    56 * mult9     },
+
+    {   100 /0.0254 * dmgrange, 
+    43.77 * mult9     },
+
+    {   200 /0.0254 * dmgrange, 
+    40.34 * mult9     },
+
+    {   300 /0.0254 * dmgrange, 
+    37.92 * mult9     },
+
+    {   400 /0.0254 * dmgrange, 
+    35.98 * mult9     },
+
+    {   500 /0.0254 * dmgrange, 
+    34.32 * mult9     },
+
+    {   600 /0.0254 * dmgrange, 
+    32.96 * mult9     },
+
+    {   700 /0.0254 * dmgrange, 
+    31.9 * mult9     },
+
+    {   800 /0.0254 * dmgrange, 
+    31.12 * mult9     },
+
+    {   900 /0.0254 * dmgrange, 
+    30.65 * mult9     },
+
+    {   1000 /0.0254 * dmgrange, 
+    30.51 * mult9     },
+}
+
+-- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
+-- 43.77	40.34	37.92	35.98	34.32	32.96	31.9	31.12	30.65	30.51
+
+ATT.Category = {"eft_ammo_9x19"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_9x19_fmj_m882")
+
 
 ///////////////////////////////////////      eft_ammo_9x19_quake
 

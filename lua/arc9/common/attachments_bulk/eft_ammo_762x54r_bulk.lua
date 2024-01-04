@@ -110,6 +110,7 @@ ATT.RicochetChance =   26/100
 ATT.TracerNum = 1
 ATT.TracerColor = Color(255, 16, 16)
 
+ATT.RecoilMult = 0.96
 ATT.VisualRecoilMult = 0.96
 ATT.SpreadMult = 1.02
 
@@ -157,6 +158,151 @@ ATT.Category = {"eft_ammo_762x54r"}
 ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_bt_gzh")
 
 
+///////////////////////////////////////      eft_ammo_762x54r_fmj
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x54mm R FMJ"
+ATT.CompactName = "FMJ"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x54r/std.png", "mips smooth")
+ATT.Description = [[Full Metal Jacket bullet. Standard lead core with a metallic jacket. Best for training and target shooting applications.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+ATT.ActivateElements = {"76254r"}
+
+ATT.EFTRoundName = "7.62x54mm R FMJ"
+
+ATT.DamageMax = 84 * mult54
+ATT.DamageMin = 54 * mult54
+ATT.PhysBulletMuzzleVelocity = 760 /0.0254
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      33 *2.54/100/0.0254
+ATT.PenetrationDelta = 63/100
+ATT.ArmorPiercing =    63/100
+ATT.RicochetChance =   30/100
+
+
+
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    84 * mult54     },
+
+    {   100 /0.0254 * dmgrange, 
+    76.6 * mult54     },
+
+    {   200 /0.0254 * dmgrange, 
+    72.8 * mult54     },
+
+    {   300 /0.0254 * dmgrange, 
+    68.72 * mult54     },
+
+    {   400 /0.0254 * dmgrange, 
+    64.5 * mult54     },
+
+    {   500 /0.0254 * dmgrange, 
+    60.5 * mult54     },
+
+    {   600 /0.0254 * dmgrange, 
+    58 * mult54     },
+
+    {   700 /0.0254 * dmgrange, 
+    56.38 * mult54     },
+
+    {   800 /0.0254 * dmgrange, 
+    55.25 * mult54     },
+
+    {   900 /0.0254 * dmgrange, 
+    54.37 * mult54     },
+
+    {   1000 /0.0254 * dmgrange, 
+    54 * mult54     },
+}
+
+-- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
+-- 76.57	72.78	68.72	64.52	60.57	57.95	56.38	55.25	54.37	53.66
+
+ATT.Category = {"eft_ammo_762x54r"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_fmj")
+
+///////////////////////////////////////      eft_ammo_762x54r_hpbt
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x54mm R HP BT"
+ATT.CompactName = "BT"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x54r/bs.png", "mips smooth")
+ATT.Description = [[HPBT (Hollow Point Boat Tail) - an HP-type bullet with a streamlined or tapered tail. HP (Hollow Point) - a semi-hollow point bullet with a hole in the nose.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+ATT.ActivateElements = {"76254r"}
+
+ATT.EFTRoundName = "7.62x54mm R HP BT"
+
+ATT.DamageMax = 102 * mult54
+ATT.DamageMin = 68 * mult54
+ATT.PhysBulletMuzzleVelocity = 807 /0.0254
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      23 *2.54/100/0.0254
+ATT.PenetrationDelta = 37/100
+ATT.ArmorPiercing =    37/100
+ATT.RicochetChance =   40/100
+
+-- ATT.VisualRecoilMult = 1.08
+ATT.SpreadMult = 0.9
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    102 * mult54     },
+
+    {   100 /0.0254 * dmgrange, 
+    95 * mult54     },
+
+    {   200 /0.0254 * dmgrange, 
+    85 * mult54     },
+
+    {   300 /0.0254 * dmgrange, 
+    81 * mult54     },
+
+    {   400 /0.0254 * dmgrange, 
+    78 * mult54     },
+
+    {   500 /0.0254 * dmgrange, 
+    75 * mult54     },
+
+    {   600 /0.0254 * dmgrange, 
+    74 * mult54     },
+
+    {   700 /0.0254 * dmgrange, 
+    73 * mult54     },
+
+    {   800 /0.0254 * dmgrange, 
+    72 * mult54     },
+
+    {   900 /0.0254 * dmgrange, 
+    69.5 * mult54     },
+
+    {   1000 /0.0254 * dmgrange, 
+    68 * mult54     },
+}
+
+ATT.Category = {"eft_ammo_762x54r"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_hpbt")
+
 ///////////////////////////////////////      eft_ammo_762x54r_lps_gzh
 
 
@@ -185,7 +331,7 @@ ATT.PenetrationDelta = 78/100
 ATT.ArmorPiercing =    78/100
 ATT.RicochetChance =   39/100
 
-
+ATT.SpreadMult = 1.05
 
 
 ATT.DamageLookupTable = {
@@ -260,6 +406,7 @@ ATT.PenetrationDelta = 84/100
 ATT.ArmorPiercing =    84/100
 ATT.RicochetChance =   28/100
 
+ATT.RecoilMult = 1.08
 ATT.VisualRecoilMult = 1.08
 ATT.SpreadMult = 0.9
 
@@ -324,7 +471,7 @@ ATT.ActivateElements = {"76254r"}
 
 ATT.EFTRoundName = "7.62x54mm R SNB gzh"
 
-ATT.DamageMax = 78 * mult54
+ATT.DamageMax = 75 * mult54
 ATT.DamageMin = 50 * mult54
 ATT.PhysBulletMuzzleVelocity = 875 /0.0254
 ATT.RangeMin = 10
@@ -335,12 +482,13 @@ ATT.PenetrationDelta = 87/100
 ATT.ArmorPiercing =    87/100
 ATT.RicochetChance =   28/100
 
+ATT.RecoilMult = 1.1
 ATT.VisualRecoilMult = 1.1
 
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    78 * mult54     },
+    75 * mult54     },
 
     {   100 /0.0254 * dmgrange, 
     71 * mult54     },
@@ -382,6 +530,77 @@ ATT.Category = {"eft_ammo_762x54r"}
 ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_snb_gzh")
 
 
+///////////////////////////////////////      eft_ammo_762x54r_spbt
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x54mm R SP BT"
+ATT.CompactName = "BT"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x54r/bs.png", "mips smooth")
+ATT.Description = [[180gr Soft Point Boat Tail large game cartridges are designed for use on deer, large pig and other large game where greater stopping power is required.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+ATT.ActivateElements = {"76254r"}
+
+ATT.EFTRoundName = "7.62x54mm R HP BT"
+
+ATT.DamageMax = 92 * mult54
+ATT.DamageMin = 62 * mult54
+ATT.PhysBulletMuzzleVelocity = 703 /0.0254
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      27 *2.54/100/0.0254
+ATT.PenetrationDelta = 56/100
+ATT.ArmorPiercing =    56/100
+ATT.RicochetChance =   40/100
+
+-- ATT.VisualRecoilMult = 1.08
+ATT.SpreadMult = 0.93
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    92 * mult54     },
+
+    {   100 /0.0254 * dmgrange, 
+    90 * mult54     },
+
+    {   200 /0.0254 * dmgrange, 
+    85 * mult54     },
+
+    {   300 /0.0254 * dmgrange, 
+    81 * mult54     },
+
+    {   400 /0.0254 * dmgrange, 
+    78 * mult54     },
+
+    {   500 /0.0254 * dmgrange, 
+    70 * mult54     },
+
+    {   600 /0.0254 * dmgrange, 
+    68 * mult54     },
+
+    {   700 /0.0254 * dmgrange, 
+    66 * mult54     },
+
+    {   800 /0.0254 * dmgrange, 
+    64 * mult54     },
+
+    {   900 /0.0254 * dmgrange, 
+    63 * mult54     },
+
+    {   1000 /0.0254 * dmgrange, 
+    62 * mult54     },
+}
+
+ATT.Category = {"eft_ammo_762x54r"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_spbt")
+
 ///////////////////////////////////////      eft_ammo_762x54r_t46m_gzh
 
 
@@ -410,6 +629,7 @@ ATT.PenetrationDelta = 83/100
 ATT.ArmorPiercing =    83/100
 ATT.RicochetChance =   30/100
 
+ATT.RecoilMult = 0.95
 ATT.VisualRecoilMult = 0.95
 ATT.SpreadMult = 1.01
 

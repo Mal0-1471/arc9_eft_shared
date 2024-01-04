@@ -21,15 +21,15 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm BCP FMJ"
 
-ATT.DamageMax = 88 * mult51
+ATT.DamageMax = 83 * mult51
 ATT.DamageMin = 60 * mult51
 ATT.PhysBulletMuzzleVelocity = 840 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      31 *2.54/100/0.0254
-ATT.PenetrationDelta = 33/100
-ATT.ArmorPiercing =    33/100
+ATT.Penetration =      35 *2.54/100/0.0254
+ATT.PenetrationDelta = 42/100
+ATT.ArmorPiercing =    42/100
 ATT.RicochetChance =   20/100
 
 
@@ -40,10 +40,10 @@ ATT.MalfunctionMeanShotsToFailMult = 0.99
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    88 * mult51     },
+    83 * mult51     },
 
     {   100 /0.0254 * dmgrange, 
-    84 * mult51     },
+    81 * mult51     },
 
     {   200 /0.0254 * dmgrange, 
     80.2 * mult51     },
@@ -412,15 +412,15 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm TCW SP"
 
-ATT.DamageMax = 67 * mult51
+ATT.DamageMax = 87 * mult51
 ATT.DamageMin = 46 * mult51
 ATT.PhysBulletMuzzleVelocity = 808 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      34 *2.54/100/0.0254
-ATT.PenetrationDelta = 40/100
-ATT.ArmorPiercing =    40/100
+ATT.Penetration =      30 *2.54/100/0.0254
+ATT.PenetrationDelta = 25/100
+ATT.ArmorPiercing =    25/100
 ATT.RicochetChance =   50/100
 
 
@@ -431,41 +431,38 @@ ATT.VisualRecoilMult = 0.95
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    67 * mult51     },
+    87 * mult51     },
 
     {   100 /0.0254 * dmgrange, 
-    63.6 * mult51     },
+    81 * mult51     },
 
     {   200 /0.0254 * dmgrange, 
-    60.7 * mult51     },
+    80.2 * mult51     },
 
     {   300 /0.0254 * dmgrange, 
-    57.7 * mult51     },
+    76.6 * mult51     },
 
     {   400 /0.0254 * dmgrange, 
-    54.4 * mult51     },
+    73 * mult51     },
 
     {   500 /0.0254 * dmgrange, 
-    51.3 * mult51     },
+    69 * mult51     },
 
     {   600 /0.0254 * dmgrange, 
-    49.2 * mult51     },
+    65.5 * mult51     },
 
     {   700 /0.0254 * dmgrange, 
-    47.9 * mult51     },
+    63.4 * mult51     },
 
     {   800 /0.0254 * dmgrange, 
-    46.9 * mult51     },
+    62 * mult51     },
 
     {   900 /0.0254 * dmgrange, 
-    46.2 * mult51     },
+    60.8 * mult51     },
 
     {   1000 /0.0254 * dmgrange, 
-    46 * mult51     },
+    60 * mult51     },
 }
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 63.64	60.69	57.68	54.44	51.3	49.18	47.89	46.93	46.18	45.55
 
 ATT.Category = {"eft_ammo_762x51"}
 

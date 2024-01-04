@@ -86,6 +86,46 @@ ATT.Category = {"eft_ammo_12x70"}
 
 ARC9.LoadAttachment(ATT, "eft_ammo_12x70_525mm")
 
+///////////////////////////////////////      eft_ammo_12x70_pir
+
+
+ATT = {}
+
+ATT.PrintName = "12/70 Piranha"
+ATT.CompactName = "Piranha"
+ATT.Icon = Material("entities/eft_attachments/ammo/12x70/def.png", "mips smooth")
+ATT.Description = [[This 12 gauge round contains dozens of razor sharp steel tacks that blast out at high velocity which virtually guarantees that there will be no response from the perpetrator. Each round is buffed with #12 shot thus creating a double shock to the wound area. Absolutely will not harm your shotgun. To be used no closer than 10 feet and no further than 50 feet.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = "12/70 Piranha"
+
+ATT.DamageMax = 25 * mult1270
+ATT.DamageMin = 21 * mult1270
+ATT.PhysBulletMuzzleVelocity = 310 /0.0254
+
+ATT.RangeMin = 10
+ATT.RangeMax = 100 /0.0254 * dmgrangesg
+
+ATT.Penetration =      24 *2.54/100/0.0254
+ATT.PenetrationDelta = 22/100
+ATT.ArmorPiercing =    22/100
+ATT.RicochetChance =   0
+
+ATT.Num = 10
+-- ATT.VisualRecoilMult = 1.25
+-- ATT.SpreadMult = 0.1
+
+ATT.ActivateElements = {"eft_ammo_12x70_std"}
+ATT.Category = {"eft_ammo_12x70"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_12x70_pir")
+
 
 ///////////////////////////////////////      eft_ammo_12x70_7mm
 
