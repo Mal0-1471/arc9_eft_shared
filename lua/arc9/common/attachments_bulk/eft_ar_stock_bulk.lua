@@ -680,7 +680,7 @@ ATT.CustomPros = { Ergonomics = "+2" }
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock_a2"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
--- ATT.Folder = "Magpul"
+ATT.Folder = "Magpul"
 
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_prsgen2f")
@@ -709,7 +709,7 @@ ATT.CustomPros = { Ergonomics = "+3" }
 ATT.SortOrder = 0
 ATT.Category = {"eft_ar_stock", "eft_ar_stock_a2"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
--- ATT.Folder = "Magpul"
+ATT.Folder = "Magpul"
 
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_prsgen3")
@@ -739,7 +739,7 @@ ATT.CustomPros = { Ergonomics = "+3" }
 ATT.SortOrder = 0
 ATT.Category = {"eft_ar_stock", "eft_ar_stock_a2"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
--- ATT.Folder = "Magpul"
+ATT.Folder = "Magpul"
 
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_prsgen3g")
@@ -884,3 +884,160 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_vipermod1")
 
+///////////////////////////////////////      eft_ar_stock_magpul_slk
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Magpul MOE SL-K buttstock (Coyote Tan)"
+ATT.CompactName = "MOE SL-K"
+ATT.Description = [[A quick-detach buttstock for AR-15/M16 rifles with mil-spec buffer tube. Manufactured by Magpul Original Equipment. Coyote Tan version.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/slk.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_magpul_moe_sl_k.mdl"
+
+ATT.HasStock = true
+
+ATT.RecoilMult = 0.78
+ATT.VisualRecoilMult = 0.78
+
+ATT.EFTErgoAdd = 10
+ATT.CustomPros = { Ergonomics = "+10" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_ar_stock"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Folder = "Magpul"
+ATT.ModelOffset = Vector(-0.5, 0, 0)
+
+
+ARC9.LoadAttachment(ATT, "eft_ar_stock_magpul_slk")
+
+
+///////////////////////////////////////      eft_ar_stock_ddecb
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Daniel Defense Enhanced Collapsible Buttstock (Black)"
+ATT.CompactName = "DD ECB"
+ATT.Description = [[A quick detach buttstock for AR-15 carbines. Manufactured by Daniel Defense. Black version.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/dde.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_dd_enhanced.mdl"
+-- ATT.ModelSkin = 4
+
+ATT.HasStock = true
+
+ATT.RecoilMult = 0.8
+ATT.VisualRecoilMult = 0.8
+
+ATT.EFTErgoAdd = 14
+ATT.CustomPros = { Ergonomics = "+14" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_ar_stock"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Buttpad",
+        Category = "eft_dd_buttpad",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-4.2, 0, -1),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_ar_stock_ddecb")
+
+///////////////////////////////////////      eft_ar_stock_ddecb_f
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Daniel Defense Enhanced Collapsible Buttstock (FDE)"
+ATT.CompactName = "DD ECB (FDE)"
+ATT.Description = [[A quick detach buttstock for AR-15 carbines. Manufactured by Daniel Defense. Flat Dark Earth version.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/ddef.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_dd_enhanced.mdl"
+ATT.ModelSkin = 1
+
+ATT.HasStock = true
+
+ATT.RecoilMult = 0.8
+ATT.VisualRecoilMult = 0.8
+
+ATT.EFTErgoAdd = 14
+ATT.CustomPros = { Ergonomics = "+14" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_ar_stock"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Buttpad",
+        Category = "eft_dd_buttpad",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-4.2, 0, -1),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_ar_stock_ddecb_f")
+
+///////////////////////////////////////      eft_dd_buttpad_14
+
+ATT = {}
+
+ATT.PrintName = "Daniel Defense TCS 12mm Buttpad"
+ATT.CompactName = "TCS 12"
+ATT.Description = [[The 12mm Thicker Convex Shape Buttpad for Daniel Defense buttstocks. Manufactured by Daniel Defense.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/ddbutt12.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_base_dd_buttpad_12mm.mdl"
+
+-- ATT.HasStock = true
+
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+-- ATT.EFTErgoAdd = 2
+-- ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_dd_buttpad"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ARC9.LoadAttachment(ATT, "eft_dd_buttpad_14")
+
+///////////////////////////////////////      eft_dd_buttpad_20
+
+ATT = {}
+
+ATT.PrintName = "Daniel Defense TCS 20mm Buttpad"
+ATT.CompactName = "TCS 20"
+ATT.Description = [[The 20mm Thicker Convex Shape Buttpad for Daniel Defense buttstocks. Manufactured by Daniel Defense.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/ddbutt20.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_base_dd_buttpad_20mm.mdl"
+
+-- ATT.HasStock = true
+
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_dd_buttpad"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ARC9.LoadAttachment(ATT, "eft_dd_buttpad_20")

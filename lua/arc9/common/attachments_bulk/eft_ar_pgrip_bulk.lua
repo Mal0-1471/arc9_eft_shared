@@ -682,3 +682,27 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_orion")
+
+///////////////////////////////////////      eft_ar_pgrip_sig
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 SIG M400 Reduced Angle Pistol Grip (Coyote Tan) "
+ATT.CompactName = "M400"
+ATT.Description = [[The polymer M400 Reduced Angle Pistol Grip fits any weapon compatible with AR-15 system. Manufactured by SIG Sauer. Coyote Tan version.]]
+ATT.Icon = Material("entities/eft_attachments/pgrips/ar15grips/siggrip.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_sig_reduced_angle.mdl"
+
+ATT.HasGrip = true
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+
+ATT.SortOrder = 0
+ATT.Category = "eft_ar15_pgrip_m4"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ARC9.LoadAttachment(ATT, "eft_ar_pgrip_sig")

@@ -3078,3 +3078,151 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_zeuspro")
+
+-- 0.14
+
+///////////////////////////////////////      eft_scope_30mm_tango6t
+
+ATT = {}
+
+ATT.PrintName = "SIG TANGO6T 1-6x24 30mm riflescope"
+ATT.CompactName = "TANGO6T"
+ATT.Icon = Material("entities/eft_attachments/scopes/tango.png", "mips smooth")
+ATT.Description = [[The TANGO6T is a rugged and well-built low power variable optic. This model features a 1x to 6x magnification and a first focal plane reticle. This rifle scope is ideal for short and medium distances, as well as for backcountry hunting. Manufactured by SIG Sauer.]]
+ATT.SortOrder = 3
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_sig_tango6t.mdl"
+
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = "eft_optic_30mm"
+
+ATT.EFTErgoAdd = -4
+ATT.CustomCons = { Ergonomics = "-4" }
+
+ATT.FoldSights = true
+
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_30mm_sig_tango6t_1_6x24_LOD0_mark_1.png", "mips smooth")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_30mm_sig_tango6t_1_6x24_LOD0_mark_6.png", "mips smooth")
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 15, 0),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/6,
+        Reticle = Reticle1,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("6x") end
+        end,
+    },
+    {
+        Pos = Vector(0, 15, 0),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/1,
+        Reticle = Reticle0,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("1x") end
+        end,
+    },
+}
+
+ATT.DrawFunc = function(swep, model, wm) 
+    if !wm then
+        model:SetBodygroup(1, 1-swep:GetMultiSight()+1)
+    end
+end
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 12
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_30mm_sig_tango6t_1_6x24_LOD0_mark_6.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeColorable = false
+ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true 
+
+ATT.ScopeScreenRatio = 0.66
+
+
+ARC9.LoadAttachment(ATT, "eft_scope_30mm_tango6t")
+
+///////////////////////////////////////      eft_scope_dovetail_ekp1s03
+
+
+ATT = {}
+
+ATT.PrintName = "Axion Kobra EKP-1S-03 reflex sight (Dovetail)"
+ATT.CompactName = "EKP-1S-03"
+ATT.Icon = Material("entities/eft_attachments/scopes/ekp1s.png", "mips smooth")
+ATT.Description = [[Kobra is a highly popular red dot sight among law enforcement agencies and civilian shooters. It was developed for the Armed Forces of the Russian Federation. EKP-1S-03 has earned a reputation of reliable, fail-safe in the harshest field conditions among hunters, sports shooters, soldiers and collectors. This sight is designed for installation on the Dovetail type mounts. Manufactured by Axion.
+
+
+Press something to change reticles
+]]
+ATT.SortOrder = 3
+
+ATT.Scale = 1
+ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/dovetail/ekp1s03.mdl"
+
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
+ATT.Folder = "Reflex"
+
+
+
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
+
+
+ATT.FoldSights = true
+
+
+local R0 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_00.png", "mips smooth")
+local R1 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_01.png", "mips smooth")
+local R2 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_02.png", "mips smooth")
+local R3 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_03.png", "mips smooth")
+
+ATT.Sights = {
+    {
+        Pos = Vector(-0.145, 10, -1.2),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 57,
+        Reticle = R0
+    },
+    {
+        Pos = Vector(-0.145, 10, -1.2),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 57,
+        Reticle = R1
+    },
+    {
+        Pos = Vector(-0.145, 10, -1.2),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 57,
+        Reticle = R2
+    },
+    {
+        Pos = Vector(-0.145, 10, -1.2),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 57,
+        Reticle = R3
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_00.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 350
+ATT.HoloSightColorable = false
+ATT.HoloSightDepthAdjustment = 0.01
+ATT.ModelOffset = Vector(-2.1, 1, 2.0)
+
+ARC9.LoadAttachment(ATT, "eft_scope_dovetail_ekp1s03")

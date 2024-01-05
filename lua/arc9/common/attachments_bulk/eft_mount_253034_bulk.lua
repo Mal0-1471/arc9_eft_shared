@@ -488,3 +488,32 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_mount_25mm_utg")
 
+
+///////////////////////////////////////      eft_mount_30mm_alpha4
+
+ATT = {}
+
+ATT.PrintName = "SIG ALPHA4 30mm ring scope mount"
+ATT.CompactName = "ALPHA4 30mm"
+ATT.Icon = Material("entities/eft_attachments/scopes/alpha4mount.png", "mips smooth")
+ATT.Description = [[A mount for 30mm riflescopes, installed on Weaver/Picatinny type rails. Manufactured by SIG Sauer.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_sig_alpha4.mdl"
+
+ATT.Category = {"eft_optic_large"}
+ATT.Folder = "Scopes/Mounts"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_30mm"},
+        Pos = Vector(-2.5, 0, -1.585),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_30mm_alpha4")

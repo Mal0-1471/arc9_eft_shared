@@ -1589,3 +1589,48 @@ ATT.ToggleStats = {
 
 
 ARC9.LoadAttachment(ATT, "eft_tactical_mawlc")
+
+-- 0.14
+
+///////////////////////////////////////      eft_tactical_2d
+
+
+ATT = {}
+
+ATT.PrintName = "Zenit 2D flashlight"
+ATT.CompactName = "2D"
+ATT.Description = [[The 2D tactical flashlight, installed on a KR-2 mount. Manufactured by Zenit.]]
+
+ATT.Icon = Material("entities/eft_attachments/tactical/kr2.png", "mips smooth")
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kr2.mdl"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = "Light",
+        Flashlight = true,
+        FlashlightColor = Color(255, 255, 255),
+        FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
+        FlashlightDistance = 2048,
+        FlashlightFOV = 83,
+        FlashlightAttachment = 1,
+        Flare = true,
+        FlareColor = Color(255, 255, 255),
+        FlareSize = 125,
+        FlareAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = "None",
+    }
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_tactical_2d")

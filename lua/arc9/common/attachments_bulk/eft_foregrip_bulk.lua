@@ -989,3 +989,197 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_sturm")
+
+
+-- 0.14
+
+///////////////////////////////////////      eft_foregrip_rtm_fde
+
+
+ATT = {}
+
+ATT.PrintName = "RTM Pillau tactical foregrip (Sand)"
+ATT.CompactName = "Pillau (Sand)"
+ATT.Description = [[Lightweight aluminium tactical grip produced by RTM. Sand version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/rtmf.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_pillau.mdl"
+ATT.ModelSkin = 1
+
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 5
+ATT.CustomPros = { Ergonomics = "+5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_rtm_fde")
+
+///////////////////////////////////////      eft_foregrip_se5_fde
+
+
+ATT = {}
+
+ATT.PrintName = "Stark SE-5 Express Forward foregrip (FDE)"
+ATT.CompactName = "SE-5 (FDE)"
+ATT.Description = [[STARK SE-5 Express tactical grip. Enables a more natural grip against the barrel axis. Thanks to that, it reduces recoil and improves the weapon control. Flat Dark Earth edition.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/se5f.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_starkse5.mdl"
+ATT.ModelSkin = 1
+
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_se5_fde")
+
+///////////////////////////////////////      eft_foregrip_rtm_p2
+
+
+ATT = {}
+
+ATT.PrintName = "RTM Pillau P-2 tactical foregrip"
+ATT.CompactName = "P-2"
+ATT.Description = [[The Pillau second generation lightweight aluminum tactical grip. Manufactured by RTM. Red color version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/pillau2.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_pillau_p2.mdl"
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.98
+ATT.VisualRecoilMult = 0.98
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_rtm_p2")
+
+///////////////////////////////////////      eft_foregrip_rtm_oso
+
+
+ATT = {}
+
+ATT.PrintName = "RTM Osovets P-2 tactical foregrip"
+ATT.CompactName = "Osovets"
+ATT.Description = [[An aluminum tactical grip manufactured by RTM.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/oso.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_osovets_p2.mdl"
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_rtm_oso")
+
+///////////////////////////////////////      eft_foregrip_rtm_oso_khaki
+
+
+ATT = {}
+
+ATT.PrintName = "RTM Osovets P-2 tactical foregrip (Khaki)"
+ATT.CompactName = "Osovets (K)"
+ATT.Description = [[An aluminum tactical grip manufactured by RTM. Khaki version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/osof.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_osovets_p2.mdl"
+ATT.ModelSkin = 1
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 1
+ATT.CustomPros = { Ergonomics = "+1" }
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_rtm_oso_khaki")
+
+///////////////////////////////////////      eft_foregrip_mlok_dd
+
+
+ATT = {}
+
+ATT.PrintName = "Daniel Defense Enhanced M-LOK Vertical Foregrip (Black)"
+ATT.CompactName = "DD M-LOK"
+ATT.Description = [[The Enhanced M-LOK Vertical Foregrip, installed on M-LOK interface handguards. Manufactured by Daniel Defense. Black version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/ddgrip.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_mlok_dd.mdl"
+ATT.ModelSkin = 0
+
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.985
+ATT.VisualRecoilMult = 0.985
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_mlok"
+ATT.ModelAngleOffset = Angle(0, 90, 90)
+-- ATT.ModelOffset = Vector(1.2, 0, 0)
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_mlok_dd")
+
+///////////////////////////////////////      eft_foregrip_mlok_dd_fde
+
+
+ATT = {}
+
+ATT.PrintName = "Daniel Defense Enhanced M-LOK Vertical Foregrip (Coyote Brown)"
+ATT.CompactName = "DD M-LOK (C)"
+ATT.Description = [[The Enhanced M-LOK Vertical Foregrip, installed on M-LOK interface handguards. Manufactured by Daniel Defense. Coyote Brown version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/ddgripf.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_mlok_dd.mdl"
+ATT.ModelSkin = 1
+
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.985
+ATT.VisualRecoilMult = 0.985
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_mlok"
+ATT.ModelAngleOffset = Angle(0, 90, 90)
+-- ATT.ModelOffset = Vector(1.2, 0, 0)
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_mlok_dd_fde")

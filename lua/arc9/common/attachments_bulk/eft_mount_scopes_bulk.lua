@@ -944,3 +944,81 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_mount_zeus")
 
+-- 0.14
+
+///////////////////////////////////////      eft_mount_hydra
+
+
+ATT = {}
+
+ATT.PrintName = "GBRS Aimpoint Hydra Mount Kit"
+ATT.CompactName = "Hydra"
+ATT.Icon = Material("entities/eft_attachments/scopes/hydra.png", "mips smooth")
+ATT.Description = [[The Hydra Mount Kit for Aimpoint Micro T-1 and H-1 series sights and tactical equipment. Manufactured by GBRS Group.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/gbrs_hydra.mdl"
+
+ATT.Category = {"eft_optic_large"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_t1", "eft_h2", "eft_romeo4", "eft_amsh"},
+        Pos = Vector(0.7, 0, -2.4),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0.2),
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top"},
+        Pos = Vector(-3.75, 0, -1.45),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_hydra")
+
+///////////////////////////////////////      eft_mount_hydra_fde
+
+
+ATT = {}
+
+ATT.PrintName = "GBRS Aimpoint Hydra Mount Kit (FDE)"
+ATT.CompactName = "Hydra (FDE)"
+ATT.Icon = Material("entities/eft_attachments/scopes/hydraf.png", "mips smooth")
+ATT.Description = [[The Hydra Mount Kit for Aimpoint Micro T-1 and H-1 series sights and tactical equipment. Manufactured by GBRS Group. Flat Dark Earth version.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/gbrs_hydra.mdl"
+ATT.ModelSkin = 1
+
+ATT.Category = {"eft_optic_large"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_t1", "eft_h2", "eft_romeo4", "eft_amsh"},
+        Pos = Vector(0.7, 0, -2.4),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0.2),
+    },
+    {
+        PrintName = "Top Tactical",
+        Category = {"eft_tactical_top"},
+        Pos = Vector(-3.75, 0, -1.45),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_hydra_fde")

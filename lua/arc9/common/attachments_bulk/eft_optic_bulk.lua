@@ -1927,3 +1927,89 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AdditionalSightDistance = 2
 
 ARC9.LoadAttachment(ATT, "eft_optic_zeus_eyecup")
+
+///////////////////////////////////////      eft_optic_boss
+
+
+ATT = {}
+
+ATT.PrintName = "Wilcox BOSS Xe reflex sight"
+ATT.CompactName = "BOSS Xe"
+ATT.Icon = Material("entities/eft_attachments/scopes/boss.png", "mips smooth")
+ATT.Description = [[The Ballistically Optimized Sighting System reflex sight that combines the functions of a red dot, tactical block and iron sights. Manufactured by Wilcox.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_wilcox_boss.mdl"
+ATT.Folder = "Reflex"
+
+ATT.Category = {"eft_optic_medium"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
+ATT.FoldSights = true
+
+local R0 = Material("vgui/arc9_eft_shared/reticles/scope_all_wilcox_boss_xe_hp_mark_000.png", "mips smooth")
+local R1 = Material("vgui/arc9_eft_shared/reticles/scope_all_wilcox_boss_xe_hp_mark_001.png", "mips smooth")
+local R2 = Material("vgui/arc9_eft_shared/reticles/scope_all_wilcox_boss_xe_hp_mark_002.png", "mips smooth")
+R0:SetInt("$additive", 1)
+R1:SetInt("$additive", 1)
+R2:SetInt("$additive", 1)
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10.25, -1.85),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53,
+        Reticle = R0
+    },
+    {
+        Pos = Vector(0, 10.25, -1.85),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53,
+        Reticle = R1
+    },
+    {
+        Pos = Vector(0, 10.25, -1.85),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53,
+        Reticle = R2
+    },
+    {
+        Pos = Vector(0, 10.25, -1.63),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53,
+        Reticle = R2
+    },
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_wilcox_boss_xe_hp_mark_000.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$additive", 1)
+ATT.HoloSightSize = 320
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = "None",
+    },
+    {
+        PrintName = "Laser",
+        Laser = true,
+        LaserStrength = 2,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(34, 238, 27),
+        LaserAttachment = 1,
+    },   
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_optic_boss")
