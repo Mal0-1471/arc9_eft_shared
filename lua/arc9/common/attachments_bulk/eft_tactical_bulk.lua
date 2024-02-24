@@ -1367,7 +1367,7 @@ ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
-ATT.Category = {"eft_tactical", "eft_tactical_pistol", "eft_tactical_top"}
+ATT.Category = {"eft_tactical", "eft_tactical_pistol", "eft_tactical_top", "eft_tactical_xc1"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_xc1.mdl"
 
