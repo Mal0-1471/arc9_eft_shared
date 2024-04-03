@@ -281,6 +281,7 @@ local conVars = {
     {name = "eft_mult_melee", default = "1", replicated = true },
     {name = "eft_enable_concussion", default = "1", replicated = true },
     {name = "eft_mult_flashbang", default = "1", replicated = true },
+    {name = "eft_taran_jam", default = "1", replicated = true },
     {name = "eft_flashbang_ahmad", default = "0" },
 }
 
@@ -332,6 +333,7 @@ if CLIENT then
             { sv = true, type = "bool", text = "Concussion", convar = "eft_enable_concussion", desc = "Concussion from explosions (distorted view and motion blur)" },
             { sv = true, type = "slider", text = "Flashbang duration", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "Multiplier for flashbang blindness.\n\nDefault - 1" },
             { type = "bool", text = "Ahmad flashbang", convar = "eft_flashbang_ahmad", desc = "Ahmad on your screen when flashbanged" },
+            { type = "bool", text = "Forced jam if someone hold PR-Taran", convar = "eft_taran_jam", desc = "For melee pack - if ANY player draws PR-Taran, this will make all guns forcefully jammed (Sets arc9 jam chance modifier to 9999, sets to prev value when no holding taran)" },
 
         }
         
@@ -341,6 +343,4 @@ if CLIENT then
 end
 
 
--- As of 2023-11-12, this feature is only available on dev branch.
--- Won't break anything on release branch though.
 list.Set("ContentCategoryIcons", "ARC9 - Escape From Tarkov", "eft_16.png")
