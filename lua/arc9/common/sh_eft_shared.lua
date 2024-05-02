@@ -37,6 +37,74 @@ ARC9EFT.ShellsHeavy = {
     "arc9_eft_shared/shells/heavy_shell_concrete1.ogg", "arc9_eft_shared/shells/heavy_shell_concrete2.ogg", "arc9_eft_shared/shells/heavy_shell_concrete3.ogg",
 }
 
+ARC9EFT.ADSMachineGun = {
+    "arc9_eft_shared/ads/aim_on_machinegun_01.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_02.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_03.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_04.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_05.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_06.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_07.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_08.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_09.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_10.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_11.ogg", 
+    "arc9_eft_shared/ads/aim_on_machinegun_12.ogg", 
+}
+
+ARC9EFT.ADSPistol = {
+    "arc9_eft_shared/ads/aim_on_pistol_01.ogg", 
+    "arc9_eft_shared/ads/aim_on_pistol_02.ogg", 
+    "arc9_eft_shared/ads/aim_on_pistol_03.ogg", 
+    "arc9_eft_shared/ads/aim_on_pistol_04.ogg", 
+    "arc9_eft_shared/ads/aim_on_pistol_05.ogg", 
+    "arc9_eft_shared/ads/aim_on_pistol_06.ogg", 
+    -- "arc9_eft_shared/ads/aim_on_pistol_07.ogg", 
+    "arc9_eft_shared/ads/aim_on_pistol_08.ogg", 
+}
+
+ARC9EFT.ADSRifle = {
+    "arc9_eft_shared/ads/aim_on_riffle_04.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_03.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_05.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_06.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_08.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_11.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_12.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_14.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_15.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_16.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_17.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_18.ogg",
+}
+
+ARC9EFT.ADSRifleOut = {
+    "arc9_eft_shared/ads/aim_on_riffle_02.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_03.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_07.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_09.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_12.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_16.ogg", 
+
+    "arc9_eft_shared/ads/aim_on_riffle_15.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_17.ogg", 
+    "arc9_eft_shared/ads/aim_on_riffle_18.ogg", 
+}
+
+ARC9EFT.ADSSMG = {
+    "arc9_eft_shared/ads/aim_on_smg_01.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_02.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_03.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_04.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_05.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_06.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_07.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_08.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_09.ogg", 
+    "arc9_eft_shared/ads/aim_on_smg_10.ogg",
+    "arc9_eft_shared/ads/aim_on_smg_11.ogg",
+}
+
 if SERVER then
     util.AddNetworkString("arc9eftjam")
     util.AddNetworkString("arc9eftmissingparts")
