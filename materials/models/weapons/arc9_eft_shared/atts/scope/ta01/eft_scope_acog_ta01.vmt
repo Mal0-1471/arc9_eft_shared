@@ -1,22 +1,32 @@
-"VertexlitGeneric"
-{
-	"$basetexture" "models/weapons/arc9_eft_shared/atts/scope/ta01/ta01_d"
-	"$bumpmap" "models/weapons/arc9_eft_shared/atts/scope/ta01/ta01_n"
-	"$phongexponenttexture" "models/weapons/arc9_eft_shared/atts/scope/ta01/ta01_e"
+// ESCAPE FROM TARKOV TACTICAL REALISM WITH HARDCORE MATERIALS
+// Auto converter by Darsu, material setup and vmt by horjenger
 
-	"$phong" "1"
-	"$phongboost" "10"
-	"$phongalbedotint" "1"
-	//"$phongexponent" "75"
-	"$phongfresnelranges" "[0.1 0.1 1]"
-	
-	"$rimlight"               "1"
-	"$rimlightexponent"       "4"
-	"$rimmask" 			      "1"
-	
-	"$envmap" "env_cubemap"
-	"$envmaptint" "[0.2 0.2 0.2]"
-	"$envmapfresnel" "0.1"
-	"$normalmapalphaenvmapmask" "0"
-	"$basemapalphaenvmapmask" "1"
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9_eft_shared/atts/scope/ta01/scope_base_trijicon_acog_ta01nsn_4x32_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9_eft_shared/atts/scope/ta01/scope_base_trijicon_acog_ta01nsn_4x32_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/arc9_eft_shared/atts/scope/ta01/scope_base_trijicon_acog_ta01nsn_4x32_LOD0_gloss"
+	"$phong"		"1"
+	"$phongboost"	"6"
+	"$blendtintbybasealpha"	"1"
+	"$phongalbedotint"		"1"
+	"$phongfresnelranges"	"[0.8 0.9 2]"
+	"$rimlight"	"1"
+	"$rimlightexponent"		"35"
+	"$rimmask"	"1"
+	"$rimlightboost"	"3"
+	"$envmap"	"env_cubemap"
+
+	"$envmaptint" "[0.05 0.05 0.05]"
+	"$color2" "[0.88 0.88 0.88]"
+
+	"Proxies"
+     {
+        "Arc9EnvMapTint"
+        {
+            "specularity" "0.5"
+            "min" "0"
+            "max" "0.05"
+        }
+     }
 }
