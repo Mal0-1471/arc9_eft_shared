@@ -44,8 +44,8 @@ ATT.CompactName = "CNC 4\""
 ATT.Icon = Material("entities/eft_attachments/mount/cnc4.png", "mips smooth")
 ATT.Description = [[CNC Guns 4 inch rail for KeyMod systems allows installation of additional equipment on the handguards equipped with a standard KeyMod interface.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymod.mdl"
-ATT.ModelBodygroups = "3"
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymodcnc.mdl"
+ATT.ModelBodygroups = "1"
 
 ATT.Category = {"eft_mount_keymod"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -208,8 +208,8 @@ ATT.CompactName = "6In CASV"
 ATT.Icon = Material("entities/eft_attachments/mount/casvkm6.png", "mips smooth")
 ATT.Description = [[Vltor CASV guide for KeyMod 6 inch system allows you to install additional equipment on the handguards with the standard KeyMod interface.]]
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymodcnc.mdl"
-ATT.ModelBodygroups = "1"
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymod.mdl"
+ATT.ModelBodygroups = "4"
 
 ATT.Category = {"eft_mount_keymod"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
