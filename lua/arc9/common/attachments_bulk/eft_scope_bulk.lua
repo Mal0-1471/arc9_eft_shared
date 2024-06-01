@@ -940,6 +940,15 @@ ATT.RTScopeBlackBoxShadow = true
 
 ATT.ScopeScreenRatio = 0.66
 
+ATT.Attachments = {
+    {
+        PrintName = "Backup optic",
+        Category = {"eft_backup_ta11d"},
+        Pos = Vector(3.76, 0, -1.6),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_scope_acog_ta11d")
 
