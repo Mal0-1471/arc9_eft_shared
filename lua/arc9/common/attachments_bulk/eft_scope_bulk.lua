@@ -1106,7 +1106,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_monstrum_compact_prism.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
+ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper", "eft_optic_prism"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -3

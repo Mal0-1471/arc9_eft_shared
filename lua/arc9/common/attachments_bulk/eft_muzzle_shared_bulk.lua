@@ -556,3 +556,54 @@ ATT.PhysBulletMuzzleVelocityMult = 1.01
 ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_silencer_ar10_srdti")
+
+
+///////////////////////////////////////      eft_muzzle_deltatek_dtk_ar15
+
+ATT = {}
+
+ATT.PrintName = "AR-15 Delta-Tek DTK-M16 5.56x45 muzzle brake"
+ATT.CompactName = "DTK-M16"
+ATT.Icon = Material("entities/eft_ar10_attachments/dtk.png", "mips smooth")
+ATT.Description = [[The DTK-M16 muzzle brake, designed for AR-15 and compatible systems. Greatly reduces recoil and muzzle rise due to the special compensation chamber. Manufactured by Delta-Tek.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_deltatech_dtk.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.RecoilMult = 0.92
+ATT.VisualRecoilMult = 0.92
+
+ATT.Category = {"eft_ar15_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_deltatek_dtk_ar15")
+
+///////////////////////////////////////      eft_muzzle_carlson_ar15
+
+ATT = {}
+
+ATT.PrintName = "AR-15 DoubleStar Carlson Tac Comp 5.56x45 compensator"
+ATT.CompactName = "Carlson Tac"
+ATT.Icon = Material("entities/eft_ar10_attachments/carlson.png", "mips smooth")
+ATT.Description = [[The Carlson Tac Comp compensator designed for AR-15 and compatible systems. Reduces recoil impulse and muzzle rise. Ideal for short barrel weapons. Manufactured by DoubleStar.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_double_star_carlson.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.935
+ATT.VisualRecoilMult = 0.935
+
+ATT.Category = {"eft_ar15_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_carlson_ar15")

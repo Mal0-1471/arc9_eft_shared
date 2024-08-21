@@ -125,3 +125,34 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_mount_mlokoffset")
+
+///////////////////////////////////////      eft_mount_mlok093
+
+
+ATT = {}
+
+ATT.PrintName = "Magpul M-LOK 0.93 inch rail"
+ATT.CompactName = "M-LOK 0.93\""
+ATT.Icon = Material("entities/eft_attachments/mount/mlok093.png", "mips smooth")
+ATT.Description = [[The Magpul M-LOK 0.93 inch rail allows installation of additional equipment on the handguards equipped with an M-LOK interface.]]
+
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mlok.mdl"
+ATT.ModelBodygroups = "4"
+
+ATT.Category = {"eft_mount_mlok"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Tactical",
+        Category = "eft_tactical_pistol",
+        RejectAttachments = { ["eft_tactical_raptar"] = true },
+        -- Pos = Vector(0, 0.2, -0.37),
+        Pos = Vector(-0.0, -0.37, 0),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_mlok093")

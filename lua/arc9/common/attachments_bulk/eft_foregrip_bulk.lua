@@ -1183,3 +1183,119 @@ ATT.ModelAngleOffset = Angle(0, 90, 90)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_mlok_dd_fde")
+
+
+
+
+-- 0.15
+
+
+///////////////////////////////////////      eft_foregrip_bgv_qdk
+
+
+ATT = {}
+
+ATT.PrintName = "TangoDown Stubby BGV-QDK foregrip (Black)"
+ATT.CompactName = "BGV-QDK"
+ATT.Description = [[The Stubby BGV-QDK is a short grip for use with weapons in close and extra close quarters combat. Сontains a compartment for batteries or small items. Manufactured by TangoDown. Black version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/qdk.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_bgv_qdk.mdl"
+-- ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 4.5
+ATT.CustomPros = { Ergonomics = "+4.5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.Folder = "TangoDown"
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_bgv_qdk")
+
+///////////////////////////////////////      eft_foregrip_bgv_qdk_fde
+
+
+ATT = {}
+
+ATT.PrintName = "TangoDown Stubby BGV-QDK foregrip (FDE)"
+ATT.CompactName = "BGV-QDK (FDE)"
+ATT.Description = [[The Stubby BGV-QDK is a short grip for use with weapons in close and extra close quarters combat. Сontains a compartment for batteries or small items. Manufactured by TangoDown. Flat Dark Earth version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/qdkf.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_bgv_qdk.mdl"
+ATT.ModelSkin = 1
+-- ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 4.5
+ATT.CustomPros = { Ergonomics = "+4.5" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.Folder = "TangoDown"
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_bgv_qdk_fde")
+
+///////////////////////////////////////      eft_foregrip_bgv_qditi
+
+
+ATT = {}
+
+ATT.PrintName = "TangoDown Stubby BGV-QDITI foregrip"
+ATT.CompactName = "BGV-QDITI"
+ATT.Description = [[The BGV-QDITI vertical grip with a compartment for batteries or small items. Manufactured by TangoDown. Black version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/qditi.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_bgv_qditi.mdl"
+-- ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 3.5
+ATT.CustomPros = { Ergonomics = "+3.5" }
+ATT.RecoilMult = 0.985
+ATT.VisualRecoilMult = 0.985
+
+ATT.Folder = "TangoDown"
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_bgv_qditi")
+
+///////////////////////////////////////      eft_foregrip_bgv_qditi_fde
+
+
+ATT = {}
+
+ATT.PrintName = "TangoDown Stubby BGV-QDITI foregrip (FDE)"
+ATT.CompactName = "BGV-QDITI (FDE)"
+ATT.Description = [[The BGV-QDITI vertical grip with a compartment for batteries or small items. Manufactured by TangoDown. Flat Dark Earth version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/qditif.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_bgv_qditi.mdl"
+ATT.ModelSkin = 1
+-- ATT.ModelAngleOffset = Angle(0, 90, 0)
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 3.5
+ATT.CustomPros = { Ergonomics = "+3.5" }
+ATT.RecoilMult = 0.985
+ATT.VisualRecoilMult = 0.985
+
+ATT.Folder = "TangoDown"
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_small"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_bgv_qditi_fde")

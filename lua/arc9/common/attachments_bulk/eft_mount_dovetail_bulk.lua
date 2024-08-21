@@ -306,3 +306,43 @@ ATT.Attachments = {
 ATT.ModelAngleOffset = Angle(0, 90, 0)
 
 ARC9.LoadAttachment(ATT, "eft_mount_dovetail_sag")
+
+
+
+///////////////////////////////////////      eft_mount_dovetail_rsr
+
+
+ATT = {}
+
+ATT.PrintName = "RS Regulate AK-303M Full Length Lower dovetail mount"
+ATT.CompactName = "AK-303M"
+ATT.Icon = Material("entities/eft_attachments/mount/dt_rsr.png", "mips smooth")
+ATT.Description = [[The AK-303M side platform is designed as a base for mounting RS Regulate top mounts on AK assault rifles and their variants: Saiga, SVD, and others. Manufactured by RS Regulate.
++
+The AKR 1913 Railed 0 MOA Mount, installed on the AK-303M Lower Mount. Manufactured by RS Regulate.]]
+
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_rsr.mdl"
+
+ATT.Category = {"eft_mount_dovetail"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+ATT.ActivateElements = {"nolongrear"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
+        Pos = Vector(0, 1, -2.11),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 1, 0),
+        -- ExtraSightDistance = 8
+    },
+}
+
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+
+ARC9.LoadAttachment(ATT, "eft_mount_dovetail_rsr")

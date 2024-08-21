@@ -625,3 +625,30 @@ ATT.VisualRecoilMult = 0.92
 ATT.Category = {"eft_bmd762_muzzle"}
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_bmd_bmd762")
+
+
+///////////////////////////////////////      eft_muzzle_deltatek_dtk_ar10
+
+ATT = {}
+
+ATT.PrintName = "AR-10 Delta-Tek DTK-AR10 7.62x51 muzzle brake"
+ATT.CompactName = "DTK-AR10"
+ATT.Icon = Material("entities/eft_ar10_attachments/dtk.png", "mips smooth")
+ATT.Description = [[The DTK-AR10 muzzle brake, designed for AR-10 and compatible systems. Greatly reduces recoil and muzzle rise due to the special compensation chamber. Manufactured by Delta-Tek.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_deltatech_dtk.mdl"
+ATT.Scale = 1.15
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.RecoilMult = 0.9
+ATT.VisualRecoilMult = 0.9
+
+ATT.Category = {"eft_ar10_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_deltatek_dtk_ar10")
