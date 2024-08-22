@@ -1634,3 +1634,51 @@ ATT.ToggleStats = {
 
 
 ARC9.LoadAttachment(ATT, "eft_tactical_2d")
+
+
+-- 0.15
+///////////////////////////////////////      eft_bipod_atlas_v8
+
+
+ATT = {}
+
+ATT.PrintName = "BT10 V8 Atlas Bipod"
+ATT.CompactName = "BT10"
+ATT.Description = [[The Atlas V8 series BT10 bipod. Lightweight, foldable, adjustable. Manufactured by B&T Industries L.L.C.
+
+A bit improvised version of EFT bipods, does not need manual unfolding.]]
+ATT.Icon = Material("entities/eft_attachments/tactical/bipod.png", "mips smooth")
+ATT.SortOrder = -2
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
+ATT.Bipod = true 
+ATT.RecoilMultBipod = 0.33
+ATT.VisualRecoilMultBipod = 0.33
+ATT.HoldBreathTimeMultBipod = 30
+ATT.SwayMultBipod = 0.1
+
+ATT.EnterBipodSound = false 
+ATT.ExitBipodSound = false
+
+ATT.BipodPos = Vector(-2, 0, 0)
+ATT.BipodAng = Angle(0, 0, 0)
+
+ATT.Category = {"eft_bipod"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/bipod_atlas_v8.mdl"
+ATT.ModelAngleOffset = Angle(180, 180, 0)
+
+ATT.DrawFunc = function(self, model, wm)
+	if self:GetBipod() then
+		if self:GetEnterBipodTime() + 0.1 < CurTime() then
+			model:SetBodygroup(0, 1)
+		end
+	else
+		model:SetBodygroup(0, 0)
+	end
+end
+
+
+ARC9.LoadAttachment(ATT, "eft_tactical_2d")
