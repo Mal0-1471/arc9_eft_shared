@@ -319,6 +319,7 @@ ARC9EFT.ErgoHook = function(self, orig)
 end
 
 ARC9EFT.ErgoBreathHook = function(self, orig)
+    if self:GetBipod() then return orig * 10 end
     return orig - (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) / 3
 end
 

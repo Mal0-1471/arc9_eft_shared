@@ -1662,7 +1662,7 @@ ATT.SwayMultBipod = 0.1
 ATT.EnterBipodSound = false 
 ATT.ExitBipodSound = false
 
-ATT.BipodPos = Vector(-2, 0, 0)
+ATT.BipodPos = Vector(-1.7, -3.5, 1)
 ATT.BipodAng = Angle(0, 0, 0)
 
 ATT.Category = {"eft_bipod"}
