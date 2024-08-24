@@ -1681,4 +1681,4 @@ ATT.DrawFunc = function(self, model, wm)
 end
 
 
-ARC9.LoadAttachment(ATT, "eft_tactical_2d")
+ARC9.LoadAttachment(ATT, "eft_bipod_atlas_v8")
