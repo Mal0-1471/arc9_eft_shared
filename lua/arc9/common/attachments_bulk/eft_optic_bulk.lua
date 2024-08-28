@@ -422,6 +422,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
 }
 
@@ -429,13 +430,14 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 38/4
+ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks_rt.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 767/1080
 
 ATT.DrawFunc = function(swep, model, wm) 
     if !wm then
@@ -506,6 +508,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
 }
 
@@ -513,13 +516,14 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 38/4
+ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_xps3-4_marks_rt.png", "mips smooth")
 ATT.RTScopeReticleScale = 1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 767/1080
 
 ATT.DrawFunc = function(swep, model, wm) 
     if !wm then

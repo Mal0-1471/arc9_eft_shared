@@ -33,6 +33,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
 }
 
@@ -52,7 +53,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 0.4065
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_25mm_pilad")
@@ -92,6 +93,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("24x") end
         end,
+        RTScopeMagnification = 24,
     },
     {
         Pos = Vector(0, 14.2, 0),
@@ -102,6 +104,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("14x") end
         end,
+        RTScopeMagnification = 14,
     },
     {
         Pos = Vector(0, 14.2, 0),
@@ -112,6 +115,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
 }
 
@@ -131,7 +135,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 0.4657
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_march")
@@ -170,6 +174,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("20x") end
         end,
+        RTScopeMagnification = 20,
     },
     {
         Pos = Vector(0, 12.6, 0),
@@ -180,6 +185,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("6.5x") end
         end,
+        RTScopeMagnification = 6.5,
     },
 }
 
@@ -199,7 +205,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 0.5833
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_mark4")
@@ -236,6 +242,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("6x") end
         end,
+        RTScopeMagnification = 6,
     },
     {
         Pos = Vector(0, 12.9, 0),
@@ -246,6 +253,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
 }
 
@@ -265,7 +273,9 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 0.5824
+
+ATT.RTScopeMagnification = 6
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_razor")
@@ -306,6 +316,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("8x") end
         end,
+        RTScopeMagnification = 8,
     },
     {
         Pos = Vector(0, 16.15, 0),
@@ -317,6 +328,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
 }
 
@@ -336,7 +348,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 627/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_sb_pmii1")
@@ -373,6 +385,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
     {
         Pos = Vector(0, 12.8, 0),
@@ -383,6 +396,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
 }
 
@@ -402,7 +416,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 802/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_tac30")
@@ -443,6 +457,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("8x") end
         end,
+        RTScopeMagnification = 8,
     },
     {
         Pos = Vector(0, 13.9, 0),
@@ -454,6 +469,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
 }
 
@@ -473,7 +489,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 648/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_vudu")
@@ -512,6 +528,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("16x") end
         end,
+        RTScopeMagnification = 16,
     },
     {
         Pos = Vector(0, 13.3, 0),
@@ -522,6 +539,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("7x") end
         end,
+        RTScopeMagnification = 7,
     },
 }
 
@@ -541,7 +559,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 619/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_34mm_atacr")
@@ -578,6 +596,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("16x") end
         end,
+        RTScopeMagnification = 16,
     },
     {
         Pos = Vector(0, 11.6, 0),
@@ -588,6 +607,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
 }
 
@@ -607,7 +627,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 531/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_34mm_hsff")
@@ -648,6 +668,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("12x") end
         end,
+        RTScopeMagnification = 12,
     },
     {
         Pos = Vector(0, 13.2, 0),
@@ -659,6 +680,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
 }
 
@@ -678,7 +700,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 725/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_34mm_sb_pmii3")
@@ -719,6 +741,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("25x") end
         end,
+        RTScopeMagnification = 25,
     },
     {
         Pos = Vector(0, 11.9, 0),
@@ -730,6 +753,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("5x") end
         end,
+        RTScopeMagnification = 5,
     },
 }
 
@@ -749,7 +773,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 693/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_34mm_sb_pmii5")
@@ -788,6 +812,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
 }
 
@@ -801,7 +826,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 580/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -858,6 +883,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
 }
 
@@ -871,7 +897,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 580/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -925,6 +951,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3.5x") end
         end,
+        RTScopeMagnification = 3.5,
     },
 }
 
@@ -938,7 +965,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 537/1080
 
 ATT.Attachments = {
     {
@@ -986,6 +1013,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
     {
         Pos = Vector(0, 9.0, -1.577),
@@ -996,6 +1024,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("9x") end
         end,
+        RTScopeMagnification = 9,
     },
     {
         Pos = Vector(0, 9.2, -3.23),
@@ -1006,6 +1035,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
 }
 
@@ -1019,7 +1049,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 440/1080
 
 ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_walther_mrs_mark_000.png", "mips smooth")
@@ -1063,6 +1093,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
 }
 
@@ -1076,7 +1107,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 695/1080
 
 ATT.Attachments = {
     {
@@ -1124,6 +1155,7 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/2,
         Reticle = R0,
+        RTScopeMagnification = 2,
     },
     {
         Pos = Vector(0, 9.0, -1.152),
@@ -1132,6 +1164,7 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/2,
         Reticle = R1,
+        RTScopeMagnification = 2,
     },
 }
 
@@ -1145,8 +1178,9 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 382/1080
 
+ATT.RTScopeMagnification = 2
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_compactprism")
@@ -1185,6 +1219,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("2.8x") end
         end,
+        RTScopeMagnification = 2.8,
     },
 }
 
@@ -1197,7 +1232,7 @@ ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 645/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -1352,13 +1387,14 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 38/3.5
+ATT.RTScopeMagnification = 3.5
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_npz_nspum_3,5x_marks.png", "mips smooth")
 ATT.RTScopeReticleScale = 0.975
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 510/1080
 
 ATT.RTScopeNightVision = true
 ATT.RTScopeNightVisionMonochrome = true
@@ -1595,13 +1631,14 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 38/4
+ATT.RTScopeMagnification = 4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1_4x24_marks_1.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 668/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -1676,13 +1713,14 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 38/4
+ATT.RTScopeMagnification = 4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1m2_1_4x24_marks_1.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 668/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -1743,13 +1781,14 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 38/4
+ATT.RTScopeMagnification = 4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_npz_1p29_4x_marks.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.2
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 515/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -1806,6 +1845,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
     {
         Pos = Vector(0, 8.0, -1.567),
@@ -1816,6 +1856,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
     {
         Pos = Vector(0, 8, -2.71),
@@ -1841,7 +1882,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 623/1080
 
 
 
@@ -1882,6 +1923,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("4x") end
         end,
+        RTScopeMagnification = 4,
     },
     {
         Pos = Vector(0, 8.0, -1.567),
@@ -1892,6 +1934,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
     {
         Pos = Vector(0, 8, -2.71),
@@ -1917,7 +1960,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 623/1080
 
 
 
@@ -1958,6 +2001,7 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/2.25,
+        RTScopeMagnification = 2.25,
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("2.25x") end
         end,
@@ -1973,6 +2017,7 @@ ATT.Sights = {
             if CLIENT then ARC9EFTdrawnumber("9x") end
         end,
         Reticle = Reticle1,
+        RTScopeMagnification = 9,
     },
 }
 
@@ -2055,7 +2100,7 @@ ATT.RTScopeCustomPPFunc = function(swep)
     -- DrawSharpen(4, 0.6)
 end
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 635/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -2099,6 +2144,7 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/4,
+        RTScopeMagnification = 4,
     },
 }
 
@@ -2112,7 +2158,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 540/1080
 
 ATT.Attachments = {
     {
@@ -2169,6 +2215,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2180,6 +2227,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2191,6 +2239,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("10x") end
         end,
+        RTScopeMagnification = 10,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2202,6 +2251,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("10x") end
         end,
+        RTScopeMagnification = 10,
     },
 }
 
@@ -2215,7 +2265,7 @@ ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 0.615
 
 ATT.DrawFunc = function(swep, model, wm) 
     if !wm then
@@ -2285,6 +2335,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2296,6 +2347,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
+        RTScopeMagnification = 3,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2307,6 +2359,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("10x") end
         end,
+        RTScopeMagnification = 10,
     },
     {
         Pos = Vector(0, 11.9, 0.03),
@@ -2318,6 +2371,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("10x") end
         end,
+        RTScopeMagnification = 10,
     },
 }
 
@@ -2330,7 +2384,7 @@ ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 0.615
 
 ATT.DrawFunc = function(swep, model, wm) 
     if !wm then
@@ -2389,6 +2443,7 @@ ATT.Sights = {
         ViewModelFOV = 36,
         RTScopeFOV = 36/2.5,
     },
+    RTScopeMagnification = 2.5,
 }
 
 ATT.RTScope = true
@@ -2401,7 +2456,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 530/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_pa_prism")
@@ -2508,6 +2563,7 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
+ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/reap_ir_reticle.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = false
@@ -2547,7 +2603,7 @@ ATT.RTScopeCustomPPFunc = function(swep)
     -- DrawSharpen(4, 0.6)
 end
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 538/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -2598,6 +2654,7 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/3,
+        RTScopeMagnification = 3,
     },
 }
 
@@ -2611,7 +2668,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 478/1080
 
 
 
@@ -2650,6 +2707,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
     {
         Pos = Vector(0, 8.0, -1.496),
@@ -2660,6 +2718,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("6x") end
         end,
+        RTScopeMagnification = 6,
     },
 }
 
@@ -2679,7 +2738,7 @@ ATT.RTScopeShadowIntensity = 20
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 713/1080
 
 
 
@@ -2721,6 +2780,7 @@ ATT.Sights = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
+ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_vulcan_gen3_bravo_mg_35x_marks.png", "mips smooth")
 ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = false
@@ -2746,7 +2806,7 @@ ATT.RTScopeNightVisionCC = {
     ["$pp_colour_mulb"] = 0
 }
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 700/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -2819,6 +2879,7 @@ ATT.Sights = {
             if CLIENT then ARC9EFTdrawnumber("2.25x") end
         end,
         Reticle = Reticle0,
+        RTScopeMagnification = 2.25,
     },
     {
         Pos = Vector(0, 10.7, -2.005),
@@ -2830,6 +2891,7 @@ ATT.Sights = {
             if CLIENT then ARC9EFTdrawnumber("9x") end
         end,
         Reticle = Reticle1,
+        RTScopeMagnification = 9,
     },
 }
 
@@ -2912,7 +2974,7 @@ ATT.RTScopeCustomPPFunc = function(swep)
     -- DrawSharpen(4, 0.6)
 end
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 535/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -2960,6 +3022,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("2x") end
         end,
+        RTScopeMagnification = 2,
         -- Reticle = Reticle0,
     },
     {
@@ -2971,6 +3034,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("8x") end
         end,
+        RTScopeMagnification = 8,
         -- Reticle = Reticle1,
     },
 }
@@ -3059,7 +3123,7 @@ ATT.RTScopeCustomPPFunc = function(swep)
     -- DrawSharpen(4, 0.6)
 end
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 730/1080
 
 ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
@@ -3124,6 +3188,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("6x") end
         end,
+        RTScopeMagnification = 6,
     },
     {
         Pos = Vector(0, 15, 0),
@@ -3135,6 +3200,7 @@ ATT.Sights = {
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
+        RTScopeMagnification = 1,
     },
 }
 
@@ -3154,7 +3220,7 @@ ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
-ATT.ScopeScreenRatio = 0.66
+ATT.ScopeScreenRatio = 573/1080
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_tango6t")
