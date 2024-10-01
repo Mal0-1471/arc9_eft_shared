@@ -204,6 +204,8 @@ function ENT:Detonate()
                         if not traceres.Hit or traceres.Fraction >= 1 or traceres.Fraction <= 0 then
                             ihatewalls = true
                         end
+
+                        if EFTMED then EFTMED.EffectGive(ply, "EFTMEDStun", "EFTMEDHPhead", self.contusionLength * contmult) end -- :3 ignore this
                     end
 
                     net.Start("arc9eftexplosion")
@@ -213,6 +215,8 @@ function ENT:Detonate()
                     net.WriteEntity(self)
                     net.WriteBool(ihatewalls)
                     net.Send(ply)
+
+                    if EFTMED then EFTMED.EffectGive(ply, "EFTMEDConcussion", "EFTMEDHPhead", self.contusionLength * contmult) end -- :3 ignore this
 
                     ply:ViewPunch(Angle(1.5, 0, -7.5) * contmult)
                 elseif ply:IsNPC() and self.isflashbang then

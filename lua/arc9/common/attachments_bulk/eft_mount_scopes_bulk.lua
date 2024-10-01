@@ -771,7 +771,7 @@ ATT.Description = [[The Recknagel Era-Tac Sunshade mount for the Aimpoint Micro 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_recknagel_era_tac_aimpoint_t1_sunshade_mount.mdl"
 ATT.Folder = "Reflex/Mounts"
 
-ATT.Category = {"eft_optic_medium"}
+ATT.Category = {"eft_optic_medium", "eft_optic_t1sun"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
