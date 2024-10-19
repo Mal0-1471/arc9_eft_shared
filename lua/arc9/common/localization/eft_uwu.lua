@@ -43,7 +43,7 @@ L["eft_subcat_smg"] = "Suwubmawwine Guwns"
 L["eft_subcat_lmg"] = "Lighht mawwine Guwns"
 L["eft_subcat_pist"] = "Pistows"
 L["eft_subcat_melee"] = "⠀Mewwee"
-L["eft_subcat_grenades"] = "⠀Gwenads  aawnd gwenade waunchew uwu"
+L["eft_subcat_grenades"] = "⠀Gwenads  aawnd gwenade waunchews uwu"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Single-shot Wifle"

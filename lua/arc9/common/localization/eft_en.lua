@@ -43,7 +43,7 @@ L["eft_subcat_smg"] = "Submachine Guns"
 L["eft_subcat_lmg"] = "Light Machine Guns"
 L["eft_subcat_pist"] = "Pistols"
 L["eft_subcat_melee"] = "⠀Melee"
-L["eft_subcat_grenades"] = "⠀Grenades and Grenade Launcher"
+L["eft_subcat_grenades"] = "⠀Grenades and grenade launchers"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Single-shot Rifle"

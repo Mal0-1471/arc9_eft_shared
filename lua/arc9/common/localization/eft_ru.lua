@@ -43,7 +43,7 @@ L["eft_subcat_smg"] = " Пистолеты-пулеметы"
 L["eft_subcat_lmg"] = " Пулеметы"
 L["eft_subcat_pist"] = " Пистолеты"
 L["eft_subcat_melee"] = "Ближний бой"
-L["eft_subcat_grenades"] = "Гранаты и гранатомёт"
+L["eft_subcat_grenades"] = "Гранаты и гранатомёты"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Однозарядное ружье"
