@@ -13,6 +13,7 @@ ATT.Description = [[A 40-mm M381 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTRoundName2 = "40x46mm M381 (HE)"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
@@ -37,6 +38,7 @@ ATT.Description = [[A 40-mm M386 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTRoundName2 = "40x46mm M386 (HE)"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
@@ -61,6 +63,7 @@ ATT.Description = [[A 40-mm M406 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTRoundName2 = "40x46mm M406 (HE)"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
@@ -85,6 +88,7 @@ ATT.Description = [[A 40-mm M433 (High Explosive Dual Purpose) shot with a fragm
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTRoundName2 = "40x46mm M433 (HEDP)"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
@@ -109,6 +113,7 @@ ATT.Description = [[A 40-mm M441 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTRoundName2 = "40x46mm M441 (HE)"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
@@ -133,6 +138,7 @@ ATT.Description = [[M576 is a 40mm buckshot shot shell. MP-APERS stands for Mult
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTRoundName2 = "40x46mm M576 (MP-APERS)"
 ATT.HasGranataAmmo = true 
 
 ATT.DamageMaxUBGL = 106 * mult1270
@@ -167,6 +173,7 @@ ATT.Description = [[M576 is a 40mm buckshot shot shell. MP-APERS stands for Mult
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.EFTRoundName2 = "40x46mm M576 (MP-APERS)"
 ATT.HasGranataAmmo = true 
 
 ATT.DamageMax = 106 * mult1270

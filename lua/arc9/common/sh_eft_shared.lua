@@ -304,7 +304,7 @@ else
         local wep = ply:GetActiveWeapon()
         if !IsValid(ply:GetActiveWeapon()) and wep.Trivia then return end
 
-        local rndtype = wep:GetValue("EFTRoundName") or "????"
+        local rndtype = wep:GetValue("EFTRoundName") or wep:GetValue("EFTRoundName2") or "????"
         
         if rnds == ARC9:GetPhrase("eft_hud_empty") then rndtype = ARC9:GetPhrase("eft_hud_none") end
 
