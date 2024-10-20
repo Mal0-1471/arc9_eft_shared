@@ -2442,8 +2442,8 @@ ATT.Sights = {
         Magnification = 1.15,
         ViewModelFOV = 36,
         RTScopeFOV = 36/2.5,
+        RTScopeMagnification = 2.5,
     },
-    RTScopeMagnification = 2.5,
 }
 
 ATT.RTScope = true
