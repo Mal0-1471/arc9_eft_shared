@@ -1777,7 +1777,7 @@ ATT = {}
 
 ATT.PrintName = "VOMZ Pilad TargetRing reflex sight"
 ATT.CompactName = "TargetRing"
-ATT.Icon = Material("entities/eft_attachments/scopes/targetring.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/scopes/ff3.png", "mips smooth")
 ATT.Description = [[Designed for hunting birds or small game, for sport shooting at stationary or fast-moving targets. Ideal for this purpose, it creates a contrasting circle on the target, giving the shooter an opportunity to make the pre-direction and not to lose speed. It is mounted only on smoothbore (shotgun) weapons.]]
 ATT.SortOrder = 1
 
