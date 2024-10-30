@@ -208,6 +208,8 @@ function ENT:Detonate()
                         if EFTMED then EFTMED.EffectGive(ply, "EFTMEDStun", "EFTMEDHPhead", self.contusionLength * contmult) end -- :3 ignore this
                     end
 
+                    if EFTMED then EFTMED.EffectGive(ply, "EFTMEDConcussion", "EFTMEDHPhead", 11) end -- :3 ignore this
+
                     net.Start("arc9eftexplosion")
                     net.WriteFloat(contmult)
                     net.WriteUInt(self.contusionLength, 9)
@@ -215,8 +217,6 @@ function ENT:Detonate()
                     net.WriteEntity(self)
                     net.WriteBool(ihatewalls)
                     net.Send(ply)
-
-                    if EFTMED then EFTMED.EffectGive(ply, "EFTMEDConcussion", "EFTMEDHPhead", self.contusionLength * contmult) end -- :3 ignore this
 
                     ply:ViewPunch(Angle(1.5, 0, -7.5) * contmult)
                 elseif ply:IsNPC() and self.isflashbang then
