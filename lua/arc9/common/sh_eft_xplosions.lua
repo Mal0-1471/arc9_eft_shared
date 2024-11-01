@@ -209,7 +209,7 @@ else
                     contusionLength = 0
                     contusionEffectMult = 0
                     flashbangSpots = {}
-                    RunConsoleCommand("soundfade", "100", "1") -- UNmuting your fucking game loL!
+                    RunConsoleCommand("soundfade", "100", "1", "1") -- UNmuting your fucking game loL!
                 end
             end
 
