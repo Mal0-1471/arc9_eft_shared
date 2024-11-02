@@ -75,8 +75,8 @@ else
 
     if !EFTMED then -- shh
         
-        local matScreen = Material("effects/arc9_eft/ppscreen")
-        matScreen:SetTexture( "$fbtexture", render.GetScreenEffectTexture() )
+        local matScreen = Material( "pp/fb" )
+        -- matScreen:SetTexture( "$fbtexture", render.GetScreenEffectTexture() )
 
         local matFlashBurn = Material("effects/arc9_eft/burn_6_8_2.png", "noclamp smooth")
         matFlashBurn:SetInt("$flags", 128 + 32 + 32768) -- additive + vertexalpha + ignorez
