@@ -1421,6 +1421,31 @@ if CLIENT then
     rtnextdraw = 0
 end
 
+local flirtable = {
+    RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+        ["$pp_colour_addr"] = 1.5,
+        ["$pp_colour_addg"] = 1,
+        ["$pp_colour_addb"] = 7.1,
+        ["$pp_colour_brightness"] = -2.5,
+        ["$pp_colour_contrast"] = 0.2,
+        ["$pp_colour_colour"] = 0.2,
+        ["$pp_colour_mulr"] = 0,
+        ["$pp_colour_mulg"] = 0,
+        ["$pp_colour_mulb"] = 0
+    }, 
+    RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+        ["$pp_colour_addr"] = 3.25,
+        ["$pp_colour_addg"] = -0.5,
+        ["$pp_colour_addb"] = 1.5,
+        ["$pp_colour_brightness"] = -1.32,
+        ["$pp_colour_contrast"] = 0.2,
+        ["$pp_colour_colour"] = 1,
+        ["$pp_colour_mulr"] = 0,
+        ["$pp_colour_mulg"] = 0,
+        ["$pp_colour_mulb"] = 0
+    }
+}
+
 ATT.Hook_DoRT = function(swep)
     if !swep:GetOwner() then return end
 
@@ -1457,30 +1482,7 @@ ATT.Hook_DoRT = function(swep)
     ARC9.OverDraw = false
 
     cam.Start3D(rtpos, rtang, fovv, 0, 0, rtsize, rtsize, 16, 16000)
-        swep:DoFLIR({
-            RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
-                ["$pp_colour_addr"] = 1.5,
-                ["$pp_colour_addg"] = 1,
-                ["$pp_colour_addb"] = 7.1,
-                ["$pp_colour_brightness"] = -2.5,
-                ["$pp_colour_contrast"] = 0.2,
-                ["$pp_colour_colour"] = 0.2,
-                ["$pp_colour_mulr"] = 0,
-                ["$pp_colour_mulg"] = 0,
-                ["$pp_colour_mulb"] = 0
-            }, 
-            RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-                ["$pp_colour_addr"] = 3.25,
-                ["$pp_colour_addg"] = -0.5,
-                ["$pp_colour_addb"] = 1.5,
-                ["$pp_colour_brightness"] = -1.32,
-                ["$pp_colour_contrast"] = 0.2,
-                ["$pp_colour_colour"] = 1,
-                ["$pp_colour_mulr"] = 0,
-                ["$pp_colour_mulg"] = 0,
-                ["$pp_colour_mulb"] = 0
-            }
-        })
+        swep:DoFLIR(flirtable)
     cam.End3D()
     render.UpdateScreenEffectTexture()
 
