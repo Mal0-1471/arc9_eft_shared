@@ -276,7 +276,7 @@ else
         local jid = net.ReadUInt(3)
         jammed = true 
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
-        makeeftnotif(ARC9:GetPhrase("eft_hud_malf") .. ARC9:GetPhrase(malftable[jid]) .. "\"", jammat)
+        makeeftnotif(ARC9:GetPhrase("eft_hud_malf") .. (ARC9:GetPhrase(malftable[jid]) or "???") .. "\"", jammat)
         timer.Simple(1.2, function() jammed = false end)
     end)    
     
