@@ -12,6 +12,7 @@ $bodygroup "body"
 	studio "mount_m_lok_magpul_cantilever_rail_light_mount_LOD0_0.smd" // 1
 	studio "mount_m_lok_magpul_offset_light_optic_mount_LOD0_0.smd" // 1
 	studio "mount_m_lok_magpul_0,93_inch_picatinny_rail_section_LOD0.smd" // 1
+	studio "mount_m_lok_magpul_bipod_mount_LOD0.smd" // 1
 }
 
 $sequence "idle" {

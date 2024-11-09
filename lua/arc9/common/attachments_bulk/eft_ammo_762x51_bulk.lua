@@ -195,6 +195,8 @@ ATT.RecoilMult = 0.95
 ATT.VisualRecoilMult = 0.95
 ATT.MalfunctionMeanShotsToFailMult = 0.95
 
+ATT.TracerNum = 1
+ATT.TracerColor = Color(16, 255, 36)
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 

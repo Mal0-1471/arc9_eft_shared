@@ -1657,7 +1657,8 @@ ATT.Bipod = true
 ATT.RecoilMultBipod = 0.33
 ATT.VisualRecoilMultBipod = 0.33
 ATT.HoldBreathTimeMultBipod = 30
-ATT.SwayMultBipod = 0.1
+-- ATT.SwayMultBipod = 0.1
+ATT.SwayAddBipod = -10
 
 ATT.EnterBipodSound = false 
 ATT.ExitBipodSound = false
@@ -1668,7 +1669,7 @@ ATT.BipodAng = Angle(0, 0, 0)
 ATT.Category = {"eft_bipod"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/bipod_atlas_v8.mdl"
-ATT.ModelAngleOffset = Angle(180, 180, 0)
+-- ATT.ModelAngleOffset = Angle(180, 180, 0)
 
 ATT.DrawFunc = function(self, model, wm)
 	if self:GetBipod() then
@@ -1682,3 +1683,51 @@ end
 
 
 ARC9.LoadAttachment(ATT, "eft_bipod_atlas_v8")
+
+-- 0.15.5 but actually way older (mounts for it were just added)
+///////////////////////////////////////      eft_bipod_harris
+
+
+ATT = {}
+
+ATT.PrintName = "Harris HBR bipod"
+ATT.CompactName = "Harris HBR"
+ATT.Description = [[The Harris HBR ultralight foldable bipod with a spring retraction mechanism. Used by service operators and civilian shooters worldwide.
+
+A bit improvised version of EFT bipods, does not need manual unfolding.]]
+ATT.Icon = Material("entities/eft_attachments/tactical/harris.png", "mips smooth")
+ATT.SortOrder = -2
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
+ATT.Bipod = true 
+ATT.RecoilMultBipod = 0.33
+ATT.VisualRecoilMultBipod = 0.33
+ATT.HoldBreathTimeMultBipod = 30
+-- ATT.SwayMultBipod = 0.1
+ATT.SwayAddBipod = -10
+
+ATT.EnterBipodSound = false 
+ATT.ExitBipodSound = false
+
+ATT.BipodPos = Vector(-1.7, -3.5, 1)
+ATT.BipodAng = Angle(0, 0, 0)
+
+ATT.Category = {"eft_harris_bipod"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/bipod_harris.mdl"
+-- ATT.ModelAngleOffset = Angle(180, 180, 0)
+
+ATT.DrawFunc = function(self, model, wm)
+	if self:GetBipod() then
+		if self:GetEnterBipodTime() + 0.1 < CurTime() then
+			model:SetBodygroup(0, 1)
+		end
+	else
+		model:SetBodygroup(0, 0)
+	end
+end
+
+
+ARC9.LoadAttachment(ATT, "eft_bipod_harris")

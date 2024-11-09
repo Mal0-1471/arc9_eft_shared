@@ -342,7 +342,7 @@ ATT.CustomPros = { Ergonomics = "+4" }
 ATT.RecoilMult = 0.97
 ATT.VisualRecoilMult = 0.97
 
-ATT.ExcludeElements = {"eft_hg_ak_cmrd", "eft_hg_ak_trax1", "eft_hg_ak_ufm", "eft_gas_ak_vs24vs33", "eft_gas_ak_vs24vs33_w", "eft_g36_hg_2"} -- no ak for you silly
+ATT.ExcludeElements = {"eft_hg_ak_cmrd", "eft_hg_ak_trax1", "eft_hg_ak_ufm", "eft_gas_ak_vs24vs33", "eft_gas_ak_vs24vs33_w", "eft_g36_hg_2", "eft_m700_hg_gen3"} -- no ak for you silly
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_large"

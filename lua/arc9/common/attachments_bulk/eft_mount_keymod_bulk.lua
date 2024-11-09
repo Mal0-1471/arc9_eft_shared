@@ -230,3 +230,30 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_vltor6")
 
+///////////////////////////////////////      eft_mount_keymod_bipodd
+
+ATT = {}
+
+ATT.PrintName = "Odin Works K-Pod KeyMod bipod adapter"
+ATT.CompactName = "K-Pod"
+ATT.Icon = Material("entities/eft_attachments/mount/keymodbipod.png", "mips smooth")
+ATT.Description = [[A KeyMod interface mount that allows installation of bipods. Manufactured by Odin Works.]]
+
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymod_bipod.mdl"
+
+ATT.Category = {"eft_mount_keymod_bipod"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Bipod",
+        Category = "eft_harris_bipod",
+        Pos = Vector(0, -0.25, 0),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_keymod_bipodd")

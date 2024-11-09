@@ -156,3 +156,32 @@ ATT.Attachments = {
 
 
 ARC9.LoadAttachment(ATT, "eft_mount_mlok093")
+
+///////////////////////////////////////      eft_mount_mlok_bipodd
+
+
+ATT = {}
+
+ATT.PrintName = "Magpul M-LOK Bipod Mount"
+ATT.CompactName = "M-LOK BP"
+ATT.Icon = Material("entities/eft_attachments/mount/mlokbipod.png", "mips smooth")
+ATT.Description = [[A mount allows installation of bipods on handguards equipped with a standard M-LOK interface. Manufactured by Magpul.]]
+
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mlok.mdl"
+ATT.ModelBodygroups = "5"
+
+ATT.Category = {"eft_mount_mlok_bipod"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Bipod",
+        Category = "eft_harris_bipod",
+        Pos = Vector(0, -0.35, 0),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_mlok_bipodd")
