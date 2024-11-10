@@ -236,7 +236,7 @@ ATT = {}
 
 ATT.PrintName = "Odin Works K-Pod KeyMod bipod adapter"
 ATT.CompactName = "K-Pod"
-ATT.Icon = Material("entities/eft_attachments/mount/keymodbipod.png", "mips smooth")
+ATT.Icon = Material("entities/eft_attachments/mount/odin.png", "mips smooth")
 ATT.Description = [[A KeyMod interface mount that allows installation of bipods. Manufactured by Odin Works.]]
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/keymod_bipod.mdl"
