@@ -139,7 +139,7 @@ ATT.Description = [[The Magpul M-LOK 0.93 inch rail allows installation of addit
 ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mlok.mdl"
 ATT.ModelBodygroups = "4"
 
-ATT.Category = {"eft_mount_mlok"}
+ATT.Category = {"eft_mount_mlok", "eft_mount_mlok_micro"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
