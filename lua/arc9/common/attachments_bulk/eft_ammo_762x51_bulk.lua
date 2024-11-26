@@ -1,7 +1,7 @@
 local ATT = {}
 
 local dmgrange = (GetConVar("arc9_eft_mindmgrange"):GetInt() or 1000)/1000
-local mult51 = GetConVar("arc9_eft_mult_massive"):GetFloat() or 0.5
+local mult51 = GetConVar("arc9_eft_mult_bigrifle"):GetFloat() or 0.5
 
 
 ///////////////////////////////////////      eft_ammo_762x51_bpzfmj
