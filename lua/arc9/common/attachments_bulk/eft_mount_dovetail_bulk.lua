@@ -61,7 +61,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_zenit_b13
 ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.ModelOffset = Vector(0, 0, 0)
+ATT.ModelOffset = Vector(0, 0, 0) - Vector(0, 2, 0) -- rear dovetail offset
 
 ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
@@ -346,3 +346,39 @@ ATT.Attachments = {
 ATT.ModelAngleOffset = Angle(0, 90, 0)
 
 ARC9.LoadAttachment(ATT, "eft_mount_dovetail_rsr")
+
+///////////////////////////////////////      eft_mount_dovetail_sagsvd
+
+
+ATT = {}
+
+ATT.PrintName = "SVD SAG low profile sidemount"
+ATT.CompactName = "SAG SVD"
+ATT.Icon = Material("entities/eft_attachments/mount/dt_sagsvd.png", "mips smooth")
+ATT.Description = [[A low-profile side mount, all-milled from a bar of high-strength aluminum alloy B95T. Designed to fit on SVD sniper for various optics installation, but can also be fitted on Vepr Hunter, AS Val and VSS rifles. Manufactured by Sureshot Armament Group.]]
+
+ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_sagsvd.mdl"
+
+ATT.Category = {"eft_mount_dovetail_svd"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.ActivateElements = {"nolongrear"}
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
+        Pos = Vector(1, 1.05, -2.2),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 1, 0),
+        -- ExtraSightDistance = 8
+    },
+}
+
+ATT.ModelAngleOffset = Angle(0, 90, 0)
+
+ARC9.LoadAttachment(ATT, "eft_mount_dovetail_sagsvd")

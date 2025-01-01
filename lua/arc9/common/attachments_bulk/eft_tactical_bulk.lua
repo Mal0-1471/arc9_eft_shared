@@ -1691,16 +1691,16 @@ ARC9.LoadAttachment(ATT, "eft_bipod_atlas_v8")
 
 ATT = {}
 
-ATT.PrintName = "Harris HBR bipod"
-ATT.CompactName = "Harris HBR"
-ATT.Description = [[The Harris HBR ultralight foldable bipod with a spring retraction mechanism. Used by service operators and civilian shooters worldwide.
+ATT.PrintName = "Harris S-BRM 6-9\" Bipod"
+ATT.CompactName = "S-BRM"
+ATT.Description = [[The S-BRM 6-9" ultralight foldable bipod with a spring retraction mechanism. Used by service operators and civilian shooters worldwide. Manufactured by Harris.
 
 A bit improvised version of EFT bipods, does not need manual unfolding.]]
 ATT.Icon = Material("entities/eft_attachments/tactical/harris.png", "mips smooth")
 ATT.SortOrder = -2
 
-ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
+ATT.EFTErgoAdd = -5
+ATT.CustomCons = { Ergonomics = "-5" }
 
 ATT.Bipod = true 
 ATT.RecoilMultBipod = 0.33
@@ -1718,7 +1718,7 @@ ATT.BipodAng = Angle(0, 0, 0)
 
 ATT.Category = {"eft_harris_bipod"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/bipod_harris.mdl"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/bipod_harris_brm.mdl"
 -- ATT.ModelAngleOffset = Angle(180, 180, 0)
 
 ATT.DrawFunc = function(self, model, wm)
@@ -1733,3 +1733,33 @@ end
 
 
 ARC9.LoadAttachment(ATT, "eft_bipod_harris")
+
+///////////////////////////////////////      eft_mount_kac_bipod
+
+
+ATT = {}
+
+ATT.PrintName = "KAC MWS Bipod Adapter"
+ATT.CompactName = "MWS"
+ATT.Icon = Material("entities/eft_attachments/mount/mlokbipod.png", "mips smooth")
+ATT.Description = [[A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knights Armament Company.]]
+ATT.SortOrder = -2  
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_kac_mws_bipod.mdl"
+ATT.ModelOffset = Vector(0, 0, -0.05)
+
+ATT.Category = {"eft_bipod"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Attachments = {
+    {
+        PrintName = "Bipod",
+        Category = "eft_harris_bipod",
+        Pos = Vector(0.366, 0, -0.7),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_kac_bipod")

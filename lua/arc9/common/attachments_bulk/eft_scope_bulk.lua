@@ -1862,14 +1862,14 @@ ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
 ATT.FlareSize = 10
 ATT.FlareAttachment = 1
-ATT.ModelOffset = Vector(-3.5, 0.97, 2.05)
+ATT.ModelOffset = Vector(-3.5, 0.97, 2.05) - Vector(-1.1, 0, 0) -- front dovetail offset
 
 
 ATT.Attachments = {
     {
         PrintName = "Eyecap",
         Category = {"eft_pso_eyecap"},
-        Pos = Vector(3.5, 0.97, -2.05),
+        Pos = Vector(3.55-1.1, 0.97, -2.05),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-4, -0.6, 1),
         ExtraSightDistance = 5
@@ -1944,12 +1944,12 @@ ATT.Flare = true
 ATT.FlareColor = Color(255, 255, 255)
 ATT.FlareSize = 10
 ATT.FlareAttachment = 1
-ATT.ModelOffset = Vector(-3.5, 0.97, 2.05)
+ATT.ModelOffset = Vector(-3.5, 0.97, 2.05) - Vector(-1.1, 0, 0) -- front dovetail offset
 ATT.Attachments = {
     {
         PrintName = "Eyecap",
         Category = {"eft_pso_eyecap"},
-        Pos = Vector(3.5, 0.97, -2.05),
+        Pos = Vector(3.5-1.1, 0.97, -2.05),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-4, -0.6, 1),
         ExtraSightDistance = 5
