@@ -122,8 +122,22 @@ function ENT:makeshrapnel(count, dmg, owner, pos)
 end
 
 function ENT:Detonate()
-    if not self:IsValid() then return end
+    if !self:IsValid() then return end
     if self.Defused then return end
+    if self.ExplodeOnImpactDelay then
+        timer.Simple(self.ExplodeOnImpactDelay, function()
+            if IsValid(self) then
+                self.Defused = false
+                self:Detonate()
+            end
+        end)
+
+        self.ExplodeOnImpactDelay = nil
+        self.Defused = true
+
+        return false 
+    end
+
     local selfpos = self:GetPos()
 
     local owner = IsValid(self:GetOwner()) and self:GetOwner() or self
