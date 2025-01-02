@@ -352,6 +352,8 @@ local conVars = {
     {name = "eft_mult_flashbang", default = "1", replicated = true },
     {name = "eft_taran_jam", default = "1", replicated = true },
     {name = "eft_flashbang_ahmad", default = "0" },
+    {name = "eft_nontpik_mode", default = "0", replicated = true },
+    {name = "eft_singleuse_behaviour", default = "0", replicated = true },
 }
 
 for _, var in ipairs(conVars) do
@@ -403,6 +405,8 @@ if CLIENT then
             { sv = true, type = "slider", text = "Flashbang duration", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "Multiplier for flashbang blindness.\n\nDefault - 1" },
             { type = "bool", text = "Ahmad flashbang", convar = "eft_flashbang_ahmad", desc = "Ahmad on your screen when flashbanged" },
             { type = "bool", text = "Forced jam if someone hold PR-Taran", convar = "eft_taran_jam", desc = "For melee pack - if ANY player draws PR-Taran, this will make all guns forcefully jammed (Sets arc9 jam chance modifier to 9999, sets to prev value when no holding taran)" },
+            { type = "bool", text = "Holdtypes for non-TPIK", convar = "eft_nontpik_mode", desc = "Setting for the TPIK haters: makes guns have \"correct\" default holdtypes for use cases with disabled TPIK. Not realistic.\n\nRequires map restart." },
+            { type = "bool", text = "Remove RShG-2 after shot (True single-use)", convar = "eft_singleuse_behaviour", desc = "Set to true if you want RShG-2 to be deleted after each shot, otherwise it'll act like in Call of Duty: new tube for each RPG rocket." },
 
         }
         
