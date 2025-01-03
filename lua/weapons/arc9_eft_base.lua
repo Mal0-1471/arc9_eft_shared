@@ -240,6 +240,16 @@ function SWEP:HookP_BlockFire()
             return true
         end
     end
+
+    if self:GetValue("FuckingAirsoft") then 
+        if SERVER and self.EFTSentMissingPartsNotification < CurTime() then
+            self.EFTSentMissingPartsNotification = CurTime() + 2
+            net.Start("arc9eftquestionnotif")
+            net.Send(self:GetOwner())
+        end
+
+        return true
+    end
 end
 
 function SWEP:Hook_RedPrintName()
