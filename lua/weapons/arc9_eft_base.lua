@@ -54,6 +54,8 @@ SWEP.EFT_ShotsToSwitchToFullAutoBehaviur = 2
 -- end
 
 SWEP.VisualRecoilDoingFunc = function(up, side, roll, punch, recamount, self)
+    if !self.EFT_VisualRecoilUp_BURST_SEMI then return up, side, roll, punch end
+
     local fullauto = math.Clamp(recamount - self.EFT_ShotsToSwitchToFullAutoBehaviur, 0, 3) * 0.33333333
     up = Lerp(fullauto, self.EFT_VisualRecoilUp_BURST_SEMI, up)
     side = Lerp(fullauto, self.EFT_VisualRecoilSide_BURST_SEMI, side)
@@ -162,6 +164,9 @@ SWEP.CustomizeRotateAnchor = Vector(18.2, -4.25, -3.7)
 SWEP.HolsterPos = Vector(0, 0, 0)
 SWEP.HolsterAng = Angle(0, 0, 0)
 
+SWEP.BipodPos = Vector(-1.7, -3.5, 1)
+SWEP.BipodAng = Angle(0, 0, 0)
+
 --          Third person stuff
 
 SWEP.HoldType = "rpg"
@@ -215,6 +220,9 @@ SWEP.DistantShootVolumeActual = 0.05
 SWEP.FiremodeSound = "" -- we will have own in sound tables
 SWEP.ToggleAttSound = "" -- we will have own in sound tables
 SWEP.DryFireSound = "" -- we will have own in sound tables
+
+SWEP.EnterBipodSound = false 
+SWEP.ExitBipodSound = false
 
 SWEP.EnterSightsSound = ARC9EFT.ADSRifle
 SWEP.ExitSightsSound = ARC9EFT.ADSRifleOut

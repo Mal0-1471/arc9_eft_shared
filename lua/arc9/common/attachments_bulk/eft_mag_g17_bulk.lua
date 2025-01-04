@@ -45,6 +45,7 @@ ATT.Description = [[A 21-round GL9 polymer magazine, manufactured by Magpul.]]
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
+ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
 ATT.CustomCons = { Ergonomics = "-2" }
 -- ATT.MalfunctionMeanShotsToFailMult = 0.85
 
