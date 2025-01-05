@@ -26,6 +26,8 @@ SWEP.SpreadAddMove = 0.015
 
 
 --          Recoil
+SWEP.RecoilAutoControlHook = function(self, old) return math.Clamp(old - self:GetRecoilAmount() * 0.1, old - 1, old) end -- less autocontrol over time
+
 SWEP.VisualRecoilPositionBumpUpHipFire = 0.1 -- gun will go down each shot by this value
 SWEP.VisualRecoilPositionBumpUp = -0.15 -- same but in sights
 SWEP.VisualRecoilPositionBumpUpRTScope = 0.05 -- same but in rt scopes, you probably should keep it same as sight value, i guess it doesn't matter anymore after recoil update
@@ -120,6 +122,8 @@ SWEP.BreathRunOutSound = "arc9_eft_shared/bear3_breath_sprint.ogg"
 --          Generic stats
 
 SWEP.Ammo = "ar2"
+
+SWEP.RunawayBurst = true -- Burst will keep firing until all of the burst has been expended.
 
 SWEP.ChamberSize = 0 -- no mag
 SWEP.ClipSize = 1 -- actual chamber (no mag)

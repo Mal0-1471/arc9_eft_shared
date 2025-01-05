@@ -396,7 +396,7 @@ if CLIENT then
             { sv = true, type = "slider", text = ".366TKM, 12.7x55mm", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "Massive bullets (.366 TKM, 12.7x55mm).\n\nDefault - 0.5" },
             { sv = true, type = "slider", text = "Melee", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "Melee weapons.\n\nDefault - 1" },
 
-            { sv = true, type = "button", text = "settings.developer.reloadatts.title", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.developer.reload", func = function(self2)
+            { sv = true, type = "button", text = "Reload attachments (!!!)", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.server.developer.reload", func = function(self2)
                 RunConsoleCommand("arc9_reloadatts")
             end},
 
@@ -404,9 +404,9 @@ if CLIENT then
             { sv = true, type = "bool", text = "Concussion", convar = "eft_enable_concussion", desc = "Concussion from explosions (distorted view and motion blur)" },
             { sv = true, type = "slider", text = "Flashbang duration", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "Multiplier for flashbang blindness.\n\nDefault - 1" },
             { type = "bool", text = "Ahmad flashbang", convar = "eft_flashbang_ahmad", desc = "Ahmad on your screen when flashbanged" },
-            { type = "bool", text = "Forced jam if someone hold PR-Taran", convar = "eft_taran_jam", desc = "For melee pack - if ANY player draws PR-Taran, this will make all guns forcefully jammed (Sets arc9 jam chance modifier to 9999, sets to prev value when no holding taran)" },
-            { type = "bool", text = "Holdtypes for non-TPIK", convar = "eft_nontpik_mode", desc = "Setting for the TPIK haters: makes guns have \"correct\" default holdtypes for use cases with disabled TPIK. Not realistic.\n\nRequires map restart." },
-            { type = "bool", text = "Remove RShG-2 after shot (True single-use)", convar = "eft_singleuse_behaviour", desc = "Set to true if you want RShG-2 to be deleted after each shot, otherwise it'll act like in Call of Duty: new tube for each RPG rocket." },
+            { sv = true, type = "bool", text = "Forced jam if someone hold PR-Taran", convar = "eft_taran_jam", desc = "For melee pack - if ANY player draws PR-Taran, this will make all guns forcefully jammed (Sets arc9 jam chance modifier to 9999, sets to prev value when no holding taran)" },
+            { sv = true, type = "bool", text = "Use regular holdtypes (for non-TPIK)", convar = "eft_nontpik_mode", desc = "Setting for the TPIK haters: makes guns have \"correct\" holdtypes (player stances), like on regular guns. Good for use cases with disabled TPIK. Not realistic.\n\nRequires map restart." },
+            { sv = true, type = "bool", text = "Remove RShG-2 after shot (True single-use)", convar = "eft_singleuse_behaviour", desc = "Set to true if you want RShG-2 to be deleted after each shot, otherwise it'll act like in Call of Duty: new tube for each RPG rocket." },
 
         }
         
