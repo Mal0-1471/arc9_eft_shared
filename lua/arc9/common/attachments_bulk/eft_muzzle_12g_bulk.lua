@@ -216,7 +216,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.0075
 
 ATT.MuzzleDevice = true
 ATT.MuzzleDevice_Priority = 4
-ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.MuzzleParticle = "muzzleflash_suppressed_shotgun"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 
@@ -254,7 +254,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.0075
 
 ATT.MuzzleDevice = true
 ATT.MuzzleDevice_Priority = 4
-ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.MuzzleParticle = "muzzleflash_suppressed_shotgun"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
 
