@@ -136,7 +136,7 @@ SWEP.BreathRunOutSound = "arc9_eft_shared/bear3_breath_sprint.ogg"
 SWEP.HoldBreathTimeHook = ARC9EFT.ErgoBreathHook or nil
 
 SWEP.RPM = 1
-SWEP.RPMAddHot = -100 -- overheat debuff
+SWEP.RPMMultHot = 0.85 -- overheat debuff
 
 SWEP.EFTErgo = 0
 SWEP.BarrelLength = 36
@@ -147,7 +147,7 @@ SWEP.Ammo = "ar2"
 --     { Mode = 1, RPM = 450, PoseParam = 1 },
 --     { Mode = 3, PoseParam = 2},
 -- }
-SWEP.RunawayBurst = true
+-- SWEP.RunawayBurst = true -- this is not a good idea, semi autos get fucked, enable per gun
 
 SWEP.ChamberSize = 0 -- no mag
 SWEP.ClipSize = 1 -- actual chamber (no mag)
