@@ -65,6 +65,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_eotech_
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 465
 ATT.HoloSightColorable = false
+-- ATT.HoloSightDepthAdjustment = -0.005
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
@@ -694,7 +695,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.01
+-- ATT.HoloSightDepthAdjustment = 0.01
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
@@ -825,7 +826,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 470
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.01
+-- ATT.HoloSightDepthAdjustment = 0.01
 
 ATT.ModelOffset = Vector(0, 0, 0)
 
@@ -902,7 +903,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_ekb_okp
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 385
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.001
+ATT.HoloSightDepthAdjustment = -0.0035
 
 ATT.ModelOffset = Vector(0, 0, -0)
 

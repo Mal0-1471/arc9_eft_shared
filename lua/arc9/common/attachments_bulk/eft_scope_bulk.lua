@@ -132,7 +132,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -386,7 +387,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -560,7 +562,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -659,7 +662,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -756,7 +760,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -854,7 +859,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -952,7 +958,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -1547,7 +1554,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.01
+-- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.1, 1, 2.0)
 
 ATT.Attachments = {
@@ -1695,7 +1702,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_ekb_okp
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.001
+ATT.HoloSightDepthAdjustment = -0.0035
 ATT.ModelOffset = Vector(-2.4, 0.97, 2.05)
 
 
@@ -1743,7 +1750,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_np
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.01
+-- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.4, 0.97, 2.05)
 
 
@@ -1793,7 +1800,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_be
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.01
+-- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.4, 0.97, 2.05)
 
 
@@ -2466,7 +2473,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -2583,7 +2591,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -3436,7 +3445,8 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -swep.ViewModelAng.z + sight.Ang.z)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -3534,7 +3544,7 @@ ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_
 ATT.HoloSightReticle:SetInt("$additive", 1)
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
-ATT.HoloSightDepthAdjustment = 0.01
+-- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.1, 1, 2.0)
 
 ARC9.LoadAttachment(ATT, "eft_scope_dovetail_ekp1s03")
