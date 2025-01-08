@@ -77,14 +77,14 @@ end
 SWEP.ActivePos = Vector(-0.7, -3.1, -.35)
 SWEP.ActiveAng = Angle(0, 0, 0)
 
-SWEP.SprintAng = Angle(50, 10, -45)
-SWEP.SprintPos = Vector(4, -5, 0)
+SWEP.SprintAng = Angle(40, 10, -40)
+SWEP.SprintPos = Vector(5, -6, -1.0)
 
 SWEP.NearWallAng = Angle(0, 55, 0)
 SWEP.NearWallPos = Vector(0, 0, -15)
 
-SWEP.CrouchPos = Vector(-0.7, -3.8, .35)
-SWEP.CrouchAng = Angle(0, 0, -1)
+SWEP.CrouchPos = Vector(0, -0.1, -0.4)
+SWEP.CrouchAng = Angle(0, 0, -1.5)
 
 SWEP.CustomizeAng = Angle(90, 0, 0)
 SWEP.CustomizePos = Vector(18.2, 26, 3.7)

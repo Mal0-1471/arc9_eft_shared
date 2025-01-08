@@ -242,11 +242,11 @@ ATT.BarrelLengthAdd = 1
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
-ATT.RecoilMult = 0.85
-ATT.VisualRecoilMult = 0.85
+ATT.RecoilMult = 0.89
+ATT.VisualRecoilMult = 0.89
 ATT.HeatCapacityMult = 0.99
 
-ATT.Category = {"eft_ar10_muzzle", "eft_bmd762_muzzle"}
+ATT.Category = {"eft_ar10_muzzle", "eft_bmd762_muzzle2"}
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_lantac")
 
@@ -590,8 +590,15 @@ ATT.Attachments = {
     {
         PrintName = "Muzzle",
         Category = "eft_bmd762_muzzle",
+        Pos = Vector(-0.1, 0, 0),
+        Icon_Offset = Vector(2, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+    {
+        PrintName = "Muzzle",
+        Category = "eft_bmd762_muzzle2",
         Pos = Vector(-0.3, 0, 0),
-        Icon_Offset = Vector(1, 0, 0),
+        Icon_Offset = Vector(0.5, 0, 0),
         Ang = Angle(0, 0, 0),
     },
 }
@@ -619,8 +626,8 @@ ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -3
 ATT.CustomCons = { Ergonomics = "-3" }
-ATT.RecoilMult = 0.92
-ATT.VisualRecoilMult = 0.92
+ATT.RecoilMult = 0.94
+ATT.VisualRecoilMult = 0.94
 
 ATT.Category = {"eft_bmd762_muzzle"}
 

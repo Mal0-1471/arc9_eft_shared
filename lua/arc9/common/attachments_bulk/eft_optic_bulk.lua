@@ -2020,3 +2020,27 @@ ATT.ToggleStats = {
 
 
 ARC9.LoadAttachment(ATT, "eft_optic_boss")
+
+
+
+///////////////////////////////////////      eft_optic_shakhin_eyecup
+
+
+ATT = {}
+
+ATT.PrintName = "Cyclone Shakhin scope eyecup"
+ATT.CompactName = "Shakhin"
+ATT.Icon = Material("entities/eft_attachments/scopes/shcup.png", "mips smooth")
+ATT.Description = [[A rubber eyecup for the Shakhin thermal scope. Manufactured by Central Research Institute Cyclone.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tactical_shakhin_eyecup.mdl"
+
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.Category = {"eft_shakhin_cup"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.AdditionalSightDistance = 1
+
+ARC9.LoadAttachment(ATT, "eft_optic_shakhin_eyecup")

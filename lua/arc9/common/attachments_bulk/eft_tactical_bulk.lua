@@ -240,6 +240,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },   
     {
@@ -261,6 +262,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         
         Laser = true,
         LaserStrength = 0.6,
@@ -380,38 +382,35 @@ ATT.ModelBodygroups = "1"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "Light",
+        PrintName = "IR Light",
         Flashlight = true,
-        FlashlightColor = Color(255, 255, 255),
-        FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
-        FlashlightDistance = 4096,
-        FlashlightFOV = 85,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
         FlashlightAttachment = 1,
-        Flare = true,
-        FlareColor = Color(255, 255, 255),
-        FlareSize = 125,
-        FlareAttachment = 1,
+        FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "Light + Laser",
+        PrintName = "IR + Laser",
         Flashlight = true,
-        FlashlightColor = Color(255, 255, 255),
-        FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
-        FlashlightDistance = 4096,
-        FlashlightFOV = 85,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
         FlashlightAttachment = 1,
-        Flare = true,
-        FlareColor = Color(255, 255, 255),
-        FlareSize = 125,
-        FlareAttachment = 1,
-
+        FlashlightBrightness = 0.05,
+        FlashlightIR = true,
+        
         Laser = true,
         LaserStrength = 0.6,
         LaserFlareMat = Material("effects/arc9_eft/laserdot"),
         LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
+        LaserIR = true,
         EFTHipFireSpreadBonus = true,
     },
     {
@@ -423,7 +422,8 @@ ATT.ToggleStats = {
         LaserColor = Color(238, 27, 27),
         LaserAttachment = 2,
         EFTHipFireSpreadBonus = true,
-    },   
+        LaserIR = true,
+    },
     {
         PrintName = "None",
     }
@@ -594,6 +594,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },   
     {
@@ -717,6 +718,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },   
     {
@@ -728,6 +730,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         
         Laser = true,
         LaserStrength = 0.6,
@@ -826,6 +829,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },   
     {
@@ -837,6 +841,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         
         Laser = true,
         LaserStrength = 0.5,
@@ -899,6 +904,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         
         Laser = true,
         LaserStrength = 0.5,
@@ -967,6 +973,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },   
     {
@@ -978,6 +985,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         
         Laser = true,
         LaserStrength = 0.5,
@@ -1126,6 +1134,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },
     {
@@ -1138,6 +1147,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         
         Laser = true,
         LaserStrength = 0.5,
@@ -1266,6 +1276,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },
     {
@@ -1562,6 +1573,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         EFTHipFireSpreadBonus = true,
     },   
     {
@@ -1573,6 +1585,7 @@ ATT.ToggleStats = {
         FlashlightFOV = 30,
         FlashlightAttachment = 1,
         FlashlightBrightness = 0.05,
+        FlashlightIR = true,
         
         Laser = true,
         LaserStrength = 0.65,

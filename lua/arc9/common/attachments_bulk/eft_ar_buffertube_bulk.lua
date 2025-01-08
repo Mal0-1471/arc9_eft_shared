@@ -461,3 +461,64 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ARC9.LoadAttachment(ATT, "eft_ar_buffertube_viperpdw")
 
+
+
+///////////////////////////////////////      eft_ar_buffertube_arfx
+
+
+ATT = {}
+
+ATT.PrintName = "AR-15 DoubleStar ACE ARFX Skeleton Stock"
+ATT.CompactName = "ACE ARFX"
+ATT.Description = [[The lightweight ACE ARFX Skeleton Stock provides comfort, balance and aesthetics. Fits both the Mil-Spec and civilian M/AR platform. Manufactured by DoubleStar.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/arfx.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_double_star_ace_arfx.mdl"
+
+ATT.HasBufferTube = true
+
+ATT.RecoilMult = 0.79
+ATT.VisualRecoilMult = 0.79
+
+ATT.EFTErgoAdd = 8
+ATT.CustomPros = { Ergonomics = "+8" }
+
+ATT.ExcludeElements = {"pgrip_stock"}
+
+
+ATT.SortOrder = 0
+ATT.Category = "eft_ar15_buffertube"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ARC9.LoadAttachment(ATT, "eft_ar_buffertube_arfx")
+
+///////////////////////////////////////      eft_ar_buffertube_baskak
+
+
+ATT = {}
+
+ATT.PrintName = "Armacon Baskak stock"
+ATT.CompactName = "Baskak"
+ATT.Description = [[A Russian-made light tube stock of very spartan-like design for use with AK systems that can be installed both on Mil-Spec and Com-Spec M/AR standard receiver adapters.]]
+ATT.Icon = Material("entities/eft_attachments/stocks/baskak.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_armacon_baskak.mdl"
+ATT.ModelOffset = Vector(0.25, 0, 0)
+ATT.HasBufferTube = true
+
+ATT.RecoilMult = 0.75
+ATT.VisualRecoilMult = 0.75
+
+ATT.EFTErgoAdd = 2
+ATT.CustomPros = { Ergonomics = "+2" }
+
+ATT.ExcludeElements = {"pgrip_stock"}
+
+
+ATT.SortOrder = 0
+ATT.Category = "eft_ar15_buffertube_notbuffer"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ARC9.LoadAttachment(ATT, "eft_ar_buffertube_baskak")

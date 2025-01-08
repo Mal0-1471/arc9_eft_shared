@@ -16,8 +16,8 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_aksion_ko
 ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 ATT.ModelOffset = Vector(-0.1, 0, 0)
 
 
@@ -61,10 +61,10 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/mounts/mount_dovetail_zenit_b13
 ATT.Category = {"eft_mount_dovetail"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.ModelOffset = Vector(0, 0, 0) - Vector(0, 2, 0) -- rear dovetail offset
+ATT.ModelOffset = Vector(0, 0, 0)
 
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
 ATT.ActivateElements = {"nolongrear"}
 
 ATT.Attachments = {
@@ -102,8 +102,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)
 
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
 ATT.Attachments = {
     {
         PrintName = "Optic",
@@ -214,8 +214,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(-0.06, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 90, 0)
 
-ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
+ATT.EFTErgoAdd = -3
+ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.Attachments = {
     {
@@ -251,8 +251,8 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, 0)
 
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
+ATT.EFTErgoAdd = -0.5
+ATT.CustomCons = { Ergonomics = "-0.5" }
 ATT.Attachments = {
     {
         PrintName = "Optic",

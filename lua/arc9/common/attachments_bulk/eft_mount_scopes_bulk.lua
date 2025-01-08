@@ -1022,3 +1022,41 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_mount_hydra_fde")
+
+
+
+
+///////////////////////////////////////      eft_mount_shakhin
+
+
+ATT = {}
+
+ATT.PrintName = "Cyclone Shakhin mount"
+ATT.CompactName = "Shakhin"
+ATT.Icon = Material("entities/eft_attachments/scopes/shmount.png", "mips smooth")
+ATT.Description = [[A Weaver mount for installing the Shakhin thermal scope. Manufactured by Central Research Institute Cyclone.]]
+ATT.SortOrder = 1
+
+ATT.Scale = 1
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_shakhin.mdl"
+ATT.Folder = "Special"
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
+ATT.Category = {"eft_optic_large"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = "eft_shakhin_scope",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-1, 0, 2.0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_shakhin")

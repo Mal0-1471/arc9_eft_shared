@@ -1,4 +1,5 @@
 local ATT = {}
+local arc9_cheapscopes = GetConVar("arc9_cheapscopes")
 
 
 ///////////////////////////////////////      eft_scope_25mm_pilad
@@ -132,7 +133,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -387,7 +388,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -562,7 +563,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -662,7 +663,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -760,7 +761,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -859,7 +860,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -958,7 +959,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -1968,6 +1969,85 @@ ATT.ActivateElements = {"nolongrear"}
 
 ARC9.LoadAttachment(ATT, "eft_scope_dovetail_pso1m2")
 
+///////////////////////////////////////      eft_scope_dovetail_pso1m2non1
+
+
+ATT = {}
+
+ATT.PrintName = "BelOMO PSO-1M2 4x24 scope"
+ATT.CompactName = "PSO-1M2"
+ATT.Icon = Material("entities/eft_attachments/scopes/s_pso1m21.png", "mips smooth")
+ATT.Description = [[The PSO-1M2 military grade optical sniper scope, manufactured by BelOMO. This optical scope is designed for precision sight fire with the Dragunov Sniper Rifle (SVD) on the variety of targets with 4x magnification and 6 degree FOV. ]]
+ATT.SortOrder = 3
+
+ATT.Scale = 1
+ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/dovetail/pso1m2.mdl"
+
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = {"eft_mount_dovetail", "eft_mount_dovetail_pp19"}
+ATT.Folder = "Scopes"
+
+
+ATT.EFTErgoAdd = -7
+ATT.CustomCons = { Ergonomics = "-7" }
+
+
+ATT.FoldSights = true
+
+
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1_4x24_marks_0.png", "mips smooth")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1_4x24_marks_1.png", "mips smooth")
+
+ATT.Sights = {
+    {
+        Pos = Vector(0.575, 7.6, -0.8),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        Reticle = Reticle0
+    },
+    {
+        Pos = Vector(0.575, 7.6, -0.8),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 38,
+        Reticle = Reticle1
+    },
+}
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeFOV = 38/4
+ATT.RTScopeMagnification = 4
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pso_1m2_1_4x24_marks_1.png", "mips smooth")
+ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeColorable = false
+ATT.RTScopeShadowIntensity = 10
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true 
+ATT.ScopeScreenRatio = 668/1080
+
+ATT.Flare = true
+ATT.FlareColor = Color(255, 255, 255)
+ATT.FlareSize = 10
+ATT.FlareAttachment = 1
+ATT.ModelOffset = Vector(-3.5, 0.97, 2.05) - Vector(-1.1, 0, 0) -- front dovetail offset
+ATT.Attachments = {
+    {
+        PrintName = "Eyecap",
+        Category = {"eft_pso_eyecap"},
+        Pos = Vector(3.5-1.1, 0.97, -2.05),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-4, -0.6, 1),
+        ExtraSightDistance = 5
+    },
+}
+
+ATT.ActivateElements = {"nolongrear"}
+
+
+ARC9.LoadAttachment(ATT, "eft_scope_dovetail_pso1m2non1")
+
 
 ///////////////////////////////////////      eft_scope_dovetail_tulpan
 
@@ -2473,7 +2553,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -2591,7 +2671,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -3445,7 +3525,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
     -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + swep.SubtleVisualRecoilAng.z * 2
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
     surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
@@ -3548,3 +3628,256 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(-2.1, 1, 2.0)
 
 ARC9.LoadAttachment(ATT, "eft_scope_dovetail_ekp1s03")
+
+
+
+
+
+///////////////////////////////////////      eft_scope_35mm_5hd
+
+
+ATT = {}
+
+ATT.PrintName = "Leupold Mark 5HD 5-25x56mm 35mm riflescope (FDE)"
+ATT.CompactName = "5HD 5-25x56"
+ATT.Icon = Material("entities/eft_attachments/scopes/5hd.png", "mips smooth")
+ATT.Description = [[The Mark 5HD 5-25x56 riflescope is known for being a lighter and more efficient optic than other scopes in its class. Featuring optical glass, full multi-coated lenses and an advanced light management system, the scope offers low-glare, high-contrast imaging. Installed on 35mm ring mounts. Manufactured by Leupold. Flat Dark Earth version.]]
+ATT.SortOrder = 3
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_5hd.mdl"
+
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = "eft_optic_35mm"
+
+ATT.EFTErgoAdd = -10
+ATT.CustomCons = { Ergonomics = "-10" }
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 11.75, 0),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/1,
+    },
+}
+
+
+local prevscroll = 0
+ATT.DrawFunc = function(swep, model, wm) 
+    if !wm then
+        -- swep:GetSight().slottbl.Address
+        local active = swep:GetInSights() and model.slottbl.Address == swep:GetActiveSightSlotTable().Address
+
+        if active then
+            local scrollevel = swep:GetSight().SmoothScrollLevel or 0
+            model:SetPoseParameter("switch", 1 - scrollevel)
+            
+
+            local roundedscroll = math.Round(scrollevel, 2)
+            if prevscroll != roundedscroll then
+                if roundedscroll == 1 then ARC9EFTdrawnumber("5x")
+                elseif roundedscroll == 0 then ARC9EFTdrawnumber("25x") end
+            end
+            prevscroll = roundedscroll
+        end
+    end
+end
+
+local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/scope_35mm_leupold_mark_5hd_5_25x56_mark_f.png", "mips")
+local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/scope_35mm_leupold_mark_5hd_5_25x56_mark_q.png", "mips")
+
+local scale = 0.87
+local finalsize = 14 * scale
+ATT.RTScopeDrawFunc = function(swep, rtsize, sight) 
+    local scrollevel = sight.SmoothScrollLevel or 0
+    local size = (rtsize + rtsize * (1 - scrollevel) * finalsize) * scale
+    local mat = Reticle_full
+
+    if scrollevel <= 0.7 then 
+        size = size / 4
+        mat = Reticle_quarter
+    end
+
+    surface.SetMaterial(mat)
+    surface.SetDrawColor(255, 255, 255)
+    -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
+    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
+    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
+end
+
+ATT.ZoomSound = false
+ATT.RTScopeAdjustable = true
+ATT.RTScopeAdjustmentLevels = 8
+
+ATT.RTScopeMagnification = 1
+ATT.RTScopeMagnificationMin = 5
+ATT.RTScopeMagnificationMax = 25
+
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 4
+ATT.RTScopeFOV = 12
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/empty.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.96
+ATT.RTScopeColorable = false
+ATT.RTScopeShadowIntensity = 15
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true 
+
+ATT.ScopeScreenRatio = 627/1080
+
+
+ARC9.LoadAttachment(ATT, "eft_scope_35mm_5hd")
+
+
+
+///////////////////////////////////////      eft_scope_shakhin
+
+
+ATT = {}
+
+ATT.PrintName = "Cyclone Shakhin 3.7x thermal scope"
+ATT.CompactName = "Shakhin 3.7x"
+ATT.Icon = Material("entities/eft_attachments/scopes/shscope.png", "mips smooth")
+ATT.Description = [[A 3.7x thermal scope manufactured by Central Research Institute Cyclone.
+
+! Note: low refresh rate effect was temporarly disabled to not cause glitches on certain maps. I hope better implementation will be implemented some day.]]
+
+ATT.Scale = 1
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_shakhin_37x.mdl"
+
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Category = "eft_shakhin_scope"
+
+
+ATT.EFTErgoAdd = -20
+ATT.CustomCons = { Ergonomics = "-20" }
+
+ATT.FoldSights = true
+-- local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_00.png", "mips smooth")
+-- local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_01.png", "mips smooth")
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 8.1, -1.637),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.15,
+        ViewModelFOV = 36,
+        RTScopeFOV = 36/2,
+        OnSwitchToSight = function(self, slottbl)
+            if CLIENT then ARC9EFTdrawnumber("3.7x") end
+        end,
+        RTScopeMagnification = 3.7,
+        -- Reticle = Reticle0,
+    },
+}
+
+local pattern = Material("vgui/arc9_eft_shared/HeatRamp.png")
+
+-- ATT.ToggleStats = {
+--     {
+--         PrintName = "White hot",
+--         RTScopeReticle = Reticle0
+--     },
+--     {
+--         PrintName = "Yellow hot",
+--         RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+--             ["$pp_colour_addr"] = 0,
+--             ["$pp_colour_addg"] = 0,
+--             ["$pp_colour_addb"] = 0,
+--             ["$pp_colour_brightness"] = 0.3,
+--             ["$pp_colour_contrast"] = 0.4,
+--             ["$pp_colour_colour"] = 0.7,
+--             ["$pp_colour_mulr"] = 0,
+--             ["$pp_colour_mulg"] = 0,
+--             ["$pp_colour_mulb"] = 0
+--         },
+--         RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+
+--             ["$pp_colour_addr"] = -0.5,
+--             ["$pp_colour_addg"] = -0.5,
+--             ["$pp_colour_addb"] = 0.5,
+--             ["$pp_colour_brightness"] = 11,
+--             ["$pp_colour_contrast"] = 1,
+--             ["$pp_colour_colour"] = 1,
+--             ["$pp_colour_mulr"] = 0,
+--             ["$pp_colour_mulg"] = 0,
+--             ["$pp_colour_mulb"] = 0
+--         },
+--         RTScopeCustomPPFunc = function(swep)
+--             -- DrawMotionBlur(0.95, 1, 1/21)
+-- 	        DrawTexturize( 0, pattern )
+--             DrawBloom(0.05, 1, 12, 8, 1, 2, 1.1, 1.2, 0.75)
+--         end,
+--         RTScopeReticle = Reticle1
+--     },
+-- }
+
+ATT.RTScope = true
+ATT.RTScopeSubmatIndex = 1
+ATT.RTScopeFOV = 12
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_ciklon_shakhin_37x_LOD0_mark.png", "mips smooth")
+ATT.RTScopeReticleScale = 0.94
+ATT.RTScopeColorable = false
+ATT.RTScopeShadowIntensity = 5
+ATT.RTScopeBlackBox = true 
+ATT.RTScopeBlackBoxShadow = true  
+ATT.RTScopeNoShadow = false  
+
+ATT.RTScopeFLIR = true
+
+ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
+ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 185/255,
+    ["$pp_colour_addg"] = 90/255,
+    ["$pp_colour_addb"] = 0,
+    ["$pp_colour_brightness"] = 0.15,
+    ["$pp_colour_contrast"] = 0.27,
+    ["$pp_colour_colour"] = 0.2,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
+    ["$pp_colour_addr"] = 0.49,
+    ["$pp_colour_addg"] = 0.49,
+    ["$pp_colour_addb"] = 0.49,
+    ["$pp_colour_brightness"] = -0.59,
+    ["$pp_colour_contrast"] = 1,
+    ["$pp_colour_colour"] = 0,
+    ["$pp_colour_mulr"] = 0,
+    ["$pp_colour_mulg"] = 0,
+    ["$pp_colour_mulb"] = 0
+}
+
+ATT.RTScopeCustomPPFunc = function(swep)
+    DrawMotionBlur(0.95, 1, 1/21)
+    DrawBloom(0.16, 2, 5.5, 5.5, 0, 0.1, 71/255, 1, 93/255)
+
+    -- DrawSharpen(4, 0.6)
+end
+
+ATT.ScopeScreenRatio = 730/1080
+
+ATT.Flare = true
+ATT.FlareColor = Color(255, 255, 255)
+ATT.FlareSize = 10
+ATT.FlareAttachment = 1
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.Attachments = {
+    {
+        PrintName = "Aux",
+        Category = {"eft_shakhin_cup"},
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-4.5, 0, 2.2),
+    },
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_scope_shakhin")

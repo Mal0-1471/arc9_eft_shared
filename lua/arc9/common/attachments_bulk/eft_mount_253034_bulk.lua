@@ -162,6 +162,38 @@ ATT.Attachments = {
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_lobaev")
 
 
+///////////////////////////////////////      eft_mount_34mm_nf
+
+
+ATT = {}
+
+ATT.PrintName = "Nightforce Magmount 34mm ring scope mount"
+ATT.CompactName = "NF 34mm"
+ATT.Icon = Material("entities/eft_attachments/scopes/34mmnf.png", "mips smooth")
+ATT.Description = [[Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 34mm scope base mount for installation on Picatinny rails.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_nightforce_x_treme_duty.mdl"
+
+ATT.Category = {"eft_optic_large"}
+ATT.Folder = "Scopes/Mounts"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_34mm"},
+        Pos = Vector(-0.5, 0, -1.5),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+
+ARC9.LoadAttachment(ATT, "eft_mount_34mm_nf")
+
 ///////////////////////////////////////      eft_mount_30mm_nf
 
 
@@ -172,7 +204,7 @@ ATT.CompactName = "NF 30mm"
 ATT.Icon = Material("entities/eft_attachments/scopes/30mmnf.png", "mips smooth")
 ATT.Description = [[Nightforce X-Treme Duty Ultralite one piece Magmount is a universal 30mm scope base mount for installation on Picatinny rails.]]
 
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_nightforce_x_treme_duty.mdl"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_nightforce_x_treme_duty_ultralite_30mm.mdl"
 
 ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
@@ -184,7 +216,7 @@ ATT.Attachments = {
     {
         PrintName = "Optic",
         Category = {"eft_optic_30mm"},
-        Pos = Vector(-2, 0, -1.5),
+        Pos = Vector(-2, 0, -1.035),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
@@ -517,3 +549,34 @@ ATT.Attachments = {
 }
 
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_alpha4")
+
+
+///////////////////////////////////////      eft_mount_35mm_ims
+
+
+ATT = {}
+
+ATT.PrintName = "Leupold Mark IMS 35mm ring scope mount"
+ATT.CompactName = "IMS 35mm"
+ATT.Icon = Material("entities/eft_attachments/scopes/35ims.png", "mips smooth")
+ATT.Description = [[A 35mm scope mount for installation on Picatinny rails. Manufactured by Leupold.]]
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_ims_35mm.mdl"
+
+ATT.Category = {"eft_optic_large"}
+ATT.Folder = "Scopes/Mounts"
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.Attachments = {
+    {
+        PrintName = "Optic",
+        Category = {"eft_optic_35mm"},
+        Pos = Vector(-0.5, 0, -1.545),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_35mm_ims")

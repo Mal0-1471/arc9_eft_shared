@@ -23,19 +23,19 @@ ATT.EFTRoundName = "7.62x51mm BCP FMJ"
 
 ATT.DamageMax = 83 * mult51
 ATT.DamageMin = 60 * mult51
-ATT.PhysBulletMuzzleVelocity = 840 /0.0254
+ATT.PhysBulletMuzzleVelocity = 800 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      35 *2.54/100/0.0254
-ATT.PenetrationDelta = 42/100
-ATT.ArmorPiercing =    42/100
+ATT.Penetration =      37 *2.54/100/0.0254
+ATT.PenetrationDelta = 56/100
+ATT.ArmorPiercing =    56/100
 ATT.RicochetChance =   20/100
 
 
-ATT.RecoilMult = 0.97
-ATT.VisualRecoilMult = 0.97
-ATT.MalfunctionMeanShotsToFailMult = 0.99
+-- ATT.RecoilMult = 0.97
+-- ATT.VisualRecoilMult = 0.97
+-- ATT.MalfunctionMeanShotsToFailMult = 0.99
 
 
 ATT.DamageLookupTable = {
@@ -99,57 +99,58 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm M61"
 
-ATT.DamageMax = 70 * mult51
-ATT.DamageMin = 47 * mult51
-ATT.PhysBulletMuzzleVelocity = 849 /0.0254
+ATT.DamageMax = 75 * mult51
+ATT.DamageMin = 52 * mult51
+ATT.PhysBulletMuzzleVelocity = 838 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      64 *2.54/100/0.0254
-ATT.PenetrationDelta = 83/100
-ATT.ArmorPiercing =    83/100
+ATT.Penetration =      55 *2.54/100/0.0254
+ATT.PenetrationDelta = 74/100
+ATT.ArmorPiercing =    74/100
 ATT.RicochetChance =   30/100
 
 
-ATT.SpreadMult = 0.97
-ATT.RecoilMult = 1.1
-ATT.VisualRecoilMult = 1.1
-ATT.MalfunctionMeanShotsToFailMult = 0.92
+ATT.SpreadMult = 0.98
+ATT.RecoilMult = 1.03
+ATT.VisualRecoilMult = 1.03
+ATT.MalfunctionMeanShotsToFailMult = 0.96
+ATT.HeatPerShotMult = 1.3
 
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    70 * mult51     },
+    75 * mult51      },
 
     {   100 /0.0254 * dmgrange, 
-    66.3 * mult51     },
+    71.3 * mult51      },
 
     {   200 /0.0254 * dmgrange, 
-    63 * mult51     },
+    68 * mult51      },
 
     {   300 /0.0254 * dmgrange, 
-    59.7 * mult51     },
+    64.7 * mult51      },
 
     {   400 /0.0254 * dmgrange, 
-    56.1 * mult51     },
+    61.1 * mult51      },
 
     {   500 /0.0254 * dmgrange, 
-    52.64 * mult51     },
+    57.64 * mult51      },
 
     {   600 /0.0254 * dmgrange, 
-    50.4 * mult51     },
+    55.4 * mult51      },
 
     {   700 /0.0254 * dmgrange, 
-    49 * mult51     },
+    54 * mult51      },
 
     {   800 /0.0254 * dmgrange, 
-    48 * mult51     },
+    53 * mult51      },
 
     {   900 /0.0254 * dmgrange, 
-    47.3 * mult51     },
+    52.3 * mult51      },
 
     {   1000 /0.0254 * dmgrange, 
-    47 * mult51     },
+    52 * mult51      },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -178,59 +179,60 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm M62 Tracer"
 
-ATT.DamageMax = 79 * mult51
-ATT.DamageMin = 53 * mult51
-ATT.PhysBulletMuzzleVelocity = 816 /0.0254
+ATT.DamageMax = 82 * mult51
+ATT.DamageMin = 53 * mult51 
+ATT.PhysBulletMuzzleVelocity = 838 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      44 *2.54/100/0.0254
-ATT.PenetrationDelta = 75/100
-ATT.ArmorPiercing =    75/100
+ATT.Penetration =      42 *2.54/100/0.0254
+ATT.PenetrationDelta = 65/100
+ATT.ArmorPiercing =    65/100
 ATT.RicochetChance =   38/100
 
 
-ATT.SpreadMult = 1.06
-ATT.RecoilMult = 0.95
-ATT.VisualRecoilMult = 0.95
-ATT.MalfunctionMeanShotsToFailMult = 0.95
+ATT.SpreadMult = 1.05
+ATT.RecoilMult = 1.01
+ATT.VisualRecoilMult = 1.01
+ATT.MalfunctionMeanShotsToFailMult = 0.988
+ATT.HeatPerShotMult = 1.25
 
 ATT.TracerNum = 1
 ATT.TracerColor = Color(16, 255, 36)
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    79 * mult51     },
+    82 * mult51      },
 
     {   100 /0.0254 * dmgrange, 
-    74.7 * mult51     },
+    77.7 * mult51      },
 
     {   200 /0.0254 * dmgrange, 
-    70.4 * mult51     },
+    73.4 * mult51      },
 
     {   300 /0.0254 * dmgrange, 
-    66 * mult51     },
+    69 * mult51      },
 
     {   400 /0.0254 * dmgrange, 
-    61.6 * mult51     },
+    64.6 * mult51      },
 
     {   500 /0.0254 * dmgrange, 
-    58.2 * mult51     },
+    61.2 * mult51      },
 
     {   600 /0.0254 * dmgrange, 
-    56.3 * mult51     },
+    59.3 * mult51      },
 
     {   700 /0.0254 * dmgrange, 
-    55 * mult51     },
+    58 * mult51      },
 
     {   800 /0.0254 * dmgrange, 
-    54 * mult51     },
+    57 * mult51      },
 
     {   900 /0.0254 * dmgrange, 
-    53.3 * mult51     },
+    56.3 * mult51      },
 
     {   1000 /0.0254 * dmgrange, 
-    53 * mult51     },
+    56 * mult51      },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -261,17 +263,21 @@ ATT.EFTRoundName = "7.62x51mm M80"
 
 ATT.DamageMax = 80 * mult51
 ATT.DamageMin = 53 * mult51
-ATT.PhysBulletMuzzleVelocity = 833 /0.0254
+ATT.PhysBulletMuzzleVelocity = 838 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      41 *2.54/100/0.0254
-ATT.PenetrationDelta = 66/100
-ATT.ArmorPiercing =    66/100
+ATT.Penetration =      43 *2.54/100/0.0254
+ATT.PenetrationDelta = 67/100
+ATT.ArmorPiercing =    67/100
 ATT.RicochetChance =   38/100
 
 
-ATT.MalfunctionMeanShotsToFailMult = 0.97
+ATT.SpreadMult = 1.03
+ATT.RecoilMult = 1.01
+ATT.VisualRecoilMult = 1.01
+ATT.MalfunctionMeanShotsToFailMult = 0.988
+ATT.HeatPerShotMult = 1.1
 
 
 ATT.DamageLookupTable = {
@@ -317,6 +323,82 @@ ATT.Category = {"eft_ammo_762x51"}
 
 ARC9.LoadAttachment(ATT, "eft_ammo_762x51_m80")
 
+///////////////////////////////////////      eft_ammo_762x51_m80a1
+
+
+ATT = {}
+
+ATT.PrintName = "7.62x51mm M80A1"
+ATT.CompactName = "M80A1"
+ATT.Icon = Material("entities/eft_attachments/ammo/762x51/m80.png", "mips smooth")
+ATT.Description = [[A 7.62x51mm NATO M80A1 cartridge with a 124 grain armor-piercing copper jacket bullet with an exposed hardened steel penetrator, in a stainless steel casing. Designed as a replacement for the M80 cartridge to improve the armor penetration and ballistics of the cartridge as part of a program to eliminate the use of lead in small arms ammunition in the U.S. Army. ]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+ATT.ActivateElements = {"76251"}
+
+ATT.EFTRoundName = "7.62x51mm M80A1"
+
+ATT.DamageMax = 73 * mult51
+ATT.DamageMin = 46 * mult51
+ATT.PhysBulletMuzzleVelocity = 899 /0.0254
+ATT.RangeMin = 10
+ATT.RangeMax = 1000 /0.0254 * dmgrange
+
+ATT.Penetration =      60 *2.54/100/0.0254
+ATT.PenetrationDelta = 79/100
+ATT.ArmorPiercing =    79/100
+ATT.RicochetChance =   38/100
+
+
+ATT.SpreadMult = 1.01
+ATT.RecoilMult = 1.04
+ATT.VisualRecoilMult = 1.04
+ATT.MalfunctionMeanShotsToFailMult = 0.95
+ATT.HeatPerShotMult = 1.35
+
+
+ATT.DamageLookupTable = {
+    {   10/0.0254 * dmgrange, 
+    73 * mult51     },
+
+    {   100 /0.0254 * dmgrange, 
+    68.7 * mult51     },
+
+    {   200 /0.0254 * dmgrange, 
+    64.7 * mult51     },
+
+    {   300 /0.0254 * dmgrange, 
+    60.5 * mult51     },
+
+    {   400 /0.0254 * dmgrange, 
+    56.3 * mult51     },
+
+    {   500 /0.0254 * dmgrange, 
+    52.5 * mult51     },
+
+    {   600 /0.0254 * dmgrange, 
+    50.3 * mult51     },
+
+    {   700 /0.0254 * dmgrange, 
+    48.88 * mult51     },
+
+    {   800 /0.0254 * dmgrange, 
+    47.8 * mult51     },
+
+    {   900 /0.0254 * dmgrange, 
+    47 * mult51     },
+
+    {   1000 /0.0254 * dmgrange, 
+    46 * mult51     },
+}
+
+ATT.Category = {"eft_ammo_762x51"}
+
+
+ARC9.LoadAttachment(ATT, "eft_ammo_762x51_m80a1")
+
 
 ///////////////////////////////////////      eft_ammo_762x51_m993
 
@@ -335,57 +417,57 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm M993"
 
-ATT.DamageMax = 67 * mult51
-ATT.DamageMin = 43 * mult51
-ATT.PhysBulletMuzzleVelocity = 910 /0.0254
+ATT.DamageMax = 70 * mult51
+ATT.DamageMin = 46 * mult51
+ATT.PhysBulletMuzzleVelocity = 930 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
-ATT.Penetration =      70 *2.54/100/0.0254
+ATT.Penetration =      65 *2.54/100/0.0254
 ATT.PenetrationDelta = 85/100
 ATT.ArmorPiercing =    85/100
 ATT.RicochetChance =   28/100
 
 
-ATT.SpreadMult = 0.95
-ATT.RecoilMult = 1.08
-ATT.VisualRecoilMult = 1.08
-ATT.MalfunctionMeanShotsToFailMult = 0.9
+ATT.SpreadMult = 0.96
+ATT.RecoilMult = 1.06
+ATT.VisualRecoilMult = 1.06
+ATT.MalfunctionMeanShotsToFailMult = 0.935
+ATT.HeatPerShotMult = 1.5
 
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    67 * mult51     },
+    70 * mult51     },
 
     {   100 /0.0254 * dmgrange, 
-    63 * mult51     },
+    66 * mult51  },
 
     {   200 /0.0254 * dmgrange, 
-    59.5 * mult51     },
+    62.5 * mult51   },
 
     {   300 /0.0254 * dmgrange, 
-    55.75 * mult51     },
+    58.75 * mult51   },
 
     {   400 /0.0254 * dmgrange, 
-    52 * mult51     },
+    55 * mult51     },
 
     {   500 /0.0254 * dmgrange, 
-    48.6 * mult51     },
+    51.6 * mult51     },
 
     {   600 /0.0254 * dmgrange, 
-    44.63 * mult51     },
+    47.63 * mult51     },
 
     {   700 /0.0254 * dmgrange, 
-    44.6 * mult51     },
+    47.6 * mult51   },
 
     {   800 /0.0254 * dmgrange, 
-    44 * mult51     },
-
+    47 * mult51 },
     {   900 /0.0254 * dmgrange, 
-    44 * mult51     },
+    47 * mult51      },
 
     {   1000 /0.0254 * dmgrange, 
-    43 * mult51     },
+    46 * mult51      },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
@@ -414,9 +496,9 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm TCW SP"
 
-ATT.DamageMax = 87 * mult51
-ATT.DamageMin = 46 * mult51
-ATT.PhysBulletMuzzleVelocity = 808 /0.0254
+ATT.DamageMax = 85 * mult51
+ATT.DamageMin = 44 * mult51
+ATT.PhysBulletMuzzleVelocity = 771 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
@@ -426,44 +508,45 @@ ATT.ArmorPiercing =    25/100
 ATT.RicochetChance =   50/100
 
 
-ATT.SpreadMult = 1.08
-ATT.RecoilMult = 0.95
-ATT.VisualRecoilMult = 0.95
+ATT.SpreadMult = 1.01
+ATT.RecoilMult = 0.97
+ATT.VisualRecoilMult = 0.97
+ATT.HeatPerShotMult = 0.85
 
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    87 * mult51     },
+    85 * mult51      },
 
     {   100 /0.0254 * dmgrange, 
-    81 * mult51     },
+    79 * mult51      },
 
     {   200 /0.0254 * dmgrange, 
-    80.2 * mult51     },
+    78.2 * mult51      },
 
     {   300 /0.0254 * dmgrange, 
-    76.6 * mult51     },
+    74.6 * mult51      },
 
     {   400 /0.0254 * dmgrange, 
-    73 * mult51     },
+    71 * mult51      },
 
     {   500 /0.0254 * dmgrange, 
-    69 * mult51     },
+    67 * mult51      },
 
     {   600 /0.0254 * dmgrange, 
-    65.5 * mult51     },
+    63.5 * mult51      },
 
     {   700 /0.0254 * dmgrange, 
-    63.4 * mult51     },
+    61.4 * mult51      },
 
     {   800 /0.0254 * dmgrange, 
-    62 * mult51     },
+    60 * mult51      },
 
     {   900 /0.0254 * dmgrange, 
-    60.8 * mult51     },
+    58.8 * mult51     },
 
     {   1000 /0.0254 * dmgrange, 
-    60 * mult51     },
+    58 * mult51     },
 }
 
 ATT.Category = {"eft_ammo_762x51"}
@@ -489,56 +572,56 @@ ATT.ActivateElements = {"76251"}
 
 ATT.EFTRoundName = "7.62x51mm Ultra Nosler"
 
-ATT.DamageMax = 107 * mult51
-ATT.DamageMin = 72.4 * mult51
-ATT.PhysBulletMuzzleVelocity = 822 /0.0254
+ATT.DamageMax = 105 * mult51
+ATT.DamageMin = 70.4 * mult51
+ATT.PhysBulletMuzzleVelocity = 823 /0.0254
 ATT.RangeMin = 10
 ATT.RangeMax = 1000 /0.0254 * dmgrange
 
 ATT.Penetration =      15 *2.54/100/0.0254
-ATT.PenetrationDelta = 20/100
-ATT.ArmorPiercing =    20/100
+ATT.PenetrationDelta = 40/100
+ATT.ArmorPiercing =    40/100
 ATT.RicochetChance =   20/100
 
-ATT.SpreadMult = 0.9
+ATT.SpreadMult = 0.95
 ATT.RecoilMult = 0.95
 ATT.VisualRecoilMult = 0.95
-ATT.MalfunctionMeanShotsToFailMult = 0.986
+ATT.HeatPerShotMult = 0.9
 
 
 ATT.DamageLookupTable = {
     {   10/0.0254 * dmgrange, 
-    107 * mult51     },
+    105 * mult51     },
 
     {   100 /0.0254 * dmgrange, 
-    102 * mult51     },
+    100 * mult51     },
 
     {   200 /0.0254 * dmgrange, 
-    97 * mult51     },
+    95 * mult51     },
 
     {   300 /0.0254 * dmgrange, 
-    92.1 * mult51     },
+    90.1 * mult51     },
 
     {   400 /0.0254 * dmgrange, 
-    87 * mult51     },
+    85 * mult51     },
 
     {   500 /0.0254 * dmgrange, 
-    81.7 * mult51     },
+    79.7 * mult51     },
 
     {   600 /0.0254 * dmgrange, 
-    78.3 * mult51     },
+    76.3 * mult51     },
 
     {   700 /0.0254 * dmgrange, 
-    76.1 * mult51     },
+    74.1 * mult51     },
 
     {   800 /0.0254 * dmgrange, 
-    74.6 * mult51     },
+    72.6 * mult51     },
 
     {   900 /0.0254 * dmgrange, 
-    73.4 * mult51     },
+    71.4 * mult51     },
 
     {   1000 /0.0254 * dmgrange, 
-    72.4 * mult51     },
+    70.4 * mult51     },
 }
 
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m

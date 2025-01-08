@@ -1299,3 +1299,64 @@ ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_bgv_qditi_fde")
+
+
+
+
+///////////////////////////////////////      eft_foregrip_mlok_mod3
+
+
+ATT = {}
+
+ATT.PrintName = "BCM GUNFIGHTER MOD 3 M-LOK foregrip"
+ATT.CompactName = "MOD 3"
+ATT.Description = [[A lightweight polymer tactical foregrip. Mounted on handguards with M-LOK interface. Manufactured by Bravo Company Manufacturing. Black color version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/mod3mlok.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_bcm3_mlok.mdl"
+ATT.ModelSkin = 0
+
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_mlok"
+ATT.ModelAngleOffset = Angle(0, 90, 90)
+-- ATT.ModelOffset = Vector(1.2, 0, 0)
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_mlok_mod3")
+
+///////////////////////////////////////      eft_foregrip_mlok_mod3f
+
+
+ATT = {}
+
+ATT.PrintName = "BCM GUNFIGHTER MOD 3 M-LOK foregrip (FDE)"
+ATT.CompactName = "MOD 3"
+ATT.Description = [[A lightweight polymer tactical foregrip. Mounted on handguards with M-LOK interface. Manufactured by Bravo Company Manufacturing. Flat bark earth color version.]]
+ATT.Icon = Material("entities/eft_attachments/foregrips/mod3mlokf.png", "mips smooth")
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_bcm3_mlok.mdl"
+ATT.ModelSkin = 1
+
+ATT.LHIK_Priority = 2
+ATT.LHIK = true
+
+ATT.EFTErgoAdd = 6
+ATT.CustomPros = { Ergonomics = "+6" }
+ATT.RecoilMult = 0.99
+ATT.VisualRecoilMult = 0.99
+
+ATT.SortOrder = 0
+ATT.Category = "eft_foregrip_mlok"
+ATT.ModelAngleOffset = Angle(0, 90, 90)
+-- ATT.ModelOffset = Vector(1.2, 0, 0)
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ARC9.LoadAttachment(ATT, "eft_foregrip_mlok_mod3f")
