@@ -110,6 +110,7 @@ if SERVER then
     util.AddNetworkString("arc9eftmissingparts")
     util.AddNetworkString("arc9eftmagcheck")
     util.AddNetworkString("arc9eftquestionnotif")
+    util.AddNetworkString("arc9eftbadtripwire")
 else
     matproxy.Add({
         name = "ARC9_EFT_FAKEAMMO",
@@ -132,7 +133,8 @@ else
         end
     })
 
-    if !ARC9.ScreenScale then ARC9.ScreenScale = function(size) return size * (ScrW() / 640) * GetConVar("arc9_hud_scale"):GetFloat() end end
+    -- if !ARC9.ScreenScale then ARC9.ScreenScale = function(size) return size * (ScrW() / 640) * GetConVar("arc9_hud_scale"):GetFloat() end end
+    local function ss(size) return size * (ScrW() / 640) * GetConVar("arc9_hud_scale"):GetFloat() end
 
     local jammed = false
     local glowmat = Material("vgui/arc9_eft_shared/glow_particle.png", "mips smooth")
@@ -171,21 +173,21 @@ else
         end
     end)
 
-    surface.CreateFont("eftnotiffont", { font = "Bender", size = ARC9.ScreenScale(6), weight = 550, blursize = ARC9.ScreenScale(0.3), antialias = true, extended = true })
-    surface.CreateFont("eftammocount", { font = "Bender", size = ARC9.ScreenScale(12), weight = 550, blursize = ARC9.ScreenScale(0.3), antialias = true, extended = true })
-    surface.CreateFont("eftammotype", { font = "Bender", size = ARC9.ScreenScale(7), weight = 550, blursize = ARC9.ScreenScale(0.3), antialias = true, extended = true })
+    surface.CreateFont("eftnotiffont", { font = "Bender", size = ss(6), weight = 550, blursize = ss(0.3), antialias = true, extended = true })
+    surface.CreateFont("eftammocount", { font = "Bender", size = ss(12), weight = 550, blursize = ss(0.3), antialias = true, extended = true })
+    surface.CreateFont("eftammotype", { font = "Bender", size = ss(7), weight = 550, blursize = ss(0.3), antialias = true, extended = true })
 
     local function makeeftnotif(text, icon)
         local notif = vgui.Create("DPanel", GetHUDPanel())
-        notif:SetPos(ScrW() - ARC9.ScreenScale(166.5), ScrH())
-        notif:SetSize(ARC9.ScreenScale(166.5), ARC9.ScreenScale(9))
+        notif:SetPos(ScrW() - ss(166.5), ScrH())
+        notif:SetSize(ss(166.5), ss(9))
         notif:SetAlpha(0)
         
-        notif:MoveTo(ScrW() - ARC9.ScreenScale(166.5), ScrH() - ARC9.ScreenScale(10), 0.25, 0.5, 1, nil) -- in
+        notif:MoveTo(ScrW() - ss(166.5), ScrH() - ss(10), 0.25, 0.5, 1, nil) -- in
         notif:AlphaTo(255, 0.3, 0.5, nil) -- in
 
         notif:AlphaTo(0, 0.2, 2.5, nil) -- out
-        notif:MoveTo(ScrW() - ARC9.ScreenScale(166.5), ScrH(), 0.25, 2.5, 1, function() notif:Remove() end) -- out
+        notif:MoveTo(ScrW() - ss(166.5), ScrH(), 0.25, 2.5, 1, function() notif:Remove() end) -- out
 
         notif:MoveToBack()
 
@@ -194,9 +196,9 @@ else
             surface.DrawRect(0, 0, w, h)
             surface.SetDrawColor(255, 255, 255, 255)
             surface.SetMaterial(icon)
-            surface.DrawTexturedRect(ARC9.ScreenScale(2), 0, h, h)
+            surface.DrawTexturedRect(ss(2), 0, h, h)
             surface.SetFont("eftnotiffont")
-            surface.SetTextPos(ARC9.ScreenScale(13), ARC9.ScreenScale(1.4))
+            surface.SetTextPos(ss(13), ss(1.4))
             surface.SetTextColor(255, 255, 255, 255)
             surface.DrawText(text)
         end
@@ -205,13 +207,13 @@ else
     local function makeeftmagcheck(text, ammotype)
         ammotype = ammotype or "???"
         surface.SetFont("eftammocount")
-        local tw = surface.GetTextSize(text) + ARC9.ScreenScale(10)
+        local tw = surface.GetTextSize(text) + ss(10)
         surface.SetFont("eftammotype")
-        local tw2 = surface.GetTextSize(ammotype) + ARC9.ScreenScale(10)
+        local tw2 = surface.GetTextSize(ammotype) + ss(10)
 
         local notif = vgui.Create("DPanel", GetHUDPanel())
-        notif:SetPos(ScrW() - ARC9.ScreenScale(25+5) - math.max(tw, tw2), ScrH() - ARC9.ScreenScale(40))
-        notif:SetSize(math.max(tw, tw2), ARC9.ScreenScale(13+13))
+        notif:SetPos(ScrW() - ss(25+5) - math.max(tw, tw2), ScrH() - ss(40))
+        notif:SetSize(math.max(tw, tw2), ss(13+13))
         notif:SetAlpha(0)
         
         notif:AlphaTo(255, 0.3, 0.1, nil) -- in
@@ -225,16 +227,16 @@ else
             surface.DrawRect(w-tw, 0, tw, h * 0.5)
             
             surface.SetFont("eftammocount")
-            surface.SetTextPos(w - tw + ARC9.ScreenScale(5), ARC9.ScreenScale(0.5))
+            surface.SetTextPos(w - tw + ss(5), ss(0.5))
             surface.SetTextColor(255, 255, 255, 255)
             surface.DrawText(text)
 
             surface.SetDrawColor(255, 255, 255, 255)
             surface.SetMaterial(magcheckmat)
-            surface.DrawTexturedRect(w - tw2, ARC9.ScreenScale(16.67), ARC9.ScreenScale(6), ARC9.ScreenScale(6))
+            surface.DrawTexturedRect(w - tw2, ss(16.67), ss(6), ss(6))
 
             surface.SetFont("eftammotype")
-            surface.SetTextPos(w - tw2 + ARC9.ScreenScale(7.5), ARC9.ScreenScale(16))
+            surface.SetTextPos(w - tw2 + ss(7.5), ss(16))
             surface.SetTextColor(214, 214, 214)
             surface.DrawText(ammotype)
         end
@@ -251,10 +253,10 @@ else
     function ARC9EFTdrawnumber(num)
         num = tostring(num)
         surface.SetFont("eftammocount")
-        local tw = surface.GetTextSize(num) + ARC9.ScreenScale(10)
+        local tw = surface.GetTextSize(num) + ss(10)
 
-        numpanel:SetPos(ScrW() - ARC9.ScreenScale(30) - tw, ScrH() - ARC9.ScreenScale(40))
-        numpanel:SetSize(tw, ARC9.ScreenScale(28))
+        numpanel:SetPos(ScrW() - ss(30) - tw, ScrH() - ss(40))
+        numpanel:SetSize(tw, ss(28))
         
         numpanel:AlphaTo(255, 0.3, 0, nil) -- in
         timer.Create("arc9eftnumpanel", 3, 1, function() numpanel:AlphaTo(0, 0.2, 0, nil) end) -- out
@@ -266,7 +268,7 @@ else
             surface.DrawRect(w-tw, 0, tw, h * 0.5)
             
             surface.SetFont("eftammocount")
-            surface.SetTextPos(w - tw + ARC9.ScreenScale(5), ARC9.ScreenScale(0.5))
+            surface.SetTextPos(w - tw + ss(5), ss(0.5))
             surface.SetTextColor(255, 255, 255, 255)
             surface.DrawText(num)
         end
@@ -284,13 +286,19 @@ else
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
         makeeftnotif(ARC9:GetPhrase("eft_hud_missing"), jammat)
         timer.Simple(1.2, function() jammed = false end)
-    end)   
+    end)
 
     net.Receive("arc9eftquestionnotif", function(len)
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
         makeeftnotif("???", magcheckmat)
         timer.Simple(1.2, function() jammed = false end)
-    end)    
+    end)
+
+    net.Receive("arc9eftbadtripwire", function(len)
+        surface.PlaySound("arc9_eft_shared/notification_exp.ogg")
+        makeeftnotif(ARC9:GetPhrase("eft_hud_badtrip"), jammat)
+        timer.Simple(1.2, function() jammed = false end)
+    end)
     
     net.Receive("arc9eftmagcheck", function(len)
         local checktype = net.ReadBool()

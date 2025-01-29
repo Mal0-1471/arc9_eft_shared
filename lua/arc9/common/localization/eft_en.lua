@@ -146,6 +146,7 @@ L["eft_hud_eject"] = "Failure to eject"
 L["eft_hud_feed"] = "Failure to feed"
 L["eft_hud_bolt"] = "Bolt jammed"
 L["eft_hud_missing"] = "Missing critical parts!"
+L["eft_hud_badtrip"] = "Unable to install tripwire"
 
 
 -- [[ Weapon descs ]] fuckkkkkkkk

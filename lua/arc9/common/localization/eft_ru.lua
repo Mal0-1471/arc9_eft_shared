@@ -144,6 +144,7 @@ L["eft_hud_eject"] = "Неизвлечение гильзы"
 L["eft_hud_feed"] = "Неподача патрона"
 L["eft_hud_bolt"] = "Заклинивание затвора"
 L["eft_hud_missing"] = "Отсутствуют критические части!"
+L["eft_hud_badtrip"] = "Невозможно установить растяжку"
 
 
 -- [[ Weapon descs ]] fuckkkkkkkk
