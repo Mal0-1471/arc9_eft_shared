@@ -29,5 +29,7 @@
             "min" "0"
             "max" "0.05"
         }
+	   "eft_thermal_notranslucent"
+	   { }
      }
 }

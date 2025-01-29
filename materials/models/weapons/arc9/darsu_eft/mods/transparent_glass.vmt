@@ -16,4 +16,10 @@
 	"$envmapfresnel" "0.1"
 	"$normalmapalphaenvmapmask" "0"
 	"$basemapalphaenvmapmask" "1"
+
+	"Proxies"
+	{
+	   "eft_thermal_notranslucent"
+	   { }
+	}
 }
