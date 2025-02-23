@@ -1002,7 +1002,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/scope/eft_scope_ta01.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_scope_trijicon"
+ATT.Category = "eft_scope_compact"
 
 
 ATT.EFTErgoAdd = -2
@@ -1073,7 +1073,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/scope/eft_scope_ta01.mdl"
 ATT.ModelSkin = 1
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_scope_trijicon"
+ATT.Category = "eft_scope_compact"
 
 
 ATT.EFTErgoAdd = -2
@@ -1278,9 +1278,8 @@ ATT.RTScopeBlackBoxShadow = true
 ATT.ScopeScreenRatio = 440/1080
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_walther_mrs_mark_000.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 700
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_walther_mrs_mark_001")
+ATT.HoloSightSize = 600
 ATT.HoloSightColorable = false
 
 
@@ -1514,35 +1513,36 @@ ATT.CustomCons = { Ergonomics = "-3" }
 ATT.FoldSights = true
 
 
-local R0 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_00.png", "mips smooth")
-local R1 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_01.png", "mips smooth")
-local R2 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_02.png", "mips smooth")
-local R3 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_03.png", "mips smooth")
+local R0 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_00")
+local R1 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_01")
+local R2 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_02")
+local R3 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_03")
+
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.7),
+        Pos = Vector(0, 7, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
         Reticle = R0
     },
     {
-        Pos = Vector(0, 10, -1.7),
+        Pos = Vector(0, 7, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
         Reticle = R1
     },
     {
-        Pos = Vector(0, 10, -1.7),
+        Pos = Vector(0, 7, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
         Reticle = R2
     },
     {
-        Pos = Vector(0, 10, -1.7),
+        Pos = Vector(0, 7, -1.7),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
@@ -1551,9 +1551,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_00.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_00")
+ATT.HoloSightSize = 500
 ATT.HoloSightColorable = false
 -- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.1, 1, 2.0)
@@ -1691,7 +1690,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0.2, 10, -0.65),
+        Pos = Vector(0.2, 7, -0.65),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
@@ -1699,9 +1698,10 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_ekb_okp7_TRUE_marks.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_ekb_okp7_TRUE_marks.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(15, 15, 1)) -- bright color
+ATT.HoloSightSize = 376
 ATT.HoloSightColorable = false
 ATT.HoloSightDepthAdjustment = -0.0035
 ATT.ModelOffset = Vector(-2.4, 0.97, 2.05)
@@ -1739,7 +1739,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.75),
+        Pos = Vector(0, 7, -1.75),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
@@ -1747,9 +1747,10 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_npz_pk_1_mark.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_dovetail_npz_pk_1_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(15, 15, 15)) -- bright color
+ATT.HoloSightSize = 570
 ATT.HoloSightColorable = false
 -- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.4, 0.97, 2.05)
@@ -1789,7 +1790,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(-0.1, 10, -0.75),
+        Pos = Vector(-0.1, 7, -0.75),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
@@ -1797,9 +1798,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_dovetail_belomo_pk_aa_mark.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_walther_mrs_mark_001")
+ATT.HoloSightSize = 620
 ATT.HoloSightColorable = false
 -- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.4, 0.97, 2.05)
@@ -3583,35 +3583,35 @@ ATT.CustomCons = { Ergonomics = "-3" }
 ATT.FoldSights = true
 
 
-local R0 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_00.png", "mips smooth")
-local R1 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_01.png", "mips smooth")
-local R2 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_02.png", "mips smooth")
-local R3 = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_03.png", "mips smooth")
+local R0 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_00a")
+local R1 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_01a")
+local R2 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_02a")
+local R3 = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_03a")
 
 ATT.Sights = {
     {
-        Pos = Vector(-0.145, 10, -1.2),
+        Pos = Vector(-0.145, 7, -1.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
         Reticle = R0
     },
     {
-        Pos = Vector(-0.145, 10, -1.2),
+        Pos = Vector(-0.145, 7, -1.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
         Reticle = R1
     },
     {
-        Pos = Vector(-0.145, 10, -1.2),
+        Pos = Vector(-0.145, 7, -1.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
         Reticle = R2
     },
     {
-        Pos = Vector(-0.145, 10, -1.2),
+        Pos = Vector(-0.145, 7, -1.2),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 57,
@@ -3620,9 +3620,8 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_aksion_ekp_8_18_marks_00.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 350
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_00a")
+ATT.HoloSightSize = 600
 ATT.HoloSightColorable = false
 -- ATT.HoloSightDepthAdjustment = 0.01
 ATT.ModelOffset = Vector(-2.1, 1, 2.0)
@@ -3854,7 +3853,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
 }
 
 ATT.RTScopeCustomPPFunc = function(swep)
-    DrawMotionBlur(0.95, 1, 1/21)
+    -- DrawMotionBlur(0.95, 1, 1/21)
     DrawBloom(0.16, 2, 5.5, 5.5, 0, 0.1, 71/255, 1, 93/255)
 
     -- DrawSharpen(4, 0.6)

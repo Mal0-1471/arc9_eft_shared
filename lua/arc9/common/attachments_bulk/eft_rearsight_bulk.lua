@@ -81,12 +81,6 @@ ATT.Sights = {
     }
 }
 
-ATT.HoloSight = false
-ATT.HoloSightReticle = Material("arc9/eotech.png", "mips smooth")
-ATT.HoloSightReticle:SetInt("$additive", 1)
-ATT.HoloSightSize = 800
-ATT.HoloSightColorable = true
-
 
 ARC9.LoadAttachment(ATT, "eft_rearsight_kac")
 

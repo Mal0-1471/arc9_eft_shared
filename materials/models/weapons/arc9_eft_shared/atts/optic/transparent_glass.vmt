@@ -1,11 +1,11 @@
 "VertexlitGeneric"
 {
 	// blehhhhhhhh i dont want recompile every model why me dumbass compiled models with mal0 path
-	"$basetexture" "models/weapons/arc9/darsu_eft/mods/glass"
+	"$basetexture" "models/weapons/arc9/darsu_eft/mods/glass2"
 	
 	"$bumpmap" "models/weapons/arc9/darsu_eft/mods/glass_nrm"
 	"$translucent" 1
-	
+
 	"$phong" "1"
 	"$phongboost" "10"
 	"$phongalbedotint" "1"
@@ -17,4 +17,16 @@
 	"$envmapfresnel" "0.1"
 	"$normalmapalphaenvmapmask" "0"
 	"$basemapalphaenvmapmask" "1"
+
+	"Proxies"
+	{
+	   "eft_thermal_notranslucent"
+	   { }
+    	"Arc9EnvMapTint"
+        {
+            "specularity" "0.5"
+            "min" "0"
+            "max" "0.5"
+        }
+	}
 }

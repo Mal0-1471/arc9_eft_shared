@@ -818,7 +818,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.Attachments = {
     {
         PrintName = "Scopes",
-        Category = {"eft_scope_trijicon"},
+        Category = {"eft_scope_compact"},
         Pos = Vector(0.8, 0, -0.1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-1, 0, 1.5),

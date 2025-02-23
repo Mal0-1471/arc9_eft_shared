@@ -1,0 +1,24 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui\arc9_eft_shared\reticles\new\scope_all_walther_mrs_mark_003"
+
+	"$color2" "[4 12 12]"
+	"$additive" "1"
+	"$translucent" "1"
+
+	$detail "vgui\arc9_eft_shared\reticles\new\cloud22"
+	$detailscale 0.8
+	$detailblendfactor 1
+	$detailblendmode 8
+	$detailframe 1
+
+	"Proxies"
+     {
+		"AnimatedTexture"
+		{
+			"animatedTextureVar"  "$detail"
+			"animatedTextureFrameNumVar"  "$detailframe"
+			"animatedTextureFrameRate"  43
+		}
+     }
+}
