@@ -98,7 +98,7 @@ ATT.Attachments = {
         Pos = Vector(0, -0, -0.14),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -230,7 +230,7 @@ ATT.Attachments = {
         Pos = Vector(-0.00, -0, -0.1),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -373,7 +373,7 @@ ATT.Attachments = {
         Pos = Vector(-0.06, -0, -0.115),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -406,7 +406,7 @@ ATT.Attachments = {
         Pos = Vector(0.105, -0, -0.18),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -439,7 +439,7 @@ ATT.Attachments = {
         Pos = Vector(-0.00, -0, -0.385),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -508,7 +508,7 @@ ATT.Attachments = {
         Pos = Vector(-0.00, -0, -0.9),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -580,7 +580,7 @@ ATT.Attachments = {
         Pos = Vector(0.115, -0, -0.18),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -685,7 +685,7 @@ ATT.Attachments = {
         Pos = Vector(-0.5, 0, -0.75),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -750,7 +750,7 @@ ATT.Attachments = {
         Pos = Vector(0.14, -0, -0.77),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
@@ -783,7 +783,7 @@ ATT.Attachments = {
         Pos = Vector(0, -0, -0.25),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0.2),
+        Icon_Offset = Vector(0, 0, 1),
     },
 }
 
