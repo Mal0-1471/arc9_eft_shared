@@ -1002,7 +1002,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9_eft_shared/atts/scope/eft_scope_ta01.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_scope_compact"
+ATT.Category = {"eft_scope_trijicon", "eft_scope_compact"}
 
 
 ATT.EFTErgoAdd = -2
@@ -1073,7 +1073,7 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/scope/eft_scope_ta01.mdl"
 ATT.ModelSkin = 1
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_scope_compact"
+ATT.Category = {"eft_scope_trijicon", "eft_scope_compact"}
 
 
 ATT.EFTErgoAdd = -2
