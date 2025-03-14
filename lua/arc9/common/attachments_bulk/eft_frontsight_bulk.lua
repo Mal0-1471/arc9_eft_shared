@@ -297,9 +297,9 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
-        model:SetBodygroup(1, 1)
+        model:SetBodygroup(0, 1)
     else
-        model:SetBodygroup(1, 0)
+        model:SetBodygroup(0, 0)
     end
 end
 

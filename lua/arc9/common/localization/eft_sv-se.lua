@@ -29,12 +29,12 @@ L["eft_trivia_country_germ"] = "Tyskland"
 L["eft_trivia_country_italy"] = "Italien"
 
 -- [[ Weapon Categories ]]
-L["eft_subcat_carb"] = "Karbingevär"
-L["eft_subcat_ar"] = "Automatkarbiner"
-L["eft_subcat_sg"] = "Hagelbössor"
-L["eft_subcat_snip"] = "Krypskytte-/Marksman-Gevär"
-L["eft_subcat_smg"] = "Kulsprutepistoler"
-L["eft_subcat_pist"] = "Pistoler"
+L["eft_subcat_carb"] = "5Karbingevär"
+L["eft_subcat_ar"] = "1Automatkarbiner"
+L["eft_subcat_sg"] = "6Hagelbössor"
+L["eft_subcat_snip"] = "4Krypskytte-/Marksman-Gevär"
+L["eft_subcat_smg"] = "2Kulsprutepistoler"
+L["eft_subcat_pist"] = "7Pistoler"
 
 -- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Enkelskottsgevär"

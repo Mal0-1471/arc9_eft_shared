@@ -424,16 +424,16 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
-        model:SetBodygroup(1, 1)
+        model:SetBodygroup(0, 1)
     else
-        model:SetBodygroup(1, 0)
+        model:SetBodygroup(0, 0)
     end
 end
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.5, -1.345),
-        Ang = Angle(0, 0.35, 0),
+        Pos = Vector(0, 7.5, -1.34),
+        Ang = Angle(0, -0, 0),
         Magnification = 1.1,
         ViewModelFOV = 53,
         IsIronSight = true

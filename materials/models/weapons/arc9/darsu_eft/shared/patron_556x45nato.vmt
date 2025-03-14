@@ -7,8 +7,8 @@
 	"$bumpmap" "models/weapons/arc9/darsu_eft/shared/patron_556x45nato_nrm"
 	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/shared/patron_556x45nato_gloss"
 	"$phong"		"1"
-	"$phongboost"	"16"
-	// "$phongexponent"	"8"
+	"$phongboost"	"4"
+	// "$phongexponent"	"33"
 	// "$blendtintbybasealpha"	"1"
 	"$phongtint"		"[0.2 0.1 0.05]"
 	"$phongalbedotint"		"1"
@@ -20,7 +20,7 @@
 	"$envmap"	"arc9/shared/envmaps/specularity_50"
 
 	"$envmaptint" "[0.3 0.3 0.3]"
-	"$color2" "[0.5 0.5 0.45]"
+	"$color2" "[0.55 0.5 0.4]"
 
 	"Proxies"
      {
