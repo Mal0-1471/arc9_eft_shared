@@ -37,7 +37,7 @@ L["eft_trivia_country_italy"] = "Италия"
 -- [[ Weapon Categories ]]
 L["eft_subcat_carb"] = "5Штурмовые карабины"
 L["eft_subcat_ar"] = "1Штурмовые винтовки"
-L["eft_subcat_sg"] = " 6Дробовики"
+L["eft_subcat_sg"] = "6Дробовики"
 L["eft_subcat_snip"] = "4Снайперские и марксманские винтовки"
 L["eft_subcat_smg"] = "2Пистолеты-пулеметы"
 L["eft_subcat_lmg"] = "3Пулеметы"
