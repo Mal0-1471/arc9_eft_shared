@@ -61,17 +61,17 @@ SWEP.AnimDraw = ACT_HL2MP_GESTURE_RANGE_ATTACK_SHOTGUN
 SWEP.NonTPIKAnimReload = ACT_HL2MP_GESTURE_RELOAD_AR2 -- Non TPIK
 
 SWEP.HoldType = "rpg"
-SWEP.HoldTypeSprint = "rpg"
-SWEP.HoldTypeHolstered = "rpg"
+SWEP.HoldTypeSprint = "passive"
+SWEP.HoldTypeHolstered = "passive"
 SWEP.HoldTypeSights = "rpg"
-SWEP.HoldTypeCustomize = "physgun"
+SWEP.HoldTypeCustomize = "slam"
 
 if GetConVar("arc9_eft_nontpik_mode"):GetBool() then
     SWEP.HoldType = "ar2"
     SWEP.HoldTypeSprint = "passive"
     SWEP.HoldTypeHolstered = "passive"
     SWEP.HoldTypeSights = "rpg"
-    SWEP.HoldTypeCustomize = "physgun"
+    SWEP.HoldTypeCustomize = "slam"
 end
 
 SWEP.ActivePos = Vector(-0.7, -3.1, -.35)
