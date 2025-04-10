@@ -557,6 +557,7 @@ ATT.HeatCapacityMult = 0.85
 ATT.PhysBulletMuzzleVelocityMult = 1.01
 
 ATT.Category = {"eft_ar10_qdc_muzzle"}
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_silencer_ar10_prsqdc")
 

@@ -55,6 +55,8 @@ ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
+ATT.AdvancedCamoSupport = true
+
 ARC9.LoadAttachment(ATT, "eft_ar_stock_ak12")
 
 
@@ -139,6 +141,7 @@ ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Magpul"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_ctr")
 
@@ -169,6 +172,7 @@ ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Folder = "Magpul"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_ctrf")
 
@@ -425,6 +429,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_m4ss")
 
@@ -769,6 +774,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_ripstop")
 
@@ -825,6 +831,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_slim")
 
@@ -853,6 +860,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_sopmod")
 
@@ -949,6 +957,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_ddecb")
 
@@ -987,6 +996,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_stock_ddecb_f")
 

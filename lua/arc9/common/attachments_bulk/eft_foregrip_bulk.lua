@@ -144,6 +144,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_ash12")
 
@@ -173,6 +174,7 @@ ATT.SortOrder = 0
 ATT.Category = {"eft_foregrip_small", "eft_foregrip_b25u"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_b25u")
 
@@ -318,6 +320,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_cobra")
 
@@ -348,6 +351,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_large"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_cqr")
 
@@ -376,6 +380,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_fortis")
 
@@ -673,6 +678,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_rk1")
 
@@ -702,6 +708,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_rk2")
 
@@ -846,6 +853,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_rvg")
 
@@ -876,6 +884,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_rvg_fde")
 
@@ -904,6 +913,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_se5")
 
@@ -1044,6 +1054,8 @@ ATT.VisualRecoilMult = 0.98
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_foregrip_se5_fde")
 

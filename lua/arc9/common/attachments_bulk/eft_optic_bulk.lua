@@ -1356,6 +1356,7 @@ ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_optic_srs02")
 
@@ -1587,6 +1588,7 @@ ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_optic_uh1")
 
@@ -1714,6 +1716,7 @@ ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_optic_xps3_0")
 
@@ -1760,6 +1763,7 @@ ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+ATT.AdvancedCamoSupport = "eft_optic_xps3_0"
 
 ARC9.LoadAttachment(ATT, "eft_optic_xps3_2")
 
@@ -1883,6 +1887,7 @@ ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_optic_elcan_hco")
 

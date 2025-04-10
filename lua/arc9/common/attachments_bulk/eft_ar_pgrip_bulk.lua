@@ -22,6 +22,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_colta2")
 
@@ -173,6 +174,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_grals")
 
@@ -273,6 +275,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_hkbgbeav")
 
@@ -477,6 +480,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_mcx")
 
@@ -528,6 +532,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_moe")
 
@@ -554,6 +559,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_moefde")
 
@@ -579,6 +585,7 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_psg1")
 

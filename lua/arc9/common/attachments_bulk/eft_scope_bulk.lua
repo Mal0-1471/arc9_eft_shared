@@ -2189,6 +2189,7 @@ ATT.RTScopeBlackBoxShadow = true
 
 ATT.ScopeScreenRatio = 623/1080
 
+ATT.AdvancedCamoSupport = true
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_elcan")
@@ -2268,6 +2269,7 @@ ATT.RTScopeBlackBoxShadow = true
 ATT.ScopeScreenRatio = 623/1080
 
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_scope_elcan_fde")
 
@@ -3042,6 +3044,7 @@ ATT.RTScopeBlackBoxShadow = true
 
 ATT.ScopeScreenRatio = 713/1080
 
+ATT.AdvancedCamoSupport = true
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_valday_ps320")
