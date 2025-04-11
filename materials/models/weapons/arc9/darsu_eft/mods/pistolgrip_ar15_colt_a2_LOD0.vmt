@@ -20,8 +20,12 @@
     "$color2"           "[0.88 0.88 0.88]"
     
     "$detailblendmode" "4"
-    "$detailblendfactor" "1"
+    "$detailblendfactor" "0.5"
+    "$detailscale" "0.75"
 
+    "$attname" eft_ar_pgrip_colta2
+    "$detailangle" -30
+    
     "Proxies"
     {
         "Arc9EnvMapTint"
@@ -34,10 +38,18 @@
         "Arc9CustomCamoAdvanced" 
         {
             "camoTexture" $detail
+            "camoScale" $detailscale
+            "camoAngle" $detailangle
+            "camoBlendMode" $detailblendmode
+            "camoBlendFactor" $detailblendfactor
             "phonk" $phongboost
-            "attName" "eft_ar_pgrip_colta2"
             "color" "[0.99 0.99 0.99]"
         }
 
+        "TextureTransform"
+        {
+            "rotateVar" "$detailangle"
+            "resultVar" "$detailtexturetransform"
+        }
     }
 }

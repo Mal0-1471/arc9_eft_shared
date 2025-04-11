@@ -21,7 +21,11 @@
     
     "$detailblendmode" "4"
     "$detailblendfactor" "1"
+    "$detailscale" "0.75"
 
+    "$detailangle" 0.0
+    "$attname" eft_foregrip_rvg
+    
     "Proxies"
     {
         "Arc9EnvMapTint"
@@ -34,10 +38,18 @@
         "Arc9CustomCamoAdvanced" 
         {
             "camoTexture" $detail
+            "camoScale" $detailscale
+            "camoAngle" $detailangle
+            "camoBlendMode" $detailblendmode
+            "camoBlendFactor" $detailblendfactor
             "phonk" $phongboost
-            "attName" "eft_foregrip_rvg"
             "color" "[0.99 0.99 0.99]"
         }
 
+        "TextureTransform"
+        {
+            "rotateVar" "$detailangle"
+            "resultVar" "$detailtexturetransform"
+        }
     }
 }
