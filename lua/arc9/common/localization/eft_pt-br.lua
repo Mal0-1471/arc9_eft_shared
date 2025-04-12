@@ -83,7 +83,7 @@ L["eft_subcat_melee"] = "9" .. eftstring["APCFilter/Melee"]
 L["eft_subcat_grenades"] = "8" .. eftstring["Arena/Presets/Tooltips/Grenade"] .. " & " .. eftstring["APCFilter/GrenadeLauncher"]
 
 -- [[ Weapon Classes ]] - Need to be edited manually
-L["eft_class_weapon_singleshot"] = "Single-shot Rifle"
+L["eft_class_weapon_singleshot"] = "Rifle de tiro único"
 L["eft_class_weapon_boltsg"] = "Bolt-action Shotgun"
 L["eft_class_weapon_pist"] = "Pistol"
 L["eft_class_weapon_revol"] = "Revolver"
