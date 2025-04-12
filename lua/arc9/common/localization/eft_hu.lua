@@ -1,58 +1,58 @@
 L = {}
 
 //////////////////////////////////////////////////////////////////////
-///////////////////////////// Escape from Tarkov Localization File - English
+///////////////////////////// Escape from Tarkov Localization File - Hungarian
 
-IncludeCS("EFTStrings/en.lua") -- Localization file from EFT
+IncludeCS("EFTStrings/hu.lua") -- Localization file from EFT
 IncludeCS("a-eftbulk.lua") -- Bulk file with Weapon & Attachment Names, Short Names & Descriptions
 
 ////////////// Non-EFT Strings
 -- [[ Trivia ]]
-L["eft_trivia_author"] = "Author"
-L["eft_trivia_assets"] = "Assets"
-L["eft_trivia_help"] = "General help"
-L["eft_trivia_arc9"] = "ARC9 Base"
+-- L["eft_trivia_author"] = "Author"
+-- L["eft_trivia_assets"] = "Assets"
+-- L["eft_trivia_help"] = "General help"
+-- L["eft_trivia_arc9"] = "ARC9 Base"
 
-L["eft_trivia_manuf"] = "Manufacturer"
-L["eft_trivia_cal"] = "Calibre"
-L["eft_trivia_act"] = "Action"
-L["eft_trivia_country"] = "Country"
-L["eft_trivia_year"] = "Year"
+-- L["eft_trivia_manuf"] = "Manufacturer"
+-- L["eft_trivia_cal"] = "Calibre"
+-- L["eft_trivia_act"] = "Action"
+-- L["eft_trivia_country"] = "Country"
+-- L["eft_trivia_year"] = "Year"
 
-L["eft_trivia_manuf_kalash"] = "Kalashnikov Concern"
-L["eft_trivia_manuf_molot"] = "Molot Oruzhie"
-L["eft_trivia_manuf_tula"] = "Tula Arms Plant"
-L["eft_trivia_manuf_tskib"] = "TsKIB SOO"
-L["eft_trivia_manuf_kbp"] = "KBP Instrument Design Bureau"
-L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
+-- L["eft_trivia_manuf_kalash"] = "Kalashnikov Concern"
+-- L["eft_trivia_manuf_molot"] = "Molot Oruzhie"
+-- L["eft_trivia_manuf_tula"] = "Tula Arms Plant"
+-- L["eft_trivia_manuf_tskib"] = "TsKIB SOO"
+-- L["eft_trivia_manuf_kbp"] = "KBP Instrument Design Bureau"
+-- L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
 
-L["eft_trivia_country_ussr"] = "Soviet Union"
-L["eft_trivia_country_rus"] = "Russian Federation"
-L["eft_trivia_country_belg"] = "Kingdom of Belgium"
-L["eft_trivia_country_brit"] = "United Kingdom"
-L["eft_trivia_country_usa"] = "USA"
-L["eft_trivia_country_usa_eu"] = "USA/Europe"
-L["eft_trivia_country_aust"] = "Republic of Austria"
-L["eft_trivia_country_germ"] = "Germany"
-L["eft_trivia_country_italy"] = "Italy"
+-- L["eft_trivia_country_ussr"] = "Soviet Union"
+-- L["eft_trivia_country_rus"] = "Russian Federation"
+-- L["eft_trivia_country_belg"] = "Kingdom of Belgium"
+-- L["eft_trivia_country_brit"] = "United Kingdom"
+-- L["eft_trivia_country_usa"] = "USA"
+-- L["eft_trivia_country_usa_eu"] = "USA/Europe"
+-- L["eft_trivia_country_aust"] = "Republic of Austria"
+-- L["eft_trivia_country_germ"] = "Germany"
+-- L["eft_trivia_country_italy"] = "Italy"
 
-L["eft_trivia_act_bolt"] = "Bolt"
-L["eft_trivia_act_blow"] = "Blow"
-L["eft_trivia_act_gas"] = "Gas"
-L["eft_trivia_act_recoil"] = "Recoil"
+-- L["eft_trivia_act_bolt"] = "Bolt"
+-- L["eft_trivia_act_blow"] = "Blow"
+-- L["eft_trivia_act_gas"] = "Gas"
+-- L["eft_trivia_act_recoil"] = "Recoil"
 
-L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
+-- L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
 -- [[ Weapon Categories ]] - If not using localized strings
-L["eft_subcat_carb"] = "5Assault Carbines"
-L["eft_subcat_ar"] = "1Assault Rifles"
-L["eft_subcat_sg"] = "6Shotguns"
-L["eft_subcat_snip"] = "4Sniper & Marksman Rifles"
-L["eft_subcat_smg"] = "2Submachine Guns"
-L["eft_subcat_lmg"] = "3Light Machine Guns"
-L["eft_subcat_pist"] = "7Pistols"
-L["eft_subcat_melee"] = "9Melee weapons"
-L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
+-- L["eft_subcat_carb"] = "5Assault Carbines"
+-- L["eft_subcat_ar"] = "1Assault Rifles"
+-- L["eft_subcat_sg"] = "6Shotguns"
+-- L["eft_subcat_snip"] = "4Sniper & Marksman Rifles"
+-- L["eft_subcat_smg"] = "2Submachine Guns"
+-- L["eft_subcat_lmg"] = "3Light Machine Guns"
+-- L["eft_subcat_pist"] = "7Pistols"
+-- L["eft_subcat_melee"] = "9Melee weapons"
+-- L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
 
 ////////////// EFT Strings
 -- [[ HUD ]]
