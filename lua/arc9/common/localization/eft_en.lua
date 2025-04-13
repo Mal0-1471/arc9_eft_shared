@@ -1,13 +1,7 @@
 L = {}
 
-//////////////////////////////////////////////////////////////////////
-///////////////////////////// Escape from Tarkov Localization File - English
-
-IncludeCS("EFTStrings/en.lua") -- Localization file from EFT
-IncludeCS("a-eftbulk.lua") -- Bulk file with Weapon & Attachment Names, Short Names & Descriptions
-
-////////////// Non-EFT Strings
 -- [[ Trivia ]]
+
 L["eft_trivia_author"] = "Author"
 L["eft_trivia_assets"] = "Assets"
 L["eft_trivia_help"] = "General help"
@@ -24,7 +18,11 @@ L["eft_trivia_manuf_molot"] = "Molot Oruzhie"
 L["eft_trivia_manuf_tula"] = "Tula Arms Plant"
 L["eft_trivia_manuf_tskib"] = "TsKIB SOO"
 L["eft_trivia_manuf_kbp"] = "KBP Instrument Design Bureau"
-L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
+
+L["eft_trivia_act_bolt"] = "Bolt"
+L["eft_trivia_act_blow"] = "Blow"
+L["eft_trivia_act_gas"] = "Gas"
+L["eft_trivia_act_recoil"] = "Recoil"
 
 L["eft_trivia_country_ussr"] = "Soviet Union"
 L["eft_trivia_country_rus"] = "Russian Federation"
@@ -36,14 +34,7 @@ L["eft_trivia_country_aust"] = "Republic of Austria"
 L["eft_trivia_country_germ"] = "Germany"
 L["eft_trivia_country_italy"] = "Italy"
 
-L["eft_trivia_act_bolt"] = "Bolt"
-L["eft_trivia_act_blow"] = "Blow"
-L["eft_trivia_act_gas"] = "Gas"
-L["eft_trivia_act_recoil"] = "Recoil"
-
-L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
-
--- [[ Weapon Categories ]] - If not using localized strings
+-- [[ Weapon Categories ]]
 L["eft_subcat_carb"] = "5Assault Carbines"
 L["eft_subcat_ar"] = "1Assault Rifles"
 L["eft_subcat_sg"] = "6Shotguns"
@@ -54,35 +45,7 @@ L["eft_subcat_pist"] = "7Pistols"
 L["eft_subcat_melee"] = "9Melee weapons"
 L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
 
-////////////// EFT Strings
--- [[ HUD ]]
-L["eft_hud_full"] = eftstring["Full"]
-L["eft_hud_empty"] = eftstring["Empty"]
-L["eft_hud_nearlyfull"] = eftstring["Almost full"]
-L["eft_hud_aboutfull"] = eftstring["About half"]
-L["eft_hud_lessthanhlaf"] = eftstring["Less than half"]
-L["eft_hud_almostempty"] = eftstring["Almost empty"]
-L["eft_hud_none"] = eftstring["colorblind/None"]
-L["eft_hud_malf"] = eftstring["Notification/MalfunctionOccurred"]:gsub("{0}", "%%s")
-L["eft_hud_misfire"] = eftstring["EMalfunctionState/Misfire"]
-L["eft_hud_eject"] = eftstring["EMalfunctionState/Jam"]
-L["eft_hud_feed"] = eftstring["EMalfunctionState/Feed"]
-L["eft_hud_bolt"] = eftstring["EMalfunctionState/HardSlide"]
-L["eft_hud_missing"] = eftstring["Your weapon miss some vital parts"]
-L["eft_hud_badtrip"] = eftstring["Tripwire/PlantUnavailable"]
-
--- [[ Weapon Categories ]] - If using Localized Strings
--- L["eft_subcat_carb"] = "5" .. eftstring["APCFilter/AssaultCarbine"]
--- L["eft_subcat_ar"] = "1" .. eftstring["APCFilter/AssaultRifles"]
--- L["eft_subcat_sg"] = "6" .. eftstring["APCFilter/Shotguns"]
--- L["eft_subcat_snip"] = "4" .. eftstring["SniperRifle"] .. " & " .. eftstring["APCFilter/MarksmanRifles"]
--- L["eft_subcat_smg"] = "2" .. eftstring["APCFilter/SMGs"]
--- L["eft_subcat_lmg"] = "3" .. eftstring["LMG"]
--- L["eft_subcat_pist"] = "7" .. eftstring["APCFilter/Pistols"]
--- L["eft_subcat_melee"] = "9" .. eftstring["APCFilter/Melee"]
--- L["eft_subcat_grenades"] = "8" .. eftstring["Arena/Presets/Tooltips/Grenade"] .. " & " .. eftstring["APCFilter/GrenadeLauncher"]
-
--- [[ Weapon Classes ]] - Need to be edited manually
+-- [[ Weapon Classes ]]
 L["eft_class_weapon_singleshot"] = "Single-shot Rifle"
 L["eft_class_weapon_boltsg"] = "Bolt-action Shotgun"
 L["eft_class_weapon_pist"] = "Pistol"
@@ -100,9 +63,92 @@ L["eft_class_weapon_marks"] = "Marksman Rifle"
 L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
 L["eft_class_weapon_melee"] = "Melee Weapon"
 
+L["eft_class_weapon_melee"] = "Melee Weapon"
 L["eft_class_weapon_grenade"] = "Hand Grenade"
 L["eft_class_weapon_flashbang"] = "Flash Bang Grenade"
 L["eft_class_weapon_improvised_grenade"] = "Improvised Hand Grenade"
 L["eft_class_weapon_stun"] = "Stun Grenade"
 L["eft_class_weapon_smoke"] = "Smoke Grenade"
 L["eft_class_weapon_grenadelauncher"] = "Grenade launcher"
+
+-- [[ Weapon Display Names ]]
+L["eft_weapon_rsh12"] = "RSh-12"
+L["eft_weapon_ash12"] = "ASh-12"
+L["eft_weapon_toz106"] = "TOZ-106"
+L["eft_weapon_ak74"] = "AK-74"
+L["eft_weapon_ak74n"] = "AK-74N"
+L["eft_weapon_ak74m"] = "AK-74M"
+L["eft_weapon_aks74"] = "AKS-74"
+L["eft_weapon_aks74n"] = "AKS-74N"
+L["eft_weapon_aks74u"] = "AKS-74U"
+L["eft_weapon_aks74un"] = "AKS-74UN"
+L["eft_weapon_aks74ub"] = "AKS-74UB"
+L["eft_weapon_ak101"] = "AK-101"
+L["eft_weapon_ak102"] = "AK-102"
+L["eft_weapon_ak103"] = "AK-103"
+L["eft_weapon_ak104"] = "AK-104"
+L["eft_weapon_ak105"] = "AK-105"
+L["eft_weapon_akm"] = "AKM"
+L["eft_weapon_akmn"] = "AKMN"
+L["eft_weapon_akms"] = "AKMS"
+L["eft_weapon_akmsn"] = "AKMSN"
+L["eft_weapon_pp1901"] = "PP-19-01 \"Vityaz\""
+L["eft_weapon_rpk16"] = "RPK-16"
+L["eft_weapon_saiga9"] = "Saiga-9"
+L["eft_weapon_saiga12k"] = "Saiga-12K ver.10"
+L["eft_weapon_vpo136"] = "VPO-136 \"Vepr-KM\""
+L["eft_weapon_vpo209"] = "VPO-209"
+L["eft_weapon_mosininf"] = "Mosin rifle (Infantry)"
+L["eft_weapon_mosinsnip"] = "Mosin rifle (Sniper)"
+L["eft_weapon_ks23"] = "TOZ KS-23M"
+
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rgd5"] = "RGD-5"
+L["eft_weapon_rgn"] = "RGN"
+L["eft_weapon_rgo"] = "RGO"
+L["eft_weapon_vog17"] = "VOG-17 Khattabka"
+L["eft_weapon_vog25"] = "VOG-25 Khattabka"
+L["eft_weapon_zarya"] = "Zarya"
+
+L["eft_weapon_6x5"] = "6Kh5 Bayonet"
+L["eft_weapon_a2607"] = "Bars A-2607"
+L["eft_weapon_a2607d"] = "Bars A-2607 Damascus"
+L["eft_weapon_camper"] = "Camper axe"
+L["eft_weapon_freeman"] = "Freeman crowbar"
+L["eft_weapon_cultist"] = "Cultist knife"
+L["eft_weapon_mpl50"] = "MPL-50 entr. tool"
+L["eft_weapon_rebel"] = "Red Rebel ice pick"
+L["eft_weapon_sp8"] = "SP-8 Machete"
+L["eft_weapon_taiga"] = "UVSR Taiga-1"
+L["eft_weapon_wycc"] = "Antique axe"
+
+
+
+L["eft_weapon_veresk"] = "SR-2M \"Veresk\""
+L["eft_weapon_gyurza"] = "SR-1MP Gyurza"
+L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
+L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
+
+L["eft_weapon_ak12"] = "AK-12"
+L["eft_weapon_pkm"] = "PKM"
+L["eft_weapon_pkp"] = "PKP \"Pecheneg\""
+
+L["eft_hud_full"] = "Full"
+L["eft_hud_empty"] = "Empty"
+L["eft_hud_nearlyfull"] = "Nearly full"
+L["eft_hud_aboutfull"] = "About half"
+L["eft_hud_lessthanhlaf"] = "Less than half"
+L["eft_hud_almostempty"] = "Almost empty"
+L["eft_hud_none"] = "None"
+L["eft_hud_malf"] = "Malfunction: \""
+L["eft_hud_misfire"] = "Misfire"
+L["eft_hud_eject"] = "Failure to eject"
+L["eft_hud_feed"] = "Failure to feed"
+L["eft_hud_bolt"] = "Bolt jammed"
+L["eft_hud_missing"] = "Missing critical parts!"
+L["eft_hud_badtrip"] = "Unable to install tripwire"
+
+
+-- [[ Weapon descs ]] fuckkkkkkkk
+-- L["eft_weapon_vpo209"] = "VPO-209"
+
