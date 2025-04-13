@@ -1,9 +1,9 @@
 L = {}
 
 //////////////////////////////////////////////////////////////////////
-///////////////////////////// Escape from Tarkov Localization File - German
+///////////////////////////// Escape from Tarkov Localization File - Korean
 
-IncludeCS("EFTStrings/de.lua") -- Localization file from EFT
+IncludeCS("EFTStrings/kr.lua") -- Localization file from EFT
 IncludeCS("a-eftbulk.lua") -- Bulk file with Weapon & Attachment Names, Short Names & Descriptions
 
 ////////////// Non-EFT Strings
@@ -83,26 +83,26 @@ L["eft_subcat_melee"] = "9" .. eftstring["APCFilter/Melee"]
 L["eft_subcat_grenades"] = "8" .. eftstring["Arena/Presets/Tooltips/Grenade"] .. " & " .. eftstring["APCFilter/GrenadeLauncher"]
 
 -- [[ Weapon Classes ]] - Need to be edited manually
-L["eft_class_weapon_singleshot"] = "Einzelschuss-Gewehr"
-L["eft_class_weapon_boltsg"] = "Repetierschrotflinte"
-L["eft_class_weapon_pist"] = "Pistole"
-L["eft_class_weapon_revol"] = "Revolver"
-L["eft_class_weapon_megapist"] = "Maschinenpistole"
-L["eft_class_weapon_smg"] = "Maschinenpistole"
-L["eft_class_weapon_ar"] = "Sturmgewehr"
-L["eft_class_weapon_carb"] = "Sturmkarabiner"
-L["eft_class_weapon_semisg"] = "Halbautomatische Schrotflinte"
-L["eft_class_weapon_autosg"] = "Automatische Schrotflinte"
-L["eft_class_weapon_pumpsg"] = "Vorderschaftrepetierflinte"
-L["eft_class_weapon_lmg"] = "Leichtes Maschinengewehr"
-L["eft_class_weapon_boltsnip"] = "Repetier-Scharfschützengewehr"
-L["eft_class_weapon_marks"] = "Scharfschützengewehr"
-L["eft_class_weapon_dualsg"] = "Schrotflinte mit Dual-Modus"
-L["eft_class_weapon_melee"] = "Nahkampfwaffe"
+L["eft_class_weapon_singleshot"] = "Single-shot Rifle"
+L["eft_class_weapon_boltsg"] = "볼트액션 산탄총"
+L["eft_class_weapon_pist"] = "권총"
+L["eft_class_weapon_revol"] = "리볼버"
+L["eft_class_weapon_megapist"] = "기관권총"
+L["eft_class_weapon_smg"] = "기관단총"
+L["eft_class_weapon_ar"] = "돌격소총"
+L["eft_class_weapon_carb"] = "돌격카빈"
+L["eft_class_weapon_semisg"] = "반자동 산탄총"
+L["eft_class_weapon_autosg"] = "Automatic Shotgun"
+L["eft_class_weapon_pumpsg"] = "펌프액션 산탄총"
+L["eft_class_weapon_lmg"] = "경기관총"
+L["eft_class_weapon_boltsnip"] = "볼트액션 저격소총"
+L["eft_class_weapon_marks"] = "지정사수 소총"
+L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
+L["eft_class_weapon_melee"] = "근접 무기"
 
-L["eft_class_weapon_grenade"] = "Handgranate"
-L["eft_class_weapon_flashbang"] = "Blendgranate"
-L["eft_class_weapon_improvised_grenade"] = "Granate"
-L["eft_class_weapon_stun"] = "Blendgranate"
-L["eft_class_weapon_smoke"] = "Rauchgranate"
-L["eft_class_weapon_grenadelauncher"] = "Granatwerfer"
+L["eft_class_weapon_grenade"] = "수류탄"
+L["eft_class_weapon_flashbang"] = "섬광 수류탄"
+L["eft_class_weapon_improvised_grenade"] = "급조 수류탄"
+L["eft_class_weapon_stun"] = "기절 수류탄"
+L["eft_class_weapon_smoke"] = "연막 수류탄"
+L["eft_class_weapon_grenadelauncher"] = "유탄발사기"

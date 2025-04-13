@@ -1,9 +1,9 @@
 L = {}
 
 //////////////////////////////////////////////////////////////////////
-///////////////////////////// Escape from Tarkov Localization File - German
+///////////////////////////// Escape from Tarkov Localization File - Hungarian
 
-IncludeCS("EFTStrings/de.lua") -- Localization file from EFT
+IncludeCS("EFTStrings/hu.lua") -- Localization file from EFT
 IncludeCS("a-eftbulk.lua") -- Bulk file with Weapon & Attachment Names, Short Names & Descriptions
 
 ////////////// Non-EFT Strings
@@ -72,37 +72,37 @@ L["eft_hud_missing"] = eftstring["Your weapon miss some vital parts"]
 L["eft_hud_badtrip"] = eftstring["Tripwire/PlantUnavailable"]
 
 -- [[ Weapon Categories ]] - If using Localized Strings
-L["eft_subcat_carb"] = "5" .. eftstring["APCFilter/AssaultCarbine"]
-L["eft_subcat_ar"] = "1" .. eftstring["APCFilter/AssaultRifles"]
-L["eft_subcat_sg"] = "6" .. eftstring["APCFilter/Shotguns"]
-L["eft_subcat_snip"] = "4" .. eftstring["SniperRifle"] .. " & " .. eftstring["APCFilter/MarksmanRifles"]
-L["eft_subcat_smg"] = "2" .. eftstring["APCFilter/SMGs"]
-L["eft_subcat_lmg"] = "3" .. eftstring["LMG"]
-L["eft_subcat_pist"] = "7" .. eftstring["APCFilter/Pistols"]
-L["eft_subcat_melee"] = "9" .. eftstring["APCFilter/Melee"]
-L["eft_subcat_grenades"] = "8" .. eftstring["Arena/Presets/Tooltips/Grenade"] .. " & " .. eftstring["APCFilter/GrenadeLauncher"]
+-- L["eft_subcat_carb"] = "5" .. eftstring["APCFilter/AssaultCarbine"]
+-- L["eft_subcat_ar"] = "1" .. eftstring["APCFilter/AssaultRifles"]
+-- L["eft_subcat_sg"] = "6" .. eftstring["APCFilter/Shotguns"]
+-- L["eft_subcat_snip"] = "4" .. eftstring["SniperRifle"] .. " & " .. eftstring["APCFilter/MarksmanRifles"]
+-- L["eft_subcat_smg"] = "2" .. eftstring["APCFilter/SMGs"]
+-- L["eft_subcat_lmg"] = "3" .. eftstring["LMG"]
+-- L["eft_subcat_pist"] = "7" .. eftstring["APCFilter/Pistols"]
+-- L["eft_subcat_melee"] = "9" .. eftstring["APCFilter/Melee"]
+-- L["eft_subcat_grenades"] = "8" .. eftstring["Arena/Presets/Tooltips/Grenade"] .. " & " .. eftstring["APCFilter/GrenadeLauncher"]
 
 -- [[ Weapon Classes ]] - Need to be edited manually
-L["eft_class_weapon_singleshot"] = "Einzelschuss-Gewehr"
-L["eft_class_weapon_boltsg"] = "Repetierschrotflinte"
-L["eft_class_weapon_pist"] = "Pistole"
+L["eft_class_weapon_singleshot"] = "Single-shot Rifle"
+L["eft_class_weapon_boltsg"] = "Bolt-action Shotgun"
+L["eft_class_weapon_pist"] = "Pisztoly"
 L["eft_class_weapon_revol"] = "Revolver"
-L["eft_class_weapon_megapist"] = "Maschinenpistole"
-L["eft_class_weapon_smg"] = "Maschinenpistole"
-L["eft_class_weapon_ar"] = "Sturmgewehr"
-L["eft_class_weapon_carb"] = "Sturmkarabiner"
-L["eft_class_weapon_semisg"] = "Halbautomatische Schrotflinte"
-L["eft_class_weapon_autosg"] = "Automatische Schrotflinte"
-L["eft_class_weapon_pumpsg"] = "Vorderschaftrepetierflinte"
-L["eft_class_weapon_lmg"] = "Leichtes Maschinengewehr"
-L["eft_class_weapon_boltsnip"] = "Repetier-Scharfschützengewehr"
-L["eft_class_weapon_marks"] = "Scharfschützengewehr"
-L["eft_class_weapon_dualsg"] = "Schrotflinte mit Dual-Modus"
-L["eft_class_weapon_melee"] = "Nahkampfwaffe"
+L["eft_class_weapon_megapist"] = "Machine Pistol"
+L["eft_class_weapon_smg"] = "Submachine Gun"
+L["eft_class_weapon_ar"] = "Gépkarabély"
+L["eft_class_weapon_carb"] = "Rohamkarabély"
+L["eft_class_weapon_semisg"] = "Fél-automata sörétes puska"
+L["eft_class_weapon_autosg"] = "Automata sörétes puska"
+L["eft_class_weapon_pumpsg"] = "Pump-action Shotgun"
+L["eft_class_weapon_lmg"] = "Könnyű géppuska"
+L["eft_class_weapon_boltsnip"] = "Bolt-action Sniper Rifle"
+L["eft_class_weapon_marks"] = "Marksman Rifle"
+L["eft_class_weapon_dualsg"] = "Dual-mode Shotgun"
+L["eft_class_weapon_melee"] = "Melee Weapon"
 
-L["eft_class_weapon_grenade"] = "Handgranate"
-L["eft_class_weapon_flashbang"] = "Blendgranate"
-L["eft_class_weapon_improvised_grenade"] = "Granate"
-L["eft_class_weapon_stun"] = "Blendgranate"
-L["eft_class_weapon_smoke"] = "Rauchgranate"
-L["eft_class_weapon_grenadelauncher"] = "Granatwerfer"
+L["eft_class_weapon_grenade"] = "Kézigránát"
+L["eft_class_weapon_flashbang"] = "Flash Bang Grenade"
+L["eft_class_weapon_improvised_grenade"] = "Khattabka gránát"
+L["eft_class_weapon_stun"] = "Kábító gránát"
+L["eft_class_weapon_smoke"] = "Smoke Grenade"
+L["eft_class_weapon_grenadelauncher"] = "Gránátvető"
