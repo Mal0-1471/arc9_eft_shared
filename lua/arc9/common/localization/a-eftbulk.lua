@@ -2122,9 +2122,177 @@ L["eft_muzzle_carlson_ar15.compactname"] = eftstring["6621455e3aceea9e2b0b01e7 S
 L["eft_muzzle_carlson_ar15.description"] = eftstring["6621455e3aceea9e2b0b01e7 Description"]
 
 -- [[ optic ]]
--- L["eft_ammo_9x19_ap63.printname"] = eftstring["5c925fa22e221601da359b7b Name"]
--- L["eft_ammo_9x19_ap63.compactname"] = eftstring["5c925fa22e221601da359b7b ShortName"]
--- L["eft_ammo_9x19_ap63.description"] = eftstring["5c925fa22e221601da359b7b Description"]
+L["eft_optic_1p78_eyecap.printname"] = eftstring["618a760e526131765025aae3 Name"]
+L["eft_optic_1p78_eyecap.compactname"] = eftstring["618a760e526131765025aae3 ShortName"]
+L["eft_optic_1p78_eyecap.description"] = eftstring["618a760e526131765025aae3 Description"]
+
+L["eft_optic_553.printname"] = eftstring["570fd6c2d2720bc6458b457f Name"]
+L["eft_optic_553.compactname"] = eftstring["570fd6c2d2720bc6458b457f ShortName"]
+L["eft_optic_553.description"] = eftstring["570fd6c2d2720bc6458b457f Description"]
+
+L["eft_optic_acrop1.printname"] = eftstring["616442e4faa1272e43152193 Name"]
+L["eft_optic_acrop1.compactname"] = eftstring["616442e4faa1272e43152193 ShortName"]
+L["eft_optic_acrop1.description"] = eftstring["616442e4faa1272e43152193 Description"]
+
+L["eft_optic_compm4.printname"] = eftstring["5c7d55de2e221644f31bff68 Name"]
+L["eft_optic_compm4.compactname"] = eftstring["5c7d55de2e221644f31bff68 ShortName"]
+L["eft_optic_compm4.description"] = eftstring["5c7d55de2e221644f31bff68 Description"]
+
+L["eft_optic_deltapoint.printname"] = eftstring["58d268fc86f774111273f8c2 Name"]
+L["eft_optic_deltapoint.compactname"] = eftstring["58d268fc86f774111273f8c2 ShortName"]
+L["eft_optic_deltapoint.description"] = eftstring["58d268fc86f774111273f8c2 Description"]
+
+-- L["eft_optic_exps3.printname"] = "EOTech EXPS3 holographic sight" -- Modified
+L["eft_optic_exps3.compactname"] = eftstring["558022b54bdc2dac148b458d ShortName"]
+L["eft_optic_exps3.description"] = eftstring["558022b54bdc2dac148b458d Description"]
+
+L["eft_optic_exps3_tan.printname"] = eftstring["558022b54bdc2dac148b458d Name"]
+L["eft_optic_exps3_tan.compactname"] = eftstring["558022b54bdc2dac148b458d ShortName"]
+L["eft_optic_exps3_tan.description"] = eftstring["558022b54bdc2dac148b458d Description"]
+
+L["eft_optic_ff3.printname"] = eftstring["577d141e24597739c5255e01 Name"]
+L["eft_optic_ff3.compactname"] = eftstring["577d141e24597739c5255e01 ShortName"]
+L["eft_optic_ff3.description"] = eftstring["577d141e24597739c5255e01 Description"]
+
+L["eft_optic_h2.printname"] = eftstring["61657230d92c473c770213d7 Name"]
+L["eft_optic_h2.compactname"] = eftstring["61657230d92c473c770213d7 ShortName"]
+L["eft_optic_h2.description"] = eftstring["61657230d92c473c770213d7 Description"]
+
+L["eft_optic_hhs1.printname"] = eftstring["5c07dd120db834001c39092d Name"]
+L["eft_optic_hhs1.compactname"] = eftstring["5c07dd120db834001c39092d ShortName"]
+L["eft_optic_hhs1.description"] = eftstring["5c07dd120db834001c39092d Description"]
+
+L["eft_optic_hhs1_tan.printname"] = eftstring["5c0a2cec0db834001b7ce47d Name"]
+L["eft_optic_hhs1_tan.compactname"] = eftstring["5c0a2cec0db834001b7ce47d ShortName"]
+L["eft_optic_hhs1_tan.description"] = eftstring["5c0a2cec0db834001b7ce47d Description"]
+
+L["eft_optic_hs401g5.printname"] = eftstring["5b30b0dc5acfc400153b7124 Name"]
+L["eft_optic_hs401g5.compactname"] = eftstring["5b30b0dc5acfc400153b7124 ShortName"]
+L["eft_optic_hs401g5.description"] = eftstring["5b30b0dc5acfc400153b7124 Description"]
+
+L["eft_optic_kmz_eyecap.printname"] = eftstring["5d0b5cd3d7ad1a3fe32ad263 Name"]
+L["eft_optic_kmz_eyecap.compactname"] = eftstring["5d0b5cd3d7ad1a3fe32ad263 ShortName"]
+L["eft_optic_kmz_eyecap.description"] = eftstring["5d0b5cd3d7ad1a3fe32ad263 Description"]
+
+L["eft_optic_kobra.printname"] = eftstring["591c4efa86f7741030027726 Name"]
+L["eft_optic_kobra.compactname"] = eftstring["591c4efa86f7741030027726 ShortName"]
+L["eft_optic_kobra.description"] = eftstring["591c4efa86f7741030027726 Description"]
+
+L["eft_optic_krechet.printname"] = eftstring["609a63b6e2ff132951242d09 Name"]
+L["eft_optic_krechet.compactname"] = eftstring["609a63b6e2ff132951242d09 ShortName"]
+L["eft_optic_krechet.description"] = eftstring["609a63b6e2ff132951242d09 Description"]
+
+L["eft_optic_mrs.printname"] = eftstring["570fd721d2720bc5458b4596 Name"]
+L["eft_optic_mrs.compactname"] = eftstring["570fd721d2720bc5458b4596 ShortName"]
+L["eft_optic_mrs.description"] = eftstring["570fd721d2720bc5458b4596 Description"]
+
+L["eft_optic_nspu_eyecap.printname"] = eftstring["5ba36f85d4351e0085325c81 Name"]
+L["eft_optic_nspu_eyecap.compactname"] = eftstring["5ba36f85d4351e0085325c81 ShortName"]
+L["eft_optic_nspu_eyecap.description"] = eftstring["5ba36f85d4351e0085325c81 Description"]
+
+L["eft_optic_okp7.printname"] = eftstring["570fd79bd2720bc7458b4583 Name"]
+L["eft_optic_okp7.compactname"] = eftstring["570fd79bd2720bc7458b4583 ShortName"]
+L["eft_optic_okp7.description"] = eftstring["570fd79bd2720bc7458b4583 Description"]
+
+L["eft_optic_p1x42.printname"] = eftstring["584984812459776a704a82a6 Name"]
+L["eft_optic_p1x42.compactname"] = eftstring["584984812459776a704a82a6 ShortName"]
+L["eft_optic_p1x42.description"] = eftstring["584984812459776a704a82a6 Description"]
+
+L["eft_optic_pk06.printname"] = eftstring["57ae0171245977343c27bfcf Name"]
+L["eft_optic_pk06.compactname"] = eftstring["57ae0171245977343c27bfcf ShortName"]
+L["eft_optic_pk06.description"] = eftstring["57ae0171245977343c27bfcf Description"]
+
+L["eft_optic_pk120.printname"] = eftstring["5c0505e00db834001b735073 Name"]
+L["eft_optic_pk120.compactname"] = eftstring["5c0505e00db834001b735073 ShortName"]
+L["eft_optic_pk120.description"] = eftstring["5c0505e00db834001b735073 Description"]
+
+L["eft_optic_pro.printname"] = eftstring["61659f79d92c473c770213ee Name"]
+L["eft_optic_pro.compactname"] = eftstring["61659f79d92c473c770213ee ShortName"]
+L["eft_optic_pro.description"] = eftstring["61659f79d92c473c770213ee Description"]
+
+L["eft_optic_pso_eyecap.printname"] = eftstring["57f3a5ae2459772b0e0bf19e Name"]
+L["eft_optic_pso_eyecap.compactname"] = eftstring["57f3a5ae2459772b0e0bf19e ShortName"]
+L["eft_optic_pso_eyecap.description"] = eftstring["57f3a5ae2459772b0e0bf19e Description"]
+
+L["eft_optic_reapir_eyecup.printname"] = eftstring["5a1eacb3fcdbcb09800872be Name"]
+L["eft_optic_reapir_eyecup.compactname"] = eftstring["5a1eacb3fcdbcb09800872be ShortName"]
+L["eft_optic_reapir_eyecup.description"] = eftstring["5a1eacb3fcdbcb09800872be Description"]
+
+L["eft_optic_rmr.printname"] = eftstring["5a32aa8bc4a2826c6e06d737 Name"]
+L["eft_optic_rmr.compactname"] = eftstring["5a32aa8bc4a2826c6e06d737 ShortName"]
+L["eft_optic_rmr.description"] = eftstring["5a32aa8bc4a2826c6e06d737 Description"]
+
+L["eft_optic_romeo4.printname"] = eftstring["5b3116595acfc40019476364 Name"]
+L["eft_optic_romeo4.compactname"] = eftstring["5b3116595acfc40019476364 ShortName"]
+L["eft_optic_romeo4.description"] = eftstring["5b3116595acfc40019476364 Description"]
+
+L["eft_optic_romeo8t.printname"] = eftstring["60a23797a37c940de7062d02 Name"]
+L["eft_optic_romeo8t.compactname"] = eftstring["60a23797a37c940de7062d02 ShortName"]
+L["eft_optic_romeo8t.description"] = eftstring["60a23797a37c940de7062d02 Description"]
+
+L["eft_optic_srs02.printname"] = eftstring["5d2da1e948f035477b1ce2ba Name"]
+L["eft_optic_srs02.compactname"] = eftstring["5d2da1e948f035477b1ce2ba ShortName"]
+L["eft_optic_srs02.description"] = eftstring["5d2da1e948f035477b1ce2ba Description"]
+
+L["eft_optic_t1.printname"] = eftstring["58d399e486f77442e0016fe7 Name"]
+L["eft_optic_t1.compactname"] = eftstring["58d399e486f77442e0016fe7 ShortName"]
+L["eft_optic_t1.description"] = eftstring["58d399e486f77442e0016fe7 Description"]
+
+L["eft_optic_t12w.printname"] = eftstring["609bab8b455afd752b2e6138 Name"]
+L["eft_optic_t12w.compactname"] = eftstring["609bab8b455afd752b2e6138 ShortName"]
+L["eft_optic_t12w.description"] = eftstring["609bab8b455afd752b2e6138 Description"]
+
+L["eft_optic_tulpan_eyecap.printname"] = eftstring["5cf639aad7f00c065703d455 Name"]
+L["eft_optic_tulpan_eyecap.compactname"] = eftstring["5cf639aad7f00c065703d455 ShortName"]
+L["eft_optic_tulpan_eyecap.description"] = eftstring["5cf639aad7f00c065703d455 Description"]
+
+L["eft_optic_uh1.printname"] = eftstring["59f9d81586f7744c7506ee62 Name"]
+L["eft_optic_uh1.compactname"] = eftstring["59f9d81586f7744c7506ee62 ShortName"]
+L["eft_optic_uh1.description"] = eftstring["59f9d81586f7744c7506ee62 Description"]
+
+L["eft_optic_utg.printname"] = eftstring["6165ac8c290d254f5e6b2f6c Name"]
+L["eft_optic_utg.compactname"] = eftstring["6165ac8c290d254f5e6b2f6c ShortName"]
+L["eft_optic_utg.description"] = eftstring["6165ac8c290d254f5e6b2f6c Description"]
+
+L["eft_optic_vulcan_eyecup.printname"] = eftstring["5b3cbc235acfc4001863ac44 Name"]
+L["eft_optic_vulcan_eyecup.compactname"] = eftstring["5b3cbc235acfc4001863ac44 ShortName"]
+L["eft_optic_vulcan_eyecup.description"] = eftstring["5b3cbc235acfc4001863ac44 Description"]
+
+L["eft_optic_xps3_0.printname"] = eftstring["58491f3324597764bc48fa02 Name"]
+L["eft_optic_xps3_0.compactname"] = eftstring["58491f3324597764bc48fa02 ShortName"]
+L["eft_optic_xps3_0.description"] = eftstring["58491f3324597764bc48fa02 Description"]
+
+L["eft_optic_xps3_2.printname"] = eftstring["584924ec24597768f12ae244 Name"]
+L["eft_optic_xps3_2.compactname"] = eftstring["584924ec24597768f12ae244 ShortName"]
+L["eft_optic_xps3_2.description"] = eftstring["584924ec24597768f12ae244 Description"]
+
+L["eft_aux_ekp_shade.printname"] = eftstring["591c4e1186f77410354b316e Name"]
+L["eft_aux_ekp_shade.compactname"] = eftstring["591c4e1186f77410354b316e ShortName"]
+L["eft_aux_ekp_shade.description"] = eftstring["591c4e1186f77410354b316e Description"]
+
+L["eft_optic_targetring.printname"] = eftstring["609b9e31506cf869cf3eaf41 Name"]
+L["eft_optic_targetring.compactname"] = eftstring["609b9e31506cf869cf3eaf41 ShortName"]
+L["eft_optic_targetring.description"] = eftstring["609b9e31506cf869cf3eaf41 Description"]
+
+L["eft_optic_elcan_hco.printname"] = eftstring["64785e7c19d732620e045e15 Name"]
+L["eft_optic_elcan_hco.compactname"] = eftstring["64785e7c19d732620e045e15 ShortName"]
+L["eft_optic_elcan_hco.description"] = eftstring["64785e7c19d732620e045e15 Description"]
+
+L["eft_optic_sig_romeo7.printname"] = eftstring["6477772ea8a38bb2050ed4db Name"]
+L["eft_optic_sig_romeo7.compactname"] = eftstring["6477772ea8a38bb2050ed4db ShortName"]
+L["eft_optic_sig_romeo7.description"] = eftstring["6477772ea8a38bb2050ed4db Description"]
+
+L["eft_optic_zeus_eyecup.printname"] = eftstring["63fc4533b10b17385349b565 Name"]
+L["eft_optic_zeus_eyecup.compactname"] = eftstring["63fc4533b10b17385349b565 ShortName"]
+L["eft_optic_zeus_eyecup.description"] = eftstring["63fc4533b10b17385349b565 Description"]
+
+L["eft_optic_boss.printname"] = eftstring["655f13e0a246670fb0373245 Name"]
+L["eft_optic_boss.compactname"] = eftstring["655f13e0a246670fb0373245 ShortName"]
+L["eft_optic_boss.description"] = eftstring["655f13e0a246670fb0373245 Description"]
+
+L["eft_optic_shakhin_eyecup.printname"] = eftstring["67641bec4ad898aa100c1079 Name"]
+L["eft_optic_shakhin_eyecup.compactname"] = eftstring["67641bec4ad898aa100c1079 ShortName"]
+L["eft_optic_shakhin_eyecup.description"] = eftstring["67641bec4ad898aa100c1079 Description"]
 
 -- [[ rearsight ]]
 L["eft_rearsight_a2.printname"] = eftstring["55d5f46a4bdc2d1b198b4567 Name"]
@@ -2168,9 +2336,181 @@ L["eft_rearsight_mpx.compactname"] = eftstring["5894a81786f77427140b8347 ShortNa
 L["eft_rearsight_mpx.description"] = eftstring["5894a81786f77427140b8347 Description"]
 
 -- [[ scope ]]
--- L["eft_ammo_9x19_ap63.printname"] = eftstring["5c925fa22e221601da359b7b Name"]
--- L["eft_ammo_9x19_ap63.compactname"] = eftstring["5c925fa22e221601da359b7b ShortName"]
--- L["eft_ammo_9x19_ap63.description"] = eftstring["5c925fa22e221601da359b7b Description"]
+L["eft_scope_25mm_pilad.printname"] = eftstring["5dff772da3651922b360bf91 Name"]
+L["eft_scope_25mm_pilad.compactname"] = eftstring["5dff772da3651922b360bf91 ShortName"]
+L["eft_scope_25mm_pilad.description"] = eftstring["5dff772da3651922b360bf91 Description"]
+
+L["eft_scope_30mm_march.printname"] = eftstring["57c5ac0824597754771e88a9 Name"]
+L["eft_scope_30mm_march.compactname"] = eftstring["57c5ac0824597754771e88a9 ShortName"]
+L["eft_scope_30mm_march.description"] = eftstring["57c5ac0824597754771e88a9 Description"]
+
+L["eft_scope_30mm_mark4.printname"] = eftstring["5a37cb10c4a282329a73b4e7 Name"]
+L["eft_scope_30mm_mark4.compactname"] = eftstring["5a37cb10c4a282329a73b4e7 ShortName"]
+L["eft_scope_30mm_mark4.description"] = eftstring["5a37cb10c4a282329a73b4e7 Description"]
+
+L["eft_scope_30mm_razor.printname"] = eftstring["618ba27d9008e4636a67f61d Name"]
+L["eft_scope_30mm_razor.compactname"] = eftstring["618ba27d9008e4636a67f61d ShortName"]
+L["eft_scope_30mm_razor.description"] = eftstring["618ba27d9008e4636a67f61d Description"]
+
+L["eft_scope_30mm_sb_pmii1.printname"] = eftstring["617151c1d92c473c770214ab Name"]
+L["eft_scope_30mm_sb_pmii1.compactname"] = eftstring["617151c1d92c473c770214ab ShortName"]
+L["eft_scope_30mm_sb_pmii1.description"] = eftstring["617151c1d92c473c770214ab Description"]
+
+L["eft_scope_30mm_tac30.printname"] = eftstring["5b2388675acfc4771e1be0be Name"]
+L["eft_scope_30mm_tac30.compactname"] = eftstring["5b2388675acfc4771e1be0be ShortName"]
+L["eft_scope_30mm_tac30.description"] = eftstring["5b2388675acfc4771e1be0be Description"]
+
+L["eft_scope_30mm_vudu.printname"] = eftstring["5b3b99475acfc432ff4dcbee Name"]
+L["eft_scope_30mm_vudu.compactname"] = eftstring["5b3b99475acfc432ff4dcbee ShortName"]
+L["eft_scope_30mm_vudu.description"] = eftstring["5b3b99475acfc432ff4dcbee Description"]
+
+L["eft_scope_34mm_atacr.printname"] = eftstring["5aa66be6e5b5b0214e506e97 Name"]
+L["eft_scope_34mm_atacr.compactname"] = eftstring["5aa66be6e5b5b0214e506e97 ShortName"]
+L["eft_scope_34mm_atacr.description"] = eftstring["5aa66be6e5b5b0214e506e97 Description"]
+
+L["eft_scope_34mm_hsff.printname"] = eftstring["56ea70acd2720b844b8b4594 Name"]
+L["eft_scope_34mm_hsff.compactname"] = eftstring["56ea70acd2720b844b8b4594 ShortName"]
+L["eft_scope_34mm_hsff.description"] = eftstring["56ea70acd2720b844b8b4594 Description"]
+
+L["eft_scope_34mm_sb_pmii3.printname"] = eftstring["61714eec290d254f5e6b2ffc Name"]
+L["eft_scope_34mm_sb_pmii3.compactname"] = eftstring["61714eec290d254f5e6b2ffc ShortName"]
+L["eft_scope_34mm_sb_pmii3.description"] = eftstring["61714eec290d254f5e6b2ffc Description"]
+
+L["eft_scope_34mm_sb_pmii5.printname"] = eftstring["62850c28da09541f43158cca Name"]
+L["eft_scope_34mm_sb_pmii5.compactname"] = eftstring["62850c28da09541f43158cca ShortName"]
+L["eft_scope_34mm_sb_pmii5.description"] = eftstring["62850c28da09541f43158cca Description"]
+
+L["eft_scope_acog_ta01.printname"] = eftstring["5c05293e0db83400232fff80 Name"]
+L["eft_scope_acog_ta01.compactname"] = eftstring["5c05293e0db83400232fff80 ShortName"]
+L["eft_scope_acog_ta01.description"] = eftstring["5c05293e0db83400232fff80 Description"]
+
+L["eft_scope_acog_ta01_tan.printname"] = eftstring["5c052a900db834001a66acbd Name"]
+L["eft_scope_acog_ta01_tan.compactname"] = eftstring["5c052a900db834001a66acbd ShortName"]
+L["eft_scope_acog_ta01_tan.description"] = eftstring["5c052a900db834001a66acbd Description"]
+
+L["eft_scope_acog_ta11d.printname"] = eftstring["59db7e1086f77448be30ddf3 Name"]
+L["eft_scope_acog_ta11d.compactname"] = eftstring["59db7e1086f77448be30ddf3 ShortName"]
+L["eft_scope_acog_ta11d.description"] = eftstring["59db7e1086f77448be30ddf3 Description"]
+
+L["eft_scope_adop4.printname"] = eftstring["5dfe6104585a0c3e995c7b82 Name"]
+L["eft_scope_adop4.compactname"] = eftstring["5dfe6104585a0c3e995c7b82 ShortName"]
+L["eft_scope_adop4.description"] = eftstring["5dfe6104585a0c3e995c7b82 Description"]
+
+L["eft_scope_bravo4.printname"] = eftstring["57adff4f24597737f373b6e6 Name"]
+L["eft_scope_bravo4.compactname"] = eftstring["57adff4f24597737f373b6e6 ShortName"]
+L["eft_scope_bravo4.description"] = eftstring["57adff4f24597737f373b6e6 Description"]
+
+L["eft_scope_compactprism.printname"] = eftstring["5d2dc3e548f035404a1a4798 Name"]
+L["eft_scope_compactprism.compactname"] = eftstring["5d2dc3e548f035404a1a4798 ShortName"]
+L["eft_scope_compactprism.description"] = eftstring["5d2dc3e548f035404a1a4798 Description"]
+
+L["eft_scope_dovetail_1p78.printname"] = eftstring["618a75f0bd321d49084cd399 Name"]
+L["eft_scope_dovetail_1p78.compactname"] = eftstring["618a75f0bd321d49084cd399 ShortName"]
+L["eft_scope_dovetail_1p78.description"] = eftstring["618a75f0bd321d49084cd399 Description"]
+
+L["eft_scope_dovetail_ekp802.printname"] = eftstring["5947db3f86f77447880cf76f Name"]
+L["eft_scope_dovetail_ekp802.compactname"] = eftstring["5947db3f86f77447880cf76f ShortName"]
+L["eft_scope_dovetail_ekp802.description"] = eftstring["5947db3f86f77447880cf76f Description"]
+
+L["eft_scope_dovetail_nspum.printname"] = eftstring["5a7c74b3e899ef0014332c29 Name"]
+L["eft_scope_dovetail_nspum.compactname"] = eftstring["5a7c74b3e899ef0014332c29 ShortName"]
+L["eft_scope_dovetail_nspum.description"] = eftstring["5a7c74b3e899ef0014332c29 Description"]
+
+L["eft_scope_dovetail_okp7.printname"] = eftstring["57486e672459770abd687134 Name"]
+L["eft_scope_dovetail_okp7.compactname"] = eftstring["57486e672459770abd687134 ShortName"]
+L["eft_scope_dovetail_okp7.description"] = eftstring["57486e672459770abd687134 Description"]
+
+L["eft_scope_dovetail_pk1.printname"] = eftstring["618a5d5852ecee1505530b2a Name"]
+L["eft_scope_dovetail_pk1.compactname"] = eftstring["618a5d5852ecee1505530b2a ShortName"]
+L["eft_scope_dovetail_pk1.description"] = eftstring["618a5d5852ecee1505530b2a Description"]
+
+L["eft_scope_dovetail_pkaa.printname"] = eftstring["6113d6c3290d254f5e6b27db Name"]
+L["eft_scope_dovetail_pkaa.compactname"] = eftstring["6113d6c3290d254f5e6b27db ShortName"]
+L["eft_scope_dovetail_pkaa.description"] = eftstring["6113d6c3290d254f5e6b27db Description"]
+
+L["eft_scope_dovetail_pso1.printname"] = eftstring["5c82342f2e221644f31c060e Name"]
+L["eft_scope_dovetail_pso1.compactname"] = eftstring["5c82342f2e221644f31c060e ShortName"]
+L["eft_scope_dovetail_pso1.description"] = eftstring["5c82342f2e221644f31c060e Description"]
+
+L["eft_scope_dovetail_pso1m2.printname"] = eftstring["576fd4ec2459777f0b518431 Name"]
+L["eft_scope_dovetail_pso1m2.compactname"] = eftstring["576fd4ec2459777f0b518431 ShortName"]
+L["eft_scope_dovetail_pso1m2.description"] = eftstring["576fd4ec2459777f0b518431 Description"]
+
+L["eft_scope_dovetail_pso1m2non1.printname"] = eftstring["5c82343a2e221644f31c0611 Name"]
+L["eft_scope_dovetail_pso1m2non1.compactname"] = eftstring["5c82343a2e221644f31c0611 ShortName"]
+L["eft_scope_dovetail_pso1m2non1.description"] = eftstring["5c82343a2e221644f31c0611 Description"]
+
+L["eft_scope_dovetail_tulpan.printname"] = eftstring["5cf638cbd7f00c06595bc936 Name"]
+L["eft_scope_dovetail_tulpan.compactname"] = eftstring["5cf638cbd7f00c06595bc936 ShortName"]
+L["eft_scope_dovetail_tulpan.description"] = eftstring["5cf638cbd7f00c06595bc936 Description"]
+
+L["eft_scope_elcan.printname"] = eftstring["57ac965c24597706be5f975c Name"]
+L["eft_scope_elcan.compactname"] = eftstring["57ac965c24597706be5f975c ShortName"]
+L["eft_scope_elcan.description"] = eftstring["57ac965c24597706be5f975c Description"]
+
+L["eft_scope_elcan_fde.printname"] = eftstring["57aca93d2459771f2c7e26db Name"]
+L["eft_scope_elcan_fde.compactname"] = eftstring["57aca93d2459771f2c7e26db ShortName"]
+L["eft_scope_elcan_fde.description"] = eftstring["57aca93d2459771f2c7e26db Description"]
+
+L["eft_scope_flir.printname"] = eftstring["5d1b5e94d7ad1a2b865a96b0 Name"]
+L["eft_scope_flir.compactname"] = eftstring["5d1b5e94d7ad1a2b865a96b0 ShortName"]
+L["eft_scope_flir.description"] = eftstring["5d1b5e94d7ad1a2b865a96b0 Description"]
+
+L["eft_scope_hamr.printname"] = eftstring["544a3a774bdc2d3a388b4567 Name"]
+L["eft_scope_hamr.compactname"] = eftstring["544a3a774bdc2d3a388b4567 ShortName"]
+L["eft_scope_hamr.description"] = eftstring["544a3a774bdc2d3a388b4567 Description"]
+
+L["eft_scope_kmz_1p59.printname"] = eftstring["5d0a3a58d7ad1a669c15ca14 Name"]
+L["eft_scope_kmz_1p59.compactname"] = eftstring["5d0a3a58d7ad1a669c15ca14 ShortName"]
+L["eft_scope_kmz_1p59.description"] = eftstring["5d0a3a58d7ad1a669c15ca14 Description"]
+
+L["eft_scope_kmz_1p69.printname"] = eftstring["5d0a3e8cd7ad1a6f6a3d35bd Name"]
+L["eft_scope_kmz_1p69.compactname"] = eftstring["5d0a3e8cd7ad1a6f6a3d35bd ShortName"]
+L["eft_scope_kmz_1p69.description"] = eftstring["5d0a3e8cd7ad1a6f6a3d35bd Description"]
+
+L["eft_scope_pa_prism.printname"] = eftstring["5c1cdd512e22161b267d91ae Name"]
+L["eft_scope_pa_prism.compactname"] = eftstring["5c1cdd512e22161b267d91ae ShortName"]
+L["eft_scope_pa_prism.description"] = eftstring["5c1cdd512e22161b267d91ae Description"]
+
+L["eft_scope_reapir.printname"] = eftstring["5a1eaa87fcdbcb001865f75e Name"]
+L["eft_scope_reapir.compactname"] = eftstring["5a1eaa87fcdbcb001865f75e ShortName"]
+L["eft_scope_reapir.description"] = eftstring["5a1eaa87fcdbcb001865f75e Description"]
+
+L["eft_scope_swampfox.printname"] = eftstring["626bb8532c923541184624b4 Name"]
+L["eft_scope_swampfox.compactname"] = eftstring["626bb8532c923541184624b4 ShortName"]
+L["eft_scope_swampfox.description"] = eftstring["626bb8532c923541184624b4 Description"]
+
+L["eft_scope_valday_ps320.printname"] = eftstring["5c0517910db83400232ffee5 Name"]
+L["eft_scope_valday_ps320.compactname"] = eftstring["5c0517910db83400232ffee5 ShortName"]
+L["eft_scope_valday_ps320.description"] = eftstring["5c0517910db83400232ffee5 Description"]
+
+L["eft_scope_vulcan.printname"] = eftstring["5b3b6e495acfc4330140bd88 Name"]
+L["eft_scope_vulcan.compactname"] = eftstring["5b3b6e495acfc4330140bd88 ShortName"]
+L["eft_scope_vulcan.description"] = eftstring["5b3b6e495acfc4330140bd88 Description"]
+
+L["eft_scope_echo1.printname"] = eftstring["6478641c19d732620e045e17 Name"]
+L["eft_scope_echo1.compactname"] = eftstring["6478641c19d732620e045e17 ShortName"]
+L["eft_scope_echo1.description"] = eftstring["6478641c19d732620e045e17 Description"]
+
+L["eft_scope_zeuspro.printname"] = eftstring["63fc44e2429a8a166c7f61e6 Name"]
+L["eft_scope_zeuspro.compactname"] = eftstring["63fc44e2429a8a166c7f61e6 ShortName"]
+L["eft_scope_zeuspro.description"] = eftstring["63fc44e2429a8a166c7f61e6 Description"]
+
+L["eft_scope_30mm_tango6t.printname"] = eftstring["6567e7681265c8a131069b0f Name"]
+L["eft_scope_30mm_tango6t.compactname"] = eftstring["6567e7681265c8a131069b0f ShortName"]
+L["eft_scope_30mm_tango6t.description"] = eftstring["6567e7681265c8a131069b0f Description"]
+
+L["eft_scope_dovetail_ekp1s03.printname"] = eftstring["6544d4187c5457729210d277 Name"]
+L["eft_scope_dovetail_ekp1s03.compactname"] = eftstring["6544d4187c5457729210d277 ShortName"]
+L["eft_scope_dovetail_ekp1s03.description"] = eftstring["6544d4187c5457729210d277 Description"]
+
+L["eft_scope_35mm_5hd.printname"] = eftstring["676175789dcee773150c6925 Name"]
+L["eft_scope_35mm_5hd.compactname"] = eftstring["676175789dcee773150c6925 ShortName"]
+L["eft_scope_35mm_5hd.description"] = eftstring["676175789dcee773150c6925 Description"]
+
+L["eft_scope_shakhin.printname"] = eftstring["67641b461c2eb66ade05dba6 Name"]
+L["eft_scope_shakhin.compactname"] = eftstring["67641b461c2eb66ade05dba6 ShortName"]
+L["eft_scope_shakhin.description"] = eftstring["67641b461c2eb66ade05dba6 Description"]
 
 -- [[ silencer_9x19 ]]
 L["eft_silencer_alpha9.printname"] = eftstring["5a33a8ebc4a282000c5a950d Name"]
@@ -2194,9 +2534,113 @@ L["eft_silencer_srd9.compactname"] = eftstring["5c6165902e22160010261b28 ShortNa
 L["eft_silencer_srd9.description"] = eftstring["5c6165902e22160010261b28 Description"]
 
 -- [[ tactical ]]
--- L["eft_ammo_9x19_ap63.printname"] = eftstring["5c925fa22e221601da359b7b Name"]
--- L["eft_ammo_9x19_ap63.compactname"] = eftstring["5c925fa22e221601da359b7b ShortName"]
--- L["eft_ammo_9x19_ap63.description"] = eftstring["5c925fa22e221601da359b7b Description"]
+L["eft_tactical_baldrpro.printname"] = eftstring["6272370ee4013c5d7e31f418 Name"]
+L["eft_tactical_baldrpro.compactname"] = eftstring["6272370ee4013c5d7e31f418 ShortName"]
+L["eft_tactical_baldrpro.description"] = eftstring["6272370ee4013c5d7e31f418 Description"]
+
+L["eft_tactical_baldrpro_tan.printname"] = eftstring["6272379924e29f06af4d5ecb Name"]
+L["eft_tactical_baldrpro_tan.compactname"] = eftstring["6272379924e29f06af4d5ecb ShortName"]
+L["eft_tactical_baldrpro_tan.description"] = eftstring["6272379924e29f06af4d5ecb Description"]
+
+L["eft_tactical_dbal_pl.printname"] = eftstring["5d2369418abbc306c62e0c80 Name"]
+L["eft_tactical_dbal_pl.compactname"] = eftstring["5d2369418abbc306c62e0c80 ShortName"]
+L["eft_tactical_dbal_pl.description"] = eftstring["5d2369418abbc306c62e0c80 Description"]
+
+L["eft_tactical_gtl21.printname"] = eftstring["5a800961159bd4315e3a1657 Name"]
+L["eft_tactical_gtl21.compactname"] = eftstring["5a800961159bd4315e3a1657 ShortName"]
+L["eft_tactical_gtl21.description"] = eftstring["5a800961159bd4315e3a1657 Description"]
+
+L["eft_tactical_k2iks.printname"] = eftstring["5a5f1ce64f39f90b401987bc Name"]
+L["eft_tactical_k2iks.compactname"] = eftstring["5a5f1ce64f39f90b401987bc ShortName"]
+L["eft_tactical_k2iks.description"] = eftstring["5a5f1ce64f39f90b401987bc Description"]
+
+L["eft_tactical_k2p.printname"] = eftstring["560d657b4bdc2da74d8b4572 Name"]
+L["eft_tactical_k2p.compactname"] = eftstring["560d657b4bdc2da74d8b4572 ShortName"]
+L["eft_tactical_k2p.description"] = eftstring["560d657b4bdc2da74d8b4572 Description"]
+
+L["eft_tactical_k2u.printname"] = eftstring["5b3a337e5acfc4704b4a19a0 Name"]
+L["eft_tactical_k2u.compactname"] = eftstring["5b3a337e5acfc4704b4a19a0 ShortName"]
+L["eft_tactical_k2u.description"] = eftstring["5b3a337e5acfc4704b4a19a0 Description"]
+
+L["eft_tactical_la5b.printname"] = eftstring["5c06595c0db834001a66af6c Name"]
+L["eft_tactical_la5b.compactname"] = eftstring["5c06595c0db834001a66af6c ShortName"]
+L["eft_tactical_la5b.description"] = eftstring["5c06595c0db834001a66af6c Description"]
+
+L["eft_tactical_lastac2.printname"] = eftstring["5b07dd285acfc4001754240d Name"]
+L["eft_tactical_lastac2.compactname"] = eftstring["5b07dd285acfc4001754240d ShortName"]
+L["eft_tactical_lastac2.description"] = eftstring["5b07dd285acfc4001754240d Description"]
+
+L["eft_tactical_ls321.printname"] = eftstring["57fd23e32459772d0805bcf1 Name"]
+L["eft_tactical_ls321.compactname"] = eftstring["57fd23e32459772d0805bcf1 ShortName"]
+L["eft_tactical_ls321.description"] = eftstring["57fd23e32459772d0805bcf1 Description"]
+
+L["eft_tactical_nstar_tbl.printname"] = eftstring["5cc9c20cd7f00c001336c65d Name"]
+L["eft_tactical_nstar_tbl.compactname"] = eftstring["5cc9c20cd7f00c001336c65d ShortName"]
+L["eft_tactical_nstar_tbl.description"] = eftstring["5cc9c20cd7f00c001336c65d Description"]
+
+L["eft_tactical_peq15.printname"] = eftstring["544909bb4bdc2d6f028b4577 Name"]
+L["eft_tactical_peq15.compactname"] = eftstring["544909bb4bdc2d6f028b4577 ShortName"]
+L["eft_tactical_peq15.description"] = eftstring["544909bb4bdc2d6f028b4577 Description"]
+
+L["eft_tactical_peq2.printname"] = eftstring["5d10b49bd7ad1a1a560708b0 Name"]
+L["eft_tactical_peq2.compactname"] = eftstring["5d10b49bd7ad1a1a560708b0 ShortName"]
+L["eft_tactical_peq2.description"] = eftstring["5d10b49bd7ad1a1a560708b0 Description"]
+
+L["eft_tactical_perst3.printname"] = eftstring["5c5952732e2216398b5abda2 Name"]
+L["eft_tactical_perst3.compactname"] = eftstring["5c5952732e2216398b5abda2 ShortName"]
+L["eft_tactical_perst3.description"] = eftstring["5c5952732e2216398b5abda2 Description"]
+
+L["eft_tactical_raptar.printname"] = eftstring["61605d88ffa6e502ac5e7eeb Name"]
+L["eft_tactical_raptar.compactname"] = eftstring["61605d88ffa6e502ac5e7eeb ShortName"]
+L["eft_tactical_raptar.description"] = eftstring["61605d88ffa6e502ac5e7eeb Description"]
+
+L["eft_tactical_wf501b.printname"] = eftstring["57d17c5e2459775a5c57d17d Name"]
+L["eft_tactical_wf501b.compactname"] = eftstring["57d17c5e2459775a5c57d17d ShortName"]
+L["eft_tactical_wf501b.description"] = eftstring["57d17c5e2459775a5c57d17d Description"]
+
+L["eft_tactical_wmx200.printname"] = eftstring["626becf9582c3e319310b837 Name"]
+L["eft_tactical_wmx200.compactname"] = eftstring["626becf9582c3e319310b837 ShortName"]
+L["eft_tactical_wmx200.description"] = eftstring["626becf9582c3e319310b837 Description"]
+
+L["eft_tactical_x400.printname"] = eftstring["56def37dd2720bec348b456a Name"]
+L["eft_tactical_x400.compactname"] = eftstring["56def37dd2720bec348b456a ShortName"]
+L["eft_tactical_x400.description"] = eftstring["56def37dd2720bec348b456a Description"]
+
+L["eft_tactical_xc1.printname"] = eftstring["5a7b483fe899ef0016170d15 Name"]
+L["eft_tactical_xc1.compactname"] = eftstring["5a7b483fe899ef0016170d15 ShortName"]
+L["eft_tactical_xc1.description"] = eftstring["5a7b483fe899ef0016170d15 Description"]
+
+L["eft_tactical_xhp35.printname"] = eftstring["59d790f486f77403cb06aec6 Name"]
+L["eft_tactical_xhp35.compactname"] = eftstring["59d790f486f77403cb06aec6 ShortName"]
+L["eft_tactical_xhp35.description"] = eftstring["59d790f486f77403cb06aec6 Description"]
+
+L["eft_mount_25mm.printname"] = eftstring["57d17e212459775a1179a0f5 Name"]
+L["eft_mount_25mm.compactname"] = eftstring["57d17e212459775a1179a0f5 ShortName"]
+L["eft_mount_25mm.description"] = eftstring["57d17e212459775a1179a0f5 Description"]
+
+L["eft_mount_25mm_dd_offset.printname"] = eftstring["6267c6396b642f77f56f5c1c Name"]
+L["eft_mount_25mm_dd_offset.compactname"] = eftstring["6267c6396b642f77f56f5c1c ShortName"]
+L["eft_mount_25mm_dd_offset.description"] = eftstring["6267c6396b642f77f56f5c1c Description"]
+
+L["eft_tactical_mawlc.printname"] = eftstring["644a3df63b0b6f03e101e065 Name"]
+L["eft_tactical_mawlc.compactname"] = eftstring["644a3df63b0b6f03e101e065 ShortName"]
+L["eft_tactical_mawlc.description"] = eftstring["644a3df63b0b6f03e101e065 Description"]
+
+L["eft_tactical_2d.printname"] = eftstring["646f62fee779812413011ab7 Name"]
+L["eft_tactical_2d.compactname"] = eftstring["646f62fee779812413011ab7 ShortName"]
+L["eft_tactical_2d.description"] = eftstring["646f62fee779812413011ab7 Description"]
+
+L["eft_bipod_atlas_v8.printname"] = eftstring["6644920d49817dc7d505ca71 Name"]
+L["eft_bipod_atlas_v8.compactname"] = eftstring["6644920d49817dc7d505ca71 ShortName"]
+L["eft_bipod_atlas_v8.description"] = eftstring["6644920d49817dc7d505ca71 Description"]
+
+L["eft_bipod_harris.printname"] = eftstring["5888961624597754281f93f3 Name"]
+L["eft_bipod_harris.compactname"] = eftstring["5888961624597754281f93f3 ShortName"]
+L["eft_bipod_harris.description"] = eftstring["5888961624597754281f93f3 Description"]
+
+L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// AK Platform
 -- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
