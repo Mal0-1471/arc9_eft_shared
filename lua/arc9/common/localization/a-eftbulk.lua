@@ -2643,211 +2643,422 @@ L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 Short
 L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// AK Platform
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- [[ ak12 ]]
+L["eft_ak12_hg_std.printname"] = eftstring["649ec127c93611967b034957 Name"]
+L["eft_ak12_hg_std.compactname"] = eftstring["649ec127c93611967b034957 ShortName"]
+L["eft_ak12_hg_std.description"] = eftstring["649ec127c93611967b034957 Description"]
+
+L["eft_ak12_gas_std.printname"] = eftstring["649ec107961514b22506b10c Name"]
+L["eft_ak12_gas_std.compactname"] = eftstring["649ec107961514b22506b10c ShortName"]
+L["eft_ak12_gas_std.description"] = eftstring["649ec107961514b22506b10c Description"]
+
+L["eft_ak12_muzzle_std.printname"] = eftstring["649ec2af961514b22506b10f Name"]
+L["eft_ak12_muzzle_std.compactname"] = eftstring["649ec2af961514b22506b10f ShortName"]
+L["eft_ak12_muzzle_std.description"] = eftstring["649ec2af961514b22506b10f Description"]
+
+L["eft_ak12_silencer_std.printname"] = eftstring["64c196ad26a15b84aa07132f Name"]
+L["eft_ak12_silencer_std.compactname"] = eftstring["64c196ad26a15b84aa07132f ShortName"]
+L["eft_ak12_silencer_std.description"] = eftstring["64c196ad26a15b84aa07132f Description"]
+
+L["eft_ak12_rec.printname"] = eftstring["649ec2f3961514b22506b111 Name"]
+L["eft_ak12_rec.compactname"] = eftstring["649ec2f3961514b22506b111 ShortName"]
+L["eft_ak12_rec.description"] = eftstring["649ec2f3961514b22506b111 Description"]
+
+L["eft_ak12_rs.printname"] = eftstring["649ec2cec93611967b03495e Name"]
+L["eft_ak12_rs.compactname"] = eftstring["649ec2cec93611967b03495e ShortName"]
+L["eft_ak12_rs.description"] = eftstring["649ec2cec93611967b03495e Description"]
+
+L["eft_ak12_rs_base.printname"] = eftstring["649ec2da59cbb3c813042dca Name"]
+L["eft_ak12_rs_base.compactname"] = eftstring["649ec2da59cbb3c813042dca ShortName"]
+L["eft_ak12_rs_base.description"] = eftstring["649ec2da59cbb3c813042dca Description"]
+
+L["eft_ak12_stock_tube.printname"] = eftstring["649ec87d8007560a9001ab36 Name"]
+L["eft_ak12_stock_tube.compactname"] = eftstring["649ec87d8007560a9001ab36 ShortName"]
+L["eft_ak12_stock_tube.description"] = eftstring["649ec87d8007560a9001ab36 Description"]
+
+-- [[ aksu ]]
+L["eft_aksu_gas_ak.printname"] = eftstring["59d36a0086f7747e673f3946 Name"]
+L["eft_aksu_gas_ak.compactname"] = eftstring["59d36a0086f7747e673f3946 ShortName"]
+L["eft_aksu_gas_ak.description"] = eftstring["59d36a0086f7747e673f3946 Description"]
+
+L["eft_aksu_hg_ak_std.printname"] = eftstring["57dc32dc245977596d4ef3d3 Name"]
+L["eft_aksu_hg_ak_std.compactname"] = eftstring["57dc32dc245977596d4ef3d3 ShortName"]
+L["eft_aksu_hg_ak_std.description"] = eftstring["57dc32dc245977596d4ef3d3 Description"]
+
+L["eft_aksu_mount_b18.printname"] = eftstring["57ffb0062459777a045af529 Name"]
+L["eft_aksu_mount_b18.compactname"] = eftstring["57ffb0062459777a045af529 ShortName"]
+L["eft_aksu_mount_b18.description"] = eftstring["57ffb0062459777a045af529 Description"]
+
+L["eft_aksu_muzzle_ak_std.printname"] = eftstring["57dc324a24597759501edc20 Name"]
+L["eft_aksu_muzzle_ak_std.compactname"] = eftstring["57dc324a24597759501edc20 ShortName"]
+L["eft_aksu_muzzle_ak_std.description"] = eftstring["57dc324a24597759501edc20 Description"]
+
+L["eft_aksu_rec_ak_b.printname"] = eftstring["5839a7742459773cf9693481 Name"]
+L["eft_aksu_rec_ak_b.compactname"] = eftstring["5839a7742459773cf9693481 ShortName"]
+L["eft_aksu_rec_ak_b.description"] = eftstring["5839a7742459773cf9693481 Description"]
+
+L["eft_aksu_rec_ak_std.printname"] = eftstring["57dc334d245977597164366f Name"]
+L["eft_aksu_rec_ak_std.compactname"] = eftstring["57dc334d245977597164366f ShortName"]
+L["eft_aksu_rec_ak_std.description"] = eftstring["57dc334d245977597164366f Description"]
+
+L["eft_aksu_stock_std.printname"] = eftstring["57dc347d245977596754e7a1 Name"]
+L["eft_aksu_stock_std.compactname"] = eftstring["57dc347d245977596754e7a1 ShortName"]
+L["eft_aksu_stock_std.description"] = eftstring["57dc347d245977596754e7a1 Description"]
+
+L["eft_aksu_rec_piligrim.printname"] = eftstring["655cb6b5d680a544f30607fa Name"]
+L["eft_aksu_rec_piligrim.compactname"] = eftstring["655cb6b5d680a544f30607fa ShortName"]
+L["eft_aksu_rec_piligrim.description"] = eftstring["655cb6b5d680a544f30607fa Description"]
+
+L["eft_hg_ak_goliaf_mlok.printname"] = eftstring["647db1eca8d3399c380d195c Name"]
+L["eft_hg_ak_goliaf_mlok.compactname"] = eftstring["647db1eca8d3399c380d195c ShortName"]
+L["eft_hg_ak_goliaf_mlok.description"] = eftstring["647db1eca8d3399c380d195c Description"]
+
+-- [[ ammo_366 ]]
+L["eft_ammo_366_geksa.printname"] = eftstring["59e6658b86f77411d949b250 Name"]
+L["eft_ammo_366_geksa.compactname"] = eftstring["59e6658b86f77411d949b250 ShortName"]
+L["eft_ammo_366_geksa.description"] = eftstring["59e6658b86f77411d949b250 Description"]
+
+L["eft_ammo_366_fmj.printname"] = eftstring["59e6542b86f77411dc52a77a Name"]
+L["eft_ammo_366_fmj.compactname"] = eftstring["59e6542b86f77411dc52a77a ShortName"]
+L["eft_ammo_366_fmj.description"] = eftstring["59e6542b86f77411dc52a77a Description"]
+
+L["eft_ammo_366_apm.printname"] = eftstring["5f0596629e22f464da6bbdd9 Name"]
+L["eft_ammo_366_apm.compactname"] = eftstring["5f0596629e22f464da6bbdd9 ShortName"]
+L["eft_ammo_366_apm.description"] = eftstring["5f0596629e22f464da6bbdd9 Description"]
+
+L["eft_ammo_366_eko.printname"] = eftstring["59e655cb86f77411dc52a77b Name"]
+L["eft_ammo_366_eko.compactname"] = eftstring["59e655cb86f77411dc52a77b ShortName"]
+L["eft_ammo_366_eko.description"] = eftstring["59e655cb86f77411dc52a77b Description"]
+
+-- [[ ammo_545 ]]
+L["eft_ammo_545_hp.printname"] = eftstring["56dff216d2720bbd668b4568 Name"]
+L["eft_ammo_545_hp.compactname"] = eftstring["56dff216d2720bbd668b4568 ShortName"]
+L["eft_ammo_545_hp.description"] = eftstring["56dff216d2720bbd668b4568 Description"]
+
+L["eft_ammo_545_sp.printname"] = eftstring["56dff421d2720b5f5a8b4567 Name"]
+L["eft_ammo_545_sp.compactname"] = eftstring["56dff421d2720b5f5a8b4567 ShortName"]
+L["eft_ammo_545_sp.description"] = eftstring["56dff421d2720b5f5a8b4567 Description"]
+
+L["eft_ammo_545_us.printname"] = eftstring["56dff4ecd2720b5f5a8b4568 Name"]
+L["eft_ammo_545_us.compactname"] = eftstring["56dff4ecd2720b5f5a8b4568 ShortName"]
+L["eft_ammo_545_us.description"] = eftstring["56dff4ecd2720b5f5a8b4568 Description"]
+
+L["eft_ammo_545_prs.printname"] = eftstring["56dff338d2720bbd668b4569 Name"]
+L["eft_ammo_545_prs.compactname"] = eftstring["56dff338d2720bbd668b4569 ShortName"]
+L["eft_ammo_545_prs.description"] = eftstring["56dff338d2720bbd668b4569 Description"]
+
+L["eft_ammo_545_t.printname"] = eftstring["56dff4a2d2720bbd668b456a Name"]
+L["eft_ammo_545_t.compactname"] = eftstring["56dff4a2d2720bbd668b456a ShortName"]
+L["eft_ammo_545_t.description"] = eftstring["56dff4a2d2720bbd668b456a Description"]
+
+L["eft_ammo_545_fmj.printname"] = eftstring["56dff0bed2720bb0668b4567 Name"]
+L["eft_ammo_545_fmj.compactname"] = eftstring["56dff0bed2720bb0668b4567 ShortName"]
+L["eft_ammo_545_fmj.description"] = eftstring["56dff0bed2720bb0668b4567 Description"]
+
+L["eft_ammo_545_7n40.printname"] = eftstring["61962b617c6c7b169525f168 Name"]
+L["eft_ammo_545_7n40.compactname"] = eftstring["61962b617c6c7b169525f168 ShortName"]
+L["eft_ammo_545_7n40.description"] = eftstring["61962b617c6c7b169525f168 Description"]
+
+L["eft_ammo_545_ps.printname"] = eftstring["56dff3afd2720bba668b4567 Name"]
+L["eft_ammo_545_ps.compactname"] = eftstring["56dff3afd2720bba668b4567 ShortName"]
+L["eft_ammo_545_ps.description"] = eftstring["56dff3afd2720bba668b4567 Description"]
+
+L["eft_ammo_545_bp.printname"] = eftstring["56dfef82d2720bbd668b4567 Name"]
+L["eft_ammo_545_bp.compactname"] = eftstring["56dfef82d2720bbd668b4567 ShortName"]
+L["eft_ammo_545_bp.description"] = eftstring["56dfef82d2720bbd668b4567 Description"]
+
+L["eft_ammo_545_pp.printname"] = eftstring["56dff2ced2720bb4668b4567 Name"]
+L["eft_ammo_545_pp.compactname"] = eftstring["56dff2ced2720bb4668b4567 ShortName"]
+L["eft_ammo_545_pp.description"] = eftstring["56dff2ced2720bb4668b4567 Description"]
+
+L["eft_ammo_545_bt.printname"] = eftstring["56dff061d2720bb5668b4567 Name"]
+L["eft_ammo_545_bt.compactname"] = eftstring["56dff061d2720bb5668b4567 ShortName"]
+L["eft_ammo_545_bt.description"] = eftstring["56dff061d2720bb5668b4567 Description"]
+
+L["eft_ammo_545_bs.printname"] = eftstring["56dff026d2720bb8668b4567 Name"]
+L["eft_ammo_545_bs.compactname"] = eftstring["56dff026d2720bb8668b4567 ShortName"]
+L["eft_ammo_545_bs.description"] = eftstring["56dff026d2720bb8668b4567 Description"]
+
+L["eft_ammo_545_ppbs.printname"] = eftstring["5c0d5e4486f77478390952fe Name"]
+L["eft_ammo_545_ppbs.compactname"] = eftstring["5c0d5e4486f77478390952fe ShortName"]
+L["eft_ammo_545_ppbs.description"] = eftstring["5c0d5e4486f77478390952fe Description"]
+
+-- [[ charge_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ gas_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ grip_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ hg_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ mag_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ muzzle_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ rec_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ rpk16 ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ rs_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ sag545 ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ saiga12 ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ silencer_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ stock_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ ubgl_ak ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
+
+-- [[ vityaz ]]
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// AR15 + HK416 Platforms
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// AI AXMC .338/.308
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// HK USP + UMP
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// M3 S90 + M9A3
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Veresk + Gyurza
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// ASh-12 + RSh-12
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Glock 17 / 18C / 19X
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// P90 + Five-seveN
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// TOZ-106 + MP-18
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// EFT Extras
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Slickers Attachment
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Grenades
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Melee
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// KS-23M + Mosin Rifles
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// PKM + PKP Pecheneg
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// M870 + FN40GL
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// SVDS
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// SCAR-H/L + SA-58
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// SKS + SVT + AVT
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// MR-43 + PM + PB
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// RPD + PPSH + TT
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// H&K MP7 + B&T MP9
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// RSASS + Mutant + SR-25
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// SIG MCX + Spear + MPX + P226R
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Steyr AUG A1 + A3
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// PP-91 + SV-98
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// AS Val Platform + VSK/9A
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Desert Eagle L5/L6/XIX
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// KRISS Vector Gen.2
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// PL-15 + Stechkin APS/APB
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Mk-18 Mjölnir .338
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// H&K G36 + G28
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// MP5 + M1911/M45
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// M60 + M32A1
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// M1A + M590A1
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// AA-12
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// MP-133/153/155 + Ultima
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// M700 + DVL-10 + T-5000
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// UZI + UZI PRO
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// MTs-255 + VPO-215 & 101
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
 
 ///////////////////////////// Special Useless Items
--- L["camo_arc9_ironsight_alligator.printname"] = "FULLNAME"
--- L["camo_arc9_ironsight_alligator.compactname"] = "SHORTNAME"
--- L["camo_arc9_ironsight_alligator.description"] = "DESC"
+-- L["eft_mount_kac_bipod.printname"] = eftstring["676175bb48fa5c377e06fc36 Name"]
+-- L["eft_mount_kac_bipod.compactname"] = eftstring["676175bb48fa5c377e06fc36 ShortName"]
+-- L["eft_mount_kac_bipod.description"] = eftstring["676175bb48fa5c377e06fc36 Description"]
