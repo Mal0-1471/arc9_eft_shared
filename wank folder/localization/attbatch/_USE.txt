@@ -1,0 +1,2 @@
+Put in all attachment internal names in the input file.
+When ran, the .py script will create localization strings for all of them, mainly for use in the "a-eftbulk.lua" file.

@@ -118,6 +118,11 @@ Some attachments require custom additions, so all of those will be placed here.
 -- Optics
 L["eft_optic_exps3.printname"] = "Eotech EXPS3 holografik nişangah" -- from "558022b54bdc2dac148b458d Name"
 
+-- [[ AK Platform ]]
+-- Mag_AK
+L["eft_mag_ak_pmag_545_30_fde.printname"] = "AK türevleri için 30 mermilik, Pmag 30 AK74 Gen M3 5.45x39 şarjör (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
+L["eft_mag_ak_pmag_762_30_fde.printname"] = "AK türevi silahlar için Pmag 30 AK/AKM GEN M3 7,62X39 şarjör (FDE)" -- from "59d6272486f77466146386ff Name"
+
 ///////////////////////////// EFT Weapon Names
 --[[
 
