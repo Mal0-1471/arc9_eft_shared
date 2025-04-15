@@ -118,6 +118,11 @@ Some attachments require custom additions, so all of those will be placed here.
 -- Optics
 L["eft_optic_exps3.printname"] = "Holografický kolimátor EOTech EXPS3" -- from "558022b54bdc2dac148b458d Name"
 
+-- [[ AK Platform ]]
+-- Mag_AK
+L["eft_mag_ak_pmag_545_30_fde.printname"] = "30-ranný zásobník Magpul PMAG 30 GEN M3 pro AK-74 5.45x39 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
+L["eft_mag_ak_pmag_762_30_fde.printname"] = "30-ranný zásobník Magpul PMAG 30 GEN M3 pro AK 7.62x39 (FDE)" -- from "59d6272486f77466146386ff Name"
+
 ///////////////////////////// EFT Weapon Names
 --[[
 
