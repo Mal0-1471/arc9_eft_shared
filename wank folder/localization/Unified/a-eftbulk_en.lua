@@ -3260,54 +3260,546 @@ L["eft_mag_ak_molot_556_45.compactname"] = "Molot 223" .. " 45"
 L["eft_mag_ak_molot_556_45.description"] = "A 45-round 5.56x45 polymer magazine for AK. Manufactured by Molot Arms."
 
 -- [[ muzzle_ak ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_muzzle_ak_ak101_std.printname"] = "AK-101 5.56x45 muzzle brake-compensator"
+L["eft_muzzle_ak_ak101_std.compactname"] = "AK-101"
+L["eft_muzzle_ak_ak101_std.description"] = "A standard Izhmash-produced muzzle brake and compensator for the AK-101 and weapon systems based on it."
+
+L["eft_muzzle_ak_ak102_std.printname"] = "AK-102 5.56x45 muzzle brake-compensator"
+L["eft_muzzle_ak_ak102_std.compactname"] = "AK-102"
+L["eft_muzzle_ak_ak102_std.description"] = "A standard Izhmash-produced 6P44 0-20 muzzle brake and compensator for the AK-102 assault rifle."
+
+L["eft_muzzle_ak_ak103_std.printname"] = "AK-103 7.62x39 muzzle brake-compensator"
+L["eft_muzzle_ak_ak103_std.compactname"] = "AK-103"
+L["eft_muzzle_ak_ak103_std.description"] = "A standard Izhmash-produced muzzle brake and compensator for the AK-103."
+
+L["eft_muzzle_ak_ak104_std.printname"] = "AK-104 7.62x39 muzzle brake-compensator"
+L["eft_muzzle_ak_ak104_std.compactname"] = "AK-104"
+L["eft_muzzle_ak_ak104_std.description"] = "A standard Izhmash-produced 6P46 0-20 muzzle brake and compensator for the AK-104 7.62x39 assault rifle."
+
+L["eft_muzzle_ak_ak105_std.printname"] = "AK-105 5.45x39 muzzle brake-compensator"
+L["eft_muzzle_ak_ak105_std.compactname"] = "AK-105"
+L["eft_muzzle_ak_ak105_std.description"] = "A standard Izhmash-produced 6P44 0-20 muzzle brake and compensator for the AK-105."
+
+L["eft_muzzle_ak_ak74m_std.printname"] = "AK-74M 5.45x39 muzzle brake-compensator"
+L["eft_muzzle_ak_ak74m_std.compactname"] = "AK-74M"
+L["eft_muzzle_ak_ak74m_std.description"] = "A standard Izhmash-produced 6P20 0-20 muzzle brake and compensator for the AK-74M."
+
+L["eft_muzzle_ak_ak74_pws_cqb.printname"] = "AK-74 PWS CQB 74 5.45x39 muzzle brake"
+L["eft_muzzle_ak_ak74_pws_cqb.compactname"] = "PWS CQB 74"
+L["eft_muzzle_ak_ak74_pws_cqb.description"] = "The PWS CQB 74 5.45x39mm muzzle brake is designed specifically for compact arms and use in confined spaces. This version is intended for AK series based weapons."
+
+L["eft_muzzle_ak_ak74_srvv.printname"] = "AK-74 SRVV MBR Jet 5.45x39 muzzle brake"
+L["eft_muzzle_ak_ak74_srvv.compactname"] = "SRVV AK74"
+L["eft_muzzle_ak_ak74_srvv.description"] = "An SRVV-produced muzzle brake for AK-74 5.45x39 assault rifles and compatibles."
+
+L["eft_muzzle_ak_ak74_std.printname"] = "AK-74 5.45x39 muzzle brake-compensator"
+L["eft_muzzle_ak_ak74_std.compactname"] = "AK-74"
+L["eft_muzzle_ak_ak74_std.description"] = "A standard Izhmash-produced 6P20 0-20 muzzle brake and compensator for the AK-74 and weapon systems based on it."
+
+L["eft_muzzle_ak_akml.printname"] = "AKML system 7.62x39 flash hider"
+L["eft_muzzle_ak_akml.compactname"] = "AKML"
+L["eft_muzzle_ak_akml.description"] = "A slot-like flash suppressor designed specifically for AKML arms system to reduce the muzzle flash flare on the NSP-3 night vision scope."
+
+L["eft_muzzle_ak_akm_srvv.printname"] = "AK SRVV 7.62x39 muzzle brake-compensator"
+L["eft_muzzle_ak_akm_srvv.compactname"] = "SRVV AKM"
+L["eft_muzzle_ak_akm_srvv.description"] = "An SRVV-produced muzzle brake and compensator for AK assault rifles and compatibles."
+
+L["eft_muzzle_ak_akm_std.printname"] = "AKM 7.62x39 muzzle brake-compensator"
+L["eft_muzzle_ak_akm_std.compactname"] = "AKM"
+L["eft_muzzle_ak_akm_std.description"] = "A standard Izhmash-produced 6P1 0-14 muzzle brake-compensator for AKM automatic rifles and weapon systems based on it."
+
+L["eft_muzzle_ak_antidote.printname"] = "AK Venom Tactical Antidote 7.62x39 muzzle brake-compensator"
+L["eft_muzzle_ak_antidote.compactname"] = "Antidote"
+L["eft_muzzle_ak_antidote.description"] = "The Antidote muzzle brake & compensator by Venom Tactical and Rifle Dynamics is designed for installation on classic AK-based weapon systems. Reduces recoil and counters the barrel climb."
+
+L["eft_muzzle_ak_cncwar.printname"] = "AK CNC Warrior 5.56x45 muzzle device adapter"
+L["eft_muzzle_ak_cncwar.compactname"] = "CNC War."
+L["eft_muzzle_ak_cncwar.description"] = "The CNC Warrior AK adapter allows to install different AR-15 specific muzzle devices on 5.56x45 or 5.45x39 AK automatic rifles."
+
+L["eft_muzzle_ak_dgnak47b.printname"] = "AK Lantac Drakon 7.62x39 muzzle brake"
+L["eft_muzzle_ak_dgnak47b.compactname"] = "DGNAK47B"
+L["eft_muzzle_ak_dgnak47b.description"] = "The Drakon muzzle brake-compensator by Lantac is designed for installation on 7.62x39 AK-based weapon systems. Reduces recoil and counters the muzzle climb."
+
+L["eft_muzzle_ak_dtk1.printname"] = "AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator"
+L["eft_muzzle_ak_dtk1.compactname"] = "DTK-1"
+L["eft_muzzle_ak_dtk1.description"] = "The DTK-1 muzzle brake-compensator by Zenit is designed to be installed on 7.62x39 and 5.45x39 AK-based weapon systems. It reduces recoil and counters barrel climb. The crown on the DTK nose is meant for breaking through tempered glass. It has 24x1.5 mm threading. ©Zenit"
+
+L["eft_muzzle_ak_dynacomp.printname"] = "AK Spikes Tactical Dynacomp 7.62x39 muzzle brake-compensator"
+L["eft_muzzle_ak_dynacomp.compactname"] = "Dynacomp AK"
+L["eft_muzzle_ak_dynacomp.description"] = "The Dynacomp muzzle brake-compensator is designed for installation on 7.62x39 AK-based weapon systems. Reduces recoil and counters the barrel climb. Manufactured by Spikes Tactical."
+
+L["eft_muzzle_ak_kibaarms_308.printname"] = "AKM 7.62x39 Kiba Arms .308 muzzle device adapter"
+L["eft_muzzle_ak_kibaarms_308.compactname"] = "AKM 308"
+L["eft_muzzle_ak_kibaarms_308.description"] = "The Kiba Arms \"Samson\" adapter that allows installation of various .308 (7.62x51) muzzle devices on 7.62x39 AKM-type automatic rifles."
+
+L["eft_muzzle_ak_reactor.printname"] = "AK Hexagon Reactor 5.45x39 muzzle brake"
+L["eft_muzzle_ak_reactor.compactname"] = "Reactor"
+L["eft_muzzle_ak_reactor.description"] = "The \"Reactor\" prototype muzzle brake manufactured by Hexagon for 5.45x39 AK platforms. Features mounts required for installation of the \"Wafflemaker\" sound suppressor."
+
+L["eft_muzzle_ak_rrd4c.printname"] = "AKM thread type JMac Customs RRD-4C 7.62x39 muzzle brake"
+L["eft_muzzle_ak_rrd4c.compactname"] = "RRD-4C"
+L["eft_muzzle_ak_rrd4c.description"] = "The RRD-4C 7.62x39 muzzle brake by JMac Customs is designed for installation on AK or AKM type thread weapon systems. Reduces recoil and counters the barrel climb."
+
+L["eft_muzzle_ak_rrd4c74.printname"] = "AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake"
+L["eft_muzzle_ak_rrd4c74.compactname"] = "RRD-4C"
+L["eft_muzzle_ak_rrd4c74.description"] = "The RRD-4C muzzle brake by JMac Customs is designed for installation on modern AK-74 type thread weapon systems. The universal muzzle brake can be used with 5.45x39, 5.56x45 and 7.62x39 (requires an adapter mount) ammunition. Reduces recoil and counters the barrel climb."
+
+L["eft_muzzle_ak_tt_ak.printname"] = "AK 7.62x39 Taktika Tula muzzle adapter"
+L["eft_muzzle_ak_tt_ak.compactname"] = "TT AK"
+L["eft_muzzle_ak_tt_ak.description"] = "The Taktika Tula muzzle device adapter. Provides the means of installing modern muzzle devices on AK and AKM."
+
+L["eft_muzzle_ak_vpo136_std.printname"] = "VPO-136 Vepr-KM 7.62x39 muzzle brake-compensator"
+L["eft_muzzle_ak_vpo136_std.compactname"] = "VPO-136"
+L["eft_muzzle_ak_vpo136_std.description"] = "A standard muzzle brake/compensator manufactured by Molot Arms for VPO-136 Vepr KM 7.62x39 carbines. Also fits the AK family automatic rifles of the same caliber."
+
+L["eft_muzzle_ak_vpo209.printname"] = "VPO-209 thread protector"
+L["eft_muzzle_ak_vpo209.compactname"] = "VPO-209"
+L["eft_muzzle_ak_vpo209.description"] = "A thread protector for muzzle brake/compensator for VPO-209 AKM carbines. Also fits the AKM 7.62x39 series automatic rifles."
+
+L["eft_muzzle_ak_vr05.printname"] = "AK Vector VR-05T 7.62x39 muzzle brake"
+L["eft_muzzle_ak_vr05.compactname"] = "VR05T"
+L["eft_muzzle_ak_vr05.description"] = "A muzzle brake for AK 7.62x39 assault rifles and compatibles. Manufactured by Vector 7.62."
+
+-- L["eft_muzzle_ak_kibaarms_308.printname"] = "AKM 7.62x39 Kiba Arms .308 muzzle device adapter"
+-- L["eft_muzzle_ak_kibaarms_308.compactname"] = "AKM 308"
+-- L["eft_muzzle_ak_kibaarms_308.description"] = "The Kiba Arms \"Samson\" adapter that allows installation of various .308 (7.62x51) muzzle devices on 7.62x39 AKM-type automatic rifles."
 
 -- [[ rec_ak ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_rec_ak_ak74.printname"] = "AK-74 dust cover"
+L["eft_rec_ak_ak74.compactname"] = "AK-74 DC"
+L["eft_rec_ak_ak74.description"] = "A standard-issue 6P1 0-1 dust cover for AK-74 automatic rifles, manufactured by Izhmash."
+
+L["eft_rec_ak_ak74m.printname"] = "AK-74M dust cover"
+L["eft_rec_ak_ak74m.compactname"] = "AK-74M DC"
+L["eft_rec_ak_ak74m.description"] = "A standard-issue 6P34 0-1 dust cover for AK-74M automatic rifles, manufactured by Izhmash."
+
+L["eft_rec_ak_akm.printname"] = "AKM dust cover"
+L["eft_rec_ak_akm.compactname"] = "AKM DC"
+L["eft_rec_ak_akm.description"] = "A standard-issue 6P1 0-1 dust cover for AKM automatic rifles, manufactured by Izhmash."
+
+L["eft_rec_ak_akm_molot.printname"] = "Molot Arms AKM-type dust cover"
+L["eft_rec_ak_akm_molot.compactname"] = "Molot DC"
+L["eft_rec_ak_akm_molot.description"] = "A standard-issue dust cover for AKM-type Vepr carbines, manufactured by Molot Arms."
+
+L["eft_rec_ak_b33.printname"] = "AK Zenit B-33 dust cover"
+L["eft_rec_ak_b33.compactname"] = "B-33"
+L["eft_rec_ak_b33.description"] = "The B-33 dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on AK system. Allows installation of all Picatinny-mountable sights, ensuring the consistency of median aimpoint even after repeated removal and replacement of dust cover. © Zenit"
+
+L["eft_rec_ak_bastion.printname"] = "AK AKademia Bastion dust cover"
+L["eft_rec_ak_bastion.compactname"] = "Bastion"
+L["eft_rec_ak_bastion.description"] = "The Bastion dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform. Manufactured by AKademia."
+
+L["eft_rec_ak_dogleg.printname"] = "AK TWS Dog Leg Rail dust cover"
+L["eft_rec_ak_dogleg.compactname"] = "Dog Leg Rail"
+L["eft_rec_ak_dogleg.description"] = "The Texas Weapon Systems Dog Leg Rail dust cover with an integrated Picatinny rail is compatible with all models of Kalashnikov automatic rifles and carbines based on the AK platform."
+
+L["eft_rec_ak_fab_pdc.printname"] = "AK FAB Defense PDC dust cover"
+L["eft_rec_ak_fab_pdc.compactname"] = "PDC"
+L["eft_rec_ak_fab_pdc.description"] = "The FAB Defense PDC dust cover with an integrated Picatinny rail is compatible with all models of automatic rifles and carbines based on the AK platform."
+
+L["eft_rec_ak_rd704.printname"] = "RD-704 dust cover"
+L["eft_rec_ak_rd704.compactname"] = "RD-704 DC"
+L["eft_rec_ak_rd704.description"] = "A standard-issue dust cover for RD-704 automatic rifles, manufactured by Rifle Dynamics."
+
+-- L["eft_akn.printname"] = "9x19mm AP 6.3"
+-- L["eft_akn.compactname"] = "AP 6.3"
+-- L["eft_akn.description"] = "A 9x19mm Parabellum AP 6.3 cartridge with a two-part controlled fragmenting projectile, an armor-piercing bullet that features a brass sabot and a hardened steel penetrator of 6.3mm. Thanks to the design of this AP bullet (Armor-Piercing) and despite having an average muzzle velocity relative to other cartridges of the same caliber, it has capabilities of piercing basic ballistic body protection along with some intermediate models."
 
 -- [[ rpk16 ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_rpk16_barrel_370.printname"] = "RPK-16 5.45x39 15 inch barrel"
+L["eft_rpk16_barrel_370.compactname"] = "RPK-16 15\""
+L["eft_rpk16_barrel_370.description"] = "A 15 inch (370mm) long barrel for RPK-16 light machine gun, chambered in 5.45x39 ammo."
+
+L["eft_rpk16_barrel_550.printname"] = "RPK-16 5.45x39 22 inch barrel"
+L["eft_rpk16_barrel_550.compactname"] = "RPK-16 22\""
+L["eft_rpk16_barrel_550.description"] = "A 22 inch (550mm) long barrel for RPK-16 light machine gun, chambered in 5.45x39 ammo."
+
+L["eft_rpk16_hg_std.printname"] = "RPK-16 handguard"
+L["eft_rpk16_hg_std.compactname"] = "RPK-16"
+L["eft_rpk16_hg_std.description"] = "A regular handguard for the RPK-16 LMG. Manufactured by Izhmash."
+
+L["eft_rpk16_mount_side.printname"] = "RPK-16 handguard rail"
+L["eft_rpk16_mount_side.compactname"] = "RPK-16 rail"
+L["eft_rpk16_mount_side.description"] = "A handguard rail for the RPK-16 LMG that allows you to install additional tactical equipment. Manufactured by Izhmash."
+
+L["eft_rpk16_muzzle_std.printname"] = "RPK-16 5.45x39 muzzle brake-compensator"
+L["eft_rpk16_muzzle_std.compactname"] = "RPK-16"
+L["eft_rpk16_muzzle_std.description"] = "A standard Izhmash-produced muzzle brake-compensator for the RPK-16 LMG."
+
+L["eft_rpk16_rec.printname"] = "RPK-16 dust cover"
+L["eft_rpk16_rec.compactname"] = "RPK-16"
+L["eft_rpk16_rec.description"] = "A standard-issue dust cover with an integrated Picatinny rail for RPK-16 LMGs, manufactured by Izhmash."
+
+L["eft_rpk16_rs.printname"] = "RPK-16 rear sight"
+L["eft_rpk16_rs.compactname"] = "RPK-16 RS"
+L["eft_rpk16_rs.description"] = "A detachable Izhmash-manufactured rear sight. Standard-issue for the RPK-16 LMG."
+
+L["eft_rpk16_rs_base.printname"] = "RPK-16 rear sight base"
+L["eft_rpk16_rs_base.compactname"] = "RPK16 RS base"
+L["eft_rpk16_rs_base.description"] = "A detachable base for the Izhmash-manufactured rear sight for the RPK-16 LMG."
+
+L["eft_rpk16_stock_tube.printname"] = "RPK-16 buffer tube"
+L["eft_rpk16_stock_tube.compactname"] = "RPK-16 tube"
+L["eft_rpk16_stock_tube.description"] = "A standard buffer tube for RPK-16 LMG, manufactured by Izhmash."
 
 -- [[ rs_ak ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_rs_ak_ak105.printname"] = "AK-105 rear sight"
+L["eft_rs_ak_ak105.compactname"] = "AK-105 RS"
+L["eft_rs_ak_ak105.description"] = "A standard 6P44 Sb.1-30 rear sight for AK-105 automatic rifles, manufactured by Izhmash."
+
+L["eft_rs_ak_ak74.printname"] = "AK-74 rear sight"
+L["eft_rs_ak_ak74.compactname"] = "AK-74 RS"
+L["eft_rs_ak_ak74.description"] = "A standard 6P20 Sb.2 rear sight for AK-74 automatic rifles, manufactured by Izhmash."
+
+L["eft_rs_ak_ak74m.printname"] = "AK-74M rear sight"
+L["eft_rs_ak_ak74m.compactname"] = "AK-74M RS"
+L["eft_rs_ak_ak74m.description"] = "A standard 6P20 Sb.2 rear sight for AK-74M automatic rifles, manufactured by Izhmash."
+
+L["eft_rs_ak_akm.printname"] = "AKM rear sight"
+L["eft_rs_ak_akm.compactname"] = "AKM RS"
+L["eft_rs_ak_akm.description"] = "A standard 6P1 Sb.2-1 rear sight for AKM automatic rifles, manufactured by Izhmash."
+
+L["eft_rs_ak_akmb.printname"] = "AKMB system rear sight"
+L["eft_rs_ak_akmb.compactname"] = "AKMB RS"
+L["eft_rs_ak_akmb.description"] = "A special rear sight leaf for use with PBS-1 and the “US” cartridge of the AKMB (AKMSB) arms system."
+
+L["eft_rs_ak_akmp.printname"] = "AKMP system rear sight device"
+L["eft_rs_ak_akmp.compactname"] = "AKMP RS"
+L["eft_rs_ak_akmp.description"] = "A device intended for firing AK and AKM family assault rifles in poor visibility conditions."
+
+L["eft_rs_ak_rd_ers.printname"] = "AK RD Enhanced V2 Rear Sight"
+L["eft_rs_ak_rd_ers.compactname"] = "V2 ERS"
+L["eft_rs_ak_rd_ers.description"] = "The V2 Enhanced rear sight for AK automatic rifles, manufactured by Rifle Dynamics."
+
+L["eft_rs_ak_tt01.printname"] = "AK Taktika Tula TT01 rear sight rail"
+L["eft_rs_ak_tt01.compactname"] = "TT01"
+L["eft_rs_ak_tt01.description"] = "The TT01 rear sight adapter, designed by Taktika Tula for AK family assault rifles. Installed in place of a standard rear sight and can be used as an iron sight if no reflex sight is installed."
+
+L["eft_rs_ak_vpo209.printname"] = "VPO-209 rear sight"
+L["eft_rs_ak_vpo209.compactname"] = "VPO-209 RS"
+L["eft_rs_ak_vpo209.description"] = "A standard rear sight for VPO-209 AKM carbines, manufactured by Molot Arms."
+
+L["eft_fs_ak_akmp.printname"] = "AKMP system front sight device"
+L["eft_fs_ak_akmp.compactname"] = "AKMP FS"
+L["eft_fs_ak_akmp.description"] = "A device intended for firing AK and AKM family assault rifles in poor visibility conditions."
 
 -- [[ sag545 ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_sag545_cover.printname"] = "AK-545 railed dust cover"
+L["eft_sag545_cover.compactname"] = "AK-545 DC"
+L["eft_sag545_cover.description"] = "A standard-issue dust cover for AK-545 carbines, manufactured by Sureshot Armament Group."
+
+L["eft_sag545_gastube.printname"] = "AK-545 Mk. 2.1 gas tube"
+L["eft_sag545_gastube.compactname"] = "Mk.2.1"
+L["eft_sag545_gastube.description"] = "The Mk. 2.1 gas tube for AK-545 carbines manufactured by Sureshot Armament Group."
+
+L["eft_sag545_hg_std.printname"] = "AK-545 Mk.3 handguard"
+L["eft_sag545_hg_std.compactname"] = "SAG Mk.3"
+L["eft_sag545_hg_std.description"] = "The Sureshot Armament Group Mk.3 handguard for AK-545, equipped with an M-LOK interface for the installation of additional devices and accessories and a picatinny rail on top for sights and tactical equipment mounting."
+
+L["eft_sag545_rs.printname"] = "AK-545 rear sight"
+L["eft_sag545_rs.compactname"] = "AK-545 RS"
+L["eft_sag545_rs.description"] = "A standard rear sight for AK-545 carbines, manufactured by Sureshot Armament Group."
+
+L["eft_sag545_buffertube.printname"] = "AK-545 buffer tube"
+L["eft_sag545_buffertube.compactname"] = "SAG tube"
+L["eft_sag545_buffertube.description"] = "Sureshot Armament Group Receiver Extension Buffer Tube, 6-position, Mil-Spec diameter, designed specifically for AK-545."
 
 -- [[ saiga12 ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_saiga12_dustcover_std.printname"] = "SOK-12 dust cover "
+L["eft_saiga12_dustcover_std.compactname"] = "SOK-12 DC"
+L["eft_saiga12_dustcover_std.description"] = "A standard-issue Sb.0-2 dust cover for Saiga 12, manufactured by Izhmash."
+
+L["eft_saiga12_handguard_bravo18.printname"] = "SOK-12 Bravo-18 aluminium handguard"
+L["eft_saiga12_handguard_bravo18.compactname"] = "Bravo-18"
+L["eft_saiga12_handguard_bravo18.description"] = "Bravo-18 is a lightweight aircraft grade aluminum handguard, designed for installation on Saiga carbines."
+
+L["eft_saiga12_handguard_custom340.printname"] = "SOK-12 Custom Guns Type-340 handguard"
+L["eft_saiga12_handguard_custom340.compactname"] = "Type-340"
+L["eft_saiga12_handguard_custom340.description"] = "Type-340 is a lightweight aircraft grade aluminium handguard, designed for installation on Saiga carbines. Manufactured by Custom Guns."
+
+L["eft_saiga12_handguard_custom340_mount.printname"] = "Custom Guns handguard rail"
+L["eft_saiga12_handguard_custom340_mount.compactname"] = "CG"
+L["eft_saiga12_handguard_custom340_mount.description"] = "The Custom Guns rail guide allows you to install additional equipment on the proprietary handguards."
+
+L["eft_saiga12_handguard_std.printname"] = "SOK-12 polymer handguard"
+L["eft_saiga12_handguard_std.compactname"] = "SOK-12"
+L["eft_saiga12_handguard_std.description"] = "Sb.7-1 is a standard polymer handguard with a sling swivel, installs on SOK-12 and SOK-12S."
+
+L["eft_saiga12_handguard_utg_pro_long.printname"] = "SOK-12 Leapers UTG PRO MTU002 Long Top aluminum handguard"
+L["eft_saiga12_handguard_utg_pro_long.compactname"] = "MTU002 L"
+L["eft_saiga12_handguard_utg_pro_long.description"] = "The UTG PRO MTU002 Long Top Tactical Quad Rail is a lightweight aircraft grade aluminum handguard with a sling swivel, designed for installation on Saiga carbines. Manufactured by Leapers Inc."
+
+L["eft_saiga12_handguard_utg_pro_short.printname"] = "SOK-12 Leapers UTG PRO MTU002 Short Top aluminum handguard"
+L["eft_saiga12_handguard_utg_pro_short.compactname"] = "MTU002 S"
+L["eft_saiga12_handguard_utg_pro_short.description"] = "The UTG PRO MTU002 Tactical Quad Rail Short Top is a lightweight aircraft grade aluminum handguard with sling swivel, designed for installation on Saiga carbines. Manufactured by Leapers Inc."
+
+L["eft_saiga12_magazine_powermag.printname"] = "SOK-12 12ga MaxRounds Powermag 20-round drum magazine"
+L["eft_saiga12_magazine_powermag.compactname"] = "Powermag" .. " 20"
+L["eft_saiga12_magazine_powermag.description"] = "The MaxRounds Powermag 20-shell drum magazine for SOK-12 and compatible weapons, intended for use with 12/76 or 12/70 shells."
+
+L["eft_saiga12_magazine_promag.printname"] = "SOK-12 12ga SAI-02 10-round magazine"
+L["eft_saiga12_magazine_promag.compactname"] = "SAI-02" .. " 10"
+L["eft_saiga12_magazine_promag.description"] = "The SAI-02 is a 10-round polymer magazine for SOK-12 and compatible weapons, intended for use with 12/76 or 12/70 shells. Manufactured by ProMag."
+
+L["eft_saiga12_magazine_std.printname"] = "SOK-12 12ga Sb.5 5-round magazine"
+L["eft_saiga12_magazine_std.compactname"] = "Sb.5" .. " 5"
+L["eft_saiga12_magazine_std.description"] = "A 5-round Sb.5 polymer plastic magazine for the SOK-12 and compatible weapons, intended for use with 12/76 or 12/70 shells."
+
+L["eft_saiga12_muzzle_std.printname"] = "SOK-12 thread protection tube"
+L["eft_saiga12_muzzle_std.compactname"] = "SOK-12 thr."
+L["eft_saiga12_muzzle_std.description"] = "A standard-issue threading protection tube for SOK-12."
+
+L["eft_saiga12_rs_mount.printname"] = "SOK-12 CSS rear sight rail mount"
+L["eft_saiga12_rs_mount.compactname"] = "CSS RSRM"
+L["eft_saiga12_rs_mount.description"] = "This sight rail mount allows installation of various sights instead of the Saiga carbines standard-issue fixed rear sight."
+
+L["eft_saiga12_rs_std.printname"] = "SOK-12 rear sight"
+L["eft_saiga12_rs_std.compactname"] = "SOK12 RS"
+L["eft_saiga12_rs_std.description"] = "A standard-issue fixed rear sight for SOK-12, manufactured by Izhmash."
+
+L["eft_saiga12_stock_std.printname"] = "SOK-12 AK-style stock"
+L["eft_saiga12_stock_std.compactname"] = "SOK-12 AK"
+L["eft_saiga12_stock_std.description"] = "A folding polymer AK-styled stock for SOK-12, manufactured by Izhmash."
+
+L["eft_ammo_12x70_mixed_50bmg_p3.printname"] = "12/70 makeshift .50 BMG slug" .. " + " .. "12/70 Poleva-3 slug"
+L["eft_ammo_12x70_mixed_50bmg_p3.compactname"] = ".50 BMG" .. " / " .. "Poleva-3"
+L["eft_ammo_12x70_mixed_50bmg_p3.description"] = "A custom-made 12/70 slug shell with a shortened .50 BMG tracer bullet for 12 gauge shotguns. No one knows who and why is producing these strange slugs in Tarkov, but they just work... somehow." .. "\n\n" .. "A \"Poleva-3\" 12/70 expanding slug shell for 12 gauge shotguns."
+
+L["eft_saiga12_handguard_titan.printname"] = "SOK-12 Chaos Titan Quad Rail handguard"
+L["eft_saiga12_handguard_titan.compactname"] = "Titan Quad Rail"
+L["eft_saiga12_handguard_titan.description"] = "A lightweight handguard from the Titan Quad Rail System for Saiga shotguns. Manufactured by Chaos."
+
+L["eft_saiga12_handguard_titantop.printname"] = "SOK-12 Chaos Titan Quad Rail handguard top cover"
+L["eft_saiga12_handguard_titantop.compactname"] = "Titan QRTC"
+L["eft_saiga12_handguard_titantop.description"] = "A handguard top rail for the Titan Quad Rail System, manufactured by Chaos."
+
+L["eft_saiga12_handguard_titanrecuver.printname"] = "SOK-12 Chaos Titan receiver top rail"
+L["eft_saiga12_handguard_titanrecuver.compactname"] = "Titan TR"
+L["eft_saiga12_handguard_titanrecuver.description"] = "A receiver top rail for the Titan Quad Rail System, manufactured by Chaos."
+
+L["eft_saiga12_fs_chaos.printname"] = "Chaos HK Style front sight"
+L["eft_saiga12_fs_chaos.compactname"] = "Chaos FS"
+L["eft_saiga12_fs_chaos.description"] = "A front sight modeled after the popular Heckler & Koch iron sights, manufactured by Chaos."
+
+L["eft_saiga12_rs_chaos.printname"] = "Chaos HK Style rear sight"
+L["eft_saiga12_rs_chaos.compactname"] = "Chaos RS"
+L["eft_saiga12_rs_chaos.description"] = "A rear sight modeled after the popular Heckler & Koch iron sights, manufactured by Chaos."
+
+L["eft_saiga12_magazine_md20.printname"] = "SOK-12 12ga MD Arms 20-round drum magazine"
+L["eft_saiga12_magazine_md20.compactname"] = "MD Arms" .. " 20"
+L["eft_saiga12_magazine_md20.description"] = "The MD Arms 20-shell drum magazine for SOK-12 and compatible weapons, intended for use with 12/76 or 12/70 shells."
 
 -- [[ silencer_ak ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_silencer_ak_ak74_hexagon.printname"] = "AK-74 Hexagon 5.45x39 sound suppressor"
+L["eft_silencer_ak_ak74_hexagon.compactname"] = "Hexagon AK-74"
+L["eft_silencer_ak_ak74_hexagon.description"] = "A sound moderator for AK-74 automatic rifles, manufactured by Hexagon."
+
+L["eft_silencer_ak_akm_hexagon.printname"] = "AKM Hexagon 7.62x39 sound suppressor"
+L["eft_silencer_ak_akm_hexagon.compactname"] = "Hexagon AKM"
+L["eft_silencer_ak_akm_hexagon.description"] = "A sound moderator for AKM 7.62x39 automatic rifles, manufactured by Hexagon."
+
+L["eft_silencer_ak_dtk4m.printname"] = "AKM Zenit DTK-4M 7.62x39 sound suppressor"
+L["eft_silencer_ak_dtk4m.compactname"] = "DTK-4M"
+L["eft_silencer_ak_dtk4m.description"] = "The Zenit DTK-4M muzzle brake, manufactured from titanium alloy, is designed for installation on modern 7.62x39 AK assault rifles. Although positioned as a muzzle brake, it can only be purchased by the staff of particular authorities."
+
+L["eft_silencer_ak_hexagon_dtkp.printname"] = "AK Hexagon DTKP MK.2 7.62x39 sound suppressor"
+L["eft_silencer_ak_hexagon_dtkp.compactname"] = "DTKP"
+L["eft_silencer_ak_hexagon_dtkp.description"] = "The DTKP 7.62x39 sound suppressor manufactured by Hexagon. Designed for modern modification of AK with a 24x1.5 thread."
+
+L["eft_silencer_ak_pbs1.printname"] = "AKM PBS-1 7.62x39 sound suppressor"
+L["eft_silencer_ak_pbs1.compactname"] = "PBS-1"
+L["eft_silencer_ak_pbs1.description"] = "PBS-1 (Pribór Besshúmnoy Strel'bý - \"Silent Firing Device\") is a sound suppressor manufactured by TsNIITochMash for noiseless and flash-free fire with 7.62x39mm AK family assault rifles."
+
+L["eft_silencer_ak_pbs4.printname"] = "AKS-74U PBS-4 5.45x39 sound suppressor"
+L["eft_silencer_ak_pbs4.compactname"] = "PBS-4"
+L["eft_silencer_ak_pbs4.description"] = "The PBS-4 (Pribór Besshúmnoy Strel'bý - \"Silent Firing Device\") sound suppressor, manufactured by TsNIITochMash for use as a part of the \"Canary\" assault rifle grenade launcher system."
+
+L["eft_silencer_ak_tgpa.printname"] = "AK-74 TGP-A 5.45x39 sound suppressor"
+L["eft_silencer_ak_tgpa.compactname"] = "TGP-A"
+L["eft_silencer_ak_tgpa.description"] = "The TGP-A tactical muzzle device/suppressor, manufactured by State R&D Agency \"Special devices and Comms\" for AK-based 5.45x39 automatic rifles."
+
+L["eft_silencer_ak_wafflemaker.printname"] = "AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor"
+L["eft_silencer_ak_wafflemaker.compactname"] = "Waffle"
+L["eft_silencer_ak_wafflemaker.description"] = "The \"Wafflemaker\" prototype sound suppressor manufactured by Hexagon, designed for installation on the Hexagon \"Reactor\" muzzle brake."
+
+L["eft_silencer_ak_r43_762.printname"] = "Rotor 43 7.62x39 sound suppressor"
+L["eft_silencer_ak_r43_762.compactname"] = "R43 7.62x39"
+L["eft_silencer_ak_r43_762.description"] = "The Rotor 43 muzzle brake is designed for installation on AK 7.62x39 family assault rifles. Although positioned as a muzzle brake, it also works as a sound suppressor."
 
 -- [[ stock_ak ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_stock_ak74m_caa_akts.printname"] = "AK-74M CAA AKTS AK74 buffer tube"
+L["eft_stock_ak74m_caa_akts.compactname"] = "AKTS AK74"
+L["eft_stock_ak74m_caa_akts.description"] = "CAA Receiver Extension Buffer Tube, 6-position, Mil-Spec diameter will fit any modern AK-based rifles with a side-folding stock."
+
+L["eft_stock_ak74m_std.printname"] = "AK-74M polymer stock"
+L["eft_stock_ak74m_std.compactname"] = "AK-74M"
+L["eft_stock_ak74m_std.description"] = "A polymer 6P34 Sb.15 stock for AK-74M automatic rifles, manufactured by Izhmash."
+
+L["eft_stock_ak74m_zenit_lock.printname"] = "AK-74M/AK-100 Zenit PT Lock"
+L["eft_stock_ak74m_zenit_lock.compactname"] = "PT 74M/100"
+L["eft_stock_ak74m_zenit_lock.description"] = "The lock is designed to install the PT-1 and PT-3 stocks to a weapon. This model is designed for installation on the AK-74M and AK-100-series assault rifles. Manufactured by Zenit."
+
+L["eft_stock_ak74_polymer.printname"] = "AK-74 polymer stock"
+L["eft_stock_ak74_polymer.compactname"] = "AK-74 poly"
+L["eft_stock_ak74_polymer.description"] = "A polymer 6P20 Sb.7 stock for AK-74 automatic rifles which replaced the classic wooden one. Manufactured by Izhmash."
+
+L["eft_stock_ak74_polymer_plum.printname"] = "AK-74 polymer stock (Plum)"
+L["eft_stock_ak74_polymer_plum.compactname"] = "AK-74 poly"
+L["eft_stock_ak74_polymer_plum.description"] = "A polymer 6P20 Sb.7 stock for AK-74 automatic rifles, manufactured by Izhmash. Made out of plum-colored polymer, for which has earned the nickname \"Sliva\" (\"Plum\")."
+
+L["eft_stock_ak74_std.printname"] = "AK-74 wooden stock"
+L["eft_stock_ak74_std.compactname"] = "AK-74 wood"
+L["eft_stock_ak74_std.description"] = "A standard-issue 6P20 Sb.5 wooden stock for AK-74 automatic rifles, manufactured by Izhmash."
+
+L["eft_stock_akms.printname"] = "AKMS folding stock"
+L["eft_stock_akms.compactname"] = "AKMS"
+L["eft_stock_akms.description"] = "A 6P4 Sb.1-19 folding shoulder piece assembly for AKMS automatic rifles, manufactured by Izhmash."
+
+L["eft_stock_akmsn.printname"] = "AKMSN folding stock"
+L["eft_stock_akmsn.compactname"] = "AKMSN"
+L["eft_stock_akmsn.description"] = "A 6P4N Sb.1-19 folding shoulder piece assembly for AKMSN automatic rifles, manufactured by Izhmash."
+
+L["eft_stock_akm_aa47.printname"] = "AKM/AK-74 ProMag Archangel OPFOR AA47 buttstock"
+L["eft_stock_akm_aa47.compactname"] = "OPFOR AA47"
+L["eft_stock_akm_aa47.description"] = "The OPFOR AA47 stock from the Archangel kit for AKM/AK-74-type non-folding weapon systems. Manufactured by ProMag."
+
+L["eft_stock_akm_akts.printname"] = "AKM/AK-74 CAA AKTS buffer tube"
+L["eft_stock_akm_akts.compactname"] = "AKTS AKM"
+L["eft_stock_akm_akts.description"] = "CAA Receiver Extension Buffer Tube, 6-position, Mil-Spec diameter will fit any AK-based rifles with a fixed stock."
+
+L["eft_stock_akm_fabd_uas.printname"] = "AKM/AK-74 FAB Defense UAS stock"
+L["eft_stock_akm_fabd_uas.compactname"] = "UAS AK"
+L["eft_stock_akm_fabd_uas.description"] = "The UAS stock for AKM/AK74-type non-folding assault rifles. Manufactured by FAB Defense."
+
+L["eft_stock_akm_kocherga.printname"] = "AKM/AK-74 Hexagon \"Kocherga\" stock (Anodized Red)"
+L["eft_stock_akm_kocherga.compactname"] = "Kocherga"
+L["eft_stock_akm_kocherga.description"] = "The \"Kocherga\" lightweight stock for AKM/AK-74-type non-folding automatic rifles, manufactured by Hexagon. Anodized Red version."
+
+L["eft_stock_akm_me4.printname"] = "AKM/AK-74 ME4 buffer tube adapter"
+L["eft_stock_akm_me4.compactname"] = "ME4"
+L["eft_stock_akm_me4.description"] = "An adapter for the installation of telescopic stock buffer tubes on AKs with non-folding stocks."
+
+L["eft_stock_akm_pt_lock.printname"] = "AKM/AK-74 Zenit PT Lock"
+L["eft_stock_akm_pt_lock.compactname"] = "PT AKM"
+L["eft_stock_akm_pt_lock.description"] = "The lock is designed to install the PT-1 stocks to a weapon. This model is designed for installation on the AKM and AK-74 non-folding assault rifles. Manufactured by Zenit."
+
+L["eft_stock_akm_std.printname"] = "AKM wooden stock"
+L["eft_stock_akm_std.compactname"] = "AKM wood"
+L["eft_stock_akm_std.description"] = "A standard-issue wooden 6P1 Sb.5 stock for AKM automatic rifles, manufactured by Izhmash."
+
+L["eft_stock_akm_zhu_s.printname"] = "AKM/AK-74 Magpul Zhukov-S stock"
+L["eft_stock_akm_zhu_s.compactname"] = "Zhukov-S"
+L["eft_stock_akm_zhu_s.description"] = "The Zhukov-S stock, designed for installation on AKM/AK-74-type non-folding assault rifles. Manufactured by Magpul."
+
+L["eft_stock_aks74_std.printname"] = "AKS-74 skeletonized stock"
+L["eft_stock_aks74_std.compactname"] = "AKS-74"
+L["eft_stock_aks74_std.description"] = "A 6P21 Sb.5 metal skeleton stock for AKS-74 automatic rifles, manufactured by Izhmash."
+
+L["eft_stock_aks_zenit_lock.printname"] = "AKS-74/AKS-74U Zenit PT Lock"
+L["eft_stock_aks_zenit_lock.compactname"] = "PT 74S"
+L["eft_stock_aks_zenit_lock.description"] = "The lock is designed to install the PT-1 and PT-3 stocks to a weapon. This model is designed for installation on the AKS-74 and AKS-74U folding assault rifles. Manufactured by Zenit."
+
+L["eft_stock_ak_aktom4.printname"] = "AKM/AK-74 RD AK to M4 buffer tube adapter"
+L["eft_stock_ak_aktom4.compactname"] = "AKtoM4"
+L["eft_stock_ak_aktom4.description"] = "The AK to M4 Gen 2 adapter for installation of telescopic stock buffer tubes on AK series assault rifles with fixed stocks. Manufactured by Rifle Dynamics."
+
+L["eft_stock_ak_pad.printname"] = "AK GP-25 accessory kit recoil pad"
+L["eft_stock_ak_pad.compactname"] = "6G15U"
+L["eft_stock_ak_pad.description"] = "A recoil pad from the standard accessories’ kit of GP-25 under-barrel grenade launcher for AK automatic rifles, also known as the \"Overshoe\". Despite its original purpose, it can be installed on many AK models for recoil damping, and thus made it into common use."
+
+L["eft_stock_vpo136.printname"] = "VPO-136 Vepr-KM wooden stock"
+L["eft_stock_vpo136.compactname"] = "VPO-136"
+L["eft_stock_vpo136.description"] = "A standard-issue wooden stock for VPO-136 Vepr KM carbines, manufactured by Molot Arms."
+
+L["eft_stock_vpo209.printname"] = "VPO-209 wooden stock"
+L["eft_stock_vpo209.compactname"] = "VPO-209"
+L["eft_stock_vpo209.description"] = "A standard-issue wooden stock for VPO-209 AKM carbines, manufactured by Molot Arms."
+
+L["eft_stock_zenit_pt1.printname"] = "AK Zenit PT-1 \"Klassika\" stock"
+L["eft_stock_zenit_pt1.compactname"] = "PT-1"
+L["eft_stock_zenit_pt1.description"] = "The telescopic PT-1 stock is mounted on the standard place of the stock AK 103, 104, 105, 74M, AKS74U and PP Vityaz, has a length adjustment mechanism and an adjustable cheek. A special lock is required for installation. Manufactured by Zenit."
+
+L["eft_stock_zenit_pt3.printname"] = "AK Zenit PT-3 \"Klassika\" stock"
+L["eft_stock_zenit_pt3.compactname"] = "PT-3"
+L["eft_stock_zenit_pt3.description"] = "The PT-3 telescopic stock is mounted instead of the standard stock of AK-103, 104, 105, 74M, AKS74U, and PP Vityaz weapons. Features a length adjustment mechanism and an adjustable cheek. A special PT lock is required for installation. Manufactured by Zenit."
+
+L["eft_stock_ak100_skelet.printname"] = "AK 100-series metal skeletonized stock"
+L["eft_stock_ak100_skelet.compactname"] = "AK 100"
+L["eft_stock_ak100_skelet.description"] = "A metal triangle stock for the 100-series AKs, manufactured by Izhmash."
+
+L["eft_stock_ak_skelet_cust.printname"] = "AK skeletonized stock (Customized)"
+L["eft_stock_ak_skelet_cust.compactname"] = "Med stock"
+L["eft_stock_ak_skelet_cust.description"] = "A metal skeleton stock equipped with a bandage and Esmarch tourniquet, the use of which, when carried this way, has been the subject of much debate and is still in question. A true old school."
+
+L["eft_stock_ak_evo.printname"] = "AK AK-EVO stock"
+L["eft_stock_ak_evo.compactname"] = "AK-EVO"
+L["eft_stock_ak_evo.description"] = "A new polymer buttstock for the modern AK platform folding weapons. Manufactured by Kalashnikov Concern."
+
+L["eft_stock_akms_fab.printname"] = "AKMS FAB Defense M4-AKMS P stock adapter"
+L["eft_stock_akms_fab.compactname"] = "AKMS P"
+L["eft_stock_akms_fab.description"] = "A buttstock adapter for the AKMS automatic rifle. Allows to install Com-Spec and Mil-Spec buttstocks on the weapon. Made of durable anodized aluminum. Manufactured by FAB Defense."
+
+L["eft_stock_ak_pad_stef.printname"] = "AK Custom Arms ST-EF 74 skeleton stock extension"
+L["eft_stock_ak_pad_stef.compactname"] = "ST-EF"
+L["eft_stock_ak_pad_stef.description"] = "A buttpad that extends the length of the standard metal frame folding buttstock of the AK-platform weapons. The advantage of this extension is that the width of the pad is equal to the width of the AK-100 series plastic pad. The buttpad adds comfort when shooting and reduces the recoil effect. Manufactured by Custom Arms."
 
 -- [[ ubgl_ak ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_gp25.printname"] = "GP-25 Kostyor 40mm underbarrel grenade launcher"
+L["eft_gp25.compactname"] = "GP-25"
+L["eft_gp25.description"] = "An underbarrel grenade launcher for 40mm VOG-25 grenades, designed for installation on all full length AK automatic rifles."
+
+L["eft_gp34.printname"] = "GP-34 40mm underbarrel grenade launcher"
+L["eft_gp34.compactname"] = "GP-34"
+L["eft_gp34.description"] = "[<color=255,0,0> DO NOT USE! </color>] Could cause <color=255,100,100>errors with the GP-25</color> if equipped before it. You have been warned.\n\n" .. "An underbarrel grenade launcher for 40mm VOG-25 grenades, designed for installation on all full length AK automatic rifles."
 
 -- [[ vityaz ]]
--- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
--- L["eft_mount_kac_bipod.compactname"] = "MWS BA"
--- L["eft_mount_kac_bipod.description"] = "A mount allows installation of Harris bipods on standard Picatinny handguards. Manufactured by Knight's Armament Company."
+L["eft_vityaz_gas_std.printname"] = "PP-19-01 Vityaz gas tube"
+L["eft_vityaz_gas_std.compactname"] = "19-01 gas"
+L["eft_vityaz_gas_std.description"] = "A standard gas tube for PP-19-01 Vityaz submachine guns. Gas tubes channel the travel direction of gas piston."
+
+L["eft_vityaz_mag_sb7.printname"] = "Saiga-9 9x19 sb.7 10-round magazine"
+L["eft_vityaz_mag_sb7.compactname"] = "Sb.7" .. " 10"
+L["eft_vityaz_mag_sb7.description"] = "The Izh.9x19 Sb.7 magazine for Saiga-9 carbines with a 10-round capacity limiter."
+
+L["eft_vityaz_mag_sg919_20.printname"] = "PP-19-01 Vityaz 9x19 PUFGUN SG-919 20 20-round magazine"
+L["eft_vityaz_mag_sg919_20.compactname"] = "SG-919" .. " 20"
+L["eft_vityaz_mag_sg919_20.description"] = "The PUFGUN SG-919 20 magazine for PP-19-01 Vityaz 9x19 with a 20-round ammo capacity. Tactical banana yellow camouflage."
+
+L["eft_vityaz_mag_sg919_30.printname"] = "PP-19-01 Vityaz 9x19 PUFGUN SG-919 30 30-round magazine"
+L["eft_vityaz_mag_sg919_30.compactname"] = "SG-919" .. " 30"
+L["eft_vityaz_mag_sg919_30.description"] = "The PUFGUN SG-919 30 magazine for PP-19-01 Vityaz 9x19 with a 30-round ammo capacity. Tactical banana yellow camouflage."
+
+L["eft_vityaz_mag_std.printname"] = "PP-19-01 Vityaz 9x19 30-round magazine"
+L["eft_vityaz_mag_std.compactname"] = "PP-19-01" .. " 30"
+L["eft_vityaz_mag_std.description"] = "A standard 30-round capacity 9x19 magazine for PP-19-01 Vityaz SMG."
+
+L["eft_vityaz_muzzle_saiga9.printname"] = "Saiga-9 9x19 muzzle brake-compensator"
+L["eft_vityaz_muzzle_saiga9.compactname"] = "Saiga-9"
+L["eft_vityaz_muzzle_saiga9.description"] = "A standard muzzle brake-compensator made by Izhmash for Saiga-9 carbines."
+
+L["eft_vityaz_muzzle_std.printname"] = "PP-19-01 Vityaz 9x19 muzzle brake-compensator"
+L["eft_vityaz_muzzle_std.compactname"] = "PP-19-01"
+L["eft_vityaz_muzzle_std.description"] = "A standard muzzle brake/compensator made by Izhmash for PP-19-01 Vityaz 9x19 SMG."
+
+L["eft_vityaz_rec_sn.printname"] = "PP-19-01 Vityaz-SN dust cover"
+L["eft_vityaz_rec_sn.compactname"] = "Vityaz-SN"
+L["eft_vityaz_rec_sn.description"] = "A standard-issue receiver dust cover for PP-19-01 Vityaz-SN (mod. 20) with a top rail for installation of various scopes, manufactured by Izhmash."
+
+L["eft_vityaz_rec_std.printname"] = "PP-19-01 Vityaz dust cover"
+L["eft_vityaz_rec_std.compactname"] = "Vityaz"
+L["eft_vityaz_rec_std.description"] = "A standard-issue dust cover for PP-19-01 Vityaz SMGs, manufactured by Izhmash."
+
+L["eft_vityaz_rs_std.printname"] = "PP-19-01 Vityaz rear sight"
+L["eft_vityaz_rs_std.compactname"] = "PP-19-01"
+L["eft_vityaz_rs_std.description"] = "A standard rear sight for PP-19-01 Vityaz SMG produced by Izhmash."
+
+L["eft_vityaz_silencer_std.printname"] = "PP-19-01 Vityaz 9x19 sound suppressor"
+L["eft_vityaz_silencer_std.compactname"] = "Vityaz"
+L["eft_vityaz_silencer_std.description"] = "An Izhmash-produced sound suppressing device for PP-19-01 Vityaz 9x19 SMG of previous generations."
+
+L["eft_vityaz_stock_std.printname"] = "PP-19-01 Vityaz metal skeleton stock"
+L["eft_vityaz_stock_std.compactname"] = "PP-19-01"
+L["eft_vityaz_stock_std.description"] = "A skeletonized metal stock for PP-19-01 Vityaz SMGs and Saiga-9 carbines, manufactured by Izhmash."
 
 ///////////////////////////// AR15 + HK416 Platforms
 -- L["eft_mount_kac_bipod.printname"] = "KAC MWS Bipod Adapter"
