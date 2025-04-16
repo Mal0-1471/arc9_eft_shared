@@ -123,6 +123,11 @@ L["eft_optic_exps3.printname"] = "Eotech EXPS3全息瞄准镜" -- from "558022b5
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Pmag 30 AK74 GEN M3 5.45x39 30发AK兼容武器弹匣 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣 (FDE)" -- from "59d6272486f77466146386ff Name"
 
+-- Rec_AK
+L["eft_akn.printname"] = "AKMN燕尾槽基座"
+L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
+L["eft_akn.description"] = "用于在AKM上安装瞄具及其他附加设备的基座。"
+
 ///////////////////////////// EFT Weapon Names
 --[[
 

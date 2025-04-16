@@ -123,6 +123,11 @@ L["eft_optic_exps3.printname"] = "Celownik holograficzny EOTech EXPS3" -- from "
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "30-nabojowy magazynek do AK-74 5,45 x 39 Magpul PMAG 30 GEN M3 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "30-nabojowy magazynek do AK 7,62 x 39 Magpul PMAG 30 GEN M3 (FDE)" -- from "59d6272486f77466146386ff Name"
 
+-- Rec_AK
+L["eft_akn.printname"] = "Montaż do AKMN na jaskółczy ogon"
+L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
+L["eft_akn.description"] = "Montaż do instalacji celowników i dodatkowych urządzeń na karabinkach AKM."
+
 ///////////////////////////// EFT Weapon Names
 --[[
 
