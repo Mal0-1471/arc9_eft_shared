@@ -123,6 +123,11 @@ L["eft_optic_exps3.printname"] = "Viseur holographique EOTech EXPS3" -- from "55
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Chargeur Pmag 30 AK74 GEN M3 5,45 x 39 mm 30 coups pour AK (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Chargeur Magpul PMAG 30 GEN M3 7,62 x 39 mm 30 coups pour AK (FDE)" -- from "59d6272486f77466146386ff Name"
 
+-- Rec_AK
+L["eft_akn.printname"] = "Montage queue d'aronde pour AKMN"
+L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
+L["eft_akn.description"] = "Un montage pour l'installation de viseurs et autres accessoires additionnels sur les carabines AKM."
+
 ///////////////////////////// EFT Weapon Names
 --[[
 

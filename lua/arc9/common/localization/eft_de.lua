@@ -123,6 +123,11 @@ L["eft_optic_exps3.printname"] = "EOTech EXPS3 Holovisier" -- from "558022b54bdc
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "AK-74 5,45x39mm Magpul PMAG 30 GEN M3 30-Schuss Magazin (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "AK 7,62x39mm Magpul PMAG 30 GEN M3 30-Schuss Magazin (FDE)" -- from "59d6272486f77466146386ff Name"
 
+-- Rec_AK
+L["eft_akn.printname"] = "AKMN Dovetail Halterung"
+L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
+L["eft_akn.description"] = "Eine Halterung zur Anbringung von Visieren und zusätzlichen Geräten auf dem AKM Sturmgewehr."
+
 ///////////////////////////// EFT Weapon Names
 --[[
 

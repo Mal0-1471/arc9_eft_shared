@@ -123,6 +123,11 @@ L["eft_optic_exps3.printname"] = "Eotech EXPS3 holografik nişangah" -- from "55
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "AK türevleri için 30 mermilik, Pmag 30 AK74 Gen M3 5.45x39 şarjör (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "AK türevi silahlar için Pmag 30 AK/AKM GEN M3 7,62X39 şarjör (FDE)" -- from "59d6272486f77466146386ff Name"
 
+-- Rec_AK
+L["eft_akn.printname"] = "Dovetail OP-SKS montaj aparatı."
+L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
+L["eft_akn.description"] = "AKM üzerine nişangah ve diğer ek teçhizatların kurulumu için gerekli montaj aparatı."
+
 ///////////////////////////// EFT Weapon Names
 --[[
 
