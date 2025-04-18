@@ -43,6 +43,9 @@ L["eft_trivia_act_recoil"] = "Отдача ствола"
 
 L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
 
+-- [[ Customization ]]
+L["Ergonomics"] = "Эргономика"
+
 -- [[ Weapon Categories ]] - If not using localized strings
 L["eft_subcat_carb"] = "5Штурмовые карабины"
 L["eft_subcat_ar"] = "1Штурмовые винтовки"

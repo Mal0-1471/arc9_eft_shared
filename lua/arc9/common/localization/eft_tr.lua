@@ -43,6 +43,9 @@ IncludeCS("a-eftbulk.lua") -- Bulk file with Weapon & Attachment Names, Short Na
 
 -- L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
+-- [[ Customization ]]
+L["Ergonomics"] = "Ergonomİ"
+
 -- [[ Weapon Categories ]] - If not using localized strings
 -- L["eft_subcat_carb"] = "5Assault Carbines"
 -- L["eft_subcat_ar"] = "1Assault Rifles"

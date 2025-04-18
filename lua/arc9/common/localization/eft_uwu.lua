@@ -43,6 +43,9 @@ L["eft_trivia_act_recoil"] = "Wecoil uwu"
 
 L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
+-- [[ Customization ]]
+L["Ergonomics"] = "Ergonomics"
+
 -- [[ Weapon Categories ]] - If not using localized strings
 L["eft_subcat_carb"] = "5Awwault Cawwbines owo"
 L["eft_subcat_ar"] = "1Awwault Wiffles uwu"
