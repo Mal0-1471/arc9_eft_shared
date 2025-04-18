@@ -1,4 +1,5 @@
-L = {}
+
+-- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."L = {}
 
 //////////////////////////////////////////////////////////////////////
 ///////////////////////////// Escape from Tarkov Localization File - Swedish (Unofficial)
@@ -45,6 +46,7 @@ L["eft_trivia_calibr_9x21"] = "9 x 21 mm Gyurza"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomi"
+L["Ergonomics.desc"] = "[ EFT ] Påverkar siktehastigheten och uthållighetstömning."
 
 -- [[ Weapon Categories ]] - If not using localized strings
 L["eft_subcat_carb"] = "5Halvautomatiska karbiner"

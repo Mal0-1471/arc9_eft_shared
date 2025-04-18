@@ -45,6 +45,7 @@ L["eft_trivia_act_recoil"] = "Retroceso"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomía"
+-- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
 
 -- [[ Weapon Categories ]] - If not using localized strings
 -- L["eft_subcat_carb"] = "5Assault Carbines"
