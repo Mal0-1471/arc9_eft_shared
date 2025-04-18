@@ -119,14 +119,20 @@ Some attachments require custom additions, so all of those will be placed here.
 L["eft_optic_exps3.printname"] = "Eotech EXPS3全息瞄准镜" -- from "558022b54bdc2dac148b458d Name"
 
 -- [[ AK Platform ]]
--- Mag_AK
+-- mag_ak
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Pmag 30 AK74 GEN M3 5.45x39 30发AK兼容武器弹匣 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣 (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- Rec_AK
+-- rec_ak
 L["eft_akn.printname"] = "AKMN燕尾槽基座"
 L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
 L["eft_akn.description"] = "用于在AKM上安装瞄具及其他附加设备的基座。"
+
+-- hg_ar15
+L["eft_hg_ar15_lvoac_f.printname"] = "War Sport LVOA-C (Flat Dark Earth) AR-15兼容护木" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoac_g.printname"] = "War Sport LVOA-C (Stealth Grey) AR-15兼容护木" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoas_f.printname"] = "War Sport LVOA-S (Flat Dark Earth) AR-15兼容护木" -- from "595cf16b86f77427440c32e2 Name"
+L["eft_hg_ar15_lvoas_g.printname"] = "War Sport LVOA-S (Stealth Grey) AR-15兼容护木" -- from "595cf16b86f77427440c32e2 Name"
 
 ///////////////////////////// EFT Weapon Names
 --[[
