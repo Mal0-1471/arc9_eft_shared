@@ -119,14 +119,20 @@ Some attachments require custom additions, so all of those will be placed here.
 L["eft_optic_exps3.printname"] = "Eotech EXPS3 holografik nişangah" -- from "558022b54bdc2dac148b458d Name"
 
 -- [[ AK Platform ]]
--- Mag_AK
+-- mag_ak
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "AK türevleri için 30 mermilik, Pmag 30 AK74 Gen M3 5.45x39 şarjör (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "AK türevi silahlar için Pmag 30 AK/AKM GEN M3 7,62X39 şarjör (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- Rec_AK
-L["eft_akn.printname"] = "Dovetail OP-SKS montaj aparatı."
+-- rec_ak
+L["eft_akn.printname"] = "Dovetail AKMN montaj aparatı."
 L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
 L["eft_akn.description"] = "AKM üzerine nişangah ve diğer ek teçhizatların kurulumu için gerekli montaj aparatı."
+
+-- hg_ar15
+L["eft_hg_ar15_lvoac_f.printname"] = "War Sport LVOA-C (Düz Kara Toprak - FDE) el kundağı AR-15 ve uyumlular ile kullanmak için" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoac_g.printname"] = "War Sport LVOA-C (Gizli Gri) el kundağı AR-15 ve uyumlular ile kullanmak için" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoas_f.printname"] = "El Kundağı War Sport LVOA-S (Düz Kara Toprak - FDE) AR-15 ve uyumlu silahlar ile kullanılır" -- from "595cf16b86f77427440c32e2 Name"
+L["eft_hg_ar15_lvoas_g.printname"] = "El Kundağı War Sport LVOA-S (Gizli Gri) AR-15 ve uyumlu silahlar ile kullanılır" -- from "595cf16b86f77427440c32e2 Name"
 
 ///////////////////////////// EFT Weapon Names
 --[[

@@ -119,14 +119,20 @@ Some attachments require custom additions, so all of those will be placed here.
 L["eft_optic_exps3.printname"] = "EOTech EXPS3 홀로그래픽 조준경" -- from "558022b54bdc2dac148b458d Name"
 
 -- [[ AK Platform ]]
--- Mag_AK
+-- mag_ak
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "30발, AK-74 5.45x39 Magpul PMAG 30 GEN M3 탄창 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "30발, AK 7.62x39 Magpul PMAG 30 GEN M3 탄창 (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- Rec_AK
+-- rec_ak
 L["eft_akn.printname"] = "AKMN 도브테일 마운트"
 L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
 L["eft_akn.description"] = "AKM에 조준기 및 기타 추가 장치를 설치하기 위한 마운트입니다."
+
+-- hg_ar15
+L["eft_hg_ar15_lvoac_f.printname"] = "AR-15 War Sport LVOA-C 총열덮개 (FDE)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoac_g.printname"] = "AR-15 War Sport LVOA-C 총열덮개 (Stealth Grey)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoas_f.printname"] = "AR-15 War Sport LVOA-S 총열덮개 (FDE)" -- from "595cf16b86f77427440c32e2 Name"
+L["eft_hg_ar15_lvoas_g.printname"] = "AR-15 War Sport LVOA-S 총열덮개 (Stealth Grey)" -- from "595cf16b86f77427440c32e2 Name"
 
 ///////////////////////////// EFT Weapon Names
 --[[

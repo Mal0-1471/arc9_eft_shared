@@ -119,14 +119,20 @@ Some attachments require custom additions, so all of those will be placed here.
 L["eft_optic_exps3.printname"] = "Mirino olografico EOTech EXPS3" -- from "558022b54bdc2dac148b458d Name"
 
 -- [[ AK Platform ]]
--- Mag_AK
+-- mag_ak
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Caricatore da 30 colpi AK-74 5.45x39 Magpul PMAG 30 GEN M3 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Caricatore da 30 colpi AK 7.62x39 Magpul PMAG 30 GEN M3 (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- Rec_AK
+-- rec_ak
 L["eft_akn.printname"] = "Supporto a coda di rondine AKMN"
 L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
 L["eft_akn.description"] = "Un supporto per l'installazione di mirini ed altri dispositivi supplementari per caraine AKM."
+
+-- hg_ar15
+L["eft_hg_ar15_lvoac_f.printname"] = "Paramano AR-15 War Sport LVOA-C (Flat Dark Earth)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoac_g.printname"] = "Paramano AR-15 War Sport LVOA-C (Stealth Grey)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoas_f.printname"] = "Paramano AR-15 War Sport LVOA-S (Flat Dark Earth)" -- from "595cf16b86f77427440c32e2 Name"
+L["eft_hg_ar15_lvoas_g.printname"] = "Paramano AR-15 War Sport LVOA-S (Stealth Grey)" -- from "595cf16b86f77427440c32e2 Name"
 
 ///////////////////////////// EFT Weapon Names
 --[[

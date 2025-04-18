@@ -119,14 +119,20 @@ Some attachments require custom additions, so all of those will be placed here.
 L["eft_optic_exps3.printname"] = "Holografický kolimátor EOTech EXPS3" -- from "558022b54bdc2dac148b458d Name"
 
 -- [[ AK Platform ]]
--- Mag_AK
+-- mag_ak
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "30-ranný zásobník Magpul PMAG 30 GEN M3 pro AK-74 5.45x39 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "30-ranný zásobník Magpul PMAG 30 GEN M3 pro AK 7.62x39 (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- Rec_AK
+-- rec_ak
 L["eft_akn.printname"] = "Boční montáž pro AKMN"
 L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
 L["eft_akn.description"] = "Montáž pro instalaci mířidel a dalších zařízení na karabiny AKM."
+
+-- hg_ar15
+L["eft_hg_ar15_lvoac_f.printname"] = "Předpažbí War Sport LVOA-C pro AR-15 (FDE)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoac_g.printname"] = "Předpažbí War Sport LVOA-C pro AR-15 (Šedá)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoas_f.printname"] = "Předpažbí War Sport LVOA-S pro AR-15 (FDE)" -- from "595cf16b86f77427440c32e2 Name"
+L["eft_hg_ar15_lvoas_g.printname"] = "Předpažbí War Sport LVOA-S pro AR-15 (Šedá)" -- from "595cf16b86f77427440c32e2 Name"
 
 ///////////////////////////// EFT Weapon Names
 --[[

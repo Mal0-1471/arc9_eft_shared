@@ -119,14 +119,20 @@ Some attachments require custom additions, so all of those will be placed here.
 L["eft_optic_exps3.printname"] = "Viseur holographique EOTech EXPS3" -- from "558022b54bdc2dac148b458d Name"
 
 -- [[ AK Platform ]]
--- Mag_AK
+-- mag_ak
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Chargeur Pmag 30 AK74 GEN M3 5,45 x 39 mm 30 coups pour AK (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Chargeur Magpul PMAG 30 GEN M3 7,62 x 39 mm 30 coups pour AK (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- Rec_AK
+-- rec_ak
 L["eft_akn.printname"] = "Montage queue d'aronde pour AKMN"
 L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
 L["eft_akn.description"] = "Un montage pour l'installation de viseurs et autres accessoires additionnels sur les carabines AKM."
+
+-- hg_ar15
+L["eft_hg_ar15_lvoac_f.printname"] = "Garde-main War Sport LVOA-C pour AR-15 (FDE)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoac_g.printname"] = "Garde-main War Sport LVOA-C pour AR-15 (Stealth Grey)" -- from "595cfa8b86f77427437e845b Name"
+L["eft_hg_ar15_lvoas_f.printname"] = "Garde-main War Sport LVOA-S pour AR-15 (FDE)" -- from "595cf16b86f77427440c32e2 Name"
+L["eft_hg_ar15_lvoas_g.printname"] = "Garde-main War Sport LVOA-S pour AR-15 (Stealth Grey)" -- from "595cf16b86f77427440c32e2 Name"
 
 ///////////////////////////// EFT Weapon Names
 --[[
