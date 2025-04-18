@@ -45,6 +45,7 @@ L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Эргономика"
+-- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
 
 -- [[ Weapon Categories ]] - If not using localized strings
 L["eft_subcat_carb"] = "5Штурмовые карабины"

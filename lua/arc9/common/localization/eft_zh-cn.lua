@@ -45,6 +45,7 @@ IncludeCS("a-eftbulk.lua") -- Bulk file with Weapon & Attachment Names, Short Na
 
 -- [[ Customization ]]
 L["Ergonomics"] = "人机工效"
+-- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
 
 -- [[ Weapon Categories ]] - If not using localized strings
 -- L["eft_subcat_carb"] = "5Assault Carbines"
