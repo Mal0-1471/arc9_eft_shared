@@ -138,6 +138,15 @@ L["eft_axmc_magwell.description"] = "A regular magazine well for the AXMC sniper
 L["eft_axmc_railmid_b.printname"] = "AI AXMC Adapter Kit medium length rail (Schwarz)" -- from "628120dd308cb521f87a8fa1 Name"
 L["eft_axmc_railshort_b.printname"] = "AI AXMC Adapter Kit short length rail (Schwarz)" -- from "628120d309427b40ab14e76d Name"
 
+-- [[ Glock 17 / 18C / 19X ]]
+-- glocks
+L["eft_rec_g19x_black.printname"] = "Glock 19X pistol slide (Schwarz)" -- from "63075cc5962d0247b029dc2a Name"
+
+-- [[ P90 + Five-seveN ]]
+-- p90
+L["eft_p90_mag_opaque.printname"] = "FN P90 5.7x28 50-round magazine (Non-Translucent)" -- from "5cc70093e4a949033c734312 Name"
+L["eft_p90_mag_opaque.compactname"] = "P90-NT 50"
+
 ///////////////////////////// Non-EFT Attachment Names
 -- These are non-EFT attachments requiring manual localizing.
 local customatt = "[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]" .. "\n\n"
@@ -163,6 +172,24 @@ L["eft_m3s90_jonnwick.description"] = customatt .. "Load shells two at a time li
 L["eft_m9a3_black.printname"] = "M9A3 Black Frame"
 L["eft_m9a3_black.compactname"] = "Black"
 L["eft_m9a3_black.description"] = customatt .. "Custom black-painted frame."
+
+-- [[ ASh-12 & RSh-12 ]]
+-- ashrsh12
+L["eft_rsh12_fastreload.printname"] = "Dump Ammo on Reload"
+L["eft_rsh12_fastreload.compactname"] = "Fast Rel."
+L["eft_rsh12_fastreload.description"] = customatt .. "Drops all remaining shells when reloading for a faster reload."
+
+-- [[ Glock 17 / 18C / 19X ]]
+-- ashrsh12
+L["eft_glock_black.printname"] = "Glock Black Frame"
+L["eft_glock_black.compactname"] = "Black"
+L["eft_glock_black.description"] = customatt .. "Custom black-painted frame."
+
+-- [[ P90 + Five-seveN ]]
+-- 57
+L["eft_57_fde.printname"] = "Flat Dark Earth (FDE) Frame"
+L["eft_57_fde.compactname"] = "FDE"
+L["eft_57_fde.description"] = customatt .. "Flat Dark Earth colored frame."
 
 ///////////////////////////// EFT Weapon Names
 --[[
