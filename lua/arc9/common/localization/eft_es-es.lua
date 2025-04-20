@@ -149,47 +149,416 @@ L["eft_p90_mag_opaque.compactname"] = "P90-NT 50"
 
 ///////////////////////////// Non-EFT Attachment Names
 -- These are non-EFT attachments requiring manual localizing.
-local customatt = "[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]" .. "\n\n"
+local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
+local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
 -- [[ AK Platform ]]
 -- rec_ak
 L["eft_akn.printname"] = "Montura Dovetail para AKMN"
 L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
-L["eft_akn.description"] = "Una montura para la instalación de miras y otros dispositivos adicionales en las carabinas AKM."
+L["eft_akn.description"] = "Una montura para la instalación de miras y otros dispositivos adicionales en las carabinas AKM." .. customatt
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
 L["eft_axmc_black.printname"] = "AI AXMC Full Black"
 L["eft_axmc_black.compactname"] = "Black"
-L["eft_axmc_black.description"] = customatt .. "Repaints all of the FDE parts into a black color."
+L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black color." .. customatt
 
 -- [[ S90 + M9A3 ]]
 -- m3super90
 L["eft_m3s90_jonnwick.printname"] = "Quad shell loading (like John Wick!)"
 L["eft_m3s90_jonnwick.compactname"] = "Quad Load"
-L["eft_m3s90_jonnwick.description"] = customatt .. "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload."
+L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. customatt
 
 L["eft_m9a3_black.printname"] = "M9A3 Black Frame"
 L["eft_m9a3_black.compactname"] = "Black"
-L["eft_m9a3_black.description"] = customatt .. "Custom black-painted frame."
+L["eft_m9a3_black.description"] = "Custom black-painted frame." .. customatt
 
 -- [[ ASh-12 & RSh-12 ]]
 -- ashrsh12
 L["eft_rsh12_fastreload.printname"] = "Dump Ammo on Reload"
 L["eft_rsh12_fastreload.compactname"] = "Fast Rel."
-L["eft_rsh12_fastreload.description"] = customatt .. "Drops all remaining shells when reloading for a faster reload."
+L["eft_rsh12_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
 
 -- [[ Glock 17 / 18C / 19X ]]
 -- ashrsh12
 L["eft_glock_black.printname"] = "Glock Black Frame"
 L["eft_glock_black.compactname"] = "Black"
-L["eft_glock_black.description"] = customatt .. "Custom black-painted frame."
+L["eft_glock_black.description"] = "Custom black-painted frame." .. customatt
 
 -- [[ P90 + Five-seveN ]]
 -- 57
 L["eft_57_fde.printname"] = "Flat Dark Earth (FDE) Frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = customatt .. "Flat Dark Earth colored frame."
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
+
+-- [[ TOZ-106 + MP-18 ]]
+-- ammo_20x70
+L["eft_ammo_20x70_elephant.printname"] = "Cartucho de 20/70 - Posta \"Elephant Killer\""
+L["eft_ammo_20x70_elephant.compactname"] = "Elephant"
+L["eft_ammo_20x70_elephant.description"] = "Homemade 20/70 cartridge for 20 gauge shotguns with a specially sharpened projectile and a huge amount of gunpowder. The recipe is in the top 10 according to \"Homemade Reloads\" magazine. Uses a casing from a 20/70 \"Devastator\" round." .. customatt
+
+L["eft_ammo_20x70_explosive.printname"] = "Cartucho de 20/70 - Posta X-PLSV"
+L["eft_ammo_20x70_explosive.compactname"] = "X-PLSV"
+L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge shotguns with an explosive charge. The recipe was printed in a rare issue of the magazine \"Homemade reloads\", which was never published. Uses a cartridge case from a 20/70 \"Poleva-6u\" round." .. customatt
+
+L["eft_ammo_20x70_flechplus.printname"] = "Cartucho de 12/70 - Flechette+"
+L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
+L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 round for 20 gauge shotguns with an explosive charge. The recipe was printed in a rare issue of the magazine \"Homemade reloads\", which was never published. Uses a cartridge case from a 20/70 \"Poleva-6u\" round." .. customatt
+
+-- [[ EFT Extras ]]
+-- [[ extras ]]
+L["eft_extras_alt_rifle_hold.printname"] = "Alternative viewmodel position (Rifles)"
+L["eft_extras_alt_rifle_hold.compactname"] = "VM Pos (Rif.)"
+L["eft_extras_alt_rifle_hold.description"] = "Very tactical." .. extrasatt
+
+L["eft_extras_alt_rifle_hold15.printname"] = "Alternative viewmodel position (Rifles 1.5)"
+L["eft_extras_alt_rifle_hold15.compactname"] = "VM Pos (Rif. 1.5)"
+L["eft_extras_alt_rifle_hold15.description"] = "Very tactical." .. extrasatt
+
+L["eft_extras_alt_rifle2_hold.printname"] = "Alternative viewmodel position (Rifles 2)"
+L["eft_extras_alt_rifle2_hold.compactname"] = "VM Pos (Rif. 2)"
+L["eft_extras_alt_rifle2_hold.description"] = "Very tactical." .. extrasatt
+
+L["eft_extras_alt_pistol_hold.printname"] = "Alternative viewmodel position (Pistols)"
+L["eft_extras_alt_pistol_hold.compactname"] = "VM Pos (Pis.)"
+L["eft_extras_alt_pistol_hold.description"] = "Very tactical." .. extrasatt
+
+L["eft_extras_alt_pistol_hold15.printname"] = "Alternative viewmodel position (Pistols 1.5)"
+L["eft_extras_alt_pistol_hold15.compactname"] = "VM Pos (Pis. 1.5)"
+L["eft_extras_alt_pistol_hold15.description"] = "Very tactical." .. extrasatt
+
+L["eft_extras_alt_pistol2_hold.printname"] = "Alternative viewmodel position (Pistols 2)"
+L["eft_extras_alt_pistol2_hold.compactname"] = "VM Pos (Pis. 2)"
+L["eft_extras_alt_pistol2_hold.description"] = "Very tactical." .. extrasatt
+
+L["eft_extras_alt_pistol3_hold.printname"] = "Alternative viewmodel position (Pistols 3)"
+L["eft_extras_alt_pistol3_hold.compactname"] = "VM Pos (Pis. 3)"
+L["eft_extras_alt_pistol3_hold.description"] = "Very tactical." .. extrasatt
+
+L["eft_extras_stock_ak_aktom4_forawp.printname"] = "Adaptador a tubo amortiguador RD AK a M4 para AXMC" -- modified "628a6678ccaab13006640e49 Name"
+L["eft_extras_stock_ak_aktom4_forawp.compactname"] = "A. AXMCaM4"
+L["eft_extras_stock_ak_aktom4_forawp.description"] = eftstring["628a6678ccaab13006640e49 Description"] .. extrasatt
+
+L["eft_extras_freestats.printname"] = "Free Buffs"
+L["eft_extras_freestats.compactname"] = "Buffs"
+L["eft_extras_freestats.description"] = "Applies a multitude of buffs onto the weapon.\nPlease do not stack these.\nCombine with \"Quicker Recoil\" for a CoD-like experience." .. extrasatt
+
+L["eft_extras_fasterrecoil.printname"] = "Quicker Recoil"
+L["eft_extras_fasterrecoil.compactname"] = "Quick Rec."
+L["eft_extras_fasterrecoil.description"] = "Makes the recoil return to origin quicker, and lightly reduces it.\nPlease do not stack more than 3 of these, or it can cause <color=255,100,100>glitches</color>." .. extrasatt
+
+L["eft_extras_nojams.printname"] = "Disable malfunctions & overheating"
+L["eft_extras_nojams.compactname"] = "No malf."
+L["eft_extras_nojams.description"] = "Disables weapon malfunctions and overheating." .. extrasatt
+
+L["eft_extras_forcedreset.printname"] = "Full-Auto"
+L["eft_extras_forcedreset.compactname"] = "Auto"
+L["eft_extras_forcedreset.description"] = "Makes your semi-auto guns go full-auto.\nDon't apply onto automatic weapons." .. extrasatt
+
+L["eft_extras_ignorepartswarning.printname"] = "\"Critical parts\" Override"
+L["eft_extras_ignorepartswarning.compactname"] = "Critical override"
+L["eft_extras_ignorepartswarning.description"] = "Allows the weapon to function despite missing critical components." .. extrasatt
+
+L["eft_extras_metalpipeshell.printname"] = "Funny Shell SFX"
+L["eft_extras_metalpipeshell.compactname"] = "Shell SFX"
+L["eft_extras_metalpipeshell.description"] = ":)" .. extrasatt
+
+L["eft_57_resound.printname"] = "New Sounds by rzen1th"
+L["eft_57_resound.compactname"] = "rzen1th"
+L["eft_57_resound.description"] = "Applies alternative firing sounds made by <color=255,200,50>rzen1th</color>." .. extrasatt
+
+L["eft_mag_usp_ext.printname"] = eftstring["6193d338de3cdf1d2614a6fc Name"]:gsub("12", "17")
+L["eft_mag_usp_ext.compactname"] = eftstring["6193d338de3cdf1d2614a6fc ShortName"] .. " 17"
+L["eft_mag_usp_ext.description"] = "An aftermarket 17-round .45 ACP magazine." .. extrasatt
+
+L["eft_extras_manualpump.printname"] = "Manual cycling"
+L["eft_extras_manualpump.compactname"] = "Manual cycle"
+L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"Manual Cycling\" in ARC9's settings!" .. extrasatt
+
+L["eft_extras_cooling.printname"] = "Water Cooling"
+L["eft_extras_cooling.compactname"] = "Cooling"
+L["eft_extras_cooling.description"] = "Makes sure the weapon can shoot longer before overheating.\nIntended for use on the AS VAL and VSS Vintorez, but oh well." .. extrasatt
+
+L["eft_extras_melee_range.printname"] = "Longer Reach"
+L["eft_extras_melee_range.compactname"] = "Reach"
+L["eft_extras_melee_range.description"] = "Adds 24HU (~0.607m) to the the melee range." .. extrasatt
+
+L["eft_extras_melee_bash.printname"] = "Sprint Melee"
+L["eft_extras_melee_bash.compactname"] = "Sprint"
+L["eft_extras_melee_bash.description"] = "Allows you to melee while sprinting." .. extrasatt
+
+L["eft_extras_melee_lunge.printname"] = "Commando Lunge"
+L["eft_extras_melee_lunge.compactname"] = "Commando"
+L["eft_extras_melee_lunge.description"] = "When in range of an opponent, you'll be able to lunge at them, quickly getting in their face." .. extrasatt
+
+L["eft_extras_melee_lungemore.printname"] = "Longer Reach Pro"
+L["eft_extras_melee_lungemore.compactname"] = "Longer Pro"
+L["eft_extras_melee_lungemore.description"] = "Adds 75HU (~1.9m) to the melee range." .. extrasatt
+
+L["eft_extras_melee_backstab.printname"] = "Backstab"
+L["eft_extras_melee_backstab.compactname"] = "Backstab"
+L["eft_extras_melee_backstab.description"] = "Allows you to backstab opponents, allowing instant kills." .. extrasatt
+
+L["eft_extras_melee_swingspeed.printname"] = "Swing Speed"
+L["eft_extras_melee_swingspeed.compactname"] = "Swing"
+L["eft_extras_melee_swingspeed.description"] = "Allows you to melee faster." .. extrasatt
+
+L["eft_aug_mag_30_pmag.printname"] = "5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine"
+L["eft_aug_mag_30_pmag.compactname"] = "GEN M3" -- from "55802d5f4bdc2dac148b458e"
+L["eft_aug_mag_30_pmag.description"] = "A 30-round 5.56x45 Magpul PMAG GEN M3 30 polymer magazine with an observation slot for faster capacity checking." .. extrasatt
+
+L["eft_rearsight_mp7f.printname"] = "HK MP7 flip-up rear sight, folded"
+L["eft_rearsight_mp7f.compactname"] = "MP7-F" -- from "5ba26b17d4351e00367f9bdd"
+L["eft_rearsight_mp7f.description"] = "A removable folding flip-up rear sight for MP7 SMGs. Manufactured by Heckler & Koch." .. extrasatt
+
+L["eft_extras_sealedbolt.printname"] = "Sealed Bolt"
+L["eft_extras_sealedbolt.compactname"] = "Sealed"
+L["eft_extras_sealedbolt.description"] = "Allows the weapon to be fired underwater. Dunno why, but..." .. extrasatt
+
+L["eft_mk18_mag_30.printname"] = "Mk-18 .338 LM 30-round drum magazine"
+L["eft_mk18_mag_30.compactname"] = "Mk-18 30" -- from "5fc23426900b1d5091531e15"
+L["eft_mk18_mag_30.description"] = "[ Requires <color=255,200,100>SCAR-H/L + SA-58</color> ]" .. "A 30-round Mk-18 drum magazine for .338 LM ammunition, manufactured by X Products." .. extrasatt
+
+L["eft_mp5_stock_tube.printname"] = "HK MP5 Buffer Tube stock"
+L["eft_mp5_stock_tube.compactname"] = "MP5 Tube"
+L["eft_mp5_stock_tube.description"] = "A custom tube with a sling swivel for MP5 submachine guns manufactured by Heckler & Koch." .. extrasatt
+
+L["eft_optic_okp7_sigma.printname"] = "OKP-7 reflex sight, dovetail reticle"
+L["eft_optic_okp7_sigma.compactname"] = "OKP-7 D"
+L["eft_optic_okp7_sigma.description"] = "Uses the reticle from the dovetail variant.\n" .. "The original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing." .. extrasatt
+
+L["eft_extras_alt_hold_gangsta.printname"] = "Alternative viewmodel position (Gangsta)"
+L["eft_extras_alt_hold_gangsta.compactname"] = "VM Pos (Gang)"
+L["eft_extras_alt_hold_gangsta.description"] = [[
+13th of May, 2023 - [ArcCW] [UC] Commons & Attachments died.
+23rd of November, 2023 - [ARC9] EFT Extras was born.
+Welcome back, Homeboy.
+]]  .. extrasatt
+
+L["eft_extras_alt_hold_gangsta2.printname"] = "Alternative viewmodel position (Bigger Gangsta)"
+L["eft_extras_alt_hold_gangsta2.compactname"] = "VM Pos (Gang 2)"
+L["eft_extras_alt_hold_gangsta2.description"] = [[
+13th of May, 2023 - [ArcCW] [UC] Commons & Attachments died.
+23rd of November, 2023 - [ARC9] EFT Extras was born.
+Welcome back, Homeboy.
+]] .. extrasatt
+
+L["eft_extras_onehandrun.printname"] = "One-Handed Sprint"
+L["eft_extras_onehandrun.compactname"] = "One-Hand"
+L["eft_extras_onehandrun.description"] = "<color=50,255,50>tactical mw19 realism hardocre</color>\nDon't use on pistols and stockless SMG's - they already have this." .. extrasatt
+
+L["eft_extras_camos.printname"] = "Camo support for attachments"
+L["eft_extras_camos.compactname"] = "Camo"
+L["eft_extras_camos.description"] = "Install this if you want to apply color to supported attachments on weapons that don't support them." .. extrasatt
+
+L["eft_extras_camos_additional.printname"] = "Extra Camo slots"
+L["eft_extras_camos_additional.compactname"] = "More Camo"
+L["eft_extras_camos_additional.description"] = "\"arc9_atts_maxcamos\" is more than default. Have some more slots!" .. extrasatt
+
+-- [[ extras_ammo ]]
+L["eft_ammo_12x70_explosive.printname"] = "12/70 X-PLSV slug"
+L["eft_ammo_12x70_explosive.compactname"] = "[!] X-PLSV"
+L["eft_ammo_12x70_explosive.description"] = "Homemade 12/70 round for 12 gauge shotguns with an explosive charge. The recipe was printed in a rare issue of the magazine \"Homemade reloads\", which was never published. Uses a cartridge case from a 12/70 \"Poleva-6u\" round." .. extrasatt
+
+L["eft_ammo_76239_apiz.printname"] = "7.62x39mm API Z"
+L["eft_ammo_76239_apiz.compactname"] = "[!] API Z"
+L["eft_ammo_76239_apiz.description"] = "A 7.62x39mm API Z (GRAU Index - 57-3-231) cartridge, an armour piercing incendiary cartridge intended for use on lightly armoured vehicles. Extremely rare round that was discontinued in the early 1960s." .. extrasatt
+
+L["eft_ammo_12x70_salt.printname"] = "12/70 S4LT buckshot"
+L["eft_ammo_12x70_salt.compactname"] = "[!] S4LT"
+L["eft_ammo_12x70_salt.description"] = "Homemade 12/70 round for 12 gauge shotguns with salt loaded. Uses a cartridge case from a 12/70 \"5.25mm buckshot\" round." .. extrasatt
+
+-- [[ extras_stickers ]]
+local stickersatt = "\n[ <color=255,200,25>Allows you to place stickers on it</color> ]"
+
+L["eft_g17_sticker_frame.printname"] = "Glock frame with Stickers"
+L["eft_g17_sticker_frame.compactname"] = "Glock [S]"
+L["eft_g17_sticker_frame.description"] = "Allows you to place stickers on the frame on the Glock." .. extrasatt
+
+L["eft_rec_g17_std_stick.printname"] = eftstring["5a6f5e048dc32e00094b97da Name"] .. " (Sticker)"
+L["eft_rec_g17_std_stick.compactname"] = eftstring["5a6f5e048dc32e00094b97da ShortName"] .. " [S]"
+L["eft_rec_g17_std_stick.description"] = eftstring["5a6f5e048dc32e00094b97da Description"] .. extrasatt .. stickersatt
+
+L["eft_axmc_bolt308_stickers.printname"] = eftstring["62811d61578c54356d6d67ea Name"]:gsub("!!!DO_NOT_USE!!!", "") .. " (Sticker)"
+L["eft_axmc_bolt308_stickers.compactname"] = eftstring["62811d61578c54356d6d67ea ShortName"] .. " [S]"
+L["eft_axmc_bolt308_stickers.description"] = eftstring["62811d61578c54356d6d67ea Description"] .. extrasatt .. stickersatt
+
+L["eft_axmc_bolt338_stickers.printname"] = eftstring["62811cd7308cb521f87a8f99 Name"] .. " (Sticker)"
+L["eft_axmc_bolt338_stickers.compactname"] = eftstring["62811cd7308cb521f87a8f99 ShortName"] .. " [S]"
+L["eft_axmc_bolt338_stickers.description"] = eftstring["62811cd7308cb521f87a8f99 Description"] .. extrasatt .. stickersatt
+
+L["eft_axmc_mag308_stickers.printname"] = eftstring["628120f210e26c1f344e6558 Name"]:gsub("!!!DO_NOT_USE!!!", "") .. " (Sticker)"
+L["eft_axmc_mag308_stickers.compactname"] = eftstring["628120f210e26c1f344e6558 ShortName"] .. " [S]"
+L["eft_axmc_mag308_stickers.description"] = eftstring["628120f210e26c1f344e6558 Description"] .. extrasatt .. stickersatt
+
+L["eft_axmc_mag338_stickers.printname"] = eftstring["628120fd5631d45211793c9f Name"] .. " (Sticker)"
+L["eft_axmc_mag338_stickers.compactname"] = eftstring["628120fd5631d45211793c9f ShortName"] .. " [S]"
+L["eft_axmc_mag338_stickers.description"] = eftstring["628120fd5631d45211793c9f Description"] .. extrasatt .. stickersatt
+
+L["eft_axmc_upper_stickers.printname"] = eftstring["62811fbf09427b40ab14e767 Name"] .. " (Sticker)"
+L["eft_axmc_upper_stickers.compactname"] = eftstring["62811fbf09427b40ab14e767 ShortName"] .. " [S]"
+L["eft_axmc_upper_stickers.description"] = eftstring["62811fbf09427b40ab14e767 Description"] .. extrasatt .. stickersatt
+
+L["eft_rsh12_sticker_frame.printname"] = "RSh-12 frame with Stickers"
+L["eft_rsh12_sticker_frame.compactname"] = "RSh-12 [S]"
+L["eft_rsh12_sticker_frame.description"] = "Allows you to place stickers on the frame of the RSh-12." .. extrasatt
+
+L["eft_rsh12_drum_sticker.printname"] = eftstring["633ec6ee025b096d320a3b15 Name"] .. " (Sticker)"
+L["eft_rsh12_drum_sticker.compactname"] = eftstring["633ec6ee025b096d320a3b15 ShortName"] .. " [S]"
+L["eft_rsh12_drum_sticker.description"] = eftstring["633ec6ee025b096d320a3b15 Description"] .. extrasatt .. stickersatt
+
+L["eft_rsh12_pgrip_sticker.printname"] = eftstring["633ec8e4025b096d320a3b1e Name"] .. " (Sticker)"
+L["eft_rsh12_pgrip_sticker.compactname"] = eftstring["633ec8e4025b096d320a3b1e ShortName"] .. " [S]"
+L["eft_rsh12_pgrip_sticker.description"] = eftstring["633ec8e4025b096d320a3b1e Description"] .. extrasatt .. stickersatt
+
+L["eft_ash12_sticker_frame.printname"] = "ASh-12 frame with Stickers"
+L["eft_ash12_sticker_frame.compactname"] = "ASh-12 [S]"
+L["eft_ash12_sticker_frame.description"] = "Allows you to place stickers on the frame of the ASh-12." .. extrasatt
+
+L["eft_ash12_mag_10_stick.printname"] = eftstring["5caf1041ae92157c28402e3f Name"] .. " (Sticker)"
+L["eft_ash12_mag_10_stick.compactname"] = eftstring["5caf1041ae92157c28402e3f ShortName"] .. " 10 [S]"
+L["eft_ash12_mag_10_stick.description"] = eftstring["5caf1041ae92157c28402e3f Description"] .. extrasatt .. stickersatt
+
+L["eft_ash12_mag_20_stick.printname"] = eftstring["5caf1109ae9215753c44119f Name"] .. " (Sticker)"
+L["eft_ash12_mag_20_stick.compactname"] = eftstring["5caf1109ae9215753c44119f ShortName"] .. " 20 [S]"
+L["eft_ash12_mag_20_stick.description"] = eftstring["5caf1109ae9215753c44119f Description"] .. extrasatt .. stickersatt
+
+L["eft_ks23_body_sticker.printname"] = "KS-23M frame with Stickers"
+L["eft_ks23_body_sticker.compactname"] = "KS-23M [S]"
+L["eft_ks23_body_sticker.description"] = "Allows you to place stickers on the frame of the KS-23M." .. extrasatt
+
+L["eft_ks23_stock_wood_sticker.printname"] = eftstring["5e848db4681bea2ada00daa9 Name"] .. " (Sticker)"
+L["eft_ks23_stock_wood_sticker.compactname"] = eftstring["5e848db4681bea2ada00daa9 ShortName"] .. " [S]"
+L["eft_ks23_stock_wood_sticker.description"] = eftstring["5e848db4681bea2ada00daa9 Description"] .. extrasatt .. stickersatt
+
+L["eft_m870_body_sticker.printname"] = "M870 frame with Stickers"
+L["eft_m870_body_sticker.compactname"] = "M870 [S]"
+L["eft_m870_body_sticker.description"] = "Allows you to place stickers on the frame of the Remington Model 870." .. extrasatt
+
+L["eft_m870_stock_sps_sticker.printname"] = eftstring["5a7880d0c5856700142fdd9d Name"] .. " (Sticker)"
+L["eft_m870_stock_sps_sticker.compactname"] = eftstring["5a7880d0c5856700142fdd9d ShortName"] .. " [S]"
+L["eft_m870_stock_sps_sticker.description"] = eftstring["5a7880d0c5856700142fdd9d Description"] .. extrasatt .. stickersatt
+
+L["eft_pkm_body_sticker.printname"] = "PK frame with Stickers"
+L["eft_pkm_body_sticker.compactname"] = "PK [S]"
+L["eft_pkm_body_sticker.description"] = "Allows you to place stickers on the frame of the PKM and PKP." .. extrasatt
+
+L["eft_pkm_stock_sticker.printname"] = eftstring["6492e3a97df7d749100e29ee Name"] .. " (Sticker)"
+L["eft_pkm_stock_sticker.compactname"] = eftstring["6492e3a97df7d749100e29ee ShortName"] .. " [S]"
+L["eft_pkm_stock_sticker.description"] = eftstring["6492e3a97df7d749100e29ee Description"] .. extrasatt .. stickersatt
+
+L["eft_pkm_mag_sticker.printname"] = eftstring["646372518610c40fc20204e8 Name"] .. " (Sticker)"
+L["eft_pkm_mag_sticker.compactname"] = eftstring["646372518610c40fc20204e8 ShortName"] .. " 100 [S]"
+L["eft_pkm_mag_sticker.description"] = eftstring["646372518610c40fc20204e8 Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_upper_h_stickers.printname"] = eftstring["6165adcdd3a39d50044c120f Name"] .. " (Sticker)"
+L["eft_scar_upper_h_stickers.compactname"] = eftstring["6165adcdd3a39d50044c120f ShortName"] .. " [S]"
+L["eft_scar_upper_h_stickers.description"] = eftstring["6165adcdd3a39d50044c120f Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_upper_h_f_stickers.printname"] = eftstring["6165aeedfaa1272e431521e3 Name"] .. " (Sticker)"
+L["eft_scar_upper_h_f_stickers.compactname"] = eftstring["6165aeedfaa1272e431521e3 ShortName"] .. " [S]"
+L["eft_scar_upper_h_f_stickers.description"] = eftstring["6165aeedfaa1272e431521e3 Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_upper_l_sticker.printname"] = eftstring["618405198004cc50514c3594 Name"] .. " (Sticker)"
+L["eft_scar_upper_l_sticker.compactname"] = eftstring["618405198004cc50514c3594 ShortName"] .. " [S]"
+L["eft_scar_upper_l_sticker.description"] = eftstring["618405198004cc50514c3594 Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_upper_f_sticker.printname"] = eftstring["618426d96c780c1e710c9b9f Name"] .. " (Sticker)"
+L["eft_scar_upper_f_sticker.compactname"] = eftstring["618426d96c780c1e710c9b9f ShortName"] .. " [S]"
+L["eft_scar_upper_f_sticker.description"] = eftstring["618426d96c780c1e710c9b9f Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_stock_base_stick.printname"] = eftstring["61816734d8e3106d9806c1f3 Name"] .. " (Sticker)"
+L["eft_scar_stock_base_stick.compactname"] = eftstring["61816734d8e3106d9806c1f3 ShortName"] .. " [S]"
+L["eft_scar_stock_base_stick.description"] = eftstring["61816734d8e3106d9806c1f3 Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_stock_base_f_stick.printname"] = eftstring["61825d06d92c473c770215de Name"] .. " (Sticker)"
+L["eft_scar_stock_base_f_stick.compactname"] = eftstring["61825d06d92c473c770215de ShortName"] .. " [S]"
+L["eft_scar_stock_base_f_stick.description"] = eftstring["61825d06d92c473c770215de Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_stock_ext_stick.printname"] = eftstring["618167528004cc50514c34f9 Name"] .. " (Sticker)"
+L["eft_scar_stock_ext_stick.compactname"] = eftstring["618167528004cc50514c34f9 ShortName"] .. " [S]"
+L["eft_scar_stock_ext_stick.description"] = eftstring["618167528004cc50514c34f9 Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_stock_ext_f_stick.printname"] = eftstring["61825d136ef05c2ce828f1cc Name"] .. " (Sticker)"
+L["eft_scar_stock_ext_f_stick.compactname"] = eftstring["61825d136ef05c2ce828f1cc ShortName"] .. " [S]"
+L["eft_scar_stock_ext_f_stick.description"] = eftstring["61825d136ef05c2ce828f1cc Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_stock_cheeck_stick.printname"] = eftstring["618167441cb55961fa0fdc71 Name"] .. " (Sticker)"
+L["eft_scar_stock_cheeck_stick.compactname"] = eftstring["618167441cb55961fa0fdc71 ShortName"] .. " [S]"
+L["eft_scar_stock_cheeck_stick.description"] = eftstring["618167441cb55961fa0fdc71 Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_stock_cheeck_f_stick.printname"] = eftstring["61825d24d3a39d50044c13af Name"] .. " (Sticker)"
+L["eft_scar_stock_cheeck_f_stick.compactname"] = eftstring["61825d24d3a39d50044c13af ShortName"] .. " [S]"
+L["eft_scar_stock_cheeck_f_stick.description"] = eftstring["61825d24d3a39d50044c13af Description"] .. extrasatt .. stickersatt
+
+L["eft_scar_sticker_frame.printname"] = "FN SCAR frame with Stickers"
+L["eft_scar_sticker_frame.compactname"] = "SCAR [S]"
+L["eft_scar_sticker_frame.description"] = "Allows you to place stickers on the frame of the FN SCAR-H and L." .. extrasatt
+
+L["eft_tx_sticker_frame.printname"] = "Lone Star TX-15 DML frame with Stickers"
+L["eft_tx_sticker_frame.compactname"] = "TX-15 DML [S]"
+L["eft_tx_sticker_frame.description"] = "Allows you to place stickers on the frame of the Lone Star TX-15 DML." .. extrasatt
+
+L["eft_m4_sticker_frame.printname"] = "Colt M4A1 frame with Stickers"
+L["eft_m4_sticker_frame.compactname"] = "M4A1 [S]"
+L["eft_m4_sticker_frame.description"] = "Allows you to place stickers on the frame of the Colt M4A1." .. extrasatt
+
+L["eft_hk_sticker_frame.printname"] = "HK 416A5 frame with Stickers"
+L["eft_hk_sticker_frame.compactname"] = "416A5 [S]"
+L["eft_hk_sticker_frame.description"] = "Allows you to place stickers on the frame of the HK 416A5." .. extrasatt
+
+L["eft_adar_sticker_frame.printname"] = "ADAR 2-15 frame with Stickers"
+L["eft_adar_sticker_frame.compactname"] = "ADAR 2-15 [S]"
+L["eft_adar_sticker_frame.description"] = "Allows you to place stickers on the frame of the ADAR 2-15." .. extrasatt
+
+L["eft_mp9_body_sticker.printname"] = "MP9 frame with Stickers"
+L["eft_mp9_body_sticker.compactname"] = "MP9 [S]"
+L["eft_mp9_body_sticker.description"] = "Allows you to place stickers on the frame of the B&T MP9." .. extrasatt
+
+L["eft_mp7_body_sticker.printname"] = "HK MP7 frame with Stickers"
+L["eft_mp7_body_sticker.compactname"] = "MP7 [S]"
+L["eft_mp7_body_sticker.description"] = "Allows you to place stickers on the frame of the HK MP7A1 and A2." .. extrasatt
+
+L["eft_aug_body_sticker.printname"] = "Steyr AUG frame with Stickers"
+L["eft_aug_body_sticker.compactname"] = "AUG [S]"
+L["eft_aug_body_sticker.description"] = "Allows you to place stickers on the frame of the Steyr AUG A1 and A3." .. extrasatt
+
+L["eft_mount_usp_match_stickers.printname"] = eftstring["619624b26db0f2477964e6b0 Name"] .. " (Sticker)"
+L["eft_mount_usp_match_stickers.compactname"] = eftstring["619624b26db0f2477964e6b0 ShortName"] .. " [S]"
+L["eft_mount_usp_match_stickers.description"] = eftstring["619624b26db0f2477964e6b0 Description"] .. extrasatt .. stickersatt
+
+L["eft_deagle_sticker.printname"] = "Desert Eagle frame with Stickers"
+L["eft_deagle_sticker.compactname"] = "DE [S]"
+L["eft_deagle_sticker.description"] = "Allows you to place stickers on the frame of the Desert Eagle L5, L6 and Mk XIX." .. extrasatt
+
+L["eft_vector_sticker.printname"] = "TDI KRISS Vector Gen.2 frame with Stickers"
+L["eft_vector_sticker.compactname"] = "Vector [S]"
+L["eft_vector_sticker.description"] = "Allows you to place stickers on the frame of the TDI KRISS Vector Gen.2." .. extrasatt .. stickersatt
+
+L["eft_rearsight_stickermbus.printname"] = eftstring["5bc09a18d4351e003562b68e Name"] .. " (Sticker)"
+L["eft_rearsight_stickermbus.compactname"] = eftstring["5bc09a18d4351e003562b68e ShortName"] .. " [S]"
+L["eft_rearsight_stickermbus.description"] = eftstring["5bc09a18d4351e003562b68e Description"] .. extrasatt .. stickersatt .. "\n<color=255,50,50>Warning!</color> Does not fold when equipping optics!"
+
+L["eft_rearsight_stickermbus_fde.printname"] = eftstring["5c18b9192e2216398b5a8104 Name"] .. " (Sticker)"
+L["eft_rearsight_stickermbus_fde.compactname"] = eftstring["5c18b9192e2216398b5a8104 ShortName"] .. " [S]"
+L["eft_rearsight_stickermbus_fde.description"] = eftstring["5c18b9192e2216398b5a8104 Description"] .. extrasatt .. stickersatt .. "\n<color=255,50,50>Warning!</color> Does not fold when equipping optics!"
+
+L["eft_g36_body_sticker.printname"] = "HK G36 frame with Stickers"
+L["eft_g36_body_sticker.compactname"] = "G36 [S]"
+L["eft_g36_body_sticker.description"] = "Allows you to place stickers on the frame of the HK G36." .. extrasatt
+
+L["eft_aa12_body_sticker.printname"] = "MPS Auto Assault-12 frame with Stickers"
+L["eft_aa12_body_sticker.compactname"] = "AA-12 [S]"
+L["eft_aa12_body_sticker.description"] = "Allows you to place stickers on the frame of the MPS Auto Assault-12 Gen 1 and 2." .. extrasatt
+
+L["eft_mp155_ultima_sticker.printname"] = "MP-155 Ultima thermal camera with Stickers"
+L["eft_mp155_ultima_sticker.compactname"] = "Ultima [S]"
+L["eft_mp155_ultima_sticker.description"] = "Allows you to place stickers on-top of the thermal camera attachment on the MP-155." .. extrasatt
+
+L["sticker_doom_hud.printname"] = "DOOM HUD"
+L["sticker_doom_hud.compactname"] = "DOOM"
+L["sticker_doom_hud.description"] = "Allows you to play DOOM on the MP-155 Ultima's thermal camera." .. "\n\nSticker included in EFT Extras."
 
 ///////////////////////////// EFT Weapon Names
 --[[
