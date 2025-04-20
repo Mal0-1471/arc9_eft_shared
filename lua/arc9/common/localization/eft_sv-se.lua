@@ -155,6 +155,16 @@ local customatt = "[ <color=255,200,25>This is a custom attachment not present i
 -- L["eft_axmc_black.compactname"] = "Black"
 -- L["eft_axmc_black.description"] = customatt .. "Repaints all of the FDE parts into a black color."
 
+-- [[ S90 + M9A3 ]]
+-- m3super90
+-- L["eft_m3s90_jonnwick.printname"] = "Quad shell loading (like John Wick!)"
+-- L["eft_m3s90_jonnwick.compactname"] = "Quad Load"
+-- L["eft_m3s90_jonnwick.description"] = customatt .. "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload."
+
+-- L["eft_m9a3_black.printname"] = "M9A3 Black Frame"
+-- L["eft_m9a3_black.compactname"] = "Black"
+-- L["eft_m9a3_black.description"] = customatt .. "Custom black-painted frame."
+
 ///////////////////////////// EFT Weapon Names
 --[[
 
