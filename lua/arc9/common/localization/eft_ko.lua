@@ -112,11 +112,7 @@ L["eft_class_weapon_smoke"] = "연막 수류탄"
 L["eft_class_weapon_grenadelauncher"] = "유탄발사기"
 
 ///////////////////////////// EFT Attachment Names
---[[
-
-Some attachments require custom additions, so all of those will be placed here.
-
--- ]]
+-- Some attachments require custom additions, so all of those will be placed here.
 
 -- [[ Shared ]]
 -- Optics
@@ -127,16 +123,36 @@ L["eft_optic_exps3.printname"] = "EOTech EXPS3 홀로그래픽 조준경" -- fro
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "30발, AK-74 5.45x39 Magpul PMAG 30 GEN M3 탄창 (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "30발, AK 7.62x39 Magpul PMAG 30 GEN M3 탄창 (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- rec_ak
-L["eft_akn.printname"] = "AKMN 도브테일 마운트"
-L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
-L["eft_akn.description"] = "AKM에 조준기 및 기타 추가 장치를 설치하기 위한 마운트입니다."
-
+-- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
 L["eft_hg_ar15_lvoac_f.printname"] = "AR-15 War Sport LVOA-C 총열덮개 (FDE)" -- from "595cfa8b86f77427437e845b Name"
 L["eft_hg_ar15_lvoac_g.printname"] = "AR-15 War Sport LVOA-C 총열덮개 (Stealth Grey)" -- from "595cfa8b86f77427437e845b Name"
 L["eft_hg_ar15_lvoas_f.printname"] = "AR-15 War Sport LVOA-S 총열덮개 (FDE)" -- from "595cf16b86f77427440c32e2 Name"
 L["eft_hg_ar15_lvoas_g.printname"] = "AR-15 War Sport LVOA-S 총열덮개 (Stealth Grey)" -- from "595cf16b86f77427440c32e2 Name"
+
+-- [[ AI AXMC .338/.308 ]]
+L["eft_axmc_magwell.printname"] = "AI AXMC 7.62x51mm 맥웰"
+L["eft_axmc_magwell.compactname"] = "AXMC .308" -- loosely from "622f02437762f55aaa68ac85 Description"
+L["eft_axmc_magwell.description"] = "A regular magazine well for the AXMC sniper rifle."
+
+L["eft_axmc_railmid_b.printname"] = "AI AXMC Adapter Kit medium length rail (검은색)" -- from "628120dd308cb521f87a8fa1 Name"
+L["eft_axmc_railshort_b.printname"] = "AI AXMC Adapter Kit short length rail (검은색)" -- from "628120d309427b40ab14e76d Name"
+
+///////////////////////////// Non-EFT Attachment Names
+-- These are non-EFT attachments requiring manual localizing.
+local customatt = "[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]" .. "\n\n"
+
+-- [[ AK Platform ]]
+-- rec_ak
+L["eft_akn.printname"] = "AKMN 도브테일 마운트"
+L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
+L["eft_akn.description"] = "AKM에 조준기 및 기타 추가 장치를 설치하기 위한 마운트입니다."
+
+-- [[ AI AXMC .338/.308 ]]
+-- axmc
+L["eft_axmc_black.printname"] = "AI AXMC Full Black"
+L["eft_axmc_black.compactname"] = "Black"
+L["eft_axmc_black.description"] = customatt .. "Repaints all of the FDE parts into a black color."
 
 ///////////////////////////// EFT Weapon Names
 --[[

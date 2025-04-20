@@ -112,11 +112,7 @@ L["eft_class_weapon_smoke"] = "Grenade fumigène"
 L["eft_class_weapon_grenadelauncher"] = "Lance-grenade"
 
 ///////////////////////////// EFT Attachment Names
---[[
-
-Some attachments require custom additions, so all of those will be placed here.
-
--- ]]
+-- Some attachments require custom additions, so all of those will be placed here.
 
 -- [[ Shared ]]
 -- Optics
@@ -127,16 +123,36 @@ L["eft_optic_exps3.printname"] = "Viseur holographique EOTech EXPS3" -- from "55
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Chargeur Pmag 30 AK74 GEN M3 5,45 x 39 mm 30 coups pour AK (FDE)" -- from "5aaa4194e5b5b055d06310a5 Name"
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Chargeur Magpul PMAG 30 GEN M3 7,62 x 39 mm 30 coups pour AK (FDE)" -- from "59d6272486f77466146386ff Name"
 
--- rec_ak
-L["eft_akn.printname"] = "Montage queue d'aronde pour AKMN"
-L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
-L["eft_akn.description"] = "Un montage pour l'installation de viseurs et autres accessoires additionnels sur les carabines AKM."
-
+-- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
 L["eft_hg_ar15_lvoac_f.printname"] = "Garde-main War Sport LVOA-C pour AR-15 (FDE)" -- from "595cfa8b86f77427437e845b Name"
 L["eft_hg_ar15_lvoac_g.printname"] = "Garde-main War Sport LVOA-C pour AR-15 (Stealth Grey)" -- from "595cfa8b86f77427437e845b Name"
 L["eft_hg_ar15_lvoas_f.printname"] = "Garde-main War Sport LVOA-S pour AR-15 (FDE)" -- from "595cf16b86f77427440c32e2 Name"
 L["eft_hg_ar15_lvoas_g.printname"] = "Garde-main War Sport LVOA-S pour AR-15 (Stealth Grey)" -- from "595cf16b86f77427440c32e2 Name"
+
+-- [[ AI AXMC .338/.308 ]]
+L["eft_axmc_magwell.printname"] = "Puits de chargeur pour AI AXMC 7.62x51mm"
+L["eft_axmc_magwell.compactname"] = "AXMC .308" -- loosely from "622f02437762f55aaa68ac85 Description"
+L["eft_axmc_magwell.description"] = "Un puits de chargeur standard pour le fusil de précision AXMC."
+
+L["eft_axmc_railmid_b.printname"] = "Rail moyen pour AI AXMC (noir)" -- from "628120dd308cb521f87a8fa1 Name"
+L["eft_axmc_railshort_b.printname"] = "Rail court pour AI AXMC (noir)" -- from "628120d309427b40ab14e76d Name"
+
+///////////////////////////// Non-EFT Attachment Names
+-- These are non-EFT attachments requiring manual localizing.
+local customatt = "[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]" .. "\n\n"
+
+-- [[ AK Platform ]]
+-- rec_ak
+L["eft_akn.printname"] = "Montage queue d'aronde pour AKMN"
+L["eft_akn.compactname"] = "AKMN" -- modified "587e08ee245977446b4410cf"
+L["eft_akn.description"] = "Un montage pour l'installation de viseurs et autres accessoires additionnels sur les carabines AKM."
+
+-- [[ AI AXMC .338/.308 ]]
+-- axmc
+L["eft_axmc_black.printname"] = "AI AXMC Full Black"
+L["eft_axmc_black.compactname"] = "Black"
+L["eft_axmc_black.description"] = customatt .. "Repaints all of the FDE parts into a black color."
 
 ///////////////////////////// EFT Weapon Names
 --[[

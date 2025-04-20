@@ -1,8 +1,5 @@
-eft_stm9_barrel_105
-eft_stm9_barrel_12
-eft_stm9_barrel_14
-eft_stm9_barrel_16
-eft_stm9_magwel
-eft_stm9_magwelg
-eft_rec_ar15_stm9
-eft_muzzle_stm9_std
+eft_muzzle_asr338ac858
+eft_muzzle_axmccap
+eft_muzzle_psr338
+eft_muzzle_tmb338lm
+eft_muzzle_tsm338lm
