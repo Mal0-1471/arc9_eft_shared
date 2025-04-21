@@ -160,7 +160,7 @@ L["eft_akn.description"] = "Montaż do instalacji celowników i dodatkowych urz�
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
-L["eft_axmc_black.printname"] = "AI AXMC Full Black"
+L["eft_axmc_black.printname"] = "AI AXMC Black parts"
 L["eft_axmc_black.compactname"] = "Black"
 L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black color." .. customatt
 
@@ -170,9 +170,9 @@ L["eft_m3s90_jonnwick.printname"] = "Quad shell loading (like John Wick!)"
 L["eft_m3s90_jonnwick.compactname"] = "Quad Load"
 L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. customatt
 
-L["eft_m9a3_black.printname"] = "M9A3 Black Frame"
+L["eft_m9a3_black.printname"] = "M9A3 Black frame"
 L["eft_m9a3_black.compactname"] = "Black"
-L["eft_m9a3_black.description"] = "Custom black-painted frame." .. customatt
+L["eft_m9a3_black.description"] = "Repaints the frame into a black color." .. customatt
 
 -- [[ ASh-12 & RSh-12 ]]
 -- ashrsh12
@@ -182,13 +182,13 @@ L["eft_rsh12_fastreload.description"] = "Drops all remaining shells when reloadi
 
 -- [[ Glock 17 / 18C / 19X ]]
 -- ashrsh12
-L["eft_glock_black.printname"] = "Glock Black Frame"
+L["eft_glock_black.printname"] = "Glock Black frame"
 L["eft_glock_black.compactname"] = "Black"
-L["eft_glock_black.description"] = "Custom black-painted frame." .. customatt
+L["eft_glock_black.description"] = "Repaints the frame into a black color." .. customatt
 
 -- [[ P90 + Five-seveN ]]
 -- 57
-L["eft_57_fde.printname"] = "Flat Dark Earth (FDE) Frame"
+L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
 L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 
@@ -318,7 +318,7 @@ L["eft_extras_sealedbolt.description"] = "Allows the weapon to be fired underwat
 
 L["eft_mk18_mag_30.printname"] = "Mk-18 .338 LM 30-round drum magazine"
 L["eft_mk18_mag_30.compactname"] = "Mk-18 30" -- from "5fc23426900b1d5091531e15"
-L["eft_mk18_mag_30.description"] = "[ Requires <color=255,200,100>SCAR-H/L + SA-58</color> ]" .. "A 30-round Mk-18 drum magazine for .338 LM ammunition, manufactured by X Products." .. extrasatt
+L["eft_mk18_mag_30.description"] = "[ Requires <color=255,200,25>SCAR-H/L + SA-58</color> ]\n" .. "A 30-round Mk-18 drum magazine for .338 LM ammunition, manufactured by X Products." .. extrasatt
 
 L["eft_mp5_stock_tube.printname"] = "HK MP5 Buffer Tube stock"
 L["eft_mp5_stock_tube.compactname"] = "MP5 Tube"
@@ -564,7 +564,7 @@ L["sticker_doom_hud.description"] = "Allows you to play DOOM on the MP-155 Ultim
 -- [[ grenadestuff ]]
 L["eft_grenade_tripwire.printname"] = eftstring["666b11055a706400b717cfa5 Name"]
 L["eft_grenade_tripwire.compactname"] = eftstring["666b11055a706400b717cfa5 ShortName"]
-L["eft_grenade_tripwire.description"] = eftstring["666b11055a706400b717cfa5 Description"] .. "\n\nPress[<color=255,200,100>+zoom</color>] to activate."
+L["eft_grenade_tripwire.description"] = eftstring["666b11055a706400b717cfa5 Description"] .. "\n\nPress [ <color=255,200,25>+zoom</color> ] to activate."
 
 ///////////////////////////// M870 + FN40GL
 -- [[ m2a1 ]]
@@ -576,13 +576,34 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Applies a Flat Dark Earth (FDE) receiver onto the FN SCAR." .. customatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. customatt
 
 ///////////////////////////// SKS + SVT + AVT
 -- [[ sks ]]
 L["eft_sks_op.printname"] = eftstring["587e02ff24597743df3deaeb Name"]
 L["eft_sks_op.compactname"] = eftstring["587e02ff24597743df3deaeb ShortName"]
 L["eft_sks_op.description"] = eftstring["587e02ff24597743df3deaeb Description"]
+
+///////////////////////////// H&K MP7 + B&T MP9
+-- [[ mp7 ]]
+L["eft_mp7a2_blk.printname"] = "HK MP7A2 Black frame"
+L["eft_mp7a2_blk.compactname"] = "Black"
+L["eft_mp7a2_blk.description"] = "Repaints the frame into a black color." .. customatt
+
+///////////////////////////// RSASS + Mutant + SR-25
+-- [[ mk47 ]]
+L["eft_mk47_conversion_545.printname"] = "CMMG Mk47 Mutant 5.45x39mm conversion"
+L["eft_mk47_conversion_545.compactname"] = "5.45-C"
+L["eft_mk47_conversion_545.description"] = "[ Requires <color=255,200,25>AK Platform</color> ]\n" .. "Rechambers the CMMG Mk47 Mutant into 5.45x39mm."
+
+L["eft_mk47_conversion_556.printname"] = "CMMG Mk47 Mutant 5.56x45mm conversion"
+L["eft_mk47_conversion_556.compactname"] = "5.56-C"
+L["eft_mk47_conversion_556.description"] = "[ Requires <color=255,200,25>AK Platform</color> ]\n" .. "Rechambers the CMMG Mk47 Mutant into 5.56x45mm."
+
+-- [[ rsass ]]
+L["eft_rsass_black.printname"] = "Remington R11 RSASS Black frame"
+L["eft_rsass_black.compactname"] = "Black"
+L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. customatt
 
 ///////////////////////////// EFT Weapon Names
 --[[
