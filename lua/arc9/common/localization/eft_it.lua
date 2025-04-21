@@ -572,6 +572,18 @@ L["eft_fn40_black.printname"] = "FN40GL Mk2 Black frame"
 L["eft_fn40_black.compactname"] = "Black"
 L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black color." .. customatt
 
+///////////////////////////// SCAR-H/L + SA-58
+-- [[ scar ]]
+L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
+L["eft_scar_fde.compactname"] = "FDE"
+L["eft_scar_fde.description"] = "Applies a Flat Dark Earth (FDE) receiver onto the FN SCAR." .. customatt
+
+///////////////////////////// SKS + SVT + AVT
+-- [[ sks ]]
+L["eft_sks_op.printname"] = eftstring["587e02ff24597743df3deaeb Name"]
+L["eft_sks_op.compactname"] = eftstring["587e02ff24597743df3deaeb ShortName"]
+L["eft_sks_op.description"] = eftstring["587e02ff24597743df3deaeb Description"]
+
 ///////////////////////////// EFT Weapon Names
 --[[
 
