@@ -561,6 +561,18 @@ L["sticker_doom_hud.printname"] = "DOOM HUD"
 L["sticker_doom_hud.compactname"] = "DOOM"
 L["sticker_doom_hud.description"] = "Allows you to play DOOM on the MP-155 Ultima's thermal camera." .. "\n\nSticker included in EFT Extras."
 
+///////////////////////////// Grenades
+-- [[ grenadestuff ]]
+L["eft_grenade_tripwire.printname"] = eftstring["666b11055a706400b717cfa5 Name"]
+L["eft_grenade_tripwire.compactname"] = eftstring["666b11055a706400b717cfa5 ShortName"]
+L["eft_grenade_tripwire.description"] = eftstring["666b11055a706400b717cfa5 Description"] .. "\n\nPress[<color=255,200,100>+zoom</color>] to activate."
+
+///////////////////////////// M870 + FN40GL
+-- [[ m2a1 ]]
+L["eft_fn40_black.printname"] = "FN40GL Mk2 Black frame"
+L["eft_fn40_black.compactname"] = "Black"
+L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black color." .. customatt
+
 ///////////////////////////// EFT Weapon Names
 --[[
 
