@@ -764,3 +764,9 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 L["eft_aa12_gen2.printname"] = eftstring["67124dcfa3541f2a1f0e788b Name"]
 L["eft_aa12_gen2.compactname"] = eftstring["67124dcfa3541f2a1f0e788b ShortName"]
 L["eft_aa12_gen2.description"] = eftstring["67124dcfa3541f2a1f0e788b Description"]
+
+-- [[ M700 + DVL-10 + T-5000 ]]
+-- dvl10
+L["eft_dvl10_blk.printname"] = "Lobaev Arms DVL-10 Black frame"
+L["eft_dvl10_blk.compactname"] = "Black"
+L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. customatt

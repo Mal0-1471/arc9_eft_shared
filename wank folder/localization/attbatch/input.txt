@@ -1,0 +1,11 @@
+eft_t5000_barrel_std
+eft_t5000_chassis_std
+eft_t5000_hg_std
+eft_t5000_hg2_std
+eft_t5000_pg_std
+eft_t5000_stock_std
+eft_t5000_rail_optic
+eft_t5000_rail_long
+eft_t5000_rail_medium
+eft_t5000_muzzle_brake
+eft_t5000_mag_5
