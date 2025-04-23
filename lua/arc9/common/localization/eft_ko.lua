@@ -744,3 +744,17 @@ L["eft_1911_slock_m45_blk.description"] = eftstring["5f3e777688ca2d00ad199d25 De
 L["eft_1911_hammer_m45_blk.printname"] = "M45A1 공이 (검은색)"
 L["eft_1911_hammer_m45_blk.compactname"] = eftstring["5f3e76d86cda304dcc634054 ShortName"]
 L["eft_1911_hammer_m45_blk.description"] = eftstring["5f3e76d86cda304dcc634054 Description"] .. customatt
+
+-- [[ M60 + M32A1 ]]
+-- m60_m32
+L["eft_m32a1_fastreload.printname"] = "Dump Ammo on Reload"
+L["eft_m32a1_fastreload.compactname"] = "Fast Rel."
+L["eft_m32a1_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
+
+L["eft_m32a1_black.printname"] = "Milkor M32A1 Black frame"
+L["eft_m32a1_black.compactname"] = "Black"
+L["eft_m32a1_black.description"] = "Repaints the frame into a black color." .. customatt
+
+L["eft_m60_e6fde.printname"] = "M60E6 FDE frame"
+L["eft_m60_e6fde.compactname"] = "FDE"
+L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE) color." .. customatt
