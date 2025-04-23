@@ -1,7 +1,5 @@
 @echo off
 
-cd "D:\Steam\steamapps\common\GarrysMod\garrysmod\addons\arc9_eft_shared\wank folder\localization\Unified"
-
 echo English
 python _unifyscript.py a-eftbulk.lua a-eftbulk_en.lua
 

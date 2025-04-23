@@ -107,31 +107,31 @@ L["Ergonomics"] = "Ergonomia"
 
 ////////////// EFT Strings
 -- [[ HUD ]]
-L["eft_hud_full"] = "Pieno"
-L["eft_hud_empty"] = "Vuoto"
-L["eft_hud_nearlyfull"] = "Quasi pieno"
-L["eft_hud_aboutfull"] = "Circa la metà"
-L["eft_hud_lessthanhlaf"] = "Meno della metà"
-L["eft_hud_almostempty"] = "Quasi vuoto"
-L["eft_hud_none"] = "Nessuno"
-L["eft_hud_malf"] = "Malfunzionamento: \"%s\""
-L["eft_hud_misfire"] = "Mancata accensione"
-L["eft_hud_eject"] = "Espulsione fallita"
-L["eft_hud_feed"] = "Incameramento fallito"
-L["eft_hud_bolt"] = "Otturatore inceppato"
-L["eft_hud_missing"] = "Alla tua arma mancano alcune parti importanti."
-L["eft_hud_badtrip"] = "Impossibile installare il cavo d'innesco"
+L["eft_hud_full"] = eftstring["Full"]
+L["eft_hud_empty"] = eftstring["Empty"]
+L["eft_hud_nearlyfull"] = eftstring["Almost full"]
+L["eft_hud_aboutfull"] = eftstring["About half"]
+L["eft_hud_lessthanhlaf"] = eftstring["Less than half"]
+L["eft_hud_almostempty"] = eftstring["Almost empty"]
+L["eft_hud_none"] = eftstring["colorblind/None"]
+L["eft_hud_malf"] = eftstring["Notification/MalfunctionOccurred"]:gsub("{0}", "%%s")
+L["eft_hud_misfire"] = eftstring["EMalfunctionState/Misfire"]
+L["eft_hud_eject"] = eftstring["EMalfunctionState/Jam"]
+L["eft_hud_feed"] = eftstring["EMalfunctionState/Feed"]
+L["eft_hud_bolt"] = eftstring["EMalfunctionState/HardSlide"]
+L["eft_hud_missing"] = eftstring["Your weapon miss some vital parts"]
+L["eft_hud_badtrip"] = eftstring["Tripwire/PlantUnavailable"]
 
 -- [[ Weapon Categories ]] - If using Localized Strings
-L["eft_subcat_carb"] = "5Carabine d'assalto"
-L["eft_subcat_ar"] = "1Fucili d'assalto"
-L["eft_subcat_sg"] = "6Fucili a pompa"
-L["eft_subcat_snip"] = "4Fucili di precisione & Fucili da tiratore scelto"
-L["eft_subcat_smg"] = "2Mitragliatrici"
-L["eft_subcat_lmg"] = "3Mitragliatrice Leggera"
-L["eft_subcat_pist"] = "7Pistole"
-L["eft_subcat_melee"] = "9Armi bianche"
-L["eft_subcat_grenades"] = "8Granate & Lanciagranate"
+L["eft_subcat_carb"] = "5" .. eftstring["APCFilter/AssaultCarbine"]
+L["eft_subcat_ar"] = "1" .. eftstring["APCFilter/AssaultRifles"]
+L["eft_subcat_sg"] = "6" .. eftstring["APCFilter/Shotguns"]
+L["eft_subcat_snip"] = "4" .. eftstring["SniperRifle"] .. " & " .. eftstring["APCFilter/MarksmanRifles"]
+L["eft_subcat_smg"] = "2" .. eftstring["APCFilter/SMGs"]
+L["eft_subcat_lmg"] = "3" .. eftstring["LMG"]
+L["eft_subcat_pist"] = "7" .. eftstring["APCFilter/Pistols"]
+L["eft_subcat_melee"] = "9" .. eftstring["APCFilter/Melee"]
+L["eft_subcat_grenades"] = "8" .. eftstring["Arena/Presets/Tooltips/Grenade"] .. " & " .. eftstring["APCFilter/GrenadeLauncher"]
 
 -- [[ Weapon Classes ]] - Need to be edited manually
 L["eft_class_weapon_singleshot"] = "Fucile a colpo singolo"
@@ -179,19 +179,19 @@ local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT 
 -- Optics
  --  558022b54bdc2dac148b458d
 L["eft_optic_exps3.printname"] = "Mirino olografico EOTech EXPS3"
-L["eft_optic_exps3.compactname"] = "EXPS3"
-L["eft_optic_exps3.description"] = "Mirino olografico EOTech EXPS3. Grazie alle caratteristiche di design può essere utilizzato con una vasta gamma di armi, anche con mirini non pieghevoli. Compatibile con i dispositivi di visione notturna grazie alla modalità reticolo NV. Utilizzato dalla US SOCOM come ottica per le operazioni in spazi ristretti." .. customatt
+L["eft_optic_exps3.compactname"] = eftstring["558022b54bdc2dac148b458d ShortName"]
+L["eft_optic_exps3.description"] = eftstring["558022b54bdc2dac148b458d Description"] .. customatt
 
 -- [[ AK Platform ]]
 -- mag_ak
  -- 5aaa4194e5b5b055d06310a5 & 59d6272486f77466146386ff
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Caricatore da 30 colpi AK-74 5.45x39 Magpul PMAG 30 GEN M3 (FDE)"
-L["eft_mag_ak_pmag_545_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_545_30_fde.description"] = "Un caricatore Magpul Pmag 30 AK74 GEN M3 in polimero da 30 colpi per armi 5.45x39 AK e compatibili." .. customatt
+L["eft_mag_ak_pmag_545_30_fde.compactname"] = eftstring["5aaa4194e5b5b055d06310a5 ShortName"] .. " 30"
+L["eft_mag_ak_pmag_545_30_fde.description"] = eftstring["5aaa4194e5b5b055d06310a5 Description"] .. customatt
 
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Caricatore da 30 colpi AK 7.62x39 Magpul PMAG 30 GEN M3 (FDE)"
-L["eft_mag_ak_pmag_762_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_762_30_fde.description"] = "Un caricatore in polimeri 7.62x39 Magpul Pmag 30 AK/AKM GEN M3 per AK 7.62x39 ed altre armi compatibili. Può essere anche caricato con proiettili .366 TKM usandolo con calibri corrispondenti per armi AK compatibili." .. customatt
+L["eft_mag_ak_pmag_762_30_fde.compactname"] = eftstring["59d6272486f77466146386ff ShortName"] .. " 30"
+L["eft_mag_ak_pmag_762_30_fde.description"] = eftstring["59d6272486f77466146386ff Description"] .. customatt
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
@@ -203,21 +203,21 @@ L["eft_akn.description"] = "Un supporto per l'installazione di mirini ed altri d
 -- hg_ar15
  -- 595cfa8b86f77427437e845b
 L["eft_hg_ar15_lvoac_f.printname"] = "Paramano AR-15 War Sport LVOA-C (Flat Dark Earth)"
-L["eft_hg_ar15_lvoac_f.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_f.description"] = "Il paramano leggero The War Sport LVOA-C, è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoac_f.compactname"] = eftstring["595cfa8b86f77427437e845b ShortName"]
+L["eft_hg_ar15_lvoac_f.description"] = eftstring["595cfa8b86f77427437e845b Description"] .. customatt
 
 L["eft_hg_ar15_lvoac_g.printname"] = "Paramano AR-15 War Sport LVOA-C (Stealth Grey)"
-L["eft_hg_ar15_lvoac_g.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_g.description"] = "Il paramano leggero The War Sport LVOA-C, è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoac_g.compactname"] = eftstring["595cfa8b86f77427437e845b ShortName"]
+L["eft_hg_ar15_lvoac_g.description"] = eftstring["595cfa8b86f77427437e845b Description"] .. customatt
 
 -- 595cf16b86f77427440c32e2
 L["eft_hg_ar15_lvoas_f.printname"] = "Paramano AR-15 War Sport LVOA-S (Flat Dark Earth)"
-L["eft_hg_ar15_lvoas_f.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_f.description"] = "Il paramano leggero The War Sport LVOA-S (SBR), è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoas_f.compactname"] = eftstring["595cf16b86f77427440c32e2 ShortName"]
+L["eft_hg_ar15_lvoas_f.description"] = eftstring["595cf16b86f77427440c32e2 Description"] .. customatt
 
 L["eft_hg_ar15_lvoas_g.printname"] = "Paramano AR-15 War Sport LVOA-S (Stealth Grey)"
-L["eft_hg_ar15_lvoas_g.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_g.description"] = "Il paramano leggero The War Sport LVOA-S (SBR), è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoas_g.compactname"] = eftstring["595cf16b86f77427440c32e2 ShortName"]
+L["eft_hg_ar15_lvoas_g.description"] = eftstring["595cf16b86f77427440c32e2 Description"] .. customatt
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
@@ -232,12 +232,12 @@ L["eft_axmc_magwell.description"] = "Un caricatore normale per il fucile da cecc
 
  -- 628120dd308cb521f87a8fa1 & 628120d309427b40ab14e76d
 L["eft_axmc_railmid_b.printname"] = "Kit di adattamento per slitta di media lunghezza AI AXMC (Nero)"
-L["eft_axmc_railmid_b.compactname"] = "AXMC med"
-L["eft_axmc_railmid_b.description"] = "Una slitta di media lunghezza per l'installazione sull'interfaccia KeySlot del fucile da cecchino AXMC, prodotto dalla Accuracy International." .. customatt
+L["eft_axmc_railmid_b.compactname"] = eftstring["628120dd308cb521f87a8fa1 ShortName"]
+L["eft_axmc_railmid_b.description"] = eftstring["628120dd308cb521f87a8fa1 Description"] .. customatt
 
 L["eft_axmc_railshort_b.printname"] = "Kit adattatore per slitta corta AI AXMC (Nero)"
-L["eft_axmc_railshort_b.compactname"] = "AXMC corto"
-L["eft_axmc_railshort_b.description"] = "Un slitta corto per l'installazione sull'interfaccia KeySlot del fucile da cecchino AXMC, prodotto dalla Accuracy International." .. customatt
+L["eft_axmc_railshort_b.compactname"] = eftstring["628120d309427b40ab14e76d ShortName"]
+L["eft_axmc_railshort_b.description"] = eftstring["628120d309427b40ab14e76d Description"] .. customatt
 
 -- [[ S90 + M9A3 ]]
 -- m3super90
@@ -264,8 +264,8 @@ L["eft_glock_black.description"] = "Repaints the frame into a black color." .. c
 -- glocks
 -- 63075cc5962d0247b029dc2a
 L["eft_rec_g19x_black.printname"] = "Carrello per pistola Glock 18X 9x19 (Nero)"
-L["eft_rec_g19x_black.compactname"] = "G19X"
-L["eft_rec_g19x_black.description"] = "Slitta standard per la pistola Glock 19X 9x19. Le superfici della slitta sono trattate con un avanzato rivestimento nPVD che protegge l'acciaio dalla corrosione, dagli attacchi chimici e dalle condizioni ambientali più difficili." .. customatt
+L["eft_rec_g19x_black.compactname"] = eftstring["63075cc5962d0247b029dc2a ShortName"]
+L["eft_rec_g19x_black.description"] = eftstring["63075cc5962d0247b029dc2a Description"] .. customatt
 
 -- [[ P90 + Five-seveN ]]
 -- 57
@@ -275,9 +275,9 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 
 -- p90
 -- 5cc70093e4a949033c734312
-L["eft_p90_mag_opaque.printname"] = "Caricatore da 50 colpi FN P90 5.7x28 (Non-Translucent)"
+L["eft_p90_mag_opaque.printname"] = eftstring["5cc70093e4a949033c734312 Name"] .. " (Non-Translucent)"
 L["eft_p90_mag_opaque.compactname"] = "P90-NT 50"
-L["eft_p90_mag_opaque.description"] = "Un caricatore in polimero da 50 colpi per la pistola mitragliatrice FN P90 da 5,7x28mm." .. customatt
+L["eft_p90_mag_opaque.description"] = eftstring["5cc70093e4a949033c734312 Description"] .. customatt
 
 -- [[ TOZ-106 + MP-18 ]]
 -- ammo_20x70
@@ -326,7 +326,7 @@ L["eft_extras_alt_pistol3_hold.description"] = "Very tactical." .. extrasatt
  -- modified 628a6678ccaab13006640e49
 L["eft_extras_stock_ak_aktom4_forawp.printname"] = "Adattatore per tubo tampone AXMC RD AK a M4"
 L["eft_extras_stock_ak_aktom4_forawp.compactname"] = "AXMCtoM4"
-L["eft_extras_stock_ak_aktom4_forawp.description"] = "L'adattatore da AK a M4 Gen 2 per l'installazione di tubi tampone telescopici su fucili d'assalto della serie AK con calci fissi. Prodotto dalla Rifle Dynamics." .. extrasatt
+L["eft_extras_stock_ak_aktom4_forawp.description"] = eftstring["628a6678ccaab13006640e49 Description"] .. extrasatt
 
 L["eft_extras_freestats.printname"] = "Free Buffs"
 L["eft_extras_freestats.compactname"] = "Buffs"
@@ -356,8 +356,8 @@ L["eft_57_resound.printname"] = "New Sounds by rzen1th"
 L["eft_57_resound.compactname"] = "rzen1th"
 L["eft_57_resound.description"] = "Applies alternative firing sounds made by <color=255,200,50>rzen1th</color>." .. extrasatt
 
-L["eft_mag_usp_ext.printname"] = "Caricatore da 17 colpi HK USP .45 ACP"
-L["eft_mag_usp_ext.compactname"] = "USP 17"
+L["eft_mag_usp_ext.printname"] = eftstring["6193d338de3cdf1d2614a6fc Name"]:gsub("12", "17")
+L["eft_mag_usp_ext.compactname"] = eftstring["6193d338de3cdf1d2614a6fc ShortName"] .. " 17"
 L["eft_mag_usp_ext.description"] = "An aftermarket 17-round .45 ACP magazine." .. extrasatt
 
 L["eft_extras_manualpump.printname"] = "Manual cycling"
@@ -393,14 +393,14 @@ L["eft_extras_melee_swingspeed.compactname"] = "Swing"
 L["eft_extras_melee_swingspeed.description"] = "Allows you to melee faster." .. extrasatt
 
 -- 55802d5f4bdc2dac148b458e
-L["eft_aug_mag_30_pmag.printname"] = "Caricatore da 30 colpi 5.56x45 Magpul PMAG 30 GEN M3 W STANAG"
-L["eft_aug_mag_30_pmag.compactname"] = "GEN M3"
-L["eft_aug_mag_30_pmag.description"] = "Un caricatore Magpul PMAG GEN M3 30 in polimeri da 30 colpi 5.56x45, provvisto di un foro di ispezione per facilitarne il controllo." .. extrasatt
+L["eft_aug_mag_30_pmag.printname"] = eftstring["55802d5f4bdc2dac148b458e Name"]
+L["eft_aug_mag_30_pmag.compactname"] = eftstring["55802d5f4bdc2dac148b458e ShortName"]
+L["eft_aug_mag_30_pmag.description"] = eftstring["55802d5f4bdc2dac148b458e Description"] .. extrasatt
 
 -- 5ba26b17d4351e00367f9bdd
-L["eft_rearsight_mp7f.printname"] = "Tacca di mira ribaltabile HK MP7 (Folded)"
+L["eft_rearsight_mp7f.printname"] = eftstring["5ba26b17d4351e00367f9bdd Name"] .. " (Folded)"
 L["eft_rearsight_mp7f.compactname"] = "MP7 (F)"
-L["eft_rearsight_mp7f.description"] = "Una tacca di mira ribaltabile pieghevole rimovibile per pistola mitragliatrice MP7. Prodotto dalla Heckler & Koch." .. extrasatt
+L["eft_rearsight_mp7f.description"] = eftstring["5ba26b17d4351e00367f9bdd Description"] .. extrasatt
 
 L["eft_extras_sealedbolt.printname"] = "Sealed Bolt"
 L["eft_extras_sealedbolt.compactname"] = "Sealed"
@@ -409,15 +409,15 @@ L["eft_extras_sealedbolt.description"] = "Allows the weapon to be fired underwat
 -- loosely 5fc23426900b1d5091531e15
 L["eft_mk18_mag_30.printname"] = "Mk-18 .338 LM X Products X-18 30-round drum magazine"
 L["eft_mk18_mag_30.compactname"] = "X-18 30"
-L["eft_mk18_mag_30.description"] = "[ Requires <color=255,200,25>SCAR-H/L + SA-58</color> ]\nA 30-round Mk-18 drum magazine for .338 LM ammunition, manufactured by X Products." .. extrasatt
+L["eft_mk18_mag_30.description"] = "[ Requires <color=255,200,25>SCAR-H/L + SA-58</color> ]\n" .. "A 30-round Mk-18 drum magazine for .338 LM ammunition, manufactured by X Products." .. extrasatt
 
 L["eft_mp5_stock_tube.printname"] = "HK MP5 Buffer Tube stock"
 L["eft_mp5_stock_tube.compactname"] = "MP5 Tube"
 L["eft_mp5_stock_tube.description"] = "A custom tube with a sling swivel for MP5 submachine guns manufactured by Heckler & Koch." .. extrasatt
 
-L["eft_optic_okp7_sigma.printname"] = "Mirino reflex OKP-7 (Dovetail reticle)"
-L["eft_optic_okp7_sigma.compactname"] = "OKP-7"
-L["eft_optic_okp7_sigma.description"] = "Uses the reticle from the dovetail variant.\nIl design originale del mirino OKP, permette di sparare rapidamente da posizioni instabili in condizioni che cambiano repentinamente, riducendo la fatica dell'operatore e, se necessario, consentendo l'uso senza impedimenti del mirino meccanico di base. La caratteristica fondamentale di questo mirino è che è un accessorio riflettore senza montatura che non ostruisce il campo di fuoco; invece, il riflettore è protetto da una sottile e resistente visiera che non si vede quando si spara." .. extrasatt
+L["eft_optic_okp7_sigma.printname"] = eftstring["570fd79bd2720bc7458b4583 Name"] .. " (Dovetail reticle)"
+L["eft_optic_okp7_sigma.compactname"] = eftstring["570fd79bd2720bc7458b4583 ShortName"]
+L["eft_optic_okp7_sigma.description"] = "Uses the reticle from the dovetail variant.\n" .. eftstring["570fd79bd2720bc7458b4583 Description"] .. extrasatt
 
 L["eft_extras_alt_hold_gangsta.printname"] = "Alternative viewmodel position (Gangsta)"
 L["eft_extras_alt_hold_gangsta.compactname"] = "VM Pos (Gang)"
@@ -459,121 +459,121 @@ L["eft_g17_sticker_frame.printname"] = "Glock frame with Stickers"
 L["eft_g17_sticker_frame.compactname"] = "Glock [S]"
 L["eft_g17_sticker_frame.description"] = "Allows you to place stickers on the frame on the Glock." .. extrasatt
 
-L["eft_rec_g17_std_stick.printname"] = "Carrello per pistola Glock 17 (Sticker)"
-L["eft_rec_g17_std_stick.compactname"] = "G17 [S]"
-L["eft_rec_g17_std_stick.description"] = "Carrello standard per pistole Glock 9x19." .. extrasatt .. stickersatt
+L["eft_rec_g17_std_stick.printname"] = eftstring["5a6f5e048dc32e00094b97da Name"] .. " (Sticker)"
+L["eft_rec_g17_std_stick.compactname"] = eftstring["5a6f5e048dc32e00094b97da ShortName"] .. " [S]"
+L["eft_rec_g17_std_stick.description"] = eftstring["5a6f5e048dc32e00094b97da Description"] .. extrasatt .. stickersatt
 
-L["eft_axmc_bolt308_stickers.printname"] = "AI AXMC 7.62x51mm bolt assembly (Sticker)"
-L["eft_axmc_bolt308_stickers.compactname"] = "AXMC .308 [S]"
-L["eft_axmc_bolt308_stickers.description"] = "Un gruppo otturatore .308 per il fucile da cecchino Accuracy International AXMC." .. extrasatt .. stickersatt
+L["eft_axmc_bolt308_stickers.printname"] = eftstring["62811d61578c54356d6d67ea Name"]:gsub("!!!DO_NOT_USE!!!", "") .. " (Sticker)"
+L["eft_axmc_bolt308_stickers.compactname"] = eftstring["62811d61578c54356d6d67ea ShortName"] .. " [S]"
+L["eft_axmc_bolt308_stickers.description"] = eftstring["62811d61578c54356d6d67ea Description"] .. extrasatt .. stickersatt
 
-L["eft_axmc_bolt338_stickers.printname"] = "Assemblaggio otturatore AI AXMC .338 LM (Sticker)"
-L["eft_axmc_bolt338_stickers.compactname"] = "AXMC .338LM [S]"
-L["eft_axmc_bolt338_stickers.description"] = "Un gruppo otturatore .338 Lapua Magnum per il fucile da cecchino Accuracy International AXMC." .. extrasatt .. stickersatt
+L["eft_axmc_bolt338_stickers.printname"] = eftstring["62811cd7308cb521f87a8f99 Name"] .. " (Sticker)"
+L["eft_axmc_bolt338_stickers.compactname"] = eftstring["62811cd7308cb521f87a8f99 ShortName"] .. " [S]"
+L["eft_axmc_bolt338_stickers.description"] = eftstring["62811cd7308cb521f87a8f99 Description"] .. extrasatt .. stickersatt
 
-L["eft_axmc_mag308_stickers.printname"] = "Caricatore da 10 colpi AI AXMC 7.62x51 (Sticker)"
-L["eft_axmc_mag308_stickers.compactname"] = "AXMC 308 [S]"
-L["eft_axmc_mag308_stickers.description"] = "Un caricatore per fucile di precisione AXMC da 10 colpi della Accuracy International, per cartucce 7.62x51/.308." .. extrasatt .. stickersatt
+L["eft_axmc_mag308_stickers.printname"] = eftstring["628120f210e26c1f344e6558 Name"]:gsub("!!!DO_NOT_USE!!!", "") .. " (Sticker)"
+L["eft_axmc_mag308_stickers.compactname"] = eftstring["628120f210e26c1f344e6558 ShortName"] .. " [S]"
+L["eft_axmc_mag308_stickers.description"] = eftstring["628120f210e26c1f344e6558 Description"] .. extrasatt .. stickersatt
 
-L["eft_axmc_mag338_stickers.printname"] = "Caricatore da 10 colpi AI AXMC .338 LM (Sticker)"
-L["eft_axmc_mag338_stickers.compactname"] = "AXMC 338LM [S]"
-L["eft_axmc_mag338_stickers.description"] = "Un caricatore per fucile da cecchino AXMC da 10 colpi dell'Accuracy International, per cartucce .338 Lapua Magnum." .. extrasatt .. stickersatt
+L["eft_axmc_mag338_stickers.printname"] = eftstring["628120fd5631d45211793c9f Name"] .. " (Sticker)"
+L["eft_axmc_mag338_stickers.compactname"] = eftstring["628120fd5631d45211793c9f ShortName"] .. " [S]"
+L["eft_axmc_mag338_stickers.description"] = eftstring["628120fd5631d45211793c9f Description"] .. extrasatt .. stickersatt
 
-L["eft_axmc_upper_stickers.printname"] = "Culatta superiore AI AXMC (Sticker)"
-L["eft_axmc_upper_stickers.compactname"] = "AXMC super. [S]"
-L["eft_axmc_upper_stickers.description"] = "Una culatta superiore per il fucile da cecchino AXMC prodotto dalla Accuracy International. Dotato di un supporto per il fissaggio di dispositivi aggiuntivi." .. extrasatt .. stickersatt
+L["eft_axmc_upper_stickers.printname"] = eftstring["62811fbf09427b40ab14e767 Name"] .. " (Sticker)"
+L["eft_axmc_upper_stickers.compactname"] = eftstring["62811fbf09427b40ab14e767 ShortName"] .. " [S]"
+L["eft_axmc_upper_stickers.description"] = eftstring["62811fbf09427b40ab14e767 Description"] .. extrasatt .. stickersatt
 
 L["eft_rsh12_sticker_frame.printname"] = "RSh-12 frame with Stickers"
 L["eft_rsh12_sticker_frame.compactname"] = "RSh-12 [S]"
 L["eft_rsh12_sticker_frame.description"] = "Allows you to place stickers on the frame of the RSh-12." .. extrasatt
 
-L["eft_rsh12_drum_sticker.printname"] = "Cilindro da 5 colpi RSh-12 12.7x55 (Sticker)"
-L["eft_rsh12_drum_sticker.compactname"] = "Cil. RSh12 [S]"
-L["eft_rsh12_drum_sticker.description"] = "Un cilindro da 5 colpi 12.7x55 per il revolver RSh-12." .. extrasatt .. stickersatt
+L["eft_rsh12_drum_sticker.printname"] = eftstring["633ec6ee025b096d320a3b15 Name"] .. " (Sticker)"
+L["eft_rsh12_drum_sticker.compactname"] = eftstring["633ec6ee025b096d320a3b15 ShortName"] .. " [S]"
+L["eft_rsh12_drum_sticker.description"] = eftstring["633ec6ee025b096d320a3b15 Description"] .. extrasatt .. stickersatt
 
-L["eft_rsh12_pgrip_sticker.printname"] = "Impugnatura a pistola RSh-12 (Sticker)"
-L["eft_rsh12_pgrip_sticker.compactname"] = "RSh-12 [S]"
-L["eft_rsh12_pgrip_sticker.description"] = "Impugnatura a pistola in plastica di serie per il revolver RSh-12, prodotta dal KBP Instrument Design Bureau." .. extrasatt .. stickersatt
+L["eft_rsh12_pgrip_sticker.printname"] = eftstring["633ec8e4025b096d320a3b1e Name"] .. " (Sticker)"
+L["eft_rsh12_pgrip_sticker.compactname"] = eftstring["633ec8e4025b096d320a3b1e ShortName"] .. " [S]"
+L["eft_rsh12_pgrip_sticker.description"] = eftstring["633ec8e4025b096d320a3b1e Description"] .. extrasatt .. stickersatt
 
 L["eft_ash12_sticker_frame.printname"] = "ASh-12 frame with Stickers"
 L["eft_ash12_sticker_frame.compactname"] = "ASh-12 [S]"
 L["eft_ash12_sticker_frame.description"] = "Allows you to place stickers on the frame of the ASh-12." .. extrasatt
 
-L["eft_ash12_mag_10_stick.printname"] = "Caricatore da 10 colpi ASh-12 12.7x55 (Sticker)"
-L["eft_ash12_mag_10_stick.compactname"] = "ASh-12 10 [S]"
-L["eft_ash12_mag_10_stick.description"] = "Un caricatore da 10 colpi per il fucile d'assalto ASh-12 12.7x55." .. extrasatt .. stickersatt
+L["eft_ash12_mag_10_stick.printname"] = eftstring["5caf1041ae92157c28402e3f Name"] .. " (Sticker)"
+L["eft_ash12_mag_10_stick.compactname"] = eftstring["5caf1041ae92157c28402e3f ShortName"] .. " 10 [S]"
+L["eft_ash12_mag_10_stick.description"] = eftstring["5caf1041ae92157c28402e3f Description"] .. extrasatt .. stickersatt
 
-L["eft_ash12_mag_20_stick.printname"] = "Caricatore da 20 colpi ASh-12 12.7x55 (Sticker)"
-L["eft_ash12_mag_20_stick.compactname"] = "ASh-12 20 [S]"
-L["eft_ash12_mag_20_stick.description"] = "Un caricatore standard da 20 colpi per il fucile d'assalto bullpup ASh-12 12.7x55." .. extrasatt .. stickersatt
+L["eft_ash12_mag_20_stick.printname"] = eftstring["5caf1109ae9215753c44119f Name"] .. " (Sticker)"
+L["eft_ash12_mag_20_stick.compactname"] = eftstring["5caf1109ae9215753c44119f ShortName"] .. " 20 [S]"
+L["eft_ash12_mag_20_stick.description"] = eftstring["5caf1109ae9215753c44119f Description"] .. extrasatt .. stickersatt
 
 L["eft_ks23_body_sticker.printname"] = "KS-23M frame with Stickers"
 L["eft_ks23_body_sticker.compactname"] = "KS-23M [S]"
 L["eft_ks23_body_sticker.description"] = "Allows you to place stickers on the frame of the KS-23M." .. extrasatt
 
-L["eft_ks23_stock_wood_sticker.printname"] = "Calcio in legno per KS-23 (Sticker)"
-L["eft_ks23_stock_wood_sticker.compactname"] = "Legno KS23 [S]"
-L["eft_ks23_stock_wood_sticker.description"] = "Calcio in legno per fucile KS-23 con calciolo in gomma." .. extrasatt .. stickersatt
+L["eft_ks23_stock_wood_sticker.printname"] = eftstring["5e848db4681bea2ada00daa9 Name"] .. " (Sticker)"
+L["eft_ks23_stock_wood_sticker.compactname"] = eftstring["5e848db4681bea2ada00daa9 ShortName"] .. " [S]"
+L["eft_ks23_stock_wood_sticker.description"] = eftstring["5e848db4681bea2ada00daa9 Description"] .. extrasatt .. stickersatt
 
 L["eft_m870_body_sticker.printname"] = "M870 frame with Stickers"
 L["eft_m870_body_sticker.compactname"] = "M870 [S]"
 L["eft_m870_body_sticker.description"] = "Allows you to place stickers on the frame of the Remington Model 870." .. extrasatt
 
-L["eft_m870_stock_sps_sticker.printname"] = "Calcio in polimeri per M870 SPS (Sticker)"
-L["eft_m870_stock_sps_sticker.compactname"] = "SPS M870 [S]"
-L["eft_m870_stock_sps_sticker.description"] = "Un calcio in polimero dall'aspetto classico per il fucile Remington Model 870, dotato di calciolo in gomma. Prodotto dalla Remington." .. extrasatt .. stickersatt
+L["eft_m870_stock_sps_sticker.printname"] = eftstring["5a7880d0c5856700142fdd9d Name"] .. " (Sticker)"
+L["eft_m870_stock_sps_sticker.compactname"] = eftstring["5a7880d0c5856700142fdd9d ShortName"] .. " [S]"
+L["eft_m870_stock_sps_sticker.description"] = eftstring["5a7880d0c5856700142fdd9d Description"] .. extrasatt .. stickersatt
 
 L["eft_pkm_body_sticker.printname"] = "PK frame with Stickers"
 L["eft_pkm_body_sticker.compactname"] = "PK [S]"
 L["eft_pkm_body_sticker.description"] = "Allows you to place stickers on the frame of the PKM and PKP." .. extrasatt
 
-L["eft_pkm_stock_sticker.printname"] = "Calcio in polimero PKP (Sticker)"
-L["eft_pkm_stock_sticker.compactname"] = "PKP [S]"
-L["eft_pkm_stock_sticker.description"] = "Un calcio standard per la mitragliatrice PKP \"Pecheneg\". Prodotto dalla V.A. Stabilimento di Degtyarev." .. extrasatt .. stickersatt
+L["eft_pkm_stock_sticker.printname"] = eftstring["6492e3a97df7d749100e29ee Name"] .. " (Sticker)"
+L["eft_pkm_stock_sticker.compactname"] = eftstring["6492e3a97df7d749100e29ee ShortName"] .. " [S]"
+L["eft_pkm_stock_sticker.description"] = eftstring["6492e3a97df7d749100e29ee Description"] .. extrasatt .. stickersatt
 
-L["eft_pkm_mag_sticker.printname"] = "Scatola da 100 colpi PK 7.62x54R (Sticker)"
-L["eft_pkm_mag_sticker.compactname"] = "PK 100 [S]"
-L["eft_pkm_mag_sticker.description"] = "Una scatola di munizioni standard da 100 colpi per munizioni 7.62x54R per mitragliatrice Kalashnikov. Prodotto dalla V.A. Stabilimento di Degtyarev." .. extrasatt .. stickersatt
+L["eft_pkm_mag_sticker.printname"] = eftstring["646372518610c40fc20204e8 Name"] .. " (Sticker)"
+L["eft_pkm_mag_sticker.compactname"] = eftstring["646372518610c40fc20204e8 ShortName"] .. " 100 [S]"
+L["eft_pkm_mag_sticker.description"] = eftstring["646372518610c40fc20204e8 Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_upper_h_stickers.printname"] = "Culatta superiore FN SCAR-H 7.62x51 (Sticker)"
-L["eft_scar_upper_h_stickers.compactname"] = "Mk17 [S]"
-L["eft_scar_upper_h_stickers.description"] = "Una culatta superiore per il fucile d'assalto SCAR-H, prodotto dalla Fabrique Nationale Herstal. Dispone di una slitta superiore per l'installazione di apparecchiature aggiuntive." .. extrasatt .. stickersatt
+L["eft_scar_upper_h_stickers.printname"] = eftstring["6165adcdd3a39d50044c120f Name"] .. " (Sticker)"
+L["eft_scar_upper_h_stickers.compactname"] = eftstring["6165adcdd3a39d50044c120f ShortName"] .. " [S]"
+L["eft_scar_upper_h_stickers.description"] = eftstring["6165adcdd3a39d50044c120f Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_upper_h_f_stickers.printname"] = "Culatta superiore FN SCAR-H 7.62x51 (FDE) (Sticker)"
-L["eft_scar_upper_h_f_stickers.compactname"] = "Mk17 [S]"
-L["eft_scar_upper_h_f_stickers.description"] = "Una culatta superiore per il fucile d'assalto SCAR-H, prodotto dalla Fabrique Nationale Herstal. Dispone di una slitta superiore per l'installazione di apparecchiature aggiuntive. Versione Flat Dark Earth." .. extrasatt .. stickersatt
+L["eft_scar_upper_h_f_stickers.printname"] = eftstring["6165aeedfaa1272e431521e3 Name"] .. " (Sticker)"
+L["eft_scar_upper_h_f_stickers.compactname"] = eftstring["6165aeedfaa1272e431521e3 ShortName"] .. " [S]"
+L["eft_scar_upper_h_f_stickers.description"] = eftstring["6165aeedfaa1272e431521e3 Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_upper_l_sticker.printname"] = "Culatta superiore FN SCAR-L 5,56x45 (Sticker)"
-L["eft_scar_upper_l_sticker.compactname"] = "Mk16 [S]"
-L["eft_scar_upper_l_sticker.description"] = "Una culatta superiore per il fucile d'assalto SCAR-L, prodotto dalla Fabrique Nationale Herstal. Dispone di una slitta superiore per l'installazione di apparecchiature aggiuntive." .. extrasatt .. stickersatt
+L["eft_scar_upper_l_sticker.printname"] = eftstring["618405198004cc50514c3594 Name"] .. " (Sticker)"
+L["eft_scar_upper_l_sticker.compactname"] = eftstring["618405198004cc50514c3594 ShortName"] .. " [S]"
+L["eft_scar_upper_l_sticker.description"] = eftstring["618405198004cc50514c3594 Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_upper_f_sticker.printname"] = "Culatta superiore FN SCAR-L 5.56x45 (FDE) (Sticker)"
-L["eft_scar_upper_f_sticker.compactname"] = "Mk16 [S]"
-L["eft_scar_upper_f_sticker.description"] = "Una culatta superiore per il fucile d'assalto SCAR-L, prodotto dalla Fabrique Nationale Herstal. Dispone di una slitta superiore per l'installazione di apparecchiature aggiuntive. Versione Flat Dark Earth." .. extrasatt .. stickersatt
+L["eft_scar_upper_f_sticker.printname"] = eftstring["618426d96c780c1e710c9b9f Name"] .. " (Sticker)"
+L["eft_scar_upper_f_sticker.compactname"] = eftstring["618426d96c780c1e710c9b9f ShortName"] .. " [S]"
+L["eft_scar_upper_f_sticker.description"] = eftstring["618426d96c780c1e710c9b9f Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_stock_base_stick.printname"] = "Calcio pieghevole in polimero FN SCAR (Sticker)"
-L["eft_scar_stock_base_stick.compactname"] = "SCAR piegh. [S]"
-L["eft_scar_stock_base_stick.description"] = "Un calcio pieghevole in polimero per i fucili della serie SCAR, prodotto dalla Fabrique Nationale Herstal." .. extrasatt .. stickersatt
+L["eft_scar_stock_base_stick.printname"] = eftstring["61816734d8e3106d9806c1f3 Name"] .. " (Sticker)"
+L["eft_scar_stock_base_stick.compactname"] = eftstring["61816734d8e3106d9806c1f3 ShortName"] .. " [S]"
+L["eft_scar_stock_base_stick.description"] = eftstring["61816734d8e3106d9806c1f3 Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_stock_base_f_stick.printname"] = "Calcio pieghevole in polimero FN SCAR (FDE) (Sticker)"
-L["eft_scar_stock_base_f_stick.compactname"] = "SCAR piegh. [S]"
-L["eft_scar_stock_base_f_stick.description"] = "Un calcio pieghevole in polimero per i fucili della serie SCAR, prodotto dalla Fabrique Nationale Herstal. Versione Flat Dark Earth." .. extrasatt .. stickersatt
+L["eft_scar_stock_base_f_stick.printname"] = eftstring["61825d06d92c473c770215de Name"] .. " (Sticker)"
+L["eft_scar_stock_base_f_stick.compactname"] = eftstring["61825d06d92c473c770215de ShortName"] .. " [S]"
+L["eft_scar_stock_base_f_stick.description"] = eftstring["61825d06d92c473c770215de Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_stock_ext_stick.printname"] = "Calcio in polimero retrattile FN SCAR (Sticker)"
-L["eft_scar_stock_ext_stick.compactname"] = "SCAR Retrat. [S]"
-L["eft_scar_stock_ext_stick.description"] = "Un calcio retrattile in polimero per i fucili d'assalto della serie SCAR, prodotto dalla Fabrique Nationale Herstal." .. extrasatt .. stickersatt
+L["eft_scar_stock_ext_stick.printname"] = eftstring["618167528004cc50514c34f9 Name"] .. " (Sticker)"
+L["eft_scar_stock_ext_stick.compactname"] = eftstring["618167528004cc50514c34f9 ShortName"] .. " [S]"
+L["eft_scar_stock_ext_stick.description"] = eftstring["618167528004cc50514c34f9 Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_stock_ext_f_stick.printname"] = "Calcio in polimero retrattile FN SCAR (FDE) (Sticker)"
-L["eft_scar_stock_ext_f_stick.compactname"] = "SCAR Retrat. [S]"
-L["eft_scar_stock_ext_f_stick.description"] = "Un calcio retrattile in polimero per i fucili d'assalto della serie SCAR, prodotto dalla Fabrique Nationale Herstal. Versione Flat Dark Earth." .. extrasatt .. stickersatt
+L["eft_scar_stock_ext_f_stick.printname"] = eftstring["61825d136ef05c2ce828f1cc Name"] .. " (Sticker)"
+L["eft_scar_stock_ext_f_stick.compactname"] = eftstring["61825d136ef05c2ce828f1cc ShortName"] .. " [S]"
+L["eft_scar_stock_ext_f_stick.description"] = eftstring["61825d136ef05c2ce828f1cc Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_stock_cheeck_stick.printname"] = "Poggiaguancia FN SCAR (Sticker)"
-L["eft_scar_stock_cheeck_stick.compactname"] = "SCAR-H [S]"
-L["eft_scar_stock_cheeck_stick.description"] = "Un poggiaguancia standard installato sopra il calcio in polimero FN SCAR. Prodotto dalla Fabrique Nationale Herstal." .. extrasatt .. stickersatt
+L["eft_scar_stock_cheeck_stick.printname"] = eftstring["618167441cb55961fa0fdc71 Name"] .. " (Sticker)"
+L["eft_scar_stock_cheeck_stick.compactname"] = eftstring["618167441cb55961fa0fdc71 ShortName"] .. " [S]"
+L["eft_scar_stock_cheeck_stick.description"] = eftstring["618167441cb55961fa0fdc71 Description"] .. extrasatt .. stickersatt
 
-L["eft_scar_stock_cheeck_f_stick.printname"] = "Poggiaguancia FN SCAR (FDE) (Sticker)"
-L["eft_scar_stock_cheeck_f_stick.compactname"] = "SCAR [S]"
-L["eft_scar_stock_cheeck_f_stick.description"] = "Un poggiaguancia standard installato sopra il calcio in polimero FN SCAR. Prodotto dalla Fabrique Nationale Herstal. Versione Flat Dark Earth." .. extrasatt .. stickersatt
+L["eft_scar_stock_cheeck_f_stick.printname"] = eftstring["61825d24d3a39d50044c13af Name"] .. " (Sticker)"
+L["eft_scar_stock_cheeck_f_stick.compactname"] = eftstring["61825d24d3a39d50044c13af ShortName"] .. " [S]"
+L["eft_scar_stock_cheeck_f_stick.description"] = eftstring["61825d24d3a39d50044c13af Description"] .. extrasatt .. stickersatt
 
 L["eft_scar_sticker_frame.printname"] = "FN SCAR frame with Stickers"
 L["eft_scar_sticker_frame.compactname"] = "SCAR [S]"
@@ -607,9 +607,9 @@ L["eft_aug_body_sticker.printname"] = "Steyr AUG frame with Stickers"
 L["eft_aug_body_sticker.compactname"] = "AUG [S]"
 L["eft_aug_body_sticker.description"] = "Allows you to place stickers on the frame of the Steyr AUG A1 and A3." .. extrasatt
 
-L["eft_mount_usp_match_stickers.printname"] = "Compensatore HK USP .45 ACP Match (Sticker)"
-L["eft_mount_usp_match_stickers.compactname"] = "USP45M [S]"
-L["eft_mount_usp_match_stickers.description"] = "Il compensatore Match dello kit speciale pistola USP Match aggiungerà ulteriore peso alla parte anteriore della tua pistola aiutandoti a ridurre il \"rimbalzo\" del rinculo verticale. Dispone di un supporto per l'installazione di equipaggiamento tattico aggiuntivo. Prodotto dalla Heckler & Koch." .. extrasatt .. stickersatt
+L["eft_mount_usp_match_stickers.printname"] = eftstring["619624b26db0f2477964e6b0 Name"] .. " (Sticker)"
+L["eft_mount_usp_match_stickers.compactname"] = eftstring["619624b26db0f2477964e6b0 ShortName"] .. " [S]"
+L["eft_mount_usp_match_stickers.description"] = eftstring["619624b26db0f2477964e6b0 Description"] .. extrasatt .. stickersatt
 
 L["eft_deagle_sticker.printname"] = "Desert Eagle frame with Stickers"
 L["eft_deagle_sticker.compactname"] = "DE [S]"
@@ -619,13 +619,13 @@ L["eft_vector_sticker.printname"] = "TDI KRISS Vector Gen.2 frame with Stickers"
 L["eft_vector_sticker.compactname"] = "Vector [S]"
 L["eft_vector_sticker.description"] = "Allows you to place stickers on the frame of the TDI KRISS Vector Gen.2." .. extrasatt .. stickersatt
 
-L["eft_rearsight_stickermbus.printname"] = "Tacca posteriore Magpul MBUS 2° Gen ribaltabile (Sticker)"
-L["eft_rearsight_stickermbus.compactname"] = "MBUS RS [S]"
-L["eft_rearsight_stickermbus.description"] = "La tacca di mira ribaltabile rimovibile MBUS Gen2, installata sul supporto. Prodotto dalla Magpul." .. extrasatt .. stickersatt .. "\n<color=255,50,50>Warning!</color> Does not fold when equipping optics!"
+L["eft_rearsight_stickermbus.printname"] = eftstring["5bc09a18d4351e003562b68e Name"] .. " (Sticker)"
+L["eft_rearsight_stickermbus.compactname"] = eftstring["5bc09a18d4351e003562b68e ShortName"] .. " [S]"
+L["eft_rearsight_stickermbus.description"] = eftstring["5bc09a18d4351e003562b68e Description"] .. extrasatt .. stickersatt .. "\n<color=255,50,50>Warning!</color> Does not fold when equipping optics!"
 
-L["eft_rearsight_stickermbus_fde.printname"] = "Tacca posteriore Magpul MBUS 2° Gen ribaltabile (FDE) (Sticker)"
-L["eft_rearsight_stickermbus_fde.compactname"] = "MBUS RS [S]"
-L["eft_rearsight_stickermbus_fde.description"] = "La tacca di mira ribaltabile rimovibile MBUS Gen2, installata sul supporto. Prodotto dalla Magpul. Versione Flat Dark Earth." .. extrasatt .. stickersatt .. "\n<color=255,50,50>Warning!</color> Does not fold when equipping optics!"
+L["eft_rearsight_stickermbus_fde.printname"] = eftstring["5c18b9192e2216398b5a8104 Name"] .. " (Sticker)"
+L["eft_rearsight_stickermbus_fde.compactname"] = eftstring["5c18b9192e2216398b5a8104 ShortName"] .. " [S]"
+L["eft_rearsight_stickermbus_fde.description"] = eftstring["5c18b9192e2216398b5a8104 Description"] .. extrasatt .. stickersatt .. "\n<color=255,50,50>Warning!</color> Does not fold when equipping optics!"
 
 L["eft_g36_body_sticker.printname"] = "HK G36 frame with Stickers"
 L["eft_g36_body_sticker.compactname"] = "G36 [S]"
@@ -641,13 +641,13 @@ L["eft_mp155_ultima_sticker.description"] = "Allows you to place stickers on-top
 
 L["sticker_doom_hud.printname"] = "DOOM HUD"
 L["sticker_doom_hud.compactname"] = "DOOM"
-L["sticker_doom_hud.description"] = "Allows you to play DOOM on the MP-155 Ultima's thermal camera.\n\nSticker included in EFT Extras."
+L["sticker_doom_hud.description"] = "Allows you to play DOOM on the MP-155 Ultima's thermal camera." .. "\n\nSticker included in EFT Extras."
 
 -- [[ Grenades ]]
 -- [[ grenadestuff ]]
-L["eft_grenade_tripwire.printname"] = "Kit di installazione cavo d'innesco"
-L["eft_grenade_tripwire.compactname"] = "Cavo d'innesco"
-L["eft_grenade_tripwire.description"] = "Kit improvvisato di trappole esplosive composto da picchetti per tende e filo metallico con moschettone. Consente all'utente di installare cavi d'innesco su superfici piane o di nascondere gli esplosivi su un oggetto.\n\n[ <color=255,200,25>+zoom</color> ] to activate."
+L["eft_grenade_tripwire.printname"] = eftstring["666b11055a706400b717cfa5 Name"]
+L["eft_grenade_tripwire.compactname"] = eftstring["666b11055a706400b717cfa5 ShortName"]
+L["eft_grenade_tripwire.description"] = eftstring["666b11055a706400b717cfa5 Description"] .. "\n\n[ <color=255,200,25>+zoom</color> ] to activate."
 
 -- [[ M870 + FN40GL ]]
 -- [[ m2a1 ]]
@@ -663,9 +663,9 @@ L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. c
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
-L["eft_sks_op.printname"] = "Carabina Molot Arms Simonov OP-SKS 7.62x39"
-L["eft_sks_op.compactname"] = "OP-SKS"
-L["eft_sks_op.description"] = "La carabina Molot OP-SKS è progettata per essere caricata con 7,62x39, le munizioni più popolari. Il peso e le dimensioni rendono la carabina ergonomica per tiratori di qualsiasi età e altezza. Da oltre 50 anni viene utilizzato per tutti i tipi di caccia tradizionale russa. Testato su predatori in Africa, Sud-est asiatico, America Centrale, Medio Oriente."
+L["eft_sks_op.printname"] = eftstring["587e02ff24597743df3deaeb Name"]
+L["eft_sks_op.compactname"] = eftstring["587e02ff24597743df3deaeb ShortName"]
+L["eft_sks_op.description"] = eftstring["587e02ff24597743df3deaeb Description"]
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -677,11 +677,11 @@ L["eft_mp7a2_blk.description"] = "Repaints the frame into a black color." .. cus
 -- [[ mk47 ]]
 L["eft_mk47_conversion_545.printname"] = "CMMG Mk47 Mutant 5.45x39mm conversion"
 L["eft_mk47_conversion_545.compactname"] = "5.45-C"
-L["eft_mk47_conversion_545.description"] = "[ Requires <color=255,200,25>AK Platform</color> ]\nRechambers the CMMG Mk47 Mutant into 5.45x39mm." .. customatt
+L["eft_mk47_conversion_545.description"] = "[ Requires <color=255,200,25>AK Platform</color> ]\n" .. "Rechambers the CMMG Mk47 Mutant into 5.45x39mm." .. customatt
 
 L["eft_mk47_conversion_556.printname"] = "CMMG Mk47 Mutant 5.56x45mm conversion"
 L["eft_mk47_conversion_556.compactname"] = "5.56-C"
-L["eft_mk47_conversion_556.description"] = "[ Requires <color=255,200,25>AK Platform</color> ]\nRechambers the CMMG Mk47 Mutant into 5.56x45mm." .. customatt
+L["eft_mk47_conversion_556.description"] = "[ Requires <color=255,200,25>AK Platform</color> ]\n" .. "Rechambers the CMMG Mk47 Mutant into 5.56x45mm." .. customatt
 
 -- [[ rsass ]]
 L["eft_rsass_black.printname"] = "Remington R11 RSASS Black frame"
@@ -691,14 +691,14 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- [[ SIG MCX + Spear + MPX + P226R ]]
 -- mcx_mpx
 -- 5894a05586f774094708ef75
-L["eft_mpx_mag_30_orig.printname"] = "Caricatore da 30 colpi MPX 9x19 (Non-Translucent)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30"
-L["eft_mpx_mag_30_orig.description"] = "Caricatore standard semi-trasparente con capacità di 30 colpi da 9x19mm, per MPX prodotto dalla SIG Sauer." .. customatt
+L["eft_mpx_mag_30_orig.printname"] = eftstring["5894a05586f774094708ef75 Name"] .. " (Non-Translucent)"
+L["eft_mpx_mag_30_orig.compactname"] = eftstring["5894a05586f774094708ef75 ShortName"] .. " 30"
+L["eft_mpx_mag_30_orig.description"] = eftstring["5894a05586f774094708ef75 Description"] .. customatt
 
 -- spear
 -- 6529366450dc782999054ba0
 L["eft_spear_buffertube_ct_blk.printname"] = "Adattatore tubo a basso profilo MPX/MCX (Nero)"
-L["eft_spear_buffertube_ct_blk.compactname"] = "SIG LPT"
+L["eft_spear_buffertube_ct_blk.compactname"] = eftstring["6529366450dc782999054ba0 ShortName"]
 L["eft_spear_buffertube_ct_blk.description"] = "Un tubo tampone per l'adattatore del calcio pieghevole per fucili con piattaforma SIG AR e SMG. Prodotto dalla SIG Sauer. Versione Nera." .. customatt
 
 L["eft_spear_blk.printname"] = "SIG MCX-SPEAR Black frame"
@@ -729,18 +729,18 @@ L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
 L["eft_kedr_stockk.compactname"] = "PP91-F"
 L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
 
-L["eft_kedr_conv_b.printname"] = "Pistola mitragliatrice PP-91-01 \"Kedr-B\" 9x18PM"
-L["eft_kedr_conv_b.compactname"] = "PP-91-01 Kedr-B"
-L["eft_kedr_conv_b.description"] = "Una rara versione silenziata della pistola mitragliatrice PP-91 Kedr, denominato PP-91-01 Kedr-B."
+L["eft_kedr_conv_b.printname"] = eftstring["57f3c6bd24597738e730fa2f Name"]
+L["eft_kedr_conv_b.compactname"] = eftstring["57f3c6bd24597738e730fa2f ShortName"]
+L["eft_kedr_conv_b.description"] = eftstring["57f3c6bd24597738e730fa2f Description"]
 
-L["eft_kedr_conv_klin.printname"] = "Pistola mitragliatrice PP-9 \"Klin\" 9x18PMM"
-L["eft_kedr_conv_klin.compactname"] = "PP-9 Klin"
-L["eft_kedr_conv_klin.description"] = "Il PP-9 Klin è un'ulteriore evoluzione della pistola mitragliatrice Kedr. Ha una cadenza di fuoco più alta e la sua camera è progettata per utilizzare la cartuccia PMM 9x18. È stato prodotto dal 1996 al 2002 per ordine del Ministero dell'Interno."
+L["eft_kedr_conv_klin.printname"] = eftstring["57f4c844245977379d5c14d1 Name"]
+L["eft_kedr_conv_klin.compactname"] = eftstring["57f4c844245977379d5c14d1 ShortName"]
+L["eft_kedr_conv_klin.description"] = eftstring["57f4c844245977379d5c14d1 Description"]
 
 -- [[ sv98 ]]
 L["eft_sv98_black.printname"] = "Telaio SV-98 CNC Guns OV-SV98 (Nero)"
 L["eft_sv98_black.compactname"] = "Black"
-L["eft_sv98_black.description"] = "Repaints the OV-SV98 chassis into a black color.\n[ Requires <color=255,200,25>Telaio SV-98 CNC Guns OV-SV98</color> to be equipped ]" .. customatt
+L["eft_sv98_black.description"] = "Repaints the OV-SV98 chassis into a black color.\n[ Requires <color=255,200,25>" .. eftstring["623b2e9d11c3296b440d1638 Name"] .. "</color> to be equipped ]" .. customatt
 
 -- [[ KRISS Vector Gen.2 ]]
 -- vector
@@ -764,22 +764,22 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 
 -- [[ H&K G36 + G28 ]]
 -- g28
-L["eft_g28_mag_10old.printname"] = "Caricatore da 10 colpi HK417/G28 7.62x51 (Non-Translucent)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10"
-L["eft_g28_mag_10old.description"] = "Un caricatore HK417/G28 a doppia pila da 10 colpi per munizioni 7.62x51. La piastra del caricatore può essere facilmente rimossa per lo smontaggio e la pulizia." .. customatt
+L["eft_g28_mag_10old.printname"] = eftstring["617130016c780c1e710c9a24 Name"] .. " (Non-Translucent)"
+L["eft_g28_mag_10old.compactname"] = eftstring["617130016c780c1e710c9a24 ShortName"] .. " 10"
+L["eft_g28_mag_10old.description"] = eftstring["617130016c780c1e710c9a24 Description"] .. customatt
 
-L["eft_g28_mag_20old.printname"] = "Caricatore da 20 colpi HK417/G28 7.62x51 (Non-Translucent)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20"
-L["eft_g28_mag_20old.description"] = "Un caricatore HK417/G28 a doppia pila da 20 colpi per munizioni 7.62x51. La piastra del caricatore può essere facilmente rimossa per lo smontaggio e la pulizia." .. customatt
+L["eft_g28_mag_20old.printname"] = eftstring["617131a4568c120fdd29482d Name"] .. " (Non-Translucent)"
+L["eft_g28_mag_20old.compactname"] = eftstring["617131a4568c120fdd29482d ShortName"] .. " 20"
+L["eft_g28_mag_20old.description"] = eftstring["617131a4568c120fdd29482d Description"] .. customatt
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
 L["eft_g28_blk.compactname"] = "Black"
 L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a black color." .. customatt
 
 -- g36
-L["eft_g28_mag_30old.printname"] = "Caricatore da 30 colpi HK G36 5.56x45 (Non-Translucent)"
-L["eft_g28_mag_30old.compactname"] = "G36 30"
-L["eft_g28_mag_30old.description"] = "Un caricatore da 30 colpi 5.56x45 progettato per l'HK G36." .. customatt
+L["eft_g28_mag_30old.printname"] = eftstring["62307b7b10d2321fa8741921 Name"] .. " (Non-Translucent)"
+L["eft_g28_mag_30old.compactname"] = eftstring["62307b7b10d2321fa8741921 ShortName"] .. " 30"
+L["eft_g28_mag_30old.description"] = eftstring["62307b7b10d2321fa8741921 Description"] .. customatt
 
 -- [[ MP5 + M1911/M45 ]]
 -- 1911
@@ -788,20 +788,20 @@ L["eft_m45_black.compactname"] = "Black"
 L["eft_m45_black.description"] = "Repaints the frame into a black color." .. customatt
 
 L["eft_slide_1911_m45_blk.printname"] = "Carrello per pistola M45A1 (Nero)"
-L["eft_slide_1911_m45_blk.compactname"] = "Carrello M45A1"
-L["eft_slide_1911_m45_blk.description"] = "Un carrello standard per la pistola M45A1, prodotto dalla Colt." .. customatt
+L["eft_slide_1911_m45_blk.compactname"] = eftstring["5f3e7823ddc4f03b010e2045 ShortName"]
+L["eft_slide_1911_m45_blk.description"] = eftstring["5f3e7823ddc4f03b010e2045 Description"] .. customatt
 
 L["eft_1911_pgrip_m45_blk.printname"] = "Guancette M45A1 Mil-Tac GVT G10 (Nero)"
-L["eft_1911_pgrip_m45_blk.compactname"] = "M45A1"
-L["eft_1911_pgrip_m45_blk.description"] = "Le guancette per impugnatura in fibra di vetro GVT G10 per la pistola Colt M45A1, prodotta dalla Mil-Tac." .. customatt
+L["eft_1911_pgrip_m45_blk.compactname"] = eftstring["5f3e778efcd9b651187d7201 ShortName"]
+L["eft_1911_pgrip_m45_blk.description"] = eftstring["5f3e778efcd9b651187d7201 Description"] .. customatt
 
 L["eft_1911_slock_m45_blk.printname"] = "Fermo del carrello M45A1 (Nero)"
-L["eft_1911_slock_m45_blk.compactname"] = "M45A1 BS"
-L["eft_1911_slock_m45_blk.description"] = "Una fermo del carrello standard per pistole M45A1, prodotto dalla Colt." .. customatt
+L["eft_1911_slock_m45_blk.compactname"] = eftstring["5f3e777688ca2d00ad199d25 ShortName"]
+L["eft_1911_slock_m45_blk.description"] = eftstring["5f3e777688ca2d00ad199d25 Description"] .. customatt
 
 L["eft_1911_hammer_m45_blk.printname"] = "Cane M45A1 (Nero)"
-L["eft_1911_hammer_m45_blk.compactname"] = "Can. M45A1."
-L["eft_1911_hammer_m45_blk.description"] = "Cane standard per pistole M45A1, prodotto dalla Colt." .. customatt
+L["eft_1911_hammer_m45_blk.compactname"] = eftstring["5f3e76d86cda304dcc634054 ShortName"]
+L["eft_1911_hammer_m45_blk.description"] = eftstring["5f3e76d86cda304dcc634054 Description"] .. customatt
 
 -- [[ M60 + M32A1 ]]
 -- m60_m32
@@ -819,9 +819,9 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 
 -- [[ AA-12 ]]
 -- aa12
-L["eft_aa12_gen2.printname"] = "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
-L["eft_aa12_gen2.compactname"] = "AA-12 Gen 2"
-L["eft_aa12_gen2.description"] = "L'AA-12 (Auto Assault-12) Gen 1 è un affidabile fucile a pompa full-automatico calibro 12. La seconda generazione è dotata di supporto per le ottiche installate. Questo fucile si distingue per un buon assorbimento del rinculo, che rende affidabile e allo stesso tempo morbido senza sacrificare la velocità di fuoco e il potere di arresto. L'AA-12 è progettato per le unità militari e di polizia. Prodotto dalla Military Police Systems."
+L["eft_aa12_gen2.printname"] = eftstring["67124dcfa3541f2a1f0e788b Name"]
+L["eft_aa12_gen2.compactname"] = eftstring["67124dcfa3541f2a1f0e788b ShortName"]
+L["eft_aa12_gen2.description"] = eftstring["67124dcfa3541f2a1f0e788b Description"]
 
 -- [[ M700 + DVL-10 + T-5000 ]]
 -- dvl10
@@ -831,9 +831,9 @@ L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. cus
 
 -- [[ UZI + UZI PRO ]]
 -- uzi
-L["eft_uzipro_smg.printname"] = "Pistola mitragliatrice IWI UZI PRO SMG 9x19"
-L["eft_uzipro_smg.compactname"] = "UZI PRO SMG"
-L["eft_uzipro_smg.description"] = "L'UZI PRO SMG è una pistola mitragliatrice destinata alle forze dell'ordine e all'uso militare. Questa mitragliatrice ultracompatta è un'evoluzione della mitragliatrice UZI full-size, ideale per l'occultazione e caratterizzata da un'elevata cadenza di fuoco. Prodotto dalla Israel Weapon Industries."
+L["eft_uzipro_smg.printname"] = eftstring["668e71a8dadf42204c032ce1 Name"]
+L["eft_uzipro_smg.compactname"] = eftstring["668e71a8dadf42204c032ce1 ShortName"]
+L["eft_uzipro_smg.description"] = eftstring["668e71a8dadf42204c032ce1 Description"]
 
 -- [[ MTs-255 + VPO-215 & 101 ]]
 -- mts
@@ -850,219 +850,219 @@ If you want to replace the weapon names and not use EFT's included
 
 ////////////// Weapon Names
 /////// Assault carbines
--- L["eft_weapon_9a91"] = "9A-91"
--- L["eft_weapon_adar215"] = "ADAR 2-15"
--- L["eft_weapon_avt40"] = "AVT-40"
--- L["eft_weapon_opsks"] = "OP-SKS"
--- L["eft_weapon_rfb"] = "RFB"
--- L["eft_weapon_sagak"] = "АК-545"
--- L["eft_weapon_sagakshort"] = "AK-545 Corto"
--- L["eft_weapon_sks"] = "SKS"
--- L["eft_weapon_sr3m"] = "SR-3M"
--- L["eft_weapon_svt40"] = "SVT-40"
--- L["eft_weapon_tx15"] = "TX-15 DML"
--- L["eft_weapon_vpo101"] = "VPO-101 \"Vepr-Hunter\""
--- L["eft_weapon_vpo136"] = "VPO-136"
--- L["eft_weapon_vpo209"] = "VPO-209"
--- L["eft_weapon_vsk94"] = "VSK-94"
+-- L["eft_weapon_9a91"] = eftstring["644674a13d52156624001fbc ShortName"]
+-- L["eft_weapon_adar215"] = eftstring["5c07c60e0db834002330051f ShortName"]
+-- L["eft_weapon_avt40"] = eftstring["6410733d5dd49d77bd07847e ShortName"]
+-- L["eft_weapon_opsks"] = eftstring["587e02ff24597743df3deaeb ShortName"]
+-- L["eft_weapon_rfb"] = eftstring["5f2a9575926fd9352339381f ShortName"]
+-- L["eft_weapon_sagak"] = eftstring["628b5638ad252a16da6dd245 ShortName"]
+-- L["eft_weapon_sagakshort"] = eftstring["628b9c37a733087d0d7fe84b ShortName"]
+-- L["eft_weapon_sks"] = eftstring["574d967124597745970e7c94 ShortName"]
+-- L["eft_weapon_sr3m"] = eftstring["651450ce0e00edc794068371 ShortName"]
+-- L["eft_weapon_svt40"] = eftstring["643ea5b23db6f9f57107d9fd ShortName"]
+-- L["eft_weapon_tx15"] = eftstring["5d43021ca4b9362eab4b5e25 ShortName"]
+-- L["eft_weapon_vpo101"] = eftstring["5c501a4d2e221602b412b540 ShortName"]
+-- L["eft_weapon_vpo136"] = eftstring["59e6152586f77473dc057aa1 ShortName"]
+-- L["eft_weapon_vpo209"] = eftstring["59e6687d86f77411d949b251 ShortName"]
+-- L["eft_weapon_vsk94"] = eftstring["645e0c6b3b381ede770e1cc9 ShortName"]
 
 /////// Assault rifles
--- L["eft_weapon_ak12"] = "АК-12"
--- L["eft_weapon_ak74"] = "АК-74"
--- L["eft_weapon_ak74m"] = "АК-74M"
--- L["eft_weapon_ak74n"] = "АК-74N"
--- L["eft_weapon_ak101"] = "АК-101"
--- L["eft_weapon_ak102"] = "АК-102"
--- L["eft_weapon_ak103"] = "АК-103"
--- L["eft_weapon_ak104"] = "АК-104"
--- L["eft_weapon_ak105"] = "АК-105"
--- L["eft_weapon_akm"] = "АКM"
--- L["eft_weapon_akmn"] = "AKMN"
--- L["eft_weapon_akms"] = "АКMS"
--- L["eft_weapon_akmsn"] = "AKMSN"
--- L["eft_weapon_aks74"] = "AKS-74"
--- L["eft_weapon_aks74n"] = "AKS-74N"
--- L["eft_weapon_aks74u"] = "AKS-74U"
--- L["eft_weapon_aks74ub"] = "AKS-74UB"
--- L["eft_weapon_aks74un"] = "AKS-74UN"
--- L["eft_weapon_asval"] = "AS VAL"
--- L["eft_weapon_ash12"] = "ASh-12"
--- L["eft_weapon_auga1"] = "AUG A1"
--- L["eft_weapon_auga3"] = "AUG A3"
--- L["eft_weapon_mdr556"] = "MDR"
--- L["eft_weapon_mdr762"] = "MDR"
--- L["eft_weapon_g36"] = "G36"
--- L["eft_weapon_hk416a5"] = "HK 416A5"
--- L["eft_weapon_m4a1"] = "M4A1"
--- L["eft_weapon_mcx"] = "MCX .300 BLK"
--- L["eft_weapon_mcxspear"] = "SPEAR 6.8"
--- L["eft_weapon_mk47"] = "Mk47"
--- L["eft_weapon_rd704"] = "RD-704"
--- L["eft_weapon_sa58"] = "SA-58"
--- L["eft_weapon_scarh"] = "Mk17"
--- L["eft_weapon_scarhx17"] = "X-17"
--- L["eft_weapon_scarl"] = "Mk16"
--- L["eft_weapon_velociraptor"] = "Velociraptor .300 BLK"
+-- L["eft_weapon_ak12"] = eftstring["6499849fc93611967b034949 ShortName"]
+-- L["eft_weapon_ak74"] = eftstring["5bf3e03b0db834001d2c4a9c ShortName"]
+-- L["eft_weapon_ak74m"] = eftstring["5ac4cd105acfc40016339859 ShortName"]
+-- L["eft_weapon_ak74n"] = eftstring["5644bd2b4bdc2d3b4c8b4572 ShortName"]
+-- L["eft_weapon_ak101"] = eftstring["5ac66cb05acfc40198510a10 ShortName"]
+-- L["eft_weapon_ak102"] = eftstring["5ac66d015acfc400180ae6e4 ShortName"]
+-- L["eft_weapon_ak103"] = eftstring["5ac66d2e5acfc43b321d4b53 ShortName"]
+-- L["eft_weapon_ak104"] = eftstring["5ac66d725acfc43b321d4b60 ShortName"]
+-- L["eft_weapon_ak105"] = eftstring["5ac66d9b5acfc4001633997a ShortName"]
+-- L["eft_weapon_akm"] = eftstring["59d6088586f774275f37482f ShortName"]
+-- L["eft_weapon_akmn"] = eftstring["5a0ec13bfcdbcb00165aa685 ShortName"]
+-- L["eft_weapon_akms"] = eftstring["59ff346386f77477562ff5e2 ShortName"]
+-- L["eft_weapon_akmsn"] = eftstring["5abcbc27d8ce8700182eceeb ShortName"]
+-- L["eft_weapon_aks74"] = eftstring["5bf3e0490db83400196199af ShortName"]
+-- L["eft_weapon_aks74n"] = eftstring["5ab8e9fcd8ce870019439434 ShortName"]
+-- L["eft_weapon_aks74u"] = eftstring["57dc2fa62459775949412633 ShortName"]
+-- L["eft_weapon_aks74ub"] = eftstring["5839a40f24597726f856b511 ShortName"]
+-- L["eft_weapon_aks74un"] = eftstring["583990e32459771419544dd2 ShortName"]
+-- L["eft_weapon_asval"] = eftstring["57c44b372459772d2b39b8ce ShortName"]
+-- L["eft_weapon_ash12"] = eftstring["5cadfbf7ae92152ac412eeef ShortName"]
+-- L["eft_weapon_auga1"] = eftstring["62e7c4fba689e8c9c50dfc38 ShortName"]
+-- L["eft_weapon_auga3"] = eftstring["63171672192e68c5460cebc5 ShortName"]
+-- L["eft_weapon_mdr556"] = eftstring["5c488a752e221602b412af63 ShortName"]
+-- L["eft_weapon_mdr762"] = eftstring["5dcbd56fdbd3d91b3e5468d5 ShortName"]
+-- L["eft_weapon_g36"] = eftstring["623063e994fc3f7b302a9696 ShortName"]
+-- L["eft_weapon_hk416a5"] = eftstring["5bb2475ed4351e00853264e3 ShortName"]
+-- L["eft_weapon_m4a1"] = eftstring["5447a9cd4bdc2dbd208b4567 ShortName"]
+-- L["eft_weapon_mcx"] = eftstring["5fbcc1d9016cce60e8341ab3 ShortName"]
+-- L["eft_weapon_mcxspear"] = eftstring["65290f395ae2ae97b80fdf2d ShortName"]
+-- L["eft_weapon_mk47"] = eftstring["606587252535c57a13424cfd ShortName"]
+-- L["eft_weapon_rd704"] = eftstring["628a60ae6b1d481ff772e9c8 ShortName"]
+-- L["eft_weapon_sa58"] = eftstring["5b0bbe4e5acfc40dc528a72d ShortName"]
+-- L["eft_weapon_scarh"] = eftstring["6183afd850224f204c1da514 ShortName"]
+-- L["eft_weapon_scarhx17"] = eftstring["676176d362e0497044079f4c ShortName"]
+-- L["eft_weapon_scarl"] = eftstring["6184055050224f204c1da540 ShortName"]
+-- L["eft_weapon_velociraptor"] = eftstring["674d6121c09f69dfb201a888 ShortName"]
 
 /////// Bolt-action rifles
--- L["eft_weapon_dvl10"] = "DVL-10"
--- L["eft_weapon_m700"] = "M700"
--- L["eft_weapon_mosininf"] = "Mosin da Fanteria"
--- L["eft_weapon_mosinsnip"] = "Mosin da Cecchino"
--- L["eft_weapon_sv98"] = "SV-98"
--- L["eft_weapon_t5000m"] = "T-5000M"
--- L["eft_weapon_trgm10"] = "TRG M10"
--- L["eft_weapon_vpo215"] = "VPO-215"
+-- L["eft_weapon_dvl10"] = eftstring["588892092459774ac91d4b11 ShortName"]
+-- L["eft_weapon_m700"] = eftstring["5bfea6e90db834001b7347f3 ShortName"]
+-- L["eft_weapon_mosininf"] = eftstring["5bfd297f0db834001a669119 ShortName"]
+-- L["eft_weapon_mosinsnip"] = eftstring["5ae08f0a5acfc408fb1398a1 ShortName"]
+-- L["eft_weapon_sv98"] = eftstring["55801eed4bdc2d89578b4588 ShortName"]
+-- L["eft_weapon_t5000m"] = eftstring["5df24cf80dee1b22f862e9bc ShortName"]
+-- L["eft_weapon_trgm10"] = eftstring["673cab3e03c6a20581028bc1 ShortName"]
+-- L["eft_weapon_vpo215"] = eftstring["5de652c31b7e3716273428be ShortName"]
 
 /////// Designated marksman rifles
--- L["eft_weapon_g28"] = "G28"
--- L["eft_weapon_m1a"] = "M1A"
--- L["eft_weapon_mk18"] = "Mk-18"
--- L["eft_weapon_rsass"] = "RSASS"
--- L["eft_weapon_sr25"] = "SR-25"
--- L["eft_weapon_svds"] = "SVDS"
--- L["eft_weapon_vss"] = "VSS Vintorez"
+-- L["eft_weapon_g28"] = eftstring["6176aca650224f204c1da3fb ShortName"]
+-- L["eft_weapon_m1a"] = eftstring["5aafa857e5b5b00018480968 ShortName"]
+-- L["eft_weapon_mk18"] = eftstring["5fc22d7c187fea44d52eda44 ShortName"]
+-- L["eft_weapon_rsass"] = eftstring["5a367e5dc4a282000e49738f ShortName"]
+-- L["eft_weapon_sr25"] = eftstring["5df8ce05b11454561e39243b ShortName"]
+-- L["eft_weapon_svds"] = eftstring["5c46fbd72e2216398b5a8c9c ShortName"]
+-- L["eft_weapon_vss"] = eftstring["57838ad32459774a17445cd2 ShortName"]
 
 /////// Grenade launchers
--- L["eft_weapon_fn40gl"] = "FN40GL"
--- L["eft_weapon_m32a1"] = "MSGL"
+-- L["eft_weapon_fn40gl"] = eftstring["5e81ebcd8e146c7080625e15 ShortName"]
+-- L["eft_weapon_m32a1"] = eftstring["6275303a9f372d6ea97f9ec7 ShortName"]
 
 /////// Light machine guns
--- L["eft_weapon_m60e4"] = "Mk 43 Mod 1"
--- L["eft_weapon_m60e6"] = "M60E6"
--- L["eft_weapon_pkm"] = "PKM"
--- L["eft_weapon_pkp"] = "PKP"
--- L["eft_weapon_rpd"] = "RPD"
--- L["eft_weapon_rpdn"] = "RPDN"
--- L["eft_weapon_rpk16"] = "RKP-16"
+-- L["eft_weapon_m60e4"] = eftstring["65fb023261d5829b2d090755 ShortName"]
+-- L["eft_weapon_m60e6"] = eftstring["661ceb1b9311543c7104149b ShortName"]
+-- L["eft_weapon_pkm"] = eftstring["64637076203536ad5600c990 ShortName"]
+-- L["eft_weapon_pkp"] = eftstring["64ca3d3954fc657e230529cc ShortName"]
+-- L["eft_weapon_rpd"] = eftstring["6513ef33e06849f06c0957ca ShortName"]
+-- L["eft_weapon_rpdn"] = eftstring["65268d8ecb944ff1e90ea385 ShortName"]
+-- L["eft_weapon_rpk16"] = eftstring["5beed0f50db834001c062b12 ShortName"]
 
 /////// Shotguns
--- L["eft_weapon_aa12gen1"] = "AA-12 Gen 1"
--- L["eft_weapon_aa12gen2"] = "AA-12 Gen 2"
--- L["eft_weapon_ks23"] = "KS-23M"
--- L["eft_weapon_m3super90"] = "M3 Super 90"
--- L["eft_weapon_m590a1"] = "M590A1"
--- L["eft_weapon_m870"] = "M870"
--- L["eft_weapon_mp18"] = "MP-18"
--- L["eft_weapon_mp431c"] = "MP-43e"
--- L["eft_weapon_mp133"] = "MP-133"
--- L["eft_weapon_mp153"] = "МP-153"
--- L["eft_weapon_mp155"] = "МP-155"
--- L["eft_weapon_mts25512"] = "MTs-255-12"
--- L["eft_weapon_saiga12k"] = "Saiga-12K"
--- L["eft_weapon_saiga12kfa"] = "Saiga-12K FA"
--- L["eft_weapon_toz106"] = "TOZ-106"
+-- L["eft_weapon_aa12gen1"] = eftstring["66ffa9b66e19cc902401c5e8 ShortName"]
+-- L["eft_weapon_aa12gen2"] = eftstring["67124dcfa3541f2a1f0e788b ShortName"]
+-- L["eft_weapon_ks23"] = eftstring["5e848cc2988a8701445df1e8 ShortName"]
+-- L["eft_weapon_m3super90"] = eftstring["6259b864ebedf17603599e88 ShortName"]
+-- L["eft_weapon_m590a1"] = eftstring["5e870397991fd70db46995c8 ShortName"]
+-- L["eft_weapon_m870"] = eftstring["5a7828548dc32e5a9c28b516 ShortName"]
+-- L["eft_weapon_mp18"] = eftstring["61f7c9e189e6fb1a5e3ea78d ShortName"]
+-- L["eft_weapon_mp431c"] = eftstring["5580223e4bdc2d1c128b457f ShortName"]
+-- L["eft_weapon_mp133"] = eftstring["54491c4f4bdc2db1078b4568 ShortName"]
+-- L["eft_weapon_mp153"] = eftstring["56dee2bdd2720bc8328b4567 ShortName"]
+-- L["eft_weapon_mp155"] = eftstring["606dae0ab0e443224b421bb7 ShortName"]
+-- L["eft_weapon_mts25512"] = eftstring["60db29ce99594040e04c4a27 ShortName"]
+-- L["eft_weapon_saiga12k"] = eftstring["576165642459773c7a400233 ShortName"]
+-- L["eft_weapon_saiga12kfa"] = eftstring["674fe9a75e51f1c47c04ec23 ShortName"]
+-- L["eft_weapon_toz106"] = eftstring["5a38e6bac4a2826c6e06d79b ShortName"]
 
 /////// Submachine guns
--- L["eft_weapon_mp5"] = "MP5"
--- L["eft_weapon_mp5kn"] = "MP5K-N"
--- L["eft_weapon_mp7a1"] = "MP7A1"
--- L["eft_weapon_mp7a2"] = "MP7A2"
--- L["eft_weapon_mp9"] = "MP9"
--- L["eft_weapon_mp9n"] = "MP9-N Superiore"
--- L["eft_weapon_mpx"] = "MPX"
--- L["eft_weapon_p90"] = "P90"
--- L["eft_weapon_pp9"] = "PP-9 Klin"
--- L["eft_weapon_pp1901"] = "PP-19-01"
--- L["eft_weapon_pp91"] = "PP-91 \"Kedr\""
--- L["eft_weapon_pp9101"] = "PP-91-01 Kedr-B"
--- L["eft_weapon_ppsh41"] = "PPSh-41"
--- L["eft_weapon_saiga9"] = "Saiga-9"
--- L["eft_weapon_veresk"] = "SR-2M"
--- L["eft_weapon_stm9"] = "STM-9"
--- L["eft_weapon_ump45"] = "UMP 45"
--- L["eft_weapon_uzi"] = "UZI"
--- L["eft_weapon_uzipro"] = "Pistola UZI PRO"
--- L["eft_weapon_uziprosmg"] = "UZI PRO SMG"
--- L["eft_weapon_vector45"] = "Vector .45ACP"
--- L["eft_weapon_vector9"] = "Vector 9x19"
+-- L["eft_weapon_mp5"] = eftstring["5926bb2186f7744b1c6c6e60 ShortName"]
+-- L["eft_weapon_mp5kn"] = eftstring["5d2f0d8048f0356c925bc3b0 ShortName"]
+-- L["eft_weapon_mp7a1"] = eftstring["5ba26383d4351e00334c93d9 ShortName"]
+-- L["eft_weapon_mp7a2"] = eftstring["5bd70322209c4d00d7167b8f ShortName"]
+-- L["eft_weapon_mp9"] = eftstring["5e00903ae9dc277128008b87 ShortName"]
+-- L["eft_weapon_mp9n"] = eftstring["5de7bd7bfd6b4e6e2276dc25 ShortName"]
+-- L["eft_weapon_mpx"] = eftstring["58948c8e86f77409493f7266 ShortName"]
+-- L["eft_weapon_p90"] = eftstring["5cc82d76e24e8d00134b4b83 ShortName"]
+-- L["eft_weapon_pp9"] = eftstring["57f4c844245977379d5c14d1 ShortName"]
+-- L["eft_weapon_pp1901"] = eftstring["59984ab886f7743e98271174 ShortName"]
+-- L["eft_weapon_pp91"] = eftstring["57d14d2524597714373db789 ShortName"]
+-- L["eft_weapon_pp9101"] = eftstring["57f3c6bd24597738e730fa2f ShortName"]
+-- L["eft_weapon_ppsh41"] = eftstring["5ea03f7400685063ec28bfa8 ShortName"]
+-- L["eft_weapon_saiga9"] = eftstring["59f9cabd86f7743a10721f46 ShortName"]
+-- L["eft_weapon_veresk"] = eftstring["62e14904c2699c0ec93adc47 ShortName"]
+-- L["eft_weapon_stm9"] = eftstring["60339954d62c9b14ed777c06 ShortName"]
+-- L["eft_weapon_ump45"] = eftstring["5fc3e272f8b6a877a729eac5 ShortName"]
+-- L["eft_weapon_uzi"] = eftstring["66992b349950f5f4cd06029f ShortName"]
+-- L["eft_weapon_uzipro"] = eftstring["6680304edadb7aa61d00cef0 ShortName"]
+-- L["eft_weapon_uziprosmg"] = eftstring["668e71a8dadf42204c032ce1 ShortName"]
+-- L["eft_weapon_vector45"] = eftstring["5fb64bc92b1b027b1f50bcf2 ShortName"]
+-- L["eft_weapon_vector9"] = eftstring["5fc3f2d5900b1d5091531e57 ShortName"]
 
 /////// Pistols
--- L["eft_weapon_apb"] = "APB"
--- L["eft_weapon_aps"] = "APS"
--- L["eft_weapon_blicky"] = "Blicky"
--- L["eft_weapon_deaglel5357"] = "Desert Eagle L5"
--- L["eft_weapon_deaglel550ae"] = "Desert Eagle L5"
--- L["eft_weapon_deaglel6"] = "Desert Eagle L6"
--- L["eft_weapon_deaglel6wts"] = "Desert Eagle L6"
--- L["eft_weapon_deaglexix"] = "Desert Eagle Mk XIX"
--- L["eft_weapon_fn57"] = "FN 5-7"
--- L["eft_weapon_glock17"] = "Glock 17"
--- L["eft_weapon_glock18c"] = "Glock 18C"
--- L["eft_weapon_glock19x"] = "Glock 19X"
--- L["eft_weapon_m9a3"] = "M9A3"
--- L["eft_weapon_m45a1"] = "M45A1"
--- L["eft_weapon_m1911a1"] = "M1911A1"
--- L["eft_weapon_mp443"] = "MP-443 \"Grach\""
--- L["eft_weapon_p226r"] = "P226R"
--- L["eft_weapon_pb"] = "PB"
--- L["eft_weapon_pl15"] = "PL-15"
--- L["eft_weapon_pmt"] = "PM (fil.)"
--- L["eft_weapon_pm"] = "PM"
--- L["eft_weapon_gyurza"] = "SR-1MP"
--- L["eft_weapon_tt"] = "TT"
--- L["eft_weapon_ttgold"] = "TT Dorato"
--- L["eft_weapon_usp45"] = "USP .45"
+-- L["eft_weapon_apb"] = eftstring["5abccb7dd8ce87001773e277 ShortName"]
+-- L["eft_weapon_aps"] = eftstring["5a17f98cfcdbcb0980087290 ShortName"]
+-- L["eft_weapon_blicky"] = eftstring["66015072e9f84d5680039678 ShortName"]
+-- L["eft_weapon_deaglel5357"] = eftstring["669fa409933e898cce0c2166 ShortName"]
+-- L["eft_weapon_deaglel550ae"] = eftstring["669fa3f88abd2662d80eee77 ShortName"]
+-- L["eft_weapon_deaglel6"] = eftstring["669fa39b48fc9f8db6035a0c ShortName"]
+-- L["eft_weapon_deaglel6wts"] = eftstring["669fa3d876116c89840b1217 ShortName"]
+-- L["eft_weapon_deaglexix"] = eftstring["668fe5a998b5ad715703ddd6 ShortName"]
+-- L["eft_weapon_fn57"] = eftstring["5d3eb3b0a4b93615055e84d2 ShortName"]
+-- L["eft_weapon_glock17"] = eftstring["5a7ae0c351dfba0017554310 ShortName"]
+-- L["eft_weapon_glock18c"] = eftstring["5b1fa9b25acfc40018633c01 ShortName"]
+-- L["eft_weapon_glock19x"] = eftstring["63088377b5cd696784087147 ShortName"]
+-- L["eft_weapon_m9a3"] = eftstring["5cadc190ae921500103bb3b6 ShortName"]
+-- L["eft_weapon_m45a1"] = eftstring["5f36a0e5fbf956000b716b65 ShortName"]
+-- L["eft_weapon_m1911a1"] = eftstring["5e81c3cbac2bb513793cdc75 ShortName"]
+-- L["eft_weapon_mp443"] = eftstring["576a581d2459771e7b1bc4f1 ShortName"]
+-- L["eft_weapon_p226r"] = eftstring["56d59856d2720bd8418b456a ShortName"]
+-- L["eft_weapon_pb"] = eftstring["56e0598dd2720bb5668b45a6 ShortName"]
+-- L["eft_weapon_pl15"] = eftstring["602a9740da11d6478d5a06dc ShortName"]
+-- L["eft_weapon_pmt"] = eftstring["579204f224597773d619e051 ShortName"]
+-- L["eft_weapon_pm"] = eftstring["5448bd6b4bdc2dfc2f8b4569 ShortName"]
+-- L["eft_weapon_gyurza"] = eftstring["59f98b4986f7746f546d2cef ShortName"]
+-- L["eft_weapon_tt"] = eftstring["571a12c42459771f627b58a0 ShortName"]
+-- L["eft_weapon_ttgold"] = eftstring["5b3b713c5acfc4330140bd8d ShortName"]
+-- L["eft_weapon_usp45"] = eftstring["6193a720f8ee7e52e42109ed ShortName"]
 
 /////// Revolvers
--- L["eft_weapon_cr50ds"] = "CR 50DS"
--- L["eft_weapon_cr200ds"] = "M12B"
--- L["eft_weapon_rsh12"] = "RSh-12"
+-- L["eft_weapon_cr50ds"] = eftstring["61a4c8884f95bc3b2c5dc96f ShortName"]
+-- L["eft_weapon_cr200ds"] = eftstring["624c2e8614da335f1e034d8c ShortName"]
+-- L["eft_weapon_rsh12"] = eftstring["633ec7c2a6918cb895019c6c ShortName"]
 
 /////// Sec. shotguns
--- L["eft_weapon_mp43sawedoff"] = "Segato"
+-- L["eft_weapon_mp43sawedoff"] = eftstring["64748cb8de82c85eaf0a273a ShortName"]
 
 /////// Handheld flares
--- L["eft_weapon_rop30"] = "Flare"
--- L["eft_weapon_rsp30b"] = "Blu"
--- L["eft_weapon_rsp30g"] = "Verde"
--- L["eft_weapon_rsp30r"] = "Rosso"
--- L["eft_weapon_rsp30sy"] = "S-Gialla"
--- L["eft_weapon_rsp30y"] = "Giallo"
+-- L["eft_weapon_rop30"] = eftstring["62178be9d0050232da3485d9 ShortName"]
+-- L["eft_weapon_rsp30b"] = eftstring["66d98233302686954b0c6f81 ShortName"]
+-- L["eft_weapon_rsp30g"] = eftstring["6217726288ed9f0845317459 ShortName"]
+-- L["eft_weapon_rsp30r"] = eftstring["62178c4d4ecf221597654e3d ShortName"]
+-- L["eft_weapon_rsp30sy"] = eftstring["66d9f1abb16d9aacf5068468 ShortName"]
+-- L["eft_weapon_rsp30y"] = eftstring["624c0b3340357b5f566e8766 ShortName"]
 
 /////// Signal pistols
--- L["eft_weapon_sp81"] = "SP-81"
+-- L["eft_weapon_sp81"] = eftstring["620109578d82e67e7911abf2 ShortName"]
 
 /////// Melee weapons
--- L["eft_weapon_6x5"] = "6Kh5"
--- L["eft_weapon_akula"] = "Akula"
--- L["eft_weapon_wycc"] = "Ascia"
--- L["eft_weapon_gladius"] = "TWG"
--- L["eft_weapon_a2607"] = "A-2607"
--- L["eft_weapon_a2607d"] = "A-2607"
--- L["eft_weapon_camper"] = "Camper"
--- L["eft_weapon_crash"] = "SCA"
--- L["eft_weapon_cultist"] = "Coltello"
--- L["eft_weapon_fulcrum"] = "BAYONET ER"
--- L["eft_weapon_freeman"] = "Piede di porco"
--- L["eft_weapon_tomahawk"] = "KATT"
--- L["eft_weapon_millerbros"] = "M-2"
--- L["eft_weapon_mpl50"] = "MPL-50"
--- L["eft_weapon_baton"] = "PR-Taran"
--- L["eft_weapon_rebel"] = "RedRebel"
--- L["eft_weapon_voodoo"] = "Hawk"
--- L["eft_weapon_sp8"] = "SP-8"
--- L["eft_weapon_superfors"] = "Dead Blow"
--- L["eft_weapon_m48"] = "M48 Kukri"
--- L["eft_weapon_taiga"] = "Taiga-1"
+-- L["eft_weapon_6x5"] = eftstring["5bffdc370db834001d23eca8 ShortName"]
+-- L["eft_weapon_akula"] = eftstring["674d90b55704568fe60bc8f5 ShortName"]
+-- L["eft_weapon_wycc"] = eftstring["5bc9c1e2d4351e00367fbcf0 ShortName"]
+-- L["eft_weapon_gladius"] = eftstring["664a5428d5e33a713b622379 ShortName"]
+-- L["eft_weapon_a2607"] = eftstring["57e26fc7245977162a14b800 ShortName"]
+-- L["eft_weapon_a2607d"] = eftstring["57e26ea924597715ca604a09 ShortName"]
+-- L["eft_weapon_camper"] = eftstring["5c012ffc0db834001d23f03f ShortName"]
+-- L["eft_weapon_crash"] = eftstring["5bffe7930db834001b734a39 ShortName"]
+-- L["eft_weapon_cultist"] = eftstring["5fc64ea372b0dd78d51159dc ShortName"]
+-- L["eft_weapon_fulcrum"] = eftstring["54491bb74bdc2d09088b4567 ShortName"]
+-- L["eft_weapon_freeman"] = eftstring["5c07df7f0db834001b73588a ShortName"]
+-- L["eft_weapon_tomahawk"] = eftstring["57cd379a24597778e7682ecf ShortName"]
+-- L["eft_weapon_millerbros"] = eftstring["5bffdd7e0db834001b734a1a ShortName"]
+-- L["eft_weapon_mpl50"] = eftstring["5bead2e00db834001c062938 ShortName"]
+-- L["eft_weapon_baton"] = eftstring["6540d2162ae6d96b540afcaf ShortName"]
+-- L["eft_weapon_rebel"] = eftstring["5c0126f40db834002a125382 ShortName"]
+-- L["eft_weapon_voodoo"] = eftstring["63920105a83e15700a00f168 ShortName"]
+-- L["eft_weapon_sp8"] = eftstring["5c010e350db83400232feec7 ShortName"]
+-- L["eft_weapon_superfors"] = eftstring["6087e570b998180e9f76dc24 ShortName"]
+-- L["eft_weapon_m48"] = eftstring["65ca457b4aafb5d7fc0dcb5d ShortName"]
+-- L["eft_weapon_taiga"] = eftstring["601948682627df266209af05 ShortName"]
 
 /////// Throwable fragmentation
--- L["eft_weapon_f1"] = "F-1"
--- L["eft_weapon_m67"] = "M67"
--- L["eft_weapon_rgd5"] = "RGD-5"
--- L["eft_weapon_rgn"] = "RGN"
--- L["eft_weapon_rgo"] = "RGO"
--- L["eft_weapon_v40"] = "M67"
--- L["eft_weapon_vog17"] = "VOG-17"
--- L["eft_weapon_vog25"] = "VOG-25"
+-- L["eft_weapon_f1"] = eftstring["5710c24ad2720bc3458b45a3 ShortName"]
+-- L["eft_weapon_m67"] = eftstring["58d3db5386f77426186285a0 ShortName"]
+-- L["eft_weapon_rgd5"] = eftstring["5448be9a4bdc2dfd2f8b456a ShortName"]
+-- L["eft_weapon_rgn"] = eftstring["617fd91e5539a84ec44ce155 ShortName"]
+-- L["eft_weapon_rgo"] = eftstring["618a431df1eb8e24b8741deb ShortName"]
+-- L["eft_weapon_v40"] = eftstring["66dae7cbeb28f0f96809f325 ShortName"]
+-- L["eft_weapon_vog17"] = eftstring["5e32f56fcb6d5863cc5e5ee4 ShortName"]
+-- L["eft_weapon_vog25"] = eftstring["5e340dcdcb6d5863cc5e5efb ShortName"]
 
 /////// Throwable smoke
--- L["eft_weapon_m18"] = "M18"
--- L["eft_weapon_rgd2b"] = "RDG-2B"
+-- L["eft_weapon_m18"] = eftstring["617aa4dd8166f034d57de9c5 ShortName"]
+-- L["eft_weapon_rgd2b"] = eftstring["5a2a57cfc4a2826c6e06d44a ShortName"]
 
 /////// Throwable stun
--- L["eft_weapon_m7290"] = "M7290"
--- L["eft_weapon_zarya"] = "Zarya"
+-- L["eft_weapon_m7290"] = eftstring["619256e5f8af2c1a4e1f5d92 ShortName"]
+-- L["eft_weapon_zarya"] = eftstring["5a0c27731526d80618476ac4 ShortName"]
 
 /////// Other
--- L["eft_weapon_vortex"] = "R1500"
+-- L["eft_weapon_vortex"] = eftstring["61605e13ffa6e502ac5e7eef ShortName"]

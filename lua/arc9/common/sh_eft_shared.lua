@@ -386,35 +386,35 @@ if CLIENT then
     timer.Simple(1, function()
     
         local eftsettings = {
-            TabName = "Escape From Tarkov",
+            TabName = "setting.eft",
             sv = true,
-            { type = "label", text = "Settings for ARC9 Escape From Tarkov weapons" },
+            { type = "label", text = "setting.eft.label" },
  
-            { sv = true, type = "slider", text = "Minimal damage range", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "Bullets lose their damage on ranges but gmod maps are kinda small.\n\nMinimal damage range in meters.\n\nDefault - 1000 (original EFT)" },
-            { sv = true, type = "slider", text = "^ for shotguns", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "Same but for shotgun pellets. \n\nMinimal damage range in meters.\n\nDefault - 100" },
+            { sv = true, type = "slider", text = "setting.eft.mindmg.title", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "setting.eft.mindmg.desc" },
+            { sv = true, type = "slider", text = "setting.eft.mindmg.sg.title", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "setting.eft.mindmg.sg.desc" },
 
-            { type = "label", text = "Damage mults", desc = "Damage multipliers for different caliber types. True EFT is 1x, but players there have 450 hp, so better to lower damage values for gmod." },
+            { type = "label", text = "setting.eft.dmgmult.title", desc = "setting.eft.dmgmult.desc" },
 
-            { sv = true, type = "slider", text = "9x19mm, 5.7x28mm", convar = "eft_mult_pistol", min = 0.1, max = 1.5, decimals = 2, desc = "Pistol calibers (9x19mm, 5.7x28mm).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "12 gauge, 20ga", convar = "eft_mult_shotgun", min = 0.1, max = 1.5, decimals = 2, desc = "Shotgun calibers (12/70, 20/70).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "5.56x45, 5.45x39", convar = "eft_mult_carabine", min = 0.1, max = 1.5, decimals = 2, desc = "Carabine calibers (5.56x45, 5.45x39).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "7.62x39", convar = "eft_mult_rifle", min = 0.1, max = 1.5, decimals = 2, desc = "Rifle caliber (only 7.62x39 for now).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "7.62x51, 7.62x54R", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "Big rifle calibers (7.62x51, 7.62x54R).\n\nDefault - 0.75" },
-            { sv = true, type = "slider", text = ".338 Lapua", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "Big sniper bullet (8.6x70mm aka .338 Lapua Magnum).\n\nDefault - 0.75" },
-            { sv = true, type = "slider", text = ".366TKM, 12.7x55mm", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "Massive bullets (.366 TKM, 12.7x55mm).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "Melee", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "Melee weapons.\n\nDefault - 1" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.pistol.title", convar = "eft_mult_pistol", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.pistol.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.shotgun.title", convar = "eft_mult_shotgun", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.shotgun.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.carbine.title", convar = "eft_mult_carabine", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.carbine.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.rifle.title", convar = "eft_mult_rifle", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.rifle.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.bigrifle.title", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.bigrifle.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.338.title", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.338.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.massive.title", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.massive.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.melee.title", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "setting.eft.dmgmult.melee.desc" },
 
-            { sv = true, type = "button", text = "Reload attachments (!!!)", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.server.developer.reload", func = function(self2)
+            { sv = true, type = "button", text = "settings.server.developer.reloadatts.title", desc = "setting.eft.reloadatts.desc", content = "settings.server.developer.reload", func = function(self2)
                 RunConsoleCommand("arc9_reloadatts")
             end},
 
-            { type = "label", text = "Features", desc = "Some features" },
-            { sv = true, type = "bool", text = "Concussion", convar = "eft_enable_concussion", desc = "Concussion from explosions (distorted view and motion blur)" },
-            { sv = true, type = "slider", text = "Flashbang duration", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "Multiplier for flashbang blindness.\n\nDefault - 1" },
-            { type = "bool", text = "Ahmad flashbang", convar = "eft_flashbang_ahmad", desc = "Ahmad on your screen when flashbanged" },
-            { sv = true, type = "bool", text = "Forced jam if someone hold PR-Taran", convar = "eft_taran_jam", desc = "For melee pack - if ANY player draws PR-Taran, this will make all guns forcefully jammed (Sets arc9 jam chance modifier to 9999, sets to prev value when no holding taran)" },
-            { sv = true, type = "bool", text = "Use regular holdtypes (for non-TPIK)", convar = "eft_nontpik_mode", desc = "Setting for the TPIK haters: makes guns have \"correct\" holdtypes (player stances), like on regular guns. Good for use cases with disabled TPIK. Not realistic.\n\nRequires map restart." },
-            { sv = true, type = "bool", text = "Remove RShG-2 after shot (True single-use)", convar = "eft_singleuse_behaviour", desc = "Set to true if you want RShG-2 to be deleted after each shot, otherwise it'll act like in Call of Duty: new tube for each RPG rocket." },
+            { type = "label", text = "setting.eft.miscfeatures.title", desc = "setting.eft.miscfeatures.desc" },
+            { sv = true, type = "bool", text = "setting.eft.concussion.title", convar = "eft_enable_concussion", desc = "setting.eft.concussion.desc" },
+            { sv = true, type = "slider", text = "setting.eft.flashduration.title", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "setting.eft.flashduration.desc" },
+            { type = "bool", text = "setting.eft.ahmad.title", convar = "eft_flashbang_ahmad", desc = "setting.eft.ahmad.desc" },
+            { sv = true, type = "bool", text = "setting.eft.prtaran.title", convar = "eft_taran_jam", desc = "setting.eft.prtaran.desc" },
+            { sv = true, type = "bool", text = "setting.eft.holdtypes.title", convar = "eft_nontpik_mode", desc = "setting.eft.holdtypes.desc" },
+            { sv = true, type = "bool", text = "setting.eft.rshg2.title", convar = "eft_singleuse_behaviour", desc = "setting.eft.rshg2.desc" },
 
         }
         

@@ -3,3 +3,6 @@ Then grabs the localizations in the "a-eftbulk.lua" file.
 Then changes all localizations to "proper" localizations. Useful for those who want to alter the strings themselves, or want to make a community-made localization (madman).
 
 Once localization is fully complete, this will be used to create the localization files properly.
+
+
+Just dump all the Lua files in here and run both bat files, ez-pz.
