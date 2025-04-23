@@ -758,3 +758,9 @@ L["eft_m32a1_black.description"] = "Repaints the frame into a black color." .. c
 L["eft_m60_e6fde.printname"] = "M60E6 FDE frame"
 L["eft_m60_e6fde.compactname"] = "FDE"
 L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE) color." .. customatt
+
+-- [[ AA-12 ]]
+-- aa12
+L["eft_aa12_gen2.printname"] = eftstring["67124dcfa3541f2a1f0e788b Name"]
+L["eft_aa12_gen2.compactname"] = eftstring["67124dcfa3541f2a1f0e788b ShortName"]
+L["eft_aa12_gen2.description"] = eftstring["67124dcfa3541f2a1f0e788b Description"]
