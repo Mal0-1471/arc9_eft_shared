@@ -680,6 +680,26 @@ L["eft_kedr_conv_klin.compactname"] = eftstring["57f4c844245977379d5c14d1 ShortN
 L["eft_kedr_conv_klin.description"] = eftstring["57f4c844245977379d5c14d1 Description"]
 
 -- [[ sv98 ]]
-L["eft_sv98_black.printname"] = "SV-98 CNC Guns OV-SV98 chassis (Black)"
+L["eft_sv98_black.printname"] = "Chassi SV-98 CNC Guns OV-SV98 (Black)"
 L["eft_sv98_black.compactname"] = "Black"
 L["eft_sv98_black.description"] = "Repaints the OV-SV98 chassis into a black color.\n[ Requires <color=255,200,25>" .. eftstring["623b2e9d11c3296b440d1638 Name"] .. "</color> to be equipped ]" .. customatt
+
+-- [[ KRISS Vector Gen.2 ]]
+-- vector
+L["eft_vector_skin_fde.printname"] = "Vector Gen.2 .45ACP FDE frame"
+L["eft_vector_skin_fde.compactname"] = "FDE"
+L["eft_vector_skin_fde.description"] = "Applies the Flat Dark Earth (FDE) frame from the Vector 9x19." .. customatt
+
+L["eft_vector_skin_black.printname"] = "Vector Gen.2 9x19 Black frame"
+L["eft_vector_skin_black.compactname"] = "Black"
+L["eft_vector_skin_black.description"] = "Applies the Black frame from the Vector .45 ACP." .. customatt
+
+-- [[ Mk-18 Mjölnir .338 ]]
+-- mk18
+L["eft_mk18_black.printname"] = "Mk-18 Black frame"
+L["eft_mk18_black.compactname"] = "Black"
+L["eft_mk18_black.description"] = "Repaints the frame and SLX68 suppressor into a black color." .. customatt
+
+L["eft_mk18_bolting.printname"] = "Mk-18 - Use charging handle on reload"
+L["eft_mk18_bolting.compactname"] = "C.H. Reload"
+L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt

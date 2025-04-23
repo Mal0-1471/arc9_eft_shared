@@ -11,9 +11,9 @@ def generate_lua_file_from_input(input_file="input.txt", output_file="output.lua
     with open(output_file, "w", encoding="utf-8") as f:
         for name in lines:
             lua_block = (
-                f'L["{name}.printname"] = eftstring["{fixed_id} Name"]\n'
+                f'\nL["{name}.printname"] = eftstring["{fixed_id} Name"]\n'
                 f'L["{name}.compactname"] = eftstring["{fixed_id} ShortName"]\n'
-                f'L["{name}.description"] = eftstring["{fixed_id} Description"]\n\n'
+                f'L["{name}.description"] = eftstring["{fixed_id} Description"]\n'
             )
             f.write(lua_block)
 
