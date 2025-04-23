@@ -638,10 +638,10 @@ L["eft_mpx_mag_30_orig.compactname"] = eftstring["5894a05586f774094708ef75 Short
 L["eft_mpx_mag_30_orig.description"] = eftstring["5894a05586f774094708ef75 Description"] .. customatt
 
 -- spear
--- 5c925fa22e221601da359b7b
+-- 6529366450dc782999054ba0
 L["eft_spear_buffertube_ct_blk.printname"] = "MPX/MCX Stock Adapter Low Profile Tube (Black)"
-L["eft_spear_buffertube_ct_blk.compactname"] = eftstring["5c925fa22e221601da359b7b ShortName"] -- MODIFIED
-L["eft_spear_buffertube_ct_blk.description"] = eftstring["5c925fa22e221601da359b7b Description"] .. customatt
+L["eft_spear_buffertube_ct_blk.compactname"] = eftstring["6529366450dc782999054ba0 ShortName"]
+L["eft_spear_buffertube_ct_blk.description"] = "A buffer tube for the folding stock adapter for SIG AR platform rifles and SMGs. Manufactured by SIG Sauer. Black version." .. customatt
 
 L["eft_spear_blk.printname"] = "SIG MCX-SPEAR Black frame"
 L["eft_spear_blk.compactname"] = "Black"
@@ -703,3 +703,44 @@ L["eft_mk18_black.description"] = "Repaints the frame and SLX68 suppressor into 
 L["eft_mk18_bolting.printname"] = "Mk-18 - Use charging handle on reload"
 L["eft_mk18_bolting.compactname"] = "C.H. Reload"
 L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+
+-- [[ H&K G36 + G28 ]]
+-- g28
+L["eft_g28_mag_10old.printname"] = eftstring["617130016c780c1e710c9a24 Name"] .. " (Non-Translucent)"
+L["eft_g28_mag_10old.compactname"] = eftstring["617130016c780c1e710c9a24 ShortName"] .. " 10"
+L["eft_g28_mag_10old.description"] = eftstring["617130016c780c1e710c9a24 Description"] .. customatt
+
+L["eft_g28_mag_20old.printname"] = eftstring["617131a4568c120fdd29482d Name"] .. " (Non-Translucent)"
+L["eft_g28_mag_20old.compactname"] = eftstring["617131a4568c120fdd29482d ShortName"] .. " 20"
+L["eft_g28_mag_20old.description"] = eftstring["617131a4568c120fdd29482d Description"] .. customatt
+
+L["eft_g28_blk.printname"] = "HK G28 Black frame"
+L["eft_g28_blk.compactname"] = "Black"
+L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a black color." .. customatt
+
+-- g36
+L["eft_g28_mag_30old.printname"] = eftstring["62307b7b10d2321fa8741921 Name"] .. " (Non-Translucent)"
+L["eft_g28_mag_30old.compactname"] = eftstring["62307b7b10d2321fa8741921 ShortName"] .. " 30"
+L["eft_g28_mag_30old.description"] = eftstring["62307b7b10d2321fa8741921 Description"] .. customatt
+
+-- [[ MP5 + M1911/M45 ]]
+-- 1911
+L["eft_m45_black.printname"] = "M45 Black frame"
+L["eft_m45_black.compactname"] = "Black"
+L["eft_m45_black.description"] = "Repaints the frame into a black color." .. customatt
+
+L["eft_slide_1911_m45_blk.printname"] = "M45A1 pistol slide (Black)"
+L["eft_slide_1911_m45_blk.compactname"] = eftstring["5f3e7823ddc4f03b010e2045 ShortName"]
+L["eft_slide_1911_m45_blk.description"] = eftstring["5f3e7823ddc4f03b010e2045 Description"] .. customatt
+
+L["eft_1911_pgrip_m45_blk.printname"] = "M45A1 Mil-Tac GVT G10 side grips (Black)"
+L["eft_1911_pgrip_m45_blk.compactname"] = eftstring["5f3e778efcd9b651187d7201 ShortName"]
+L["eft_1911_pgrip_m45_blk.description"] = eftstring["5f3e778efcd9b651187d7201 Description"] .. customatt
+
+L["eft_1911_slock_m45_blk.printname"] = "M45A1 slide lock (Black)"
+L["eft_1911_slock_m45_blk.compactname"] = eftstring["5f3e777688ca2d00ad199d25 ShortName"]
+L["eft_1911_slock_m45_blk.description"] = eftstring["5f3e777688ca2d00ad199d25 Description"] .. customatt
+
+L["eft_1911_hammer_m45_blk.printname"] = "M45A1 hammer (Black)"
+L["eft_1911_hammer_m45_blk.compactname"] = eftstring["5f3e76d86cda304dcc634054 ShortName"]
+L["eft_1911_hammer_m45_blk.description"] = eftstring["5f3e76d86cda304dcc634054 Description"] .. customatt
