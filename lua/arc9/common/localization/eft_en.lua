@@ -650,3 +650,36 @@ L["eft_spear_blk.description"] = "Repaints the frame and SLX68 suppressor into a
 L["eft_spear_bolting.printname"] = "SIG MCX-SPEAR - Use charging handle on reload"
 L["eft_spear_bolting.compactname"] = "C.H. Reload"
 L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+
+-- [[ Steyr AUG A1 + A3 ]]
+-- aug
+L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
+L["eft_aug_blk.compactname"] = "Black"
+L["eft_aug_blk.description"] = "Black colored parts." .. customatt
+
+L["eft_aug_wht.printname"] = "Steyr AUG White frame"
+L["eft_aug_wht.compactname"] = "White"
+L["eft_aug_wht.description"] = "White colored parts." .. customatt
+
+L["eft_aug_fde.printname"] = "Steyr AUG FDE frame"
+L["eft_aug_fde.compactname"] = "FDE"
+L["eft_aug_fde.description"] = "Flat Dark Earth (FDE) colored parts." .. customatt
+
+-- [[ PP-91 + SV-98 ]]
+-- kedr
+L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
+L["eft_kedr_stockk.compactname"] = "PP91-F"
+L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
+
+L["eft_kedr_conv_b.printname"] = eftstring["57f3c6bd24597738e730fa2f Name"]
+L["eft_kedr_conv_b.compactname"] = eftstring["57f3c6bd24597738e730fa2f ShortName"]
+L["eft_kedr_conv_b.description"] = eftstring["57f3c6bd24597738e730fa2f Description"]
+
+L["eft_kedr_conv_klin.printname"] = eftstring["57f4c844245977379d5c14d1 Name"]
+L["eft_kedr_conv_klin.compactname"] = eftstring["57f4c844245977379d5c14d1 ShortName"]
+L["eft_kedr_conv_klin.description"] = eftstring["57f4c844245977379d5c14d1 Description"]
+
+-- [[ sv98 ]]
+L["eft_sv98_black.printname"] = "SV-98 CNC Guns OV-SV98 chassis (Black)"
+L["eft_sv98_black.compactname"] = "Black"
+L["eft_sv98_black.description"] = "Repaints the OV-SV98 chassis into a black color.\n[ Requires <color=255,200,25>" .. eftstring["623b2e9d11c3296b440d1638 Name"] .. "</color> to be equipped ]" .. customatt
