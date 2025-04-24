@@ -1,43 +1,43 @@
 L = {}
 
 //////////////////////////////////////////////////////////////////////
-///////////////////////////// Escape from Tarkov Localization File - German
+///////////////////////////// Escape from Tarkov Localization File - Unofficial UwU-ified English
 ////////////// Non-EFT Strings
 -- [[ Trivia ]]
--- L["eft_trivia_author"] = "Author"
--- L["eft_trivia_assets"] = "Assets"
--- L["eft_trivia_help"] = "General help"
--- L["eft_trivia_arc9"] = "ARC9 Base"
+L["eft_trivia_author"] = "Authowow :3"
+L["eft_trivia_assets"] = "Awwets"
+L["eft_trivia_help"] = "Genewaw hewp"
+L["eft_trivia_arc9"] = "AWC9 Bawe dumb! >w<"
 
--- L["eft_trivia_manuf"] = "Manufacturer"
--- L["eft_trivia_cal"] = "Calibre"
--- L["eft_trivia_act"] = "Action"
--- L["eft_trivia_country"] = "Country"
--- L["eft_trivia_year"] = "Year"
+L["eft_trivia_manuf"] = "Manuwactuwew owo"
+L["eft_trivia_cal"] = "Cawibww"
+L["eft_trivia_act"] = "Actiwon"
+L["eft_trivia_country"] = "Countwy uwu"
+L["eft_trivia_year"] = "Yeaww"
 
--- L["eft_trivia_manuf_kalash"] = "Kalashnikov Concern"
--- L["eft_trivia_manuf_molot"] = "Molot Oruzhie"
--- L["eft_trivia_manuf_tula"] = "Tula Arms Plant"
--- L["eft_trivia_manuf_tskib"] = "TsKIB SOO"
--- L["eft_trivia_manuf_kbp"] = "KBP Instrument Design Bureau"
--- L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
+L["eft_trivia_manuf_kalash"] = "Kalawnikoww Concewn"
+L["eft_trivia_manuf_molot"] = "Mowot Owwuzhie"
+L["eft_trivia_manuf_tula"] = "Tuwa Awms Pwant"
+L["eft_trivia_manuf_tskib"] = "TsKIB SOWO"
+L["eft_trivia_manuf_kbp"] = "KBP Instwument Dewign Buweauwu"
+L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
 
--- L["eft_trivia_country_ussr"] = "Soviet Union"
--- L["eft_trivia_country_rus"] = "Russian Federation"
--- L["eft_trivia_country_belg"] = "Kingdom of Belgium"
--- L["eft_trivia_country_brit"] = "United Kingdom"
--- L["eft_trivia_country_usa"] = "USA"
--- L["eft_trivia_country_usa_eu"] = "USA/Europe"
--- L["eft_trivia_country_aust"] = "Republic of Austria"
--- L["eft_trivia_country_germ"] = "Germany"
--- L["eft_trivia_country_italy"] = "Italy"
+L["eft_trivia_country_ussr"] = "Sowiet Uniown uwu"
+L["eft_trivia_country_rus"] = "Rusian Fedewation owo"
+L["eft_trivia_country_belg"] = "Kingw-dom of Bewgium"
+L["eft_trivia_country_brit"] = "Uniwed Kinwgdom"
+L["eft_trivia_country_usa"] = "USwA 'w'"
+L["eft_trivia_country_usa_eu"] = "USwA/Euwuwope"
+L["eft_trivia_country_aust"] = "Wepublwic of Austwia"
+L["eft_trivia_country_germ"] = "Gewmany"
+L["eft_trivia_country_italy"] = "Itawy owo"
 
--- L["eft_trivia_act_bolt"] = "Bolt"
--- L["eft_trivia_act_blow"] = "Blow"
--- L["eft_trivia_act_gas"] = "Gas"
--- L["eft_trivia_act_recoil"] = "Recoil"
+L["eft_trivia_act_bolt"] = "Bowt >w<"
+L["eft_trivia_act_blow"] = "Bwow uwu"
+L["eft_trivia_act_gas"] = "Gaws owo"
+L["eft_trivia_act_recoil"] = "Wecoil uwu"
 
--- L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
+L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
@@ -107,56 +107,45 @@ L["Ergonomics"] = "Ergonomics"
 
 ////////////// EFT Strings
 -- [[ HUD ]]
-L["eft_hud_full"] = "Voll"
-L["eft_hud_empty"] = "Leer"
-L["eft_hud_nearlyfull"] = "Fast voll"
-L["eft_hud_aboutfull"] = "Etwa die Hälfte"
-L["eft_hud_lessthanhlaf"] = "Weniger als die Hälfte"
-L["eft_hud_almostempty"] = "Fast leer"
-L["eft_hud_none"] = "Aus"
-L["eft_hud_malf"] = "Fehlfunktion: %s"
-L["eft_hud_misfire"] = "Fehlzündung"
-L["eft_hud_eject"] = "Fehler beim Auswurf"
-L["eft_hud_feed"] = "Ladehemmung"
-L["eft_hud_bolt"] = "Bolzen verklemmt"
-L["eft_hud_missing"] = "Deiner Waffen fehlen unverzichtbare Teile."
-L["eft_hud_badtrip"] = "Stolperdraht kann nicht angebracht werden."
-
--- [[ Weapon Categories ]] - If using Localized Strings
-L["eft_subcat_carb"] = "5Sturmkarabiner"
-L["eft_subcat_ar"] = "1Sturmgewehre"
-L["eft_subcat_sg"] = "6Schrotflinten"
-L["eft_subcat_snip"] = "4Scharfschützengewehre & Präzisionsgewehre"
-L["eft_subcat_smg"] = "2Maschinenpistolen"
-L["eft_subcat_lmg"] = "3Leichte Maschinengewehre"
-L["eft_subcat_pist"] = "7Pistolen"
-L["eft_subcat_melee"] = "9Nahkampfwaffen"
-L["eft_subcat_grenades"] = "8Granaten & Granatenwerfer"
+L["eft_hud_full"] = "Fuwl :3"
+L["eft_hud_empty"] = "Emptwy >.<"
+L["eft_hud_nearlyfull"] = "Neawwy fuwl"
+L["eft_hud_aboutfull"] = "Abuwut haww >w<"
+L["eft_hud_lessthanhlaf"] = "Lewss twan haww"
+L["eft_hud_almostempty"] = "Awmowst emptwy !"
+L["eft_hud_none"] = "None uwu"
+L["eft_hud_malf"] = "Mawwwunktiwon!!!! \""
+L["eft_hud_misfire"] = "Miwwfiwe :3"
+L["eft_hud_eject"] = "Faiwuwe to ewect owo"
+L["eft_hud_feed"] = "Faiwuwe to fewd >w<"
+L["eft_hud_bolt"] = "Bowt jam !!"
+L["eft_hud_missing"] = "Miwwing cwiticawal pawts owo"
+L["eft_hud_badtrip"] = "Pwant umawaiwabel" -- kill me
 
 -- [[ Weapon Classes ]] - Need to be edited manually
-L["eft_class_weapon_singleshot"] = "Einzelschuss-Gewehr"
-L["eft_class_weapon_boltsg"] = "Repetierschrotflinte"
-L["eft_class_weapon_pist"] = "Pistole"
-L["eft_class_weapon_revol"] = "Revolver"
-L["eft_class_weapon_megapist"] = "Maschinenpistole"
-L["eft_class_weapon_smg"] = "Maschinenpistole"
-L["eft_class_weapon_ar"] = "Sturmgewehr"
-L["eft_class_weapon_carb"] = "Sturmkarabiner"
-L["eft_class_weapon_semisg"] = "Halbautomatische Schrotflinte"
-L["eft_class_weapon_autosg"] = "Automatische Schrotflinte"
-L["eft_class_weapon_pumpsg"] = "Vorderschaftrepetierflinte"
-L["eft_class_weapon_lmg"] = "Leichtes Maschinengewehr"
-L["eft_class_weapon_boltsnip"] = "Repetier-Scharfschützengewehr"
-L["eft_class_weapon_marks"] = "Scharfschützengewehr"
-L["eft_class_weapon_dualsg"] = "Schrotflinte mit Dual-Modus"
-L["eft_class_weapon_melee"] = "Nahkampfwaffe"
+L["eft_class_weapon_singleshot"] = "Single-shot Wifle"
+L["eft_class_weapon_boltsg"] = "Bowt-actiowon Showtgun"
+L["eft_class_weapon_pist"] = "Pistow"
+L["eft_class_weapon_revol"] = "Rowowwer"
+L["eft_class_weapon_megapist"] = "Machwine Pistow"
+L["eft_class_weapon_smg"] = "Suwubmawwine Guwn"
+L["eft_class_weapon_ar"] = "Awwault Wifle"
+L["eft_class_weapon_carb"] = "Awwault Cawwbine"
+L["eft_class_weapon_semisg"] = "Semi-autowo Showtgun"
+L["eft_class_weapon_autosg"] = "Autowo Showtgun"
+L["eft_class_weapon_pumpsg"] = "Puwump Showtgun"
+L["eft_class_weapon_lmg"] = "Liwwt Machwine Guwn"
+L["eft_class_weapon_boltsnip"] = "Bowt-actiowon Sniper Wifle"
+L["eft_class_weapon_marks"] = "Mawksmwan Wifle"
+L["eft_class_weapon_dualsg"] = "Duwal-mowode Showtgun"
+L["eft_class_weapon_melee"] = "Mewwee weapwon"
 
-L["eft_class_weapon_grenade"] = "Handgranate"
-L["eft_class_weapon_flashbang"] = "Blendgranate"
-L["eft_class_weapon_improvised_grenade"] = "Granate"
-L["eft_class_weapon_stun"] = "Blendgranate"
-L["eft_class_weapon_smoke"] = "Rauchgranate"
-L["eft_class_weapon_grenadelauncher"] = "Granatwerfer"
+L["eft_class_weapon_grenade"] = "Hawand Gwenad owo"
+L["eft_class_weapon_flashbang"] = "Fwawh Bawang Gwenad >w<"
+L["eft_class_weapon_improvised_grenade"] = "Impwowised Hand Gwenad"
+L["eft_class_weapon_stun"] = "StUwUn Gwenad"
+L["eft_class_weapon_smoke"] = "SmOwOke Gwenad"
+L["eft_class_weapon_grenadelauncher"] = "Gwenad wauncheww"
 
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
@@ -165,58 +154,58 @@ local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not prese
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
 -- [[ Weapon Categories ]] - If not using localized strings
--- L["eft_subcat_carb"] = "5Assault Carbines"
--- L["eft_subcat_ar"] = "1Assault Rifles"
--- L["eft_subcat_sg"] = "6Shotguns"
--- L["eft_subcat_snip"] = "4Sniper & Marksman Rifles"
--- L["eft_subcat_smg"] = "2Submachine Guns"
--- L["eft_subcat_lmg"] = "3Light Machine Guns"
--- L["eft_subcat_pist"] = "7Pistols"
--- L["eft_subcat_melee"] = "9Melee weapons"
--- L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
+L["eft_subcat_carb"] = "5Awwault Cawwbines owo"
+L["eft_subcat_ar"] = "1Awwault Wiffles uwu"
+L["eft_subcat_sg"] = "6Showtguwuns"
+L["eft_subcat_snip"] = "4Snipew/Mawksmwan Wifles"
+L["eft_subcat_smg"] = "2Suwubmawwine Guwns"
+L["eft_subcat_lmg"] = "3Lighht mawwine Guwns"
+L["eft_subcat_pist"] = "7Pistows"
+L["eft_subcat_melee"] = "9Mewwee"
+L["eft_subcat_grenades"] = "8Gwenads  aawnd gwenade waunchews uwu"
 
 -- [[ Shared ]]
 -- Optics
  --  558022b54bdc2dac148b458d
-L["eft_optic_exps3.printname"] = "EOTech EXPS3 Holovisier"
+L["eft_optic_exps3.printname"] = "EOTech EXPS3 holographic sight"
 L["eft_optic_exps3.compactname"] = "EXPS3"
-L["eft_optic_exps3.description"] = "Das EOTech EXPS3 holographische Visier. Dank der Konstruktionsmerkmale kann es mit einer breiten Palette von Waffen verwendet werden, auch mit nicht klappbaren Visieren. Kompatibel mit Nachtsichtgeräten durch den NV-Modus. Wird von US SOCOM als Visier für Einsätze auf engem Raum verwendet." .. customatt
+L["eft_optic_exps3.description"] = "The EOTech EXPS3 holographic sight. Thanks to design features it can be used with a wide range of weapons, even with non-folding sights. Compatible with night vision devices by means of the NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces." .. customatt
 
 -- [[ AK Platform ]]
 -- mag_ak
  -- 5aaa4194e5b5b055d06310a5 & 59d6272486f77466146386ff
-L["eft_mag_ak_pmag_545_30_fde.printname"] = "AK-74 5,45x39 Magpul PMAG 30 GEN M3 30-Schuss Magazin (FDE)"
+L["eft_mag_ak_pmag_545_30_fde.printname"] = "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (FDE)"
 L["eft_mag_ak_pmag_545_30_fde.compactname"] = "GEN M3 30"
 L["eft_mag_ak_pmag_545_30_fde.description"] = "A 30-round polymer Magpul Pmag 30 AK74 GEN M3 magazine for 5.45x39 AK and compatible weapons." .. customatt
 
-L["eft_mag_ak_pmag_762_30_fde.printname"] = "AK 7,62x39 Magpul PMAG 30 GEN M3 30-Schuss Magazin (FDE)"
+L["eft_mag_ak_pmag_762_30_fde.printname"] = "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (FDE)"
 L["eft_mag_ak_pmag_762_30_fde.compactname"] = "GEN M3 30"
 L["eft_mag_ak_pmag_762_30_fde.description"] = "A 30-round polymer Magpul Pmag 30 AK/AKM GEN M3 magazine for 7.62x39 AK and compatible weapons. Can also be supplied with .366 TKM ammo for use with the corresponding caliber AK-compatible weapons." .. customatt
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "AKMN Dovetail Halterung"
+L["eft_akn.printname"] = "AKMN dovetail mount"
 L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "Eine Halterung zur Anbringung von Visieren und zusätzlichen Geräten auf dem AKM Sturmgewehr." .. customatt
+L["eft_akn.description"] = "A mount for installation of sights and other additional devices on the AKM assault rifles." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
  -- 595cfa8b86f77427437e845b
 L["eft_hg_ar15_lvoac_f.printname"] = "AR-15 War Sport LVOA-C handguard (FDE)"
-L["eft_hg_ar15_lvoac_f.compactname"] = "LVOA-C Swz."
+L["eft_hg_ar15_lvoac_f.compactname"] = "LVOA-C"
 L["eft_hg_ar15_lvoac_f.description"] = "The War Sport LVOA-C lightweight handguard is designed for use with sport rifles based on AR-15 rifles." .. customatt
 
-L["eft_hg_ar15_lvoac_g.printname"] = "AR-15 War Sport LVOA-C handguard (Tarngrau)"
-L["eft_hg_ar15_lvoac_g.compactname"] = "LVOA-C Swz."
+L["eft_hg_ar15_lvoac_g.printname"] = "AR-15 War Sport LVOA-C handguard (Stealth Grey)"
+L["eft_hg_ar15_lvoac_g.compactname"] = "LVOA-C"
 L["eft_hg_ar15_lvoac_g.description"] = "The War Sport LVOA-C lightweight handguard is designed for use with sport rifles based on AR-15 rifles." .. customatt
 
 -- 595cf16b86f77427440c32e2
 L["eft_hg_ar15_lvoas_f.printname"] = "AR-15 War Sport LVOA-S handguard (FDE)"
-L["eft_hg_ar15_lvoas_f.compactname"] = "LVOA-S Swz."
+L["eft_hg_ar15_lvoas_f.compactname"] = "LVOA-S"
 L["eft_hg_ar15_lvoas_f.description"] = "The War Sport LVOA-S (SBR) lightweight handguard is designed for use with sport rifles based on AR-15 rifles." .. customatt
 
-L["eft_hg_ar15_lvoas_g.printname"] = "AR-15 War Sport LVOA-S handguard (Tarngrau)"
-L["eft_hg_ar15_lvoas_g.compactname"] = "LVOA-S Swz."
+L["eft_hg_ar15_lvoas_g.printname"] = "AR-15 War Sport LVOA-S handguard (Stealth Grey)"
+L["eft_hg_ar15_lvoas_g.compactname"] = "LVOA-S"
 L["eft_hg_ar15_lvoas_g.description"] = "The War Sport LVOA-S (SBR) lightweight handguard is designed for use with sport rifles based on AR-15 rifles." .. customatt
 
 -- [[ AI AXMC .338/.308 ]]
@@ -226,16 +215,16 @@ L["eft_axmc_black.compactname"] = "Black"
 L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black color." .. customatt
 
  -- loosely 622f02437762f55aaa68ac85
-L["eft_axmc_magwell.printname"] = "AI AXMC 7.62x51mm Magazinhalterung"
+L["eft_axmc_magwell.printname"] = "AI AXMC 7.62x51mm magwell"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
 L["eft_axmc_magwell.description"] = "A regular magazine well for the AXMC sniper rifle." .. customatt
 
  -- 628120dd308cb521f87a8fa1 & 628120d309427b40ab14e76d
-L["eft_axmc_railmid_b.printname"] = "AI AXMC Adapter Kit medium length rail (Schwarz)"
+L["eft_axmc_railmid_b.printname"] = "AI AXMC Adapter Kit medium length rail (Black)"
 L["eft_axmc_railmid_b.compactname"] = "AXMC med"
 L["eft_axmc_railmid_b.description"] = "A medium length rail for installation on the KeySlot interface on the AXMC sniper rifle, manufactured by Accuracy International." .. customatt
 
-L["eft_axmc_railshort_b.printname"] = "AI AXMC Adapter Kit short length rail (Schwarz)"
+L["eft_axmc_railshort_b.printname"] = "AI AXMC Adapter Kit short length rail (Black)"
 L["eft_axmc_railshort_b.compactname"] = "AXMC short"
 L["eft_axmc_railshort_b.description"] = "A short rail for installation on the KeySlot interface on the AXMC sniper rifle, manufactured by Accuracy International." .. customatt
 
@@ -263,9 +252,9 @@ L["eft_glock_black.description"] = "Repaints the frame into a black color." .. c
 
 -- glocks
 -- 63075cc5962d0247b029dc2a
-L["eft_rec_g19x_black.printname"] = "Glock 19X pistol slide (Schwarz)"
+L["eft_rec_g19x_black.printname"] = "Glock 19X pistol slide (Black)"
 L["eft_rec_g19x_black.compactname"] = "G19X"
-L["eft_rec_g19x_black.description"] = "Der Standard-Pistolenschlitten für die Glock 19X Pistole. Die Oberflächen des Schlittens sind mit einer fortschrittlichen nPVD-Beschichtung behandelt, die den Stahl vor Korrosion, chemischen Angriffen und rauen Umweltbedingungen schützt." .. customatt
+L["eft_rec_g19x_black.description"] = "A standard-issue slide for the Glock 19X 9x19 pistol. Slide surfaces are treated with an advanced nPVD coating that protects the steel from corrosion, chemical attack and harsh environmental conditions." .. customatt
 
 -- [[ P90 + Five-seveN ]]
 -- 57
@@ -281,15 +270,15 @@ L["eft_p90_mag_opaque.description"] = "A 50-round polymer magazine for the 5.7x2
 
 -- [[ TOZ-106 + MP-18 ]]
 -- ammo_20x70
-L["eft_ammo_20x70_elephant.printname"] = "Kaliber 20 „Elephant Killer“ Flintenlaufgeschoss"
+L["eft_ammo_20x70_elephant.printname"] = "20/70 \"Elephant Killer\" slug"
 L["eft_ammo_20x70_elephant.compactname"] = "Elephant"
 L["eft_ammo_20x70_elephant.description"] = "Homemade 20/70 cartridge for 20 gauge shotguns with a specially sharpened projectile and a huge amount of gunpowder. The recipe is in the top 10 according to \"Homemade Reloads\" magazine. Uses a casing from a 20/70 \"Devastator\" round." .. customatt
 
-L["eft_ammo_20x70_explosive.printname"] = "Kaliber 20 „X-PLSV“ Flintenlaufgeschoss"
+L["eft_ammo_20x70_explosive.printname"] = "20/70 X-PLSV slug"
 L["eft_ammo_20x70_explosive.compactname"] = "X-PLSV"
 L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge shotguns with an explosive charge. The recipe was printed in a rare issue of the magazine \"Homemade reloads\", which was never published. Uses a cartridge case from a 20/70 \"Poleva-6u\" round." .. customatt
 
-L["eft_ammo_20x70_flechplus.printname"] = "Kaliber 20 Flechette+"
+L["eft_ammo_20x70_flechplus.printname"] = "20/70 Flechette+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
 L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
 
@@ -393,7 +382,7 @@ L["eft_extras_melee_swingspeed.compactname"] = "Swing"
 L["eft_extras_melee_swingspeed.description"] = "Allows you to melee faster." .. extrasatt
 
 -- 55802d5f4bdc2dac148b458e
-L["eft_aug_mag_30_pmag.printname"] = "5,56x45mm Magpul PMAG 30 GEN M3 W STANAG 30-Schuss Magazin"
+L["eft_aug_mag_30_pmag.printname"] = "5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine"
 L["eft_aug_mag_30_pmag.compactname"] = "GEN M3"
 L["eft_aug_mag_30_pmag.description"] = "A 30-round 5.56x45 Magpul PMAG GEN M3 30 polymer magazine with an observation slot for faster capacity checking." .. extrasatt
 
@@ -415,9 +404,9 @@ L["eft_mp5_stock_tube.printname"] = "HK MP5 Buffer Tube stock"
 L["eft_mp5_stock_tube.compactname"] = "MP5 Tube"
 L["eft_mp5_stock_tube.description"] = "A custom tube with a sling swivel for MP5 submachine guns manufactured by Heckler & Koch." .. extrasatt
 
-L["eft_optic_okp7_sigma.printname"] = "OKP-7 Reflexvisier (Dovetail reticle)"
+L["eft_optic_okp7_sigma.printname"] = "OKP-7 reflex sight (Dovetail reticle)"
 L["eft_optic_okp7_sigma.compactname"] = "OKP-7"
-L["eft_optic_okp7_sigma.description"] = "Uses the reticle from the dovetail variant.\nDas ursprüngliche Design der OKP-Visiere ermöglicht das Feuern aus sich schnell ändernden Bedingungen und aus verschiedenen Blickwinkeln ohne den Schützen zu ermüden. Das Hauptmerkmal dieses Visiers ist eine rahmenlose Reflektoranbringung, die keinen Bereich des Schussfeldes blockiert und, falls nötig, das Benutzen von Kimme und Korn möglich macht. Der Reflektor wird von einem dünnem und widerstandsfähigem Visor geschützt, welcher während des Feuerns kaum bemerkbar ist." .. extrasatt
+L["eft_optic_okp7_sigma.description"] = "Uses the reticle from the dovetail variant.\nThe original design of OKP sights allows firing from unstable positions in rapidly changing conditions, reduces the operator fatigue, and, if necessary, allows unhindered use of base mechanical sights. The key feature of this sight is a rimless reflector attachment that doesn't block any field of fire sections; instead, reflector is protected by thin and durable visor that is almost un-noticeable when firing." .. extrasatt
 
 L["eft_extras_alt_hold_gangsta.printname"] = "Alternative viewmodel position (Gangsta)"
 L["eft_extras_alt_hold_gangsta.compactname"] = "VM Pos (Gang)"
@@ -440,15 +429,15 @@ L["eft_extras_camos_additional.compactname"] = "More Camo"
 L["eft_extras_camos_additional.description"] = "\"arc9_atts_maxcamos\" is more than default. Have some more slots!" .. extrasatt
 
 -- [[ extras_ammo ]]
-L["eft_ammo_12x70_explosive.printname"] = "Kaliber 12 „X-PLSV“ Flintenlaufgeschoss"
+L["eft_ammo_12x70_explosive.printname"] = "12/70 X-PLSV slug"
 L["eft_ammo_12x70_explosive.compactname"] = "[!] X-PLSV"
 L["eft_ammo_12x70_explosive.description"] = "Homemade 12/70 round for 12 gauge shotguns with an explosive charge. The recipe was printed in a rare issue of the magazine \"Homemade reloads\", which was never published. Uses a cartridge case from a 12/70 \"Poleva-6u\" round." .. extrasatt
 
-L["eft_ammo_76239_apiz.printname"] = "7,62x39mm API Z"
+L["eft_ammo_76239_apiz.printname"] = "7.62x39mm API Z"
 L["eft_ammo_76239_apiz.compactname"] = "[!] API Z"
 L["eft_ammo_76239_apiz.description"] = "A 7.62x39mm API Z (GRAU Index - 57-3-231) cartridge, an armour piercing incendiary cartridge intended for use on lightly armoured vehicles. Extremely rare round that was discontinued in the early 1960s." .. extrasatt
 
-L["eft_ammo_12x70_salt.printname"] = "Kaliber 12 S4LT Postenschrot"
+L["eft_ammo_12x70_salt.printname"] = "12/70 S4LT buckshot"
 L["eft_ammo_12x70_salt.compactname"] = "[!] S4LT"
 L["eft_ammo_12x70_salt.description"] = "Homemade 12/70 round for 12 gauge shotguns with salt loaded. Uses a cartridge case from a 12/70 \"5.25mm buckshot\" round." .. extrasatt
 
@@ -461,9 +450,9 @@ L["eft_g17_sticker_frame.description"] = "Allows you to place stickers on the fr
 
 L["eft_rec_g17_std_stick.printname"] = "Glock 17 pistol slide (Sticker)"
 L["eft_rec_g17_std_stick.compactname"] = "G17 [S]"
-L["eft_rec_g17_std_stick.description"] = "Der Standard-Pistolenschlitten für die Glock 17 9x19mm Pistole." .. extrasatt .. stickersatt
+L["eft_rec_g17_std_stick.description"] = "A standard-issue slide for Glock 17 9x19 pistols." .. extrasatt .. stickersatt
 
-L["eft_axmc_bolt308_stickers.printname"] = "!!!NICHT_BENUTZEN!!!AI AXMC 7,62x51mm Bolzenbaugruppe (Sticker)"
+L["eft_axmc_bolt308_stickers.printname"] = "AI AXMC 7.62x51mm bolt assembly (Sticker)"
 L["eft_axmc_bolt308_stickers.compactname"] = "AXMC .308 [S]"
 L["eft_axmc_bolt308_stickers.description"] = "A .308 bolt assembly for the Accuracy International AXMC sniper rifle." .. extrasatt .. stickersatt
 
@@ -471,7 +460,7 @@ L["eft_axmc_bolt338_stickers.printname"] = "AI AXMC .338 LM bolt assembly (Stick
 L["eft_axmc_bolt338_stickers.compactname"] = "AXMC .338LM [S]"
 L["eft_axmc_bolt338_stickers.description"] = "A .338 Lapua Magnum bolt assembly for the Accuracy International AXMC sniper rifle." .. extrasatt .. stickersatt
 
-L["eft_axmc_mag308_stickers.printname"] = "!!!NICHT_BENUTZEN!!!AI AXMC 7.62x51 10-round magazine (Sticker)"
+L["eft_axmc_mag308_stickers.printname"] = "AI AXMC 7.62x51 10-round magazine (Sticker)"
 L["eft_axmc_mag308_stickers.compactname"] = "AXMC 308 [S]"
 L["eft_axmc_mag308_stickers.description"] = "A 10-round AXMC sniper rifle magazine by Accuracy International, for 7.62x51/.308 cartridges." .. extrasatt .. stickersatt
 
@@ -479,8 +468,8 @@ L["eft_axmc_mag338_stickers.printname"] = "AI AXMC .338 LM 10-round magazine (St
 L["eft_axmc_mag338_stickers.compactname"] = "AXMC 338LM [S]"
 L["eft_axmc_mag338_stickers.description"] = "A 10-round AXMC sniper rifle magazine by Accuracy International, for .338 Lapua Magnum cartridges." .. extrasatt .. stickersatt
 
-L["eft_axmc_upper_stickers.printname"] = "AI AXMC obere Empfangseinheit (Sticker)"
-L["eft_axmc_upper_stickers.compactname"] = "AXMC ob.E [S]"
+L["eft_axmc_upper_stickers.printname"] = "AI AXMC upper receiver (Sticker)"
+L["eft_axmc_upper_stickers.compactname"] = "AXMC upper [S]"
 L["eft_axmc_upper_stickers.description"] = "An upper receiver for the AXMC sniper rifle manufactured by Accuracy International. Equipped with a mount for attaching additional devices." .. extrasatt .. stickersatt
 
 L["eft_rsh12_sticker_frame.printname"] = "RSh-12 frame with Stickers"
@@ -513,7 +502,7 @@ L["eft_ks23_body_sticker.description"] = "Allows you to place stickers on the fr
 
 L["eft_ks23_stock_wood_sticker.printname"] = "KS-23 wooden stock (Sticker)"
 L["eft_ks23_stock_wood_sticker.compactname"] = "KS23 wood [S]"
-L["eft_ks23_stock_wood_sticker.description"] = "Holz-Schulterstütze für die KS-23 Schrotflinte mit Gummi-Kappe." .. extrasatt .. stickersatt
+L["eft_ks23_stock_wood_sticker.description"] = "A wooden stock for the KS-23 shotgun with a rubber butt-plate." .. extrasatt .. stickersatt
 
 L["eft_m870_body_sticker.printname"] = "M870 frame with Stickers"
 L["eft_m870_body_sticker.compactname"] = "M870 [S]"
@@ -535,20 +524,20 @@ L["eft_pkm_mag_sticker.printname"] = "PK 7.62x54R 100-round box (Sticker)"
 L["eft_pkm_mag_sticker.compactname"] = "PK 100 [S]"
 L["eft_pkm_mag_sticker.description"] = "A standard-issue 100-round ammunition box for 7.62x54R ammo for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant." .. extrasatt .. stickersatt
 
-L["eft_scar_upper_h_stickers.printname"] = "FN SCAR-H 7,62x51mm obere Empfangseinheit (Sticker)"
-L["eft_scar_upper_h_stickers.compactname"] = "SCAR-H ob.E [S]"
+L["eft_scar_upper_h_stickers.printname"] = "FN SCAR-H 7.62x51 upper receiver (Sticker)"
+L["eft_scar_upper_h_stickers.compactname"] = "Mk17 [S]"
 L["eft_scar_upper_h_stickers.description"] = "An upper receiver for the SCAR-H assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment." .. extrasatt .. stickersatt
 
-L["eft_scar_upper_h_f_stickers.printname"] = "FN SCAR-H 7,62x51mm obere Empfangseinheit (FDE) (Sticker)"
-L["eft_scar_upper_h_f_stickers.compactname"] = "SCAR-H ob.E (FDE) [S]"
+L["eft_scar_upper_h_f_stickers.printname"] = "FN SCAR-H 7.62x51 upper receiver (FDE) (Sticker)"
+L["eft_scar_upper_h_f_stickers.compactname"] = "Mk17 [S]"
 L["eft_scar_upper_h_f_stickers.description"] = "An upper receiver for the SCAR-H assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment. Flat Dark Earth version." .. extrasatt .. stickersatt
 
-L["eft_scar_upper_l_sticker.printname"] = "FN SCAR-L 5,56x45mm obere Empfangseinheit (Sticker)"
-L["eft_scar_upper_l_sticker.compactname"] = "SCAR-L ob.E [S]"
+L["eft_scar_upper_l_sticker.printname"] = "FN SCAR-L 5.56x45 upper receiver (Sticker)"
+L["eft_scar_upper_l_sticker.compactname"] = "Mk16 [S]"
 L["eft_scar_upper_l_sticker.description"] = "An upper receiver for the SCAR-L assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment." .. extrasatt .. stickersatt
 
-L["eft_scar_upper_f_sticker.printname"] = "FN SCAR-L 5,56x45mm obere Empfangseinheit (FDE) (Sticker)"
-L["eft_scar_upper_f_sticker.compactname"] = "SCAR-L ob.E (FDE) [S]"
+L["eft_scar_upper_f_sticker.printname"] = "FN SCAR-L 5.56x45 upper receiver (FDE) (Sticker)"
+L["eft_scar_upper_f_sticker.compactname"] = "Mk16 [S]"
 L["eft_scar_upper_f_sticker.description"] = "An upper receiver for the SCAR-L assault rifle, manufactured by Fabrique Nationale Herstal. Features a top rail for installation of additional equipment. Flat Dark Earth version." .. extrasatt .. stickersatt
 
 L["eft_scar_stock_base_stick.printname"] = "FN SCAR folding polymer stock (Sticker)"
@@ -620,7 +609,7 @@ L["eft_vector_sticker.compactname"] = "Vector [S]"
 L["eft_vector_sticker.description"] = "Allows you to place stickers on the frame of the TDI KRISS Vector Gen.2." .. extrasatt .. stickersatt
 
 L["eft_rearsight_stickermbus.printname"] = "Magpul MBUS Gen2 flip-up rear sight (Sticker)"
-L["eft_rearsight_stickermbus.compactname"] = "MBUS Kimme [S]"
+L["eft_rearsight_stickermbus.compactname"] = "MBUS RS [S]"
 L["eft_rearsight_stickermbus.description"] = "The MBUS Gen2 removable flip-up rear sight, installed on the mount. Manufactured by Magpul." .. extrasatt .. stickersatt .. "\n<color=255,50,50>Warning!</color> Does not fold when equipping optics!"
 
 L["eft_rearsight_stickermbus_fde.printname"] = "Magpul MBUS Gen2 flip-up rear sight (FDE) (Sticker)"
@@ -645,9 +634,9 @@ L["sticker_doom_hud.description"] = "Allows you to play DOOM on the MP-155 Ultim
 
 -- [[ Grenades ]]
 -- [[ grenadestuff ]]
-L["eft_grenade_tripwire.printname"] = "Stolperdraht Installations-Set"
-L["eft_grenade_tripwire.compactname"] = "S-Draht"
-L["eft_grenade_tripwire.description"] = "Ein improvisiertes Stolperdraht-Set aus Zeltheringen und Draht mit Karabinerhaken. Ermöglicht dem Benutzer die Installation von Stolperdrähten auf flachen Oberflächen oder das Verstecken von Sprengstoff auf einem Objekt.\n\n[ <color=255,200,25>+zoom</color> ] to activate."
+L["eft_grenade_tripwire.printname"] = "Tripwire installation kit"
+L["eft_grenade_tripwire.compactname"] = "Tripwire"
+L["eft_grenade_tripwire.description"] = "An improvised booby trap kit made of tent pegs and wire with a carabiner. Allows the user to install tripwires on flat surfaces or to conceal explosives on an object.\n\n[ <color=255,200,25>+zoom</color> ] to activate."
 
 -- [[ M870 + FN40GL ]]
 -- [[ m2a1 ]]
@@ -663,9 +652,9 @@ L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. c
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
-L["eft_sks_op.printname"] = "Molot Arms Simonov OP-SKS 7,62x39mm Karabiner"
+L["eft_sks_op.printname"] = "Molot Arms Simonov OP-SKS 7.62x39 carbine"
 L["eft_sks_op.compactname"] = "OP-SKS"
-L["eft_sks_op.description"] = "Der Molot Arms OP-SKS Karabiner ist für das Laden mit 7,62x39mm konzipiert, der beliebtesten Munition. Das Gewicht und die Abmessungen machen den Karabiner ergonomisch für Schützen jeden Alters und jeder Größe. Er wird seit mehr als 50 Jahren für alle Arten der traditionellen russischen Jagd verwendet. Getestet auf Raubtiere in Afrika, Südostasien, Mittelamerika, dem Nahen Osten."
+L["eft_sks_op.description"] = "The Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East."
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -697,9 +686,9 @@ L["eft_mpx_mag_30_orig.description"] = "A standard 30-round capacity semitranspa
 
 -- spear
 -- 6529366450dc782999054ba0
-L["eft_spear_buffertube_ct_blk.printname"] = "MPX/MCX Stock Adapter Low Profile Tube (Schwarz)"
+L["eft_spear_buffertube_ct_blk.printname"] = "MPX/MCX Stock Adapter Low Profile Tube (Black)"
 L["eft_spear_buffertube_ct_blk.compactname"] = "SIG LPT"
-L["eft_spear_buffertube_ct_blk.description"] = "A buffer tube for the folding stock adapter for SIG AR platform rifles and SMGs. Manufactured by SIG Sauer. Diese Version ist in schwarzer Farbe gehalten." .. customatt
+L["eft_spear_buffertube_ct_blk.description"] = "A buffer tube for the folding stock adapter for SIG AR platform rifles and SMGs. Manufactured by SIG Sauer. Black version." .. customatt
 
 L["eft_spear_blk.printname"] = "SIG MCX-SPEAR Black frame"
 L["eft_spear_blk.compactname"] = "Black"
@@ -729,16 +718,16 @@ L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
 L["eft_kedr_stockk.compactname"] = "PP91-F"
 L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
 
-L["eft_kedr_conv_b.printname"] = "PP-91-01 „Kedr-B“ 9x18mm PM Maschinenpistole"
-L["eft_kedr_conv_b.compactname"] = "PP-91-01 „Kedr-B“"
+L["eft_kedr_conv_b.printname"] = "PP-91-01 Kedr-B 9x18PM submachine gun"
+L["eft_kedr_conv_b.compactname"] = "PP-91-01 Kedr-B"
 L["eft_kedr_conv_b.description"] = "A rare silenced version of the PP-91 Kedr submachine gun, denominated as PP-91-01 Kedr-B."
 
-L["eft_kedr_conv_klin.printname"] = "PP-9 „Klin“ 9x18mm PMM Maschinenpistole"
-L["eft_kedr_conv_klin.compactname"] = "PP-9 „Klin“"
+L["eft_kedr_conv_klin.printname"] = "PP-9 Klin 9x18PMM submachine gun"
+L["eft_kedr_conv_klin.compactname"] = "PP-9 Klin"
 L["eft_kedr_conv_klin.description"] = "The PP-9 Klin is a further evolution of the Kedr submachine gun. It has a higher rate of fire and its chamber is designed to use the 9x18 PMM cartridge. It was produced from 1996 to 2002 by order of the Ministry of Internal Affairs."
 
 -- [[ sv98 ]]
-L["eft_sv98_black.printname"] = "SV-98 CNC Guns OV-SV98 chassis (Schwarz)"
+L["eft_sv98_black.printname"] = "SV-98 CNC Guns OV-SV98 chassis (Black)"
 L["eft_sv98_black.compactname"] = "Black"
 L["eft_sv98_black.description"] = "Repaints the OV-SV98 chassis into a black color.\n[ Requires <color=255,200,25>SV-98 CNC Guns OV-SV98 chassis</color> to be equipped ]" .. customatt
 
@@ -764,11 +753,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 
 -- [[ H&K G36 + G28 ]]
 -- g28
-L["eft_g28_mag_10old.printname"] = "HK417/G28 7,62x51mm 10-Schuss Magazin (Non-Translucent)"
+L["eft_g28_mag_10old.printname"] = "HK417/G28 7.62x51 10-round magazine (Non-Translucent)"
 L["eft_g28_mag_10old.compactname"] = "417 7.62 10"
 L["eft_g28_mag_10old.description"] = "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning." .. customatt
 
-L["eft_g28_mag_20old.printname"] = "HK417/G28 7,62x51mm 20-Schuss Magazin (Non-Translucent)"
+L["eft_g28_mag_20old.printname"] = "HK417/G28 7.62x51 20-round magazine (Non-Translucent)"
 L["eft_g28_mag_20old.compactname"] = "417 7.62 20"
 L["eft_g28_mag_20old.description"] = "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning." .. customatt
 
@@ -787,20 +776,20 @@ L["eft_m45_black.printname"] = "M45 Black frame"
 L["eft_m45_black.compactname"] = "Black"
 L["eft_m45_black.description"] = "Repaints the frame into a black color." .. customatt
 
-L["eft_slide_1911_m45_blk.printname"] = "M45A1 Pistolenschlitten (Schwarz)"
-L["eft_slide_1911_m45_blk.compactname"] = "M45A1 Schlitten"
-L["eft_slide_1911_m45_blk.description"] = "Der Standard-Pistolenschlitten für die M45A1 Pistole, hergestellt von Colt." .. customatt
+L["eft_slide_1911_m45_blk.printname"] = "M45A1 pistol slide (Black)"
+L["eft_slide_1911_m45_blk.compactname"] = "M45A1 slide"
+L["eft_slide_1911_m45_blk.description"] = "A standard-issue slide for the M45A1 pistol, manufactured by Colt." .. customatt
 
-L["eft_1911_pgrip_m45_blk.printname"] = "M45A1 Mil-Tac GVT G10 side grips (Schwarz)"
+L["eft_1911_pgrip_m45_blk.printname"] = "M45A1 Mil-Tac GVT G10 side grips (Black)"
 L["eft_1911_pgrip_m45_blk.compactname"] = "M45A1"
 L["eft_1911_pgrip_m45_blk.description"] = "The GVT G10 fiberglass grip panels for the Colt M45A1 pistol, manufactured by Mil-Tac." .. customatt
 
-L["eft_1911_slock_m45_blk.printname"] = "M45A1 slide lock (Schwarz)"
+L["eft_1911_slock_m45_blk.printname"] = "M45A1 slide lock (Black)"
 L["eft_1911_slock_m45_blk.compactname"] = "M45A1 SL"
-L["eft_1911_slock_m45_blk.description"] = "Das Standard-Schlittenschloss für die M45A1 Pistole, hergestellt von Colt." .. customatt
+L["eft_1911_slock_m45_blk.description"] = "A standard-issue slide lock lever for M45A1 pistols, manufactured by Colt." .. customatt
 
-L["eft_1911_hammer_m45_blk.printname"] = "M45A1 hammer (Schwarz)"
-L["eft_1911_hammer_m45_blk.compactname"] = "M45A1 Ham."
+L["eft_1911_hammer_m45_blk.printname"] = "M45A1 hammer (Black)"
+L["eft_1911_hammer_m45_blk.compactname"] = "M45A1 ham."
 L["eft_1911_hammer_m45_blk.description"] = "A standard-issue hammer for the M45A1 pistol, manufactured by Colt." .. customatt
 
 -- [[ M60 + M32A1 ]]
@@ -831,9 +820,9 @@ L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. cus
 
 -- [[ UZI + UZI PRO ]]
 -- uzi
-L["eft_uzipro_smg.printname"] = "IWI UZI PRO SMG 9x19mm submachine gun"
+L["eft_uzipro_smg.printname"] = "IWI UZI PRO SMG 9x19 submachine gun"
 L["eft_uzipro_smg.compactname"] = "UZI PRO SMG"
-L["eft_uzipro_smg.description"] = "Die UZI PRO SMG ist eine 9x19mm Parabellum-Maschinenpistole für Strafverfolgungsbehörden und das Militär. Diese ultrakompakte Maschinenpistole ist eine Weiterentwicklung der UZI-Maschinenpistole in Originalgröße, ideal zum verdeckten Tragen und mit einer hohen Feuerrate. Hergestellt von Israel Weapon Industries."
+L["eft_uzipro_smg.description"] = "The UZI PRO SMG is a submachine gun for law enforcement and military use. This ultra-compact submachine gun is an evolution of the full-size UZI submachine gun, ideal for concealed carry and featuring a high rate of fire. Manufactured by Israel Weapon Industries."
 
 -- [[ MTs-255 + VPO-215 & 101 ]]
 -- mts
@@ -861,27 +850,27 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_sr3m"] = "SR-3M"
 -- L["eft_weapon_svt40"] = "SVT-40"
 -- L["eft_weapon_tx15"] = "TX-15 DML"
--- L["eft_weapon_vpo101"] = "VPO-101 \"Vepr-Hunter\""
--- L["eft_weapon_vpo136"] = "VPO-136 „Vepr-KM“"
+-- L["eft_weapon_vpo101"] = "VPO-101 Vepr-Hunter"
+-- L["eft_weapon_vpo136"] = "VPO-136 Vepr-KM"
 -- L["eft_weapon_vpo209"] = "VPO-209"
 -- L["eft_weapon_vsk94"] = "VSK-94"
 
 /////// Assault rifles
 -- L["eft_weapon_ak12"] = "AK-12"
 -- L["eft_weapon_ak74"] = "AK-74"
--- L["eft_weapon_ak74m"] = "АК-74M"
--- L["eft_weapon_ak74n"] = "АК-74N"
--- L["eft_weapon_ak101"] = "АК-101"
--- L["eft_weapon_ak102"] = "АК-102"
--- L["eft_weapon_ak103"] = "АК-103"
--- L["eft_weapon_ak104"] = "АК-104"
--- L["eft_weapon_ak105"] = "АК-105"
--- L["eft_weapon_akm"] = "АКM"
--- L["eft_weapon_akmn"] = "АКMN"
+-- L["eft_weapon_ak74m"] = "AK-74M"
+-- L["eft_weapon_ak74n"] = "AK-74N"
+-- L["eft_weapon_ak101"] = "AK-101"
+-- L["eft_weapon_ak102"] = "AK-102"
+-- L["eft_weapon_ak103"] = "AK-103"
+-- L["eft_weapon_ak104"] = "AK-104"
+-- L["eft_weapon_ak105"] = "AK-105"
+-- L["eft_weapon_akm"] = "AKM"
+-- L["eft_weapon_akmn"] = "AKMN"
 -- L["eft_weapon_akms"] = "AKMS"
 -- L["eft_weapon_akmsn"] = "AKMSN"
 -- L["eft_weapon_aks74"] = "AKS-74"
--- L["eft_weapon_aks74n"] = "АКS-74N"
+-- L["eft_weapon_aks74n"] = "AKS-74N"
 -- L["eft_weapon_aks74u"] = "AKS-74U"
 -- L["eft_weapon_aks74ub"] = "AKS-74UB"
 -- L["eft_weapon_aks74un"] = "AKS-74UN"
@@ -898,7 +887,7 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_mcxspear"] = "SPEAR 6.8"
 -- L["eft_weapon_mk47"] = "Mk47"
 -- L["eft_weapon_rd704"] = "RD-704"
--- L["eft_weapon_sa58"] = "SA-58"
+-- L["eft_weapon_sa58"] = "SA58"
 -- L["eft_weapon_scarh"] = "Mk 17"
 -- L["eft_weapon_scarhx17"] = "X-17"
 -- L["eft_weapon_scarl"] = "Mk 16"
@@ -908,11 +897,11 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_dvl10"] = "DVL-10"
 -- L["eft_weapon_m700"] = "M700"
 -- L["eft_weapon_mosininf"] = "Mosin Infantry"
--- L["eft_weapon_mosinsnip"] = "Mosin SSG"
+-- L["eft_weapon_mosinsnip"] = "Mosin Sniper"
 -- L["eft_weapon_sv98"] = "SV-98"
 -- L["eft_weapon_t5000m"] = "T-5000M"
 -- L["eft_weapon_trgm10"] = "TRG M10"
--- L["eft_weapon_vpo215"] = "VPO-215"
+-- L["eft_weapon_vpo215"] = "VPO-215 Gornostay"
 
 /////// Designated marksman rifles
 -- L["eft_weapon_g28"] = "G28"
@@ -921,14 +910,14 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_rsass"] = "RSASS"
 -- L["eft_weapon_sr25"] = "SR-25"
 -- L["eft_weapon_svds"] = "SVDS"
--- L["eft_weapon_vss"] = "VSS"
+-- L["eft_weapon_vss"] = "VSS Vintorez"
 
 /////// Grenade launchers
 -- L["eft_weapon_fn40gl"] = "FN40GL"
 -- L["eft_weapon_m32a1"] = "MSGL"
 
 /////// Light machine guns
--- L["eft_weapon_m60e4"] = "Mk 43 Mod 1 M60E4"
+-- L["eft_weapon_m60e4"] = "Mk 43 Mod 1"
 -- L["eft_weapon_m60e6"] = "M60E6"
 -- L["eft_weapon_pkm"] = "PKM"
 -- L["eft_weapon_pkp"] = "PKP"
@@ -962,10 +951,10 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_mp9n"] = "MP9-N"
 -- L["eft_weapon_mpx"] = "MPX"
 -- L["eft_weapon_p90"] = "P90"
--- L["eft_weapon_pp9"] = "PP-9 „Klin“"
--- L["eft_weapon_pp1901"] = "PP-19-01 „Vityaz“"
--- L["eft_weapon_pp91"] = "PP-91 „Kedr“"
--- L["eft_weapon_pp9101"] = "PP-91-01 „Kedr-B“"
+-- L["eft_weapon_pp9"] = "PP-9 Klin"
+-- L["eft_weapon_pp1901"] = "PP-19-01"
+-- L["eft_weapon_pp91"] = "PP-91 Kedr"
+-- L["eft_weapon_pp9101"] = "PP-91-01 Kedr-B"
 -- L["eft_weapon_ppsh41"] = "PPSh41"
 -- L["eft_weapon_saiga9"] = "Saiga-9"
 -- L["eft_weapon_veresk"] = "SR-2M"
@@ -993,14 +982,14 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_m9a3"] = "M9A3"
 -- L["eft_weapon_m45a1"] = "M45A1"
 -- L["eft_weapon_m1911a1"] = "M1911A1"
--- L["eft_weapon_mp443"] = "MP-443 „Grach“"
+-- L["eft_weapon_mp443"] = "MP-443 Grach"
 -- L["eft_weapon_p226r"] = "P226R"
 -- L["eft_weapon_pb"] = "PB"
 -- L["eft_weapon_pl15"] = "PL-15"
--- L["eft_weapon_pmt"] = "PM (Gew.)"
+-- L["eft_weapon_pmt"] = "PM (t)"
 -- L["eft_weapon_pm"] = "PM"
 -- L["eft_weapon_gyurza"] = "SR-1MP"
--- L["eft_weapon_tt"] = "TT-33"
+-- L["eft_weapon_tt"] = "TT"
 -- L["eft_weapon_ttgold"] = "TT Gold"
 -- L["eft_weapon_usp45"] = "USP .45"
 
@@ -1013,12 +1002,12 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_mp43sawedoff"] = "Sawed-off"
 
 /////// Handheld flares
--- L["eft_weapon_rop30"] = "SP weiß"
+-- L["eft_weapon_rop30"] = "Flare"
 -- L["eft_weapon_rsp30b"] = "Blue"
--- L["eft_weapon_rsp30g"] = "SP Grün"
--- L["eft_weapon_rsp30r"] = "SP Rot"
+-- L["eft_weapon_rsp30g"] = "Green"
+-- L["eft_weapon_rsp30r"] = "Red"
 -- L["eft_weapon_rsp30sy"] = "S-Yellow"
--- L["eft_weapon_rsp30y"] = "SP Gelb"
+-- L["eft_weapon_rsp30y"] = "Yellow"
 
 /////// Signal pistols
 -- L["eft_weapon_sp81"] = "SP-81"
@@ -1026,23 +1015,23 @@ If you want to replace the weapon names and not use EFT's included
 /////// Melee weapons
 -- L["eft_weapon_6x5"] = "6Kh5"
 -- L["eft_weapon_akula"] = "Akula"
--- L["eft_weapon_wycc"] = "Beil"
+-- L["eft_weapon_wycc"] = "Axe"
 -- L["eft_weapon_gladius"] = "TWG"
--- L["eft_weapon_a2607"] = "A-2607 95Kh18"
--- L["eft_weapon_a2607d"] = "A-2607 Damascus"
+-- L["eft_weapon_a2607"] = "A-2607"
+-- L["eft_weapon_a2607d"] = "A-2607"
 -- L["eft_weapon_camper"] = "Camper"
 -- L["eft_weapon_crash"] = "SCA"
--- L["eft_weapon_cultist"] = "Klinge"
--- L["eft_weapon_fulcrum"] = "ER Bajonett"
--- L["eft_weapon_freeman"] = "Brechstange"
+-- L["eft_weapon_cultist"] = "Knife"
+-- L["eft_weapon_fulcrum"] = "ER BAYONET"
+-- L["eft_weapon_freeman"] = "Crowbar"
 -- L["eft_weapon_tomahawk"] = "KATT"
 -- L["eft_weapon_millerbros"] = "M-2"
 -- L["eft_weapon_mpl50"] = "MPL-50"
 -- L["eft_weapon_baton"] = "PR-Taran"
--- L["eft_weapon_rebel"] = "Red Rebel"
+-- L["eft_weapon_rebel"] = "RedRebel"
 -- L["eft_weapon_voodoo"] = "Hawk"
 -- L["eft_weapon_sp8"] = "SP-8"
--- L["eft_weapon_superfors"] = "Superfors DB"
+-- L["eft_weapon_superfors"] = "Dead Blow"
 -- L["eft_weapon_m48"] = "M48 Kukri"
 -- L["eft_weapon_taiga"] = "Taiga-1"
 
@@ -1052,7 +1041,7 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_weapon_rgd5"] = "RGD-5"
 -- L["eft_weapon_rgn"] = "RGN"
 -- L["eft_weapon_rgo"] = "RGO"
--- L["eft_weapon_v40"] = "M67"
+-- L["eft_weapon_v40"] = "V40"
 -- L["eft_weapon_vog17"] = "VOG-17"
 -- L["eft_weapon_vog25"] = "VOG-25"
 

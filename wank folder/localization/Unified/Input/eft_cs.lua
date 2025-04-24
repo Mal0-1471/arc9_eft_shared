@@ -291,7 +291,7 @@ L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge s
 
 L["eft_ammo_20x70_flechplus.printname"] = "20/70 flechette+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
-L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 round for 20 gauge shotguns with an explosive charge. The recipe was printed in a rare issue of the magazine \"Homemade reloads\", which was never published. Uses a cartridge case from a 20/70 \"Poleva-6u\" round." .. customatt
+L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
