@@ -3871,6 +3871,18 @@ L["eft_vityaz_stock_std.printname"] = "PP-19-01 \"Vityaz\" 금속 스켈레톤 �
 L["eft_vityaz_stock_std.compactname"] = "PP-19-01"
 L["eft_vityaz_stock_std.description"] = "lzhmash에서 제작한 PP-19-01 Vityaz 기관단총 및 Saiga-9 카빈용 금속 스켈레톤 개머리판입니다."
 
+L["eft_vityaz_gas_sagmk1.printname"] = "PP-19-01 \"Vityaz\" 가스튜브 "
+L["eft_vityaz_gas_sagmk1.compactname"] = "19-01 가스"
+L["eft_vityaz_gas_sagmk1.description"] = "A standard gas tube for PP-19-01 Vityaz submachine guns. Gas tubes channel the travel direction of gas piston."
+
+L["eft_vityaz_gas_vrlps.printname"] = "PP-19-01 Vityaz Vector VR-LPS left-side charging handle"
+L["eft_vityaz_gas_vrlps.compactname"] = "VR-LPS"
+L["eft_vityaz_gas_vrlps.description"] = "VR-LPS is a device that allows for reloading the weapon with the support hand. Installed in place of the gas tube and enables quick and efficient reloading. Manufactured by Vector 7.62."
+
+L["eft_vityaz_mag_50.printname"] = "PP-19-01 9x19 F5 MFG 50-round drum magazine"
+L["eft_vityaz_mag_50.compactname"] = "PP19 F5 50"
+L["eft_vityaz_mag_50.description"] = "A PP-19-01 Vityaz 9x19 drum magazine with a 50-round capacity. Manufactured by F5 MFG."
+
 ///////////////////////////// AR15 + HK416 Platforms
 -- [[ barrel_ar15 ]]
 L["eft_barrel_ar15_260mm.printname"] = "260mm, AR-15 5.56x45 총열 "

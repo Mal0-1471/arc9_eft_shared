@@ -175,6 +175,13 @@ local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT 
 -- L["eft_subcat_melee"] = "9Melee weapons"
 -- L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
 
+-- [[ EFT Category Names ]]
+L["eft_cat_ammo"] = "AMMO" -- Should never be seen, but better safe than sorry
+L["eft_cat_custom"] = "CUSTOM"
+L["eft_cat_camo1"] = "CAMO 1"
+L["eft_cat_camo2"] = "CAMO 2"
+L["eft_cat_camo3"] = "CAMO 3"
+
 -- [[ Shared ]]
 -- Optics
  --  558022b54bdc2dac148b458d

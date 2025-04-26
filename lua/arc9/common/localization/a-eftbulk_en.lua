@@ -3871,6 +3871,18 @@ L["eft_vityaz_stock_std.printname"] = "PP-19-01 Vityaz metal skeleton stock"
 L["eft_vityaz_stock_std.compactname"] = "PP-19-01"
 L["eft_vityaz_stock_std.description"] = "A skeletonized metal stock for PP-19-01 Vityaz SMGs and Saiga-9 carbines, manufactured by Izhmash."
 
+L["eft_vityaz_gas_sagmk1.printname"] = "PP-19-01 Vityaz SAG MK1 M-LOK handguard with gas tube"
+L["eft_vityaz_gas_sagmk1.compactname"] = "SAG MK1"
+L["eft_vityaz_gas_sagmk1.description"] = "A combined kit consisting of a handguard and a milled gas tube designed to improve the performance of the PP-19-01 Vityaz and the Saiga-9 civilian carbine. The handguard is equipped with an M-LOK interface for installing additional equipment, and the gas tube has a picatinny rail for mounting sights and tactical units. Manufactured by Sureshot Armament Group."
+
+L["eft_vityaz_gas_vrlps.printname"] = "PP-19-01 Vityaz Vector VR-LPS left-side charging handle"
+L["eft_vityaz_gas_vrlps.compactname"] = "VR-LPS"
+L["eft_vityaz_gas_vrlps.description"] = "VR-LPS is a device that allows for reloading the weapon with the support hand. Installed in place of the gas tube and enables quick and efficient reloading. Manufactured by Vector 7.62."
+
+L["eft_vityaz_mag_50.printname"] = "PP-19-01 9x19 F5 MFG 50-round drum magazine"
+L["eft_vityaz_mag_50.compactname"] = "PP19 F5 50"
+L["eft_vityaz_mag_50.description"] = "A PP-19-01 Vityaz 9x19 drum magazine with a 50-round capacity. Manufactured by F5 MFG."
+
 ///////////////////////////// AR15 + HK416 Platforms
 -- [[ barrel_ar15 ]]
 L["eft_barrel_ar15_260mm.printname"] = "AR-15 5.56x45 260mm barrel"

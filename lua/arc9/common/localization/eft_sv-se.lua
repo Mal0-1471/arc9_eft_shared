@@ -164,6 +164,13 @@ L["eft_subcat_pist"] = "7Pistoler"
 L["eft_subcat_melee"] = "9Närstridsvapen"
 L["eft_subcat_grenades"] = "8Granater & Granatkastare"
 
+-- [[ EFT Category Names ]]
+L["eft_cat_ammo"] = "AMMO" -- Should never be seen, but better safe than sorry
+L["eft_cat_custom"] = "ANPASSAD"
+L["eft_cat_camo1"] = "KAMO 1"
+L["eft_cat_camo2"] = "KAMO 2"
+L["eft_cat_camo3"] = "KAMO 3"
+
 -- [[ Shared ]]
 -- Optics
  --  558022b54bdc2dac148b458d

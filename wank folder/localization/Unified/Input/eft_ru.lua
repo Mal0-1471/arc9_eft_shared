@@ -175,6 +175,13 @@ L["eft_subcat_pist"] = "7Пистолеты"
 L["eft_subcat_melee"] = "9Ближний бой"
 L["eft_subcat_grenades"] = "8Гранаты и гранатомёты"
 
+-- [[ EFT Category Names ]]
+L["eft_cat_ammo"] = "AMMO" -- Should never be seen, but better safe than sorry
+L["eft_cat_custom"] = "CUSTOM"
+L["eft_cat_camo1"] = "CAMO 1"
+L["eft_cat_camo2"] = "CAMO 2"
+L["eft_cat_camo3"] = "CAMO 3"
+
 -- [[ Shared ]]
 -- Optics
  --  558022b54bdc2dac148b458d

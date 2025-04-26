@@ -3871,6 +3871,18 @@ L["eft_vityaz_stock_std.printname"] = "Culata esquelética de metal para PP-19-0
 L["eft_vityaz_stock_std.compactname"] = "Cul. PP-19-01"
 L["eft_vityaz_stock_std.description"] = "Una culata esquelética de metal para los subfusiles PP-19-01 Vityaz y las carabinas Saiga-9, fabricada por Izhmash."
 
+L["eft_vityaz_gas_sagmk1.printname"] = "Tubo de gases para PP-19-01 Vityaz"
+L["eft_vityaz_gas_sagmk1.compactname"] = "T.G.19-01"
+L["eft_vityaz_gas_sagmk1.description"] = "Un tubo de gases estándar para los subfusiles PP-19-01 Vityaz. Los tubos de gases canalizan la dirección de desplazamiento del pistón de gas."
+
+L["eft_vityaz_gas_vrlps.printname"] = "PP-19-01 Vityaz Vector VR-LPS left-side charging handle"
+L["eft_vityaz_gas_vrlps.compactname"] = "VR-LPS"
+L["eft_vityaz_gas_vrlps.description"] = "VR-LPS is a device that allows for reloading the weapon with the support hand. Installed in place of the gas tube and enables quick and efficient reloading. Manufactured by Vector 7.62."
+
+L["eft_vityaz_mag_50.printname"] = "PP-19-01 9x19 F5 MFG 50-round drum magazine"
+L["eft_vityaz_mag_50.compactname"] = "PP19 F5 50"
+L["eft_vityaz_mag_50.description"] = "A PP-19-01 Vityaz 9x19 drum magazine with a 50-round capacity. Manufactured by F5 MFG."
+
 ///////////////////////////// AR15 + HK416 Platforms
 -- [[ barrel_ar15 ]]
 L["eft_barrel_ar15_260mm.printname"] = "Cañón de 260 mm para AR-15 de 5,56x45 mm"

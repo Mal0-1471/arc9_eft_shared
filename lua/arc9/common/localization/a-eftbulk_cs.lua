@@ -3871,6 +3871,18 @@ L["eft_vityaz_stock_std.printname"] = "Kovová skeletová pažba pro PP-19-01 \"
 L["eft_vityaz_stock_std.compactname"] = "PP-19-01"
 L["eft_vityaz_stock_std.description"] = "Kovová skeletová pažba pro samopaly PP-19-01 Vityaz a karabiny Saiga-9, vyráběná společností Izhmash."
 
+L["eft_vityaz_gas_sagmk1.printname"] = "Plynová trubice pro PP-19-01 \"Vityaz\""
+L["eft_vityaz_gas_sagmk1.compactname"] = "19-01 plyn"
+L["eft_vityaz_gas_sagmk1.description"] = "Standardní plynová trubice pro samopaly PP-19-01 Vityaz. Plynové trubice usměrňují směr pohybu plynového pístu."
+
+L["eft_vityaz_gas_vrlps.printname"] = "PP-19-01 Vityaz Vector VR-LPS left-side charging handle"
+L["eft_vityaz_gas_vrlps.compactname"] = "VR-LPS"
+L["eft_vityaz_gas_vrlps.description"] = "VR-LPS is a device that allows for reloading the weapon with the support hand. Installed in place of the gas tube and enables quick and efficient reloading. Manufactured by Vector 7.62."
+
+L["eft_vityaz_mag_50.printname"] = "PP-19-01 9x19 F5 MFG 50-round drum magazine"
+L["eft_vityaz_mag_50.compactname"] = "PP19 F5 50"
+L["eft_vityaz_mag_50.description"] = "A PP-19-01 Vityaz 9x19 drum magazine with a 50-round capacity. Manufactured by F5 MFG."
+
 ///////////////////////////// AR15 + HK416 Platforms
 -- [[ barrel_ar15 ]]
 L["eft_barrel_ar15_260mm.printname"] = "260mm hlaveň pro AR-15 5.56x45"

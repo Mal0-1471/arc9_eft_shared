@@ -1,7 +1,0 @@
-- Localized the UZI + UZI PRO, MTs-255 + VPO-215 & 101 and Special Useless Items packs
-- Localization files no longer use "eftstring" table - they are now converted; Unconverted files precent in wank folder
-	∟ This has reduced the file size (for WS release) of all localization files by ~75% - ~40mb > ~10mb for all.
-- Added localization strings for the Settings Menu
-- Added a "ShellVolume" variable to the base; the sound volume for the shells was incredibly loud, so much so that they drowned out certain weapons' firing sound
-
-If edits need to be made, consider using the localization files in "wank folder/localization/Unified/Input", applying the changes to all files, then running the bath files, copy+pasting the Output files into ARC9's localization folder.

@@ -3871,6 +3871,18 @@ L["eft_vityaz_stock_std.printname"] = "Crosse métallique type squelette Izhmash
 L["eft_vityaz_stock_std.compactname"] = "PP-19-01"
 L["eft_vityaz_stock_std.description"] = "Une crosse type squelette pour les pistolets-mitrailleurs PP-19-01 Vityaz et Saiga-9, produite par Izhmash.\n"
 
+L["eft_vityaz_gas_sagmk1.printname"] = "Tube d'emprunt de gaz pour PP-19-01 \"Vityaz\""
+L["eft_vityaz_gas_sagmk1.compactname"] = "TEG 19-01"
+L["eft_vityaz_gas_sagmk1.description"] = "Un tube d'emprunt de gaz standard pour le pistolet-mitrailleur PP-19-01 Vityaz. Le tube d'emprunt de gaz sert de guide au piston."
+
+L["eft_vityaz_gas_vrlps.printname"] = "PP-19-01 Vityaz Vector VR-LPS left-side charging handle"
+L["eft_vityaz_gas_vrlps.compactname"] = "VR-LPS"
+L["eft_vityaz_gas_vrlps.description"] = "VR-LPS is a device that allows for reloading the weapon with the support hand. Installed in place of the gas tube and enables quick and efficient reloading. Manufactured by Vector 7.62."
+
+L["eft_vityaz_mag_50.printname"] = "PP-19-01 9x19 F5 MFG 50-round drum magazine"
+L["eft_vityaz_mag_50.compactname"] = "PP19 F5 50"
+L["eft_vityaz_mag_50.description"] = "A PP-19-01 Vityaz 9x19 drum magazine with a 50-round capacity. Manufactured by F5 MFG."
+
 ///////////////////////////// AR15 + HK416 Platforms
 -- [[ barrel_ar15 ]]
 L["eft_barrel_ar15_260mm.printname"] = "Canon de 260 mm calibre 5,56 x 45 mm pour AR-15"

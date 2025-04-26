@@ -3871,6 +3871,18 @@ L["eft_vityaz_stock_std.printname"] = "Coronha de metal Izhmash para PP-19-01"
 L["eft_vityaz_stock_std.compactname"] = "Cor.PP-19-01"
 L["eft_vityaz_stock_std.description"] = "Coronha esquelética para Vityaz PP-19-01 e Saiga-9, produzida pela Izhmash."
 
+L["eft_vityaz_gas_sagmk1.printname"] = "Gas tube PP-19-01"
+L["eft_vityaz_gas_sagmk1.compactname"] = "PP-19-01 g.tube"
+L["eft_vityaz_gas_sagmk1.description"] = "O gas tube direciona o curso do pistão"
+
+L["eft_vityaz_gas_vrlps.printname"] = "PP-19-01 Vityaz Vector VR-LPS left-side charging handle"
+L["eft_vityaz_gas_vrlps.compactname"] = "VR-LPS"
+L["eft_vityaz_gas_vrlps.description"] = "VR-LPS is a device that allows for reloading the weapon with the support hand. Installed in place of the gas tube and enables quick and efficient reloading. Manufactured by Vector 7.62."
+
+L["eft_vityaz_mag_50.printname"] = "PP-19-01 9x19 F5 MFG 50-round drum magazine"
+L["eft_vityaz_mag_50.compactname"] = "PP19 F5 50"
+L["eft_vityaz_mag_50.description"] = "A PP-19-01 Vityaz 9x19 drum magazine with a 50-round capacity. Manufactured by F5 MFG."
+
 ///////////////////////////// AR15 + HK416 Platforms
 -- [[ barrel_ar15 ]]
 L["eft_barrel_ar15_260mm.printname"] = "Cano 260mm para AR-15 e compatíveis 5.56x45"

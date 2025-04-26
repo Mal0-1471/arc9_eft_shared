@@ -3871,6 +3871,18 @@ L["eft_vityaz_stock_std.printname"] = eftstring["599851db86f77467372f0a18 Name"]
 L["eft_vityaz_stock_std.compactname"] = eftstring["599851db86f77467372f0a18 ShortName"]
 L["eft_vityaz_stock_std.description"] = eftstring["599851db86f77467372f0a18 Description"]
 
+L["eft_vityaz_gas_sagmk1.printname"] = eftstring["676177df1f08ed5e8800b7ae Name"]
+L["eft_vityaz_gas_sagmk1.compactname"] = eftstring["676177df1f08ed5e8800b7ae ShortName"]
+L["eft_vityaz_gas_sagmk1.description"] = eftstring["676177df1f08ed5e8800b7ae Description"]
+
+L["eft_vityaz_gas_vrlps.printname"] = eftstring["65ae4f57e343f0acc00824da Name"]
+L["eft_vityaz_gas_vrlps.compactname"] = eftstring["65ae4f57e343f0acc00824da ShortName"]
+L["eft_vityaz_gas_vrlps.description"] = eftstring["65ae4f57e343f0acc00824da Description"]
+
+L["eft_vityaz_mag_50.printname"] = eftstring["6749c40822a2740bb408d066 Name"]
+L["eft_vityaz_mag_50.compactname"] = eftstring["6749c40822a2740bb408d066 ShortName"] .. " 50"
+L["eft_vityaz_mag_50.description"] = eftstring["6749c40822a2740bb408d066 Description"]
+
 ///////////////////////////// AR15 + HK416 Platforms
 -- [[ barrel_ar15 ]]
 L["eft_barrel_ar15_260mm.printname"] = eftstring["55d35ee94bdc2d61338b4568 Name"]

@@ -37,7 +37,14 @@ L["eft_trivia_act_blow"] = "Blow"
 L["eft_trivia_act_gas"] = "Gas"
 L["eft_trivia_act_recoil"] = "Recoil"
 
+L["eft_trivia_calibr_545x39"] = "5.45x39mm"
+L["eft_trivia_calibr_556x45"] = "5.56x45mm"
+L["eft_trivia_calibr_762x39"] = "7.62x39mm"
+L["eft_trivia_calibr_9x19"] = "9x19mm"
+L["eft_trivia_calibr_12x76"] = "12x76 Gauge"
+L["eft_trivia_calibr_762x35"] = ".300 Blackout (7.62x35mm)"
 L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
+L["eft_trivia_calibr_366tkm"] = ".366 TKM"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
@@ -174,6 +181,13 @@ L["eft_subcat_lmg"] = "3Light Machine Guns"
 L["eft_subcat_pist"] = "7Pistols"
 L["eft_subcat_melee"] = "9Melee weapons"
 L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
+
+-- [[ EFT Category Names ]]
+L["eft_cat_ammo"] = "AMMO" -- Should never be seen, but better safe than sorry
+L["eft_cat_custom"] = "CUSTOM"
+L["eft_cat_camo1"] = "CAMO 1"
+L["eft_cat_camo2"] = "CAMO 2"
+L["eft_cat_camo3"] = "CAMO 3"
 
 -- [[ Shared ]]
 -- Optics
