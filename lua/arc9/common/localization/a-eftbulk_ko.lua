@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "A 26x75mm yellow flare cartridge for t
 L["eft_ammo_26x75_greenp.printname"] = "26x75mm flare cartridge (Acid Green)"
 L["eft_ammo_26x75_greenp.compactname"] = "AG"
 L["eft_ammo_26x75_greenp.description"] = "A 26x75mm acid green flare cartridge for the SP-81 flare gun. The unusual color indicates that the cartridge is used for some special signals to \"friendlies\". Worth trying to use it to save yourself when near aggressive Scavs or Bosses."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "16인치 MDR 7.62x51 총열 "
+L["eft_mdr_barrel_762.compactname"] = "MDR 762 16\""
+L["eft_mdr_barrel_762.description"] = "A 16 inch (406mm) barrel for MDR based weapons for 7.62x51 NATO ammo."
+
+L["eft_mdr_barrel_556.printname"] = "16인치, MDR 5.56x45 총열 "
+L["eft_mdr_barrel_556.compactname"] = "MDR 556 16\""
+L["eft_mdr_barrel_556.description"] = "5.56x45 NATO 탄약을 사용하는 MDR 기반 총기용 16인치(406mm) 총열입니다."
+
+L["eft_mdr_pg_blk.printname"] = "MDR 권총 손잡이 (검은색)"
+L["eft_mdr_pg_blk.compactname"] = "MDR 검은색"
+L["eft_mdr_pg_blk.description"] = "A standard pistol grip for MDR assault rifles, manufactured by Desert Tech. Black version."
+
+L["eft_mdr_pg_fde.printname"] = "MDR pistol grip (FDE)"
+L["eft_mdr_pg_fde.compactname"] = "MDR"
+L["eft_mdr_pg_fde.description"] = "A standard pistol grip for MDR assault rifles, manufactured by Desert Tech."
+
+L["eft_mdr_hg_blk.printname"] = "MDR 총열덮개 (검은색)"
+L["eft_mdr_hg_blk.compactname"] = "MDR 검은색"
+L["eft_mdr_hg_blk.description"] = "A standard-issue handguard for MDR assault rifles, manufactured by Desert Tech. Equipped with an M-LOK interface for installation of additional tactical devices and accessories. Black version."
+
+L["eft_mdr_hg_fde.printname"] = "MDR handguard (FDE)"
+L["eft_mdr_hg_fde.compactname"] = "MDR"
+L["eft_mdr_hg_fde.description"] = "A standard-issue handguard for MDR assault rifles, manufactured by Desert Tech. Equipped with an M-LOK interface for installation of additional tactical devices and accessories."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "18발, MP-443 9x19 탄창 "
+L["eft_mag_mp443_std.compactname"] = "MP-443 18"
+L["eft_mag_mp443_std.description"] = "MP-443 권총용 표준형 18발 9x19 탄창입니다."
+
+L["eft_grip_mp443_std.printname"] = "MP-443 \"Grach\" 폴리머 권총 손잡이 "
+L["eft_grip_mp443_std.compactname"] = "MP443"
+L["eft_grip_mp443_std.description"] = "MP-443 권총용 표준형 제식 권총 손잡이로, Izhmekh 에서 제작되었습니다."
+
+L["eft_mount_mp443_rail.printname"] = "MP-443 \"Grach\" Zenit B-8 마운트 "
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "B-8 레일 마운트는 Yarygin 권총(MP-443 \"Grach\"와 민수용 버전인 MP-446 \"Viking\")에 Zenit Klesch-2P 전술 조명/레이저 등의 추가 부착물과 함께 사용할 수 있습니다."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "18인치, RFB 7.62x51 총열 "
+L["eft_rfb_barrel_18.compactname"] = "RFB 18\""
+L["eft_rfb_barrel_18.description"] = "An 18 inch long barrel for the Kel-Tec RFB rifle, chambered in 7.62x51ammo."
+
+L["eft_rfb_hg_std.printname"] = "RFB 총열덮개 "
+L["eft_rfb_hg_std.compactname"] = "RFB"
+L["eft_rfb_hg_std.description"] = "A standard-issue handguard for the RFB rifle, manufactured by Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "RFB 총열덮개 레일 마운트 "
+L["eft_rfb_mount_bottom.compactname"] = "RFB"
+L["eft_rfb_mount_bottom.description"] = "A long bottom rail for the RFB rifle, which allows you to install additional tactical equipment on the handguard."
+
+L["eft_rfb_mount_upper.printname"] = "RFB 조준경 레일 마운트 "
+L["eft_rfb_mount_upper.compactname"] = "RFB 조준경 마운트"
+L["eft_rfb_mount_upper.description"] = "A universal rail for mounting various optics on to the RFB rifle, manufactured by Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "RFB 나사산 보호 마개 "
+L["eft_rfb_muzzle_thr.compactname"] = "RFB 마개"
+L["eft_rfb_muzzle_thr.description"] = "A threading protection cap for the Kel-Tec RFB 7.62x51 rifle barrel."
+
+L["eft_rfb_muzzle_spacer.printname"] = "RFB 나사산 스페이서 "
+L["eft_rfb_muzzle_spacer.compactname"] = "RFB 스페이서"
+L["eft_rfb_muzzle_spacer.description"] = "Kel-Tec에서 생산한 RFB 소총용 나사산 스페이서입니다. 대부분의 총구 부착물들을 장착하기 위해서 필수입니다. "
+
+L["eft_muzzle_rfb_fh.printname"] = "RFB 7.62x51 소염기 "
+L["eft_muzzle_rfb_fh.compactname"] = "RFB"
+L["eft_muzzle_rfb_fh.description"] = "A standard bird cage flash hider designed for installation on RFB 7.62x51 rifles. Manufactured by Kel-Tec."

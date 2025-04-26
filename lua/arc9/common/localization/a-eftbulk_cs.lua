@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "Žlutá 26x75mm světlice pro signáln
 L["eft_ammo_26x75_greenp.printname"] = "Světlice 26x75mm (Kyselinově Zelená)"
 L["eft_ammo_26x75_greenp.compactname"] = "KYS"
 L["eft_ammo_26x75_greenp.description"] = "Signální náboj kyselinově zelené barvy, ráže 26x75mm pro SP-81. Neobvyklá barva naznačuje, že se nábojnice používá pro nějaké speciální signály \"přátelům\". Má smysl snažit se ji použít k záchraně života v přítomnosti scavů nebo bossů."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "16\" hlaveň pro MDR 7.62x51"
+L["eft_mdr_barrel_762.compactname"] = "MDR 762 16\""
+L["eft_mdr_barrel_762.description"] = "Hlaveň dlouhá 16 palců (406mm) pro zbraně na bázi MDR 7.62x51 NATO."
+
+L["eft_mdr_barrel_556.printname"] = "16\" hlaveň pro MDR 5.56x45"
+L["eft_mdr_barrel_556.compactname"] = "MDR 556 16\""
+L["eft_mdr_barrel_556.description"] = "Hlaveň dlouhá 16 palců (406mm) pro zbraně na bázi MDR 5.56x45 NATO."
+
+L["eft_mdr_pg_blk.printname"] = "Pažbička pro MDR (Černá)"
+L["eft_mdr_pg_blk.compactname"] = "MDR Černé"
+L["eft_mdr_pg_blk.description"] = "Standardní pažbička pro útočné pušky MDR, vyráběná společností Desert Tech. Černá verze."
+
+L["eft_mdr_pg_fde.printname"] = "Pažbička pro MDR (FDE)"
+L["eft_mdr_pg_fde.compactname"] = "MDR"
+L["eft_mdr_pg_fde.description"] = "Standardní pažbička pro útočné pušky MDR, vyráběná společností Desert Tech."
+
+L["eft_mdr_hg_blk.printname"] = "Předpažbí pro MDR (Černé)"
+L["eft_mdr_hg_blk.compactname"] = "MDR Černé"
+L["eft_mdr_hg_blk.description"] = "Standardní předpažbí pro útočné pušky MDR, vyráběné společností Desert Tech. Je vybaveno rozhraním M-LOK pro instalaci dalších taktických zařízení a příslušenství. Černá verze."
+
+L["eft_mdr_hg_fde.printname"] = "Předpažbí pro MDR (FDE)"
+L["eft_mdr_hg_fde.compactname"] = "MDR"
+L["eft_mdr_hg_fde.description"] = "Standardní předpažbí pro útočné pušky MDR, vyráběné společností Desert Tech. Je vybaveno rozhraním M-LOK pro instalaci dalších taktických zařízení a příslušenství."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "18-ranný zásobník pro MP-443 \"Grach\" 9x19"
+L["eft_mag_mp443_std.compactname"] = "MP-443 18"
+L["eft_mag_mp443_std.description"] = "Standardní 18-ranný zásobník 9x19 pro pistoli MP-443."
+
+L["eft_grip_mp443_std.printname"] = "Polymerová pažbička pro MP-443 \"Grach\""
+L["eft_grip_mp443_std.compactname"] = "MP443"
+L["eft_grip_mp443_std.description"] = "Standardní služební pažbička pro pistole MP-443, vyráběná společností Izhmekh."
+
+L["eft_mount_mp443_rail.printname"] = "Montáž Zenit B-8 pro MP-443 \"Grach\""
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "Lištu B-8 lze nainstalovat na pistole Yarygin (MP-443 \"Grach\" a jeho civilní verzi MP-446 \"Viking\") pro použití s dalšími přídavnými zařízeními, jako je taktická svítilna/laser Zenit Klesch-2P. Vyráběné společností Zenit."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "18\" hlaveň pro RFB 7.62x51"
+L["eft_rfb_barrel_18.compactname"] = "RFB 18\""
+L["eft_rfb_barrel_18.description"] = "Hlaveň dlouhá 18 palců pro pušku Kel-Tec RFB 7.62x51."
+
+L["eft_rfb_hg_std.printname"] = "Předpažbí pro RFB"
+L["eft_rfb_hg_std.compactname"] = "RFB"
+L["eft_rfb_hg_std.description"] = "Standardní předpažbí pro pušku RFB, vyráběné společností Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "Lišta na předpažbí pro RFB"
+L["eft_rfb_mount_bottom.compactname"] = "RFB"
+L["eft_rfb_mount_bottom.description"] = "Dlouhá spodní lišta pro pušku RFB, která umožňuje instalaci dalšího taktického vybavení na předpažbí."
+
+L["eft_rfb_mount_upper.printname"] = "Montážní lišta pro RFB"
+L["eft_rfb_mount_upper.compactname"] = "RFB lišta"
+L["eft_rfb_mount_upper.description"] = "Univerzální lišta pro montáž různých zaměřovačů na pušku RFB, vyráběné společností Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "Ochranné víčko závitu pro RFB"
+L["eft_rfb_muzzle_thr.compactname"] = "RFB víčko"
+L["eft_rfb_muzzle_thr.description"] = "Ochranné víčko závitu pro hlaveň pušky Kel-Tec RFB 7.62x51."
+
+L["eft_rfb_muzzle_spacer.printname"] = "Ochranné víčko závitu pro RFB"
+L["eft_rfb_muzzle_spacer.compactname"] = "RFB víčko"
+L["eft_rfb_muzzle_spacer.description"] = "Distanční závit pro pušku RFB. Je nutný pro instalaci různých úsťových zařízeních. Vyrábí Kel-Tec."
+
+L["eft_muzzle_rfb_fh.printname"] = "Tlumič plamene pro RFB 7.62x51"
+L["eft_muzzle_rfb_fh.compactname"] = "RFB"
+L["eft_muzzle_rfb_fh.description"] = "Standardní tlumič plamene s ptačí klecí určený pro montáž na pušky RFB 7.62x51. Vyrábí společnost Kel-Tec."

@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "Żółty nabój sygnałowy 26 × 75 mm
 L["eft_ammo_26x75_greenp.printname"] = "Nabój sygnałowy 26 x 75 mm (kwasowy zielony)"
 L["eft_ammo_26x75_greenp.compactname"] = "KZ"
 L["eft_ammo_26x75_greenp.description"] = "Kwasowozielony nabój sygnałowy 26 × 75 mm do pistoletu sygnałowego SP-81. Nietypowy kolor wskazuje, że wkład jest używany do specjalnych sygnałów dla „przyjaciół”. Warto spróbować go użyć, by się uratować, będąc w pobliżu agresywnych Scavów lub Bossów."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "16-calowa lufa do MDR 7,62 x 51"
+L["eft_mdr_barrel_762.compactname"] = "MDR 762 16″"
+L["eft_mdr_barrel_762.description"] = "16-calowa (406 mm) lufa do broni opartych na MDR kalibru 7,62 × 51 mm NATO."
+
+L["eft_mdr_barrel_556.printname"] = "16-calowa lufa do MDR 5,56 x 45"
+L["eft_mdr_barrel_556.compactname"] = "MDR 556 16″"
+L["eft_mdr_barrel_556.description"] = "16-calowa (406 mm) lufa do broni opartych na MDR kalibru 5,56 × 45 mm NATO."
+
+L["eft_mdr_pg_blk.printname"] = "Chwyt pistoletowy do MDR (czarny)"
+L["eft_mdr_pg_blk.compactname"] = "MDR cza"
+L["eft_mdr_pg_blk.description"] = "Standardowy chwyt pistoletowy do MDR. Wyprodukowany przez firmę Desert Tech. Wersja czarna."
+
+L["eft_mdr_pg_fde.printname"] = "Chwyt pistoletowy do MDR (FDE)"
+L["eft_mdr_pg_fde.compactname"] = "MDR"
+L["eft_mdr_pg_fde.description"] = "Standardowy chwyt pistoletowy do MDR. Wyprodukowany przez firmę Desert Tech. Wersja Flat Dark Earth."
+
+L["eft_mdr_hg_blk.printname"] = "Łoże do MDR (czarne)"
+L["eft_mdr_hg_blk.compactname"] = "MDR cza"
+L["eft_mdr_hg_blk.description"] = "Standardowe łoże do MDR z systemem M-LOK do instalacji dodatkowych urządzeń i akcesoriów. Wyprodukowane przez firmę Desert Tech. Wersja czarna."
+
+L["eft_mdr_hg_fde.printname"] = "Łoże do MDR (FDE)"
+L["eft_mdr_hg_fde.compactname"] = "MDR"
+L["eft_mdr_hg_fde.description"] = "Standardowe łoże do MDR z systemem M-LOK do instalacji dodatkowych urządzeń i akcesoriów. Wyprodukowane przez firmę Desert Tech. Wersja Flat Dark Earth."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "18-nabojowy magazynek MP-443 „Gracz” 9 x 19"
+L["eft_mag_mp443_std.compactname"] = "MP-443 18"
+L["eft_mag_mp443_std.description"] = "Standardowy 18-nabojowy magazynek kalibru 9 × 19 mm do pistoletu MP-433."
+
+L["eft_grip_mp443_std.printname"] = "Chwyt pistoletowy do MP-443 „Gracz”, polimerowy"
+L["eft_grip_mp443_std.compactname"] = "MP443"
+L["eft_grip_mp443_std.description"] = "Standardowy chwyt pistoletowy do pistoletu MP-443. Wyprodukowany przez zakłady Iżmech."
+
+L["eft_mount_mp443_rail.printname"] = "Montaż do MP-443 „Gracz” Zenit B-8"
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "Szyna montażowa B-8 może być instalowana na pistolecie Jarygina (MP-443 „Gracz” i jego cywilnej wersji MP-446 „Wiking”) do użycia z dodatkowymi przystawkami, takimi jak taktyczna latarka z laserem Klesch-2P. Wyprodukowana przez firmę Zenit."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "18-calowa lufa do RFB 7,62 x 51"
+L["eft_rfb_barrel_18.compactname"] = "RFB 18″"
+L["eft_rfb_barrel_18.description"] = "18-calowa (457 mm) lufa do karabinu Kel-Tec RFB kalibru 7,62 × 51 mm NATO."
+
+L["eft_rfb_hg_std.printname"] = "Łoże do RFB"
+L["eft_rfb_hg_std.compactname"] = "RFB"
+L["eft_rfb_hg_std.description"] = "Standardowe łoże do karabinu RFB. Wyprodukowane przez firmę Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "Szyna montażowa do łoża do RFB"
+L["eft_rfb_mount_bottom.compactname"] = "RFB"
+L["eft_rfb_mount_bottom.description"] = "Długa dolna szyna montażowa do łoża karabinu RFB, pozwala na instalację dodatkowego wyposażenia taktycznego."
+
+L["eft_rfb_mount_upper.printname"] = "Szyna montażowa na celowniki do RFB"
+L["eft_rfb_mount_upper.compactname"] = "Szyna RFB"
+L["eft_rfb_mount_upper.description"] = "Uniwersalna szyna do montażu różnego rodzaju optyki do karabinu RFB. Wyprodukowana przez firmę Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "Końcówka zabezpieczająca gwint RFB"
+L["eft_rfb_muzzle_thr.compactname"] = "Zab. RFB"
+L["eft_rfb_muzzle_thr.description"] = "Osłona gwintu do lufy karabinka Kel-Tec RFB kalibru 7,62 × 51 mm."
+
+L["eft_rfb_muzzle_spacer.printname"] = "Dystans do gwintu RFB"
+L["eft_rfb_muzzle_spacer.compactname"] = "Dystans RFB"
+L["eft_rfb_muzzle_spacer.description"] = "Dystans do gwintu karabinu RFB, wymagany do instalacji różnych urządzeń wylotowych. Wyprodukowany przez firmę Kel-Tec."
+
+L["eft_muzzle_rfb_fh.printname"] = "Tłumik płomieni do RFB 7,62 x 51"
+L["eft_muzzle_rfb_fh.compactname"] = "RFB"
+L["eft_muzzle_rfb_fh.description"] = "Standardowy tłumik płomieni typu „bird cage” zaprojektowany do instalacji na karabinie automatycznym RFB kalibru 7,62 × 51 mm. Wyprodukowany przez firmę Kel-Tec."

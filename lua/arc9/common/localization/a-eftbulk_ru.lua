@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "Жёлтый сигнальный па
 L["eft_ammo_26x75_greenp.printname"] = "26x75мм сигнальный патрон (Ядовито-зеленый)"
 L["eft_ammo_26x75_greenp.compactname"] = "ЯЗ"
 L["eft_ammo_26x75_greenp.description"] = "Сигнальный патрон калибра 26х75мм для СП-81. Необычный цвет говорит о том, что используется патрон для каких-то особых сигналов \"своим\". Есть смысл попробовать использовать для спасения жизни в присутствии Диких или Боссов."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "Ствол 406мм для MDR 7.62x51"
+L["eft_mdr_barrel_762.compactname"] = "MDR 762 406мм"
+L["eft_mdr_barrel_762.description"] = "Ствол для оружия на базе MDR под патрон 7.62x51 NATO длиной 406мм (16 дюймов)."
+
+L["eft_mdr_barrel_556.printname"] = "Ствол 406мм для MDR 5.56x45"
+L["eft_mdr_barrel_556.compactname"] = "MDR 556 406мм"
+L["eft_mdr_barrel_556.description"] = "Ствол для оружия на базе MDR под патрон 5.56x45 NATO длиной 406мм."
+
+L["eft_mdr_pg_blk.printname"] = "Пистолетная рукоятка для MDR (Черная)"
+L["eft_mdr_pg_blk.compactname"] = "MDR чрн."
+L["eft_mdr_pg_blk.description"] = "Полимерная пистолетная рукоятка от Desert Tech, устанавливается штурмовые винтовки MDR. Вариант в черной расцветке."
+
+L["eft_mdr_pg_fde.printname"] = "Пистолетная рукоятка для MDR (FDE)"
+L["eft_mdr_pg_fde.compactname"] = "MDR"
+L["eft_mdr_pg_fde.description"] = "Штатная пистолетная рукоятка для штурмовых винтовок MDR, производство Desert Tech. Версия в цвете Flat Dark Earth."
+
+L["eft_mdr_hg_blk.printname"] = "Цевье для MDR (Черное)"
+L["eft_mdr_hg_blk.compactname"] = "MDR чрн."
+L["eft_mdr_hg_blk.description"] = "Штатное цевьё производства Desert Tech для штурмовых винтовок MDR. Оснащено интерфейсом M-LOK для установки дополнительного тактического оборудования и аксессуаров. Версия в черном цвете."
+
+L["eft_mdr_hg_fde.printname"] = "Цевье для MDR (FDE)"
+L["eft_mdr_hg_fde.compactname"] = "MDR"
+L["eft_mdr_hg_fde.description"] = "Штатное цевьё производства Desert Tech для штурмовых винтовок MDR. Оснащено интерфейсом M-LOK для установки дополнительного тактического оборудования и аксессуаров. Версия в цвете Flat Dark Earth."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "Магазин на 18 патронов 9x19 для MP-443 \"Грач\""
+L["eft_mag_mp443_std.compactname"] = "MP-443 18"
+L["eft_mag_mp443_std.description"] = "Стандартный 18-зарядный магазин для пистолетов MP-443, под патрон 9x19."
+
+L["eft_grip_mp443_std.printname"] = "Накладка полимерная для MP-443 \"Грач\""
+L["eft_grip_mp443_std.compactname"] = "MP443"
+L["eft_grip_mp443_std.description"] = "Штатная полимерная накладка на рукоять для пистолетов MP-443 производства Ижмех."
+
+L["eft_mount_mp443_rail.printname"] = "Крепление Зенит \"Б-8\" для MP-443 \"Грач\""
+L["eft_mount_mp443_rail.compactname"] = "Б-8"
+L["eft_mount_mp443_rail.description"] = "Планка Б-8 предназначена для установки дополнительного оборудования (фонарей серии \"Клещ\" и \"Мини Клещ\" и д.р.) на пистолет Ярыгина (МП-443 Грач, МП-446 Викинг). Производство Зенит."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "Ствол 457мм для RFB 7.62x51"
+L["eft_rfb_barrel_18.compactname"] = "RFB 457мм"
+L["eft_rfb_barrel_18.description"] = "Ствол для карабина Kel-Tec RFB под патрон 7.62x51 длиной 457мм (18 дюймов)."
+
+L["eft_rfb_hg_std.printname"] = "Цевье для RFB"
+L["eft_rfb_hg_std.compactname"] = "RFB"
+L["eft_rfb_hg_std.description"] = "Штатное цевьё на винтовки RFB. Производство Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "Направляющая для цевья RFB"
+L["eft_rfb_mount_bottom.compactname"] = "RFB"
+L["eft_rfb_mount_bottom.description"] = "Штатная нижняя направляющая для установки дополнительного тактического снаряжения на винтовки RFB."
+
+L["eft_rfb_mount_upper.printname"] = "Направляющая для прицелов для RFB"
+L["eft_rfb_mount_upper.compactname"] = "RFB приц."
+L["eft_rfb_mount_upper.description"] = "Универсальная направляющая для установки различных прицелов на винтовку RFB, производство Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "Направляющая 3 дюйма \"RFB Quad Rail\" для RFB"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "Направляющая RFB 3\" Quad Rail позволяет устанавливать дополнительное тактическое оборудование. Производство Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "Втулка предохранительная для RFB"
+L["eft_rfb_muzzle_thr.compactname"] = "RFB ВП"
+L["eft_rfb_muzzle_thr.description"] = "Предохранительная втулка для ствола Kel-Tec RFB 7.62x51."
+
+L["eft_rfb_muzzle_spacer.printname"] = "Контргайка для RFB"
+L["eft_rfb_muzzle_spacer.compactname"] = "RFB конт."
+L["eft_rfb_muzzle_spacer.description"] = "Контргайка \"спейсер\", необходимая для установки большинства доступных дульных устройств на винтовку RFB. Производство Kel-Tec."
+
+L["eft_muzzle_rfb_fh.printname"] = "Пламегаситель для RFB 7.62x51"
+L["eft_muzzle_rfb_fh.compactname"] = "RFB"
+L["eft_muzzle_rfb_fh.description"] = "Штатный пламегаситель типа Bird Cage (Птичья Клетка), предназначен для установки на RFB под патрон 7.62x51. Производство Kel-Tec."

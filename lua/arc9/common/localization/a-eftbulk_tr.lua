@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "SP-81 işaret fişeği tabancası içi
 L["eft_ammo_26x75_greenp.printname"] = "26x75mm flare cartridge (Acid Green)"
 L["eft_ammo_26x75_greenp.compactname"] = "Signal"
 L["eft_ammo_26x75_greenp.description"] = "A 26x75mm acid green flare cartridge for the SP-81 flare gun. The unusual color indicates that the cartridge is used for some special signals to \"friendlies\". Worth trying to use it to save yourself when near aggressive Scavs or Bosses."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "16 inç .308 namlu için MDR ve uyumlu"
+L["eft_mdr_barrel_762.compactname"] = "16\" MDR 308"
+L["eft_mdr_barrel_762.description"] = "16 inç uzunluğunda .308 cephanesi için MDR tabanlı silahlar için namlu."
+
+L["eft_mdr_barrel_556.printname"] = "5.56х45 ile uyumlu 406mm MDR namlusu"
+L["eft_mdr_barrel_556.compactname"] = "406mm MDR 5.56x45"
+L["eft_mdr_barrel_556.description"] = "5.56x45 NATO mühimmatı kullanan MDR için 406mm uzunluğunda namlu."
+
+L["eft_mdr_pg_blk.printname"] = "MDR için Desert Tech siyah kabza"
+L["eft_mdr_pg_blk.compactname"] = "MDR reg."
+L["eft_mdr_pg_blk.description"] = "MDR'ye takılabilen Desert Tech kabza. Siyah varyasyon."
+
+L["eft_mdr_pg_fde.printname"] = "MDR için Desert Tech kabza"
+L["eft_mdr_pg_fde.compactname"] = "MDR stand."
+L["eft_mdr_pg_fde.description"] = "MDR'ye takılabilen Desert Tech kabza."
+
+L["eft_mdr_hg_blk.printname"] = "MDR için Desert Tech tutamaç blk"
+L["eft_mdr_hg_blk.compactname"] = "MDR El kundağı"
+L["eft_mdr_hg_blk.description"] = "MDR için Desert Tech el kundağı ek cihaz ve aksesuarların montajı için M-LOK arayüzü ile donatılmıştır. Siyah varyasyon."
+
+L["eft_mdr_hg_fde.printname"] = "MDR için Desert Tech tutamaç"
+L["eft_mdr_hg_fde.compactname"] = "MDR El kundağı"
+L["eft_mdr_hg_fde.description"] = "MDR için Desert Tech el kundağı ek cihaz ve aksesuarların montajı için M-LOK arayüzü ile donatılmıştır."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "MP-443 9x19 18-mermilik şarjör"
+L["eft_mag_mp443_std.compactname"] = "9x19 MP-443 18"
+L["eft_mag_mp443_std.description"] = "Standart 18 mermi kapasiteli 9x19 MP-443 şarjörü."
+
+L["eft_grip_mp443_std.printname"] = "MP-443 için Izhmekh polimer kabza"
+L["eft_grip_mp443_std.compactname"] = "MP443 kabza"
+L["eft_grip_mp443_std.description"] = "Izhmek tarafından imal edilen MP-443 için standart servis kabza."
+
+L["eft_mount_mp443_rail.printname"] = "B-8 yuva"
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "B-8 kızak, Yarygin tabancasına (MP-443 Grach ve sivil versiyonu MP-446 Viking) ek montaj parçaları, örn. 2KS Klesch Mini taktik lazer fener."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "RFB 7.62x51 için 18\" namlu"
+L["eft_rfb_barrel_18.compactname"] = "18\" RFB 7.62x51"
+L["eft_rfb_barrel_18.description"] = "18 inç uzunluğunda, RFB 7.62x51 cephanesi için namlu."
+
+L["eft_rfb_hg_std.printname"] = "Kel-Tec RFB düzenli el kundağı"
+L["eft_rfb_hg_std.compactname"] = "RFB EK"
+L["eft_rfb_hg_std.description"] = "Düzenli RFB el kundağı, Kel-Tec tarafından üretilmiştir."
+
+L["eft_rfb_mount_bottom.printname"] = "Kel-Tec RFB el kundağı rayı"
+L["eft_rfb_mount_bottom.compactname"] = "RFB EK ray"
+L["eft_rfb_mount_bottom.description"] = "RFB uzun alt rayı. Bu ray el kundağına ilave ekipman takmanıza olanak sağlar."
+
+L["eft_rfb_mount_upper.printname"] = "Kel-Tec RFB dürbün yuvası rayı"
+L["eft_rfb_mount_upper.compactname"] = "RFB dürbün yuvası"
+L["eft_rfb_mount_upper.description"] = "Dürbün yuvaları için düzenli RFB ray. Kel-Tec malıdır."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "RFB dişli koruma kapağı"
+L["eft_rfb_muzzle_thr.compactname"] = "RFB koruma kapağı"
+L["eft_rfb_muzzle_thr.description"] = "RFB namlusu için dişli koruma kapağı."
+
+L["eft_rfb_muzzle_spacer.printname"] = "RFB Ara dişlisi"
+L["eft_rfb_muzzle_spacer.compactname"] = "RFB diş."
+L["eft_rfb_muzzle_spacer.description"] = "RFB tüfeği için ara dişlisi, Kel-Tec tarafından üretilmiştir. Çoğu namlu ağzı girişi için gerekli bir alettir."
+
+L["eft_muzzle_rfb_fh.printname"] = "Sıradan RFB 7.62x51 Alev gizleyici"
+L["eft_muzzle_rfb_fh.compactname"] = "RFB AG"
+L["eft_muzzle_rfb_fh.description"] = "RFB 7.62x51 kuş kafesi alev gizleyici, Kel-Tec tarafından üretilmiştir."

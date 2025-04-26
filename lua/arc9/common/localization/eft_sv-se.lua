@@ -715,7 +715,7 @@ L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
 L["eft_aug_wht.description"] = "White colored parts." .. customatt
 
-L["eft_aug_fde.printname"] = "Steyr AUG FDE frame"
+L["eft_aug_fde.printname"] = "Steyr AUG \"FDE\"-ram"
 L["eft_aug_fde.compactname"] = "FDE"
 L["eft_aug_fde.description"] = "Flat Dark Earth (FDE) colored parts." .. customatt
 
@@ -740,7 +740,7 @@ L["eft_sv98_black.description"] = "Repaints the OV-SV98 chassis into a black col
 
 -- [[ KRISS Vector Gen.2 ]]
 -- vector
-L["eft_vector_skin_fde.printname"] = "Vector Gen.2 .45ACP FDE frame"
+L["eft_vector_skin_fde.printname"] = "Vector Gen.2 .45ACP \"FDE\"-ram"
 L["eft_vector_skin_fde.compactname"] = "FDE"
 L["eft_vector_skin_fde.description"] = "Applies the Flat Dark Earth (FDE) frame from the Vector 9x19." .. customatt
 
@@ -809,7 +809,7 @@ L["eft_m32a1_black.printname"] = "Milkor M32A1 Svart ram"
 L["eft_m32a1_black.compactname"] = "Svart"
 L["eft_m32a1_black.description"] = "Färgar om ramen till en svart färg." .. customatt
 
-L["eft_m60_e6fde.printname"] = "M60E6 FDE frame"
+L["eft_m60_e6fde.printname"] = "M60E6 \"FDE\"-ram"
 L["eft_m60_e6fde.compactname"] = "FDE"
 L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE) color." .. customatt
 
@@ -836,6 +836,12 @@ L["eft_uzipro_smg.description"] = "The UZI PRO SMG is a submachine gun for law e
 L["eft_mts255_fastreload.printname"] = "Dumpa ammo vid omladdning"
 L["eft_mts255_fastreload.compactname"] = "Snabb omladd."
 L["eft_mts255_fastreload.description"] = "Dumpar alla kvarstående patroner när du laddar om för en snabbare omladdning." .. customatt
+
+-- [[ MDR + MP-433 + RFB ]]
+-- mdr
+L["eft_mdr_fde.printname"] = "Desert Tech MDR \"FDE\"-ram"
+L["eft_mdr_fde.compactname"] = "FDE"
+L["eft_mdr_fde.description"] = "Applies the Flat Dark Earth (FDE) frame from the MDR 5.56." .. customatt
 
 ////////////////////////////////////////////////////////////////////// Weapons
 ///////////////////////////// EFT Weapon Names

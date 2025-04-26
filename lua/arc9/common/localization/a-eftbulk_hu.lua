@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "A 26x75mm yellow flare cartridge for t
 L["eft_ammo_26x75_greenp.printname"] = "26x75mm distress signal flare (poison green)"
 L["eft_ammo_26x75_greenp.compactname"] = "DSF"
 L["eft_ammo_26x75_greenp.description"] = "Signal cartridge caliber 26x75mm for SP-81. The unusual color indicates that the cartridge is used for some special signals to \"friends\". It makes sense to try to use it to save lives in the presence of scavs or bosses."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "MDR 7.62x51 16 inch barrel"
+L["eft_mdr_barrel_762.compactname"] = "MDR 762 16\""
+L["eft_mdr_barrel_762.description"] = "A 16 inch (406mm) barrel for MDR based weapons for 7.62x51 NATO ammo."
+
+L["eft_mdr_barrel_556.printname"] = "MDR 5.56x45 16 inch barrel"
+L["eft_mdr_barrel_556.compactname"] = "MDR 556 16\""
+L["eft_mdr_barrel_556.description"] = "A 16 inch (406mm) barrel for MDR based weapons for 5.56x45 NATO ammo."
+
+L["eft_mdr_pg_blk.printname"] = "MDR pistol grip (Black)"
+L["eft_mdr_pg_blk.compactname"] = "MDR Black"
+L["eft_mdr_pg_blk.description"] = "A standard pistol grip for MDR assault rifles, manufactured by Desert Tech. Black version."
+
+L["eft_mdr_pg_fde.printname"] = "MDR pistol grip (FDE)"
+L["eft_mdr_pg_fde.compactname"] = "MDR"
+L["eft_mdr_pg_fde.description"] = "A standard pistol grip for MDR assault rifles, manufactured by Desert Tech. Flat Dark Earth version."
+
+L["eft_mdr_hg_blk.printname"] = "MDR handguard (Black)"
+L["eft_mdr_hg_blk.compactname"] = "MDR Black"
+L["eft_mdr_hg_blk.description"] = "A standard-issue handguard for MDR assault rifles, manufactured by Desert Tech. Equipped with an M-LOK interface for installation of additional tactical devices and accessories. Black version."
+
+L["eft_mdr_hg_fde.printname"] = "MDR handguard (FDE)"
+L["eft_mdr_hg_fde.compactname"] = "MDR"
+L["eft_mdr_hg_fde.description"] = "A standard-issue handguard for MDR assault rifles, manufactured by Desert Tech. Equipped with an M-LOK interface for installation of additional tactical devices and accessories. Flat Dark Earth version."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "MP-443 9x19 kaliberű 18 töltényes tár"
+L["eft_mag_mp443_std.compactname"] = "MP-443 18"
+L["eft_mag_mp443_std.description"] = "A standard 18-round 9x19 magazine for the MP-443 pistol."
+
+L["eft_grip_mp443_std.printname"] = "MP-443 \"Grach\" polymer pistol grip"
+L["eft_grip_mp443_std.compactname"] = "MP443"
+L["eft_grip_mp443_std.description"] = "A standard service pistol grip for MP-443 pistols manufactured by Izhmekh."
+
+L["eft_mount_mp443_rail.printname"] = "MP-443 \"Grach\" Zenit B-8 mount"
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "The B-8 rail mount can be installed on Yarygin pistols (MP-443 \"Grach\" and its civilian version MP-446 \"Viking\") for use with additional attachments, like Zenit Klesch-2P tactical flashlight/laser. Manufactured by Zenit."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "RFB 7.62x51 18 inch barrel"
+L["eft_rfb_barrel_18.compactname"] = "RFB 18\""
+L["eft_rfb_barrel_18.description"] = "An 18 inch long barrel for the Kel-Tec RFB rifle, chambered in 7.62x51ammo."
+
+L["eft_rfb_hg_std.printname"] = "RFB handguard"
+L["eft_rfb_hg_std.compactname"] = "RFB"
+L["eft_rfb_hg_std.description"] = "A standard-issue handguard for the RFB rifle, manufactured by Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "RFB handguard rail mount"
+L["eft_rfb_mount_bottom.compactname"] = "RFB HG sín"
+L["eft_rfb_mount_bottom.description"] = "A long bottom rail for the RFB rifle, which allows you to install additional tactical equipment on the handguard."
+
+L["eft_rfb_mount_upper.printname"] = "RFB scope rail mount"
+L["eft_rfb_mount_upper.compactname"] = "RFB irányzék szerelék"
+L["eft_rfb_mount_upper.description"] = "A universal rail for mounting various optics on to the RFB rifle, manufactured by Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "RFB csőmenet védő kupak"
+L["eft_rfb_muzzle_thr.compactname"] = "RFB cap"
+L["eft_rfb_muzzle_thr.description"] = "A threading protection cap for the Kel-Tec RFB 7.62x51 rifle barrel."
+
+L["eft_rfb_muzzle_spacer.printname"] = "RFB thread spacer"
+L["eft_rfb_muzzle_spacer.compactname"] = "RFB spacer"
+L["eft_rfb_muzzle_spacer.description"] = "A thread spacer for the RFB rifle, manufactured by Kel-Tec. It is required for installation of different muzzle devices."
+
+L["eft_muzzle_rfb_fh.printname"] = "RFB 7.62x51 flash hider"
+L["eft_muzzle_rfb_fh.compactname"] = "RFB"
+L["eft_muzzle_rfb_fh.description"] = "A standard bird cage flash hider designed for installation on RFB 7.62x51 rifles. Manufactured by Kel-Tec."

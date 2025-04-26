@@ -1,0 +1,7 @@
+Place all EFT .json localization files here, then run the .bat file. It'll convert all of them to functional Lua tables.
+
+Once complete, open all of them and ensure to replace the following:
+\u00A0 > " "
+\u202F > " "
+\uFEFF > ""
+\u3000 > "　"

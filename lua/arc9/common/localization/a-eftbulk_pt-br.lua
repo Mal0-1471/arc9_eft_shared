@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "Cartucho amarelo 26x75mm para sinaliza
 L["eft_ammo_26x75_greenp.printname"] = "26x75mm flare cartridge (Acid Green)"
 L["eft_ammo_26x75_greenp.compactname"] = "AC"
 L["eft_ammo_26x75_greenp.description"] = "A 26x75mm acid green flare cartridge for the SP-81 flare gun. The unusual color indicates that the cartridge is used for some special signals to \"friendlies\". Worth trying to use it to save yourself when near aggressive Scavs or Bosses."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "Cano 16\" feito para MDR e compatíveis .308"
+L["eft_mdr_barrel_762.compactname"] = "16\" MDR 308"
+L["eft_mdr_barrel_762.description"] = "Um cano para plataforma MDR com munição .308, 16 polegadas de comprimento."
+
+L["eft_mdr_barrel_556.printname"] = "Cano 406mm feito para MDR e compatíveis 5.56x45"
+L["eft_mdr_barrel_556.compactname"] = "406mm MDR 5.56х45"
+L["eft_mdr_barrel_556.description"] = "Um cano feito para armas do padrão MDR em calibre 5.56x45 NATO, 406mm de comprimento."
+
+L["eft_mdr_pg_blk.printname"] = "Empunhadura Desert Tech para MDR (Preta)"
+L["eft_mdr_pg_blk.compactname"] = "MDR reg."
+L["eft_mdr_pg_blk.description"] = "Empunhadura Desert Tech pode ser instalada na MDR. Variante preta."
+
+L["eft_mdr_pg_fde.printname"] = "Empunhadura MDR (Areia)"
+L["eft_mdr_pg_fde.compactname"] = "MDR"
+L["eft_mdr_pg_fde.description"] = "Empunhadura Desert Tech pode ser instalado em MDR."
+
+L["eft_mdr_hg_blk.printname"] = "Guarda-mão Desert Tech para MDR (Preta)"
+L["eft_mdr_hg_blk.compactname"] = "Guarda-mão MDR"
+L["eft_mdr_hg_blk.description"] = "Guarda-mão Desert Tech para MDR equipada com trilho padrão M-LOK para instalação de dispositivos adicionais. Variante preta."
+
+L["eft_mdr_hg_fde.printname"] = "Guarda-mão MDR (Areia)"
+L["eft_mdr_hg_fde.compactname"] = "MDR"
+L["eft_mdr_hg_fde.description"] = "Guarda-mão Desert Tech para MDR equipada com trilho padrão M-LOK para instalação de dispositivos adicionais."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "Carregador de 18 munições MP-443 9x19"
+L["eft_mag_mp443_std.compactname"] = "9x19 MP-443 18"
+L["eft_mag_mp443_std.description"] = "Carregador de 18 munições calibre 9x19 para MP-443."
+
+L["eft_grip_mp443_std.printname"] = "Empunhadura de polímero Izhmekh para MP-443"
+L["eft_grip_mp443_std.compactname"] = "MP443"
+L["eft_grip_mp443_std.description"] = "Empunhadura padrão para pistola MP-443 fabricado pela Izhmekh."
+
+L["eft_mount_mp443_rail.printname"] = "Suporte B-8"
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "O trilho de montagem B-8 é instalado em pistolas Yarygin (MP-443 Granch e na sua versão civil MP-446 Viking) para uso com acessórios adicionais, como exemplo Klesh Mini laser e lanterna tático"
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "Cano 18\" para RFB 7.62x51"
+L["eft_rfb_barrel_18.compactname"] = "18\" RFB 7.62x51"
+L["eft_rfb_barrel_18.description"] = "Um cano para RFB 7.62x51mm, com 457mm de comprimento."
+
+L["eft_rfb_hg_std.printname"] = "Guarda-mão regular Kel-Tec RFB"
+L["eft_rfb_hg_std.compactname"] = "RFB"
+L["eft_rfb_hg_std.description"] = "Guarda-mão Regular RFB, fabricado pela Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "Trilgo guarda-mão Kel-Tec RFB"
+L["eft_rfb_mount_bottom.compactname"] = "Trilho RFB"
+L["eft_rfb_mount_bottom.description"] = "Trilho inferior do guarda-mão RFB que permite instalação de equipamentos adicionais."
+
+L["eft_rfb_mount_upper.printname"] = "Suporte trilho para lunetas, RFB Kel-Tec"
+L["eft_rfb_mount_upper.compactname"] = "Sup.Luneta RFB"
+L["eft_rfb_mount_upper.description"] = "Trilho Regular RFB para instalação de lunetas, fabricado pela Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "Tampa para proteção de rosca para RFB"
+L["eft_rfb_muzzle_thr.compactname"] = "Tampa RFB"
+L["eft_rfb_muzzle_thr.description"] = "Tampa para proteção de rosca do cano da RFB."
+
+L["eft_rfb_muzzle_spacer.printname"] = "Espaçador de rosca RFB"
+L["eft_rfb_muzzle_spacer.compactname"] = "RFB."
+L["eft_rfb_muzzle_spacer.description"] = "Espaçador de rosca para rifle RFB, fabricado pela Kel-Tec. É recomendado para uso da maioria de dispositivos quebra chamas."
+
+L["eft_muzzle_rfb_fh.printname"] = "Quebra chamas Regular 7.62x51"
+L["eft_muzzle_rfb_fh.compactname"] = "RFB"
+L["eft_muzzle_rfb_fh.description"] = "O quebra chamas RFB 7.62x51 Bird cage, fabricado pela Kel-Tec."

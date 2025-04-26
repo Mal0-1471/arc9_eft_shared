@@ -848,6 +848,12 @@ L["eft_mts255_fastreload.printname"] = "Dump Ammo on Reload"
 L["eft_mts255_fastreload.compactname"] = "Fast Rel."
 L["eft_mts255_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
 
+-- [[ MDR + MP-433 + RFB ]]
+-- mdr
+L["eft_mdr_fde.printname"] = "Desert Tech MDR FDE frame"
+L["eft_mdr_fde.compactname"] = "FDE"
+L["eft_mdr_fde.description"] = "Applies the Flat Dark Earth (FDE) frame from the MDR 5.56." .. customatt
+
 ////////////////////////////////////////////////////////////////////// Weapons
 ///////////////////////////// EFT Weapon Names
 --[[

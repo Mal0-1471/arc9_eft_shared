@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "Una cartuccia lanciarazzi gialla da 26
 L["eft_ammo_26x75_greenp.printname"] = "Cartuccia segnaletica 26x75mm (Verde Acido)"
 L["eft_ammo_26x75_greenp.compactname"] = "AC"
 L["eft_ammo_26x75_greenp.description"] = "Cartuccia lanciarazzi verde acido da 26x75 mm per il lanciarazzi SP-81. Il colore insolito indica che la cartuccia è usata per alcuni segnali speciali agli \"amici\". Vale la pena provare a usarla per salvarsi quando si è vicini a Scav o Boss aggressivi."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "Canna da 16\" MDR 7.62x51"
+L["eft_mdr_barrel_762.compactname"] = "MDR 762 16\""
+L["eft_mdr_barrel_762.description"] = "Una canna da 16 pollici (406mm) per armi basate su MDR per munizioni NATO 7.62x51."
+
+L["eft_mdr_barrel_556.printname"] = "Canna da 16\" MDR 5.56x45"
+L["eft_mdr_barrel_556.compactname"] = "MDR 556 16\""
+L["eft_mdr_barrel_556.description"] = "Una canna da 16 pollici (406 mm) per armi basate su MDR per munizioni NATO 5.56x45."
+
+L["eft_mdr_pg_blk.printname"] = "Impugnatura a pistola MDR (Nera)"
+L["eft_mdr_pg_blk.compactname"] = "MDR (Nero)"
+L["eft_mdr_pg_blk.description"] = "Un'impugnatura a pistola standard per fucili d'assalto MDR, prodotta dalla Desert Tech. Versione nera."
+
+L["eft_mdr_pg_fde.printname"] = "Impugnatura a pistola MDR (FDE)"
+L["eft_mdr_pg_fde.compactname"] = "MDR"
+L["eft_mdr_pg_fde.description"] = "Un'impugnatura a pistola standard per fucili d'assalto MDR, prodotta dalla Desert Tech. Versione Flat Dark Earth."
+
+L["eft_mdr_hg_blk.printname"] = "Paramano MDR (Nero)"
+L["eft_mdr_hg_blk.compactname"] = "MDR (Nero)"
+L["eft_mdr_hg_blk.description"] = "Paramano standard per fucili d'assalto MDR, prodotta dalla Desert Tech. Equipaggiato con un'interfaccia M-LOK per l'installazione di dispositivi tattici e accessori aggiuntivi. Versione Nero."
+
+L["eft_mdr_hg_fde.printname"] = "Paramano MDR (FDE)"
+L["eft_mdr_hg_fde.compactname"] = "MDR"
+L["eft_mdr_hg_fde.description"] = "Paramano standard per fucili d'assalto MDR, prodotta dalla Desert Tech. Equipaggiato con un'interfaccia M-LOK per l'installazione di dispositivi tattici e accessori aggiuntivi. Versione Terra Piatta Scura."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "Caricatore da 18 colpi MP-443 \"Grach\" 9x19"
+L["eft_mag_mp443_std.compactname"] = "МP-443 18"
+L["eft_mag_mp443_std.description"] = "Un caricatore standard 9x19 da 18 colpi per la pistola MP-443."
+
+L["eft_grip_mp443_std.printname"] = "Impugnatura a pistola in polimero MP-443 \"Grach\""
+L["eft_grip_mp443_std.compactname"] = "MP443"
+L["eft_grip_mp443_std.description"] = "Una impugnatura di servizio standard per pistola MP-443 prodotta dalla Izhmekh."
+
+L["eft_mount_mp443_rail.printname"] = "Supporto Zenit B-8 per MP-443 \"Grach\""
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "Il supporto a slitta B-8 può essere installato su pistole Yarygin (MP-443 \"Grach\" e sua versione civile MP-446 Viking) per essere usata con accessori addizionali, as esempio la torcia tattica/laser Zenit 2P Klesch. È prodotto dalla Zenit."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "Canna da 18\" RFB 7.62x51"
+L["eft_rfb_barrel_18.compactname"] = "RFB 18\""
+L["eft_rfb_barrel_18.description"] = "Una canna lunga 18 pollici per il fucile Kel-Tec RFB, camerata in munizioni 7.62x51."
+
+L["eft_rfb_hg_std.printname"] = "Paramano RFB"
+L["eft_rfb_hg_std.compactname"] = "RFB"
+L["eft_rfb_hg_std.description"] = "Un paramano standard per il fucile RFB, prodotto dalla Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "Paramano con supporto a slitta RFB"
+L["eft_rfb_mount_bottom.compactname"] = "Guida RFB HG"
+L["eft_rfb_mount_bottom.description"] = "Una lunga slitta inferiore per il fucile RFB, che consente di installare attrezzature tattiche aggiuntive sul paramano."
+
+L["eft_rfb_mount_upper.printname"] = "Supporto slitta ottica RFB"
+L["eft_rfb_mount_upper.compactname"] = "Supporto per ottica RFB"
+L["eft_rfb_mount_upper.description"] = "Una slitta universale che permette il montaggio di diverse ottiche sul fucile RFB, prodotto dalla Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "Coprifiletto RFB"
+L["eft_rfb_muzzle_thr.compactname"] = "Tappo RFB"
+L["eft_rfb_muzzle_thr.description"] = "Un coprifiletto per la canna del fucile Kel-Tec RFB 7.62x51."
+
+L["eft_rfb_muzzle_spacer.printname"] = "Distanziale filettato RFB"
+L["eft_rfb_muzzle_spacer.compactname"] = "RFB spaziatore"
+L["eft_rfb_muzzle_spacer.description"] = "Un distanziatore filettato per il fucile RFB, prodotto dalla Kel-Tec. È necessario per l'installazione di diversi dispositivi di volata."
+
+L["eft_muzzle_rfb_fh.printname"] = "Spegnifiamma RFB 7.62x51"
+L["eft_muzzle_rfb_fh.compactname"] = "RFB"
+L["eft_muzzle_rfb_fh.description"] = "Uno spegnifiamma standard a gabbia progettato per l'installazione su fucili RFB 7.62x51. Prodotto dalla Kel-Tec."

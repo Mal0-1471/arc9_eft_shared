@@ -9262,3 +9262,75 @@ L["eft_ammo_26x75_yellow.description"] = "Un cartucho de señalización de 26x75
 L["eft_ammo_26x75_greenp.printname"] = "Cartucho de señalización de 26x75 mm (Verde Ácido)"
 L["eft_ammo_26x75_greenp.compactname"] = "Vd. A."
 L["eft_ammo_26x75_greenp.description"] = "Un cartucho de señalización de 26x75 mm cargado con una bengala de color verde ácido, para la pistola de bengalas SP-81. El color inusual indica que el cartucho se utiliza en algunas señales especiales a \"amigos\". Vale la pena usarlo para salvar tu vida en presencia de Scavs agresivos o Jefes."
+
+///////////////////////////// MDR + MP-443 + RFB
+-- [[ mdr ]]
+L["eft_mdr_barrel_762.printname"] = "Cañón de 16 pulgadas para MDR de 7,62x51 mm"
+L["eft_mdr_barrel_762.compactname"] = "MDR 762 16\""
+L["eft_mdr_barrel_762.description"] = "Un cañón de 16 pulgadas (406 mm) para armamento basado en MDR de calibre 7,62x51 mm OTAN."
+
+L["eft_mdr_barrel_556.printname"] = "Cañón de 16 pulgadas para MDR de 5,56x45 mm"
+L["eft_mdr_barrel_556.compactname"] = "MDR 556 16\""
+L["eft_mdr_barrel_556.description"] = "Un cañón de 16 pulgadas (406 mm) para armamento basado en MDR de calibre 5,56x45 mm OTAN."
+
+L["eft_mdr_pg_blk.printname"] = "Pistolete para MDR (Negro)"
+L["eft_mdr_pg_blk.compactname"] = "MDR Negro"
+L["eft_mdr_pg_blk.description"] = "Un pistolete estándar para los fusiles de asalto MDR, fabricado por Desert Tech. Versión de color Negro."
+
+L["eft_mdr_pg_fde.printname"] = "Pistolete para MDR (FDE)"
+L["eft_mdr_pg_fde.compactname"] = "P. MDR"
+L["eft_mdr_pg_fde.description"] = "Un pistolete estándar para los fusiles de asalto MDR, fabricado por Desert Tech. Versión de color Flat Dark Earth."
+
+L["eft_mdr_hg_blk.printname"] = "Guardamano para MDR (Negro)"
+L["eft_mdr_hg_blk.compactname"] = "G. MDR Negro"
+L["eft_mdr_hg_blk.description"] = "Un guardamano estándar para los fusiles de asalto MDR, producido por Desert Tech. Equipado con la interfaz M-LOK para la instalación adicional de accesorios y dispositivos tácticos. Versión de color Negro."
+
+L["eft_mdr_hg_fde.printname"] = "Guardamano para MDR (FDE)"
+L["eft_mdr_hg_fde.compactname"] = "Guard. MDR"
+L["eft_mdr_hg_fde.description"] = "Un guardamano estándar para los fusiles de asalto MDR, producido por Desert Tech. Equipado con la interfaz M-LOK para la instalación adicional de accesorios y dispositivos tácticos. Versión de color Flat Dark Earth."
+
+-- [[ mp433 ]]
+L["eft_mag_mp443_std.printname"] = "Cargador de 18 cartuchos 9x19 mm para MP-443 Grach"
+L["eft_mag_mp443_std.compactname"] = "MP-443 18"
+L["eft_mag_mp443_std.description"] = "Un cargador estándar con capacidad para 18 cartuchos de 9x19 mm, para la pistola Yarygin MP-443 \"Grach\"."
+
+L["eft_grip_mp443_std.printname"] = "Pistolete de polímero para MP-443 Grach"
+L["eft_grip_mp443_std.compactname"] = "P. MP443"
+L["eft_grip_mp443_std.description"] = "Un pistolete estándar para la pistola MP-443, fabricado por Izhmekh."
+
+L["eft_mount_mp443_rail.printname"] = "Montura Zenit B-8 para MP-443 Grach"
+L["eft_mount_mp443_rail.compactname"] = "B-8"
+L["eft_mount_mp443_rail.description"] = "La montura de raíl B-8 se instala en las pistolas Yarygin (MP-443 \"Grach\" y su versión civil MP-446 Viking) para poder instalar accesorios adicionales, por ejemplo la linterna con láser Zenit Klesch-2P. Producida por Zenit."
+
+-- [[ rfb ]]
+L["eft_rfb_barrel_18.printname"] = "Cañón de 18 pulgadas para RFB de 7,62x51 mm"
+L["eft_rfb_barrel_18.compactname"] = "RFB 18\""
+L["eft_rfb_barrel_18.description"] = "Un cañón de 18 pulgadas (457 mm) de largo para el fusil Kel-Tec RFB de calibre 7,62x51 mm OTAN."
+
+L["eft_rfb_hg_std.printname"] = "Guardamano para RFB"
+L["eft_rfb_hg_std.compactname"] = "Guard. RFB"
+L["eft_rfb_hg_std.description"] = "Un guardamano estándar para el fusil RFB, producido por Kel-Tec."
+
+L["eft_rfb_mount_bottom.printname"] = "Montura de raíl para el guardamano del RFB"
+L["eft_rfb_mount_bottom.compactname"] = "Raíl G. RFB"
+L["eft_rfb_mount_bottom.description"] = "Un raíl largo para el fusil RFB, que permite instalar equipamiento táctico y accesorios adicionales en la base del guardamano."
+
+L["eft_rfb_mount_upper.printname"] = "Montura de ópticas para RFB"
+L["eft_rfb_mount_upper.compactname"] = "Mont. RFB"
+L["eft_rfb_mount_upper.description"] = "Una montura de raíl universal para instalar diversas miras y ópticas en el fusil RFB, producida por Kel-Tec."
+
+L["eft_rfb_mount_quad.printname"] = "RFB Quad Rail 3 inch mount"
+L["eft_rfb_mount_quad.compactname"] = "RFB 3\""
+L["eft_rfb_mount_quad.description"] = "A 3 inch quad rail mount for the RFB rifle, allowing the installation of additional tactical equipment. Manufactured by Kel-Tec."
+
+L["eft_rfb_muzzle_thr.printname"] = "Bocacha protectora de rosca para RFB"
+L["eft_rfb_muzzle_thr.compactname"] = "B.P. RFB"
+L["eft_rfb_muzzle_thr.description"] = "Una bocacha protectora de rosca para la punta del cañón del fusil Kel-Tec RFB de 7,62x51 mm."
+
+L["eft_rfb_muzzle_spacer.printname"] = "Espaciador de rosca para RFB"
+L["eft_rfb_muzzle_spacer.compactname"] = "E.R. RFB"
+L["eft_rfb_muzzle_spacer.description"] = "Un espaciador de rosca para el fusil RFB, producido por Kel-Tec. Se necesita para montar sobre el fusil la mayoría de bocachas y accesorios del cañón."
+
+L["eft_muzzle_rfb_fh.printname"] = "Reductor de fogonazo para RFB de 7,62x51 mm"
+L["eft_muzzle_rfb_fh.compactname"] = "R.F. RFB"
+L["eft_muzzle_rfb_fh.description"] = "Un reductor de fogonazo Bird Cage estándar, diseñado para instalarse en los fusiles RFB calibre 7,62x51 mm OTAN. Producido por Kel-Tec."
