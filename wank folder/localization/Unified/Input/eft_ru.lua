@@ -37,6 +37,14 @@ L["eft_trivia_act_blow"] = "Свободный затвор"
 L["eft_trivia_act_gas"] = "Отвод пороховых газов"
 L["eft_trivia_act_recoil"] = "Отдача ствола"
 
+L["eft_trivia_calibr_12g"] = "12 калибра"
+L["eft_trivia_calibr_20g"] = "20 калибра"
+L["eft_trivia_calibr_366tkm"] = ".366 TKM"
+L["eft_trivia_calibr_545x39"] = "5.45x39мм"
+L["eft_trivia_calibr_556x45"] = "5.56x45мм"
+L["eft_trivia_calibr_762x35"] = ".300 Blackout (7.62x35мм)"
+L["eft_trivia_calibr_762x39"] = "7.62x39мм"
+L["eft_trivia_calibr_9x19"] = "9x19мм"
 L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
 
 -- [[ Customization ]]
@@ -113,7 +121,7 @@ L["eft_hud_nearlyfull"] = eftstring["Almost full"]
 L["eft_hud_aboutfull"] = eftstring["About half"]
 L["eft_hud_lessthanhlaf"] = eftstring["Less than half"]
 L["eft_hud_almostempty"] = eftstring["Almost empty"]
-L["eft_hud_none"] = eftstring["colorblind/None"]
+L["eft_hud_none"] = eftstring["NONE"]
 L["eft_hud_malf"] = eftstring["Notification/MalfunctionOccurred"]:gsub("{0}", "%%s")
 L["eft_hud_misfire"] = eftstring["EMalfunctionState/Misfire"]
 L["eft_hud_eject"] = eftstring["EMalfunctionState/Jam"]

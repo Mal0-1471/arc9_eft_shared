@@ -37,6 +37,14 @@ L = {}
 -- L["eft_trivia_act_gas"] = "Gas"
 -- L["eft_trivia_act_recoil"] = "Recoil"
 
+-- L["eft_trivia_calibr_12g"] = "12 gauge"
+-- L["eft_trivia_calibr_20g"] = "20 gauge"
+-- L["eft_trivia_calibr_366tkm"] = ".366 TKM"
+-- L["eft_trivia_calibr_545x39"] = "5.45x39mm"
+-- L["eft_trivia_calibr_556x45"] = "5.56x45mm"
+-- L["eft_trivia_calibr_762x35"] = ".300 Blackout (7.62x35mm)"
+-- L["eft_trivia_calibr_762x39"] = "7.62x39mm"
+-- L["eft_trivia_calibr_9x19"] = "9x19mm"
 -- L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
 -- [[ Customization ]]
@@ -113,7 +121,7 @@ L["eft_hud_nearlyfull"] = "Quasi pieno"
 L["eft_hud_aboutfull"] = "Circa la metà"
 L["eft_hud_lessthanhlaf"] = "Meno della metà"
 L["eft_hud_almostempty"] = "Quasi vuoto"
-L["eft_hud_none"] = "Nessuno"
+L["eft_hud_none"] = "NESSUNO"
 L["eft_hud_malf"] = "Malfunzionamento: \"%s\""
 L["eft_hud_misfire"] = "Mancata accensione"
 L["eft_hud_eject"] = "Espulsione fallita"

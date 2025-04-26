@@ -37,6 +37,14 @@ L = {}
 -- L["eft_trivia_act_gas"] = "Gas"
 -- L["eft_trivia_act_recoil"] = "Recoil"
 
+-- L["eft_trivia_calibr_12g"] = "12 gauge"
+-- L["eft_trivia_calibr_20g"] = "20 gauge"
+-- L["eft_trivia_calibr_366tkm"] = ".366 TKM"
+-- L["eft_trivia_calibr_545x39"] = "5.45x39mm"
+-- L["eft_trivia_calibr_556x45"] = "5.56x45mm"
+-- L["eft_trivia_calibr_762x35"] = ".300 Blackout (7.62x35mm)"
+-- L["eft_trivia_calibr_762x39"] = "7.62x39mm"
+-- L["eft_trivia_calibr_9x19"] = "9x19mm"
 -- L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
 
 -- [[ Customization ]]
@@ -113,7 +121,7 @@ L["eft_hud_nearlyfull"] = "Téměř plný"
 L["eft_hud_aboutfull"] = "Kolem poloviny"
 L["eft_hud_lessthanhlaf"] = "Méně než polovina"
 L["eft_hud_almostempty"] = "Téměř prázdný"
-L["eft_hud_none"] = "Nic"
+L["eft_hud_none"] = "NIC"
 L["eft_hud_malf"] = "Závada: \"%s\""
 L["eft_hud_misfire"] = "Selhání"
 L["eft_hud_eject"] = "Selhání při uvolnění"
