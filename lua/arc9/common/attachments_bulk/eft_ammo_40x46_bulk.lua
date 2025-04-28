@@ -13,12 +13,12 @@ ATT.Description = [[A 40-mm M381 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTRoundName2 = "40x46mm M381 (HE)"
+ATT.EFTRoundName2 = "eft_ammo_40x46_m381.printname"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
-    ["Damage"] = 199, 
-    ["Explosion radius"] = "1-7 m", 
+    ["autostat.explosiondamage"] = 199, 
+    ["autostat.explosionradius"] = "1-7 m", 
     ["Fuse time"] = "0.04 s"
 }
 
@@ -38,12 +38,12 @@ ATT.Description = [[A 40-mm M386 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTRoundName2 = "40x46mm M386 (HE)"
+ATT.EFTRoundName2 = "eft_ammo_40x46_m386.printname"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
-    ["Damage"] = 199, 
-    ["Explosion radius"] = "1-7 m", 
+    ["autostat.explosiondamage"] = 199, 
+    ["autostat.explosionradius"] = "1-7 m", 
     ["Fuse time"] = "0.26 s"
 }
 
@@ -63,12 +63,12 @@ ATT.Description = [[A 40-mm M406 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTRoundName2 = "40x46mm M406 (HE)"
+ATT.EFTRoundName2 = "eft_ammo_40x46_m406.printname"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
-    ["Damage"] = 199, 
-    ["Explosion radius"] = "1-7 m", 
+    ["autostat.explosiondamage"] = 199, 
+    ["autostat.explosionradius"] = "1-7 m", 
     ["Fuse time"] = "0.26 s"
 }
 
@@ -88,12 +88,12 @@ ATT.Description = [[A 40-mm M433 (High Explosive Dual Purpose) shot with a fragm
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTRoundName2 = "40x46mm M433 (HEDP)"
+ATT.EFTRoundName2 = "eft_ammo_40x46_m433.printname"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
-    ["Damage"] = 199, 
-    ["Explosion radius"] = "1-5 m", 
+    ["autostat.explosiondamage"] = 199, 
+    ["autostat.explosionradius"] = "1-5 m", 
     ["Fuse time"] = "0.26 s"
 }
 
@@ -113,12 +113,12 @@ ATT.Description = [[A 40-mm M441 (HE) shot with a fragmentation grenade equipped
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTRoundName2 = "40x46mm M441 (HE)"
+ATT.EFTRoundName2 = "eft_ammo_40x46_m441.printname"
 ATT.HasGranataAmmo = true 
 
 ATT.CustomPros = {
-    ["Damage"] = 199, 
-    ["Explosion radius"] = "1-7 m", 
+    ["autostat.explosiondamage"] = 199, 
+    ["autostat.explosionradius"] = "1-7 m", 
     ["Fuse time"] = "0.04 s"
 }
 
@@ -138,7 +138,7 @@ ATT.Description = [[M576 is a 40mm buckshot shot shell. MP-APERS stands for Mult
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTRoundName2 = "40x46mm M576 (MP-APERS)"
+ATT.EFTRoundName2 = "eft_ammo_40x46_m576.printname"
 ATT.HasGranataAmmo = true 
 
 ATT.DamageMaxUBGL = 106 * mult1270
@@ -173,7 +173,7 @@ ATT.Description = [[M576 is a 40mm buckshot shot shell. MP-APERS stands for Mult
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTRoundName2 = "40x46mm M576 (MP-APERS)"
+ATT.EFTRoundName2 = "eft_ammo_40x46_m576_nonubgl.printname"
 ATT.HasGranataAmmo = true 
 
 ATT.DamageMax = 106 * mult1270
