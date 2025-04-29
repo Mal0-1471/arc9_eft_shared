@@ -210,9 +210,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = "A 30-round polymer Magpul Pmag 30
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "AKMN 도브테일 마운트"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "AKM에 조준기 및 기타 추가 장치를 설치하기 위한 마운트입니다." .. customatt
+L["eft_akn.printname"] = "\"N\" 도브테일 마운트"
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "AKM/AK74에 조준기 및 기타 추가 장치를 설치하기 위한 마운트입니다." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

@@ -210,9 +210,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = " 30 mermi kapasiteli polimer magp
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "Dovetail AKMN montaj aparatı."
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "AKM üzerine nişangah ve diğer ek teçhizatların kurulumu için gerekli montaj aparatı." .. customatt
+L["eft_akn.printname"] = "Dovetail \"N\" montaj aparatı."
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "АКM/AK-74 üzerine nişangah ve diğer ek teçhizatların kurulumu için gerekli montaj aparatı." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

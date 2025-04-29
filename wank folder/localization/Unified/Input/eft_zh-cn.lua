@@ -210,9 +210,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = eftstring["59d6272486f77466146386f
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "AKMN燕尾槽基座"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "用于在AKM上安装瞄具及其他附加设备的基座。" .. customatt
+L["eft_akn.printname"] = "「N」燕尾槽基座"
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "用于在AKM/AK74上安装瞄具及其他附加设备的基座。" .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

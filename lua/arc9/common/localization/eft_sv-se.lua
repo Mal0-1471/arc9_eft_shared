@@ -191,9 +191,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = "Ett 30-skotts polymer \"Magpul Pm
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "AKMN laxstjärtskena"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "En montering för installation av riktmedel och andra enheter på automatkarbinen AKM." .. customatt
+L["eft_akn.printname"] = "\"N\" laxstjärtskena"
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "En montering för installation av riktmedel och andra enheter på automatkarbinen AKM/AK74." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

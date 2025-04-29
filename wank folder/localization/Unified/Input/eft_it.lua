@@ -210,9 +210,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = eftstring["59d6272486f77466146386f
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "Supporto a coda di rondine AKMN"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "Un supporto per l'installazione di mirini ed altri dispositivi supplementari per caraine AKM." .. customatt
+L["eft_akn.printname"] = "Supporto a coda di rondine \"N\""
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "Un supporto per l'installazione di mirini ed altri dispositivi supplementari per caraine AKM/AK74." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

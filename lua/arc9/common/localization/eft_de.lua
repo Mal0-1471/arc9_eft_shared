@@ -210,9 +210,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = "A 30-round polymer Magpul Pmag 30
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "AKMN Dovetail Halterung"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "Eine Halterung zur Anbringung von Visieren und zusätzlichen Geräten auf dem AKM Sturmgewehr." .. customatt
+L["eft_akn.printname"] = "„N“ Dovetail Halterung"
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "Eine Halterung zur Anbringung von Visieren und zusätzlichen Geräten auf dem AKM/AK74 Sturmgewehr." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

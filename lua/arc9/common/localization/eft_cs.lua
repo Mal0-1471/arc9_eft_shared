@@ -210,9 +210,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = "Polymerový zásobník Magpul Pma
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "Boční montáž pro AKMN"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "Montáž pro instalaci mířidel a dalších zařízení na karabiny AKM." .. customatt
+L["eft_akn.printname"] = "Boční montáž pro \"N\""
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "Montáž pro instalaci mířidel a dalších zařízení na karabiny AKM/AK74." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

@@ -210,9 +210,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = "30-nabojowy polimerowy magazynek 
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "Montaż do AKMN na jaskółczy ogon"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "Montaż do instalacji celowników i dodatkowych urządzeń na karabinkach AKM." .. customatt
+L["eft_akn.printname"] = "Montaż do \"N\" na jaskółczy ogon"
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "Montaż do instalacji celowników i dodatkowych urządzeń na karabinkach AKM/AK74." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15

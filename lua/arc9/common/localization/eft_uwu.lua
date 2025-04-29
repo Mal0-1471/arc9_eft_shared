@@ -191,9 +191,9 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = "A 30-round polymer Magpul Pmag 30
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
-L["eft_akn.printname"] = "AKMN dovetail mount"
-L["eft_akn.compactname"] = "AKMN"
-L["eft_akn.description"] = "A mount for installation of sights and other additional devices on the AKM assault rifles." .. customatt
+L["eft_akn.printname"] = "\"N\" dovetail mount"
+L["eft_akn.compactname"] = "AK-N"
+L["eft_akn.description"] = "A mount for installation of sights and other additional devices on the AKM/AK74 assault rifles." .. customatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
