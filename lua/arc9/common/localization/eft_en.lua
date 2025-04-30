@@ -105,6 +105,9 @@ L["setting.eft.flashduration.desc"] = "Multiplies how long the flashbang blindne
 L["setting.eft.ahmad.title"] = "Ahmad Flashbang"
 L["setting.eft.ahmad.desc"] = "Ahmad appears on your screen when you are blinded."
 
+L["setting.eft.jamhud.title"] = "Malfunction Notification & Sound"
+L["setting.eft.jamhud.desc"] = "Ahmad"
+
 L["setting.eft.prtaran.title"] = "Forced Jam if PR-Taran is present"
 L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Taran\" melee weapon, all EFT weapons will immediately jam.\n\nSets the ARC9 Malfunction Chance multiplier to 9999 - reverts when no PR-Taran is present."
 
