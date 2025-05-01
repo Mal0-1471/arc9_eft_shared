@@ -365,6 +365,9 @@ L["eft_fmode_singleaction"] = "S. ACTION"
 L["eft_fmode_melee"] = "MÊLÉE"
 L["eft_fmode_grenade"] = "GRENADE"
 
+-- L["eft_toggle_folded"] = "FOLDED"
+-- L["eft_toggle_unfolded"] = "UNFOLDED"
+
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomie"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
@@ -466,7 +469,8 @@ L["eft_cat_muzzle"] = "Bouche"
 L["eft_cat_silencer"] = "Réducteur de son"
 L["eft_cat_tactical"] = "Tactique"
 L["eft_cat_trigger"] = "Détente"
-L["eft_cat_backup"] = "Backup"
+L["eft_cat_backup"] = "Mire de secours"
+L["eft_cat_dovetail"] = "Queue d'aronde"
 
 L["eft_cat_tactical_l"] = "Tactique" .. attdir.l
 L["eft_cat_tactical_r"] = "Tactique" .. attdir.r
@@ -477,12 +481,6 @@ L["eft_cat_mount_l"] = "Rail" .. attdir.l
 L["eft_cat_mount_r"] = "Rail" .. attdir.r
 L["eft_cat_mount_u"] = "Rail" .. attdir.u
 L["eft_cat_mount_b"] = "Rail" .. attdir.b
-
--- [[ EFT Folder Names ]]
-L["eft_fol_compact"] = "Compact" -- 55818acf4bdc2dde698b456b
-L["eft_fol_reflex"] = "Reflex" -- 55818ad54bdc2ddc698b4569
-L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
-L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
 
 -- [[ Shared ]]
 -- Optics

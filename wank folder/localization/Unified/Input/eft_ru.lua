@@ -365,6 +365,9 @@ L["eft_fmode_singleaction"] = "О. ДЕЙСТВИЯ"
 L["eft_fmode_melee"] = "ХОЛОДНОЕ"
 L["eft_fmode_grenade"] = "ГРАНАТЫ"
 
+-- L["eft_toggle_folded"] = "FOLDED"
+-- L["eft_toggle_unfolded"] = "UNFOLDED"
+
 -- [[ Customization ]]
 L["Ergonomics"] = "Эргономика"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
@@ -466,7 +469,8 @@ L["eft_cat_muzzle"] = "Ствол"
 L["eft_cat_silencer"] = "Глушитель"
 L["eft_cat_tactical"] = "Такт."
 L["eft_cat_trigger"] = "Спуск"
-L["eft_cat_backup"] = "Backup"
+L["eft_cat_backup"] = "Backup sight"
+L["eft_cat_dovetail"] = "Ласточкин хвост"
 
 L["eft_cat_tactical_l"] = "Такт." .. attdir.l
 L["eft_cat_tactical_r"] = "Такт." .. attdir.r
@@ -479,12 +483,6 @@ L["eft_cat_mount_u"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.u
 L["eft_cat_mount_b"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.b
 
 L["eft_cat_scope"] = "Прицел"
-
--- [[ EFT Folder Names ]]
-L["eft_fol_compact"] = "Компакт." -- 55818acf4bdc2dde698b456b
-L["eft_fol_reflex"] = "Коллимат." -- 55818ad54bdc2ddc698b4569
-L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
-L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
 
 -- [[ Shared ]]
 -- Optics

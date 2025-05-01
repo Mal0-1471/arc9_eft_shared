@@ -367,6 +367,9 @@ L["eft_fmode_singleaction"] = "S.-ACTION"
 L["eft_fmode_melee"] = "NAHKAMPF"
 L["eft_fmode_grenade"] = "GRANATE"
 
+-- L["eft_toggle_folded"] = "FOLDED"
+-- L["eft_toggle_unfolded"] = "UNFOLDED"
+
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
@@ -468,7 +471,8 @@ L["eft_cat_muzzle"] = "Mündung"
 L["eft_cat_silencer"] = "Schalldämpfer"
 L["eft_cat_tactical"] = "Taktisch"
 L["eft_cat_trigger"] = "Abzug"
-L["eft_cat_backup"] = "Backup"
+L["eft_cat_backup"] = "Backupvisier"
+L["eft_cat_dovetail"] = "Dovetail"
 
 L["eft_cat_tactical_l"] = "Taktisch" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktisch" .. attdir.r
@@ -479,12 +483,6 @@ L["eft_cat_mount_l"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.l
 L["eft_cat_mount_r"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.r
 L["eft_cat_mount_u"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.u
 L["eft_cat_mount_b"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.b
-
--- [[ EFT Folder Names ]]
-L["eft_fol_compact"] = "Kompaktes" -- 55818acf4bdc2dde698b456b
-L["eft_fol_reflex"] = "Reflex" -- 55818ad54bdc2ddc698b4569
-L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
-L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
 
 -- [[ Shared ]]
 -- Optics

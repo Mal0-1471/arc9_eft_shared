@@ -365,6 +365,9 @@ L["eft_fmode_singleaction"] = "싱글 액션"
 L["eft_fmode_melee"] = "근접무기"
 L["eft_fmode_grenade"] = "수류탄"
 
+-- L["eft_toggle_folded"] = "FOLDED"
+-- L["eft_toggle_unfolded"] = "UNFOLDED"
+
 -- [[ Customization ]]
 L["Ergonomics"] = "인체 공학"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
@@ -466,7 +469,8 @@ L["eft_cat_muzzle"] = "총구"
 L["eft_cat_silencer"] = "소음기"
 L["eft_cat_tactical"] = "전술장비"
 L["eft_cat_trigger"] = "방아쇠"
-L["eft_cat_backup"] = "Backup"
+L["eft_cat_backup"] = "보조 가늠자"
+L["eft_cat_dovetail"] = "도브테일"
 
 L["eft_cat_tactical_l"] = "전술장비" .. attdir.l
 L["eft_cat_tactical_r"] = "전술장비" .. attdir.r
@@ -477,12 +481,6 @@ L["eft_cat_mount_l"] = "마운트" .. attdir.l
 L["eft_cat_mount_r"] = "마운트" .. attdir.r
 L["eft_cat_mount_u"] = "마운트" .. attdir.u
 L["eft_cat_mount_b"] = "마운트" .. attdir.b
-
--- [[ EFT Folder Names ]]
-L["eft_fol_compact"] = "소형" -- 55818acf4bdc2dde698b456b
-L["eft_fol_reflex"] = "반사" -- 55818ad54bdc2ddc698b4569
-L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
-L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
 
 -- [[ Shared ]]
 -- Optics

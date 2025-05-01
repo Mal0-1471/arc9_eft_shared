@@ -354,6 +354,9 @@ L["eft_fmode_singleaction"] = "S. ACTION"
 L["eft_fmode_melee"] = "MELEE"
 L["eft_fmode_grenade"] = "GRENADE"
 
+L["eft_toggle_folded"] = "FOLDED"
+L["eft_toggle_unfolded"] = "UNFOLDED"
+
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
@@ -423,6 +426,9 @@ L["Ergonomics"] = "Ergonomics"
 -- L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
 -- L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
 
+///////////////////////////// Non-EFT Weapon Names
+L["eft_weapon_aa12"] = "AA-12"
+
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
@@ -430,11 +436,40 @@ local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not prese
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
-L["eft_cat_ammo"] = "AMMO" -- Should never be seen, but better safe than sorry
-L["eft_cat_custom"] = "CUSTOM"
-L["eft_cat_camo1"] = "CAMO 1"
-L["eft_cat_camo2"] = "CAMO 2"
-L["eft_cat_camo3"] = "CAMO 3"
+local attdir = {
+	l = " L", -- Left
+	r = " R", -- Right
+	u = " U", -- Upper
+	b = " B" -- Bottom
+}
+
+L["eft_cat_ammo"] = "Ammo" -- Should never be seen, but better safe than sorry
+
+L["eft_cat_custom"] = "Custom"
+L["eft_cat_camo1"] = "Camo 1"
+L["eft_cat_camo2"] = "Camo 2"
+L["eft_cat_camo3"] = "Camo 3"
+
+L["eft_cat_catch"] = "Bolt catch"
+L["eft_cat_frontsight"] = "Front sight"
+L["eft_cat_rearsight"] = "Rear sight"
+L["eft_cat_hammer"] = "Hammer"
+L["eft_cat_muzzle"] = "Muzzle"
+L["eft_cat_silencer"] = "Suppressor"
+L["eft_cat_tactical"] = "Tactical"
+L["eft_cat_trigger"] = "Trigger"
+L["eft_cat_backup"] = "Backup sight"
+L["eft_cat_dovetail"] = "Dovetail"
+
+L["eft_cat_tactical_l"] = "Tactical" .. attdir.l
+L["eft_cat_tactical_r"] = "Tactical" .. attdir.r
+L["eft_cat_tactical_u"] = "Tactical" .. attdir.u
+L["eft_cat_tactical_b"] = "Tactical" .. attdir.b
+
+L["eft_cat_mount_l"] = "Mount" .. attdir.l
+L["eft_cat_mount_r"] = "Mount" .. attdir.r
+L["eft_cat_mount_u"] = "Mount" .. attdir.u
+L["eft_cat_mount_b"] = "Mount" .. attdir.b
 
 -- [[ Shared ]]
 -- Optics

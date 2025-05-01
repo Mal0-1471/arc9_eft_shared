@@ -305,6 +305,9 @@ L["eft_trivia_year"] = "Year"
 
 L["eft_trivia_manuf_fnherstal"] = "FN Herstal"
 L["eft_trivia_manuf_mps"] = "Military Police Systems"
+L["eft_trivia_manuf_rifledynamics"] = "Rifle Dynamics"
+L["eft_trivia_manuf_sureshot"] = "Sureshot Armament Group"
+L["eft_trivia_manuf_aklys"] = "Aklys Defense"
 
 L["eft_trivia_manuf_kalash"] = "Kalashnikov Concern"
 L["eft_trivia_manuf_molot"] = "Molot Oruzhie"
@@ -367,6 +370,9 @@ L["eft_fmode_doubleaction"] = "D. ACTION"
 L["eft_fmode_singleaction"] = "S. ACTION"
 L["eft_fmode_melee"] = "MELEE"
 L["eft_fmode_grenade"] = "GRENADE"
+
+L["eft_toggle_folded"] = "FOLDED"
+L["eft_toggle_unfolded"] = "UNFOLDED"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
@@ -456,7 +462,7 @@ local attdir = {
 
 L["eft_cat_ammo"] = "Ammo" -- Should never be seen, but better safe than sorry
 
-L["eft_cat_custom"] = "Custom"
+L["eft_cat_custom"] = "Custom slot"
 L["eft_cat_camo1"] = "Camo 1"
 L["eft_cat_camo2"] = "Camo 2"
 L["eft_cat_camo3"] = "Camo 3"
@@ -469,7 +475,8 @@ L["eft_cat_muzzle"] = "Muzzle"
 L["eft_cat_silencer"] = "Suppressor"
 L["eft_cat_tactical"] = "Tactical"
 L["eft_cat_trigger"] = "Trigger"
-L["eft_cat_backup"] = "Backup"
+L["eft_cat_backup"] = "Backup sight"
+L["eft_cat_dovetail"] = "Dovetail"
 
 L["eft_cat_tactical_l"] = "Tactical" .. attdir.l
 L["eft_cat_tactical_r"] = "Tactical" .. attdir.r

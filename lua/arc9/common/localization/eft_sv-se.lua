@@ -354,6 +354,9 @@ L["eft_fmode_singleaction"] = "S. ACTION"
 L["eft_fmode_melee"] = "NÄRSTRID"
 L["eft_fmode_grenade"] = "GRANAT"
 
+L["eft_toggle_folded"] = "INVIKT"
+L["eft_toggle_unfolded"] = "UTFÄLLD"
+
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomi"
 L["Ergonomics.desc"] = "[ EFT ] Påverkar siktehastigheten och uthållighetstömning."
@@ -423,6 +426,25 @@ L["setting.eft.holdtypes.desc"] = "Byter alla vapnens \"hold types\" till deras 
 L["setting.eft.rshg2.title"] = "RShG-2; Ta bort efter användning"
 L["setting.eft.rshg2.desc"] = "Om påslagen så kommer RShG-2:an tas bort från ditt lager efter dess användning. Beter sig som Call of Duty-spelens raketgevär."
 
+///////////////////////////// EFT Categories
+L["eft_cat_barrel"] = "Pipa"
+L["eft_cat_bipod"] = "Benstöd"
+L["eft_cat_charge"] = "Laddhandtag"
+L["eft_cat_foregrip"] = "Framgrepp"
+L["eft_cat_gasblock"] = "Gaslås"
+L["eft_cat_handguard"] = "Handskydd"
+L["eft_cat_launcher"] = "Granattillsats"
+L["eft_cat_flashlight"] = "Ficklampa"
+L["eft_cat_ctd"] = "Komb. takt. enhet"
+L["eft_cat_railcover"] = "Skydd till skenor"
+L["eft_cat_magazine"] = "Magasin"
+L["eft_cat_magshaft"] = "Magasinbrunn"
+L["eft_cat_mount"] = "Fäste"
+L["eft_cat_pgrip"] = "Pistolgrepp"
+L["eft_cat_receiver"] = "Låda"
+L["eft_cat_scope"] = "Sikte"
+L["eft_cat_stock"] = "Kolv"
+
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
@@ -430,6 +452,13 @@ local customatt = "\n\n[ <color=255,200,25>Detta är ett anpassat tillbehör som
 local extrasatt = "\n\n[ <color=255,200,25>Detta är ett anpassat tillbehör från EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
+local attdir = {
+	l = " V", -- Vänster / Left
+	r = " H", -- Höger / Right
+	u = " Ö", -- Övre / Upper
+	b = " N" -- Under / Bottom
+}
+
 L["eft_cat_ammo"] = "Ammo" -- Should never be seen, but better safe than sorry
 
 L["eft_cat_custom"] = "Anpassad"
@@ -445,17 +474,18 @@ L["eft_cat_muzzle"] = "Mynning"
 L["eft_cat_silencer"] = "Ljuddämpare"
 L["eft_cat_tactical"] = "Taktisk"
 L["eft_cat_trigger"] = "Avtryckare"
+L["eft_cat_backup"] = "Reservsikte"
+L["eft_cat_dovetail"] = "Laxstjärt"
 
-L["eft_cat_mount_l"] = "Mount V" -- Left
-L["eft_cat_mount_r"] = "Mount H" -- Right
-L["eft_cat_mount_u"] = "Mount U" -- Up
-L["eft_cat_mount_d"] = "Mount N" -- Down
+L["eft_cat_tactical_l"] = "Taktisk" .. attdir.l
+L["eft_cat_tactical_r"] = "Taktisk" .. attdir.r
+L["eft_cat_tactical_u"] = "Taktisk" .. attdir.u
+L["eft_cat_tactical_b"] = "Taktisk" .. attdir.b
 
--- [[ EFT Folder Names ]]
-L["eft_fol_compact"] = "Compact" -- 55818acf4bdc2dde698b456b
-L["eft_fol_reflex"] = "Reflex" -- 55818ad54bdc2ddc698b4569
-L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
-L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
+L["eft_cat_mount_l"] = "Fäste" .. attdir.l
+L["eft_cat_mount_r"] = "Fäste" .. attdir.r
+L["eft_cat_mount_u"] = "Fäste" .. attdir.u
+L["eft_cat_mount_b"] = "Fäste" .. attdir.b
 
 -- [[ Shared ]]
 -- Optics

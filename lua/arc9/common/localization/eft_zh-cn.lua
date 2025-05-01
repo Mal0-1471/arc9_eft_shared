@@ -365,6 +365,9 @@ L["eft_fmode_singleaction"] = "S. ACTION"
 L["eft_fmode_melee"] = "近战"
 L["eft_fmode_grenade"] = "手雷"
 
+-- L["eft_toggle_folded"] = "FOLDED"
+-- L["eft_toggle_unfolded"] = "UNFOLDED"
+
 -- [[ Customization ]]
 L["Ergonomics"] = "人机工效"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
@@ -466,7 +469,8 @@ L["eft_cat_muzzle"] = "膛口"
 L["eft_cat_silencer"] = "抑制器"
 L["eft_cat_tactical"] = "战术配件"
 L["eft_cat_trigger"] = "板机"
-L["eft_cat_backup"] = "Backup"
+L["eft_cat_backup"] = "备用照门"
+L["eft_cat_dovetail"] = "Dovetail"
 
 L["eft_cat_tactical_l"] = attdir.l .. "战术配件"
 L["eft_cat_tactical_r"] = attdir.r .. "战术配件"
@@ -477,12 +481,6 @@ L["eft_cat_mount_l"] = attdir.b .. "导轨基座"
 L["eft_cat_mount_r"] = attdir.u .. "导轨基座"
 L["eft_cat_mount_u"] = attdir.r .. "导轨基座"
 L["eft_cat_mount_b"] = attdir.l .. "导轨基座"
-
--- [[ EFT Folder Names ]]
-L["eft_fol_compact"] = "紧凑" -- 55818acf4bdc2dde698b456b
-L["eft_fol_reflex"] = "反射式瞄" -- 55818ad54bdc2ddc698b4569
-L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
-L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
 
 -- [[ Shared ]]
 -- Optics
