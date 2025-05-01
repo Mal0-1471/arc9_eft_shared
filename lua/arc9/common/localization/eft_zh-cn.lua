@@ -42,7 +42,7 @@ L = {}
 -- L["eft_trivia_calibr_366tkm"] = ".366 TKM"
 -- L["eft_trivia_calibr_545x39"] = "5.45x39mm"
 -- L["eft_trivia_calibr_556x45"] = "5.56x45mm"
--- L["eft_trivia_calibr_762x35"] = ".300 Blackout (7.62x35mm)"
+-- L["eft_trivia_calibr_762x35"] = "7.62x35mm (.300 Blackout)"
 -- L["eft_trivia_calibr_762x39"] = "7.62x39mm"
 -- L["eft_trivia_calibr_9x19"] = "9x19mm"
 -- L["eft_trivia_calibr_9x21"] = "9x21mm Gyurza"
@@ -78,10 +78,10 @@ L["Ergonomics"] = "人机工效"
 -- L["setting.eft.dmgmult.rifle.desc"] = "Examples:\n- 7.62x39"
 
 -- L["setting.eft.dmgmult.bigrifle.title"] = "Large Rifle Caliber"
--- L["setting.eft.dmgmult.bigrifle.desc"] = "Examples:\n- 7.62x51, 7.62x54R"
+-- L["setting.eft.dmgmult.bigrifle.desc"] = "Examples:\n- 7.62x51\n- 7.62x54R"
 
 -- L["setting.eft.dmgmult.338.title"] = ".338 Lapua Caliber"
--- L["setting.eft.dmgmult.338.desc"] = "Examples:\n- 8.6x70 (i.e. .338 Lapua Magnum)"
+-- L["setting.eft.dmgmult.338.desc"] = "Examples:\n- 8.6x70 (.338 Lapua Magnum)"
 
 -- L["setting.eft.dmgmult.massive.title"] = "Huge Rifle Caliber"
 -- L["setting.eft.dmgmult.massive.desc"] = "Examples:\n- 366 TKM\n- 12.7x55"
@@ -103,6 +103,9 @@ L["Ergonomics"] = "人机工效"
 
 -- L["setting.eft.ahmad.title"] = "Ahmad Flashbang"
 -- L["setting.eft.ahmad.desc"] = "Ahmad appears on your screen when you are blinded."
+
+-- L["setting.eft.jamhud.title"] = "Malfunction Notification & Sound"
+-- L["setting.eft.jamhud.desc"] = "Displays a notification on your HUD, and plays a sound, when your EFT weapon jams."
 
 -- L["setting.eft.prtaran.title"] = "Forced Jam if PR-Taran is present"
 -- L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Taran\" melee weapon, all EFT weapons will immediately jam.\n\nSets the ARC9 Malfunction Chance multiplier to 9999 - reverts when no PR-Taran is present."
@@ -184,11 +187,32 @@ local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT 
 -- L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
 
 -- [[ EFT Category Names ]]
-L["eft_cat_ammo"] = "AMMO" -- Should never be seen, but better safe than sorry
-L["eft_cat_custom"] = "CUSTOM"
-L["eft_cat_camo1"] = "CAMO 1"
-L["eft_cat_camo2"] = "CAMO 2"
-L["eft_cat_camo3"] = "CAMO 3"
+L["eft_cat_ammo"] = "弹药" -- Should never be seen, but better safe than sorry
+
+L["eft_cat_custom"] = "自定义"
+L["eft_cat_camo1"] = "Camo 1"
+L["eft_cat_camo2"] = "Camo 2"
+L["eft_cat_camo3"] = "Camo 3"
+
+L["eft_cat_catch"] = "Bolt catch"
+L["eft_cat_frontsight"] = "准星"
+L["eft_cat_rearsight"] = "照门"
+L["eft_cat_hammer"] = "击锤"
+L["eft_cat_muzzle"] = "膛口"
+L["eft_cat_silencer"] = "抑制器"
+L["eft_cat_tactical"] = "战术配件"
+L["eft_cat_trigger"] = "板机"
+
+L["eft_cat_mount_l"] = "左側导轨基座" -- Left
+L["eft_cat_mount_r"] = "右側导轨基座" -- Right
+L["eft_cat_mount_u"] = "上裝导轨基座" -- Up
+L["eft_cat_mount_d"] = "底部安裝导轨基座" -- Down
+
+-- [[ EFT Folder Names ]]
+L["eft_fol_compact"] = "紧凑" -- 55818acf4bdc2dde698b456b
+L["eft_fol_reflex"] = "反射式瞄" -- 55818ad54bdc2ddc698b4569
+L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
+L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
 
 -- [[ Shared ]]
 -- Optics
@@ -377,7 +401,8 @@ L["eft_mag_usp_ext.description"] = "An aftermarket 17-round .45 ACP magazine." .
 
 L["eft_extras_manualpump.printname"] = "Manual cycling"
 L["eft_extras_manualpump.compactname"] = "Manual cycle"
-L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"Manual Cycling\" in ARC9's settings!" .. extrasatt
+L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"" .. ARC9:GetPhrase("settings.server.gameplay.manualbolt.title") .. "\" in ARC9's settings!" .. extrasatt
+-- Phrase is "Enable Manual Cycling"
 
 L["eft_extras_cooling.printname"] = "Water Cooling"
 L["eft_extras_cooling.compactname"] = "Cooling"

@@ -70,10 +70,10 @@ L["setting.eft.dmgmult.rifle.title"] = "Gevärspatron"
 L["setting.eft.dmgmult.rifle.desc"] = "Exempel:\n- 7,62 x 39"
 
 L["setting.eft.dmgmult.bigrifle.title"] = "Stor gevärspatron"
-L["setting.eft.dmgmult.bigrifle.desc"] = "Exempel:\n- 7,62 x 51, 7,62 x 54R"
+L["setting.eft.dmgmult.bigrifle.desc"] = "Exempel:\n- 7,62 x 51\n- 7,62 x 54R"
 
 L["setting.eft.dmgmult.338.title"] = ".338 Lapua-Patron"
-L["setting.eft.dmgmult.338.desc"] = "Exempel:\n- 8,6 x 70 (dvs. .338 Lapua Magnum)"
+L["setting.eft.dmgmult.338.desc"] = "Exempel:\n- 8,6 x 70 (.338 Lapua Magnum)"
 
 L["setting.eft.dmgmult.massive.title"] = "Massiv gevärspatron"
 L["setting.eft.dmgmult.massive.desc"] = "Exempel:\n- 366 TKM\n- 12,7 x 55"
@@ -95,6 +95,9 @@ L["setting.eft.flashduration.desc"] = "Multiplikator för hur länge chockgranat
 
 L["setting.eft.ahmad.title"] = "Ahmad-Chockgranat"
 L["setting.eft.ahmad.desc"] = "Ahmad visar upp sig på skärmen när du blir förblindad."
+
+L["setting.eft.jamhud.title"] = "Notis och ljud vid eldavbrott"
+L["setting.eft.jamhud.desc"] = "Visar en notifikation på ditt gränssnitt, och spelar upp ett ljud, när ditt EFT-vapen får eldavbrott."
 
 L["setting.eft.prtaran.title"] = "Tvinga eldavbrott när PR-Taran finns"
 L["setting.eft.prtaran.desc"] = "[ Närstridspack ]\nOm en spelare tar fram närstridsvapnet \"PR-Taran\" så kommer alla EFT-vapen omedelbart få eldavbrott.\n\nSätter ARC9 chans för eldavbrott till 9999 - återställs när ingen PR-Taran finns."
@@ -165,11 +168,32 @@ L["eft_subcat_melee"] = "9Närstridsvapen"
 L["eft_subcat_grenades"] = "8Granater & Granatkastare"
 
 -- [[ EFT Category Names ]]
-L["eft_cat_ammo"] = "AMMO" -- Should never be seen, but better safe than sorry
-L["eft_cat_custom"] = "ANPASSAD"
-L["eft_cat_camo1"] = "KAMO 1"
-L["eft_cat_camo2"] = "KAMO 2"
-L["eft_cat_camo3"] = "KAMO 3"
+L["eft_cat_ammo"] = "Ammo" -- Should never be seen, but better safe than sorry
+
+L["eft_cat_custom"] = "Anpassad"
+L["eft_cat_camo1"] = "Kamo 1"
+L["eft_cat_camo2"] = "Kamo 2"
+L["eft_cat_camo3"] = "Kamo 3"
+
+L["eft_cat_catch"] = "Bolt catch"
+L["eft_cat_frontsight"] = "Korn"
+L["eft_cat_rearsight"] = "Baksikte"
+L["eft_cat_hammer"] = "Hane"
+L["eft_cat_muzzle"] = "Mynning"
+L["eft_cat_silencer"] = "Ljuddämpare"
+L["eft_cat_tactical"] = "Taktisk"
+L["eft_cat_trigger"] = "Avtryckare"
+
+L["eft_cat_mount_l"] = "Mount V" -- Left
+L["eft_cat_mount_r"] = "Mount H" -- Right
+L["eft_cat_mount_u"] = "Mount U" -- Up
+L["eft_cat_mount_d"] = "Mount N" -- Down
+
+-- [[ EFT Folder Names ]]
+L["eft_fol_compact"] = "Compact" -- 55818acf4bdc2dde698b456b
+L["eft_fol_reflex"] = "Reflex" -- 55818ad54bdc2ddc698b4569
+L["eft_fol_assault"] = "Assault" -- 55818add4bdc2d5b648b456f
+L["eft_fol_special"] = "Special" -- 55818aeb4bdc2ddc698b456a
 
 -- [[ Shared ]]
 -- Optics
@@ -356,37 +380,38 @@ L["eft_mag_usp_ext.printname"] = "17-skottsmagasin av kaliber .45 ACP till HK US
 L["eft_mag_usp_ext.compactname"] = "USP45 17"
 L["eft_mag_usp_ext.description"] = "Eftermarknads 17-skottsmagasin av kaliber .45 ACP." .. extrasatt
 
-L["eft_extras_manualpump.printname"] = "Manual cycling"
-L["eft_extras_manualpump.compactname"] = "Manual cycle"
-L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"Manual Cycling\" in ARC9's settings!" .. extrasatt
+L["eft_extras_manualpump.printname"] = "Manuell repetering"
+L["eft_extras_manualpump.compactname"] = "Manuell rep."
+L["eft_extras_manualpump.description"] = "Aktiverar \"Manuell repetering\" på EFT-hagelgevären; normalt sätt förbigår dem detta.\n\nGlöm inte att aktivera \"" .. ARC9:GetPhrase("settings.server.gameplay.manualbolt.title") .. "\" i ARC9-inställningarna!" .. extrasatt
+-- Phrase is "Enable Manual Cycling"
 
-L["eft_extras_cooling.printname"] = "Water Cooling"
-L["eft_extras_cooling.compactname"] = "Cooling"
-L["eft_extras_cooling.description"] = "Makes sure the weapon can shoot longer before overheating.\nIntended for use on the AS VAL and VSS Vintorez, but oh well." .. extrasatt
+L["eft_extras_cooling.printname"] = "Vattenkylning"
+L["eft_extras_cooling.compactname"] = "Kylning"
+L["eft_extras_cooling.description"] = "Försäkrar att vapnet kan skjutas längre innan den överhettas.\nEgentligen gjord för användning på AS VAL och VSS Vintorez, men aja." .. extrasatt
 
-L["eft_extras_melee_range.printname"] = "Longer Reach"
-L["eft_extras_melee_range.compactname"] = "Reach"
-L["eft_extras_melee_range.description"] = "Adds 24HU (~0.607m) to the the melee range." .. extrasatt
+L["eft_extras_melee_range.printname"] = "Längre Räckvidd"
+L["eft_extras_melee_range.compactname"] = "Räckvidd"
+L["eft_extras_melee_range.description"] = "Lägger till 24HU (~0,607m) till närstrid räckvidden." .. extrasatt
 
-L["eft_extras_melee_bash.printname"] = "Sprint Melee"
-L["eft_extras_melee_bash.compactname"] = "Sprint"
-L["eft_extras_melee_bash.description"] = "Allows you to melee while sprinting." .. extrasatt
+L["eft_extras_melee_bash.printname"] = "Språng Närstrid"
+L["eft_extras_melee_bash.compactname"] = "Språng"
+L["eft_extras_melee_bash.description"] = "Tillåter dig att anfalla med närstridsvapen medans du springer." .. extrasatt
 
-L["eft_extras_melee_lunge.printname"] = "Commando Lunge"
-L["eft_extras_melee_lunge.compactname"] = "Commando"
-L["eft_extras_melee_lunge.description"] = "When in range of an opponent, you'll be able to lunge at them, quickly getting in their face." .. extrasatt
+L["eft_extras_melee_lunge.printname"] = "Kommando Longering"
+L["eft_extras_melee_lunge.compactname"] = "Kommando"
+L["eft_extras_melee_lunge.description"] = "När du är i räckvidd av en motståndare så kan du longera mot dem och snabbt hamna direkt i deras ansikten." .. extrasatt
 
-L["eft_extras_melee_lungemore.printname"] = "Longer Reach Pro"
-L["eft_extras_melee_lungemore.compactname"] = "Longer Pro"
-L["eft_extras_melee_lungemore.description"] = "Adds 75HU (~1.9m) to the melee range." .. extrasatt
+L["eft_extras_melee_lungemore.printname"] = "Längre Räckvidd, Proffs"
+L["eft_extras_melee_lungemore.compactname"] = "Längre Pro."
+L["eft_extras_melee_lungemore.description"] = "Lägger till 75HU (~1,9m) till närstrid räckvidden." .. extrasatt
 
-L["eft_extras_melee_backstab.printname"] = "Backstab"
-L["eft_extras_melee_backstab.compactname"] = "Backstab"
-L["eft_extras_melee_backstab.description"] = "Allows you to backstab opponents, allowing instant kills." .. extrasatt
+L["eft_extras_melee_backstab.printname"] = "Rygghugg"
+L["eft_extras_melee_backstab.compactname"] = "Rygghugg"
+L["eft_extras_melee_backstab.description"] = "Tillåter dig att hugga motståndare i ryggen, vilket ger omedelbara dråp." .. extrasatt
 
-L["eft_extras_melee_swingspeed.printname"] = "Swing Speed"
-L["eft_extras_melee_swingspeed.compactname"] = "Swing"
-L["eft_extras_melee_swingspeed.description"] = "Allows you to melee faster." .. extrasatt
+L["eft_extras_melee_swingspeed.printname"] = "Närstridshastighet"
+L["eft_extras_melee_swingspeed.compactname"] = "Hastighet"
+L["eft_extras_melee_swingspeed.description"] = "Tillåter dig att använda närstridsvapnet snabbare." .. extrasatt
 
 -- 55802d5f4bdc2dac148b458e
 L["eft_aug_mag_30_pmag.printname"] = "5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine"

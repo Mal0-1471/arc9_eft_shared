@@ -70,10 +70,10 @@ L["Ergonomics"] = "Ergonomics"
 -- L["setting.eft.dmgmult.rifle.desc"] = "Examples:\n- 7.62x39"
 
 -- L["setting.eft.dmgmult.bigrifle.title"] = "Large Rifle Caliber"
--- L["setting.eft.dmgmult.bigrifle.desc"] = "Examples:\n- 7.62x51, 7.62x54R"
+-- L["setting.eft.dmgmult.bigrifle.desc"] = "Examples:\n- 7.62x51\n- 7.62x54R"
 
 -- L["setting.eft.dmgmult.338.title"] = ".338 Lapua Caliber"
--- L["setting.eft.dmgmult.338.desc"] = "Examples:\n- 8.6x70 (i.e. .338 Lapua Magnum)"
+-- L["setting.eft.dmgmult.338.desc"] = "Examples:\n- 8.6x70 (.338 Lapua Magnum)"
 
 -- L["setting.eft.dmgmult.massive.title"] = "Huge Rifle Caliber"
 -- L["setting.eft.dmgmult.massive.desc"] = "Examples:\n- 366 TKM\n- 12.7x55"
@@ -95,6 +95,9 @@ L["Ergonomics"] = "Ergonomics"
 
 -- L["setting.eft.ahmad.title"] = "Ahmad Flashbang"
 -- L["setting.eft.ahmad.desc"] = "Ahmad appears on your screen when you are blinded."
+
+-- L["setting.eft.jamhud.title"] = "Malfunction Notification & Sound"
+-- L["setting.eft.jamhud.desc"] = "Displays a notification on your HUD, and plays a sound, when your EFT weapon jams."
 
 -- L["setting.eft.prtaran.title"] = "Forced Jam if PR-Taran is present"
 -- L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Taran\" melee weapon, all EFT weapons will immediately jam.\n\nSets the ARC9 Malfunction Chance multiplier to 9999 - reverts when no PR-Taran is present."
@@ -358,7 +361,8 @@ L["eft_mag_usp_ext.description"] = "An aftermarket 17-round .45 ACP magazine." .
 
 L["eft_extras_manualpump.printname"] = "Manual cycling"
 L["eft_extras_manualpump.compactname"] = "Manual cycle"
-L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"Manual Cycling\" in ARC9's settings!" .. extrasatt
+L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"" .. ARC9:GetPhrase("settings.server.gameplay.manualbolt.title") .. "\" in ARC9's settings!" .. extrasatt
+-- Phrase is "Enable Manual Cycling"
 
 L["eft_extras_cooling.printname"] = "Water Cooling"
 L["eft_extras_cooling.compactname"] = "Cooling"
