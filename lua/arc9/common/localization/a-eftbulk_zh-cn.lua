@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Kel-Tec的RFB螺纹垫片。它是安�
 L["eft_muzzle_rfb_fh.printname"] = "RFB 7.62x51 标准消焰器"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB FH"
 L["eft_muzzle_rfb_fh.description"] = "RFB 7.62x51 鸟笼消焰器，Kel-Tec量产。"
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Chiappa Rhino木质手枪式握把"
+L["eft_rhino_pgrip_std.compactname"] = "CR 木质握把"
+L["eft_rhino_pgrip_std.description"] = "Rhino转轮手枪所使用的的木质手枪式握把，由Chiappa Firearms生产。"
+
+L["eft_rhino_pgrip_poly.printname"] = "Chiappa Rhino塑料手枪式握把"
+L["eft_rhino_pgrip_poly.compactname"] = "CR 手枪式"
+L["eft_rhino_pgrip_poly.description"] = "Rhino转轮手枪标配的塑料材质握把，由Chiappa Firearms生产。"
+
+L["eft_rhino_rs_std.printname"] = "Chiappa Rhino照门"
+L["eft_rhino_rs_std.compactname"] = "CR 照门"
+L["eft_rhino_rs_std.description"] = "Rhino转轮手枪标配的照门，由Chiappa Firearms生产。"
+
+L["eft_rhino_rs_red.printname"] = "Chiappa Rhino绿色光学照门"
+L["eft_rhino_rs_red.compactname"] = "CR 绿光"
+L["eft_rhino_rs_red.description"] = "带有绿色氚光源的Rhino转轮手枪照门，由Chiappa Firearms生产。"
+
+L["eft_rhino_fs_std.printname"] = "Chiappa Rhino准星"
+L["eft_rhino_fs_std.compactname"] = "CR 准星"
+L["eft_rhino_fs_std.description"] = "Rhino转轮手枪标配的准星，由Chiappa Firearms生产。"
+
+L["eft_rhino_fs_red.printname"] = "Chiappa Rhino绿色光学准星"
+L["eft_rhino_fs_red.compactname"] = "CR 绿光"
+L["eft_rhino_fs_red.description"] = "带有绿色氚光源的Rhino转轮手枪准星，由Chiappa Firearms生产。"

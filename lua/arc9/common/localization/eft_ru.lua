@@ -2,7 +2,295 @@ L = {}
 
 //////////////////////////////////////////////////////////////////////
 ///////////////////////////// Escape from Tarkov Localization File - Russian
-////////////// Non-EFT Strings
+////////////// EFT General Strings
+-- [[ HUD ]]
+L["eft_hud_full"] = "Полон"
+L["eft_hud_empty"] = "Пусто"
+L["eft_hud_nearlyfull"] = "Почти полон"
+L["eft_hud_aboutfull"] = "Около половины"
+L["eft_hud_lessthanhlaf"] = "Меньше половины"
+L["eft_hud_almostempty"] = "Почти пуст"
+L["eft_hud_none"] = "ПУСТО"
+L["eft_hud_malf"] = "Неполадка: %s"
+L["eft_hud_misfire"] = "Осечка"
+L["eft_hud_eject"] = "Неизвлечение гильзы"
+L["eft_hud_feed"] = "Неподача патрона"
+L["eft_hud_bolt"] = "Заклинивание затвора"
+L["eft_hud_missing"] = "У вашего оружия недостаёт критических частей"
+L["eft_hud_badtrip"] = "Установка растяжки недоступна"
+
+-- [[ Weapon Categories ]]
+L["eft_subcat_carb"] = "5Штурмовые карабины"
+L["eft_subcat_ar"] = "1Штурмовые винтовки"
+L["eft_subcat_sg"] = "6Дробовики"
+L["eft_subcat_snip"] = "4Снайперские винтовки & Марксманские винтовки"
+L["eft_subcat_smg"] = "2Пистолеты-пулеметы"
+L["eft_subcat_lmg"] = "3Легкие пулеметы"
+L["eft_subcat_pist"] = "7Пистолеты"
+L["eft_subcat_melee"] = "9Холодное оружие"
+L["eft_subcat_grenades"] = "8Гранаты & Гранатометы"
+
+-- [[ Weapon Classes ]] - Need to be edited manually
+L["eft_class_weapon_singleshot"] = "Однозарядное ружье"
+L["eft_class_weapon_boltsg"] = "Болтовое ружье"
+L["eft_class_weapon_pist"] = "Пистолет"
+L["eft_class_weapon_revol"] = "Револьвер"
+L["eft_class_weapon_megapist"] = "Автоматический пистолет"
+L["eft_class_weapon_smg"] = "Пистолет-пулемет"
+L["eft_class_weapon_ar"] = "Штурмовая винтовка"
+L["eft_class_weapon_carb"] = "Штурмовой карабин"
+L["eft_class_weapon_semisg"] = "Самозарядный карабин"
+L["eft_class_weapon_autosg"] = "Автоматический дробовик"
+L["eft_class_weapon_pumpsg"] = "Помповое ружье"
+L["eft_class_weapon_lmg"] = "Ручной пулемет"
+L["eft_class_weapon_boltsnip"] = "Болтовая снайперская винтовка"
+L["eft_class_weapon_marks"] = "Марксманская винтовка"
+L["eft_class_weapon_dualsg"] = "Ружьё"
+L["eft_class_weapon_melee"] = "Оружие ближнего боя"
+
+L["eft_class_weapon_grenade"] = "Ручная граната"
+L["eft_class_weapon_flashbang"] = "Светозвуковая граната"
+L["eft_class_weapon_improvised_grenade"] = "Самодельная ручная граната"
+L["eft_class_weapon_stun"] = "Оглушающая граната"
+L["eft_class_weapon_smoke"] = "Дымовая граната"
+L["eft_class_weapon_grenadelauncher"] = "Гранатомёт"
+
+-- [[ Weapon Categories ]] - If not using localized strings
+L["eft_subcat_carb"] = "5Штурмовые карабины"
+L["eft_subcat_ar"] = "1Штурмовые винтовки"
+L["eft_subcat_sg"] = "6Дробовики"
+L["eft_subcat_snip"] = "4Снайперские и марксманские винтовки"
+L["eft_subcat_smg"] = "2Пистолеты-пулеметы"
+L["eft_subcat_lmg"] = "3Пулеметы"
+L["eft_subcat_pist"] = "7Пистолеты"
+L["eft_subcat_melee"] = "9Ближний бой"
+L["eft_subcat_grenades"] = "8Гранаты и гранатомёты"
+
+////////////// EFT Weapon Names
+--[[
+If you want to replace the weapon names and not use EFT's included
+"short names", then uncomment these; they will replace the EFT ones.
+--]]
+
+/////// Assault carbines
+-- L["eft_weapon_9a91"] = "9А-91"
+-- L["eft_weapon_adar215"] = "ADAR 2-15"
+-- L["eft_weapon_avt40"] = "АВТ-40"
+-- L["eft_weapon_opsks"] = "ОП-СКС"
+-- L["eft_weapon_rfb"] = "RFB"
+-- L["eft_weapon_sagak"] = "АК-545"
+-- L["eft_weapon_sagakshort"] = "АК-545 Кор."
+-- L["eft_weapon_sks"] = "СКС"
+-- L["eft_weapon_sr3m"] = "СР-3М"
+-- L["eft_weapon_svt40"] = "СВТ-40"
+-- L["eft_weapon_tx15"] = "TX-15 DML"
+-- L["eft_weapon_vpo101"] = "ВПО-101 \"Вепрь-Хантер\""
+-- L["eft_weapon_vpo136"] = "ВПО-136 \"Вепрь-КМ\""
+-- L["eft_weapon_vpo209"] = "ВПО-209"
+-- L["eft_weapon_vsk94"] = "ВСК-94"
+
+/////// Assault rifles
+-- L["eft_weapon_ak12"] = "АК-12"
+-- L["eft_weapon_ak74"] = "АК-74"
+-- L["eft_weapon_ak74m"] = "АК-74М"
+-- L["eft_weapon_ak74n"] = "АК-74Н"
+-- L["eft_weapon_ak101"] = "АК-101"
+-- L["eft_weapon_ak102"] = "АК-102"
+-- L["eft_weapon_ak103"] = "АК-103"
+-- L["eft_weapon_ak104"] = "АК-104"
+-- L["eft_weapon_ak105"] = "АК-105"
+-- L["eft_weapon_akm"] = "АКМ"
+-- L["eft_weapon_akmn"] = "АКМН"
+-- L["eft_weapon_akms"] = "АКМС"
+-- L["eft_weapon_akmsn"] = "АКМСН"
+-- L["eft_weapon_aks74"] = "АКС-74"
+-- L["eft_weapon_aks74n"] = "АКС-74Н"
+-- L["eft_weapon_aks74u"] = "АКС-74У"
+-- L["eft_weapon_aks74ub"] = "АКС-74УБ"
+-- L["eft_weapon_aks74un"] = "АКС-74УН"
+-- L["eft_weapon_asval"] = "АС \"Вал\""
+-- L["eft_weapon_ash12"] = "АШ-12"
+-- L["eft_weapon_auga1"] = "AUG A1"
+-- L["eft_weapon_auga3"] = "AUG A3"
+-- L["eft_weapon_mdr556"] = "MDR"
+-- L["eft_weapon_mdr762"] = "MDR"
+-- L["eft_weapon_g36"] = "G36"
+-- L["eft_weapon_hk416a5"] = "HK 416A5"
+-- L["eft_weapon_m4a1"] = "M4A1"
+-- L["eft_weapon_mcx"] = "MCX .300 BLK"
+-- L["eft_weapon_mcxspear"] = "SPEAR 6.8"
+-- L["eft_weapon_mk47"] = "Mk47"
+-- L["eft_weapon_rd704"] = "RD-704"
+-- L["eft_weapon_sa58"] = "SA58"
+-- L["eft_weapon_scarh"] = "Mk 17"
+-- L["eft_weapon_scarhx17"] = "X-17"
+-- L["eft_weapon_scarl"] = "Mk 16"
+-- L["eft_weapon_velociraptor"] = "Velociraptor .300 BLK"
+
+/////// Bolt-action rifles
+-- L["eft_weapon_dvl10"] = "ДВЛ-10"
+-- L["eft_weapon_m700"] = "M700"
+-- L["eft_weapon_mosininf"] = "Мосина Пехотная"
+-- L["eft_weapon_mosinsnip"] = "Мосина Снайперская"
+-- L["eft_weapon_sv98"] = "СВ-98"
+-- L["eft_weapon_t5000m"] = "T-5000M"
+-- L["eft_weapon_trgm10"] = "TRG M10"
+-- L["eft_weapon_vpo215"] = "ВПО-215 \"Горностай\""
+
+/////// Designated marksman rifles
+-- L["eft_weapon_g28"] = "G28"
+-- L["eft_weapon_m1a"] = "M1A"
+-- L["eft_weapon_mk18"] = "Mk-18 Mjölnir"
+-- L["eft_weapon_rsass"] = "RSASS"
+-- L["eft_weapon_sr25"] = "SR-25"
+-- L["eft_weapon_svds"] = "СВДС"
+-- L["eft_weapon_vss"] = "ВСС \"Винторез\""
+
+/////// Grenade launchers
+-- L["eft_weapon_fn40gl"] = "FN40GL"
+-- L["eft_weapon_m32a1"] = "MSGL"
+
+/////// Light machine guns
+-- L["eft_weapon_m60e4"] = "Mk 43 Mod 1"
+-- L["eft_weapon_m60e6"] = "M60E6"
+-- L["eft_weapon_pkm"] = "ПКМ"
+-- L["eft_weapon_pkp"] = "ПКП"
+-- L["eft_weapon_rpd"] = "РПД"
+-- L["eft_weapon_rpdn"] = "РПДН"
+-- L["eft_weapon_rpk16"] = "РПК-16"
+
+/////// Shotguns
+-- L["eft_weapon_aa12gen1"] = "AA-12 Gen 1"
+-- L["eft_weapon_aa12gen2"] = "AA-12 Gen 2"
+-- L["eft_weapon_ks23"] = "КС-23М"
+-- L["eft_weapon_m3super90"] = "M3 Super 90"
+-- L["eft_weapon_m590a1"] = "590A1"
+-- L["eft_weapon_m870"] = "M870"
+-- L["eft_weapon_mp18"] = "MP-18"
+-- L["eft_weapon_mp431c"] = "MP-43-1C"
+-- L["eft_weapon_mp133"] = "MP-133"
+-- L["eft_weapon_mp153"] = "MP-153"
+-- L["eft_weapon_mp155"] = "MP-155"
+-- L["eft_weapon_mts25512"] = "МЦ-255-12"
+-- L["eft_weapon_saiga12k"] = "Сайга-12К исп.10"
+-- L["eft_weapon_saiga12kfa"] = "Сайга FA"
+-- L["eft_weapon_toz106"] = "ТОЗ-106"
+
+/////// Submachine guns
+-- L["eft_weapon_mp5"] = "MP5"
+-- L["eft_weapon_mp5kn"] = "MP5K-N"
+-- L["eft_weapon_mp7a1"] = "MP7A1"
+-- L["eft_weapon_mp7a2"] = "MP7A2"
+-- L["eft_weapon_mp9"] = "MP9"
+-- L["eft_weapon_mp9n"] = "MP9-N"
+-- L["eft_weapon_mpx"] = "MPX"
+-- L["eft_weapon_p90"] = "P90"
+-- L["eft_weapon_pp9"] = "ПП-9 \"Клин\""
+-- L["eft_weapon_pp1901"] = "ПП-19-01"
+-- L["eft_weapon_pp91"] = "ПП-91 \"Кедр\""
+-- L["eft_weapon_pp9101"] = "ПП-91-01 \"Кедр-Б\""
+-- L["eft_weapon_ppsh41"] = "ППШ-41"
+-- L["eft_weapon_saiga9"] = "Сайга-9"
+-- L["eft_weapon_veresk"] = "СР-2М"
+-- L["eft_weapon_stm9"] = "STM-9"
+-- L["eft_weapon_ump45"] = "UMP 45"
+-- L["eft_weapon_uzi"] = "UZI"
+-- L["eft_weapon_uzipro"] = "UZI PRO Pistol"
+-- L["eft_weapon_uziprosmg"] = "UZI PRO SMG"
+-- L["eft_weapon_vector45"] = "Vector .45ACP"
+-- L["eft_weapon_vector9"] = "Vector 9x19"
+
+/////// Pistols
+-- L["eft_weapon_apb"] = "АПБ"
+-- L["eft_weapon_aps"] = "АПС"
+-- L["eft_weapon_blicky"] = "Пестик"
+-- L["eft_weapon_deaglel5357"] = "Desert Eagle L5"
+-- L["eft_weapon_deaglel550ae"] = "Desert Eagle L5"
+-- L["eft_weapon_deaglel6"] = "L6"
+-- L["eft_weapon_deaglel6wts"] = "Desert Eagle L6"
+-- L["eft_weapon_deaglexix"] = "Desert Eagle Mk XIX"
+-- L["eft_weapon_fn57"] = "FN 5-7"
+-- L["eft_weapon_glock17"] = "Glock 17"
+-- L["eft_weapon_glock18c"] = "Glock 18C"
+-- L["eft_weapon_glock19x"] = "Glock 19X"
+-- L["eft_weapon_m9a3"] = "M9A3"
+-- L["eft_weapon_m45a1"] = "M45A1"
+-- L["eft_weapon_m1911a1"] = "M1911A1"
+-- L["eft_weapon_mp443"] = "MP-443 \"Грач\""
+-- L["eft_weapon_p226r"] = "P226R"
+-- L["eft_weapon_pb"] = "ПБ"
+-- L["eft_weapon_pl15"] = "ПЛ-15"
+-- L["eft_weapon_pmt"] = "ПМ (г)"
+-- L["eft_weapon_pm"] = "ПМ"
+-- L["eft_weapon_gyurza"] = "СР-1МП"
+-- L["eft_weapon_tt"] = "ТТ"
+-- L["eft_weapon_ttgold"] = "ТТ Золотой"
+-- L["eft_weapon_usp45"] = "USP .45"
+
+/////// Revolvers
+-- L["eft_weapon_cr50ds"] = "CR 50DS"
+-- L["eft_weapon_cr200ds"] = "CR 200DS"
+-- L["eft_weapon_rsh12"] = "РШ-12"
+
+/////// Sec. shotguns
+-- L["eft_weapon_mp43sawedoff"] = "Обрез"
+
+/////// Handheld flares
+-- L["eft_weapon_rop30"] = "Освет."
+-- L["eft_weapon_rsp30b"] = "Синий"
+-- L["eft_weapon_rsp30g"] = "Зеленый"
+-- L["eft_weapon_rsp30r"] = "Красный"
+-- L["eft_weapon_rsp30sy"] = "О-Желтый"
+-- L["eft_weapon_rsp30y"] = "Желтый"
+
+/////// Signal pistols
+-- L["eft_weapon_sp81"] = "СП-81"
+
+/////// Melee weapons
+-- L["eft_weapon_6x5"] = "6Х5"
+-- L["eft_weapon_akula"] = "Акула"
+-- L["eft_weapon_wycc"] = "Топор"
+-- L["eft_weapon_gladius"] = "TWG"
+-- L["eft_weapon_a2607"] = "А-2607"
+-- L["eft_weapon_a2607d"] = "А-2607"
+-- L["eft_weapon_camper"] = "Поход"
+-- L["eft_weapon_crash"] = "SCA"
+-- L["eft_weapon_cultist"] = "Нож"
+-- L["eft_weapon_fulcrum"] = "ER BAYONET"
+-- L["eft_weapon_freeman"] = "Фомка"
+-- L["eft_weapon_tomahawk"] = "KATT"
+-- L["eft_weapon_millerbros"] = "M-2"
+-- L["eft_weapon_mpl50"] = "МПЛ-50"
+-- L["eft_weapon_baton"] = "ПР-Т"
+-- L["eft_weapon_rebel"] = "RedRebel"
+-- L["eft_weapon_voodoo"] = "Hawk"
+-- L["eft_weapon_sp8"] = "SP-8"
+-- L["eft_weapon_superfors"] = "Dead Blow"
+-- L["eft_weapon_m48"] = "Кукри M48"
+-- L["eft_weapon_taiga"] = "Тайга-1"
+
+/////// Throwable fragmentation
+-- L["eft_weapon_f1"] = "Ф-1"
+-- L["eft_weapon_m67"] = "M67"
+-- L["eft_weapon_rgd5"] = "РГД-5"
+-- L["eft_weapon_rgn"] = "РГН"
+-- L["eft_weapon_rgo"] = "РГО"
+-- L["eft_weapon_v40"] = "V40"
+-- L["eft_weapon_vog17"] = "ВОГ-17"
+-- L["eft_weapon_vog25"] = "ВОГ-25"
+
+/////// Throwable smoke
+-- L["eft_weapon_m18"] = "M18"
+-- L["eft_weapon_rgd2b"] = "РДГ-2Б"
+
+/////// Throwable stun
+-- L["eft_weapon_m7290"] = "M7290"
+-- L["eft_weapon_zarya"] = "Заря"
+
+/////// Other
+-- L["eft_weapon_vortex"] = "R1500"
+
+////////////// Non-EFT General Strings
 -- [[ Trivia ]]
 L["eft_trivia_author"] = "Автор"
 L["eft_trivia_assets"] = "Ассеты"
@@ -37,15 +325,45 @@ L["eft_trivia_act_blow"] = "Свободный затвор"
 L["eft_trivia_act_gas"] = "Отвод пороховых газов"
 L["eft_trivia_act_recoil"] = "Отдача ствола"
 
-L["eft_trivia_calibr_12g"] = "12 калибра"
-L["eft_trivia_calibr_20g"] = "20 калибра"
-L["eft_trivia_calibr_366tkm"] = ".366 TKM"
+L["eft_trivia_calibr_762x25"] = "7.62x25мм Токарев"
+L["eft_trivia_calibr_9x18"] = "9x18мм Макаров"
+L["eft_trivia_calibr_9x19"] = "9x19мм Parabellum"
+L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
+L["eft_trivia_calibr_357"] = ".357 Magnum"
+L["eft_trivia_calibr_45acp"] = ".45 ACP"
+L["eft_trivia_calibr_50ae"] = ".50 Action Express"
+L["eft_trivia_calibr_20x1"] = "20x1мм"
+
+L["eft_trivia_calibr_46x30"] = "4.6x30мм HK"
+L["eft_trivia_calibr_57x28"] = "5.7x28мм FN"
+
 L["eft_trivia_calibr_545x39"] = "5.45x39мм"
-L["eft_trivia_calibr_556x45"] = "5.56x45мм"
+L["eft_trivia_calibr_556x45"] = "5.56x45мм НАТО"
+L["eft_trivia_calibr_68x51"] = "6.8x51мм"
 L["eft_trivia_calibr_762x35"] = "7.62x35мм (.300 Blackout)"
 L["eft_trivia_calibr_762x39"] = "7.62x39мм"
-L["eft_trivia_calibr_9x19"] = "9x19мм"
-L["eft_trivia_calibr_9x21"] = "9x21мм Гюрза"
+L["eft_trivia_calibr_762x51"] = "7.62x51мм НАТО"
+L["eft_trivia_calibr_762x54"] = "7.62x54ммR"
+L["eft_trivia_calibr_338lm"] = "8.6x70мм (.338 Lapua Magnum)"
+L["eft_trivia_calibr_9x39"] = "9x39мм"
+L["eft_trivia_calibr_366tkm"] = ".366 TKM"
+L["eft_trivia_calibr_127x55"] = "12.7x55мм"
+L["eft_trivia_calibr_127x108"] = "12.7x108мм"
+
+L["eft_trivia_calibr_12g"] = "12/70 (12 калибра)"
+L["eft_trivia_calibr_20g"] = "20/70 (20 калибра)"
+L["eft_trivia_calibr_4g"] = "23x75мм (4 калибра)"
+
+L["eft_trivia_calibr_30x29"] = "30x29мм"
+L["eft_trivia_calibr_40x46"] = "40x46мм"
+L["eft_trivia_calibr_40x53"] = "40x53мм"
+
+L["eft_trivia_calibr_26x75"] = "26x75мм"
+
+L["eft_fmode_doubleaction"] = "Д. ДЕЙСТВИЯ"
+L["eft_fmode_singleaction"] = "О. ДЕЙСТВИЯ"
+L["eft_fmode_melee"] = "ХОЛОДНОЕ"
+L["eft_fmode_grenade"] = "ГРАНАТЫ"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Эргономика"
@@ -116,58 +434,8 @@ L["Ergonomics"] = "Эргономика"
 -- L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
 -- L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
 
-////////////// EFT Strings
--- [[ HUD ]]
-L["eft_hud_full"] = "Полон"
-L["eft_hud_empty"] = "Пусто"
-L["eft_hud_nearlyfull"] = "Почти полон"
-L["eft_hud_aboutfull"] = "Около половины"
-L["eft_hud_lessthanhlaf"] = "Меньше половины"
-L["eft_hud_almostempty"] = "Почти пуст"
-L["eft_hud_none"] = "ПУСТО"
-L["eft_hud_malf"] = "Неполадка: %s"
-L["eft_hud_misfire"] = "Осечка"
-L["eft_hud_eject"] = "Неизвлечение гильзы"
-L["eft_hud_feed"] = "Неподача патрона"
-L["eft_hud_bolt"] = "Заклинивание затвора"
-L["eft_hud_missing"] = "У вашего оружия недостаёт критических частей"
-L["eft_hud_badtrip"] = "Установка растяжки недоступна"
-
--- [[ Weapon Categories ]] - If using Localized Strings
-L["eft_subcat_carb"] = "5Штурмовые карабины"
-L["eft_subcat_ar"] = "1Штурмовые винтовки"
-L["eft_subcat_sg"] = "6Дробовики"
-L["eft_subcat_snip"] = "4Снайперские винтовки & Марксманские винтовки"
-L["eft_subcat_smg"] = "2Пистолеты-пулеметы"
-L["eft_subcat_lmg"] = "3Легкие пулеметы"
-L["eft_subcat_pist"] = "7Пистолеты"
-L["eft_subcat_melee"] = "9Холодное оружие"
-L["eft_subcat_grenades"] = "8Гранаты & Гранатометы"
-
--- [[ Weapon Classes ]] - Need to be edited manually
-L["eft_class_weapon_singleshot"] = "Однозарядное ружье"
-L["eft_class_weapon_boltsg"] = "Болтовое ружье"
-L["eft_class_weapon_pist"] = "Пистолет"
-L["eft_class_weapon_revol"] = "Револьвер"
-L["eft_class_weapon_megapist"] = "Автоматический пистолет"
-L["eft_class_weapon_smg"] = "Пистолет-пулемет"
-L["eft_class_weapon_ar"] = "Штурмовая винтовка"
-L["eft_class_weapon_carb"] = "Штурмовой карабин"
-L["eft_class_weapon_semisg"] = "Самозарядный карабин"
-L["eft_class_weapon_autosg"] = "Автоматический дробовик"
-L["eft_class_weapon_pumpsg"] = "Помповое ружье"
-L["eft_class_weapon_lmg"] = "Ручной пулемет"
-L["eft_class_weapon_boltsnip"] = "Болтовая снайперская винтовка"
-L["eft_class_weapon_marks"] = "Марксманская винтовка"
-L["eft_class_weapon_dualsg"] = "Ружьё"
-L["eft_class_weapon_melee"] = "Оружие ближнего боя"
-
-L["eft_class_weapon_grenade"] = "Ручная граната"
-L["eft_class_weapon_flashbang"] = "Светозвуковая граната"
-L["eft_class_weapon_improvised_grenade"] = "Самодельная ручная граната"
-L["eft_class_weapon_stun"] = "Оглушающая граната"
-L["eft_class_weapon_smoke"] = "Дымовая граната"
-L["eft_class_weapon_grenadelauncher"] = "Гранатомёт"
+///////////////////////////// Non-EFT Weapon Names
+L["eft_weapon_aa12"] = "AA-12"
 
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
@@ -175,18 +443,14 @@ L["eft_class_weapon_grenadelauncher"] = "Гранатомёт"
 local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
--- [[ Weapon Categories ]] - If not using localized strings
-L["eft_subcat_carb"] = "5Штурмовые карабины"
-L["eft_subcat_ar"] = "1Штурмовые винтовки"
-L["eft_subcat_sg"] = "6Дробовики"
-L["eft_subcat_snip"] = "4Снайперские и марксманские винтовки"
-L["eft_subcat_smg"] = "2Пистолеты-пулеметы"
-L["eft_subcat_lmg"] = "3Пулеметы"
-L["eft_subcat_pist"] = "7Пистолеты"
-L["eft_subcat_melee"] = "9Ближний бой"
-L["eft_subcat_grenades"] = "8Гранаты и гранатомёты"
-
 -- [[ EFT Category Names ]]
+local attdir = {
+	l = " Л.", -- Левый / Left
+	r = " Пр.", -- Правый / Right
+	u = " В", -- Верхний / Upper
+	b = " Н" -- Нижний / Bottom
+}
+
 L["eft_cat_ammo"] = "Боеприпас" -- Should never be seen, but better safe than sorry
 
 L["eft_cat_custom"] = "Кастом. слот"
@@ -202,11 +466,17 @@ L["eft_cat_muzzle"] = "Ствол"
 L["eft_cat_silencer"] = "Глушитель"
 L["eft_cat_tactical"] = "Такт."
 L["eft_cat_trigger"] = "Спуск"
+L["eft_cat_backup"] = "Backup"
 
-L["eft_cat_mount_l"] = "Крепление Л." -- Left
-L["eft_cat_mount_r"] = "Крепление Пр." -- Right
-L["eft_cat_mount_u"] = "Крепление В." -- Up
-L["eft_cat_mount_d"] = "Крепление Н." -- Down
+L["eft_cat_tactical_l"] = "Такт." .. attdir.l
+L["eft_cat_tactical_r"] = "Такт." .. attdir.r
+L["eft_cat_tactical_u"] = "Такт." .. attdir.u
+L["eft_cat_tactical_b"] = "Такт." .. attdir.b
+
+L["eft_cat_mount_l"] = "Крепление" .. attdir.l
+L["eft_cat_mount_r"] = "Крепление" .. attdir.r
+L["eft_cat_mount_u"] = "Крепление" .. attdir.u
+L["eft_cat_mount_b"] = "Крепление" .. attdir.b
 
 L["eft_cat_scope"] = "Прицел"
 
@@ -889,228 +1159,16 @@ L["eft_mdr_fde.printname"] = "Desert Tech MDR FDE frame"
 L["eft_mdr_fde.compactname"] = "FDE"
 L["eft_mdr_fde.description"] = "Applies the Flat Dark Earth (FDE) frame from the MDR 5.56." .. customatt
 
-////////////////////////////////////////////////////////////////////// Weapons
-///////////////////////////// EFT Weapon Names
---[[
-If you want to replace the weapon names and not use EFT's included
-"short names", then uncomment these; they will replace the EFT ones.
---]]
+-- [[ Rhino ]]
+-- rhino
+L["eft_rhino_mag_std.printname"] = "Барабан для Chiappa Rhino"
+L["eft_rhino_mag_std.compactname"] = "CR бар."
+L["eft_rhino_mag_std.description"] = "Шестизарядный барабанный магазин для револьверов Chiappa Rhino."
 
-////////////// Weapon Names
-/////// Assault carbines
--- L["eft_weapon_9a91"] = "9А-91"
--- L["eft_weapon_adar215"] = "ADAR 2-15"
--- L["eft_weapon_avt40"] = "АВТ-40"
--- L["eft_weapon_opsks"] = "ОП-СКС"
--- L["eft_weapon_rfb"] = "RFB"
--- L["eft_weapon_sagak"] = "АК-545"
--- L["eft_weapon_sagakshort"] = "АК-545 Кор."
--- L["eft_weapon_sks"] = "СКС"
--- L["eft_weapon_sr3m"] = "СР-3М"
--- L["eft_weapon_svt40"] = "СВТ-40"
--- L["eft_weapon_tx15"] = "TX-15 DML"
--- L["eft_weapon_vpo101"] = "ВПО-101 \"Вепрь-Хантер\""
--- L["eft_weapon_vpo136"] = "ВПО-136 \"Вепрь-КМ\""
--- L["eft_weapon_vpo209"] = "ВПО-209"
--- L["eft_weapon_vsk94"] = "ВСК-94"
+L["eft_rhino_barrel_40ds.printname"] = "Ствол 127мм для Chiappa Rhino 40DS"
+L["eft_rhino_barrel_40ds.compactname"] = "CR 40DS"
+L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver."
 
-/////// Assault rifles
--- L["eft_weapon_ak12"] = "АК-12"
--- L["eft_weapon_ak74"] = "АК-74"
--- L["eft_weapon_ak74m"] = "АК-74М"
--- L["eft_weapon_ak74n"] = "АК-74Н"
--- L["eft_weapon_ak101"] = "АК-101"
--- L["eft_weapon_ak102"] = "АК-102"
--- L["eft_weapon_ak103"] = "АК-103"
--- L["eft_weapon_ak104"] = "АК-104"
--- L["eft_weapon_ak105"] = "АК-105"
--- L["eft_weapon_akm"] = "АКМ"
--- L["eft_weapon_akmn"] = "АКМН"
--- L["eft_weapon_akms"] = "АКМС"
--- L["eft_weapon_akmsn"] = "АКМСН"
--- L["eft_weapon_aks74"] = "АКС-74"
--- L["eft_weapon_aks74n"] = "АКС-74Н"
--- L["eft_weapon_aks74u"] = "АКС-74У"
--- L["eft_weapon_aks74ub"] = "АКС-74УБ"
--- L["eft_weapon_aks74un"] = "АКС-74УН"
--- L["eft_weapon_asval"] = "АС \"Вал\""
--- L["eft_weapon_ash12"] = "АШ-12"
--- L["eft_weapon_auga1"] = "AUG A1"
--- L["eft_weapon_auga3"] = "AUG A3"
--- L["eft_weapon_mdr556"] = "MDR"
--- L["eft_weapon_mdr762"] = "MDR"
--- L["eft_weapon_g36"] = "G36"
--- L["eft_weapon_hk416a5"] = "HK 416A5"
--- L["eft_weapon_m4a1"] = "M4A1"
--- L["eft_weapon_mcx"] = "MCX .300 BLK"
--- L["eft_weapon_mcxspear"] = "SPEAR 6.8"
--- L["eft_weapon_mk47"] = "Mk47"
--- L["eft_weapon_rd704"] = "RD-704"
--- L["eft_weapon_sa58"] = "SA58"
--- L["eft_weapon_scarh"] = "Mk 17"
--- L["eft_weapon_scarhx17"] = "X-17"
--- L["eft_weapon_scarl"] = "Mk 16"
--- L["eft_weapon_velociraptor"] = "Velociraptor .300 BLK"
-
-/////// Bolt-action rifles
--- L["eft_weapon_dvl10"] = "ДВЛ-10"
--- L["eft_weapon_m700"] = "M700"
--- L["eft_weapon_mosininf"] = "Мосина Пехотная"
--- L["eft_weapon_mosinsnip"] = "Мосина Снайперская"
--- L["eft_weapon_sv98"] = "СВ-98"
--- L["eft_weapon_t5000m"] = "T-5000M"
--- L["eft_weapon_trgm10"] = "TRG M10"
--- L["eft_weapon_vpo215"] = "ВПО-215 \"Горностай\""
-
-/////// Designated marksman rifles
--- L["eft_weapon_g28"] = "G28"
--- L["eft_weapon_m1a"] = "M1A"
--- L["eft_weapon_mk18"] = "Mk-18 Mjölnir"
--- L["eft_weapon_rsass"] = "RSASS"
--- L["eft_weapon_sr25"] = "SR-25"
--- L["eft_weapon_svds"] = "СВДС"
--- L["eft_weapon_vss"] = "ВСС \"Винторез\""
-
-/////// Grenade launchers
--- L["eft_weapon_fn40gl"] = "FN40GL"
--- L["eft_weapon_m32a1"] = "MSGL"
-
-/////// Light machine guns
--- L["eft_weapon_m60e4"] = "Mk 43 Mod 1"
--- L["eft_weapon_m60e6"] = "M60E6"
--- L["eft_weapon_pkm"] = "ПКМ"
--- L["eft_weapon_pkp"] = "ПКП"
--- L["eft_weapon_rpd"] = "РПД"
--- L["eft_weapon_rpdn"] = "РПДН"
--- L["eft_weapon_rpk16"] = "РПК-16"
-
-/////// Shotguns
--- L["eft_weapon_aa12gen1"] = "AA-12 Gen 1"
--- L["eft_weapon_aa12gen2"] = "AA-12 Gen 2"
--- L["eft_weapon_ks23"] = "КС-23М"
--- L["eft_weapon_m3super90"] = "M3 Super 90"
--- L["eft_weapon_m590a1"] = "590A1"
--- L["eft_weapon_m870"] = "M870"
--- L["eft_weapon_mp18"] = "MP-18"
--- L["eft_weapon_mp431c"] = "MP-43-1C"
--- L["eft_weapon_mp133"] = "MP-133"
--- L["eft_weapon_mp153"] = "MP-153"
--- L["eft_weapon_mp155"] = "MP-155"
--- L["eft_weapon_mts25512"] = "МЦ-255-12"
--- L["eft_weapon_saiga12k"] = "Сайга-12К исп.10"
--- L["eft_weapon_saiga12kfa"] = "Сайга FA"
--- L["eft_weapon_toz106"] = "ТОЗ-106"
-
-/////// Submachine guns
--- L["eft_weapon_mp5"] = "MP5"
--- L["eft_weapon_mp5kn"] = "MP5K-N"
--- L["eft_weapon_mp7a1"] = "MP7A1"
--- L["eft_weapon_mp7a2"] = "MP7A2"
--- L["eft_weapon_mp9"] = "MP9"
--- L["eft_weapon_mp9n"] = "MP9-N"
--- L["eft_weapon_mpx"] = "MPX"
--- L["eft_weapon_p90"] = "P90"
--- L["eft_weapon_pp9"] = "ПП-9 \"Клин\""
--- L["eft_weapon_pp1901"] = "ПП-19-01"
--- L["eft_weapon_pp91"] = "ПП-91 \"Кедр\""
--- L["eft_weapon_pp9101"] = "ПП-91-01 \"Кедр-Б\""
--- L["eft_weapon_ppsh41"] = "ППШ-41"
--- L["eft_weapon_saiga9"] = "Сайга-9"
--- L["eft_weapon_veresk"] = "СР-2М"
--- L["eft_weapon_stm9"] = "STM-9"
--- L["eft_weapon_ump45"] = "UMP 45"
--- L["eft_weapon_uzi"] = "UZI"
--- L["eft_weapon_uzipro"] = "UZI PRO Pistol"
--- L["eft_weapon_uziprosmg"] = "UZI PRO SMG"
--- L["eft_weapon_vector45"] = "Vector .45ACP"
--- L["eft_weapon_vector9"] = "Vector 9x19"
-
-/////// Pistols
--- L["eft_weapon_apb"] = "АПБ"
--- L["eft_weapon_aps"] = "АПС"
--- L["eft_weapon_blicky"] = "Пестик"
--- L["eft_weapon_deaglel5357"] = "Desert Eagle L5"
--- L["eft_weapon_deaglel550ae"] = "Desert Eagle L5"
--- L["eft_weapon_deaglel6"] = "L6"
--- L["eft_weapon_deaglel6wts"] = "Desert Eagle L6"
--- L["eft_weapon_deaglexix"] = "Desert Eagle Mk XIX"
--- L["eft_weapon_fn57"] = "FN 5-7"
--- L["eft_weapon_glock17"] = "Glock 17"
--- L["eft_weapon_glock18c"] = "Glock 18C"
--- L["eft_weapon_glock19x"] = "Glock 19X"
--- L["eft_weapon_m9a3"] = "M9A3"
--- L["eft_weapon_m45a1"] = "M45A1"
--- L["eft_weapon_m1911a1"] = "M1911A1"
--- L["eft_weapon_mp443"] = "MP-443 \"Грач\""
--- L["eft_weapon_p226r"] = "P226R"
--- L["eft_weapon_pb"] = "ПБ"
--- L["eft_weapon_pl15"] = "ПЛ-15"
--- L["eft_weapon_pmt"] = "ПМ (г)"
--- L["eft_weapon_pm"] = "ПМ"
--- L["eft_weapon_gyurza"] = "СР-1МП"
--- L["eft_weapon_tt"] = "ТТ"
--- L["eft_weapon_ttgold"] = "ТТ Золотой"
--- L["eft_weapon_usp45"] = "USP .45"
-
-/////// Revolvers
--- L["eft_weapon_cr50ds"] = "CR 50DS"
--- L["eft_weapon_cr200ds"] = "CR 200DS"
--- L["eft_weapon_rsh12"] = "РШ-12"
-
-/////// Sec. shotguns
--- L["eft_weapon_mp43sawedoff"] = "Обрез"
-
-/////// Handheld flares
--- L["eft_weapon_rop30"] = "Освет."
--- L["eft_weapon_rsp30b"] = "Синий"
--- L["eft_weapon_rsp30g"] = "Зеленый"
--- L["eft_weapon_rsp30r"] = "Красный"
--- L["eft_weapon_rsp30sy"] = "О-Желтый"
--- L["eft_weapon_rsp30y"] = "Желтый"
-
-/////// Signal pistols
--- L["eft_weapon_sp81"] = "СП-81"
-
-/////// Melee weapons
--- L["eft_weapon_6x5"] = "6Х5"
--- L["eft_weapon_akula"] = "Акула"
--- L["eft_weapon_wycc"] = "Топор"
--- L["eft_weapon_gladius"] = "TWG"
--- L["eft_weapon_a2607"] = "А-2607"
--- L["eft_weapon_a2607d"] = "А-2607"
--- L["eft_weapon_camper"] = "Поход"
--- L["eft_weapon_crash"] = "SCA"
--- L["eft_weapon_cultist"] = "Нож"
--- L["eft_weapon_fulcrum"] = "ER BAYONET"
--- L["eft_weapon_freeman"] = "Фомка"
--- L["eft_weapon_tomahawk"] = "KATT"
--- L["eft_weapon_millerbros"] = "M-2"
--- L["eft_weapon_mpl50"] = "МПЛ-50"
--- L["eft_weapon_baton"] = "ПР-Т"
--- L["eft_weapon_rebel"] = "RedRebel"
--- L["eft_weapon_voodoo"] = "Hawk"
--- L["eft_weapon_sp8"] = "SP-8"
--- L["eft_weapon_superfors"] = "Dead Blow"
--- L["eft_weapon_m48"] = "Кукри M48"
--- L["eft_weapon_taiga"] = "Тайга-1"
-
-/////// Throwable fragmentation
--- L["eft_weapon_f1"] = "Ф-1"
--- L["eft_weapon_m67"] = "M67"
--- L["eft_weapon_rgd5"] = "РГД-5"
--- L["eft_weapon_rgn"] = "РГН"
--- L["eft_weapon_rgo"] = "РГО"
--- L["eft_weapon_v40"] = "V40"
--- L["eft_weapon_vog17"] = "ВОГ-17"
--- L["eft_weapon_vog25"] = "ВОГ-25"
-
-/////// Throwable smoke
--- L["eft_weapon_m18"] = "M18"
--- L["eft_weapon_rgd2b"] = "РДГ-2Б"
-
-/////// Throwable stun
--- L["eft_weapon_m7290"] = "M7290"
--- L["eft_weapon_zarya"] = "Заря"
-
-/////// Other
--- L["eft_weapon_vortex"] = "R1500"
+L["eft_rhino_barrel_60ds.printname"] = "Ствол 152мм для Chiappa Rhino 60DS"
+L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
+L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver."

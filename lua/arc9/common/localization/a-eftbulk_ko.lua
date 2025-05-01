@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Kel-Tec에서 생산한 RFB 소총용 
 L["eft_muzzle_rfb_fh.printname"] = "RFB 7.62x51 소염기 "
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "A standard bird cage flash hider designed for installation on RFB 7.62x51 rifles. Manufactured by Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Chiappa Rhino 목제 권총 손잡이 "
+L["eft_rhino_pgrip_std.compactname"] = "CR wood"
+L["eft_rhino_pgrip_std.description"] = "Chiappa Firearms에서 제작한, Rhino 리볼버용 목제 권총 손잡이입니다."
+
+L["eft_rhino_pgrip_poly.printname"] = "Chiappa Rhino 플라스틱 권총 손잡이 "
+L["eft_rhino_pgrip_poly.compactname"] = "CR pl."
+L["eft_rhino_pgrip_poly.description"] = "Chiappa Firearms에서 제작한, Rhino 리볼버용 표준형 플라스틱 권총 손잡이입니다."
+
+L["eft_rhino_rs_std.printname"] = "Chiappa Rhino 가늠자 "
+L["eft_rhino_rs_std.compactname"] = "CR RS"
+L["eft_rhino_rs_std.description"] = "Chiappa Firearms에서 제작한, Rhino 리볼버용 표준형 가늠자입니다."
+
+L["eft_rhino_rs_red.printname"] = "Chiappa Rhino Red Fiber Optic 가늠자 "
+L["eft_rhino_rs_red.compactname"] = "CR RF"
+L["eft_rhino_rs_red.description"] = "Chiappa Firearms에서 제작한, Rhino 리볼버용 가늠자입니다."
+
+L["eft_rhino_fs_std.printname"] = "Chiappa Rhino 가늠쇠 "
+L["eft_rhino_fs_std.compactname"] = "CR FS"
+L["eft_rhino_fs_std.description"] = "Chiappa Firearms에서 제작한, Rhino 리볼버용 표준형 가늠쇠입니다."
+
+L["eft_rhino_fs_red.printname"] = "Chiappa Rhino Red Fiber Optic 가늠쇠 "
+L["eft_rhino_fs_red.compactname"] = "CR RF"
+L["eft_rhino_fs_red.description"] = "Chiappa Firearms에서 제작한, Rhino 리볼버용 Red Fiber 트리튬 가늠쇠입니다."

@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "A thread spacer for the RFB rifle, man
 L["eft_muzzle_rfb_fh.printname"] = "RFB 7.62x51 flash hider"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "A standard bird cage flash hider designed for installation on RFB 7.62x51 rifles. Manufactured by Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Chiappa Rhino wooden pistol grip"
+L["eft_rhino_pgrip_std.compactname"] = "CR wood"
+L["eft_rhino_pgrip_std.description"] = "A wooden pistol grip for Rhino revolvers, manufactured by Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Chiappa Rhino plastic pistol grip"
+L["eft_rhino_pgrip_poly.compactname"] = "CR pl."
+L["eft_rhino_pgrip_poly.description"] = "A standard-issue plastic pistol grip for Rhino revolvers, manufactured by Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Chiappa Rhino rear sight"
+L["eft_rhino_rs_std.compactname"] = "CR RS"
+L["eft_rhino_rs_std.description"] = "A standard-issue rear sight for Rhino revolvers, manufactured by Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "Chiappa Rhino Green Fiber Optic rear sight"
+L["eft_rhino_rs_red.compactname"] = "CR GF"
+L["eft_rhino_rs_red.description"] = "A Green Fiber tritium rear sight for Rhino revolvers, manufactured by Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Chiappa Rhino front sight"
+L["eft_rhino_fs_std.compactname"] = "CR FS"
+L["eft_rhino_fs_std.description"] = "A standard-issue front sight for Rhino revolvers, manufactured by Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Chiappa Rhino Green Fiber Optic front sight"
+L["eft_rhino_fs_red.compactname"] = "CR GF"
+L["eft_rhino_fs_red.description"] = "A Green Fiber tritium front sight for Rhino revolvers, manufactured by Chiappa Firearms."

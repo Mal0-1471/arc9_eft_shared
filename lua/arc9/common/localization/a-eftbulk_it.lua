@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Un distanziatore filettato per il fuci
 L["eft_muzzle_rfb_fh.printname"] = "Spegnifiamma RFB 7.62x51"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "Uno spegnifiamma standard a gabbia progettato per l'installazione su fucili RFB 7.62x51. Prodotto dalla Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Impugnatura a pistola Chiappa Rhino in legno"
+L["eft_rhino_pgrip_std.compactname"] = "CR legno"
+L["eft_rhino_pgrip_std.description"] = "Un'impugnatura a pistola in legno per revolver Rhino, prodotta dalla Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Impugnatura a pistola in plastica Chiappa Rhino"
+L["eft_rhino_pgrip_poly.compactname"] = "CR pl."
+L["eft_rhino_pgrip_poly.description"] = "Un'impugnatura a pistola in plastica standard per revolver Rhino, prodotta dalla Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Tacca di mira Chiappa Rhino"
+L["eft_rhino_rs_std.compactname"] = "CR MP"
+L["eft_rhino_rs_std.description"] = "Una tacca di mira standard per revolver Rhino, prodotta dalla Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "Tacca di mira Chiappa Rhino Red Fiber Optic"
+L["eft_rhino_rs_red.compactname"] = "CR RF"
+L["eft_rhino_rs_red.description"] = "Una tacca di mira al trizio in fibra rossa per revolver Rhino, prodotta dalla Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Mirino anteriore Chiappa Rhino"
+L["eft_rhino_fs_std.compactname"] = "CR MA"
+L["eft_rhino_fs_std.description"] = "Un mirino standard per revolver Rhino, prodotto dalla Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Mirino anteriore Chiappa Rhino Red Fiber Optic"
+L["eft_rhino_fs_red.compactname"] = "CR RF"
+L["eft_rhino_fs_red.description"] = "Un mirino al trizio in fibra rossa per revolver Rhino, prodotto dalla Chiappa Firearms."

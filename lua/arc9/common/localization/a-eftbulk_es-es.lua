@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Un espaciador de rosca para el fusil R
 L["eft_muzzle_rfb_fh.printname"] = "Reductor de fogonazo para RFB de 7,62x51 mm"
 L["eft_muzzle_rfb_fh.compactname"] = "R.F. RFB"
 L["eft_muzzle_rfb_fh.description"] = "Un reductor de fogonazo Bird Cage estándar, diseñado para instalarse en los fusiles RFB calibre 7,62x51 mm OTAN. Producido por Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Pistolete de madera para Chiappa Rhino"
+L["eft_rhino_pgrip_std.compactname"] = "P. CR Mad."
+L["eft_rhino_pgrip_std.description"] = "Un pistolete de madera para los revólveres Rhino, producido por Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Pistolete de plástico para Chiappa Rhino"
+L["eft_rhino_pgrip_poly.compactname"] = "P. CR Plas."
+L["eft_rhino_pgrip_poly.description"] = "Un pistolete estándar de plástico para los revólveres Rhino, producido por Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Alza para Chiappa Rhino"
+L["eft_rhino_rs_std.compactname"] = "A. CR"
+L["eft_rhino_rs_std.description"] = "Un alza estándar para los revólveres Rhino, producida por Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "Alza Red Fiber Optic para Chiappa Rhino"
+L["eft_rhino_rs_red.compactname"] = "A. CR RF"
+L["eft_rhino_rs_red.description"] = "Un alza Red Fiber con barras de tritio para los revólveres Rhino, producida por Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Punto de mira para Chiappa Rhino"
+L["eft_rhino_fs_std.compactname"] = "P.M. CR"
+L["eft_rhino_fs_std.description"] = "Un punto de mira estándar para los revólveres Rhino, producido por Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Punto de mira Red Fiber Optic para Chiappa Rhino"
+L["eft_rhino_fs_red.compactname"] = "P.M.CR RF"
+L["eft_rhino_fs_red.description"] = "Un punto de mira Red Fiber con barras de tritio para los revólveres Rhino, producida por Chiappa Firearms."

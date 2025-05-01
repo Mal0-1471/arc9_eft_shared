@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Контргайка \"спейсер\
 L["eft_muzzle_rfb_fh.printname"] = "Пламегаситель для RFB 7.62x51"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "Штатный пламегаситель типа Bird Cage (Птичья Клетка), предназначен для установки на RFB под патрон 7.62x51. Производство Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Пистолетная рукоятка деревянная для Chiappa Rhino"
+L["eft_rhino_pgrip_std.compactname"] = "CR дер."
+L["eft_rhino_pgrip_std.description"] = "Деревянная рукоятка для револьверов Rhino, производства Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Пистолетная рукоятка для Chiappa Rhino"
+L["eft_rhino_pgrip_poly.compactname"] = "CR пл."
+L["eft_rhino_pgrip_poly.description"] = "Штатная пластиковая рукоятка для револьверов Rhino, производства Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Целик для Chiappa Rhino"
+L["eft_rhino_rs_std.compactname"] = "CR цел."
+L["eft_rhino_rs_std.description"] = "Штатный целик для револьверов Rhino, производства Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "Целик с тритиевыми вставками для Chiappa Rhino"
+L["eft_rhino_rs_red.compactname"] = "CR GF"
+L["eft_rhino_rs_red.description"] = "Целик с тритиевыми вставками для револьверов Rhino, производства Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Мушка для Chiappa Rhino"
+L["eft_rhino_fs_std.compactname"] = "CR муш."
+L["eft_rhino_fs_std.description"] = "Штатная мушка для револьверов Rhino, производства Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Мушка с тритиевыми вставками для Chiappa Rhino"
+L["eft_rhino_fs_red.compactname"] = "CR GF"
+L["eft_rhino_fs_red.description"] = "Мушка с тритиевыми вставками для револьверов Rhino, производства Chiappa Firearms."

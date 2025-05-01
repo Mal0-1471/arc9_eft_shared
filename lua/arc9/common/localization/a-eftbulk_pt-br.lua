@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Espaçador de rosca para rifle RFB, fa
 L["eft_muzzle_rfb_fh.printname"] = "Quebra chamas Regular 7.62x51"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "O quebra chamas RFB 7.62x51 Bird cage, fabricado pela Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Empunhadura de madeira para Chiappa Rhino"
+L["eft_rhino_pgrip_std.compactname"] = "CR made"
+L["eft_rhino_pgrip_std.description"] = "Uma empunhadura de madeira para revólveres Rhino, fabricado pela Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Empunhadura de pastrico para Chiappa Rhino"
+L["eft_rhino_pgrip_poly.compactname"] = "CR pl."
+L["eft_rhino_pgrip_poly.description"] = "Uma empunhadura padrão de plastico para revólveres Rhino, fabricado pela Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Alça de mira Chiappa Rhino"
+L["eft_rhino_rs_std.compactname"] = "AM CR"
+L["eft_rhino_rs_std.description"] = "Uma alça de mira padrão para revólveres Rhino, fabricado pela Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "Alça de mira de fibra ótica para Chiappa Rhino"
+L["eft_rhino_rs_red.compactname"] = "AM CR"
+L["eft_rhino_rs_red.description"] = "Uma alça de mira verde, de trítio para revólveres Rhino, fabricado pela Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Massa de mira Chiappa Rhino"
+L["eft_rhino_fs_std.compactname"] = "CR FS"
+L["eft_rhino_fs_std.description"] = "Uma massa de mira padrão para revólveres Rhino, fabricado pela Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Massa de mira de fibra ótica para Chiappa Rhino"
+L["eft_rhino_fs_red.compactname"] = "FO CR"
+L["eft_rhino_fs_red.description"] = "Uma massa de mira verde, de trítio para revólveres Rhino, fabricado pela Chiappa Firearms."

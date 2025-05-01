@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "RFB tüfeği için ara dişlisi, Kel-T
 L["eft_muzzle_rfb_fh.printname"] = "Sıradan RFB 7.62x51 Alev gizleyici"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB AG"
 L["eft_muzzle_rfb_fh.description"] = "RFB 7.62x51 kuş kafesi alev gizleyici, Kel-Tec tarafından üretilmiştir."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Chiappa Rhino ahşap kabza"
+L["eft_rhino_pgrip_std.compactname"] = "CR wood"
+L["eft_rhino_pgrip_std.description"] = "Chiappa Firearms tarafından üretilmiş, Rhino tabancaları için ahşap bir tabanca kabzası."
+
+L["eft_rhino_pgrip_poly.printname"] = "Chiappa Rhino plastik kabza"
+L["eft_rhino_pgrip_poly.compactname"] = "CR pl."
+L["eft_rhino_pgrip_poly.description"] = "Chiappa Firearms tarafından üretilen, Rhino revolverler için standart bir plastik tabanca kabzası."
+
+L["eft_rhino_rs_std.printname"] = "Chiappa Rhino arka görüş"
+L["eft_rhino_rs_std.compactname"] = "CR RS"
+L["eft_rhino_rs_std.description"] = "Chiappa Firearms tarafından üretilen, Rhino tabancaları için standart bir arka görüş."
+
+L["eft_rhino_rs_red.printname"] = "Chiappa Rhino Green Fiber Optik gez"
+L["eft_rhino_rs_red.compactname"] = "CR GF"
+L["eft_rhino_rs_red.description"] = "Chiappa Firearms tarafından üretilen, Rhino revolverler için Green Fiber tritium arka görüş."
+
+L["eft_rhino_fs_std.printname"] = "Chiappa Rhino front sight"
+L["eft_rhino_fs_std.compactname"] = "CR FS"
+L["eft_rhino_fs_std.description"] = "Chiappa Firearms tarafından üretilen Rhino tabancaları için standart bir arpacık."
+
+L["eft_rhino_fs_red.printname"] = "Chiappa Rhino Yeşil Fiber Optik arpacık"
+L["eft_rhino_fs_red.compactname"] = "CR GF"
+L["eft_rhino_fs_red.description"] = "Chiappa Firearms tarafından üretilen, Rhino tabancaları için Green Fiber trityum arpacık."

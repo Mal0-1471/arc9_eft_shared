@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "A thread spacer for the RFB rifle, man
 L["eft_muzzle_rfb_fh.printname"] = "Cache-flamme 7,62 x 51 mm pour RFB"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "A standard bird cage flash hider designed for installation on RFB 7.62x51 rifles. Manufactured by Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Poignée pistolet bois pour Chiappa Rhino"
+L["eft_rhino_pgrip_std.compactname"] = "CR bois"
+L["eft_rhino_pgrip_std.description"] = "Une poignée pistolet en bois pour les revolvers Rhino, produit par Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Poignée pistolet plastique pour Chiappa Rhino"
+L["eft_rhino_pgrip_poly.compactname"] = "CR plast."
+L["eft_rhino_pgrip_poly.description"] = "Une poignée pistolet standard en plastique pour les revolvers Rhino, produit par Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Cran de mire pour Chiappa Rhino"
+L["eft_rhino_rs_std.compactname"] = "CDM CR"
+L["eft_rhino_rs_std.description"] = "Un cran de mire d'origine pour les revolvers Chiappa Rhino, produit par Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "Cran de mire à fibre optique rouge pour Chiappa Rhino"
+L["eft_rhino_rs_red.compactname"] = "CDM FR"
+L["eft_rhino_rs_red.description"] = "Un cran de mire à fibre optique rouge en tritium pour les revolvers Chiappa Rhino, produit par Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Guidon pour Chiappa Rhino"
+L["eft_rhino_fs_std.compactname"] = "Guid. CR"
+L["eft_rhino_fs_std.description"] = "Un guidon standard pour les revolvers Rhino. Produit par Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Guidon à fibre optique rouge pour Chiappa Rhino"
+L["eft_rhino_fs_red.compactname"] = "Guid. FR"
+L["eft_rhino_fs_red.description"] = "Un guidon à fibre optique rouge en tritium pour les revolvers Chiappa Rhino, produit par Chiappa Firearms."

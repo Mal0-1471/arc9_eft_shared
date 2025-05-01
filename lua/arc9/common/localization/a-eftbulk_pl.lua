@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Dystans do gwintu karabinu RFB, wymaga
 L["eft_muzzle_rfb_fh.printname"] = "Tłumik płomieni do RFB 7,62 x 51"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "Standardowy tłumik płomieni typu „bird cage” zaprojektowany do instalacji na karabinie automatycznym RFB kalibru 7,62 × 51 mm. Wyprodukowany przez firmę Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Chwyt pistoletowy do Chiappa Rhino, drewniany"
+L["eft_rhino_pgrip_std.compactname"] = "CR drew."
+L["eft_rhino_pgrip_std.description"] = "Drewniany chwyt pistoletowy do rewolwerów Rhino. Wyprodukowany przez firmę Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Chwyt pistoletowy do Chiappa Rhino, plastikowy"
+L["eft_rhino_pgrip_poly.compactname"] = "CR pl."
+L["eft_rhino_pgrip_poly.description"] = "Standardowy plastikowy chwyt pistoletowy do rewolwerów Rhino. Wyprodukowany przez firmę Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Szczerbinka do Chiappa Rhino"
+L["eft_rhino_rs_std.compactname"] = "Sz. CR"
+L["eft_rhino_rs_std.description"] = "Standardowa szczerbinka do rewolwerów Rhino. Wyprodukowana przez firmę Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "SzczerbinkaMuszka z czerwonym włóknem światłowodowym do Chiappa Rhino"
+L["eft_rhino_rs_red.compactname"] = "CR CW"
+L["eft_rhino_rs_red.description"] = "Szczerbinka z czerwonym trytem do rewolwerów Rhino. Wyprodukowana przez Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Muszka do Chiappa Rhino"
+L["eft_rhino_fs_std.compactname"] = "Mu. CR"
+L["eft_rhino_fs_std.description"] = "Standardowa muszka do rewolwerów Rhino. Wyprodukowana przez firmę Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Muszka z czerwonym włóknem światłowodowym do Chiappa Rhino"
+L["eft_rhino_fs_red.compactname"] = "CR CW"
+L["eft_rhino_fs_red.description"] = "Muszka z czerwonym trytem do rewolwerów Rhino. Wyprodukowana przez Chiappa Firearms."

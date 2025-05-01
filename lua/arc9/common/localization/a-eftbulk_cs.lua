@@ -9327,3 +9327,29 @@ L["eft_rfb_muzzle_spacer.description"] = "Distanční závit pro pušku RFB. Je 
 L["eft_muzzle_rfb_fh.printname"] = "Tlumič plamene pro RFB 7.62x51"
 L["eft_muzzle_rfb_fh.compactname"] = "RFB"
 L["eft_muzzle_rfb_fh.description"] = "Standardní tlumič plamene s ptačí klecí určený pro montáž na pušky RFB 7.62x51. Vyrábí společnost Kel-Tec."
+
+///////////////////////////// Rhino
+-- [[ rhino ]]
+L["eft_rhino_pgrip_std.printname"] = "Dřevěná pažbička pro Chiappa Rhino"
+L["eft_rhino_pgrip_std.compactname"] = "CR dřevo"
+L["eft_rhino_pgrip_std.description"] = "Dřevěná pistolová rukojeť pro revolvery Rhino, vyráběná společností Chiappa Firearms."
+
+L["eft_rhino_pgrip_poly.printname"] = "Plastová pažbička pro Chiappa Rhino"
+L["eft_rhino_pgrip_poly.compactname"] = "CR paž."
+L["eft_rhino_pgrip_poly.description"] = "Standardní plastová pistolová rukojeť pro revolvery Rhino, vyráběná společností Chiappa Firearms."
+
+L["eft_rhino_rs_std.printname"] = "Hledí pro Chiappa Rhino"
+L["eft_rhino_rs_std.compactname"] = "CR HL"
+L["eft_rhino_rs_std.description"] = "Standardní hledí pro revolvery Rhino, vyráběné společností Chiappa Firearms."
+
+L["eft_rhino_rs_red.printname"] = "Červené hledí pro Chiappa Rhino"
+L["eft_rhino_rs_red.compactname"] = "CR ČHL"
+L["eft_rhino_rs_red.description"] = "Zelené hledí s tritiem pro revolvery Rhino, vyráběné společností Chiappa Firearms."
+
+L["eft_rhino_fs_std.printname"] = "Muška pro Chiappa Rhino"
+L["eft_rhino_fs_std.compactname"] = "MU CR"
+L["eft_rhino_fs_std.description"] = "Standardní hledí pro revolvery Rhino, vyráběné společností Chiappa Firearms."
+
+L["eft_rhino_fs_red.printname"] = "Červená muška pro Chiappa Rhino"
+L["eft_rhino_fs_red.compactname"] = "CR ČMU"
+L["eft_rhino_fs_red.description"] = "Červená muška s tritiem pro revolvery Rhino, vyráběné společností Chiappa Firearms."
