@@ -25,8 +25,8 @@ SWEP.Description = [[No description!]]
 -- }
 
 SWEP.Credits = { 
-    [ARC9:GetPhrase("eft_trivia_author") .. "1"] = "Darsu", 
-    [ARC9:GetPhrase("eft_trivia_assets") .. "2"] = "Battlestate Games LTD", 
+    ["eft_trivia_author1"] = "Darsu", 
+    ["eft_trivia_assets2"] = "Battlestate Games LTD", 
 }
 
 SWEP.StandardPresets = false
@@ -294,6 +294,7 @@ SWEP.ShellCorrectAng = Angle(0, 180, 180)
 SWEP.ShellPhysBox = Vector(0.5, 0.5, 2)
 SWEP.ShellModel = "models/weapons/arc9/darsu_eft/shells/9x19.mdl"
 SWEP.ShellSounds = ARC9EFT.Shells9mm
+SWEP.ShellVolume = 0.4
 
 
 ------------------------- |||           Sounds            ||| -------------------------

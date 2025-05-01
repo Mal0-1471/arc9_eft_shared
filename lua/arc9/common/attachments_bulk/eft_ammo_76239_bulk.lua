@@ -18,7 +18,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm HP"
+ATT.EFTRoundName = "eft_ammo_76239_hp.printname"
 
 ATT.DamageMax = 87 * mult39
 ATT.DamageMin = 54.4 * mult39
@@ -98,7 +98,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm T-45M1 gzh"
+ATT.EFTRoundName = "eft_ammo_76239_t45m1.printname"
 
 ATT.DamageMax = 64 * mult39
 ATT.DamageMin = 41.43 * mult39
@@ -176,7 +176,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm FMJ"
+ATT.EFTRoundName = "eft_ammo_76239_fmj.printname"
 
 ATT.DamageMax = 63 * mult39
 ATT.DamageMin = 41.43 * mult39
@@ -254,7 +254,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm SP"
+ATT.EFTRoundName = "eft_ammo_76239_sp.printname"
 
 ATT.DamageMax = 68 * mult39
 ATT.DamageMin = 41.43 * mult39
@@ -335,7 +335,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm US gzh"
+ATT.EFTRoundName = "eft_ammo_76239_us.printname"
 
 ATT.DamageMax = 56 * mult39
 ATT.DamageMin = 47 * mult39
@@ -413,7 +413,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm PP gzh"
+ATT.EFTRoundName = "eft_ammo_76239_pp.printname"
 
 ATT.DamageMax = 55 * mult39
 ATT.DamageMin = 47 * mult39
@@ -493,7 +493,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm BP gzh"
+ATT.EFTRoundName = "eft_ammo_76239_bp.printname"
 
 ATT.DamageMax = 58 * mult39
 ATT.DamageMin = 38.5 * mult39
@@ -574,7 +574,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm PS gzh"
+ATT.EFTRoundName = "eft_ammo_76239_ps.printname"
 
 ATT.DamageMax = 57 * mult39
 ATT.DamageMin = 38.1 * mult39
@@ -655,7 +655,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x39mm MAI AP"
+ATT.EFTRoundName = "eft_ammo_76239_maiap.printname"
 
 ATT.DamageMax = 47 * mult39
 ATT.DamageMin = 31.21 * mult39

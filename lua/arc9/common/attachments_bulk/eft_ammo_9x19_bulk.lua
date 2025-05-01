@@ -17,7 +17,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm AP 6.3"
+ATT.EFTRoundName = "eft_ammo_9x19_ap63.printname"
 
 ATT.DamageMax = 52 * mult9
 ATT.DamageMin = 33 * mult9
@@ -89,7 +89,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm Luger CCI"
+ATT.EFTRoundName = "eft_ammo_9x19_luger_cci.printname"
 
 ATT.DamageMax = 70 * mult9
 ATT.DamageMin = 45 * mult9
@@ -161,7 +161,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm PBP gzh"
+ATT.EFTRoundName = "eft_ammo_9x19_pbp_gzh.printname"
 
 ATT.DamageMax = 52 * mult9
 ATT.DamageMin = 28 * mult9
@@ -236,7 +236,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm PSO gzh"
+ATT.EFTRoundName = "eft_ammo_9x19_pso_ghz.printname"
 
 ATT.DamageMax = 59 * mult9
 ATT.DamageMin = 39 * mult9
@@ -308,7 +308,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm Pst gzh"
+ATT.EFTRoundName = "eft_ammo_9x19_pst_gzh.printname"
 
 ATT.DamageMax = 54 * mult9
 ATT.DamageMin = 30 * mult9
@@ -379,7 +379,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm FMJ M882"
+ATT.EFTRoundName = "eft_ammo_9x19_fmj_m882.printname"
 
 ATT.DamageMax = 56 * mult9
 ATT.DamageMin = 30 * mult9
@@ -451,7 +451,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm QuakeMaker"
+ATT.EFTRoundName = "eft_ammo_9x19_quake.printname"
 
 ATT.DamageMax = 85 * mult9
 ATT.DamageMin = 59 * mult9
@@ -526,7 +526,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm RIP"
+ATT.EFTRoundName = "eft_ammo_9x19_rip.printname"
 
 ATT.DamageMax = 102 * mult9
 ATT.DamageMin = 59 * mult9
@@ -601,7 +601,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "9x19mm Green Tracer"
+ATT.EFTRoundName = "eft_ammo_9x19_tracer.printname"
 
 ATT.DamageMax = 58 * mult9
 ATT.DamageMin = 36 * mult9

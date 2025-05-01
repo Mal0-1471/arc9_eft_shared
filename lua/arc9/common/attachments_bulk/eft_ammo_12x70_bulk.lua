@@ -20,7 +20,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_50_bmg_
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 makeshift .50 BMG slug"
+ATT.EFTRoundName = "eft_ammo_12x70_50bmg.printname"
 
 ATT.DamageMax = 197 * mult1270
 ATT.DamageMin = 163 * mult1270
@@ -62,7 +62,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 5.25mm buckshot"
+ATT.EFTRoundName = "eft_ammo_12x70_525mm.printname"
 
 ATT.DamageMax = 37 * mult1270
 ATT.DamageMin = 28.3 * mult1270
@@ -102,7 +102,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 Piranha"
+ATT.EFTRoundName = "eft_ammo_12x70_pir.printname"
 
 ATT.DamageMax = 25 * mult1270
 ATT.DamageMin = 21 * mult1270
@@ -143,7 +143,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 7mm buckshot"
+ATT.EFTRoundName = "eft_ammo_12x70_7mm.printname"
 
 ATT.DamageMax = 39 * mult1270
 ATT.DamageMin = 24.57 * mult1270
@@ -184,7 +184,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_ap_20_s
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 AP-20 armor-piercing slug"
+ATT.EFTRoundName = "eft_ammo_12x70_ap20.printname"
 
 ATT.DamageMax = 164 * mult1270
 ATT.DamageMin = 121.67 * mult1270
@@ -226,7 +226,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_dual_sabot_s
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 Dual Sabot slug"
+ATT.EFTRoundName = "eft_ammo_12x70_dual_sabot.printname"
 
 ATT.DamageMax = 85 * mult1270
 ATT.DamageMin = 49 * mult1270
@@ -268,7 +268,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 6.5mm Express buckshot"
+ATT.EFTRoundName = "eft_ammo_12x70_express.printname"
 
 ATT.DamageMax = 35 * mult1270
 ATT.DamageMin = 25 * mult1270
@@ -310,7 +310,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_flechette_sh
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 flechette"
+ATT.EFTRoundName = "eft_ammo_12x70_flechette.printname"
 
 ATT.DamageMax = 25 * mult1270
 ATT.DamageMin = 24 * mult1270
@@ -352,7 +352,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_ftx_cus
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 FTX Custom Lite slug"
+ATT.EFTRoundName = "eft_ammo_12x70_ftx.printname"
 
 ATT.DamageMax = 183 * mult1270
 ATT.DamageMin = 123.7 * mult1270
@@ -394,7 +394,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_grizzly
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 Grizzly 40 slug"
+ATT.EFTRoundName = "eft_ammo_12x70_grizzly40.printname"
 
 ATT.DamageMax = 190 * mult1270
 ATT.DamageMin = 138.7 * mult1270
@@ -436,7 +436,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_hp_copp
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 Copper Sabot Premier HP slug"
+ATT.EFTRoundName = "eft_ammo_12x70_hpcopper.printname"
 
 ATT.DamageMax = 206 * mult1270
 ATT.DamageMin = 123.5 * mult1270
@@ -478,7 +478,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_shell.mdl"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 8.5mm Magnum buckshot"
+ATT.EFTRoundName = "eft_ammo_12x70_magnum.printname"
 
 ATT.DamageMax = 50 * mult1270
 ATT.DamageMin = 36.1 * mult1270
@@ -520,7 +520,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_poleva_
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 \"Poleva-3\" slug"
+ATT.EFTRoundName = "eft_ammo_12x70_poleva3.printname"
 
 ATT.DamageMax = 140 * mult1270
 ATT.DamageMin = 88 * mult1270
@@ -562,7 +562,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_poleva_
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 \"Poleva-6u\" slug"
+ATT.EFTRoundName = "eft_ammo_12x70_poleva6u.printname"
 
 ATT.DamageMax = 150 * mult1270
 ATT.DamageMin = 84.7 * mult1270
@@ -604,7 +604,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_rip_shell.md
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 RIP"
+ATT.EFTRoundName = "eft_ammo_12x70_rip.printname"
 
 ATT.DamageMax = 265 * mult1270
 ATT.DamageMin = 150.19 * mult1270
@@ -646,7 +646,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_slug_sh
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 lead slug"
+ATT.EFTRoundName = "eft_ammo_12x70_slug.printname"
 
 ATT.DamageMax = 167 * mult1270
 ATT.DamageMin = 107.7 * mult1270
@@ -688,7 +688,7 @@ ATT.ShellModel = "models/weapons/arc9/darsu_eft/shells/patron_12x70_slug_superfo
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "12/70 SuperFormance HP slug"
+ATT.EFTRoundName = "eft_ammo_12x70_superformance.printname"
 
 ATT.DamageMax = 220 * mult1270
 ATT.DamageMin = 144.2 * mult1270

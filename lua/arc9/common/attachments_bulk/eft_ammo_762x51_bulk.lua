@@ -19,7 +19,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm BCP FMJ"
+ATT.EFTRoundName = "eft_ammo_762x51_bpzfmj.printname"
 
 ATT.DamageMax = 83 * mult51
 ATT.DamageMin = 60 * mult51
@@ -97,7 +97,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm M61"
+ATT.EFTRoundName = "eft_ammo_762x51_m61.printname"
 
 ATT.DamageMax = 75 * mult51
 ATT.DamageMin = 52 * mult51
@@ -177,7 +177,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm M62 Tracer"
+ATT.EFTRoundName = "eft_ammo_762x51_m62t.printname"
 
 ATT.DamageMax = 82 * mult51
 ATT.DamageMin = 53 * mult51 
@@ -259,7 +259,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm M80"
+ATT.EFTRoundName = "eft_ammo_762x51_m80.printname"
 
 ATT.DamageMax = 80 * mult51
 ATT.DamageMin = 53 * mult51
@@ -338,7 +338,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm M80A1"
+ATT.EFTRoundName = "eft_ammo_762x51_m80a1.printname"
 
 ATT.DamageMax = 73 * mult51
 ATT.DamageMin = 46 * mult51
@@ -415,7 +415,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm M993"
+ATT.EFTRoundName = "eft_ammo_762x51_m993.printname"
 
 ATT.DamageMax = 70 * mult51
 ATT.DamageMin = 46 * mult51
@@ -494,7 +494,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm TCW SP"
+ATT.EFTRoundName = "eft_ammo_762x51_tpzsp.printname"
 
 ATT.DamageMax = 85 * mult51
 ATT.DamageMin = 44 * mult51
@@ -570,7 +570,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"76251"}
 
-ATT.EFTRoundName = "7.62x51mm Ultra Nosler"
+ATT.EFTRoundName = "eft_ammo_762x51_ultranosler.printname"
 
 ATT.DamageMax = 105 * mult51
 ATT.DamageMin = 70.4 * mult51

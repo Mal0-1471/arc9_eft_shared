@@ -136,8 +136,21 @@ else
     -- if !ARC9.ScreenScale then ARC9.ScreenScale = function(size) return size * (ScrW() / 640) * GetConVar("arc9_hud_scale"):GetFloat() end end
     local function ss(size) return size * (ScrW() / 640) * GetConVar("arc9_hud_scale"):GetFloat() end
 
-    local jammed = false
+    local minnextjam = 0
+    local jammedstarted = false
+    local jammed1 = false
+    local jammed2 = false
+    local jammed3 = false
+	
     local glowmat = Material("vgui/arc9_eft_shared/glow_particle.png", "mips smooth")
+
+    local glowmat_r = Material("vgui/arc9_eft_shared/malfunction_glow_red_additive.png", "mips smooth")
+    glowmat_r:SetInt("$flags", bit.bor(glowmat_r:GetInt("$flags"), 128)) -- additive
+    local glowmat_y = Material("vgui/arc9_eft_shared/malfunction_glow_yellow_additive.png", "mips smooth")
+    glowmat_y:SetInt("$flags", bit.bor(glowmat_y:GetInt("$flags"), 128)) -- additive
+    local glowmat_g = Material("vgui/arc9_eft_shared/malfunction_glow_green_additive.png", "mips smooth")
+    glowmat_g:SetInt("$flags", bit.bor(glowmat_g:GetInt("$flags"), 128)) -- additive
+
     local jammat = Material("vgui/arc9_eft_shared/notification_icon_alert_red.png", "mips smooth")
     local magcheckmat = Material("vgui/arc9_eft_shared/icon_info_magsize.png", "")
     local malftable = {
@@ -164,13 +177,31 @@ else
         end
     end
 
+    local function glowww(mat)
+        local sw, sh = ScrW(), ScrH()
+        surface.SetDrawColor(255, 255, 255, CurTime()%0.18 > 0.09 and 128 or 0) -- blinking effect
+        surface.SetMaterial(mat)
+        surface.DrawTexturedRect(sw - sh/2.5, sh - sh/2.5, sh/2.5, sh/2.5)
+    end
+
     hook.Add("HUDPaintBackground", "arc9eftjamglow", function()
-        if jammed then
-            local sw, sh = ScrW(), ScrH()
-            surface.SetDrawColor(255, 0, 0, CurTime()%0.2 > 0.1 and 128 or 0) -- blinking effect
-            surface.SetMaterial(glowmat)
-            surface.DrawTexturedRect(sw-sh/2, sh-sh/1.9, sh/1, sh/1)
+        if jammedstarted then
+            local ply = LocalPlayer()
+            if IsValid(ply) then
+                local wep = ply:GetActiveWeapon()
+                if jammedstarted == wep and IsValid(wep) and wep.ARC9 then
+                    if !wep:GetJammed() then
+                        jammed3 = true
+                        jammedstarted = false 
+                        timer.Simple(0.3, function() jammed3 = false end)
+                    end
+                end
+            end
         end
+
+        if jammed1 then glowww(glowmat_r) end
+        if jammed2 then glowww(glowmat_y) end
+        if jammed3 then glowww(glowmat_g) end
     end)
 
     surface.CreateFont("eftnotiffont", { font = "Bender", size = ss(6), weight = 550, blursize = ss(0.3), antialias = true, extended = true })
@@ -183,13 +214,14 @@ else
         notif:SetSize(ss(166.5), ss(9))
         notif:SetAlpha(0)
         
-        notif:MoveTo(ScrW() - ss(166.5), ScrH() - ss(10), 0.25, 0.5, 1, nil) -- in
-        notif:AlphaTo(255, 0.3, 0.5, nil) -- in
+        notif:MoveTo(ScrW() - ss(166.5), ScrH() - ss(10), 0.25, 0, 1, nil) -- in
+        notif:AlphaTo(255, 0.3, 0, nil) -- in
 
         notif:AlphaTo(0, 0.2, 2.5, nil) -- out
         notif:MoveTo(ScrW() - ss(166.5), ScrH(), 0.25, 2.5, 1, function() notif:Remove() end) -- out
 
         notif:MoveToBack()
+        surface.PlaySound("arc9_eft_shared/notification_exp.ogg")
 
         notif.Paint = function(self2, w, h) 
             surface.SetDrawColor(0, 0, 0, 250)
@@ -212,7 +244,7 @@ else
         local tw2 = surface.GetTextSize(ammotype) + ss(10)
 
         local notif = vgui.Create("DPanel", GetHUDPanel())
-        notif:SetPos(ScrW() - ss(25+5) - math.max(tw, tw2), ScrH() - ss(40))
+        notif:SetPos(ScrW() - ss(19+5) - math.max(tw, tw2), ScrH() - ss(38))
         notif:SetSize(math.max(tw, tw2), ss(13+13))
         notif:SetAlpha(0)
         
@@ -276,28 +308,44 @@ else
 
     net.Receive("arc9eftjam", function(len)
         local jid = net.ReadUInt(3)
-        jammed = true 
+        if CurTime() < minnextjam then return end
+        if !GetConVar("arc9_eft_jam_hud"):GetBool() then return end
+        minnextjam = CurTime() + 0.5
+        jammed1 = true
+        jammedstarted = IsValid(LocalPlayer()) and LocalPlayer():GetActiveWeapon()
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
-        makeeftnotif(ARC9:GetPhrase("eft_hud_malf") .. (ARC9:GetPhrase(malftable[jid]) or "???") .. "\"", jammat)
-        timer.Simple(1.2, function() jammed = false end)
+
+
+        timer.Simple(0.75, function() jammed1 = false end)
+
+        timer.Simple(1.0, function() 
+            jammed2 = true 
+            makeeftnotif(string.format(ARC9:GetPhrase("eft_hud_malf"), (ARC9:GetPhrase(malftable[jid]) or "???")), jammat) 
+        end)
+
+        timer.Simple(1.3, function() jammed2 = false end)
+
+        -- timer.Simple(3, function() jammed3 = true end)
+        -- timer.Simple(3.3, function() jammed3 = false end)
     end)    
     
     net.Receive("arc9eftmissingparts", function(len)
-        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
+        -- surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
+        jammed1 = true
         makeeftnotif(ARC9:GetPhrase("eft_hud_missing"), jammat)
-        timer.Simple(1.2, function() jammed = false end)
+        timer.Simple(1.2, function() jammed1 = false end)
     end)
 
     net.Receive("arc9eftquestionnotif", function(len)
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
         makeeftnotif("???", magcheckmat)
-        timer.Simple(1.2, function() jammed = false end)
+        timer.Simple(1.2, function() jammed1 = false end)
     end)
 
     net.Receive("arc9eftbadtripwire", function(len)
         surface.PlaySound("arc9_eft_shared/notification_exp.ogg")
         makeeftnotif(ARC9:GetPhrase("eft_hud_badtrip"), jammat)
-        timer.Simple(1.2, function() jammed = false end)
+        timer.Simple(1.2, function() jammed1 = false end)
     end)
     
     net.Receive("arc9eftmagcheck", function(len)
@@ -312,7 +360,7 @@ else
         local wep = ply:GetActiveWeapon()
         if !IsValid(ply:GetActiveWeapon()) and wep.Trivia then return end
 
-        local rndtype = wep:GetValue("EFTRoundName") or wep:GetValue("EFTRoundName2") or "????"
+        local rndtype = ARC9:GetPhrase(wep:GetValue("EFTRoundName")) or ARC9:GetPhrase(wep:GetValue("EFTRoundName2")) or wep:GetValue("EFTRoundName") or wep:GetValue("EFTRoundName2") or "????"
         
         if rnds == ARC9:GetPhrase("eft_hud_empty") then rndtype = ARC9:GetPhrase("eft_hud_none") end
 
@@ -358,6 +406,7 @@ local conVars = {
     {name = "eft_mult_melee", default = "1", replicated = true },
     {name = "eft_enable_concussion", default = "1", replicated = true },
     {name = "eft_mult_flashbang", default = "1", replicated = true },
+    {name = "eft_jam_hud", default = "1", replicated = true },
     {name = "eft_taran_jam", default = "1", replicated = true },
     {name = "eft_flashbang_ahmad", default = "0" },
     {name = "eft_nontpik_mode", default = "0", replicated = true },
@@ -386,39 +435,40 @@ if CLIENT then
     timer.Simple(1, function()
     
         local eftsettings = {
-            TabName = "Escape From Tarkov",
+            TabName = "setting.eft",
             sv = true,
-            { type = "label", text = "Settings for ARC9 Escape From Tarkov weapons" },
+            { type = "label", text = "setting.eft.label" },
  
-            { sv = true, type = "slider", text = "Minimal damage range", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "Bullets lose their damage on ranges but gmod maps are kinda small.\n\nMinimal damage range in meters.\n\nDefault - 1000 (original EFT)" },
-            { sv = true, type = "slider", text = "^ for shotguns", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "Same but for shotgun pellets. \n\nMinimal damage range in meters.\n\nDefault - 100" },
+            { sv = true, type = "slider", text = "setting.eft.mindmg.title", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "setting.eft.mindmg.desc" },
+            { sv = true, type = "slider", text = "setting.eft.mindmg.sg.title", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "setting.eft.mindmg.sg.desc" },
 
-            { type = "label", text = "Damage mults", desc = "Damage multipliers for different caliber types. True EFT is 1x, but players there have 450 hp, so better to lower damage values for gmod." },
+            { type = "label", text = "setting.eft.dmgmult.title", desc = "setting.eft.dmgmult.desc" },
 
-            { sv = true, type = "slider", text = "9x19mm, 5.7x28mm", convar = "eft_mult_pistol", min = 0.1, max = 1.5, decimals = 2, desc = "Pistol calibers (9x19mm, 5.7x28mm).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "12 gauge, 20ga", convar = "eft_mult_shotgun", min = 0.1, max = 1.5, decimals = 2, desc = "Shotgun calibers (12/70, 20/70).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "5.56x45, 5.45x39", convar = "eft_mult_carabine", min = 0.1, max = 1.5, decimals = 2, desc = "Carabine calibers (5.56x45, 5.45x39).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "7.62x39", convar = "eft_mult_rifle", min = 0.1, max = 1.5, decimals = 2, desc = "Rifle caliber (only 7.62x39 for now).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "7.62x51, 7.62x54R", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "Big rifle calibers (7.62x51, 7.62x54R).\n\nDefault - 0.75" },
-            { sv = true, type = "slider", text = ".338 Lapua", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "Big sniper bullet (8.6x70mm aka .338 Lapua Magnum).\n\nDefault - 0.75" },
-            { sv = true, type = "slider", text = ".366TKM, 12.7x55mm", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "Massive bullets (.366 TKM, 12.7x55mm).\n\nDefault - 0.5" },
-            { sv = true, type = "slider", text = "Melee", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "Melee weapons.\n\nDefault - 1" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.pistol.title", convar = "eft_mult_pistol", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.pistol.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.shotgun.title", convar = "eft_mult_shotgun", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.shotgun.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.carbine.title", convar = "eft_mult_carabine", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.carbine.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.rifle.title", convar = "eft_mult_rifle", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.rifle.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.bigrifle.title", convar = "eft_mult_bigrifle", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.bigrifle.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.338.title", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.338.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.massive.title", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.massive.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.melee.title", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "setting.eft.dmgmult.melee.desc" },
 
-            { sv = true, type = "button", text = "Reload attachments (!!!)", desc = "You need to reload ammo rounds attachments to apply changes!", content = "settings.server.developer.reload", func = function(self2)
+            { sv = true, type = "button", text = "settings.server.developer.reloadatts.title", desc = "setting.eft.reloadatts.desc", content = "settings.server.developer.reload", func = function(self2)
                 RunConsoleCommand("arc9_reloadatts")
             end},
 
-            { type = "label", text = "Features", desc = "Some features" },
-            { sv = true, type = "bool", text = "Concussion", convar = "eft_enable_concussion", desc = "Concussion from explosions (distorted view and motion blur)" },
-            { sv = true, type = "slider", text = "Flashbang duration", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "Multiplier for flashbang blindness.\n\nDefault - 1" },
-            { type = "bool", text = "Ahmad flashbang", convar = "eft_flashbang_ahmad", desc = "Ahmad on your screen when flashbanged" },
-            { sv = true, type = "bool", text = "Forced jam if someone hold PR-Taran", convar = "eft_taran_jam", desc = "For melee pack - if ANY player draws PR-Taran, this will make all guns forcefully jammed (Sets arc9 jam chance modifier to 9999, sets to prev value when no holding taran)" },
-            { sv = true, type = "bool", text = "Use regular holdtypes (for non-TPIK)", convar = "eft_nontpik_mode", desc = "Setting for the TPIK haters: makes guns have \"correct\" holdtypes (player stances), like on regular guns. Good for use cases with disabled TPIK. Not realistic.\n\nRequires map restart." },
-            { sv = true, type = "bool", text = "Remove RShG-2 after shot (True single-use)", convar = "eft_singleuse_behaviour", desc = "Set to true if you want RShG-2 to be deleted after each shot, otherwise it'll act like in Call of Duty: new tube for each RPG rocket." },
+            { type = "label", text = "setting.eft.miscfeatures.title", desc = "setting.eft.miscfeatures.desc" },
+            { sv = true, type = "bool", text = "setting.eft.concussion.title", convar = "eft_enable_concussion", desc = "setting.eft.concussion.desc" },
+            { sv = true, type = "slider", text = "setting.eft.flashduration.title", convar = "eft_mult_flashbang", min = 0.01, max = 2, decimals = 2, desc = "setting.eft.flashduration.desc" },
+            { type = "bool", text = "setting.eft.ahmad.title", convar = "eft_flashbang_ahmad", desc = "setting.eft.ahmad.desc" },
+            { type = "bool", text = "setting.eft.jamhud.title", convar = "eft_jam_hud", desc = "setting.eft.jamhud.desc" },
+            { sv = true, type = "bool", text = "setting.eft.prtaran.title", convar = "eft_taran_jam", desc = "setting.eft.prtaran.desc" },
+            { sv = true, type = "bool", text = "setting.eft.holdtypes.title", convar = "eft_nontpik_mode", desc = "setting.eft.holdtypes.desc" },
+            { sv = true, type = "bool", text = "setting.eft.rshg2.title", convar = "eft_singleuse_behaviour", desc = "setting.eft.rshg2.desc" },
 
         }
         
-        table.insert(ARC9.SettingsTable, 3, eftsettings)
+        table.insert(ARC9.SettingsTable, 333, eftsettings)
     
     end)
 end

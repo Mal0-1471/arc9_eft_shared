@@ -16,7 +16,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = ".45 ACP Match FMJ"
+ATT.EFTRoundName = "eft_ammo_45acp_fmj.printname"
 
 ATT.DamageMax = 72 * mult9
 ATT.DamageMin = 47.93 * mult9
@@ -88,7 +88,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = ".45 ACP AP"
+ATT.EFTRoundName = "eft_ammo_45acp_ap.printname"
 
 ATT.DamageMax = 66 * mult9
 ATT.DamageMin = 49.26 * mult9
@@ -160,7 +160,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = ".45 ACP Lasermatch FMJ"
+ATT.EFTRoundName = "eft_ammo_45acp_laser.printname"
 
 ATT.DamageMax = 76 * mult9
 ATT.DamageMin = 54.31 * mult9
@@ -233,7 +233,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = ".45 ACP Hydra-Shok"
+ATT.EFTRoundName = "eft_ammo_45acp_hydra.printname"
 
 ATT.DamageMax = 100 * mult9
 ATT.DamageMin = 65.9 * mult9
@@ -305,7 +305,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = ".45 ACP RIP"
+ATT.EFTRoundName = "eft_ammo_45acp_rip.printname"
 
 ATT.DamageMax = 130 * mult9
 ATT.DamageMin = 88.1 * mult9
