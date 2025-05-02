@@ -21,7 +21,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         -- RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.32, 0),
@@ -54,7 +54,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = {"eft_tactical_top", "eft_tactical"},
         RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.32, 0),
@@ -87,7 +87,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = {"eft_tactical_top", "eft_tactical"},
         RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.32, 0),
@@ -120,7 +120,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Grip",
+        PrintName = "eft_cat_foregrip",
         Category = {"eft_foregrip_small","eft_foregrip_large"},
         Pos = Vector(0.75, -0.32, 0),
         Ang = Angle(0, 0, 90),
@@ -152,7 +152,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.32, 0),
@@ -185,7 +185,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = {"eft_tactical_top", "eft_tactical"},
         RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.32, 0),
@@ -218,7 +218,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         -- RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.32, 0),
@@ -248,7 +248,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Bipod",
+        PrintName = "eft_cat_bipod",
         Category = "eft_harris_bipod",
         Pos = Vector(0, -0.25, 0),
         Ang = Angle(0, 0, -90),
@@ -278,7 +278,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(-0.2, -0.61, 0),
@@ -309,7 +309,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Grip",
+        PrintName = "eft_cat_foregrip",
         Category = {"eft_foregrip_small","eft_foregrip_large"},
         Pos = Vector(0.75, -0.39, 0),
         Ang = Angle(0, 0, 90),

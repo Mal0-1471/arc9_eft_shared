@@ -23,7 +23,7 @@ ATT.ModelOffset = Vector(-0.1, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
         Pos = Vector(2.5, 1.05, -2.4),
         Ang = Angle(0, 0, 0),
@@ -32,7 +32,7 @@ ATT.Attachments = {
     },
 
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical_top",
         Pos = Vector(2, -0.5, -1.4),
         Ang = Angle(0, 0, -90),
@@ -69,7 +69,7 @@ ATT.ActivateElements = {"nolongrear"}
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
         Pos = Vector(1, 1.05, -2.2),
         Ang = Angle(0, 0, 0),
@@ -106,7 +106,7 @@ ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
         Pos = Vector(1, 1.05, -2.2),
         Ang = Angle(0, 0, 0),
@@ -143,7 +143,7 @@ ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_kmz"},
         Pos = Vector(-2.7, -0.8+1, -3.2),
         Ang = Angle(0, 0, 0),
@@ -180,7 +180,7 @@ ATT.EFTErgoAdd = -1
 ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_1p78"},
         -- Category = {"eft_optic_small"},
         Pos = Vector(1.375, 0, -0.35),
@@ -219,7 +219,7 @@ ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
         -- Pos = Vector(1.05, -3.5, -2.7),
         Pos = Vector(3.5, 1.05, -2.7),
@@ -255,7 +255,7 @@ ATT.EFTErgoAdd = -0.5
 ATT.CustomCons = { Ergonomics = "-0.5" }
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_small", "eft_reapir", "eft_t12w"},
         Pos = Vector(0.75, 1.05, -2.1),
         Ang = Angle(0, 0, 0),
@@ -294,7 +294,7 @@ ATT.ActivateElements = {"nolongrear"}
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
         Pos = Vector(1, 1.05, -2.2),
         Ang = Angle(0, 0, 0),
@@ -334,7 +334,7 @@ ATT.ActivateElements = {"nolongrear"}
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
         Pos = Vector(0, 1, -2.11),
         Ang = Angle(0, 0, 0),
@@ -370,7 +370,7 @@ ATT.ActivateElements = {"nolongrear"}
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_medium", "eft_optic_large", "eft_optic_small"},
         Pos = Vector(1, 0.85, -1.935),
         Ang = Angle(0, 0, 0),

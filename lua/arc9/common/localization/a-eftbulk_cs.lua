@@ -9353,3 +9353,65 @@ L["eft_rhino_fs_std.description"] = "Standardní hledí pro revolvery Rhino, vyr
 L["eft_rhino_fs_red.printname"] = "Červená muška pro Chiappa Rhino"
 L["eft_rhino_fs_red.compactname"] = "CR ČMU"
 L["eft_rhino_fs_red.description"] = "Červená muška s tritiem pro revolvery Rhino, vyráběné společností Chiappa Firearms."
+
+///////////////////////////// Sako TRG
+-- [[ sako ]]
+L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
+L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
+
+L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"
+L["eft_sako_barrel_20.compactname"] = "M10 20\" .338LM"
+L["eft_sako_barrel_20.description"] = "A 20 inch (508mm) .338 Lapua Magnum barrel for the TRG M10 sniper rifle, manufactured by Sako."
+
+L["eft_sako_barrel_235.printname"] = "Sako TRG M10 .338 LM 23.5 inch barrel"
+L["eft_sako_barrel_235.compactname"] = "M10 23.5\" .338LM"
+L["eft_sako_barrel_235.description"] = "A 23.5 inch (597mm) .338 Lapua Magnum barrel for the TRG M10 sniper rifle, manufactured by Sako."
+
+L["eft_sako_barrel_27.printname"] = "Sako TRG M10 .338 LM 27 inch barrel"
+L["eft_sako_barrel_27.compactname"] = "M10 27\" .338LM"
+L["eft_sako_barrel_27.description"] = "A 27 inch (685mm) .338 Lapua Magnum barrel for the TRG M10 sniper rifle, manufactured by Sako."
+
+L["eft_sako_bolt_std.printname"] = "Sako TRG M10 .338 LM bolt assembly"
+L["eft_sako_bolt_std.compactname"] = "M10 .338LM"
+L["eft_sako_bolt_std.description"] = "A .338 Lapua Magnum bolt assembly for the Sako TRG M10 sniper rifle."
+
+L["eft_sako_chassis.printname"] = "Sako TRG M10 chassis"
+L["eft_sako_chassis.compactname"] = "TRG M10"
+L["eft_sako_chassis.description"] = "Standard chassis with a folding stock for the TRG M10 sniper rifle, manufactured by Sako."
+
+L["eft_sako_hook_std.printname"] = "Sako TRG M10 rear hook"
+L["eft_sako_hook_std.compactname"] = "M10 hook"
+L["eft_sako_hook_std.description"] = "A rail cover for the TRG M10 sniper rifle buttstock. Manufactured by Sako."
+
+L["eft_sako_pad.printname"] = "Sako TRG M10 grip pad"
+L["eft_sako_pad.compactname"] = "M10 pad"
+L["eft_sako_pad.description"] = "A standard-issue padded grip for the TRG M10 sniper rifle, manufactured by Sako. Comes with a hex and torx key set for quick access."
+
+L["eft_sako_upper.printname"] = "Sako TRG M10 .338 LM receiver"
+L["eft_sako_upper.compactname"] = "M10 .338LM"
+L["eft_sako_upper.description"] = "A standard .338 Lapua Magnum receiver for the TRG M10 sniper rifle. Manufactured by Sako."
+
+L["eft_sako_toprail.printname"] = "Sako TRG M10 scope mount"
+L["eft_sako_toprail.compactname"] = "M10 SM"
+L["eft_sako_toprail.description"] = "A universal rail for mounting various sights on the TRG M10 sniper rifle. Manufactured by Sako."
+
+L["eft_sako_hg_11.printname"] = "Sako TRG M10 11 inch handguard assembly"
+L["eft_sako_hg_11.compactname"] = "M10 11\""
+L["eft_sako_hg_11.description"] = "An 11 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako."
+
+L["eft_sako_hg_15.printname"] = "Sako TRG M10 15 inch handguard assembly"
+L["eft_sako_hg_15.compactname"] = "M10 15\""
+L["eft_sako_hg_15.description"] = "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with a Finnish interface for mounting additional equipment. Manufactured by Sako."
+
+L["eft_sako_hg_15mlok.printname"] = "Sako TRG M10 M-LOK 15 inch handguard assembly"
+L["eft_sako_hg_15mlok.compactname"] = "M10 15\" M-LOK"
+L["eft_sako_hg_15mlok.description"] = "A 15 inch long handguard assembly for the TRG M10 sniper rifle, equipped with an M-LOK interface for mounting additional equipment. Manufactured by Sako."
+
+L["eft_sako_railmid.printname"] = "Sako TRG medium length rail"
+L["eft_sako_railmid.compactname"] = "TRG med"
+L["eft_sako_railmid.description"] = "A medium length handguard rail for installing additional equipment on the TRG series sniper rifles. Manufactured by Sako."
+
+L["eft_sako_railshort.printname"] = "Sako TRG short length rail"
+L["eft_sako_railshort.compactname"] = "TRG short"
+L["eft_sako_railshort.description"] = "A short length handguard rail for installing additional equipment on the TRG series sniper rifles. Manufactured by Sako."

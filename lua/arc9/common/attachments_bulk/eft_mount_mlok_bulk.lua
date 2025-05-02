@@ -19,7 +19,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         RejectAttachments = { ["eft_tactical_raptar"] = true },
         -- Pos = Vector(0, 0.2, -0.37),
@@ -53,7 +53,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Grip",
+        PrintName = "eft_cat_foregrip",
         Category = {"eft_foregrip_small"},
         Pos = Vector(0, -0.35, 0),
         Ang = Angle(0, 0, 90),
@@ -83,7 +83,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         Pos = Vector(-1.1, -0.45, 0),
         Ang = Angle(0, 0, -90),
@@ -114,7 +114,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical",
         -- RejectAttachments = { ["eft_tactical_raptar"] = true },
         Pos = Vector(0, -0.15, 0.8),
@@ -144,7 +144,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = "eft_tactical_pistol",
         RejectAttachments = { ["eft_tactical_raptar"] = true },
         -- Pos = Vector(0, 0.2, -0.37),
@@ -175,7 +175,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Bipod",
+        PrintName = "eft_cat_bipod",
         Category = "eft_harris_bipod",
         Pos = Vector(0, -0.35, 0),
         Ang = Angle(0, 0, -90),

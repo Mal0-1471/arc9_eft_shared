@@ -9353,3 +9353,65 @@ L["eft_rhino_fs_std.description"] = "Штатная мушка для револ
 L["eft_rhino_fs_red.printname"] = "Мушка с тритиевыми вставками для Chiappa Rhino"
 L["eft_rhino_fs_red.compactname"] = "CR GF"
 L["eft_rhino_fs_red.description"] = "Мушка с тритиевыми вставками для револьверов Rhino, производства Chiappa Firearms."
+
+///////////////////////////// Sako TRG
+-- [[ sako ]]
+L["eft_sako_mag338.printname"] = "Магазин на 8 патронов .338 LM для Sako TRG M10"
+L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.description"] = "8-зарядный магазин для снайперской винтовки TRG M10, под патрон .338 Lapua Magnum. Производство Sako."
+
+L["eft_sako_barrel_20.printname"] = "Ствол 508мм для Sako TRG M10 .338 LM"
+L["eft_sako_barrel_20.compactname"] = "M10 508мм .338LM"
+L["eft_sako_barrel_20.description"] = "Ствол для TRG M10 под патрон .338 Lapua Magnum длиной 508мм. Производство Sako."
+
+L["eft_sako_barrel_235.printname"] = "Ствол 597мм для Sako TRG M10 .338 LM"
+L["eft_sako_barrel_235.compactname"] = "M10 597мм .338LM"
+L["eft_sako_barrel_235.description"] = "Ствол для TRG M10 под патрон .338 Lapua Magnum длиной 597мм. Производство Sako."
+
+L["eft_sako_barrel_27.printname"] = "Ствол 685мм для Sako TRG M10 .338 LM"
+L["eft_sako_barrel_27.compactname"] = "M10 685мм .338LM"
+L["eft_sako_barrel_27.description"] = "Ствол для TRG M10 под патрон .338 Lapua Magnum длиной 685мм. Производство Sako."
+
+L["eft_sako_bolt_std.printname"] = "Затвор под .338LM для Sako TRG M10"
+L["eft_sako_bolt_std.compactname"] = "M10 .338LM"
+L["eft_sako_bolt_std.description"] = "Затвор под калибр .338 Lapua Magnum для снайперской винтовки TRG M10. Производство Sako."
+
+L["eft_sako_chassis.printname"] = "Ложе для Sako TRG M10"
+L["eft_sako_chassis.compactname"] = "TRG M10"
+L["eft_sako_chassis.description"] = "Штатное ложе для TRG M10 со складным прикладом. Производство Sako."
+
+L["eft_sako_hook_std.printname"] = "Накладка-крюк для приклада Sako TRG M10"
+L["eft_sako_hook_std.compactname"] = "M10 кр."
+L["eft_sako_hook_std.description"] = "Накладка на рельсу для приклада снайперской винтовки TRG M10. Производство Sako."
+
+L["eft_sako_pad.printname"] = "Рукоятка эргономическая для Sako TRG M10"
+L["eft_sako_pad.compactname"] = "M10 рук."
+L["eft_sako_pad.description"] = "Штатная эргономическая передняя рукоятка для снайперской винтовки TRG M10. Имеет отсек для инструментов разборки в быстром доступе. Производство Sako."
+
+L["eft_sako_upper.printname"] = "Ствольная коробка .338 LM для Sako TRG M10"
+L["eft_sako_upper.compactname"] = "M10 .338LM"
+L["eft_sako_upper.description"] = "Стандартная ствольная коробка для снайперской винтовки TRG M10 под калибр .338 Lapua Magnum. Производство Sako."
+
+L["eft_sako_toprail.printname"] = "Направляющая для прицелов для Sako TRG M10"
+L["eft_sako_toprail.compactname"] = "M10 напр."
+L["eft_sako_toprail.description"] = "Универсальная направляющая для установки различных прицелов на TRG M10. Производство Sako."
+
+L["eft_sako_hg_11.printname"] = "Цевье длиной 11 дюймов для Sako TRG M10"
+L["eft_sako_hg_11.compactname"] = "M10 11\""
+L["eft_sako_hg_11.description"] = "Цевьё длиной 11 дюймов для TRG M10, снабженное финским интерфейсом для крепления дополнительного оборудования. Производство Sako."
+
+L["eft_sako_hg_15.printname"] = "Цевье длиной 15 дюймов для Sako TRG M10"
+L["eft_sako_hg_15.compactname"] = "M10 15\""
+L["eft_sako_hg_15.description"] = "Цевьё длиной 15 дюймов для TRG M10, снабженное финским интерфейсом для крепления дополнительного оборудования. Производство Sako."
+
+L["eft_sako_hg_15mlok.printname"] = "Цевье M-LOK длиной 15 дюймов для Sako TRG M10"
+L["eft_sako_hg_15mlok.compactname"] = "M10 15\" M-LOK"
+L["eft_sako_hg_15mlok.description"] = "Цевьё длиной 15 дюймов для TRG M10, оснащенное интерфейсом M-LOK для крепления дополнительного оборудования. Производство Sako."
+
+L["eft_sako_railmid.printname"] = "Направляющая средняя для Sako TRG"
+L["eft_sako_railmid.compactname"] = "TRG ср."
+L["eft_sako_railmid.description"] = "Направляющая позволяет устанавливать дополнительное оборудование на цевья Sako TRG."
+
+L["eft_sako_railshort.printname"] = "Направляющая короткая для Sako TRG"
+L["eft_sako_railshort.compactname"] = "TRG кор."
+L["eft_sako_railshort.description"] = "Направляющая позволяет устанавливать дополнительное оборудование на цевья Sako TRG."

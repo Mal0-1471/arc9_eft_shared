@@ -214,7 +214,7 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Scopes",
+        PrintName = "eft_cat_scope",
         Category = {"eft_scope_trijicon"},
         Pos = Vector(-3, 0, -1),
         Ang = Angle(0, 0, 0),

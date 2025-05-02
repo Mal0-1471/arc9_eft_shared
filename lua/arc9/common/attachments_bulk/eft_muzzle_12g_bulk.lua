@@ -25,7 +25,7 @@ ATT.Category = {"eft_saiga12_muzzle"}
 
 ATT.Attachments = {
     {
-        PrintName = "Suppressor",
+        PrintName = "eft_cat_silencer",
         Category = "eft_salvo12",
         Pos = Vector(-0.2, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -60,7 +60,7 @@ ATT.Category = {"eft_12ga_muzzle"}
 
 ATT.Attachments = {
     {
-        PrintName = "Suppressor",
+        PrintName = "eft_cat_silencer",
         Category = "eft_salvo12",
         Pos = Vector(-0.2, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -92,7 +92,7 @@ ATT.Category = {"eft_12ga_muzzle"}
 
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = "eft_cat_muzzle",
         Category = "eft_12k_cylinder",
         Pos = Vector(-1.3, 0, 0),
         Ang = Angle(0, 0, 0),

@@ -9353,3 +9353,65 @@ L["eft_rhino_fs_std.description"] = eftstring["619f4d304c58466fe1228437 Descript
 L["eft_rhino_fs_red.printname"] = eftstring["619f52454c58466fe122843b Name"]
 L["eft_rhino_fs_red.compactname"] = eftstring["619f52454c58466fe122843b ShortName"]
 L["eft_rhino_fs_red.description"] = eftstring["619f52454c58466fe122843b Description"]
+
+///////////////////////////// Sako TRG
+-- [[ sako ]]
+L["eft_sako_mag338.printname"] = eftstring["673cbdfad0453ba50c0f76d6 Name"]
+L["eft_sako_mag338.compactname"] = eftstring["673cbdfad0453ba50c0f76d6 ShortName"]
+L["eft_sako_mag338.description"] = eftstring["673cbdfad0453ba50c0f76d6 Description"]
+
+L["eft_sako_barrel_20.printname"] = eftstring["67405d760098dcb5940ea1a6 Name"]
+L["eft_sako_barrel_20.compactname"] = eftstring["67405d760098dcb5940ea1a6 ShortName"]
+L["eft_sako_barrel_20.description"] = eftstring["67405d760098dcb5940ea1a6 Description"]
+
+L["eft_sako_barrel_235.printname"] = eftstring["673cb551093e0ea7fd0b874a Name"]
+L["eft_sako_barrel_235.compactname"] = eftstring["673cb551093e0ea7fd0b874a ShortName"]
+L["eft_sako_barrel_235.description"] = eftstring["673cb551093e0ea7fd0b874a Description"]
+
+L["eft_sako_barrel_27.printname"] = eftstring["67405e3b83ac5c69ae025406 Name"]
+L["eft_sako_barrel_27.compactname"] = eftstring["67405e3b83ac5c69ae025406 ShortName"]
+L["eft_sako_barrel_27.description"] = eftstring["67405e3b83ac5c69ae025406 Description"]
+
+L["eft_sako_bolt_std.printname"] = eftstring["673cb4054ff4aa8f86076f4a Name"]
+L["eft_sako_bolt_std.compactname"] = eftstring["673cb4054ff4aa8f86076f4a ShortName"]
+L["eft_sako_bolt_std.description"] = eftstring["673cb4054ff4aa8f86076f4a Description"]
+
+L["eft_sako_chassis.printname"] = eftstring["673cb212e695740be0047a46 Name"]
+L["eft_sako_chassis.compactname"] = eftstring["673cb212e695740be0047a46 ShortName"]
+L["eft_sako_chassis.description"] = eftstring["673cb212e695740be0047a46 Description"]
+
+L["eft_sako_hook_std.printname"] = eftstring["673ddbb567c759b3c90e5f76 Name"]
+L["eft_sako_hook_std.compactname"] = eftstring["673ddbb567c759b3c90e5f76 ShortName"]
+L["eft_sako_hook_std.description"] = eftstring["673ddbb567c759b3c90e5f76 Description"]
+
+L["eft_sako_pad.printname"] = eftstring["673cb81f5b1511adb10cd326 Name"]
+L["eft_sako_pad.compactname"] = eftstring["673cb81f5b1511adb10cd326 ShortName"]
+L["eft_sako_pad.description"] = eftstring["673cb81f5b1511adb10cd326 Description"]
+
+L["eft_sako_upper.printname"] = eftstring["673cb491280680de5e02ff36 Name"]
+L["eft_sako_upper.compactname"] = eftstring["673cb491280680de5e02ff36 ShortName"]
+L["eft_sako_upper.description"] = eftstring["673cb491280680de5e02ff36 Description"]
+
+L["eft_sako_toprail.printname"] = eftstring["673cb51e093e0ea7fd0b8746 Name"]
+L["eft_sako_toprail.compactname"] = eftstring["673cb51e093e0ea7fd0b8746 ShortName"]
+L["eft_sako_toprail.description"] = eftstring["673cb51e093e0ea7fd0b8746 Description"]
+
+L["eft_sako_hg_11.printname"] = eftstring["67405ef125beb509e8070276 Name"]
+L["eft_sako_hg_11.compactname"] = eftstring["67405ef125beb509e8070276 ShortName"]
+L["eft_sako_hg_11.description"] = eftstring["67405ef125beb509e8070276 Description"]
+
+L["eft_sako_hg_15.printname"] = eftstring["673cb5d1280680de5e02ff3b Name"]
+L["eft_sako_hg_15.compactname"] = eftstring["673cb5d1280680de5e02ff3b ShortName"]
+L["eft_sako_hg_15.description"] = eftstring["673cb5d1280680de5e02ff3b Description"]
+
+L["eft_sako_hg_15mlok.printname"] = eftstring["67405fd0812f476fb2020066 Name"]
+L["eft_sako_hg_15mlok.compactname"] = eftstring["67405fd0812f476fb2020066 ShortName"]
+L["eft_sako_hg_15mlok.description"] = eftstring["67405fd0812f476fb2020066 Description"]
+
+L["eft_sako_railmid.printname"] = eftstring["673dd617912f68467c0615b6 Name"]
+L["eft_sako_railmid.compactname"] = eftstring["673dd617912f68467c0615b6 ShortName"]
+L["eft_sako_railmid.description"] = eftstring["673dd617912f68467c0615b6 Description"]
+
+L["eft_sako_railshort.printname"] = eftstring["673dd5f73f92dc7e120d20a9 Name"]
+L["eft_sako_railshort.compactname"] = eftstring["673dd5f73f92dc7e120d20a9 ShortName"]
+L["eft_sako_railshort.description"] = eftstring["673dd5f73f92dc7e120d20a9 Description"]

@@ -349,13 +349,48 @@ L["eft_trivia_calibr_40x53"] = "40x53mm"
 
 L["eft_trivia_calibr_26x75"] = "26x75mm"
 
+L["eft_fmode_bolt"] = "BOLT"
 L["eft_fmode_doubleaction"] = "D. ACTION"
 L["eft_fmode_singleaction"] = "S. ACTION"
 L["eft_fmode_melee"] = "MELEE"
 L["eft_fmode_grenade"] = "GRENADE"
 
-L["eft_toggle_folded"] = "FOLDED"
-L["eft_toggle_unfolded"] = "UNFOLDED"
+L["eft_toggle_off"] = "Off"
+
+L["eft_toggle_folded"] = "Folded"
+L["eft_toggle_unfolded"] = "Unfolded"
+
+L["eft_toggle_thermalwhite"] = "White hot"
+L["eft_toggle_thermalred"] = "Red hot"
+L["eft_toggle_thermalpurple"] = "Purple hot"
+L["eft_toggle_thermalyellow"] = "Yellow hot"
+
+L["eft_toggle_screen"] = "Screen"
+
+L["eft_toggle_light"] = "Light"
+
+L["eft_toggle_laser"] = "Laser"
+L["eft_toggle_laser_red"] = "Red laser"
+L["eft_toggle_laser_green"] = "Green laser"
+L["eft_toggle_laser_blue"] = "Blue laser"
+
+L["eft_toggle_light_laser"] = "Light + Laser"
+L["eft_toggle_light_laser_red"] = "Light + Red laser"
+L["eft_toggle_light_laser_green"] = "Light + Green laser"
+L["eft_toggle_light_laser_blue"] = "Light + Blue laser"
+
+L["eft_toggle_light_ir"] = "IR Light"
+L["eft_toggle_laser_ir"] = "IR Laser"
+L["eft_toggle_light_laser_ir"] = "IR Light & Laser"
+L["eft_toggle_searchlight_ir"] = "IR Searchlight"
+
+L["eft_toggle_light_low"] = "Light, low power"
+L["eft_toggle_laser_low"] = "Laser, low power"
+L["eft_toggle_light_ir_low"] = "IR Light, low power"
+
+L["eft_toggle_light_high"] = "Light, high power"
+L["eft_toggle_laser_high"] = "Laser, high power"
+L["eft_toggle_light_ir_high"] = "IR Light, high power"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
@@ -444,6 +479,7 @@ local attdir = {
 }
 
 L["eft_cat_ammo"] = "Ammo" -- Should never be seen, but better safe than sorry
+L["eft_cat_misc"] = "Misc"
 
 L["eft_cat_custom"] = "Custom"
 L["eft_cat_camo1"] = "Camo 1"

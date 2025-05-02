@@ -31,7 +31,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = "eft_cat_stock",
         Category = "eft_ar_stock_a2",
         Pos = Vector(2.75, 0, 0.9),
         Ang = Angle(0, 0, 0),
@@ -71,7 +71,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = "eft_cat_stock",
         Category = "eft_ar_stock",
         Pos = Vector(3, 0, 0.9),
         Ang = Angle(0, 0, 0),
@@ -203,7 +203,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = "eft_cat_stock",
         Category = "eft_ar_stock",
         Pos = Vector(2.75, 0, 0.9),
         Ang = Angle(0, 0, 0),
@@ -243,7 +243,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = "eft_cat_stock",
         Category = "eft_ar_stock",
         Pos = Vector(3.1, 0, 0.9),
         Ang = Angle(0, 0, 0),
@@ -284,7 +284,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = "eft_cat_stock",
         Category = "eft_ar_stock",
         Pos = Vector(3.1, 0, 0.9),
         Ang = Angle(0, 0, 0),
@@ -355,7 +355,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "Stock",
+        PrintName = "eft_cat_stock",
         Category = "eft_ar_stock",
         Pos = Vector(3, 0, 0.9),
         Ang = Angle(0, 0, 0),

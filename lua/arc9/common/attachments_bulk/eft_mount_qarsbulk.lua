@@ -21,7 +21,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Tactical",
+        PrintName = "eft_cat_tactical",
         Category = {"eft_tactical_top","eft_tactical"},
         Pos = Vector(0, 0, 0.25),
         Ang = Angle(90, 90, 90),
@@ -53,7 +53,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Grip",
+        PrintName = "eft_cat_foregrip",
         Category = {"eft_foregrip_small"},
         Pos = Vector(0, 0, 0.3),
         Ang = Angle(0, -90, 0),

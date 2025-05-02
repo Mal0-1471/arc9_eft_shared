@@ -349,13 +349,48 @@ L["eft_trivia_calibr_40x53"] = "40 x 53 mm"
 
 L["eft_trivia_calibr_26x75"] = "26 x 75 mm"
 
+L["eft_fmode_bolt"] = "REPETER"
 L["eft_fmode_doubleaction"] = "D. ACTION"
 L["eft_fmode_singleaction"] = "S. ACTION"
 L["eft_fmode_melee"] = "NÄRSTRID"
 L["eft_fmode_grenade"] = "GRANAT"
 
-L["eft_toggle_folded"] = "INVIKT"
-L["eft_toggle_unfolded"] = "UTFÄLLD"
+L["eft_toggle_off"] = "AV"
+
+L["eft_toggle_folded"] = "Invikt"
+L["eft_toggle_unfolded"] = "Utfälld"
+
+L["eft_toggle_thermalwhite"] = "Varmt vitt"
+L["eft_toggle_thermalred"] = "Varmt rött"
+L["eft_toggle_thermalpurple"] = "Varmt lila"
+L["eft_toggle_thermalyellow"] = "Varmt gult"
+
+L["eft_toggle_screen"] = "Skärm"
+
+L["eft_toggle_light"] = "Lampa"
+
+L["eft_toggle_laser"] = "Laser"
+L["eft_toggle_laser_red"] = "Röd laser"
+L["eft_toggle_laser_green"] = "Grön laser"
+L["eft_toggle_laser_blue"] = "Blå laser"
+
+L["eft_toggle_light_laser"] = "Lampa + Laser"
+L["eft_toggle_light_laser_red"] = "Lampa + Röd laser"
+L["eft_toggle_light_laser_green"] = "Lampa + Grön laser"
+L["eft_toggle_light_laser_blue"] = "Lampa + Blå laser"
+
+L["eft_toggle_light_ir"] = "IR-Lampa"
+L["eft_toggle_laser_ir"] = "IR-Laser"
+L["eft_toggle_light_laser_ir"] = "IR-Lampa & Laser"
+L["eft_toggle_searchlight_ir"] = "IR-Strålkastare"
+
+L["eft_toggle_light_low"] = "Lampa, låg kraft"
+L["eft_toggle_laser_low"] = "Laser, låg kraft"
+L["eft_toggle_light_ir_low"] = "IR-Lampa, låg kraft"
+
+L["eft_toggle_light_high"] = "Lampa, hög kraft"
+L["eft_toggle_laser_high"] = "Laser, hög kraft"
+L["eft_toggle_light_ir_high"] = "IR-Lampa, hög kraft"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomi"
@@ -460,6 +495,7 @@ local attdir = {
 }
 
 L["eft_cat_ammo"] = "Ammo" -- Should never be seen, but better safe than sorry
+L["eft_cat_misc"] = "Annat"
 
 L["eft_cat_custom"] = "Anpassad"
 L["eft_cat_camo1"] = "Kamo 1"

@@ -360,13 +360,48 @@ L["eft_trivia_calibr_40x53"] = "40x53mm"
 
 L["eft_trivia_calibr_26x75"] = "26x75mm"
 
+L["eft_fmode_bolt"] = "ZAMEK"
 L["eft_fmode_doubleaction"] = "POD. DZIAŁ."
 L["eft_fmode_singleaction"] = "POJ. DZIAŁ."
 L["eft_fmode_melee"] = "BROŃ BIAŁA"
 L["eft_fmode_grenade"] = "GRANATY"
 
--- L["eft_toggle_folded"] = "FOLDED"
--- L["eft_toggle_unfolded"] = "UNFOLDED"
+L["eft_toggle_off"] = "Off"
+
+L["eft_toggle_folded"] = "Folded"
+L["eft_toggle_unfolded"] = "Unfolded"
+
+L["eft_toggle_thermalwhite"] = "White hot"
+L["eft_toggle_thermalred"] = "Red hot"
+L["eft_toggle_thermalpurple"] = "Purple hot"
+L["eft_toggle_thermalyellow"] = "Yellow hot"
+
+L["eft_toggle_screen"] = "Screen"
+
+L["eft_toggle_light"] = "Light"
+
+L["eft_toggle_laser"] = "Laser"
+L["eft_toggle_laser_red"] = "Red laser"
+L["eft_toggle_laser_green"] = "Green laser"
+L["eft_toggle_laser_blue"] = "Blue laser"
+
+L["eft_toggle_light_laser"] = "Light + Laser"
+L["eft_toggle_light_laser_red"] = "Light + Red laser"
+L["eft_toggle_light_laser_green"] = "Light + Green laser"
+L["eft_toggle_light_laser_blue"] = "Light + Blue laser"
+
+L["eft_toggle_light_ir"] = "IR Light"
+L["eft_toggle_laser_ir"] = "IR Laser"
+L["eft_toggle_light_laser_ir"] = "IR Light & Laser"
+L["eft_toggle_searchlight_ir"] = "IR Searchlight"
+
+L["eft_toggle_light_low"] = "Light, low power"
+L["eft_toggle_laser_low"] = "Laser, low power"
+L["eft_toggle_light_ir_low"] = "IR Light, low power"
+
+L["eft_toggle_light_high"] = "Light, high power"
+L["eft_toggle_laser_high"] = "Laser, high power"
+L["eft_toggle_light_ir_high"] = "IR Light, high power"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomia"
@@ -455,6 +490,7 @@ local attdir = {
 }
 
 L["eft_cat_ammo"] = "Amunicja" -- Should never be seen, but better safe than sorry
+L["eft_cat_misc"] = eftstring["Misc"]
 
 L["eft_cat_custom"] = "Własna"
 L["eft_cat_camo1"] = "Camo 1"
@@ -1168,3 +1204,13 @@ L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rh
 L["eft_rhino_barrel_60ds.printname"] = "152-milimetrowa lufa do Chiappa Rhino 60DS"
 L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
 L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver."
+
+L["eft_rhino_speedloader.printname"] = "6-nabojowy szybkoładowacz do Chiappa Rhino"
+L["eft_rhino_speedloader.compactname"] = "CR ład."
+L["eft_rhino_speedloader.description"] = "6-nabojowy szybkoładowacz do rewolwerów Chiappa Rhino. Umożliwia przeładowanie bez konieczności wkładania każdego naboju do cylindra."
+
+-- [[ Sako ]]
+-- sako
+L["eft_sako_black.printname"] = "Sako TRG M10 Black frame"
+L["eft_sako_black.compactname"] = "Black"
+L["eft_sako_black.description"] = "Repaints the frame into a black color." .. customatt

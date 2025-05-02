@@ -44,7 +44,7 @@ ATT.Category = {"eft_ar15_muzzle", "eft_gemtechmount"}
 
 ATT.Attachments = {
     {
-        PrintName = "Silencer",
+        PrintName = "eft_cat_silencer",
         Category = "eft_gemtechone",
         Pos = Vector(-0.1, 0, 0),
         Icon_Offset = Vector(1, 0, 0),
@@ -236,7 +236,7 @@ ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle", "eft_ak103_muzzle", "eft_
 
 ATT.Attachments = {
     {
-        PrintName = "Suppressor",
+        PrintName = "eft_cat_silencer",
         Category = "eft_dt_hybrid",
         Pos = Vector(-0.1, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -352,14 +352,14 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_sig_qd_muzzle_base_76
 
 ATT.Attachments = {
     {
-        PrintName = "Muzzle",
+        PrintName = "eft_cat_muzzle",
         Category = "eft_tlok_muzzle",
         Pos = Vector(-0.78, 0, 0),
         Icon_Offset = Vector(0.3, 0, 0),
         Ang = Angle(0, 0, 0),
     },
     {
-        PrintName = "Silencer",
+        PrintName = "eft_cat_silencer",
         Category = "eft_tlok_silencer",
         Pos = Vector(-0.35, 0, 0),
         Icon_Offset = Vector(1.3, 0, 0),
@@ -513,7 +513,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.01
 
 ATT.Attachments = {
     {
-        PrintName = "Silencer",
+        PrintName = "eft_cat_silencer",
         Category = "eft_ar10_qdc_muzzle",
         Pos = Vector(-0.35, 0, 0),
         Icon_Offset = Vector(1, 0, 0),

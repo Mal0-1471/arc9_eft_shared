@@ -1045,7 +1045,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "Backup optic",
+        PrintName = "eft_cat_backup",
         Category = {"eft_backup_ta01"},
         Pos = Vector(3.65, 0, -1.5),
         Ang = Angle(0, 0, 0),
@@ -1116,7 +1116,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "Backup optic",
+        PrintName = "eft_cat_backup",
         Category = {"eft_backup_ta01"},
         Pos = Vector(3.65, 0, -1.5),
         Ang = Angle(0, 0, 0),
@@ -1177,7 +1177,7 @@ ATT.ScopeScreenRatio = 537/1080
 
 ATT.Attachments = {
     {
-        PrintName = "Backup optic",
+        PrintName = "eft_cat_backup",
         Category = {"eft_backup_ta11d"},
         Pos = Vector(3.76, 0, -1.6),
         Ang = Angle(0, 0, 0),
@@ -1336,7 +1336,7 @@ ATT.ScopeScreenRatio = 695/1080
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_small"},
         Pos = Vector(0.5, 0, -2.45),
         Ang = Angle(0, 0, 0),
@@ -1468,7 +1468,7 @@ ATT.ModelOffset = Vector(-2.5, 0.97, 1.95)
 
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_1p78_eyecap"},
         Pos = Vector(2.8, 1.52, -1.49),
         Ang = Angle(0, 0, 0),
@@ -1559,7 +1559,7 @@ ATT.ModelOffset = Vector(-2.1, 1, 2.0)
 
 ATT.Attachments = {
     {
-        PrintName = "Shade",
+        PrintName = "eft_cat_misc",
         Category = {"eft_ekp_shade"},
         Pos = Vector(2.05, 1, -2),
         --Pos = Vector(0, 0, 0),
@@ -1645,7 +1645,7 @@ ATT.FlareAttachment = 1
 ATT.ModelOffset = Vector(-2.5, 0.97, 2.05)
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_nspum_eyecap"},
         Pos = Vector(2.5, 0.97, -2.05),
         Ang = Angle(0, 0, 0),
@@ -1875,7 +1875,7 @@ ATT.ModelOffset = Vector(-3.5, 0.97, 2.05) - Vector(-1.1, 0, 0) -- front dovetai
 
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_pso_eyecap"},
         Pos = Vector(3.55-1.1, 0.97, -2.05),
         Ang = Angle(0, 0, 0),
@@ -1955,7 +1955,7 @@ ATT.FlareAttachment = 1
 ATT.ModelOffset = Vector(-3.5, 0.97, 2.05) - Vector(-1.1, 0, 0) -- front dovetail offset
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_pso_eyecap"},
         Pos = Vector(3.5-1.1, 0.97, -2.05),
         Ang = Angle(0, 0, 0),
@@ -2034,7 +2034,7 @@ ATT.FlareAttachment = 1
 ATT.ModelOffset = Vector(-3.5, 0.97, 2.05) - Vector(-1.1, 0, 0) -- front dovetail offset
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_pso_eyecap"},
         Pos = Vector(3.5-1.1, 0.97, -2.05),
         Ang = Angle(0, 0, 0),
@@ -2104,7 +2104,7 @@ ATT.ModelOffset = Vector(-2.5, 0.97, 1.95)
 
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_tulpan_eyecap"},
         Pos = Vector(4.5, 2.05, -3.67),
         Ang = Angle(0, 0, 0),
@@ -2330,10 +2330,10 @@ ATT.Sights = {
 
 ATT.ToggleStats = {
     {
-        PrintName = "White hot",
+        PrintName = "eft_toggle_thermalwhite",
     },
     {
-        PrintName = "Red hot",
+        PrintName = "eft_toggle_thermalred",
         RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
             ["$pp_colour_addr"] = 60/255,
             ["$pp_colour_addg"] = 50/255,
@@ -2469,7 +2469,7 @@ ATT.ScopeScreenRatio = 540/1080
 
 ATT.Attachments = {
     {
-        PrintName = "Backup",
+        PrintName = "eft_cat_backup",
         Category = {"eft_deltapoint"},
         Pos = Vector(-0.7, 0, -2.32),
         Ang = Angle(0, 0, 0),
@@ -2587,7 +2587,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_kmz_eyecap"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -2705,7 +2705,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = "Eyecap",
+        PrintName = "eft_cat_misc",
         Category = {"eft_kmz_eyecap"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -2918,7 +2918,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "Aux",
+        PrintName = "eft_cat_misc",
         Category = {"eft_reapir_cup"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -3122,14 +3122,14 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "Optic",
+        PrintName = "eft_cat_scope",
         Category = {"eft_optic_small"},
         Pos = Vector(-0.7, 0.85, -2.2),
         Ang = Angle(0, 0, 45),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "Aux",
+        PrintName = "eft_cat_misc",
         Category = {"eft_vulcan_cup"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -3202,7 +3202,7 @@ ATT.Sights = {
 
 ATT.ToggleStats = {
     {
-        PrintName = "Red hot",
+        PrintName = "eft_toggle_thermalred",
         RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
             ["$pp_colour_addr"] = 0/255,
             ["$pp_colour_addg"] = 110/255,
@@ -3232,7 +3232,7 @@ ATT.ToggleStats = {
         end
     },
     {
-        PrintName = "Purple hot",
+        PrintName = "eft_toggle_thermalpurple",
     },
 }
 
@@ -3348,11 +3348,11 @@ local pattern = Material("vgui/arc9_eft_shared/HeatRamp.png")
 
 ATT.ToggleStats = {
     {
-        PrintName = "White hot",
+        PrintName = "eft_toggle_thermalwhite",
         RTScopeReticle = Reticle0
     },
     {
-        PrintName = "Yellow hot",
+        PrintName = "eft_toggle_thermalyellow",
         RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
             ["$pp_colour_addr"] = 0,
             ["$pp_colour_addg"] = 0,
@@ -3439,14 +3439,14 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "Aux",
+        PrintName = "eft_cat_misc",
         Category = {"eft_zeus_cup"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-4.5, 0, 2.2),
     },
     {
-        PrintName = "R Tactical",
+        PrintName = "eft_cat_tactical_r",
         Category = "eft_tactical_pistol",
         Pos = Vector(0.5, 1.4, -2),
         Ang = Angle(0, 0, 90),
@@ -3781,7 +3781,7 @@ local pattern = Material("vgui/arc9_eft_shared/HeatRamp.png")
 
 -- ATT.ToggleStats = {
 --     {
---         PrintName = "White hot",
+--         PrintName = "eft_toggle_thermalwhite",
 --         RTScopeReticle = Reticle0
 --     },
 --     {
@@ -3873,7 +3873,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "Aux",
+        PrintName = "eft_cat_misc",
         Category = {"eft_shakhin_cup"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
