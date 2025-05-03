@@ -463,6 +463,7 @@ ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flag
 ATT.HoloSightReticle:SetVector("$color2", Vector(0.92, 10, 20)) -- bright color
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
+ATT.HoloSightDepthAdjustment = 0.005
 
 ATT.ModelOffset = Vector(1.5, 0, 0)
 
@@ -552,6 +553,7 @@ ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flag
 ATT.HoloSightReticle:SetVector("$color2", Vector(0.92, 10, 20)) -- bright color
 ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
+ATT.HoloSightDepthAdjustment = 0.005
 
 ATT.ModelOffset = Vector(1.5, 0, 0)
 
