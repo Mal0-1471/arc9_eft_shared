@@ -47,6 +47,9 @@ L["eft_class_weapon_boltsnip"] = "Fusil de précision à verrou"
 L["eft_class_weapon_marks"] = "Fusil de précision semi-automatique"
 L["eft_class_weapon_dualsg"] = "Fusil dual-mode"
 L["eft_class_weapon_melee"] = "Arme de mêlée"
+L["eft_class_weapon_toy"] = "Pistolet en plastique"
+L["eft_class_weapon_signalpis"] = "Pistolet de détresse"
+L["eft_class_weapon_dbsg"] = "Fusil juxtaposé"
 
 L["eft_class_weapon_grenade"] = "Grenade à main"
 L["eft_class_weapon_flashbang"] = "Grenade incapacitante"
@@ -54,6 +57,7 @@ L["eft_class_weapon_improvised_grenade"] = "Grenade à main artisanale"
 L["eft_class_weapon_stun"] = "Grenade incapacitante"
 L["eft_class_weapon_smoke"] = "Grenade fumigène"
 L["eft_class_weapon_grenadelauncher"] = "Lance-grenade"
+L["eft_class_weapon_special"] = "Objet spécial"
 
 -- [[ Weapon Categories ]] - If not using localized strings
 -- L["eft_subcat_carb"] = "5Assault Carbines"
@@ -66,236 +70,13 @@ L["eft_class_weapon_grenadelauncher"] = "Lance-grenade"
 -- L["eft_subcat_melee"] = "9Melee weapons"
 -- L["eft_subcat_grenades"] = "8Grenades & Grenade launchers"
 
-////////////// EFT Weapon Names
---[[
-If you want to replace the weapon names and not use EFT's included
-"short names", then uncomment these; they will replace the EFT ones.
---]]
-
-/////// Assault carbines
--- L["eft_weapon_9a91"] = eftstring["644674a13d52156624001fbc ShortName"]
--- L["eft_weapon_adar215"] = eftstring["5c07c60e0db834002330051f ShortName"]
--- L["eft_weapon_avt40"] = eftstring["6410733d5dd49d77bd07847e ShortName"]
--- L["eft_weapon_opsks"] = eftstring["587e02ff24597743df3deaeb ShortName"]
--- L["eft_weapon_rfb"] = eftstring["5f2a9575926fd9352339381f ShortName"]
--- L["eft_weapon_sagak"] = eftstring["628b5638ad252a16da6dd245 ShortName"]
--- L["eft_weapon_sagakshort"] = eftstring["628b9c37a733087d0d7fe84b ShortName"]
--- L["eft_weapon_sks"] = eftstring["574d967124597745970e7c94 ShortName"]
--- L["eft_weapon_sr3m"] = eftstring["651450ce0e00edc794068371 ShortName"]
--- L["eft_weapon_svt40"] = eftstring["643ea5b23db6f9f57107d9fd ShortName"]
--- L["eft_weapon_tx15"] = eftstring["5d43021ca4b9362eab4b5e25 ShortName"]
--- L["eft_weapon_vpo101"] = eftstring["5c501a4d2e221602b412b540 ShortName"]
--- L["eft_weapon_vpo136"] = eftstring["59e6152586f77473dc057aa1 ShortName"]
--- L["eft_weapon_vpo209"] = eftstring["59e6687d86f77411d949b251 ShortName"]
--- L["eft_weapon_vsk94"] = eftstring["645e0c6b3b381ede770e1cc9 ShortName"]
-
-/////// Assault rifles
--- L["eft_weapon_ak12"] = eftstring["6499849fc93611967b034949 ShortName"]
--- L["eft_weapon_ak74"] = eftstring["5bf3e03b0db834001d2c4a9c ShortName"]
--- L["eft_weapon_ak74m"] = eftstring["5ac4cd105acfc40016339859 ShortName"]
--- L["eft_weapon_ak74n"] = eftstring["5644bd2b4bdc2d3b4c8b4572 ShortName"]
--- L["eft_weapon_ak101"] = eftstring["5ac66cb05acfc40198510a10 ShortName"]
--- L["eft_weapon_ak102"] = eftstring["5ac66d015acfc400180ae6e4 ShortName"]
--- L["eft_weapon_ak103"] = eftstring["5ac66d2e5acfc43b321d4b53 ShortName"]
--- L["eft_weapon_ak104"] = eftstring["5ac66d725acfc43b321d4b60 ShortName"]
--- L["eft_weapon_ak105"] = eftstring["5ac66d9b5acfc4001633997a ShortName"]
--- L["eft_weapon_akm"] = eftstring["59d6088586f774275f37482f ShortName"]
--- L["eft_weapon_akmn"] = eftstring["5a0ec13bfcdbcb00165aa685 ShortName"]
--- L["eft_weapon_akms"] = eftstring["59ff346386f77477562ff5e2 ShortName"]
--- L["eft_weapon_akmsn"] = eftstring["5abcbc27d8ce8700182eceeb ShortName"]
--- L["eft_weapon_aks74"] = eftstring["5bf3e0490db83400196199af ShortName"]
--- L["eft_weapon_aks74n"] = eftstring["5ab8e9fcd8ce870019439434 ShortName"]
--- L["eft_weapon_aks74u"] = eftstring["57dc2fa62459775949412633 ShortName"]
--- L["eft_weapon_aks74ub"] = eftstring["5839a40f24597726f856b511 ShortName"]
--- L["eft_weapon_aks74un"] = eftstring["583990e32459771419544dd2 ShortName"]
--- L["eft_weapon_asval"] = eftstring["57c44b372459772d2b39b8ce ShortName"]
--- L["eft_weapon_ash12"] = eftstring["5cadfbf7ae92152ac412eeef ShortName"]
--- L["eft_weapon_auga1"] = eftstring["62e7c4fba689e8c9c50dfc38 ShortName"]
--- L["eft_weapon_auga3"] = eftstring["63171672192e68c5460cebc5 ShortName"]
--- L["eft_weapon_mdr556"] = eftstring["5c488a752e221602b412af63 ShortName"]
--- L["eft_weapon_mdr762"] = eftstring["5dcbd56fdbd3d91b3e5468d5 ShortName"]
--- L["eft_weapon_g36"] = eftstring["623063e994fc3f7b302a9696 ShortName"]
--- L["eft_weapon_hk416a5"] = eftstring["5bb2475ed4351e00853264e3 ShortName"]
--- L["eft_weapon_m4a1"] = eftstring["5447a9cd4bdc2dbd208b4567 ShortName"]
--- L["eft_weapon_mcx"] = eftstring["5fbcc1d9016cce60e8341ab3 ShortName"]
--- L["eft_weapon_mcxspear"] = eftstring["65290f395ae2ae97b80fdf2d ShortName"]
--- L["eft_weapon_mk47"] = eftstring["606587252535c57a13424cfd ShortName"]
--- L["eft_weapon_rd704"] = eftstring["628a60ae6b1d481ff772e9c8 ShortName"]
--- L["eft_weapon_sa58"] = eftstring["5b0bbe4e5acfc40dc528a72d ShortName"]
--- L["eft_weapon_scarh"] = eftstring["6183afd850224f204c1da514 ShortName"]
--- L["eft_weapon_scarhx17"] = eftstring["676176d362e0497044079f4c ShortName"]
--- L["eft_weapon_scarl"] = eftstring["6184055050224f204c1da540 ShortName"]
--- L["eft_weapon_velociraptor"] = eftstring["674d6121c09f69dfb201a888 ShortName"]
-
-/////// Bolt-action rifles
--- L["eft_weapon_dvl10"] = eftstring["588892092459774ac91d4b11 ShortName"]
--- L["eft_weapon_m700"] = eftstring["5bfea6e90db834001b7347f3 ShortName"]
--- L["eft_weapon_mosininf"] = eftstring["5bfd297f0db834001a669119 ShortName"]
--- L["eft_weapon_mosinsnip"] = eftstring["5ae08f0a5acfc408fb1398a1 ShortName"]
--- L["eft_weapon_sv98"] = eftstring["55801eed4bdc2d89578b4588 ShortName"]
--- L["eft_weapon_t5000m"] = eftstring["5df24cf80dee1b22f862e9bc ShortName"]
--- L["eft_weapon_trgm10"] = eftstring["673cab3e03c6a20581028bc1 ShortName"]
--- L["eft_weapon_vpo215"] = eftstring["5de652c31b7e3716273428be ShortName"]
-
-/////// Designated marksman rifles
--- L["eft_weapon_g28"] = eftstring["6176aca650224f204c1da3fb ShortName"]
--- L["eft_weapon_m1a"] = eftstring["5aafa857e5b5b00018480968 ShortName"]
--- L["eft_weapon_mk18"] = eftstring["5fc22d7c187fea44d52eda44 ShortName"]
--- L["eft_weapon_rsass"] = eftstring["5a367e5dc4a282000e49738f ShortName"]
--- L["eft_weapon_sr25"] = eftstring["5df8ce05b11454561e39243b ShortName"]
--- L["eft_weapon_svds"] = eftstring["5c46fbd72e2216398b5a8c9c ShortName"]
--- L["eft_weapon_vss"] = eftstring["57838ad32459774a17445cd2 ShortName"]
-
-/////// Grenade launchers
--- L["eft_weapon_fn40gl"] = eftstring["5e81ebcd8e146c7080625e15 ShortName"]
--- L["eft_weapon_m32a1"] = eftstring["6275303a9f372d6ea97f9ec7 ShortName"]
-
-/////// Light machine guns
--- L["eft_weapon_m60e4"] = eftstring["65fb023261d5829b2d090755 ShortName"]
--- L["eft_weapon_m60e6"] = eftstring["661ceb1b9311543c7104149b ShortName"]
--- L["eft_weapon_pkm"] = eftstring["64637076203536ad5600c990 ShortName"]
--- L["eft_weapon_pkp"] = eftstring["64ca3d3954fc657e230529cc ShortName"]
--- L["eft_weapon_rpd"] = eftstring["6513ef33e06849f06c0957ca ShortName"]
--- L["eft_weapon_rpdn"] = eftstring["65268d8ecb944ff1e90ea385 ShortName"]
--- L["eft_weapon_rpk16"] = eftstring["5beed0f50db834001c062b12 ShortName"]
-
-/////// Shotguns
--- L["eft_weapon_aa12gen1"] = eftstring["66ffa9b66e19cc902401c5e8 ShortName"]
--- L["eft_weapon_aa12gen2"] = eftstring["67124dcfa3541f2a1f0e788b ShortName"]
--- L["eft_weapon_ks23"] = eftstring["5e848cc2988a8701445df1e8 ShortName"]
--- L["eft_weapon_m3super90"] = eftstring["6259b864ebedf17603599e88 ShortName"]
--- L["eft_weapon_m590a1"] = eftstring["5e870397991fd70db46995c8 ShortName"]
--- L["eft_weapon_m870"] = eftstring["5a7828548dc32e5a9c28b516 ShortName"]
--- L["eft_weapon_mp18"] = eftstring["61f7c9e189e6fb1a5e3ea78d ShortName"]
--- L["eft_weapon_mp431c"] = eftstring["5580223e4bdc2d1c128b457f ShortName"]
--- L["eft_weapon_mp133"] = eftstring["54491c4f4bdc2db1078b4568 ShortName"]
--- L["eft_weapon_mp153"] = eftstring["56dee2bdd2720bc8328b4567 ShortName"]
--- L["eft_weapon_mp155"] = eftstring["606dae0ab0e443224b421bb7 ShortName"]
--- L["eft_weapon_mts25512"] = eftstring["60db29ce99594040e04c4a27 ShortName"]
--- L["eft_weapon_saiga12k"] = eftstring["576165642459773c7a400233 ShortName"]
--- L["eft_weapon_saiga12kfa"] = eftstring["674fe9a75e51f1c47c04ec23 ShortName"]
--- L["eft_weapon_toz106"] = eftstring["5a38e6bac4a2826c6e06d79b ShortName"]
-
-/////// Submachine guns
--- L["eft_weapon_mp5"] = eftstring["5926bb2186f7744b1c6c6e60 ShortName"]
--- L["eft_weapon_mp5kn"] = eftstring["5d2f0d8048f0356c925bc3b0 ShortName"]
--- L["eft_weapon_mp7a1"] = eftstring["5ba26383d4351e00334c93d9 ShortName"]
--- L["eft_weapon_mp7a2"] = eftstring["5bd70322209c4d00d7167b8f ShortName"]
--- L["eft_weapon_mp9"] = eftstring["5e00903ae9dc277128008b87 ShortName"]
--- L["eft_weapon_mp9n"] = eftstring["5de7bd7bfd6b4e6e2276dc25 ShortName"]
--- L["eft_weapon_mpx"] = eftstring["58948c8e86f77409493f7266 ShortName"]
--- L["eft_weapon_p90"] = eftstring["5cc82d76e24e8d00134b4b83 ShortName"]
--- L["eft_weapon_pp9"] = eftstring["57f4c844245977379d5c14d1 ShortName"]
--- L["eft_weapon_pp1901"] = eftstring["59984ab886f7743e98271174 ShortName"]
--- L["eft_weapon_pp91"] = eftstring["57d14d2524597714373db789 ShortName"]
--- L["eft_weapon_pp9101"] = eftstring["57f3c6bd24597738e730fa2f ShortName"]
--- L["eft_weapon_ppsh41"] = eftstring["5ea03f7400685063ec28bfa8 ShortName"]
--- L["eft_weapon_saiga9"] = eftstring["59f9cabd86f7743a10721f46 ShortName"]
--- L["eft_weapon_veresk"] = eftstring["62e14904c2699c0ec93adc47 ShortName"]
--- L["eft_weapon_stm9"] = eftstring["60339954d62c9b14ed777c06 ShortName"]
--- L["eft_weapon_ump45"] = eftstring["5fc3e272f8b6a877a729eac5 ShortName"]
--- L["eft_weapon_uzi"] = eftstring["66992b349950f5f4cd06029f ShortName"]
--- L["eft_weapon_uzipro"] = eftstring["6680304edadb7aa61d00cef0 ShortName"]
--- L["eft_weapon_uziprosmg"] = eftstring["668e71a8dadf42204c032ce1 ShortName"]
--- L["eft_weapon_vector45"] = eftstring["5fb64bc92b1b027b1f50bcf2 ShortName"]
--- L["eft_weapon_vector9"] = eftstring["5fc3f2d5900b1d5091531e57 ShortName"]
-
-/////// Pistols
--- L["eft_weapon_apb"] = eftstring["5abccb7dd8ce87001773e277 ShortName"]
--- L["eft_weapon_aps"] = eftstring["5a17f98cfcdbcb0980087290 ShortName"]
--- L["eft_weapon_blicky"] = eftstring["66015072e9f84d5680039678 ShortName"]
--- L["eft_weapon_deaglel5357"] = eftstring["669fa409933e898cce0c2166 ShortName"]
--- L["eft_weapon_deaglel550ae"] = eftstring["669fa3f88abd2662d80eee77 ShortName"]
--- L["eft_weapon_deaglel6"] = eftstring["669fa39b48fc9f8db6035a0c ShortName"]
--- L["eft_weapon_deaglel6wts"] = eftstring["669fa3d876116c89840b1217 ShortName"]
--- L["eft_weapon_deaglexix"] = eftstring["668fe5a998b5ad715703ddd6 ShortName"]
--- L["eft_weapon_fn57"] = eftstring["5d3eb3b0a4b93615055e84d2 ShortName"]
--- L["eft_weapon_glock17"] = eftstring["5a7ae0c351dfba0017554310 ShortName"]
--- L["eft_weapon_glock18c"] = eftstring["5b1fa9b25acfc40018633c01 ShortName"]
--- L["eft_weapon_glock19x"] = eftstring["63088377b5cd696784087147 ShortName"]
--- L["eft_weapon_m9a3"] = eftstring["5cadc190ae921500103bb3b6 ShortName"]
--- L["eft_weapon_m45a1"] = eftstring["5f36a0e5fbf956000b716b65 ShortName"]
--- L["eft_weapon_m1911a1"] = eftstring["5e81c3cbac2bb513793cdc75 ShortName"]
--- L["eft_weapon_mp443"] = eftstring["576a581d2459771e7b1bc4f1 ShortName"]
--- L["eft_weapon_p226r"] = eftstring["56d59856d2720bd8418b456a ShortName"]
--- L["eft_weapon_pb"] = eftstring["56e0598dd2720bb5668b45a6 ShortName"]
--- L["eft_weapon_pl15"] = eftstring["602a9740da11d6478d5a06dc ShortName"]
--- L["eft_weapon_pmt"] = eftstring["579204f224597773d619e051 ShortName"]
--- L["eft_weapon_pm"] = eftstring["5448bd6b4bdc2dfc2f8b4569 ShortName"]
--- L["eft_weapon_gyurza"] = eftstring["59f98b4986f7746f546d2cef ShortName"]
--- L["eft_weapon_tt"] = eftstring["571a12c42459771f627b58a0 ShortName"]
--- L["eft_weapon_ttgold"] = eftstring["5b3b713c5acfc4330140bd8d ShortName"]
--- L["eft_weapon_usp45"] = eftstring["6193a720f8ee7e52e42109ed ShortName"]
-
-/////// Revolvers
--- L["eft_weapon_cr50ds"] = eftstring["61a4c8884f95bc3b2c5dc96f ShortName"]
--- L["eft_weapon_cr200ds"] = eftstring["624c2e8614da335f1e034d8c ShortName"]
--- L["eft_weapon_rsh12"] = eftstring["633ec7c2a6918cb895019c6c ShortName"]
-
-/////// Sec. shotguns
--- L["eft_weapon_mp43sawedoff"] = eftstring["64748cb8de82c85eaf0a273a ShortName"]
-
-/////// Handheld flares
--- L["eft_weapon_rop30"] = eftstring["62178be9d0050232da3485d9 ShortName"]
--- L["eft_weapon_rsp30b"] = eftstring["66d98233302686954b0c6f81 ShortName"]
--- L["eft_weapon_rsp30g"] = eftstring["6217726288ed9f0845317459 ShortName"]
--- L["eft_weapon_rsp30r"] = eftstring["62178c4d4ecf221597654e3d ShortName"]
--- L["eft_weapon_rsp30sy"] = eftstring["66d9f1abb16d9aacf5068468 ShortName"]
--- L["eft_weapon_rsp30y"] = eftstring["624c0b3340357b5f566e8766 ShortName"]
-
-/////// Signal pistols
--- L["eft_weapon_sp81"] = eftstring["620109578d82e67e7911abf2 ShortName"]
-
-/////// Melee weapons
--- L["eft_weapon_6x5"] = eftstring["5bffdc370db834001d23eca8 ShortName"]
--- L["eft_weapon_akula"] = eftstring["674d90b55704568fe60bc8f5 ShortName"]
--- L["eft_weapon_wycc"] = eftstring["5bc9c1e2d4351e00367fbcf0 ShortName"]
--- L["eft_weapon_gladius"] = eftstring["664a5428d5e33a713b622379 ShortName"]
--- L["eft_weapon_a2607"] = eftstring["57e26fc7245977162a14b800 ShortName"]
--- L["eft_weapon_a2607d"] = eftstring["57e26ea924597715ca604a09 ShortName"]
--- L["eft_weapon_camper"] = eftstring["5c012ffc0db834001d23f03f ShortName"]
--- L["eft_weapon_crash"] = eftstring["5bffe7930db834001b734a39 ShortName"]
--- L["eft_weapon_cultist"] = eftstring["5fc64ea372b0dd78d51159dc ShortName"]
--- L["eft_weapon_fulcrum"] = eftstring["54491bb74bdc2d09088b4567 ShortName"]
--- L["eft_weapon_freeman"] = eftstring["5c07df7f0db834001b73588a ShortName"]
--- L["eft_weapon_tomahawk"] = eftstring["57cd379a24597778e7682ecf ShortName"]
--- L["eft_weapon_millerbros"] = eftstring["5bffdd7e0db834001b734a1a ShortName"]
--- L["eft_weapon_mpl50"] = eftstring["5bead2e00db834001c062938 ShortName"]
--- L["eft_weapon_baton"] = eftstring["6540d2162ae6d96b540afcaf ShortName"]
--- L["eft_weapon_rebel"] = eftstring["5c0126f40db834002a125382 ShortName"]
--- L["eft_weapon_voodoo"] = eftstring["63920105a83e15700a00f168 ShortName"]
--- L["eft_weapon_sp8"] = eftstring["5c010e350db83400232feec7 ShortName"]
--- L["eft_weapon_superfors"] = eftstring["6087e570b998180e9f76dc24 ShortName"]
--- L["eft_weapon_m48"] = eftstring["65ca457b4aafb5d7fc0dcb5d ShortName"]
--- L["eft_weapon_taiga"] = eftstring["601948682627df266209af05 ShortName"]
-
-/////// Throwable fragmentation
--- L["eft_weapon_f1"] = eftstring["5710c24ad2720bc3458b45a3 ShortName"]
--- L["eft_weapon_m67"] = eftstring["58d3db5386f77426186285a0 ShortName"]
--- L["eft_weapon_rgd5"] = eftstring["5448be9a4bdc2dfd2f8b456a ShortName"]
--- L["eft_weapon_rgn"] = eftstring["617fd91e5539a84ec44ce155 ShortName"]
--- L["eft_weapon_rgo"] = eftstring["618a431df1eb8e24b8741deb ShortName"]
--- L["eft_weapon_v40"] = eftstring["66dae7cbeb28f0f96809f325 ShortName"]
--- L["eft_weapon_vog17"] = eftstring["5e32f56fcb6d5863cc5e5ee4 ShortName"]
--- L["eft_weapon_vog25"] = eftstring["5e340dcdcb6d5863cc5e5efb ShortName"]
-
-/////// Throwable smoke
--- L["eft_weapon_m18"] = eftstring["617aa4dd8166f034d57de9c5 ShortName"]
--- L["eft_weapon_rgd2b"] = eftstring["5a2a57cfc4a2826c6e06d44a ShortName"]
-
-/////// Throwable stun
--- L["eft_weapon_m7290"] = eftstring["619256e5f8af2c1a4e1f5d92 ShortName"]
--- L["eft_weapon_zarya"] = eftstring["5a0c27731526d80618476ac4 ShortName"]
-
-/////// Other
--- L["eft_weapon_vortex"] = eftstring["61605e13ffa6e502ac5e7eef ShortName"]
-
 ////////////// Non-EFT General Strings
 -- [[ Trivia ]]
 -- L["eft_trivia_author"] = "Author"
 -- L["eft_trivia_assets"] = "Assets"
 -- L["eft_trivia_help"] = "General help"
 -- L["eft_trivia_arc9"] = "ARC9 Base"
+-- L["eft_trivia_anim"] = "Custom animations"
 
 -- L["eft_trivia_manuf"] = "Manufacturer"
 -- L["eft_trivia_cal"] = "Calibre"
@@ -303,12 +84,59 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_trivia_country"] = "Country"
 -- L["eft_trivia_year"] = "Year"
 
+-- L["eft_trivia_unknown"] = "Unknown"
+
+-- L["eft_trivia_manuf_adar"] = "ADAR"
+-- L["eft_trivia_manuf_ai"] = "Accuracy International"
+-- L["eft_trivia_manuf_aklys"] = "Aklys Defense"
+-- L["eft_trivia_manuf_benelli"] = "Benelli Armi S.p.A."
+-- L["eft_trivia_manuf_beretta"] = "Fabbrica d'Armi Pietro Beretta"
+-- L["eft_trivia_manuf_bt"] = "B&T AG"
+-- L["eft_trivia_manuf_chiappa"] = "Armi Sport di Chiappa"
+-- L["eft_trivia_manuf_cmmg"] = "CMMG Inc."
+-- L["eft_trivia_manuf_colt"] = "Colt's Manufacturing Company"
+-- L["eft_trivia_manuf_degtyaryov"] = "Degtyaryov Plant"
+-- L["eft_trivia_manuf_deserttech"] = "Desert Tech"
+-- L["eft_trivia_manuf_dsarms"] = "DS Arms"
+-- L["eft_trivia_manuf_fnherstal"] = "FN Herstal"
+-- L["eft_trivia_manuf_fnherstal_xproducts"] = "FN Herstal + X Products"
+-- L["eft_trivia_manuf_glock"] = "Glock Ges.m.b.H."
+-- L["eft_trivia_manuf_hk"] = "Heckler & Koch"
+-- L["eft_trivia_manuf_iwi"] = "Israel Weapon Industries"
+-- L["eft_trivia_manuf_izhevsk"] = "Izhevsk Mechanical Plant"
+-- L["eft_trivia_manuf_izhmash"] = "Izhmash"
+-- L["eft_trivia_manuf_kac"] = "Knight's Armament Company"
 -- L["eft_trivia_manuf_kalash"] = "Kalashnikov Concern"
--- L["eft_trivia_manuf_molot"] = "Molot Oruzhie"
--- L["eft_trivia_manuf_tula"] = "Tula Arms Plant"
--- L["eft_trivia_manuf_tskib"] = "TsKIB SOO"
 -- L["eft_trivia_manuf_kbp"] = "KBP Instrument Design Bureau"
+-- L["eft_trivia_manuf_keltec"] = "Kel-Tec CNC Industries Inc."
+-- L["eft_trivia_manuf_kriss"] = "Transformational Defense Industries (TDI)"
+-- L["eft_trivia_manuf_lobaev"] = "Lobaev Arms (KBIS)"
+-- L["eft_trivia_manuf_lonestar"] = "Lone Star Armory"
+-- L["eft_trivia_manuf_magnumresearch"] = "Magnum Research"
+-- L["eft_trivia_manuf_milkor"] = "Milkor (Pty) Ltd"
+-- L["eft_trivia_manuf_molot"] = "Molot Oruzhie"
+-- L["eft_trivia_manuf_mossberg"] = "O.F. Mossberg & Sons"
+-- L["eft_trivia_manuf_mps"] = "Military Police Systems"
+-- L["eft_trivia_manuf_npo"] = "NPO Bazalt"
+-- L["eft_trivia_manuf_orsis"] = "ORSIS"
+-- L["eft_trivia_manuf_remington"] = "Remington Arms Company, LLC"
+-- L["eft_trivia_manuf_rifledynamics"] = "Rifle Dynamics"
+-- L["eft_trivia_manuf_sako"] = "Sako"
+-- L["eft_trivia_manuf_sig"] = "SIG Sauer"
+-- L["eft_trivia_manuf_soyus"] = "Soyus-TM Arms"
+-- L["eft_trivia_manuf_springfield"] = "Springfield Armory"
+-- L["eft_trivia_manuf_steyr"] = "Steyr Arms"
+-- L["eft_trivia_manuf_sureshot"] = "Sureshot Armament Group"
+-- L["eft_trivia_manuf_sword"] = "SWORD International"
+-- L["eft_trivia_manuf_tskib"] = "TsKIB SOO"
 -- L["eft_trivia_manuf_tsniitochmash"] = "TsNIITochMash"
+-- L["eft_trivia_manuf_tula"] = "Tula Arms Plant"
+-- L["eft_trivia_manuf_usordnance"] = "U.S. Ordnance"
+-- L["eft_trivia_manuf_vytatsky"] = "Vytatsky Polyany Machine-Building Plant"
+-- L["eft_trivia_manuf_zmz"] = "ZMZ"
+
+-- L["eft_trivia_manuf_tarkovtoy"] = "Tarkov's Sector for Fun Activities"
+-- L["eft_trivia_manuf_numerous"] = "Numerous"
 
 -- L["eft_trivia_country_ussr"] = "Soviet Union"
 -- L["eft_trivia_country_rus"] = "Russian Federation"
@@ -319,11 +147,20 @@ If you want to replace the weapon names and not use EFT's included
 -- L["eft_trivia_country_aust"] = "Republic of Austria"
 -- L["eft_trivia_country_germ"] = "Germany"
 -- L["eft_trivia_country_italy"] = "Italy"
+-- L["eft_trivia_country_finland"] = "Finland"
+-- L["eft_trivia_country_switzerland"] = "Switzerland"
+-- L["eft_trivia_country_israel"] = "Israel"
 
 -- L["eft_trivia_act_bolt"] = "Bolt"
 -- L["eft_trivia_act_blow"] = "Blow"
 -- L["eft_trivia_act_gas"] = "Gas"
 -- L["eft_trivia_act_recoil"] = "Recoil"
+-- L["eft_trivia_act_spring"] = "Spring"
+-- L["eft_trivia_act_singleuse"] = "Single-use"
+-- L["eft_trivia_act_pump"] = "Pump"
+-- L["eft_trivia_act_revolver"] = "Revolver"
+-- L["eft_trivia_act_breech"] = "Breech"
+-- L["eft_trivia_act_break"] = "Break"
 
 L["eft_trivia_calibr_762x25"] = "7.62x25mm Tokarev"
 L["eft_trivia_calibr_9x18"] = "9x18mm Makarov"
@@ -359,6 +196,9 @@ L["eft_trivia_calibr_40x46"] = "40x46mm"
 L["eft_trivia_calibr_40x53"] = "40x53mm"
 
 L["eft_trivia_calibr_26x75"] = "26x75mm"
+
+L["eft_trivia_calibr_30flare"] = "30mm flare"
+L["eft_trivia_calibr_725heat"] = "72.5mm HEAT"
 
 L["eft_fmode_bolt"] = "VERROU"
 L["eft_fmode_doubleaction"] = "D. ACTION"
@@ -475,6 +315,63 @@ L["Ergonomics"] = "Ergonomie"
 ///////////////////////////// Non-EFT Weapon Names
 L["eft_weapon_aa12"] = "AA-12"
 
+L["eft_weapon_m18_green"] = "M18 (verte)"
+L["eft_weapon_m18_yellow"] = "M18 (jaune)"
+L["eft_weapon_m18_yellow_desc"] = "The M18 smoke grenade made in the USA. Used in the US Army since the Second World War. The smoke is yellow-colored."
+
+L["eft_weapon_rshg2"] = "RShG-2"
+L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
+
+L["eft_weapon_labris"] = "Chained Labrys"
+L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+
+L["eft_weapon_scythe"] = eftstring["63495c500c297e20065a08b1 Name"]
+L["eft_weapon_scythe_desc"] = eftstring["63495c500c297e20065a08b1 Description"] .. "\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+
+L["eft_weapon_mp5sd"] = "MP5SD"
+
+L["eft_weapon_rop30"] = "ROP-30 (blanche)"
+L["eft_weapon_rsp30b"] = "RSP-30 (bleu)"
+L["eft_weapon_rsp30g"] = "RSP-30 (verte)"
+L["eft_weapon_rsp30r"] = "RSP-30 (rouge)"
+L["eft_weapon_rsp30sy"] = "RSP-30 (Jaune spé)"
+L["eft_weapon_rsp30y"] = "RSP-30 (jaune)"
+L["eft_weapon_rsp30f"] = "RSP-30 (Firework)"
+
+///////////////////////////// Non-EFT Alternative Weapon Names
+-- Technically EFT weapon strings, but modified to work better for GMod use.
+-- Not all weapons require these.
+L["eft_weapon_rfb_alt"] = "Kel-Tec RFB"
+
+L["eft_weapon_mdr556_alt"] = "DT MDR 5.56"
+L["eft_weapon_mdr762_alt"] = "DT MDR .308"
+L["eft_weapon_sa58_alt"] = "DSA SA-58"
+L["eft_weapon_scarl_alt"] = "SCAR-L"
+L["eft_weapon_scarh_alt"] = "SCAR-H"
+L["eft_weapon_scarhx17_alt"] = "SCAR-H X-17"
+L["eft_weapon_mcxspear_alt"] = "MCX-SPEAR 6.8"
+
+L["eft_weapon_ppsh41_alt"] = "PPSh-41"
+L["eft_weapon_vector45_alt"] = "Vector .45"
+L["eft_weapon_ump45_alt"] = "UMP .45"
+
+L["eft_weapon_m60e4_alt"] = "M60E4"
+L["eft_weapon_pkp_alt"] = "PKP \"Pecheneg\""
+
+L["eft_weapon_axmc_alt"] = "AI AXMC"
+L["eft_weapon_trgm10_alt"] = "Sako TRG M10"
+
+L["eft_weapon_mp43sawedoff_alt"] = "Canons sciés MP-43"
+
+L["eft_weapon_deaglel5357_alt"] = "Desert Eagle L5 .357"
+L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
+L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
+
+L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
+L["eft_weapon_v40_alt"] = "V40 Mini"
+
+L["eft_weapon_a2607d_alt"] = "A-2607 Damas"
+
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
@@ -524,6 +421,11 @@ L["eft_cat_mount_b"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.b
 L["eft_optic_exps3.printname"] = "Viseur holographique EOTech EXPS3"
 L["eft_optic_exps3.compactname"] = eftstring["558022b54bdc2dac148b458d ShortName"]
 L["eft_optic_exps3.description"] = eftstring["558022b54bdc2dac148b458d Description"] .. customatt
+
+-- Tactical
+L["eft_shared_fastreload.printname"] = "Dump Ammo on Reload"
+L["eft_shared_fastreload.compactname"] = "Fast Rel."
+L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
 
 -- [[ AK Platform ]]
 -- mag_ak
@@ -591,12 +493,6 @@ L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operato
 L["eft_m9a3_black.printname"] = "M9A3 Black frame"
 L["eft_m9a3_black.compactname"] = "Black"
 L["eft_m9a3_black.description"] = "Repaints the frame into a black color." .. customatt
-
--- [[ ASh-12 & RSh-12 ]]
--- ashrsh12
-L["eft_rsh12_fastreload.printname"] = "Dump Ammo on Reload"
-L["eft_rsh12_fastreload.compactname"] = "Fast Rel."
-L["eft_rsh12_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
 
 -- [[ Glock 17 / 18C / 19X ]]
 -- ashrsh12
@@ -1149,10 +1045,6 @@ L["eft_1911_hammer_m45_blk.description"] = eftstring["5f3e76d86cda304dcc634054 D
 
 -- [[ M60 + M32A1 ]]
 -- m60_m32
-L["eft_m32a1_fastreload.printname"] = "Dump Ammo on Reload"
-L["eft_m32a1_fastreload.compactname"] = "Fast Rel."
-L["eft_m32a1_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
-
 L["eft_m32a1_black.printname"] = "Milkor M32A1 Black frame"
 L["eft_m32a1_black.compactname"] = "Black"
 L["eft_m32a1_black.description"] = "Repaints the frame into a black color." .. customatt
@@ -1179,12 +1071,6 @@ L["eft_uzipro_smg.printname"] = eftstring["668e71a8dadf42204c032ce1 Name"]
 L["eft_uzipro_smg.compactname"] = eftstring["668e71a8dadf42204c032ce1 ShortName"]
 L["eft_uzipro_smg.description"] = eftstring["668e71a8dadf42204c032ce1 Description"]
 
--- [[ MTs-255 + VPO-215 & 101 ]]
--- mts
-L["eft_mts255_fastreload.printname"] = "Dump Ammo on Reload"
-L["eft_mts255_fastreload.compactname"] = "Fast Rel."
-L["eft_mts255_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
-
 -- [[ MDR + MP-433 + RFB ]]
 -- mdr
 L["eft_mdr_fde.printname"] = "Desert Tech MDR FDE frame"
@@ -1199,18 +1085,242 @@ L["eft_rhino_mag_std.description"] = "Un barillet de 6 coups pour les revolvers 
 
 L["eft_rhino_barrel_40ds.printname"] = "Canon de 127 mm pour Chiappa Rhino 40DS"
 L["eft_rhino_barrel_40ds.compactname"] = "CR 40DS"
-L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver."
+L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. customatt
 
 L["eft_rhino_barrel_60ds.printname"] = "Canon de 152 mm pour Chiappa Rhino 60DS"
 L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
-L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver."
+L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. customatt
 
 L["eft_rhino_speedloader.printname"] = "Chiappa Rhino 6-round speedloader"
 L["eft_rhino_speedloader.compactname"] = "CR load"
-L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder."
+L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder." .. customatt
 
 -- [[ Sako ]]
 -- sako
 L["eft_sako_black.printname"] = "Sako TRG M10 Black frame"
 L["eft_sako_black.compactname"] = "Black"
 L["eft_sako_black.description"] = "Repaints the frame into a black color." .. customatt
+
+////////////// EFT Weapon Names
+--[[
+If you want to replace the weapon names and not use EFT's included
+"short names", then uncomment these; they will replace the EFT ones.
+--]]
+
+/////// Assault carbines
+-- L["eft_weapon_9a91"] = eftstring["644674a13d52156624001fbc ShortName"]
+-- L["eft_weapon_adar215"] = eftstring["5c07c60e0db834002330051f ShortName"]
+-- L["eft_weapon_avt40"] = eftstring["6410733d5dd49d77bd07847e ShortName"]
+-- L["eft_weapon_opsks"] = eftstring["587e02ff24597743df3deaeb ShortName"]
+-- L["eft_weapon_rfb"] = eftstring["5f2a9575926fd9352339381f ShortName"]
+-- L["eft_weapon_sagak"] = eftstring["628b5638ad252a16da6dd245 ShortName"]
+-- L["eft_weapon_sagakshort"] = eftstring["628b9c37a733087d0d7fe84b ShortName"]
+-- L["eft_weapon_sks"] = eftstring["574d967124597745970e7c94 ShortName"]
+-- L["eft_weapon_sr3m"] = eftstring["651450ce0e00edc794068371 ShortName"]
+-- L["eft_weapon_svt40"] = eftstring["643ea5b23db6f9f57107d9fd ShortName"]
+-- L["eft_weapon_tx15"] = eftstring["5d43021ca4b9362eab4b5e25 ShortName"]
+-- L["eft_weapon_vpo101"] = eftstring["5c501a4d2e221602b412b540 ShortName"]
+-- L["eft_weapon_vpo136"] = eftstring["59e6152586f77473dc057aa1 ShortName"]
+-- L["eft_weapon_vpo209"] = eftstring["59e6687d86f77411d949b251 ShortName"]
+-- L["eft_weapon_vsk94"] = eftstring["645e0c6b3b381ede770e1cc9 ShortName"]
+
+/////// Assault rifles
+-- L["eft_weapon_ak12"] = eftstring["6499849fc93611967b034949 ShortName"]
+-- L["eft_weapon_ak74"] = eftstring["5bf3e03b0db834001d2c4a9c ShortName"]
+-- L["eft_weapon_ak74m"] = eftstring["5ac4cd105acfc40016339859 ShortName"]
+-- L["eft_weapon_ak74n"] = eftstring["5644bd2b4bdc2d3b4c8b4572 ShortName"]
+-- L["eft_weapon_ak101"] = eftstring["5ac66cb05acfc40198510a10 ShortName"]
+-- L["eft_weapon_ak102"] = eftstring["5ac66d015acfc400180ae6e4 ShortName"]
+-- L["eft_weapon_ak103"] = eftstring["5ac66d2e5acfc43b321d4b53 ShortName"]
+-- L["eft_weapon_ak104"] = eftstring["5ac66d725acfc43b321d4b60 ShortName"]
+-- L["eft_weapon_ak105"] = eftstring["5ac66d9b5acfc4001633997a ShortName"]
+-- L["eft_weapon_akm"] = eftstring["59d6088586f774275f37482f ShortName"]
+-- L["eft_weapon_akmn"] = eftstring["5a0ec13bfcdbcb00165aa685 ShortName"]
+-- L["eft_weapon_akms"] = eftstring["59ff346386f77477562ff5e2 ShortName"]
+-- L["eft_weapon_akmsn"] = eftstring["5abcbc27d8ce8700182eceeb ShortName"]
+-- L["eft_weapon_aks74"] = eftstring["5bf3e0490db83400196199af ShortName"]
+-- L["eft_weapon_aks74n"] = eftstring["5ab8e9fcd8ce870019439434 ShortName"]
+-- L["eft_weapon_aks74u"] = eftstring["57dc2fa62459775949412633 ShortName"]
+-- L["eft_weapon_aks74ub"] = eftstring["5839a40f24597726f856b511 ShortName"]
+-- L["eft_weapon_aks74un"] = eftstring["583990e32459771419544dd2 ShortName"]
+-- L["eft_weapon_asval"] = eftstring["57c44b372459772d2b39b8ce ShortName"]
+-- L["eft_weapon_ash12"] = eftstring["5cadfbf7ae92152ac412eeef ShortName"]
+-- L["eft_weapon_auga1"] = eftstring["62e7c4fba689e8c9c50dfc38 ShortName"]
+-- L["eft_weapon_auga3"] = eftstring["63171672192e68c5460cebc5 ShortName"]
+-- L["eft_weapon_mdr556"] = eftstring["5c488a752e221602b412af63 ShortName"]
+-- L["eft_weapon_mdr762"] = eftstring["5dcbd56fdbd3d91b3e5468d5 ShortName"]
+-- L["eft_weapon_g36"] = eftstring["623063e994fc3f7b302a9696 ShortName"]
+-- L["eft_weapon_hk416a5"] = eftstring["5bb2475ed4351e00853264e3 ShortName"]
+-- L["eft_weapon_m4a1"] = eftstring["5447a9cd4bdc2dbd208b4567 ShortName"]
+-- L["eft_weapon_mcx"] = eftstring["5fbcc1d9016cce60e8341ab3 ShortName"]
+-- L["eft_weapon_mcxspear"] = eftstring["65290f395ae2ae97b80fdf2d ShortName"]
+-- L["eft_weapon_mk47"] = eftstring["606587252535c57a13424cfd ShortName"]
+-- L["eft_weapon_rd704"] = eftstring["628a60ae6b1d481ff772e9c8 ShortName"]
+-- L["eft_weapon_sa58"] = eftstring["5b0bbe4e5acfc40dc528a72d ShortName"]
+-- L["eft_weapon_scarh"] = eftstring["6183afd850224f204c1da514 ShortName"]
+-- L["eft_weapon_scarhx17"] = eftstring["676176d362e0497044079f4c ShortName"]
+-- L["eft_weapon_scarl"] = eftstring["6184055050224f204c1da540 ShortName"]
+-- L["eft_weapon_velociraptor"] = eftstring["674d6121c09f69dfb201a888 ShortName"]
+
+/////// Bolt-action rifles
+-- L["eft_weapon_dvl10"] = eftstring["588892092459774ac91d4b11 ShortName"]
+-- L["eft_weapon_m700"] = eftstring["5bfea6e90db834001b7347f3 ShortName"]
+-- L["eft_weapon_mosininf"] = eftstring["5bfd297f0db834001a669119 ShortName"]
+-- L["eft_weapon_mosinsnip"] = eftstring["5ae08f0a5acfc408fb1398a1 ShortName"]
+-- L["eft_weapon_sv98"] = eftstring["55801eed4bdc2d89578b4588 ShortName"]
+-- L["eft_weapon_t5000m"] = eftstring["5df24cf80dee1b22f862e9bc ShortName"]
+-- L["eft_weapon_trgm10"] = eftstring["673cab3e03c6a20581028bc1 ShortName"]
+-- L["eft_weapon_vpo215"] = eftstring["5de652c31b7e3716273428be ShortName"]
+
+/////// Designated marksman rifles
+-- L["eft_weapon_g28"] = eftstring["6176aca650224f204c1da3fb ShortName"]
+-- L["eft_weapon_m1a"] = eftstring["5aafa857e5b5b00018480968 ShortName"]
+-- L["eft_weapon_mk18"] = eftstring["5fc22d7c187fea44d52eda44 ShortName"]
+-- L["eft_weapon_rsass"] = eftstring["5a367e5dc4a282000e49738f ShortName"]
+-- L["eft_weapon_sr25"] = eftstring["5df8ce05b11454561e39243b ShortName"]
+-- L["eft_weapon_svds"] = eftstring["5c46fbd72e2216398b5a8c9c ShortName"]
+-- L["eft_weapon_vss"] = eftstring["57838ad32459774a17445cd2 ShortName"]
+
+/////// Grenade launchers
+-- L["eft_weapon_fn40gl"] = eftstring["5e81ebcd8e146c7080625e15 ShortName"]
+-- L["eft_weapon_m32a1"] = eftstring["6275303a9f372d6ea97f9ec7 ShortName"]
+
+/////// Light machine guns
+-- L["eft_weapon_m60e4"] = eftstring["65fb023261d5829b2d090755 ShortName"]
+-- L["eft_weapon_m60e6"] = eftstring["661ceb1b9311543c7104149b ShortName"]
+-- L["eft_weapon_pkm"] = eftstring["64637076203536ad5600c990 ShortName"]
+-- L["eft_weapon_pkp"] = eftstring["64ca3d3954fc657e230529cc ShortName"]
+-- L["eft_weapon_rpd"] = eftstring["6513ef33e06849f06c0957ca ShortName"]
+-- L["eft_weapon_rpdn"] = eftstring["65268d8ecb944ff1e90ea385 ShortName"]
+-- L["eft_weapon_rpk16"] = eftstring["5beed0f50db834001c062b12 ShortName"]
+
+/////// Shotguns
+-- L["eft_weapon_aa12gen1"] = eftstring["66ffa9b66e19cc902401c5e8 ShortName"]
+-- L["eft_weapon_aa12gen2"] = eftstring["67124dcfa3541f2a1f0e788b ShortName"]
+-- L["eft_weapon_ks23"] = eftstring["5e848cc2988a8701445df1e8 ShortName"]
+-- L["eft_weapon_m3super90"] = eftstring["6259b864ebedf17603599e88 ShortName"]
+-- L["eft_weapon_m590a1"] = eftstring["5e870397991fd70db46995c8 ShortName"]
+-- L["eft_weapon_m870"] = eftstring["5a7828548dc32e5a9c28b516 ShortName"]
+-- L["eft_weapon_mp18"] = eftstring["61f7c9e189e6fb1a5e3ea78d ShortName"]
+-- L["eft_weapon_mp431c"] = eftstring["5580223e4bdc2d1c128b457f ShortName"]
+-- L["eft_weapon_mp133"] = eftstring["54491c4f4bdc2db1078b4568 ShortName"]
+-- L["eft_weapon_mp153"] = eftstring["56dee2bdd2720bc8328b4567 ShortName"]
+-- L["eft_weapon_mp155"] = eftstring["606dae0ab0e443224b421bb7 ShortName"]
+-- L["eft_weapon_mts25512"] = eftstring["60db29ce99594040e04c4a27 ShortName"]
+-- L["eft_weapon_saiga12k"] = eftstring["576165642459773c7a400233 ShortName"]
+-- L["eft_weapon_saiga12kfa"] = eftstring["674fe9a75e51f1c47c04ec23 ShortName"]
+-- L["eft_weapon_toz106"] = eftstring["5a38e6bac4a2826c6e06d79b ShortName"]
+
+/////// Submachine guns
+-- L["eft_weapon_mp5"] = eftstring["5926bb2186f7744b1c6c6e60 ShortName"]
+-- L["eft_weapon_mp5kn"] = eftstring["5d2f0d8048f0356c925bc3b0 ShortName"]
+-- L["eft_weapon_mp7a1"] = eftstring["5ba26383d4351e00334c93d9 ShortName"]
+-- L["eft_weapon_mp7a2"] = eftstring["5bd70322209c4d00d7167b8f ShortName"]
+-- L["eft_weapon_mp9"] = eftstring["5e00903ae9dc277128008b87 ShortName"]
+-- L["eft_weapon_mp9n"] = eftstring["5de7bd7bfd6b4e6e2276dc25 ShortName"]
+-- L["eft_weapon_mpx"] = eftstring["58948c8e86f77409493f7266 ShortName"]
+-- L["eft_weapon_p90"] = eftstring["5cc82d76e24e8d00134b4b83 ShortName"]
+-- L["eft_weapon_pp9"] = eftstring["57f4c844245977379d5c14d1 ShortName"]
+-- L["eft_weapon_pp1901"] = eftstring["59984ab886f7743e98271174 ShortName"]
+-- L["eft_weapon_pp91"] = eftstring["57d14d2524597714373db789 ShortName"]
+-- L["eft_weapon_pp9101"] = eftstring["57f3c6bd24597738e730fa2f ShortName"]
+-- L["eft_weapon_ppsh41"] = eftstring["5ea03f7400685063ec28bfa8 ShortName"]
+-- L["eft_weapon_saiga9"] = eftstring["59f9cabd86f7743a10721f46 ShortName"]
+-- L["eft_weapon_veresk"] = eftstring["62e14904c2699c0ec93adc47 ShortName"]
+-- L["eft_weapon_stm9"] = eftstring["60339954d62c9b14ed777c06 ShortName"]
+-- L["eft_weapon_ump45"] = eftstring["5fc3e272f8b6a877a729eac5 ShortName"]
+-- L["eft_weapon_uzi"] = eftstring["66992b349950f5f4cd06029f ShortName"]
+-- L["eft_weapon_uzipro"] = eftstring["6680304edadb7aa61d00cef0 ShortName"]
+-- L["eft_weapon_uziprosmg"] = eftstring["668e71a8dadf42204c032ce1 ShortName"]
+-- L["eft_weapon_vector45"] = eftstring["5fb64bc92b1b027b1f50bcf2 ShortName"]
+-- L["eft_weapon_vector9"] = eftstring["5fc3f2d5900b1d5091531e57 ShortName"]
+
+/////// Pistols
+-- L["eft_weapon_apb"] = eftstring["5abccb7dd8ce87001773e277 ShortName"]
+-- L["eft_weapon_aps"] = eftstring["5a17f98cfcdbcb0980087290 ShortName"]
+-- L["eft_weapon_blicky"] = eftstring["66015072e9f84d5680039678 ShortName"]
+-- L["eft_weapon_deaglel5357"] = eftstring["669fa409933e898cce0c2166 ShortName"]
+-- L["eft_weapon_deaglel550ae"] = eftstring["669fa3f88abd2662d80eee77 ShortName"]
+-- L["eft_weapon_deaglel6"] = eftstring["669fa39b48fc9f8db6035a0c ShortName"]
+-- L["eft_weapon_deaglel6wts"] = eftstring["669fa3d876116c89840b1217 ShortName"]
+-- L["eft_weapon_deaglexix"] = eftstring["668fe5a998b5ad715703ddd6 ShortName"]
+-- L["eft_weapon_fn57"] = eftstring["5d3eb3b0a4b93615055e84d2 ShortName"]
+-- L["eft_weapon_glock17"] = eftstring["5a7ae0c351dfba0017554310 ShortName"]
+-- L["eft_weapon_glock18c"] = eftstring["5b1fa9b25acfc40018633c01 ShortName"]
+-- L["eft_weapon_glock19x"] = eftstring["63088377b5cd696784087147 ShortName"]
+-- L["eft_weapon_m9a3"] = eftstring["5cadc190ae921500103bb3b6 ShortName"]
+-- L["eft_weapon_m45a1"] = eftstring["5f36a0e5fbf956000b716b65 ShortName"]
+-- L["eft_weapon_m1911a1"] = eftstring["5e81c3cbac2bb513793cdc75 ShortName"]
+-- L["eft_weapon_mp443"] = eftstring["576a581d2459771e7b1bc4f1 ShortName"]
+-- L["eft_weapon_p226r"] = eftstring["56d59856d2720bd8418b456a ShortName"]
+-- L["eft_weapon_pb"] = eftstring["56e0598dd2720bb5668b45a6 ShortName"]
+-- L["eft_weapon_pl15"] = eftstring["602a9740da11d6478d5a06dc ShortName"]
+-- L["eft_weapon_pmt"] = eftstring["579204f224597773d619e051 ShortName"]
+-- L["eft_weapon_pm"] = eftstring["5448bd6b4bdc2dfc2f8b4569 ShortName"]
+-- L["eft_weapon_gyurza"] = eftstring["59f98b4986f7746f546d2cef ShortName"]
+-- L["eft_weapon_tt"] = eftstring["571a12c42459771f627b58a0 ShortName"]
+-- L["eft_weapon_ttgold"] = eftstring["5b3b713c5acfc4330140bd8d ShortName"]
+-- L["eft_weapon_usp45"] = eftstring["6193a720f8ee7e52e42109ed ShortName"]
+
+/////// Revolvers
+-- L["eft_weapon_cr50ds"] = eftstring["61a4c8884f95bc3b2c5dc96f ShortName"]
+-- L["eft_weapon_cr200ds"] = eftstring["624c2e8614da335f1e034d8c ShortName"]
+-- L["eft_weapon_rsh12"] = eftstring["633ec7c2a6918cb895019c6c ShortName"]
+
+/////// Sec. shotguns
+-- L["eft_weapon_mp43sawedoff"] = eftstring["64748cb8de82c85eaf0a273a ShortName"]
+
+/////// Handheld flares
+-- L["eft_weapon_rop30"] = eftstring["62178be9d0050232da3485d9 ShortName"]
+-- L["eft_weapon_rsp30b"] = eftstring["66d98233302686954b0c6f81 ShortName"]
+-- L["eft_weapon_rsp30g"] = eftstring["6217726288ed9f0845317459 ShortName"]
+-- L["eft_weapon_rsp30r"] = eftstring["62178c4d4ecf221597654e3d ShortName"]
+-- L["eft_weapon_rsp30sy"] = eftstring["66d9f1abb16d9aacf5068468 ShortName"]
+-- L["eft_weapon_rsp30y"] = eftstring["624c0b3340357b5f566e8766 ShortName"]
+
+/////// Signal pistols
+-- L["eft_weapon_sp81"] = eftstring["620109578d82e67e7911abf2 ShortName"]
+
+/////// Melee weapons
+-- L["eft_weapon_6x5"] = eftstring["5bffdc370db834001d23eca8 ShortName"]
+-- L["eft_weapon_akula"] = eftstring["674d90b55704568fe60bc8f5 ShortName"]
+-- L["eft_weapon_wycc"] = eftstring["5bc9c1e2d4351e00367fbcf0 ShortName"]
+-- L["eft_weapon_gladius"] = eftstring["664a5428d5e33a713b622379 ShortName"]
+-- L["eft_weapon_a2607"] = eftstring["57e26fc7245977162a14b800 ShortName"]
+-- L["eft_weapon_a2607d"] = eftstring["57e26ea924597715ca604a09 ShortName"]
+-- L["eft_weapon_camper"] = eftstring["5c012ffc0db834001d23f03f ShortName"]
+-- L["eft_weapon_crash"] = eftstring["5bffe7930db834001b734a39 ShortName"]
+-- L["eft_weapon_cultist"] = eftstring["5fc64ea372b0dd78d51159dc ShortName"]
+-- L["eft_weapon_fulcrum"] = eftstring["54491bb74bdc2d09088b4567 ShortName"]
+-- L["eft_weapon_freeman"] = eftstring["5c07df7f0db834001b73588a ShortName"]
+-- L["eft_weapon_tomahawk"] = eftstring["57cd379a24597778e7682ecf ShortName"]
+-- L["eft_weapon_millerbros"] = eftstring["5bffdd7e0db834001b734a1a ShortName"]
+-- L["eft_weapon_mpl50"] = eftstring["5bead2e00db834001c062938 ShortName"]
+-- L["eft_weapon_baton"] = eftstring["6540d2162ae6d96b540afcaf ShortName"]
+-- L["eft_weapon_rebel"] = eftstring["5c0126f40db834002a125382 ShortName"]
+-- L["eft_weapon_voodoo"] = eftstring["63920105a83e15700a00f168 ShortName"]
+-- L["eft_weapon_sp8"] = eftstring["5c010e350db83400232feec7 ShortName"]
+-- L["eft_weapon_superfors"] = eftstring["6087e570b998180e9f76dc24 ShortName"]
+-- L["eft_weapon_m48"] = eftstring["65ca457b4aafb5d7fc0dcb5d ShortName"]
+-- L["eft_weapon_taiga"] = eftstring["601948682627df266209af05 ShortName"]
+
+/////// Throwable fragmentation
+-- L["eft_weapon_f1"] = eftstring["5710c24ad2720bc3458b45a3 ShortName"]
+-- L["eft_weapon_m67"] = eftstring["58d3db5386f77426186285a0 ShortName"]
+-- L["eft_weapon_rgd5"] = eftstring["5448be9a4bdc2dfd2f8b456a ShortName"]
+-- L["eft_weapon_rgn"] = eftstring["617fd91e5539a84ec44ce155 ShortName"]
+-- L["eft_weapon_rgo"] = eftstring["618a431df1eb8e24b8741deb ShortName"]
+-- L["eft_weapon_v40"] = eftstring["66dae7cbeb28f0f96809f325 ShortName"]
+-- L["eft_weapon_vog17"] = eftstring["5e32f56fcb6d5863cc5e5ee4 ShortName"]
+-- L["eft_weapon_vog25"] = eftstring["5e340dcdcb6d5863cc5e5efb ShortName"]
+
+/////// Throwable smoke
+-- L["eft_weapon_m18"] = eftstring["617aa4dd8166f034d57de9c5 ShortName"]
+-- L["eft_weapon_rgd2b"] = eftstring["5a2a57cfc4a2826c6e06d44a ShortName"]
+
+/////// Throwable stun
+-- L["eft_weapon_m7290"] = eftstring["619256e5f8af2c1a4e1f5d92 ShortName"]
+-- L["eft_weapon_zarya"] = eftstring["5a0c27731526d80618476ac4 ShortName"]
+
+/////// Other
+-- L["eft_weapon_vortex"] = eftstring["61605e13ffa6e502ac5e7eef ShortName"]
