@@ -365,6 +365,7 @@ L["eft_weapon_mp43sawedoff_alt"] = "MP-43, obcięta"
 
 L["eft_weapon_deaglel5357_alt"] = "Desert Eagle L5 .357"
 L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
+L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
@@ -403,6 +404,8 @@ L["eft_cat_tactical"] = "Taktyczny"
 L["eft_cat_trigger"] = "Spust"
 L["eft_cat_backup"] = "Backup sight"
 L["eft_cat_dovetail"] = "Jaskółczy ogon"
+L["eft_cat_buffertube"] = "Prowadnica kolby"
+L["eft_cat_magwell"] = "Lejek gniazda mag."
 
 L["eft_cat_tactical_l"] = "Taktyczny" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktyczny" .. attdir.r

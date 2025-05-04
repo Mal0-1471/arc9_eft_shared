@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "Tattico"
 L["eft_cat_trigger"] = "Grilletto"
 L["eft_cat_backup"] = "Mira di riserva"
 L["eft_cat_dovetail"] = "Coda di rondine"
+L["eft_cat_buffertube"] = "Tubo tampone"
+L["eft_cat_magwell"] = "Magwell"
 
 L["eft_cat_tactical_l"] = "Tattico" .. attdir.l
 L["eft_cat_tactical_r"] = "Tattico" .. attdir.r

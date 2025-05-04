@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "タクティカル"
 L["eft_cat_trigger"] = "トリガー"
 L["eft_cat_backup"] = "バックアップリアサイト"
 L["eft_cat_dovetail"] = "Dovetail"
+L["eft_cat_buffertube"] = "Buffer tube"
+L["eft_cat_magwell"] = "Magwell"
 
 L["eft_cat_tactical_l"] = "タクティカル" .. attdir.l
 L["eft_cat_tactical_r"] = "タクティカル" .. attdir.r

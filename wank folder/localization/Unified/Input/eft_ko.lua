@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "전술장비"
 L["eft_cat_trigger"] = "방아쇠"
 L["eft_cat_backup"] = "보조 가늠자"
 L["eft_cat_dovetail"] = "도브테일"
+L["eft_cat_buffertube"] = "완충튜브"
+L["eft_cat_magwell"] = "맥웰"
 
 L["eft_cat_tactical_l"] = "전술장비" .. attdir.l
 L["eft_cat_tactical_r"] = "전술장비" .. attdir.r

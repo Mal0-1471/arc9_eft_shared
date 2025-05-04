@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "Taktický"
 L["eft_cat_trigger"] = "Trigger"
 L["eft_cat_backup"] = "Záložní hledí"
 L["eft_cat_dovetail"] = "Boční"
+L["eft_cat_buffertube"] = "Trubice s vratnou pružinou"
+L["eft_cat_magwell"] = "Zásobníková šachta"
 
 L["eft_cat_tactical_l"] = "Taktický" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktický" .. attdir.r

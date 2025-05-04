@@ -365,6 +365,7 @@ L["eft_weapon_mp43sawedoff_alt"] = "MP-43 Sawed-off"
 
 L["eft_weapon_deaglel5357_alt"] = "Desert Eagle L5 .357"
 L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
+L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
@@ -403,6 +404,8 @@ L["eft_cat_tactical"] = "전술장비"
 L["eft_cat_trigger"] = "방아쇠"
 L["eft_cat_backup"] = "보조 가늠자"
 L["eft_cat_dovetail"] = "도브테일"
+L["eft_cat_buffertube"] = "완충튜브"
+L["eft_cat_magwell"] = "맥웰"
 
 L["eft_cat_tactical_l"] = "전술장비" .. attdir.l
 L["eft_cat_tactical_r"] = "전술장비" .. attdir.r

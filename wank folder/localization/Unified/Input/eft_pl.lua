@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "Taktyczny"
 L["eft_cat_trigger"] = "Spust"
 L["eft_cat_backup"] = "Backup sight"
 L["eft_cat_dovetail"] = "Jaskółczy ogon"
+L["eft_cat_buffertube"] = "Prowadnica kolby"
+L["eft_cat_magwell"] = "Lejek gniazda mag."
 
 L["eft_cat_tactical_l"] = "Taktyczny" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktyczny" .. attdir.r

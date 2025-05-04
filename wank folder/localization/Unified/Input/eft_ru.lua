@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "Такт."
 L["eft_cat_trigger"] = "Спуск"
 L["eft_cat_backup"] = "Backup sight"
 L["eft_cat_dovetail"] = "Ласточкин хвост"
+L["eft_cat_buffertube"] = "Труба приклада"
+L["eft_cat_magwell"] = "Магазиноприемник"
 
 L["eft_cat_tactical_l"] = "Такт." .. attdir.l
 L["eft_cat_tactical_r"] = "Такт." .. attdir.r

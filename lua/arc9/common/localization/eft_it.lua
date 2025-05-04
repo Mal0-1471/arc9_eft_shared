@@ -365,6 +365,7 @@ L["eft_weapon_mp43sawedoff_alt"] = "Segata MP-43"
 
 L["eft_weapon_deaglel5357_alt"] = "Desert Eagle L5 .357"
 L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
+L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
@@ -403,6 +404,8 @@ L["eft_cat_tactical"] = "Tattico"
 L["eft_cat_trigger"] = "Grilletto"
 L["eft_cat_backup"] = "Mira di riserva"
 L["eft_cat_dovetail"] = "Coda di rondine"
+L["eft_cat_buffertube"] = "Tubo tampone"
+L["eft_cat_magwell"] = "Magwell"
 
 L["eft_cat_tactical_l"] = "Tattico" .. attdir.l
 L["eft_cat_tactical_r"] = "Tattico" .. attdir.r

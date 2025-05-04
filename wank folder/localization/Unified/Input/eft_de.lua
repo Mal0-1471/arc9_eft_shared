@@ -390,9 +390,9 @@ L["eft_cat_ammo"] = "Munition" -- Should never be seen, but better safe than sor
 L["eft_cat_misc"] = eftstring["Misc"]
 
 L["eft_cat_custom"] = "Individuell"
-L["eft_cat_camo1"] = "Camo 1"
-L["eft_cat_camo2"] = "Camo 2"
-L["eft_cat_camo3"] = "Camo 3"
+L["eft_cat_camo1"] = "Tarnung 1"
+L["eft_cat_camo2"] = "Tarnung 2"
+L["eft_cat_camo3"] = "Tarnung 3"
 
 L["eft_cat_catch"] = "Bolt catch"
 L["eft_cat_frontsight"] = "Korn"
@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "Taktisch"
 L["eft_cat_trigger"] = "Abzug"
 L["eft_cat_backup"] = "Backupvisier"
 L["eft_cat_dovetail"] = "Dovetail"
+L["eft_cat_buffertube"] = "Pufferrohr"
+L["eft_cat_magwell"] = "Magazinhalterung"
 
 L["eft_cat_tactical_l"] = "Taktisch" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktisch" .. attdir.r

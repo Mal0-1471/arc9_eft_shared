@@ -363,9 +363,9 @@ L["eft_weapon_trgm10_alt"] = "Sako TRG M10"
 
 L["eft_weapon_mp43sawedoff_alt"] = "MP-43截短双管霰弹枪"
 
-L["eft_weapon_deaglel5357_alt"] = "Desert Eagle L5 .357"
-L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
-L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
+L["eft_weapon_deaglel5357_alt"] = "沙漠之鹰L5 .357"
+L["eft_weapon_deaglel550ae_alt"] = "沙漠之鹰L5 .50 AE"
+L["eft_weapon_deaglel6wts_alt"] = "沙漠之鹰L6（白色虎纹）"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "战术配件"
 L["eft_cat_trigger"] = "板机"
 L["eft_cat_backup"] = "备用照门"
 L["eft_cat_dovetail"] = "Dovetail"
+L["eft_cat_buffertube"] = "缓冲管"
+L["eft_cat_magwell"] = "弹匣转换器"
 
 L["eft_cat_tactical_l"] = attdir.l .. "战术配件"
 L["eft_cat_tactical_r"] = attdir.r .. "战术配件"

@@ -365,6 +365,7 @@ L["eft_weapon_mp43sawedoff_alt"] = "Upilovaná MP-43"
 
 L["eft_weapon_deaglel5357_alt"] = "Desert Eagle L5 .357"
 L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
+L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
@@ -403,6 +404,8 @@ L["eft_cat_tactical"] = "Taktický"
 L["eft_cat_trigger"] = "Trigger"
 L["eft_cat_backup"] = "Záložní hledí"
 L["eft_cat_dovetail"] = "Boční"
+L["eft_cat_buffertube"] = "Trubice s vratnou pružinou"
+L["eft_cat_magwell"] = "Zásobníková šachta"
 
 L["eft_cat_tactical_l"] = "Taktický" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktický" .. attdir.r

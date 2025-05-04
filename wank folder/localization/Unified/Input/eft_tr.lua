@@ -404,6 +404,8 @@ L["eft_cat_tactical"] = "Taktİksel"
 L["eft_cat_trigger"] = "Trigger"
 L["eft_cat_backup"] = "Yedek gez"
 L["eft_cat_dovetail"] = "Dovetail"
+L["eft_cat_buffertube"] = "Buffer tube"
+L["eft_cat_magwell"] = "Magwell"
 
 L["eft_cat_tactical_l"] = "Taktİksel" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktİksel" .. attdir.r
