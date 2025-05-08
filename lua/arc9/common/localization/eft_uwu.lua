@@ -184,8 +184,9 @@ L["eft_trivia_calibr_30flare"] = "30mm flare"
 L["eft_trivia_calibr_725heat"] = "72.5mm HEAT"
 
 L["eft_fmode_bolt"] = "BOLT"
-L["eft_fmode_doubleaction"] = "D. ACTION"
-L["eft_fmode_singleaction"] = "S. ACTION"
+L["eft_fmode_manualreload"] = "MANUAL REL."
+L["eft_fmode_doubleaction"] = "D. ACT."
+L["eft_fmode_singleaction"] = "S. ACT."
 L["eft_fmode_melee"] = "MELEE"
 L["eft_fmode_grenade"] = "GRENADE"
 
@@ -229,71 +230,6 @@ L["eft_toggle_light_ir_high"] = "IR Light, high power"
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
-
--- [[ Settings ]]
--- L["setting.eft"] = "Addon - EFT"
--- L["setting.eft.label"] = "Settings for Escape from Tarkov weapons"
-
--- Min. Damage Range
--- L["setting.eft.mindmg.title"] = "Minimal Damage Range"
--- L["setting.eft.mindmg.desc"] = "How much maximum range all EFT weapons (excluding shotguns) should have. Measured in meters.\nEFT default: 1000"
-
--- L["setting.eft.mindmg.sg.title"] = "   › For Shotguns"
--- L["setting.eft.mindmg.sg.desc"] = "How much maximum range all EFT shotguns should have. Measured in meters.\nEFT default: 100"
-
--- L["setting.eft.dmgmult.title"] = "Damage Multipliers"
--- L["setting.eft.dmgmult.desc"] = "Damage multipliers for the various weapon calibers. True EFT experience is with everything set to 1x, but players there have 450 HP, so GMod could benefit from lower values."
-
--- L["setting.eft.dmgmult.pistol.title"] = "Pistol Caliber"
--- L["setting.eft.dmgmult.pistol.desc"] = "Examples:\n- 9x19\n- 5.7x28"
-
--- L["setting.eft.dmgmult.shotgun.title"] = "Shotgun Pellets"
--- L["setting.eft.dmgmult.shotgun.desc"] = "Examples:\n- 12 gauge\n- 20 gauge"
-
--- L["setting.eft.dmgmult.carbine.title"] = "Intermediate Caliber"
--- L["setting.eft.dmgmult.carbine.desc"] = "Examples:\n- 5.56x45\n- 5.45x39"
-
--- L["setting.eft.dmgmult.rifle.title"] = "Rifle Caliber"
--- L["setting.eft.dmgmult.rifle.desc"] = "Examples:\n- 7.62x39"
-
--- L["setting.eft.dmgmult.bigrifle.title"] = "Large Rifle Caliber"
--- L["setting.eft.dmgmult.bigrifle.desc"] = "Examples:\n- 7.62x51\n- 7.62x54R"
-
--- L["setting.eft.dmgmult.338.title"] = ".338 Lapua Caliber"
--- L["setting.eft.dmgmult.338.desc"] = "Examples:\n- 8.6x70 (.338 Lapua Magnum)"
-
--- L["setting.eft.dmgmult.massive.title"] = "Huge Rifle Caliber"
--- L["setting.eft.dmgmult.massive.desc"] = "Examples:\n- 366 TKM\n- 12.7x55"
-
--- L["setting.eft.dmgmult.melee.title"] = "Melee"
--- L["setting.eft.dmgmult.melee.desc"] = "Melee weapons."
-
--- L["setting.eft.reloadatts.desc"] = "You must reload attachments to apply the changes!"
-
--- Additional Features
--- L["setting.eft.miscfeatures.title"] = "Misc. Features"
--- L["setting.eft.miscfeatures.desc"] = "Various EFT-related features."
-
--- L["setting.eft.concussion.title"] = "Enable Concussion"
--- L["setting.eft.concussion.desc"] = "If enabled, players too close to exploding EFT grenades will experience a concussion, i.e. a distorted view and motion blur."
-
--- L["setting.eft.flashduration.title"] = "Flashbang Duration"
--- L["setting.eft.flashduration.desc"] = "Multiplies how long the flashbang blindness effect lasts."
-
--- L["setting.eft.ahmad.title"] = "Ahmad Flashbang"
--- L["setting.eft.ahmad.desc"] = "Ahmad appears on your screen when you are blinded."
-
--- L["setting.eft.jamhud.title"] = "Malfunction Notification & Sound"
--- L["setting.eft.jamhud.desc"] = "Displays a notification on your HUD, and plays a sound, when your EFT weapon jams."
-
--- L["setting.eft.prtaran.title"] = "Forced Jam if PR-Taran is present"
--- L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Taran\" melee weapon, all EFT weapons will immediately jam.\n\nSets the ARC9 Malfunction Chance multiplier to 9999 - reverts when no PR-Taran is present."
-
--- L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
--- L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
-
--- L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
--- L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
 
 ///////////////////////////// Non-EFT Weapon Names
 -- L["eft_weapon_aa12"] = "AA-12"
@@ -354,6 +290,51 @@ L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
 
 L["eft_weapon_a2607d_alt"] = "A-2607 Damascus"
+
+///////////////////////////// EFT Attachments with Comments
+-- These are EFT attachments that should be in the "_bulk" files, but has
+-- additional comments included in the description of them.
+local bipodtext = "\n\n[ <color=255,200,25>Unlike EFT, this bipod does not need to be manually deployed</color> ]"
+
+///////////// Shared
+-- Tactical
+L["eft_bipod_atlas_v8.printname"] = "BT10 V8 Atlas Bipod"
+L["eft_bipod_atlas_v8.compactname"] = "BT10"
+L["eft_bipod_atlas_v8.description"] = "The Atlas V8 series BT10 bipod. Lightweight, foldable, adjustable. Manufactured by B&T Industries L.L.C." .. bipodtext
+
+L["eft_bipod_harris.printname"] = "Harris S-BRM 6-9\" Bipod"
+L["eft_bipod_harris.compactname"] = "S-BRM"
+L["eft_bipod_harris.description"] = "The S-BRM 6-9\" ultralight foldable bipod with a spring retraction mechanism. Used by service operators and civilian shooters worldwide. Manufactured by Harris." .. bipodtext
+
+///////////// PKP + PKP Pecheneg
+-- pkm
+L["eft_pkm_bipod.printname"] = "PK bipod"
+L["eft_pkm_bipod.compactname"] = "PK"
+L["eft_pkm_bipod.description"] = "A standard-issue bipod for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant." .. bipodtext
+
+///////////// RPD + PPSH + TT
+-- rpd
+L["eft_rpd_bipod.printname"] = "RPD bipod"
+L["eft_rpd_bipod.compactname"] = "RPD"
+L["eft_rpd_bipod.description"] = "A standard-issue bipod for the RPD machine gun. Manufactured by V.A. Degtyarev Plant." .. bipodtext
+
+///////////// PP-91 + SV-98
+-- sv98
+L["eft_sv98_bipodd.printname"] = "SV-98 bipod"
+L["eft_sv98_bipodd.compactname"] = "SV-98"
+L["eft_sv98_bipodd.description"] = "A standard-issue Izhmash bipod for the SV-98 sniper rifle. Folded into the handguard when not used." .. bipodtext
+
+///////////// H&K G36 + G28
+-- g36
+L["eft_g36_hg_bipod.printname"] = "HK G36 bipod"
+L["eft_g36_hg_bipod.compactname"] = "G36"
+L["eft_g36_hg_bipod.description"] = "A standard-issue bipod for the HK G36 assault rifle." .. bipodtext
+
+///////////// M60 + M32A1
+-- m60_m32
+L["eft_m60_bipod.printname"] = "M60 bipod"
+L["eft_m60_bipod.compactname"] = "M60"
+L["eft_m60_bipod.description"] = "A standard-issue bipod for the M60 machine gun. Manufactured by U.S Ordnance." .. bipodtext
 
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
@@ -499,9 +480,9 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 
 -- p90
 -- 5cc70093e4a949033c734312
-L["eft_p90_mag_opaque.printname"] = "FN P90 5.7x28 50-round magazine (Non-Translucent)"
-L["eft_p90_mag_opaque.compactname"] = "P90-NT 50"
-L["eft_p90_mag_opaque.description"] = "A 50-round polymer magazine for the 5.7x28mm FN P90 SMG." .. customatt
+L["eft_p90_mag_opaque.printname"] = "FN P90 5.7x28 50-round magazine (Original)"
+L["eft_p90_mag_opaque.compactname"] = "FN P90 5.7x28 50-round magazine 50 (Orig.)"
+L["eft_p90_mag_opaque.description"] = "A 50-round polymer magazine for the 5.7x28mm FN P90 SMG.\n\n[ <color=255,200,25>Original Original version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
 -- ammo_20x70
@@ -916,9 +897,9 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- [[ SIG MCX + Spear + MPX + P226R ]]
 -- mcx_mpx
 -- 5894a05586f774094708ef75
-L["eft_mpx_mag_30_orig.printname"] = "MPX 9x19 30-round magazine (Non-Translucent)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30"
-L["eft_mpx_mag_30_orig.description"] = "A standard 30-round capacity semitransparent 9x19mm MPX magazine, manufactured by SIG Sauer." .. customatt
+L["eft_mpx_mag_30_orig.printname"] = "MPX 9x19 30-round magazine (Original)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.description"] = "A standard 30-round capacity semitransparent 9x19mm MPX magazine, manufactured by SIG Sauer.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
 -- 6529366450dc782999054ba0
@@ -989,22 +970,22 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 
 -- [[ H&K G36 + G28 ]]
 -- g28
-L["eft_g28_mag_10old.printname"] = "HK417/G28 7.62x51 10-round magazine (Non-Translucent)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10"
-L["eft_g28_mag_10old.description"] = "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning." .. customatt
+L["eft_g28_mag_10old.printname"] = "HK417/G28 7.62x51 10-round magazine (Original)"
+L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (Orig.)"
+L["eft_g28_mag_10old.description"] = "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
-L["eft_g28_mag_20old.printname"] = "HK417/G28 7.62x51 20-round magazine (Non-Translucent)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20"
-L["eft_g28_mag_20old.description"] = "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning." .. customatt
+L["eft_g28_mag_20old.printname"] = "HK417/G28 7.62x51 20-round magazine (Original)"
+L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (Orig.)"
+L["eft_g28_mag_20old.description"] = "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
 L["eft_g28_blk.compactname"] = "Black"
 L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a black color." .. customatt
 
 -- g36
-L["eft_g28_mag_30old.printname"] = "HK G36 5.56x45 30-round magazine (Non-Translucent)"
-L["eft_g28_mag_30old.compactname"] = "G36 30"
-L["eft_g28_mag_30old.description"] = "A 30-round 5.56x45 magazine designed for the HK G36." .. customatt
+L["eft_g28_mag_30old.printname"] = "HK G36 5.56x45 30-round magazine (Original)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.description"] = "A 30-round 5.56x45 magazine designed for the HK G36.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]
 -- 1911

@@ -2712,13 +2712,13 @@ L["eft_tactical_2d.printname"] = "Фонарь оружейный Зенит \"2
 L["eft_tactical_2d.compactname"] = "2Д"
 L["eft_tactical_2d.description"] = "Тактический фонарь \"2Д\", устанавливающийся на специальное крепление. Производство Зенит."
 
-L["eft_bipod_atlas_v8.printname"] = "Сошки BT10 V8 Atlas Bipod"
-L["eft_bipod_atlas_v8.compactname"] = "BT10"
-L["eft_bipod_atlas_v8.description"] = "Сошки BT10 V8 Atlas Bipod. Легкие, складные, с возможностью регулировки ножек. Производство B&T Industries L.L.C."
+-- L["eft_bipod_atlas_v8.printname"] = "Сошки BT10 V8 Atlas Bipod"
+-- L["eft_bipod_atlas_v8.compactname"] = "BT10"
+-- L["eft_bipod_atlas_v8.description"] = "Сошки BT10 V8 Atlas Bipod. Легкие, складные, с возможностью регулировки ножек. Производство B&T Industries L.L.C."
 
-L["eft_bipod_harris.printname"] = "Сошки Harris \"S-BRM 6-9\""
-L["eft_bipod_harris.compactname"] = "S-BRM"
-L["eft_bipod_harris.description"] = "Сошки S-BRM 6-9\". Ультралегкие, складные, с пружинным возвратным механизмом. Используются по всему миру как силовыми ведомствами, так и гражданскими стрелками. Производство Harris."
+-- L["eft_bipod_harris.printname"] = "Сошки Harris \"S-BRM 6-9\""
+-- L["eft_bipod_harris.compactname"] = "S-BRM"
+-- L["eft_bipod_harris.description"] = "Сошки S-BRM 6-9\". Ультралегкие, складные, с пружинным возвратным механизмом. Используются по всему миру как силовыми ведомствами, так и гражданскими стрелками. Производство Harris."
 
 L["eft_mount_kac_bipod.printname"] = "Направляющая KAC \"MWS Bipod Adapter\" для установки сошек"
 L["eft_mount_kac_bipod.compactname"] = "MWS"
@@ -5716,9 +5716,9 @@ L["eft_pkm_mag_100.printname"] = "Короб на 100 патронов 7.62x54R 
 L["eft_pkm_mag_100.compactname"] = "ПК"
 L["eft_pkm_mag_100.description"] = "Штатная патронная коробка для Пулемета Калашникова на 100 патронов под калибр 7.62x54R. Производство Завода имени В. А. Дегтярева."
 
-L["eft_pkm_bipod.printname"] = "Сошки для ПК"
-L["eft_pkm_bipod.compactname"] = "ПК"
-L["eft_pkm_bipod.description"] = "Штатные сошки для Пулемета Калашникова. Производство Завода имени В. А. Дегтярева."
+-- L["eft_pkm_bipod.printname"] = "Сошки для ПК"
+-- L["eft_pkm_bipod.compactname"] = "ПК"
+-- L["eft_pkm_bipod.description"] = "Штатные сошки для Пулемета Калашникова. Производство Завода имени В. А. Дегтярева."
 
 L["eft_hg_pk_zenit.printname"] = "Цевье Зенит \"Б-50\" для ПК"
 L["eft_hg_pk_zenit.compactname"] = "Б-50"
@@ -6558,9 +6558,9 @@ L["eft_rpd_muzzle.printname"] = "Втулка предохранительная
 L["eft_rpd_muzzle.compactname"] = "РПД ВП"
 L["eft_rpd_muzzle.description"] = "Предохранительная втулка для ствола Ручного пулемета Дегтярева. Производство Завода имени В. А. Дегтярева."
 
-L["eft_rpd_bipod.printname"] = "Сошки для РПД"
-L["eft_rpd_bipod.compactname"] = "РПД"
-L["eft_rpd_bipod.description"] = "Штатные сошки для Ручного пулемета Дегтярева. Производство Завода имени В. А. Дегтярева."
+-- L["eft_rpd_bipod.printname"] = "Сошки для РПД"
+-- L["eft_rpd_bipod.compactname"] = "РПД"
+-- L["eft_rpd_bipod.description"] = "Штатные сошки для Ручного пулемета Дегтярева. Производство Завода имени В. А. Дегтярева."
 
 L["eft_rpd_rearsight.printname"] = "Целик для РПД"
 L["eft_rpd_rearsight.compactname"] = "РПД цел."
@@ -7388,9 +7388,9 @@ L["eft_sv98_rss.printname"] = "Целик для СВ-98"
 L["eft_sv98_rss.compactname"] = "СВ-98 цел."
 L["eft_sv98_rss.description"] = "Стандартный целик для снайперской винтовки СВ-98 производства Ижмаш."
 
-L["eft_sv98_bipodd.printname"] = "Сошки для СВ-98"
-L["eft_sv98_bipodd.compactname"] = "СВ-98"
-L["eft_sv98_bipodd.description"] = "Штатные сошки Ижмаш для винтовки СВ-98. В походном положении укладываются в цевьё."
+-- L["eft_sv98_bipodd.printname"] = "Сошки для СВ-98"
+-- L["eft_sv98_bipodd.compactname"] = "СВ-98"
+-- L["eft_sv98_bipodd.description"] = "Штатные сошки Ижмаш для винтовки СВ-98. В походном положении укладываются в цевьё."
 
 L["eft_sv98_muzzle_sil.printname"] = "Глушитель 7.62x54R для СВ-98"
 L["eft_sv98_muzzle_sil.compactname"] = "СВ98 глуш."
@@ -7960,9 +7960,9 @@ L["eft_g36_hg_handstop.printname"] = "Антабка-стоппер для HK G3
 L["eft_g36_hg_handstop.compactname"] = "G36 HS"
 L["eft_g36_hg_handstop.description"] = "Полимерная антабка-стоппер для G36. Производство Heckler & Koch."
 
-L["eft_g36_hg_bipod.printname"] = "Сошки для HK G36"
-L["eft_g36_hg_bipod.compactname"] = "G36"
-L["eft_g36_hg_bipod.description"] = "Штатные сошки для HK G36."
+-- L["eft_g36_hg_bipod.printname"] = "Сошки для HK G36"
+-- L["eft_g36_hg_bipod.compactname"] = "G36"
+-- L["eft_g36_hg_bipod.description"] = "Штатные сошки для HK G36."
 
 L["eft_g36_magwell_stanag.printname"] = "Магазиноприемник STANAG для HK G36"
 L["eft_g36_magwell_stanag.compactname"] = "G36 NATO"
@@ -8329,9 +8329,9 @@ L["eft_m60_fs_e6.printname"] = "Направляющая на ствол для 
 L["eft_m60_fs_e6.compactname"] = "E6 FS"
 L["eft_m60_fs_e6.description"] = "Небольшая направляющая на ствол M60E6. Производство U.S. Ordnance."
 
-L["eft_m60_bipod.printname"] = "Сошки для M60"
-L["eft_m60_bipod.compactname"] = "M60"
-L["eft_m60_bipod.description"] = "Штатные сошки для пулемета M60. Производство U.S Ordnance."
+-- L["eft_m60_bipod.printname"] = "Сошки для M60"
+-- L["eft_m60_bipod.compactname"] = "M60"
+-- L["eft_m60_bipod.description"] = "Штатные сошки для пулемета M60. Производство U.S Ordnance."
 
 L["eft_m60_trigger_e4.printname"] = "Спусковая коробка для M60E4"
 L["eft_m60_trigger_e4.compactname"] = "Кор.E4"

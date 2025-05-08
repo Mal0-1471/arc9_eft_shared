@@ -190,8 +190,9 @@ L["eft_trivia_calibr_30flare"] = "30 mm signalskott"
 L["eft_trivia_calibr_725heat"] = "72,5 mm pansarspräng."
 
 L["eft_fmode_bolt"] = "REPETER"
-L["eft_fmode_doubleaction"] = "D. ACTION"
-L["eft_fmode_singleaction"] = "S. ACTION"
+L["eft_fmode_manualreload"] = "MANUELL OML."
+L["eft_fmode_doubleaction"] = "D. ACT."
+L["eft_fmode_singleaction"] = "S. ACT."
 L["eft_fmode_melee"] = "NÄRSTRID"
 L["eft_fmode_grenade"] = "GRANAT"
 
@@ -235,71 +236,6 @@ L["eft_toggle_light_ir_high"] = "IR-Lampa, hög kraft"
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomi"
 L["Ergonomics.desc"] = "[ EFT ] Påverkar siktehastigheten och uthållighetstömning."
-
--- [[ Settings ]]
-L["setting.eft"] = "Tillägg - EFT"
-L["setting.eft.label"] = "Inställningar till \"Escape from Tarkov\"-vapen"
-
--- Min. Damage Range
-L["setting.eft.mindmg.title"] = "Minimum skaderäckvidd"
-L["setting.eft.mindmg.desc"] = "Hur hög den längsta räckvidden ska vara på alla EFT-vapen (förutom hagelgevär). Mäts i meter.\nEFT-standard: 1000"
-
-L["setting.eft.mindmg.sg.title"] = "   › Till hagelgevär"
-L["setting.eft.mindmg.sg.desc"] = "Hur hög den längsta räckvidden alla EFT-hagelgevär ska ha. Mäts i meter.\nEFT-standard: 100"
-
-L["setting.eft.dmgmult.title"] = "Skada multiplikator"
-L["setting.eft.dmgmult.desc"] = "Skada multiplikator till dem olika vapenpatronerna. Sann EFT-upplevelse är med allt satt till 1x, men spelare där har 450 HP, så GMod kanske funkar bäst med lägre värden."
-
-L["setting.eft.dmgmult.pistol.title"] = "Pistolpatron"
-L["setting.eft.dmgmult.pistol.desc"] = "Exempel:\n- 9 x 19\n- 5,7 x 28"
-
-L["setting.eft.dmgmult.shotgun.title"] = "Hagelskott"
-L["setting.eft.dmgmult.shotgun.desc"] = "Exempel:\n- Kaliber 12\n- Kaliber 20"
-
-L["setting.eft.dmgmult.carbine.title"] = "Karbinpatron"
-L["setting.eft.dmgmult.carbine.desc"] = "Exempel:\n- 5,56 x 45\n- 5,45 x 39"
-
-L["setting.eft.dmgmult.rifle.title"] = "Gevärspatron"
-L["setting.eft.dmgmult.rifle.desc"] = "Exempel:\n- 7,62 x 39"
-
-L["setting.eft.dmgmult.bigrifle.title"] = "Stor gevärspatron"
-L["setting.eft.dmgmult.bigrifle.desc"] = "Exempel:\n- 7,62 x 51\n- 7,62 x 54R"
-
-L["setting.eft.dmgmult.338.title"] = ".338 Lapua-Patron"
-L["setting.eft.dmgmult.338.desc"] = "Exempel:\n- 8,6 x 70 (.338 Lapua Magnum)"
-
-L["setting.eft.dmgmult.massive.title"] = "Massiv gevärspatron"
-L["setting.eft.dmgmult.massive.desc"] = "Exempel:\n- 366 TKM\n- 12,7 x 55"
-
-L["setting.eft.dmgmult.melee.title"] = "Närstrid"
-L["setting.eft.dmgmult.melee.desc"] = "Närstridsvapen."
-
-L["setting.eft.reloadatts.desc"] = "Du måste ladda om tillbehören för att tillämpa ändringarna!"
-
--- Additional Features
-L["setting.eft.miscfeatures.title"] = "Diverse funktioner"
-L["setting.eft.miscfeatures.desc"] = "Diverse EFT-relaterade funktioner."
-
-L["setting.eft.concussion.title"] = "Aktivera hjärnskakning"
-L["setting.eft.concussion.desc"] = "Om påslagen så kommer spelare för nära sprängande EFT-granater uppleva hjärnskakning, dvs en förvrängd vy och rörelsesudd."
-
-L["setting.eft.flashduration.title"] = "Chockgranat varaktighet"
-L["setting.eft.flashduration.desc"] = "Multiplikator för hur länge chockgranatens blind effekt varar."
-
-L["setting.eft.ahmad.title"] = "Ahmad-Chockgranat"
-L["setting.eft.ahmad.desc"] = "Ahmad visar upp sig på skärmen när du blir förblindad."
-
-L["setting.eft.jamhud.title"] = "Notis och ljud vid eldavbrott"
-L["setting.eft.jamhud.desc"] = "Visar en notifikation på ditt gränssnitt, och spelar upp ett ljud, när ditt EFT-vapen får eldavbrott."
-
-L["setting.eft.prtaran.title"] = "Tvinga eldavbrott när PR-Taran finns"
-L["setting.eft.prtaran.desc"] = "[ Närstridspack ]\nOm en spelare tar fram närstridsvapnet \"PR-Taran\" så kommer alla EFT-vapen omedelbart få eldavbrott.\n\nSätter ARC9 chans för eldavbrott till 9999 - återställs när ingen PR-Taran finns."
-
-L["setting.eft.holdtypes.title"] = "Använd standard \"Hold types\" (icke-TPIK)"
-L["setting.eft.holdtypes.desc"] = "Byter alla vapnens \"hold types\" till deras \"korrekta\" värden. Användbar när TPIK är avstängt, men det är inte exakt realistiskt.\n\nGlad nu, TPIK-hatare?\n\nKräver att kartan laddas om."
-
-L["setting.eft.rshg2.title"] = "RShG-2; Ta bort efter användning"
-L["setting.eft.rshg2.desc"] = "Om påslagen så kommer RShG-2:an tas bort från ditt lager efter dess användning. Beter sig som Call of Duty-spelens raketgevär."
 
 ///////////////////////////// Non-EFT Weapon Names
 L["eft_weapon_aa12"] = "AA-12"
@@ -360,6 +296,51 @@ L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
 
 L["eft_weapon_a2607d_alt"] = "A-2607 Damaskus"
+
+///////////////////////////// EFT Attachments with Comments
+-- These are EFT attachments that should be in the "_bulk" files, but has
+-- additional comments included in the description of them.
+local bipodtext = "\n\n[ <color=255,200,25>Till skillnad med EFT så behöver benstödet inte placeras ut manuellt</color> ]"
+
+///////////// Shared
+-- Tactical
+L["eft_bipod_atlas_v8.printname"] = "BT10 V8 Atlas benstöd"
+L["eft_bipod_atlas_v8.compactname"] = "BT10"
+L["eft_bipod_atlas_v8.description"] = "The Atlas V8 series BT10 bipod. Lightweight, foldable, adjustable. Manufactured by B&T Industries L.L.C." .. bipodtext
+
+L["eft_bipod_harris.printname"] = "Harris S-BRM 6-9\" benstöd"
+L["eft_bipod_harris.compactname"] = "S-BRM"
+L["eft_bipod_harris.description"] = "The S-BRM 6-9\" ultralight foldable bipod with a spring retraction mechanism. Used by service operators and civilian shooters worldwide. Manufactured by Harris." .. bipodtext
+
+///////////// PKP + PKP Pecheneg
+-- pkm
+L["eft_pkm_bipod.printname"] = "PK-benstöd"
+L["eft_pkm_bipod.compactname"] = "PK"
+L["eft_pkm_bipod.description"] = "A standard-issue bipod for Kalashnikov Machine gun. Manufactured by V.A. Degtyarev Plant." .. bipodtext
+
+///////////// RPD + PPSH + TT
+-- rpd
+L["eft_rpd_bipod.printname"] = "RPD-benstöd"
+L["eft_rpd_bipod.compactname"] = "RPD"
+L["eft_rpd_bipod.description"] = "A standard-issue bipod for the RPD machine gun. Manufactured by V.A. Degtyarev Plant." .. bipodtext
+
+///////////// PP-91 + SV-98
+-- sv98
+L["eft_sv98_bipodd.printname"] = "SV-98-benstöd"
+L["eft_sv98_bipodd.compactname"] = "SV-98"
+L["eft_sv98_bipodd.description"] = "A standard-issue Izhmash bipod for the SV-98 sniper rifle. Folded into the handguard when not used." .. bipodtext
+
+///////////// H&K G36 + G28
+-- g36
+L["eft_g36_hg_bipod.printname"] = "HK G36-benstöd"
+L["eft_g36_hg_bipod.compactname"] = "G36"
+L["eft_g36_hg_bipod.description"] = "A standard-issue bipod for the HK G36 assault rifle." .. bipodtext
+
+///////////// M60 + M32A1
+-- m60_m32
+L["eft_m60_bipod.printname"] = "M60-benstöd"
+L["eft_m60_bipod.compactname"] = "M60"
+L["eft_m60_bipod.description"] = "A standard-issue bipod for the M60 machine gun. Manufactured by U.S Ordnance." .. bipodtext
 
 ///////////////////////////// EFT Categories
 L["eft_cat_barrel"] = "Pipa"
@@ -524,9 +505,9 @@ L["eft_57_fde.description"] = "\"Flat Dark Earth\"-färgad ram." .. customatt
 
 -- p90
 -- 5cc70093e4a949033c734312
-L["eft_p90_mag_opaque.printname"] = "50-skottsmagasin av kaliber 5,7 x 28 till FN P90 (Icke-genomskinligt)"
-L["eft_p90_mag_opaque.compactname"] = "P90-NT 50"
-L["eft_p90_mag_opaque.description"] = "Ett 50-skotts polymermagasin till kulsprutepistolen FN P90 av kaliber 5,7 x 28 mm." .. customatt
+L["eft_p90_mag_opaque.printname"] = "50-skottsmagasin av kaliber 5,7 x 28 till FN P90 (Original)"
+L["eft_p90_mag_opaque.compactname"] = "P90 50 (Orig.)"
+L["eft_p90_mag_opaque.description"] = "Ett 50-skotts polymermagasin till kulsprutepistolen FN P90 av kaliber 5,7 x 28 mm.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
 -- ammo_20x70
@@ -941,9 +922,9 @@ L["eft_rsass_black.description"] = "Färgar om ramen till en svart färg." .. cu
 -- [[ SIG MCX + Spear + MPX + P226R ]]
 -- mcx_mpx
 -- 5894a05586f774094708ef75
-L["eft_mpx_mag_30_orig.printname"] = "MPX 9x19 30-round magazine (Icke-genomskinligt)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30"
-L["eft_mpx_mag_30_orig.description"] = "A standard 30-round capacity semitransparent 9x19mm MPX magazine, manufactured by SIG Sauer." .. customatt
+L["eft_mpx_mag_30_orig.printname"] = "MPX 9x19 30-round magazine (Original)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.description"] = "A standard 30-round capacity semitransparent 9x19mm MPX magazine, manufactured by SIG Sauer.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 -- spear
 -- 6529366450dc782999054ba0
@@ -1014,22 +995,22 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 
 -- [[ H&K G36 + G28 ]]
 -- g28
-L["eft_g28_mag_10old.printname"] = "HK417/G28 7.62x51 10-round magazine (Icke-genomskinligt)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10"
-L["eft_g28_mag_10old.description"] = "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning." .. customatt
+L["eft_g28_mag_10old.printname"] = "HK417/G28 7.62x51 10-round magazine (Original)"
+L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (Orig.)"
+L["eft_g28_mag_10old.description"] = "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
-L["eft_g28_mag_20old.printname"] = "HK417/G28 7.62x51 20-round magazine (Icke-genomskinligt)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20"
-L["eft_g28_mag_20old.description"] = "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning." .. customatt
+L["eft_g28_mag_20old.printname"] = "HK417/G28 7.62x51 20-round magazine (Original)"
+L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (Orig.)"
+L["eft_g28_mag_20old.description"] = "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Svart ram"
 L["eft_g28_blk.compactname"] = "Svart"
 L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a black color." .. customatt
 
 -- g36
-L["eft_g28_mag_30old.printname"] = "HK G36 5.56x45 30-round magazine (Icke-genomskinligt)"
-L["eft_g28_mag_30old.compactname"] = "G36 30"
-L["eft_g28_mag_30old.description"] = "A 30-round 5.56x45 magazine designed for the HK G36." .. customatt
+L["eft_g28_mag_30old.printname"] = "HK G36 5.56x45 30-round magazine (Original)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.description"] = "A 30-round 5.56x45 magazine designed for the HK G36.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]
 -- 1911
@@ -1110,3 +1091,330 @@ L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa 
 L["eft_sako_black.printname"] = "Sako TRG M10 Svart ram"
 L["eft_sako_black.compactname"] = "Svart"
 L["eft_sako_black.description"] = "Färgar om ramen till en svart färg." .. customatt
+
+////////////// EFT Weapon Names
+--[[
+If this is an unofficial language, and you'd like localized official names,
+then replace the strings below. Note that "_alt" names are present
+further up.
+--]]
+
+/////// Assault carbines
+-- L["eft_weapon_9a91"] = "9A-91"
+-- L["eft_weapon_adar215"] = "ADAR 2-15"
+-- L["eft_weapon_avt40"] = "AVT-40"
+-- L["eft_weapon_opsks"] = "OP-SKS"
+-- L["eft_weapon_rfb"] = "RFB"
+-- L["eft_weapon_sagak"] = "AK-545"
+L["eft_weapon_sagakshort"] = "AK-545, Kort"
+-- L["eft_weapon_sks"] = "SKS"
+-- L["eft_weapon_sr3m"] = "SR-3M"
+-- L["eft_weapon_svt40"] = "SVT-40"
+-- L["eft_weapon_tx15"] = "TX-15 DML"
+-- L["eft_weapon_vpo101"] = "VPO-101 Vepr-Hunter"
+-- L["eft_weapon_vpo136"] = "VPO-136 Vepr-KM"
+-- L["eft_weapon_vpo209"] = "VPO-209"
+-- L["eft_weapon_vsk94"] = "VSK-94"
+
+/////// Assault rifles
+-- L["eft_weapon_ak12"] = "AK-12"
+-- L["eft_weapon_ak74"] = "AK-74"
+-- L["eft_weapon_ak74m"] = "AK-74M"
+-- L["eft_weapon_ak74n"] = "AK-74N"
+-- L["eft_weapon_ak101"] = "AK-101"
+-- L["eft_weapon_ak102"] = "AK-102"
+-- L["eft_weapon_ak103"] = "AK-103"
+-- L["eft_weapon_ak104"] = "AK-104"
+-- L["eft_weapon_ak105"] = "AK-105"
+-- L["eft_weapon_akm"] = "AKM"
+-- L["eft_weapon_akmn"] = "AKMN"
+-- L["eft_weapon_akms"] = "AKMS"
+-- L["eft_weapon_akmsn"] = "AKMSN"
+-- L["eft_weapon_aks74"] = "AKS-74"
+-- L["eft_weapon_aks74n"] = "AKS-74N"
+-- L["eft_weapon_aks74u"] = "AKS-74U"
+-- L["eft_weapon_aks74ub"] = "AKS-74UB"
+-- L["eft_weapon_aks74un"] = "AKS-74UN"
+-- L["eft_weapon_asval"] = "AS VAL"
+-- L["eft_weapon_ash12"] = "ASh-12"
+-- L["eft_weapon_auga1"] = "AUG A1"
+-- L["eft_weapon_auga3"] = "AUG A3"
+-- L["eft_weapon_mdr556"] = "MDR"
+-- L["eft_weapon_mdr762"] = "MDR"
+-- L["eft_weapon_g36"] = "G36"
+-- L["eft_weapon_hk416a5"] = "HK 416A5"
+-- L["eft_weapon_m4a1"] = "M4A1"
+-- L["eft_weapon_mcx"] = "MCX .300 BLK"
+-- L["eft_weapon_mcxspear"] = "SPEAR 6.8"
+-- L["eft_weapon_mk47"] = "Mk47"
+-- L["eft_weapon_rd704"] = "RD-704"
+-- L["eft_weapon_sa58"] = "SA58"
+-- L["eft_weapon_scarh"] = "Mk 17"
+-- L["eft_weapon_scarhx17"] = "X-17"
+-- L["eft_weapon_scarl"] = "Mk 16"
+-- L["eft_weapon_velociraptor"] = "Velociraptor .300 BLK"
+
+/////// Bolt-action rifles
+-- L["eft_weapon_dvl10"] = "DVL-10"
+-- L["eft_weapon_m700"] = "M700"
+L["eft_weapon_mosininf"] = "Mosin, Infanteri"
+L["eft_weapon_mosinsnip"] = "Mosin, Prickskytte"
+-- L["eft_weapon_sv98"] = "SV-98"
+-- L["eft_weapon_t5000m"] = "T-5000M"
+-- L["eft_weapon_trgm10"] = "TRG M10"
+-- L["eft_weapon_vpo215"] = "VPO-215 Gornostay"
+
+/////// Designated marksman rifles
+-- L["eft_weapon_g28"] = "G28"
+-- L["eft_weapon_m1a"] = "M1A"
+-- L["eft_weapon_mk18"] = "Mk-18 Mjölnir"
+-- L["eft_weapon_rsass"] = "RSASS"
+-- L["eft_weapon_sr25"] = "SR-25"
+-- L["eft_weapon_svds"] = "SVDS"
+-- L["eft_weapon_vss"] = "VSS Vintorez"
+
+/////// Grenade launchers
+-- L["eft_weapon_fn40gl"] = "FN40GL"
+-- L["eft_weapon_m32a1"] = "MSGL"
+
+/////// Light machine guns
+-- L["eft_weapon_m60e4"] = "Mk 43 Mod 1"
+-- L["eft_weapon_m60e6"] = "M60E6"
+-- L["eft_weapon_pkm"] = "PKM"
+-- L["eft_weapon_pkp"] = "PKP"
+-- L["eft_weapon_rpd"] = "RPD"
+-- L["eft_weapon_rpdn"] = "RPDN"
+-- L["eft_weapon_rpk16"] = "RPK-16"
+
+/////// Shotguns
+-- L["eft_weapon_aa12gen1"] = "AA-12 Gen 1"
+-- L["eft_weapon_aa12gen2"] = "AA-12 Gen 2"
+-- L["eft_weapon_ks23"] = "KS-23M"
+-- L["eft_weapon_m3super90"] = "M3 Super 90"
+-- L["eft_weapon_m590a1"] = "590A1"
+-- L["eft_weapon_m870"] = "M870"
+-- L["eft_weapon_mp18"] = "MP-18"
+-- L["eft_weapon_mp431c"] = "MP-43-1C"
+-- L["eft_weapon_mp133"] = "MP-133"
+-- L["eft_weapon_mp153"] = "MP-153"
+-- L["eft_weapon_mp155"] = "MP-155"
+-- L["eft_weapon_mts25512"] = "MTs-255-12"
+-- L["eft_weapon_saiga12k"] = "Saiga-12K"
+-- L["eft_weapon_saiga12kfa"] = "Saiga-12K FA"
+-- L["eft_weapon_toz106"] = "TOZ-106"
+
+/////// Submachine guns
+-- L["eft_weapon_mp5"] = "MP5"
+-- L["eft_weapon_mp5kn"] = "MP5K-N"
+-- L["eft_weapon_mp7a1"] = "MP7A1"
+-- L["eft_weapon_mp7a2"] = "MP7A2"
+-- L["eft_weapon_mp9"] = "MP9"
+-- L["eft_weapon_mp9n"] = "MP9-N"
+-- L["eft_weapon_mpx"] = "MPX"
+-- L["eft_weapon_p90"] = "P90"
+-- L["eft_weapon_pp9"] = "PP-9 Klin"
+-- L["eft_weapon_pp1901"] = "PP-19-01"
+-- L["eft_weapon_pp91"] = "PP-91 Kedr"
+-- L["eft_weapon_pp9101"] = "PP-91-01 Kedr-B"
+-- L["eft_weapon_ppsh41"] = "PPSh41"
+-- L["eft_weapon_saiga9"] = "Saiga-9"
+-- L["eft_weapon_veresk"] = "SR-2M"
+-- L["eft_weapon_stm9"] = "STM-9"
+-- L["eft_weapon_ump45"] = "UMP 45"
+-- L["eft_weapon_uzi"] = "UZI"
+-- L["eft_weapon_uzipro"] = "UZI PRO Pistol"
+L["eft_weapon_uziprosmg"] = "UZI PRO KPist."
+-- L["eft_weapon_vector45"] = "Vector .45ACP"
+-- L["eft_weapon_vector9"] = "Vector 9x19"
+
+/////// Pistols
+-- L["eft_weapon_apb"] = "APB"
+-- L["eft_weapon_aps"] = "APS"
+-- L["eft_weapon_blicky"] = "Blicky"
+-- L["eft_weapon_deaglel5357"] = "Desert Eagle L5"
+-- L["eft_weapon_deaglel550ae"] = "Desert Eagle L5"
+-- L["eft_weapon_deaglel6"] = "Desert Eagle L6"
+-- L["eft_weapon_deaglel6wts"] = "Desert Eagle L6"
+-- L["eft_weapon_deaglexix"] = "Desert Eagle Mk XIX"
+-- L["eft_weapon_fn57"] = "FN 5-7"
+-- L["eft_weapon_glock17"] = "Glock 17"
+-- L["eft_weapon_glock18c"] = "Glock 18C"
+-- L["eft_weapon_glock19x"] = "Glock 19X"
+-- L["eft_weapon_m9a3"] = "M9A3"
+-- L["eft_weapon_m45a1"] = "M45A1"
+-- L["eft_weapon_m1911a1"] = "M1911A1"
+-- L["eft_weapon_mp443"] = "MP-443 Grach"
+-- L["eft_weapon_p226r"] = "P226R"
+-- L["eft_weapon_pb"] = "PB"
+-- L["eft_weapon_pl15"] = "PL-15"
+-- L["eft_weapon_pmt"] = "PM (t)"
+-- L["eft_weapon_pm"] = "PM"
+-- L["eft_weapon_gyurza"] = "SR-1MP"
+-- L["eft_weapon_tt"] = "TT"
+L["eft_weapon_ttgold"] = "Gyllene TT"
+-- L["eft_weapon_usp45"] = "USP .45"
+
+/////// Revolvers
+-- L["eft_weapon_cr50ds"] = "CR 50DS"
+-- L["eft_weapon_cr200ds"] = "CR 200DS"
+-- L["eft_weapon_rsh12"] = "RSh-12"
+
+/////// Sec. shotguns
+L["eft_weapon_mp43sawedoff"] = "Avsågad"
+
+/////// Handheld flares
+-- L["eft_weapon_rop30"] = "Signalblås"
+-- L["eft_weapon_rsp30b"] = "Blå"
+-- L["eft_weapon_rsp30g"] = "Grön"
+-- L["eft_weapon_rsp30r"] = "Röd"
+-- L["eft_weapon_rsp30sy"] = "S-Gul"
+-- L["eft_weapon_rsp30y"] = "Gul"
+
+/////// Signal pistols
+-- L["eft_weapon_sp81"] = "SP-81"
+
+/////// Melee weapons
+-- L["eft_weapon_6x5"] = "6Kh5"
+-- L["eft_weapon_akula"] = "Akula"
+L["eft_weapon_wycc"] = "Yxa"
+-- L["eft_weapon_gladius"] = "TWG"
+-- L["eft_weapon_a2607"] = "A-2607"
+-- L["eft_weapon_a2607d"] = "A-2607"
+-- L["eft_weapon_camper"] = "Camper"
+-- L["eft_weapon_crash"] = "SCA"
+L["eft_weapon_cultist"] = "Kniv"
+L["eft_weapon_fulcrum"] = "ER-BAJONETT"
+L["eft_weapon_freeman"] = "Kofot"
+-- L["eft_weapon_tomahawk"] = "KATT"
+-- L["eft_weapon_millerbros"] = "M-2"
+-- L["eft_weapon_mpl50"] = "MPL-50"
+-- L["eft_weapon_baton"] = "PR-Taran"
+-- L["eft_weapon_rebel"] = "RedRebel"
+-- L["eft_weapon_voodoo"] = "Hawk"
+-- L["eft_weapon_sp8"] = "SP-8"
+-- L["eft_weapon_superfors"] = "Dead Blow"
+-- L["eft_weapon_m48"] = "M48 Kukri"
+-- L["eft_weapon_taiga"] = "Taiga-1"
+
+/////// Throwable fragmentation
+-- L["eft_weapon_f1"] = "F-1"
+-- L["eft_weapon_m67"] = "M67"
+-- L["eft_weapon_rgd5"] = "RGD-5"
+-- L["eft_weapon_rgn"] = "RGN"
+-- L["eft_weapon_rgo"] = "RGO"
+-- L["eft_weapon_v40"] = "V40"
+-- L["eft_weapon_vog17"] = "VOG-17"
+-- L["eft_weapon_vog25"] = "VOG-25"
+
+/////// Throwable smoke
+-- L["eft_weapon_m18"] = "M18"
+-- L["eft_weapon_rgd2b"] = "RDG-2B"
+
+/////// Throwable stun
+-- L["eft_weapon_m7290"] = "M7290"
+-- L["eft_weapon_zarya"] = "Zarya"
+
+/////// Other
+-- L["eft_weapon_vortex"] = "R1500"
+
+////////////// Non-EFT Settings Menu
+-- [[ Settings ]]
+L["setting.eft"] = "Tillägg - EFT"
+L["setting.eft.label"] = "Inställningar till \"Escape from Tarkov\"-vapen"
+
+-- Min. Damage Range
+L["setting.eft.mindmg.title"] = "Minimum skaderäckvidd"
+L["setting.eft.mindmg.desc"] = "Hur hög den längsta räckvidden ska vara på alla EFT-vapen (förutom hagelgevär). Mäts i meter.\nEFT-standard: 1000"
+
+L["setting.eft.mindmg.sg.title"] = "   › Till hagelgevär"
+L["setting.eft.mindmg.sg.desc"] = "Hur hög den längsta räckvidden alla EFT-hagelgevär ska ha. Mäts i meter.\nEFT-standard: 100"
+
+L["setting.eft.dmgmult.title"] = "Skada multiplikator"
+L["setting.eft.dmgmult.desc"] = "Skada multiplikator till dem olika vapenpatronerna. Sann EFT-upplevelse är med allt satt till 1x, men spelare där har 450 HP, så GMod kanske funkar bäst med lägre värden."
+
+L["setting.eft.dmgmult.pistol.title"] = "Pistol- & PDW-patron"
+L["setting.eft.dmgmult.pistol.desc"] = [[Påverkar följande:
+- 7,62 x 25 Tokarev
+- 9 x 19 Makarov
+- 9 x 19 Parabellum
+- 9 x 21 Gyurza
+- .45 ACP
+- 20 x 1
+- 4,6 x 30 HK
+- 5,7 x 28 FN
+]]
+
+L["setting.eft.dmgmult.shotgun.title"] = "Hagelskott"
+L["setting.eft.dmgmult.shotgun.desc"] = [[Påverkar följande:
+- 12/70 (Kaliber 12)
+- 20/70 (Kaliber 20)
+- 23x75R (Kaliber 4)
+]]
+
+L["setting.eft.dmgmult.carbine.title"] = "Karbinpatron"
+L["setting.eft.dmgmult.carbine.desc"] = [[Påverkar följande:
+- 5,45 x 39
+- 5,56 x 45 NATO
+]]
+
+L["setting.eft.dmgmult.rifle.title"] = "Gevärspatron"
+L["setting.eft.dmgmult.rifle.desc"] = [[Påverkar följande:
+- 6,8x 51
+- 7,62 x 35 (.300 Blackout)
+- 7,62 x 39
+- 9 x 39
+]]
+
+L["setting.eft.dmgmult.bigrifle.title"] = "Stor gevärspatron"
+L["setting.eft.dmgmult.bigrifle.desc"] = [[Påverkar följande:
+- 7,62 x 51 NATO
+- 7,62 x 54R
+]]
+
+L["setting.eft.dmgmult.338.title"] = "Väldigt stor patron"
+L["setting.eft.dmgmult.338.desc"] = [[Påverkar följande:
+- .338 Lapua Magnum
+- 12,7 x 108 (oanvänd för tillfället)
+]]
+
+L["setting.eft.dmgmult.massive.title"] = "Massiv gevärspatron"
+L["setting.eft.dmgmult.massive.desc"] = [[Påverkar följande:
+- .366 TKM
+- 12,7 x 55
+]]
+
+L["setting.eft.dmgmult.grelau.title"] = "Granatskott"
+L["setting.eft.dmgmult.grelau.desc"] = [[Påverkar sprängradien och skadan på följande:
+- 40 x 46
+- 40 x 53
+]]
+
+L["setting.eft.dmgmult.melee.title"] = "Närstrid"
+L["setting.eft.dmgmult.melee.desc"] = "Närstridsvapen."
+
+L["setting.eft.reloadatts.desc"] = "Du måste ladda om tillbehören för att tillämpa ändringarna!"
+
+-- Additional Features
+L["setting.eft.miscfeatures.title"] = "Diverse funktioner"
+L["setting.eft.miscfeatures.desc"] = "Diverse EFT-relaterade funktioner."
+
+L["setting.eft.concussion.title"] = "Aktivera hjärnskakning"
+L["setting.eft.concussion.desc"] = "Om påslagen så kommer spelare för nära sprängande EFT-granater uppleva hjärnskakning, dvs en förvrängd vy och rörelsesudd."
+
+L["setting.eft.flashduration.title"] = "Chockgranat varaktighet"
+L["setting.eft.flashduration.desc"] = "Multiplikator för hur länge chockgranatens blind effekt varar."
+
+L["setting.eft.ahmad.title"] = "Ahmad-Chockgranat"
+L["setting.eft.ahmad.desc"] = "Ahmad visar upp sig på skärmen när du blir förblindad."
+
+L["setting.eft.jamhud.title"] = "Notis och ljud vid eldavbrott"
+L["setting.eft.jamhud.desc"] = "Visar en notifikation på ditt gränssnitt, och spelar upp ett ljud, när ditt EFT-vapen får eldavbrott."
+
+L["setting.eft.prtaran.title"] = "Tvinga eldavbrott när PR-Taran finns"
+L["setting.eft.prtaran.desc"] = "[ Närstridspack ]\nOm en spelare tar fram närstridsvapnet \"PR-Taran\" så kommer alla EFT-vapen omedelbart få eldavbrott.\n\nSätter ARC9 chans för eldavbrott till 9999 - återställs när ingen PR-Taran finns."
+
+L["setting.eft.holdtypes.title"] = "Använd standard \"Hold types\" (icke-TPIK)"
+L["setting.eft.holdtypes.desc"] = "Byter alla vapnens \"hold types\" till deras \"korrekta\" värden. Användbar när TPIK är avstängt, men det är inte exakt realistiskt.\n\nGlad nu, TPIK-hatare?\n\nKräver att kartan laddas om."
+
+L["setting.eft.rshg2.title"] = "RShG-2; Ta bort efter användning"
+L["setting.eft.rshg2.desc"] = "Om påslagen så kommer RShG-2:an tas bort från ditt lager efter dess användning. Beter sig som Call of Duty-spelens raketgevär."

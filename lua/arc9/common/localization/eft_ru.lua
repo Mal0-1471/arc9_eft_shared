@@ -201,8 +201,9 @@ L["eft_trivia_calibr_30flare"] = "30мм патрон"
 L["eft_trivia_calibr_725heat"] = "72.5мм К.Б."
 
 L["eft_fmode_bolt"] = "СКОЛ."
-L["eft_fmode_doubleaction"] = "Д. ДЕЙСТВИЯ"
-L["eft_fmode_singleaction"] = "О. ДЕЙСТВИЯ"
+L["eft_fmode_manualreload"] = "MANUAL REL."
+L["eft_fmode_doubleaction"] = "ДВОЙ. ДЕЙСТ." -- ДВОЙНОГО ДЕЙСТВИЯ
+L["eft_fmode_singleaction"] = "ОДИН. ДЕЙСТ." -- ОДИНАРНОГО ДЕЙСТВИЯ
 L["eft_fmode_melee"] = "ХОЛОДНОЕ"
 L["eft_fmode_grenade"] = "ГРАНАТЫ"
 
@@ -246,71 +247,6 @@ L["eft_toggle_light_ir_high"] = "IR Light, high power"
 -- [[ Customization ]]
 L["Ergonomics"] = "Эргономика"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
-
--- [[ Settings ]]
--- L["setting.eft"] = "Addon - EFT"
--- L["setting.eft.label"] = "Settings for Escape from Tarkov weapons"
-
--- Min. Damage Range
--- L["setting.eft.mindmg.title"] = "Minimal Damage Range"
--- L["setting.eft.mindmg.desc"] = "How much maximum range all EFT weapons (excluding shotguns) should have. Measured in meters.\nEFT default: 1000"
-
--- L["setting.eft.mindmg.sg.title"] = "   › For Shotguns"
--- L["setting.eft.mindmg.sg.desc"] = "How much maximum range all EFT shotguns should have. Measured in meters.\nEFT default: 100"
-
--- L["setting.eft.dmgmult.title"] = "Damage Multipliers"
--- L["setting.eft.dmgmult.desc"] = "Damage multipliers for the various weapon calibers. True EFT experience is with everything set to 1x, but players there have 450 HP, so GMod could benefit from lower values."
-
--- L["setting.eft.dmgmult.pistol.title"] = "Pistol Caliber"
--- L["setting.eft.dmgmult.pistol.desc"] = "Examples:\n- 9x19\n- 5.7x28"
-
--- L["setting.eft.dmgmult.shotgun.title"] = "Shotgun Pellets"
--- L["setting.eft.dmgmult.shotgun.desc"] = "Examples:\n- 12 gauge\n- 20 gauge"
-
--- L["setting.eft.dmgmult.carbine.title"] = "Intermediate Caliber"
--- L["setting.eft.dmgmult.carbine.desc"] = "Examples:\n- 5.56x45\n- 5.45x39"
-
--- L["setting.eft.dmgmult.rifle.title"] = "Rifle Caliber"
--- L["setting.eft.dmgmult.rifle.desc"] = "Examples:\n- 7.62x39"
-
--- L["setting.eft.dmgmult.bigrifle.title"] = "Large Rifle Caliber"
--- L["setting.eft.dmgmult.bigrifle.desc"] = "Examples:\n- 7.62x51\n- 7.62x54R"
-
--- L["setting.eft.dmgmult.338.title"] = ".338 Lapua Caliber"
--- L["setting.eft.dmgmult.338.desc"] = "Examples:\n- 8.6x70 (.338 Lapua Magnum)"
-
--- L["setting.eft.dmgmult.massive.title"] = "Huge Rifle Caliber"
--- L["setting.eft.dmgmult.massive.desc"] = "Examples:\n- 366 TKM\n- 12.7x55"
-
--- L["setting.eft.dmgmult.melee.title"] = "Melee"
--- L["setting.eft.dmgmult.melee.desc"] = "Melee weapons."
-
--- L["setting.eft.reloadatts.desc"] = "You must reload attachments to apply the changes!"
-
--- Additional Features
--- L["setting.eft.miscfeatures.title"] = "Misc. Features"
--- L["setting.eft.miscfeatures.desc"] = "Various EFT-related features."
-
--- L["setting.eft.concussion.title"] = "Enable Concussion"
--- L["setting.eft.concussion.desc"] = "If enabled, players too close to exploding EFT grenades will experience a concussion, i.e. a distorted view and motion blur."
-
--- L["setting.eft.flashduration.title"] = "Flashbang Duration"
--- L["setting.eft.flashduration.desc"] = "Multiplies how long the flashbang blindness effect lasts."
-
--- L["setting.eft.ahmad.title"] = "Ahmad Flashbang"
--- L["setting.eft.ahmad.desc"] = "Ahmad appears on your screen when you are blinded."
-
--- L["setting.eft.jamhud.title"] = "Malfunction Notification & Sound"
--- L["setting.eft.jamhud.desc"] = "Displays a notification on your HUD, and plays a sound, when your EFT weapon jams."
-
--- L["setting.eft.prtaran.title"] = "Forced Jam if PR-Taran is present"
--- L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Taran\" melee weapon, all EFT weapons will immediately jam.\n\nSets the ARC9 Malfunction Chance multiplier to 9999 - reverts when no PR-Taran is present."
-
--- L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
--- L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
-
--- L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
--- L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
 
 ///////////////////////////// Non-EFT Weapon Names
 L["eft_weapon_aa12"] = "AA-12"
@@ -371,6 +307,51 @@ L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
 L["eft_weapon_v40_alt"] = "V40 Mini"
 
 L["eft_weapon_a2607d_alt"] = "A-2607 Дамаск"
+
+///////////////////////////// EFT Attachments with Comments
+-- These are EFT attachments that should be in the "_bulk" files, but has
+-- additional comments included in the description of them.
+local bipodtext = "\n\n[ <color=255,200,25>Unlike EFT, this bipod does not need to be manually deployed</color> ]"
+
+///////////// Shared
+-- Tactical
+L["eft_bipod_atlas_v8.printname"] = "Сошки BT10 V8 Atlas Bipod"
+L["eft_bipod_atlas_v8.compactname"] = "BT10"
+L["eft_bipod_atlas_v8.description"] = "Сошки BT10 V8 Atlas Bipod. Легкие, складные, с возможностью регулировки ножек. Производство B&T Industries L.L.C." .. bipodtext
+
+L["eft_bipod_harris.printname"] = "Сошки Harris \"S-BRM 6-9\""
+L["eft_bipod_harris.compactname"] = "S-BRM"
+L["eft_bipod_harris.description"] = "Сошки S-BRM 6-9\". Ультралегкие, складные, с пружинным возвратным механизмом. Используются по всему миру как силовыми ведомствами, так и гражданскими стрелками. Производство Harris." .. bipodtext
+
+///////////// PKP + PKP Pecheneg
+-- pkm
+L["eft_pkm_bipod.printname"] = "Сошки для ПК"
+L["eft_pkm_bipod.compactname"] = "ПК"
+L["eft_pkm_bipod.description"] = "Штатные сошки для Пулемета Калашникова. Производство Завода имени В. А. Дегтярева." .. bipodtext
+
+///////////// RPD + PPSH + TT
+-- rpd
+L["eft_rpd_bipod.printname"] = "Сошки для РПД"
+L["eft_rpd_bipod.compactname"] = "РПД"
+L["eft_rpd_bipod.description"] = "Штатные сошки для Ручного пулемета Дегтярева. Производство Завода имени В. А. Дегтярева." .. bipodtext
+
+///////////// PP-91 + SV-98
+-- sv98
+L["eft_sv98_bipodd.printname"] = "Сошки для СВ-98"
+L["eft_sv98_bipodd.compactname"] = "СВ-98"
+L["eft_sv98_bipodd.description"] = "Штатные сошки Ижмаш для винтовки СВ-98. В походном положении укладываются в цевьё." .. bipodtext
+
+///////////// H&K G36 + G28
+-- g36
+L["eft_g36_hg_bipod.printname"] = "Сошки для HK G36"
+L["eft_g36_hg_bipod.compactname"] = "G36"
+L["eft_g36_hg_bipod.description"] = "Штатные сошки для HK G36." .. bipodtext
+
+///////////// M60 + M32A1
+-- m60_m32
+L["eft_m60_bipod.printname"] = "Сошки для M60"
+L["eft_m60_bipod.compactname"] = "M60"
+L["eft_m60_bipod.description"] = "Штатные сошки для пулемета M60. Производство U.S Ordnance." .. bipodtext
 
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
@@ -518,9 +499,9 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 
 -- p90
 -- 5cc70093e4a949033c734312
-L["eft_p90_mag_opaque.printname"] = "Магазин на 50 патронов 5.7x28 для FN P90 (Non-Translucent)"
-L["eft_p90_mag_opaque.compactname"] = "P90-NT 50"
-L["eft_p90_mag_opaque.description"] = "Штатный 50-зарядный полимерный магазин для пистолетов-пулеметов FN P90, под патрон 5.7x28мм." .. customatt
+L["eft_p90_mag_opaque.printname"] = "Магазин на 50 патронов 5.7x28 для FN P90 (Original)"
+L["eft_p90_mag_opaque.compactname"] = "Магазин на 50 патронов 5.7x28 для FN P90 50 (Orig.)"
+L["eft_p90_mag_opaque.description"] = "Штатный 50-зарядный полимерный магазин для пистолетов-пулеметов FN P90, под патрон 5.7x28мм.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
 -- ammo_20x70
@@ -603,10 +584,10 @@ L["eft_mag_usp_ext.printname"] = "Магазин на 17 патронов .45 AC
 L["eft_mag_usp_ext.compactname"] = "USP45 17"
 L["eft_mag_usp_ext.description"] = "An aftermarket 17-round .45 ACP magazine." .. extrasatt
 
+local manualboltstr = ARC9:GetPhrase("settings.server.gameplay.manualbolt.title") or "Enable Manual Cycling"
 L["eft_extras_manualpump.printname"] = "Manual cycling"
 L["eft_extras_manualpump.compactname"] = "Manual cycle"
-L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"" .. ARC9:GetPhrase("settings.server.gameplay.manualbolt.title") .. "\" in ARC9's settings!" .. extrasatt
--- Phrase is "Enable Manual Cycling"
+L["eft_extras_manualpump.description"] = "Enables \"Manual Cycling\" on EFT's shotguns; they normally bypass this.\n\nDon't forget to enable \"" .. manualboltstr .. "\" in ARC9's settings!" .. extrasatt
 
 L["eft_extras_cooling.printname"] = "Water Cooling"
 L["eft_extras_cooling.compactname"] = "Cooling"
@@ -935,9 +916,9 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- [[ SIG MCX + Spear + MPX + P226R ]]
 -- mcx_mpx
 -- 5894a05586f774094708ef75
-L["eft_mpx_mag_30_orig.printname"] = "Магазин на 30 патронов 9x19 для MPX (Non-Translucent)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30"
-L["eft_mpx_mag_30_orig.description"] = "Стандартный полупрозрачный магазин 9x19мм для MPX на 30 патронов, производство SIG Sauer." .. customatt
+L["eft_mpx_mag_30_orig.printname"] = "Магазин на 30 патронов 9x19 для MPX (Original)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.description"] = "Стандартный полупрозрачный магазин 9x19мм для MPX на 30 патронов, производство SIG Sauer.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
 -- 6529366450dc782999054ba0
@@ -1008,22 +989,22 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 
 -- [[ H&K G36 + G28 ]]
 -- g28
-L["eft_g28_mag_10old.printname"] = "Магазин на 10 патронов 7.62x51 для HK417/G28 (Non-Translucent)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10"
-L["eft_g28_mag_10old.description"] = "10-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки." .. customatt
+L["eft_g28_mag_10old.printname"] = "Магазин на 10 патронов 7.62x51 для HK417/G28 (Original)"
+L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (Orig.)"
+L["eft_g28_mag_10old.description"] = "10-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
-L["eft_g28_mag_20old.printname"] = "Магазин на 20 патронов 7.62x51 для HK417/G28 (Non-Translucent)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20"
-L["eft_g28_mag_20old.description"] = "20-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки." .. customatt
+L["eft_g28_mag_20old.printname"] = "Магазин на 20 патронов 7.62x51 для HK417/G28 (Original)"
+L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (Orig.)"
+L["eft_g28_mag_20old.description"] = "20-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
 L["eft_g28_blk.compactname"] = "Black"
 L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a black color." .. customatt
 
 -- g36
-L["eft_g28_mag_30old.printname"] = "Магазин на 30 патронов 5.56x45 для HK G36 (Non-Translucent)"
-L["eft_g28_mag_30old.compactname"] = "G36 30"
-L["eft_g28_mag_30old.description"] = "30-зарядный магазин 5.56x45 для штурмовой винтовки HK G36." .. customatt
+L["eft_g28_mag_30old.printname"] = "Магазин на 30 патронов 5.56x45 для HK G36 (Original)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.description"] = "30-зарядный магазин 5.56x45 для штурмовой винтовки HK G36.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]
 -- 1911
@@ -1105,226 +1086,104 @@ L["eft_sako_black.printname"] = "Sako TRG M10 Black frame"
 L["eft_sako_black.compactname"] = "Black"
 L["eft_sako_black.description"] = "Repaints the frame into a black color." .. customatt
 
-////////////// EFT Weapon Names
---[[
-If you want to replace the weapon names and not use EFT's included
-"short names", then uncomment these; they will replace the EFT ones.
---]]
+////////////// Non-EFT Settings Menu
+-- [[ Settings ]]
+L["setting.eft"] = "Addon - EFT"
+L["setting.eft.label"] = "Settings for Escape from Tarkov weapons"
 
-/////// Assault carbines
--- L["eft_weapon_9a91"] = "9А-91"
--- L["eft_weapon_adar215"] = "ADAR 2-15"
--- L["eft_weapon_avt40"] = "АВТ-40"
--- L["eft_weapon_opsks"] = "ОП-СКС"
--- L["eft_weapon_rfb"] = "RFB"
--- L["eft_weapon_sagak"] = "АК-545"
--- L["eft_weapon_sagakshort"] = "АК-545 Кор."
--- L["eft_weapon_sks"] = "СКС"
--- L["eft_weapon_sr3m"] = "СР-3М"
--- L["eft_weapon_svt40"] = "СВТ-40"
--- L["eft_weapon_tx15"] = "TX-15 DML"
--- L["eft_weapon_vpo101"] = "ВПО-101 \"Вепрь-Хантер\""
--- L["eft_weapon_vpo136"] = "ВПО-136 \"Вепрь-КМ\""
--- L["eft_weapon_vpo209"] = "ВПО-209"
--- L["eft_weapon_vsk94"] = "ВСК-94"
+-- Min. Damage Range
+L["setting.eft.mindmg.title"] = "Minimal Damage Range"
+L["setting.eft.mindmg.desc"] = "How much maximum range all EFT weapons (excluding shotguns) should have. Measured in meters.\nEFT default: 1000"
 
-/////// Assault rifles
--- L["eft_weapon_ak12"] = "АК-12"
--- L["eft_weapon_ak74"] = "АК-74"
--- L["eft_weapon_ak74m"] = "АК-74М"
--- L["eft_weapon_ak74n"] = "АК-74Н"
--- L["eft_weapon_ak101"] = "АК-101"
--- L["eft_weapon_ak102"] = "АК-102"
--- L["eft_weapon_ak103"] = "АК-103"
--- L["eft_weapon_ak104"] = "АК-104"
--- L["eft_weapon_ak105"] = "АК-105"
--- L["eft_weapon_akm"] = "АКМ"
--- L["eft_weapon_akmn"] = "АКМН"
--- L["eft_weapon_akms"] = "АКМС"
--- L["eft_weapon_akmsn"] = "АКМСН"
--- L["eft_weapon_aks74"] = "АКС-74"
--- L["eft_weapon_aks74n"] = "АКС-74Н"
--- L["eft_weapon_aks74u"] = "АКС-74У"
--- L["eft_weapon_aks74ub"] = "АКС-74УБ"
--- L["eft_weapon_aks74un"] = "АКС-74УН"
--- L["eft_weapon_asval"] = "АС \"Вал\""
--- L["eft_weapon_ash12"] = "АШ-12"
--- L["eft_weapon_auga1"] = "AUG A1"
--- L["eft_weapon_auga3"] = "AUG A3"
--- L["eft_weapon_mdr556"] = "MDR"
--- L["eft_weapon_mdr762"] = "MDR"
--- L["eft_weapon_g36"] = "G36"
--- L["eft_weapon_hk416a5"] = "HK 416A5"
--- L["eft_weapon_m4a1"] = "M4A1"
--- L["eft_weapon_mcx"] = "MCX .300 BLK"
--- L["eft_weapon_mcxspear"] = "SPEAR 6.8"
--- L["eft_weapon_mk47"] = "Mk47"
--- L["eft_weapon_rd704"] = "RD-704"
--- L["eft_weapon_sa58"] = "SA58"
--- L["eft_weapon_scarh"] = "Mk 17"
--- L["eft_weapon_scarhx17"] = "X-17"
--- L["eft_weapon_scarl"] = "Mk 16"
--- L["eft_weapon_velociraptor"] = "Velociraptor .300 BLK"
+L["setting.eft.mindmg.sg.title"] = "   › For Shotguns"
+L["setting.eft.mindmg.sg.desc"] = "How much maximum range all EFT shotguns should have. Measured in meters.\nEFT default: 100"
 
-/////// Bolt-action rifles
--- L["eft_weapon_dvl10"] = "ДВЛ-10"
--- L["eft_weapon_m700"] = "M700"
--- L["eft_weapon_mosininf"] = "Мосина Пехотная"
--- L["eft_weapon_mosinsnip"] = "Мосина Снайперская"
--- L["eft_weapon_sv98"] = "СВ-98"
--- L["eft_weapon_t5000m"] = "T-5000M"
--- L["eft_weapon_trgm10"] = "TRG M10"
--- L["eft_weapon_vpo215"] = "ВПО-215 \"Горностай\""
+L["setting.eft.dmgmult.title"] = "Damage Multipliers"
+L["setting.eft.dmgmult.desc"] = "Damage multipliers for the various weapon calibers. True EFT experience is with everything set to 1x, but players there have 450 HP, so GMod could benefit from lower values."
 
-/////// Designated marksman rifles
--- L["eft_weapon_g28"] = "G28"
--- L["eft_weapon_m1a"] = "M1A"
--- L["eft_weapon_mk18"] = "Mk-18 Mjölnir"
--- L["eft_weapon_rsass"] = "RSASS"
--- L["eft_weapon_sr25"] = "SR-25"
--- L["eft_weapon_svds"] = "СВДС"
--- L["eft_weapon_vss"] = "ВСС \"Винторез\""
+L["setting.eft.dmgmult.pistol.title"] = "Pistol & PDW Calibers"
+L["setting.eft.dmgmult.pistol.desc"] = [[Affects the following:
+- 7.62x25  Tokarev
+- 9x19 Makarov
+- 9x19 Parabellum
+- 9x21 Gyurza
+- .45 ACP
+- 20x1
+- 4.6x30 HK
+- 5.7x28 FN
+]]
 
-/////// Grenade launchers
--- L["eft_weapon_fn40gl"] = "FN40GL"
--- L["eft_weapon_m32a1"] = "MSGL"
+L["setting.eft.dmgmult.shotgun.title"] = "Shotgun Shells"
+L["setting.eft.dmgmult.shotgun.desc"] = [[Affects the following:
+- 12/70 (12 gauge)
+- 20/70 (20 gauge)
+- 23x75R (4 gauge)
+]]
 
-/////// Light machine guns
--- L["eft_weapon_m60e4"] = "Mk 43 Mod 1"
--- L["eft_weapon_m60e6"] = "M60E6"
--- L["eft_weapon_pkm"] = "ПКМ"
--- L["eft_weapon_pkp"] = "ПКП"
--- L["eft_weapon_rpd"] = "РПД"
--- L["eft_weapon_rpdn"] = "РПДН"
--- L["eft_weapon_rpk16"] = "РПК-16"
+L["setting.eft.dmgmult.carbine.title"] = "Intermediate Caliber"
+L["setting.eft.dmgmult.carbine.desc"] = [[Affects the following:
+- 5.45x39
+- 5.56x45 NATO
+]]
 
-/////// Shotguns
--- L["eft_weapon_aa12gen1"] = "AA-12 Gen 1"
--- L["eft_weapon_aa12gen2"] = "AA-12 Gen 2"
--- L["eft_weapon_ks23"] = "КС-23М"
--- L["eft_weapon_m3super90"] = "M3 Super 90"
--- L["eft_weapon_m590a1"] = "590A1"
--- L["eft_weapon_m870"] = "M870"
--- L["eft_weapon_mp18"] = "MP-18"
--- L["eft_weapon_mp431c"] = "MP-43-1C"
--- L["eft_weapon_mp133"] = "MP-133"
--- L["eft_weapon_mp153"] = "MP-153"
--- L["eft_weapon_mp155"] = "MP-155"
--- L["eft_weapon_mts25512"] = "МЦ-255-12"
--- L["eft_weapon_saiga12k"] = "Сайга-12К исп.10"
--- L["eft_weapon_saiga12kfa"] = "Сайга FA"
--- L["eft_weapon_toz106"] = "ТОЗ-106"
+L["setting.eft.dmgmult.rifle.title"] = "Rifle Caliber"
+L["setting.eft.dmgmult.rifle.desc"] = [[Affects the following:
+- 6.8x51
+- 7.62x35 (.300 Blackout)
+- 7.62x39
+- 9x39
+]]
 
-/////// Submachine guns
--- L["eft_weapon_mp5"] = "MP5"
--- L["eft_weapon_mp5kn"] = "MP5K-N"
--- L["eft_weapon_mp7a1"] = "MP7A1"
--- L["eft_weapon_mp7a2"] = "MP7A2"
--- L["eft_weapon_mp9"] = "MP9"
--- L["eft_weapon_mp9n"] = "MP9-N"
--- L["eft_weapon_mpx"] = "MPX"
--- L["eft_weapon_p90"] = "P90"
--- L["eft_weapon_pp9"] = "ПП-9 \"Клин\""
--- L["eft_weapon_pp1901"] = "ПП-19-01"
--- L["eft_weapon_pp91"] = "ПП-91 \"Кедр\""
--- L["eft_weapon_pp9101"] = "ПП-91-01 \"Кедр-Б\""
--- L["eft_weapon_ppsh41"] = "ППШ-41"
--- L["eft_weapon_saiga9"] = "Сайга-9"
--- L["eft_weapon_veresk"] = "СР-2М"
--- L["eft_weapon_stm9"] = "STM-9"
--- L["eft_weapon_ump45"] = "UMP 45"
--- L["eft_weapon_uzi"] = "UZI"
--- L["eft_weapon_uzipro"] = "UZI PRO Pistol"
--- L["eft_weapon_uziprosmg"] = "UZI PRO SMG"
--- L["eft_weapon_vector45"] = "Vector .45ACP"
--- L["eft_weapon_vector9"] = "Vector 9x19"
+L["setting.eft.dmgmult.bigrifle.title"] = "Large Rifle Caliber"
+L["setting.eft.dmgmult.bigrifle.desc"] = [[Affects the following:
+- 7.62x51 NATO
+- 7.62x54R
+]]
 
-/////// Pistols
--- L["eft_weapon_apb"] = "АПБ"
--- L["eft_weapon_aps"] = "АПС"
--- L["eft_weapon_blicky"] = "Пестик"
--- L["eft_weapon_deaglel5357"] = "Desert Eagle L5"
--- L["eft_weapon_deaglel550ae"] = "Desert Eagle L5"
--- L["eft_weapon_deaglel6"] = "L6"
--- L["eft_weapon_deaglel6wts"] = "Desert Eagle L6"
--- L["eft_weapon_deaglexix"] = "Desert Eagle Mk XIX"
--- L["eft_weapon_fn57"] = "FN 5-7"
--- L["eft_weapon_glock17"] = "Glock 17"
--- L["eft_weapon_glock18c"] = "Glock 18C"
--- L["eft_weapon_glock19x"] = "Glock 19X"
--- L["eft_weapon_m9a3"] = "M9A3"
--- L["eft_weapon_m45a1"] = "M45A1"
--- L["eft_weapon_m1911a1"] = "M1911A1"
--- L["eft_weapon_mp443"] = "MP-443 \"Грач\""
--- L["eft_weapon_p226r"] = "P226R"
--- L["eft_weapon_pb"] = "ПБ"
--- L["eft_weapon_pl15"] = "ПЛ-15"
--- L["eft_weapon_pmt"] = "ПМ (г)"
--- L["eft_weapon_pm"] = "ПМ"
--- L["eft_weapon_gyurza"] = "СР-1МП"
--- L["eft_weapon_tt"] = "ТТ"
--- L["eft_weapon_ttgold"] = "ТТ Золотой"
--- L["eft_weapon_usp45"] = "USP .45"
+L["setting.eft.dmgmult.338.title"] = "Very Large Caliber"
+L["setting.eft.dmgmult.338.desc"] = [[Affects the following:
+- .338 Lapua Magnum
+- 12.7x108 (currently unused)
+]]
 
-/////// Revolvers
--- L["eft_weapon_cr50ds"] = "CR 50DS"
--- L["eft_weapon_cr200ds"] = "CR 200DS"
--- L["eft_weapon_rsh12"] = "РШ-12"
+L["setting.eft.dmgmult.massive.title"] = "Huge Rifle Caliber"
+L["setting.eft.dmgmult.massive.desc"] = [[Affects the following:
+- .366 TKM
+- 12.7x55
+]]
 
-/////// Sec. shotguns
--- L["eft_weapon_mp43sawedoff"] = "Обрез"
+L["setting.eft.dmgmult.grelau.title"] = "Grenade Cartridges"
+L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash damage on the following:
+- 40x46
+- 40x53
+]]
 
-/////// Handheld flares
--- L["eft_weapon_rop30"] = "Освет."
--- L["eft_weapon_rsp30b"] = "Синий"
--- L["eft_weapon_rsp30g"] = "Зеленый"
--- L["eft_weapon_rsp30r"] = "Красный"
--- L["eft_weapon_rsp30sy"] = "О-Желтый"
--- L["eft_weapon_rsp30y"] = "Желтый"
+L["setting.eft.dmgmult.melee.title"] = "Melee"
+L["setting.eft.dmgmult.melee.desc"] = "Melee weapons."
 
-/////// Signal pistols
--- L["eft_weapon_sp81"] = "СП-81"
+L["setting.eft.reloadatts.desc"] = "You must reload attachments to apply the changes!"
 
-/////// Melee weapons
--- L["eft_weapon_6x5"] = "6Х5"
--- L["eft_weapon_akula"] = "Акула"
--- L["eft_weapon_wycc"] = "Топор"
--- L["eft_weapon_gladius"] = "TWG"
--- L["eft_weapon_a2607"] = "А-2607"
--- L["eft_weapon_a2607d"] = "А-2607"
--- L["eft_weapon_camper"] = "Поход"
--- L["eft_weapon_crash"] = "SCA"
--- L["eft_weapon_cultist"] = "Нож"
--- L["eft_weapon_fulcrum"] = "ER BAYONET"
--- L["eft_weapon_freeman"] = "Фомка"
--- L["eft_weapon_tomahawk"] = "KATT"
--- L["eft_weapon_millerbros"] = "M-2"
--- L["eft_weapon_mpl50"] = "МПЛ-50"
--- L["eft_weapon_baton"] = "ПР-Т"
--- L["eft_weapon_rebel"] = "RedRebel"
--- L["eft_weapon_voodoo"] = "Hawk"
--- L["eft_weapon_sp8"] = "SP-8"
--- L["eft_weapon_superfors"] = "Dead Blow"
--- L["eft_weapon_m48"] = "Кукри M48"
--- L["eft_weapon_taiga"] = "Тайга-1"
+-- Additional Features
+L["setting.eft.miscfeatures.title"] = "Misc. Features"
+L["setting.eft.miscfeatures.desc"] = "Various EFT-related features."
 
-/////// Throwable fragmentation
--- L["eft_weapon_f1"] = "Ф-1"
--- L["eft_weapon_m67"] = "M67"
--- L["eft_weapon_rgd5"] = "РГД-5"
--- L["eft_weapon_rgn"] = "РГН"
--- L["eft_weapon_rgo"] = "РГО"
--- L["eft_weapon_v40"] = "V40"
--- L["eft_weapon_vog17"] = "ВОГ-17"
--- L["eft_weapon_vog25"] = "ВОГ-25"
+L["setting.eft.concussion.title"] = "Enable Concussion"
+L["setting.eft.concussion.desc"] = "If enabled, players too close to exploding EFT grenades will experience a concussion, i.e. a distorted view and motion blur."
 
-/////// Throwable smoke
--- L["eft_weapon_m18"] = "M18"
--- L["eft_weapon_rgd2b"] = "РДГ-2Б"
+L["setting.eft.flashduration.title"] = "Flashbang Duration"
+L["setting.eft.flashduration.desc"] = "Multiplies how long the flashbang blindness effect lasts."
 
-/////// Throwable stun
--- L["eft_weapon_m7290"] = "M7290"
--- L["eft_weapon_zarya"] = "Заря"
+L["setting.eft.ahmad.title"] = "Ahmad Flashbang"
+L["setting.eft.ahmad.desc"] = "Ahmad appears on your screen when you are blinded."
 
-/////// Other
--- L["eft_weapon_vortex"] = "R1500"
+L["setting.eft.jamhud.title"] = "Malfunction Notification & Sound"
+L["setting.eft.jamhud.desc"] = "Displays a notification on your HUD, and plays a sound, when your EFT weapon jams."
+
+L["setting.eft.prtaran.title"] = "Forced Jam if PR-Taran is present"
+L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Taran\" melee weapon, all EFT weapons will immediately jam.\n\nSets the ARC9 Malfunction Chance multiplier to 9999 - reverts when no PR-Taran is present."
+
+L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
+L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
+
+L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
