@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "Carregador de 17 munições M9A3 9x19"
 L["eft_mag_m9a3_std.compactname"] = "M9A3 17"
 L["eft_mag_m9a3_std.description"] = "Carregador padrão com 17 projéteis 9x19 para M9A3."
 
+L["eft_mag_m9a3_ext.printname"] = "M9A3 9x19 CX4 30-round magazine"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "A 30-round 9x19 magazine for the Beretta M9A3 pistol."
+
 L["eft_mount_p226_bridge.printname"] = "Suporte de mira para P226"
 L["eft_mount_p226_bridge.compactname"] = "Suporte P226"
 L["eft_mount_p226_bridge.description"] = "Suporte de mira Sig Sauer. Permite montar qualquer mira ou acessórios táticos."
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "Balote 20x70 para escopetas 20ga."
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "Cano 600mm MP-18 7.62x54R"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
 L["eft_mp18_barrel_762x54r.description"] = "Um cano padrão de 600mm produzido na fábrica com mira frontal para rifles de caça MP-18 7.62x54R."
 
 L["eft_mp18_hg_poly.printname"] = "Guarda-mão de polímero MP-18"
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "Uma massa de mira verde, de trítio para re
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
 
 L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"

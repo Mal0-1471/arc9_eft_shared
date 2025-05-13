@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = eftstring["5cadc2e0ae9215051e1c21e7 Name"]
 L["eft_mag_m9a3_std.compactname"] = eftstring["5cadc2e0ae9215051e1c21e7 ShortName"] .. " 17"
 L["eft_mag_m9a3_std.description"] = eftstring["5cadc2e0ae9215051e1c21e7 Description"]
 
+L["eft_mag_m9a3_ext.printname"] = eftstring["676176b762e0497044079f49 Name"]
+L["eft_mag_m9a3_ext.compactname"] = eftstring["676176b762e0497044079f49 ShortName"] .. " 30"
+L["eft_mag_m9a3_ext.description"] = eftstring["676176b762e0497044079f49 Description"]
+
 L["eft_mount_p226_bridge.printname"] = eftstring["5b3a08b25acfc4001754880c Name"]
 L["eft_mount_p226_bridge.compactname"] = eftstring["5b3a08b25acfc4001754880c ShortName"]
 L["eft_mount_p226_bridge.description"] = eftstring["5b3a08b25acfc4001754880c Description"]
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = eftstring["5d6e6a05a4b93618084f58d0 Descr
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = eftstring["61f4012adfc9f01a816adda1 Name"]
-L["eft_mp18_barrel_762x54r.compactname"] = eftstring["61f4012adfc9f01a816adda1 ShortName"]
+-- L["eft_mp18_barrel_762x54r.compactname"] = eftstring["61f4012adfc9f01a816adda1 ShortName"]
 L["eft_mp18_barrel_762x54r.description"] = eftstring["61f4012adfc9f01a816adda1 Description"]
 
 L["eft_mp18_hg_poly.printname"] = eftstring["61f8024263dc1250e26eb029 Name"]
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = eftstring["619f52454c58466fe122843b Descript
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = eftstring["673cbdfad0453ba50c0f76d6 Name"]
-L["eft_sako_mag338.compactname"] = eftstring["673cbdfad0453ba50c0f76d6 ShortName"]
+L["eft_sako_mag338.compactname"] = eftstring["673cbdfad0453ba50c0f76d6 ShortName"] .. " 8"
 L["eft_sako_mag338.description"] = eftstring["673cbdfad0453ba50c0f76d6 Description"]
 
 L["eft_sako_barrel_20.printname"] = eftstring["67405d760098dcb5940ea1a6 Name"]

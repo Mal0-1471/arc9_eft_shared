@@ -498,7 +498,7 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = eftstring["5cc70093e4a949033c734312 Name"] .. " (Original)"
-L["eft_p90_mag_opaque.compactname"] = eftstring["5cc70093e4a949033c734312 Name"] .. " 50 (Orig.)"
+L["eft_p90_mag_opaque.compactname"] = eftstring["5cc70093e4a949033c734312 ShortName"] .. " 50 (O)"
 L["eft_p90_mag_opaque.description"] = eftstring["5cc70093e4a949033c734312 Description"] .. "\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -514,6 +514,16 @@ L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge s
 L["eft_ammo_20x70_flechplus.printname"] = "Kaliber 20 Flechette+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
 L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
+
+L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7,62x54 R"
+
+L["eft_mp18_barrel_762x51.printname"] = "MP-18 7,62x51 600mm Lauf"
+L["eft_mp18_barrel_762x51.compactname"] = "MP18 7,62x51"
+L["eft_mp18_barrel_762x51.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x51 hunting rifles."
+
+L["eft_mp18_barrel_762x39.printname"] = "MP-18 7,62x39 600mm Lauf"
+L["eft_mp18_barrel_762x39.compactname"] = "MP18 7,62x39"
+L["eft_mp18_barrel_762x39.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x39 hunting rifles."
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -915,7 +925,7 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = eftstring["5894a05586f774094708ef75 Name"] .. " (Original)"
-L["eft_mpx_mag_30_orig.compactname"] = eftstring["5894a05586f774094708ef75 ShortName"] .. " 30 (Orig.)"
+L["eft_mpx_mag_30_orig.compactname"] = eftstring["5894a05586f774094708ef75 ShortName"] .. " 30 (O)"
 L["eft_mpx_mag_30_orig.description"] = eftstring["5894a05586f774094708ef75 Description"] .. "\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
@@ -988,11 +998,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = eftstring["617130016c780c1e710c9a24 Name"] .. " (Original)"
-L["eft_g28_mag_10old.compactname"] = eftstring["617130016c780c1e710c9a24 ShortName"] .. " 10 (Orig.)"
+L["eft_g28_mag_10old.compactname"] = eftstring["617130016c780c1e710c9a24 ShortName"] .. " 10 (O)"
 L["eft_g28_mag_10old.description"] = eftstring["617130016c780c1e710c9a24 Description"] .. "\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = eftstring["617131a4568c120fdd29482d Name"] .. " (Original)"
-L["eft_g28_mag_20old.compactname"] = eftstring["617131a4568c120fdd29482d ShortName"] .. " 20 (Orig.)"
+L["eft_g28_mag_20old.compactname"] = eftstring["617131a4568c120fdd29482d ShortName"] .. " 20 (O)"
 L["eft_g28_mag_20old.description"] = eftstring["617131a4568c120fdd29482d Description"] .. "\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
@@ -1001,7 +1011,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = eftstring["62307b7b10d2321fa8741921 Name"] .. " (Original)"
-L["eft_g28_mag_30old.compactname"] = eftstring["62307b7b10d2321fa8741921 ShortName"] .. " 30 (Orig.)"
+L["eft_g28_mag_30old.compactname"] = eftstring["62307b7b10d2321fa8741921 ShortName"] .. " 30 (O)"
 L["eft_g28_mag_30old.description"] = eftstring["62307b7b10d2321fa8741921 Description"] .. "\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]

@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "M9A3 9x19 17-mermilik şarjör"
 L["eft_mag_m9a3_std.compactname"] = "9х19 M9A3 17"
 L["eft_mag_m9a3_std.description"] = "Standart 17-mermilik 9x19 M9A3 şarjörü."
 
+L["eft_mag_m9a3_ext.printname"] = "M9A3 9x19 CX4 30-round magazine"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "A 30-round 9x19 magazine for the Beretta M9A3 pistol."
+
 L["eft_mount_p226_bridge.printname"] = "P226 için Köprü Görüş Altlığı"
 L["eft_mount_p226_bridge.compactname"] = "P226 için köprü"
 L["eft_mount_p226_bridge.description"] = "Sig-Sauer Bridge nişangah yuvası. Her türlü nişangah ve taktiksel donanımı monte etmenizi sağlar."
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "20ga pompalı tüfek için 20/70 Tek kur
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "MP-18 7.62x54R 600mm namlu"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
 L["eft_mp18_barrel_762x54r.description"] = "MP-18 7.62x54R av tüfekleri için arpacıklı, fabrikada üretilmiş standart 600 mm namlu."
 
 L["eft_mp18_hg_poly.printname"] = "MP-18 polimer tutamaç"
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "Chiappa Firearms tarafından üretilen, Rhi
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
 
 L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"

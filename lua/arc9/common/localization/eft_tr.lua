@@ -498,7 +498,7 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = "P90 için FN şarjör, 50 mermi kapasiteli (Original)"
-L["eft_p90_mag_opaque.compactname"] = "P90 için FN şarjör, 50 mermi kapasiteli 50 (Orig.)"
+L["eft_p90_mag_opaque.compactname"] = "FN reg. 50 (O)"
 L["eft_p90_mag_opaque.description"] = "5.7x28 mm P90 için 50 mermilik polimer şarjör.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -514,6 +514,16 @@ L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge s
 L["eft_ammo_20x70_flechplus.printname"] = "20/70 \"Flechette+\""
 L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
 L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
+
+L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
+
+L["eft_mp18_barrel_762x51.printname"] = "MP-18 7.62x51 600mm namlu"
+L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
+L["eft_mp18_barrel_762x51.description"] = "MP-18 7.62x51 av tüfekleri için arpacıklı, fabrikada üretilmiş standart 600 mm namlu."
+
+L["eft_mp18_barrel_762x39.printname"] = "MP-18 7.62x39 600mm namlu"
+L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
+L["eft_mp18_barrel_762x39.description"] = "MP-18 7.62x39 av tüfekleri için arpacıklı, fabrikada üretilmiş standart 600 mm namlu."
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -915,7 +925,7 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = "MPX için standart 30 mermilik 9x19 şarjör (Original)"
-L["eft_mpx_mag_30_orig.compactname"] = "9х19 MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.compactname"] = "9х19 MPX 30 (O)"
 L["eft_mpx_mag_30_orig.description"] = "Standart yarı saydam 30 mermi kapasiteli 9x19 MPX şarjörü.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
@@ -988,11 +998,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = "HK417/G28 7.62x51 10'lu şarjör (Original)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (Orig.)"
+L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (O)"
 L["eft_g28_mag_10old.description"] = "7.62x51 mühimmat için 10 mermi çift istifli HK417/G28 şarjörü. Zemin plakası, sökme ve temizleme için kolayca çıkarılabilir.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = "HK417/G28 7.62x51 20 mermilik şarjör (Original)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (Orig.)"
+L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (O)"
 L["eft_g28_mag_20old.description"] = "7.62x51 mühimmat için 20 mermi çift istifli HK417/G28 şarjör. Zemin plakası, sökme ve temizleme için kolayca çıkarılabilir.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
@@ -1001,7 +1011,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = "HK G36 5.56x45 30 mermilik şarjör (Original)"
-L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
 L["eft_g28_mag_30old.description"] = "HK G36 için tasarlanmış 30 mermilik 5.56x45 şarjör.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]

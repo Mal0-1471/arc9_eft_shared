@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "17-nabojowy magazynek do M9A3 9 x 19"
 L["eft_mag_m9a3_std.compactname"] = "M9A3 17"
 L["eft_mag_m9a3_std.description"] = "Standardowy 17-nabojowy magazynek kalibru 9 × 19 mm do pistoletu M9A3."
 
+L["eft_mag_m9a3_ext.printname"] = "M9A3 9x19 CX4 30-round magazine"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "A 30-round 9x19 magazine for the Beretta M9A3 pistol."
+
 L["eft_mount_p226_bridge.printname"] = "Montaż na celowniki P226 Bridge"
 L["eft_mount_p226_bridge.compactname"] = "P226 Bridge"
 L["eft_mount_p226_bridge.description"] = "Montaż na celowniki Bridge do pistoletu. Pozwala na zamontowanie celownika lub akcesoriów taktycznych. Wyprodukowany przez firmę SIG Sauer."
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "Breneka do strzelb kalibru 20/70."
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "600-milimetrowa lufa do MP-18 7,62 x 54 R"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600 mm"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600 mm"
 L["eft_mp18_barrel_762x54r.description"] = "Standardowa fabrycznie produkowana 600-milimetrowa lufa z muszką do karabinu myśliwskiego MP-18 kalibru 7,62 × 54 mm R."
 
 L["eft_mp18_hg_poly.printname"] = "Łoże do MP-18, polimerowe"
@@ -6578,7 +6582,7 @@ L["eft_rpd_pg.printname"] = "Chwyt pistoletowy do RPD, drewniany"
 L["eft_rpd_pg.compactname"] = "Chwyt RPD"
 L["eft_rpd_pg.description"] = "Standardowy drewniany chwyt pistoletowy do karabinka maszynowego RPD. Wyprodukowany przez zakłady W.A. Diegtiariowa."
 
-L["eft_rpd_mag_100.printname"] = "100-nabojowe pudełko na amunicję „Buben” do RPD 7,62 x 54 R"
+L["eft_rpd_mag_100.printname"] = "100-nabojowe pudełko na amunicję „Buben” do RPD 7,62 x 39"
 L["eft_rpd_mag_100.compactname"] = "Buben 100"
 L["eft_rpd_mag_100.description"] = "Standardowe 100-nabojowe pudełko na amunicję kalibru 7,62 × 39 mm do karabinka maszynowego RPD, nazwane „Buben” przez jego okrągły kształt. Wyprodukowane przez zakłady W.A. Diegtiariowa."
 
@@ -8451,7 +8455,7 @@ L["eft_m1a_mag_20.printname"] = "20-nabojowy magazynek do M1A 7,62 x 51"
 L["eft_m1a_mag_20.compactname"] = "M1A 20"
 L["eft_m1a_mag_20.description"] = "20-nabojowy dwurzędowy magazynek kalibru 7,62 × 51 mm NATO do karabinu M1A. Wyprodukowany przez Springfield Armory."
 
-L["eft_m1a_mag_30.printname"] = "30-nabojowy magazynek do M140 7,62 x 51"
+L["eft_m1a_mag_30.printname"] = "30-nabojowy magazynek do M1A 7,62 x 51"
 L["eft_m1a_mag_30.compactname"] = "M14 30"
 L["eft_m1a_mag_30.description"] = "30-nabojowy dwurzędowy magazynek kalibru 7,62 × 51 mm NATO do karabinu M1A. Wyprodukowany przez firmę Triple K."
 
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "Muszka z czerwonym trytem do rewolwerów Rh
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
 
 L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"

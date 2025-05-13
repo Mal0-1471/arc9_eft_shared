@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "M9A3 9x19 17发弹匣"
 L["eft_mag_m9a3_std.compactname"] = "9х19 M9A3 17"
 L["eft_mag_m9a3_std.description"] = "M9A3的标准17发9х19弹匣。"
 
+L["eft_mag_m9a3_ext.printname"] = "M9A3 9x19 CX4 30-round magazine"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "A 30-round 9x19 magazine for the Beretta M9A3 pistol."
+
 L["eft_mount_p226_bridge.printname"] = "P226桥轨基座"
 L["eft_mount_p226_bridge.compactname"] = "P226桥轨"
 L["eft_mount_p226_bridge.description"] = "西格-绍尔桥型瞄具基座，可用来安装各种瞄具或战术配件。"
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "20铅径霰弹枪用的20/70独头弹。
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "MP-18 7.62x54R 600毫米枪管"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600毫米"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600毫米"
 L["eft_mp18_barrel_762x54r.description"] = "带有准星的MP-18 7.62x54R猎枪600毫米枪管，出厂标配。"
 
 L["eft_mp18_hg_poly.printname"] = "MP-18聚合物护木"
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "带有绿色氚光源的Rhino转轮手枪�
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
 
 L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"

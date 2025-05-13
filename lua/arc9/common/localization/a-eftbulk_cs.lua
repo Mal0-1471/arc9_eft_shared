@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "17-ranný zásobník pro M9A3 9x19"
 L["eft_mag_m9a3_std.compactname"] = "M9A3 17"
 L["eft_mag_m9a3_std.description"] = "Standardní 17-ranný zásobník 9x19 pro pistoli Beretta M9A3."
 
+L["eft_mag_m9a3_ext.printname"] = "M9A3 9x19 CX4 30-round magazine"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "A 30-round 9x19 magazine for the Beretta M9A3 pistol."
+
 L["eft_mount_p226_bridge.printname"] = "Montážní můstek pro zaměřovače na P226"
 L["eft_mount_p226_bridge.compactname"] = "P226 Můstek"
 L["eft_mount_p226_bridge.description"] = "Montážní můstek SIG Sauer Bridge pro pistole. Umožňuje montáž různých mířidel nebo taktického příslušenství."
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "Náboj 20/70 se střelou pro 20ga brokov
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "600mm hlaveň pro MP-18 7.62x54R"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
 L["eft_mp18_barrel_762x54r.description"] = "Standardní továrně vyráběná 600mm hlaveň s hledím pro lovecké pušky MP-18 7.62x54R."
 
 L["eft_mp18_hg_poly.printname"] = "Polymerové předpažbí pro MP-18"
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "Červená muška s tritiem pro revolvery Rh
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
 
 L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"

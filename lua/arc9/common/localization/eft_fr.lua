@@ -498,7 +498,7 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = "Chargeur 5,7 x 28 mm 50 coups pour FN P90 (Original)"
-L["eft_p90_mag_opaque.compactname"] = "Chargeur 5,7 x 28 mm 50 coups pour FN P90 50 (Orig.)"
+L["eft_p90_mag_opaque.compactname"] = "P90 50 (O)"
 L["eft_p90_mag_opaque.description"] = "A 50-round polymer magazine for the 5.7x28mm FN P90 SMG.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -514,6 +514,16 @@ L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge s
 L["eft_ammo_20x70_flechplus.printname"] = "20/70 Fléchettes+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Fléchettes+"
 L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
+
+L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7,62 x 54 R"
+
+L["eft_mp18_barrel_762x51.printname"] = "Canon de 600 mm calibre 7,62 x 51 mm pour MP-18"
+L["eft_mp18_barrel_762x51.compactname"] = "MP18 7,62x51"
+L["eft_mp18_barrel_762x51.description"] = "Un canon standard de 600 mm avec un guidon pour les carabines de chasse MP-18 de calibre 7,62 x 51."
+
+L["eft_mp18_barrel_762x39.printname"] = "Canon de 600 mm calibre 7,62 x 39 mm pour MP-18"
+L["eft_mp18_barrel_762x39.compactname"] = "MP18 7,62x39"
+L["eft_mp18_barrel_762x39.description"] = "Un canon standard de 600 mm avec un guidon pour les carabines de chasse MP-18 de calibre 7,62 x 39."
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -915,7 +925,7 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = "Chargeur 9 x 19 mm 30 coups pour MPX (Original)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (O)"
 L["eft_mpx_mag_30_orig.description"] = "A standard 30-round capacity semitransparent 9x19mm MPX magazine, manufactured by SIG Sauer.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
@@ -988,11 +998,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = "Chargeur 7,62 x 51 mm 10 coups pour HK417/G28 (Original)"
-L["eft_g28_mag_10old.compactname"] = "417 10 10 (Orig.)"
+L["eft_g28_mag_10old.compactname"] = "417 10 10 (O)"
 L["eft_g28_mag_10old.description"] = "Un chargeur 7,62 x 51 mm 10 coups à piles imbriquées pour HK417/G28. Le talon peut être facilement enlevé pour le démontage et le nettoyage.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = "Chargeur 7,62 x 51 mm 20 coups pour HK417/G28 (Original)"
-L["eft_g28_mag_20old.compactname"] = "417 20 20 (Orig.)"
+L["eft_g28_mag_20old.compactname"] = "417 20 20 (O)"
 L["eft_g28_mag_20old.description"] = "Un chargeur 7,62 x 51 mm 20 coups à piles imbriquées pour HK417/G28. Le talon peut être facilement enlevé pour le démontage et le nettoyage.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
@@ -1001,7 +1011,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = "Chargeur 5,56 x 45 mm 30 coups pour HK G36 (Original)"
-L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
 L["eft_g28_mag_30old.description"] = "Un chargeur 5,56 x 45 mm 30 coups conçu pour le HK G36.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]

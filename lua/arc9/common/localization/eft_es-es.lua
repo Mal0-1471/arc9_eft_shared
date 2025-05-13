@@ -498,7 +498,7 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = "Cargador de 50 cartuchos 5,7x28 mm para FN P90 (Original)"
-L["eft_p90_mag_opaque.compactname"] = "Cargador de 50 cartuchos 5,7x28 mm para FN P90 50 (Orig.)"
+L["eft_p90_mag_opaque.compactname"] = "P90 50 (O)"
 L["eft_p90_mag_opaque.description"] = "Un cargador de polímero con capacidad para 50 cartuchos de 5,7x28 mm, para el subfusil FN P90.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -514,6 +514,16 @@ L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge s
 L["eft_ammo_20x70_flechplus.printname"] = "Cartucho de 12/70 - Flechette+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
 L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
+
+L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7,62x54 R"
+
+L["eft_mp18_barrel_762x51.printname"] = "Cañón de 600 mm para MP-18 de 7,62x51"
+L["eft_mp18_barrel_762x51.compactname"] = "MP18 7,62x51"
+L["eft_mp18_barrel_762x51.description"] = "Un cañón estándar de 600 mm con un punto de mira, producido en serie para los fusiles de caza MP-18 de calibre 7,62x51."
+
+L["eft_mp18_barrel_762x39.printname"] = "Cañón de 600 mm para MP-18 de 7,62x39"
+L["eft_mp18_barrel_762x39.compactname"] = "MP18 7,62x39"
+L["eft_mp18_barrel_762x39.description"] = "Un cañón estándar de 600 mm con un punto de mira, producido en serie para los fusiles de caza MP-18 de calibre 7,62x39."
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -915,7 +925,7 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = "Cargador de 30 cartuchos 9x19 mm para MPX (Original)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (O)"
 L["eft_mpx_mag_30_orig.description"] = "Un cargador estándar semitransparente con capacidad para 30 cartuchos de 9x19 mm, para el subfusil MPX, fabricado por SIG Sauer.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
@@ -988,11 +998,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = "Cargador de 10 cartuchos 7,62x51 mm para HK417/G28 (Original)"
-L["eft_g28_mag_10old.compactname"] = "417 7,62 10 (Orig.)"
+L["eft_g28_mag_10old.compactname"] = "417 7,62 10 (O)"
 L["eft_g28_mag_10old.description"] = "Un cargador de hilera doble, con capacidad para 10 cartuchos de 7,62x51 mm OTAN, para el fusil HK417/G28. La placa inferior puede ser removida con facilidad para desensamble y limpieza.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = "Cargador de 20 cartuchos 7,62x51 mm para HK417/G28 (Original)"
-L["eft_g28_mag_20old.compactname"] = "417 7,62 20 (Orig.)"
+L["eft_g28_mag_20old.compactname"] = "417 7,62 20 (O)"
 L["eft_g28_mag_20old.description"] = "Un cargador de hilera doble, con capacidad para 20 cartuchos de 7,62x51 mm OTAN, para el fusil HK417/G28. La placa inferior puede ser removida con facilidad para desensamble y limpieza.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
@@ -1001,7 +1011,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = "Cargador de 30 cartuchos 5,56x45 mm para HK G36 (Original)"
-L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
 L["eft_g28_mag_30old.description"] = "Un cargador con capacidad para 30 cartuchos de 5,56x45 mm OTAN, diseñado para el fusil HK G36.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]

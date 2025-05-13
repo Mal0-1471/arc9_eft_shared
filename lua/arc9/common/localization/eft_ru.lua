@@ -500,7 +500,7 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = "Магазин на 50 патронов 5.7x28 для FN P90 (Original)"
-L["eft_p90_mag_opaque.compactname"] = "Магазин на 50 патронов 5.7x28 для FN P90 50 (Orig.)"
+L["eft_p90_mag_opaque.compactname"] = "P90 50 (O)"
 L["eft_p90_mag_opaque.description"] = "Штатный 50-зарядный полимерный магазин для пистолетов-пулеметов FN P90, под патрон 5.7x28мм.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -516,6 +516,16 @@ L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge s
 L["eft_ammo_20x70_flechplus.printname"] = "20/70 флешетта+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Флешетта+"
 L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
+
+L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
+
+L["eft_mp18_barrel_762x51.printname"] = "Ствол 600мм для MP-18 7.62x51"
+L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
+L["eft_mp18_barrel_762x51.description"] = "Стандартный заводской ствол для ружья MP-18 длиной 600мм под патрон 7.62x51, с местом под прицельную планку."
+
+L["eft_mp18_barrel_762x39.printname"] = "Ствол 600мм для MP-18 7.62x39"
+L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
+L["eft_mp18_barrel_762x39.description"] = "Стандартный заводской ствол для ружья MP-18 длиной 600мм под патрон 7.62x39, с местом под прицельную планку."
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -917,7 +927,7 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = "Магазин на 30 патронов 9x19 для MPX (Original)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (O)"
 L["eft_mpx_mag_30_orig.description"] = "Стандартный полупрозрачный магазин 9x19мм для MPX на 30 патронов, производство SIG Sauer.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
@@ -990,11 +1000,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = "Магазин на 10 патронов 7.62x51 для HK417/G28 (Original)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (Orig.)"
+L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (O)"
 L["eft_g28_mag_10old.description"] = "10-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = "Магазин на 20 патронов 7.62x51 для HK417/G28 (Original)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (Orig.)"
+L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (O)"
 L["eft_g28_mag_20old.description"] = "20-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
@@ -1003,7 +1013,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = "Магазин на 30 патронов 5.56x45 для HK G36 (Original)"
-L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
 L["eft_g28_mag_30old.description"] = "30-зарядный магазин 5.56x45 для штурмовой винтовки HK G36.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]

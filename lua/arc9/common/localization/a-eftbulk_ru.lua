@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "Магазин на 17 патронов 9x19 
 L["eft_mag_m9a3_std.compactname"] = "M9A3 17"
 L["eft_mag_m9a3_std.description"] = "Стандартный 17-зарядный магазин для пистолетов Beretta M9A3, под патрон 9x19."
 
+L["eft_mag_m9a3_ext.printname"] = "Магазин на 30 патронов 9x19 для M9A3"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "30-зарядный магазин для пистолетов Beretta M9A3, под патрон 9x19."
+
 L["eft_mount_p226_bridge.printname"] = "Крепление Bridge для P226"
 L["eft_mount_p226_bridge.compactname"] = "P226 Bridge"
 L["eft_mount_p226_bridge.description"] = "База типа Bridge производства SIG Sauer для установки различных прицельных и тактических устройств."
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "Патрон с пулей \"Star\" 20/7
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "Ствол 600мм для MP-18 7.62x54R"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600мм"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600мм"
 L["eft_mp18_barrel_762x54r.description"] = "Стандартный заводской ствол для ружья MP-18 длиной 600мм под патрон 7.62x54R, с местом под прицельную планку."
 
 L["eft_mp18_hg_poly.printname"] = "Цевье полимерное для MP-18"
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "Мушка с тритиевыми вста
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Магазин на 8 патронов .338 LM для Sako TRG M10"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "8-зарядный магазин для снайперской винтовки TRG M10, под патрон .338 Lapua Magnum. Производство Sako."
 
 L["eft_sako_barrel_20.printname"] = "Ствол 508мм для Sako TRG M10 .338 LM"

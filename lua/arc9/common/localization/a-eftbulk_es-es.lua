@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "Cargador de 17 cartuchos 9x19 mm para M9A3"
 L["eft_mag_m9a3_std.compactname"] = "M9A3 17"
 L["eft_mag_m9a3_std.description"] = "Un cargador estándar con capacidad para 17 cartuchos de 9x19 mm, para la pistola Beretta M9A3."
 
+L["eft_mag_m9a3_ext.printname"] = "M9A3 9x19 CX4 30-round magazine"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "A 30-round 9x19 magazine for the Beretta M9A3 pistol."
+
 L["eft_mount_p226_bridge.printname"] = "Montura Bridge de miras para P226"
 L["eft_mount_p226_bridge.compactname"] = "P226 Bridge"
 L["eft_mount_p226_bridge.description"] = "Una montura Bridge para instalar miras en pistolas, producida por SIG Sauer. Permite montar diversos tipos de miras o accesorios tácticos."
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "Munición de calibre 20/70 Star - Es un 
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "Cañón de 600 mm para MP-18 de 7,62x54 mm R"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600 mm"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600 mm"
 L["eft_mp18_barrel_762x54r.description"] = "Un cañón estándar de 600 mm con un punto de mira, producido en serie para los fusiles de caza MP-18 de calibre 7,62x54 mm R."
 
 L["eft_mp18_hg_poly.printname"] = "Guardamano de polímero para MP-18"
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "Un punto de mira Red Fiber con barras de tr
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
 
 L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"

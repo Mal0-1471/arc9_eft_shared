@@ -498,7 +498,7 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = "Carregador FN para P90, capacidade para 50 munições (Original)"
-L["eft_p90_mag_opaque.compactname"] = "Carregador FN para P90, capacidade para 50 munições 50 (Orig.)"
+L["eft_p90_mag_opaque.compactname"] = "P90 50 (O)"
 L["eft_p90_mag_opaque.description"] = "Carregador de P90 em polímero para 50 munições 5.7x28mm.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -514,6 +514,16 @@ L["eft_ammo_20x70_explosive.description"] = "Homemade 20/70 round for 20 gauge s
 L["eft_ammo_20x70_flechplus.printname"] = "20/70 Flechette+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
 L["eft_ammo_20x70_flechplus.description"] = "Homemade 20/70 cartridge for 20-gauge shotguns, loaded with sharpened flechettes and a huge amount of gunpowder. Uses a cartridge case from a 20/70 7.5mm buckshot casing." .. customatt
+
+L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
+
+L["eft_mp18_barrel_762x51.printname"] = "Cano 600mm MP-18 7.62x51"
+L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
+L["eft_mp18_barrel_762x51.description"] = "Um cano padrão de 600mm produzido na fábrica com mira frontal para rifles de caça MP-18 7.62x51."
+
+L["eft_mp18_barrel_762x39.printname"] = "Cano 600mm MP-18 7.62x39"
+L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
+L["eft_mp18_barrel_762x39.description"] = "Um cano padrão de 600mm produzido na fábrica com mira frontal para rifles de caça MP-18 7.62x39."
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -915,7 +925,7 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = "Carregador de 30 munições MPX 9x19 (Original)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (O)"
 L["eft_mpx_mag_30_orig.description"] = "Carregador semitransparente com capacidade de 30 munições, calibre 9×19 MPX.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- spear
@@ -988,11 +998,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = "Carregador de 10 munições HK417/G28 7.62x51 (Original)"
-L["eft_g28_mag_10old.compactname"] = "417 10 762 10 (Orig.)"
+L["eft_g28_mag_10old.compactname"] = "417 10 762 10 (O)"
 L["eft_g28_mag_10old.description"] = "Um carregador HK417 / G28 de pilha dupla de 10 cartuchos para munição 7.62x51. A placa de piso pode ser facilmente removida para desmontagem e limpeza.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = "Carregador de 20 munições HK417/G28 7.62x51 (Original)"
-L["eft_g28_mag_20old.compactname"] = "417 20 762 20 (Orig.)"
+L["eft_g28_mag_20old.compactname"] = "417 20 762 20 (O)"
 L["eft_g28_mag_20old.description"] = "Um carregador HK417 / G28 de pilha dupla de 20 cartuchos para munição 7.62x51. A placa de piso pode ser facilmente removida para desmontagem e limpeza.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
@@ -1001,7 +1011,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = "Carregador de 30 munições HK G36 5.56x45 (Original)"
-L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
 L["eft_g28_mag_30old.description"] = "Um carregador de 30 munições no calibre 5.56x45mm, desenvolvido para HK G36.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]

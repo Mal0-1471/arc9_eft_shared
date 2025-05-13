@@ -4882,6 +4882,10 @@ L["eft_mag_m9a3_std.printname"] = "17발, M9A3 9x19 탄창 "
 L["eft_mag_m9a3_std.compactname"] = "M9A3 17"
 L["eft_mag_m9a3_std.description"] = "Beretta M9A3 권총용 표준형 17발 9x19 탄창입니다."
 
+L["eft_mag_m9a3_ext.printname"] = "M9A3 9x19 CX4 30-round magazine"
+L["eft_mag_m9a3_ext.compactname"] = "CX4 30"
+L["eft_mag_m9a3_ext.description"] = "A 30-round 9x19 magazine for the Beretta M9A3 pistol."
+
 L["eft_mount_p226_bridge.printname"] = "P226 Bridge 조준경 마운트 "
 L["eft_mount_p226_bridge.compactname"] = "P226 Bridge"
 L["eft_mount_p226_bridge.description"] = "The SIG Sauer Bridge sight mount for pistols. Allows mounting of various sights or tactical accesories."
@@ -5429,7 +5433,7 @@ L["eft_ammo_20x70_star.description"] = "A 20/70 slug shell for 20 gauge shotguns
 
 -- [[ mp18 ]]
 L["eft_mp18_barrel_762x54r.printname"] = "MP-18 7.62x54R 600mm barrel"
-L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
+-- L["eft_mp18_barrel_762x54r.compactname"] = "MP18 600mm"
 L["eft_mp18_barrel_762x54r.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x54R hunting rifles."
 
 L["eft_mp18_hg_poly.printname"] = "MP-18 polymer handguard"
@@ -9361,7 +9365,7 @@ L["eft_rhino_fs_red.description"] = "Chiappa Firearms에서 제작한, Rhino 리
 ///////////////////////////// Sako TRG
 -- [[ sako ]]
 L["eft_sako_mag338.printname"] = "Sako TRG M10 .338 LM 8-round magazine"
-L["eft_sako_mag338.compactname"] = "M10 .338"
+L["eft_sako_mag338.compactname"] = "M10 .338 8"
 L["eft_sako_mag338.description"] = "An 8-round .338 Lapua Magnum magazine for the TRG M10 sniper rifle, manufactured by Sako."
 
 L["eft_sako_barrel_20.printname"] = "Sako TRG M10 .338 LM 20 inch barrel"
