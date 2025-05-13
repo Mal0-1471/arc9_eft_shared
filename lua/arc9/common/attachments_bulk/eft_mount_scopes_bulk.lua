@@ -36,41 +36,6 @@ ATT.Attachments = {
 ARC9.LoadAttachment(ATT, "eft_mount_ac32062")
 
 
-///////////////////////////////////////      eft_mount_all_kmz_1p69
-
-
-ATT = {}
-
-ATT.PrintName = "KMZ 1P69 Weaver mount"
-ATT.CompactName = "1P69 mount"
-ATT.Icon = Material("entities/eft_attachments/scopes/1p69mount.png", "mips smooth")
-ATT.Description = [[Universal base with integrated power supply for installation of the sight 1P59 on the "Weaver" type rails.]]
-
-ATT.Model = "models/weapons/arc9_eft_shared/atts/optic/kmz_weaver.mdl"
-
-ATT.ActivateElements = {"nolongrear"}
-ATT.Category = {"eft_optic_large"}
-ATT.Folder = "Scopes/Mounts"
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
-ATT.ModelOffset = Vector(2, 0, 1.9)
-
-ATT.Attachments = {
-    {
-        PrintName = "eft_cat_scope",
-        Category = {"eft_optic_kmz"},
-        Pos = Vector(-2, 0, -1.9),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(0, 0, 0),
-        -- ExtraSightDistance = 8
-    },
-}
-
-
-
-ARC9.LoadAttachment(ATT, "eft_mount_all_kmz_1p69")
 
 
 ///////////////////////////////////////      eft_mount_amm
@@ -1025,38 +990,3 @@ ARC9.LoadAttachment(ATT, "eft_mount_hydra_fde")
 
 
 
-
-///////////////////////////////////////      eft_mount_shakhin
-
-
-ATT = {}
-
-ATT.PrintName = "Cyclone Shakhin mount"
-ATT.CompactName = "Shakhin"
-ATT.Icon = Material("entities/eft_attachments/scopes/shmount.png", "mips smooth")
-ATT.Description = [[A Weaver mount for installing the Shakhin thermal scope. Manufactured by Central Research Institute Cyclone.]]
-ATT.SortOrder = 1
-
-ATT.Scale = 1
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_shakhin.mdl"
-ATT.Folder = "Special"
-
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
-
-ATT.Category = {"eft_optic_large"}
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.ModelOffset = Vector(0, 0, -0)
-
-ATT.Attachments = {
-    {
-        PrintName = "eft_cat_scope",
-        Category = "eft_shakhin_scope",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
-        Icon_Offset = Vector(-1, 0, 2.0),
-    },
-}
-
-ARC9.LoadAttachment(ATT, "eft_mount_shakhin")

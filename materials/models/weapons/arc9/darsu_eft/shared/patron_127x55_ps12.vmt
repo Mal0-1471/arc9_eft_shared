@@ -1,0 +1,35 @@
+// ESCAPE FROM TARKOV TACTICAL REALISM WITH HARDCORE MATERIALS
+// Auto converter by Darsu, material setup and vmt by horjenger
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/arc9/darsu_eft/shared/patron_127x55_ps12_LOD0_diff"
+	"$bumpmap" "models/weapons/arc9/darsu_eft/shared/patron_127x55_ps12_LOD0_nrm"
+	"$phongexponenttexture" "models/weapons/arc9/darsu_eft/shared/patron_127x55_ps12_LOD0_gloss"
+	"$phong"		"1"
+	"$phongboost"	"4"
+	"$phongexponent"	"12"
+	// "$blendtintbybasealpha"	"1"
+	"$phongtint"		"[0.7 0.3 0.05]"
+	"$phongalbedotint"		"1"
+	"$phongfresnelranges"	"[0.8 0.9 2]"
+	"$rimlight"	"1"
+	"$rimlightexponent"		"0.5"
+	"$rimmask"	"1"
+	"$rimlightboost"	"3"
+	"$envmap"	"arc9/shared/envmaps/specularity_50"
+
+	"$envmaptint" "[0.3 0.3 0.3]"
+	"$color2" "[0.5 0.5 0.4]"
+
+	"Proxies"
+     {
+        "Arc9EnvMapTint"
+        {
+            "specularity" "0.5"
+            "min" "0"
+            "max" "0.7"
+            "color" "[0.8 0.6 0.1]"
+        }
+     }
+}

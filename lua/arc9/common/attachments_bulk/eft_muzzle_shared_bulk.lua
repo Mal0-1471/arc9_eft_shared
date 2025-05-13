@@ -1,5 +1,215 @@
 local ATT = {}
 
+///////////////////////////////////////      eft_muzzle_ar10_procomp
+
+ATT = {}
+
+ATT.PrintName = "AR-10 SureFire ProComp 7.62x51 muzzle brake"
+ATT.CompactName = "ProComp 762"
+ATT.Icon = Material("entities/eft_ar10_attachments/procomp.png", "mips smooth")
+ATT.Description = [[The ProComp muzzle brake designed for installation on AR-10-type systems and compatibles. The muzzle brake greatly reduces both recoil impulse and muzzle rise so that the user's weapon tracks straight back to keep them on target for faster shot-to-shot recovery. Manufactured by SureFire.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_surefire_procomp_762_muzzle_brake_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -1.5
+ATT.CustomCons = { Ergonomics = "-1.5" }
+ATT.RecoilMult = 0.885
+ATT.VisualRecoilMult = 0.885
+ATT.HeatCapacityMult = 0.987
+ATT.SpreadMult = 0.97
+ATT.PhysBulletMuzzleVelocityMult = 1.005
+
+ATT.Category = {"eft_ar10_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_procomp")
+
+
+///////////////////////////////////////      eft_muzzle_ar10_aac51t
+
+ATT = {}
+
+ATT.PrintName = "AR-10 AAC Blackout 51T 7.62x51 flash hider"
+ATT.CompactName = "51T 762"
+ATT.Icon = Material("entities/eft_ar10_attachments/51t.png", "mips smooth")
+ATT.Description = [[The Advanced Armament Corporation (AAC) Blackout 51T flash hider is an effective flash suppressor that also serves as an attachment platform for the AAC 762-SDN-6 sound suppressor. Can be installed on AR-10-based rifles.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_aac_blackout_51t_flash_hider_556x45.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.93
+ATT.VisualRecoilMult = 0.93
+ATT.SpreadMult = 0.97
+ATT.HeatCapacityMult = 0.99
+
+ATT.Category = {"eft_ar10_muzzle"}
+
+ATT.Attachments = {
+    {
+        PrintName = "eft_cat_silencer",
+        Category = "eft_sdn6",
+        Pos = Vector(-0.2, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_aac51t")
+
+
+///////////////////////////////////////      eft_muzzle_ar10_qdc_brake
+
+ATT = {}
+
+ATT.PrintName = "AR-10 KAC QDC 7.62x51 Muzzle Brake Kit"
+ATT.CompactName = "QDC 762"
+ATT.Icon = Material("entities/eft_ar10_attachments/qdc762.png", "mips smooth")
+ATT.Description = [[Knight's Armament Company Muzzle Brake Kit is an effective muzzle brake that also serves as a platform for attaching the PRS QDC sound suppressor. It can be Installed on AR-10 platform weapons.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_kac_qdc_muzzle_brake_kit_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.87
+ATT.VisualRecoilMult = 0.87
+ATT.HeatCapacityMult = 0.99
+ATT.SpreadMult = 0.97
+ATT.PhysBulletMuzzleVelocityMult = 1.02
+
+ATT.Attachments = {
+    {
+        PrintName = "eft_cat_silencer",
+        Category = "eft_ar10_qdc_muzzle",
+        Pos = Vector(-0.35, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Category = {"eft_ar10_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_qdc_brake")
+
+///////////////////////////////////////      eft_muzzle_ar10_qdc_sup
+
+ATT = {}
+
+ATT.PrintName = "AR-10 KAC QDC 7.62x51 Flash Suppressor Kit"
+ATT.CompactName = "KAC QDC"
+ATT.Icon = Material("entities/eft_ar10_attachments/kacqdc.png", "mips smooth")
+ATT.Description = [[Knight's Armament Company Flash Suppressor Kit is an effective flash hider that also serves as a platform for attaching a PRS QDC sound suppressor. It can be Installed on AR-10 platform weapons.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_kac_qdc_flash_supressor_kit_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 4
+ATT.BarrelLengthAdd = 0.5
+
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+ATT.RecoilMult = 0.92
+ATT.VisualRecoilMult = 0.92
+ATT.HeatCapacityMult = 0.99
+ATT.SpreadMult = 0.97
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
+ATT.Attachments = {
+    {
+        PrintName = "eft_cat_silencer",
+        Category = "eft_ar10_qdc_muzzle",
+        Pos = Vector(-0.35, 0, 0),
+        Icon_Offset = Vector(1, 0, 0),
+        Ang = Angle(0, 0, 0),
+    },
+}
+
+ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_qdc_sup")
+
+
+///////////////////////////////////////      eft_silencer_ar10_prsqdc
+
+ATT = {}
+
+ATT.PrintName = "KAC PRS/QDC 7.62x51 sound suppressor"
+ATT.CompactName = "PRS QDC"
+ATT.Icon = Material("entities/eft_ar10_attachments/prsqdc.png", "mips smooth")
+ATT.Description = [[Knight's Armament Company PRS QDC sound suppressor, which can be installed on compatible QDC Flash Suppressor Kit and QDC Muzzle Brake Kit muzzle devices.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_qdc_kac_prs_qdc_762x51.mdl"
+ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.NoFlash = true
+ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
+
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 6
+ATT.EFTErgoAdd = -23
+ATT.CustomCons = { Ergonomics = "-23" }
+ATT.RecoilMult = 0.88
+ATT.VisualRecoilMult = 0.88
+ATT.SpreadMult = 1.02
+ATT.HeatCapacityMult = 0.85
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
+ATT.Category = {"eft_ar10_qdc_muzzle"}
+ATT.AdvancedCamoSupport = true
+
+ARC9.LoadAttachment(ATT, "eft_silencer_ar10_prsqdc")
+
+///////////////////////////////////////      eft_silencer_ar10_srdti
+
+ATT = {}
+
+ATT.PrintName = "SIG Sauer SRD762Ti 7.62x51 sound suppressor"
+ATT.CompactName = "SRD762"
+ATT.Icon = Material("entities/eft_ar10_attachments/srd.png", "mips smooth")
+ATT.Description = [[SRD762Ti is a Grade 5 titanium sound suppressor designed for use with .308/7.62/300BLK barrels, manufactured by SIG Sauer.]]
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_all_sig_srd_762_762x51.mdl"
+ATT.MuzzleDevice = true
+ATT.MuzzleDevice_Priority = 5
+ATT.MuzzleParticle = "muzzleflash_suppressed"
+ATT.NoFlash = true
+ATT.BarrelLengthAdd = 5
+ATT.Silencer = true
+
+ATT.EFTErgoAdd = -23
+ATT.CustomCons = { Ergonomics = "-23" }
+ATT.RecoilMult = 0.89
+ATT.VisualRecoilMult = 0.89
+ATT.SpreadMult = 0.98
+ATT.HeatCapacityMult = 0.86
+ATT.PhysBulletMuzzleVelocityMult = 1.01
+
+ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
+
+ARC9.LoadAttachment(ATT, "eft_silencer_ar10_srdti")
+
+
 
 ///////////////////////////////////////      eft_muzzle_psr_protector
 
@@ -185,37 +395,6 @@ ATT.Category = {"eft_sdn6"}
 ARC9.LoadAttachment(ATT, "eft_silencer_sdn6")
 
 
-///////////////////////////////////////      eft_muzzle_ar10_keymount
-
-ATT = {}
-
-
-ATT.PrintName = "AR-10 Dead Air Keymount 7.62x51 muzzle brake"
-ATT.CompactName = "Keymount"
-ATT.Description = [[A muzzle brake by Dead Air Silencers designed for installation on AR-10-type systems and compatibles. The muzzle brake greatly reduces both recoil impulse and muzzle rise so that the user's weapon tracks straight back to keep them on target for faster shot-to-shot recovery.]]
-
-ATT.Icon = Material("entities/eft_attachments/muzzles/keymount.png", "mips smooth")
-
-ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/muzzle_ar10_dead_air_silencers_keymount_muzzle_brake_762x51.mdl"
-
-ATT.SortOrder = 0
-ATT.Category = "eft_ar10_muzzle"
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.MuzzleDevice = true -- set to true if you want to use this to emit particles
-ATT.MuzzleDevice_Priority = 4
-
-ATT.EFTErgoAdd = -1.5
-ATT.CustomCons = { Ergonomics = "-1.5" }
-ATT.RecoilMult = 0.895
-ATT.VisualRecoilMult = 0.895
-ATT.SpreadMult = 0.97
-ATT.HeatCapacityMult = 0.987
-
-ATT.ModelOffset = Vector(0, 0, -0)
-ATT.ModelAngleOffset = Angle(0, 0, 0)
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_keymount")
 
 ///////////////////////////////////////      eft_muzzle_dthybrid
 
@@ -246,29 +425,6 @@ ATT.Attachments = {
 
 ARC9.LoadAttachment(ATT, "eft_muzzle_dthybrid")
 
-///////////////////////////////////////      eft_muzzle_pws_cqb
-
-ATT = {}
-
-ATT.PrintName = "PWS CQB 5.56x45 muzzle brake"
-ATT.CompactName = "PWS CQB"
-ATT.Icon = Material("entities/eft_attachments/muzzles/pwscqb.png", "mips smooth")
-ATT.Description = [[The PWS CQB 5.56x45mm muzzle brake is designed specifically for compact arms and use in confined spaces.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/muzzle_ar15_pws_cqb_556x45.mdl"
-
-ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
-ATT.RecoilMult = 0.88
-ATT.VisualRecoilMult = 0.88
-ATT.HeatCapacityMult = 0.989
-ATT.PhysBulletMuzzleVelocityMult = 1.005
-
-ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_pws_cqb")
 
 ///////////////////////////////////////      eft_silencer_dthybrid
 
@@ -300,310 +456,66 @@ ATT.Category = {"eft_dt_hybrid"}
 
 ARC9.LoadAttachment(ATT, "eft_silencer_dthybrid")
 
-///////////////////////////////////////      eft_silencer_r43_556
+
+
+
+///////////////////////////////////////      eft_muzzle_omegasilencer
 
 ATT = {}
 
-ATT.PrintName = "Rotor 43 5.56x45 muzzle brake-compensator"
-ATT.CompactName = "R43 556"
-ATT.Icon = Material("entities/eft_attachments/muzzles/rotor.png", "mips smooth")
-ATT.Description = [[The Rotor 43 muzzle brake is designed for installation on AR- or AK- based 5.56x45 rifles. Although positioned as a muzzle brake, it also works as a sound suppressor.]]
+ATT.PrintName = "SilencerCo Omega 45k .45 ACP sound suppressor"
+ATT.CompactName = "Omega 45K"
+ATT.Icon = Material("entities/eft_usp_attachments/omegasil.png", "mips smooth")
+ATT.Description = [[The SilencerCo Omega 45K is an exceptionally versatile suppressor and is the smallest, lightest, and quietest silencer in its class. Full auto rated and usable with pistols, rifles, and submachine guns, the Omega 45K offers extreme durability in an ultra compact package.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_rotor_43_v2.mdl"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_silencerco_omega_45k.mdl"
 
-ATT.EFTErgoAdd = -22
-ATT.CustomCons = { Ergonomics = "-22" }
-ATT.RecoilMult = 0.91
-ATT.VisualRecoilMult = 0.91
-ATT.SpreadMult = 1.02
-ATT.HeatCapacityMult = 1.14
-ATT.PhysBulletMuzzleVelocityMult = 1.0075
-
-ATT.Silencer = true
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 5
-ATT.MuzzleParticle = "muzzleflash_suppressed"
-ATT.NoFlash = true
-
-ATT.Category = {"eft_ak101_muzzle", "eft_ar15_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_silencer_r43_556")
-
-
-
-
-
-
-
-///////////////////////////////////////      eft_muzzle_ar10_sig_taperlok
-
-ATT = {}
-
-ATT.PrintName = "SIG Sauer Taper-LOK 7.62x51/.300 BLK muzzle adapter"
-ATT.CompactName = "T-LOK"
-ATT.Icon = Material("entities/eft_ar10_attachments/tlok.png", "mips smooth")
-ATT.Description = [[The patented "Taper-LOK" mounting system allows the installation of various muzzle devices on 7.62x51 and .300 Blackout chambered weapons. Manufactured by SIG Sauer.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_sig_qd_muzzle_base_762x51.mdl"
-
-ATT.Attachments = {
-    {
-        PrintName = "eft_cat_muzzle",
-        Category = "eft_tlok_muzzle",
-        Pos = Vector(-0.78, 0, 0),
-        Icon_Offset = Vector(0.3, 0, 0),
-        Ang = Angle(0, 0, 0),
-    },
-    {
-        PrintName = "eft_cat_silencer",
-        Category = "eft_tlok_silencer",
-        Pos = Vector(-0.35, 0, 0),
-        Icon_Offset = Vector(1.3, 0, 0),
-        Ang = Angle(0, 0, 0),
-    },
-}
-
-
-ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_sig_taperlok")
-
-///////////////////////////////////////      eft_muzzle_tlok_3prong
-
-ATT = {}
-
-ATT.PrintName = "SIG Sauer 7.62x51 3-prong flash hider"
-ATT.CompactName = "3-pr 762"
-ATT.Icon = Material("entities/eft_ar10_attachments/tlok3.png", "mips smooth")
-ATT.Description = [[The SIG Sauer 3-prong flash hider can be installed on a patented Taper-LOK mounting system.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_base_sig_flash_hider_762x51.mdl"
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 3
-ATT.BarrelLengthAdd = 0.5
-
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
-ATT.RecoilMult = 0.95
-ATT.VisualRecoilMult = 0.95
-ATT.HeatCapacityMult = 0.99
-ATT.PhysBulletMuzzleVelocityMult = 1.01
-
-ATT.Category = {"eft_tlok_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_tlok_3prong")
-
-///////////////////////////////////////      eft_muzzle_tlok_mirco
-
-ATT = {}
-
-ATT.PrintName = "SIG Sauer Micro Brake 7.62x51 muzzle brake"
-ATT.CompactName = "Micro 762"
-ATT.Icon = Material("entities/eft_ar10_attachments/tlokmicro.png", "mips smooth")
-ATT.Description = [[The SIG Sauer Micro Brake muzzle brake that can be installed on the patented Taper-LOK mounting system.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_base_sig_micro_brake_762x51.mdl"
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 3
-ATT.BarrelLengthAdd = 0.5
-
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
-ATT.RecoilMult = 0.94
-ATT.VisualRecoilMult = 0.94
-ATT.HeatCapacityMult = 0.99
+ATT.EFTErgoAdd = -20
+ATT.CustomCons = { Ergonomics = "-20" }
+ATT.RecoilMult = 0.9
+ATT.VisualRecoilMult = 0.9
+ATT.SpreadMult = 0.98
+ATT.HeatCapacityMult = 0.87
 ATT.PhysBulletMuzzleVelocityMult = 1.005
 
-ATT.Category = {"eft_tlok_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_tlok_mirco")
-
-///////////////////////////////////////      eft_muzzle_tlok_tpb
-
-ATT = {}
-
-ATT.PrintName = "SIG Sauer Two Port Brake 7.62x51 muzzle brake"
-ATT.CompactName = "TPB 762"
-ATT.Icon = Material("entities/eft_ar10_attachments/tlok2.png", "mips smooth")
-ATT.Description = [[The SIG Sauer Two Port Brake can be installed on a patented Taper-LOK mounting system.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_base_sig_muzzle_break_2_762x51.mdl"
 ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 3
-ATT.BarrelLengthAdd = 0.5
-
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
-ATT.RecoilMult = 0.92
-ATT.VisualRecoilMult = 0.92
-ATT.HeatCapacityMult = 0.99
-ATT.PhysBulletMuzzleVelocityMult = 1.005
-
-ATT.Category = {"eft_tlok_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_tlok_tpb")
-
-///////////////////////////////////////      eft_silencer_ar10_tlok_srd
-
-ATT = {}
-
-ATT.PrintName = "SIG Sauer SRD762-QD 7.62x51 sound suppressor"
-ATT.CompactName = "SRD762-QD"
-ATT.Icon = Material("entities/eft_ar10_attachments/srdqd.png", "mips smooth")
-ATT.Description = [[SRD762-QD is a Grade 5 titanium suppressor that uses quick-release muzzle devices to attach the suppressor to the gun. Manufactured by SIG Sauer.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_sig_srd_762_qd_762x51.mdl"
+ATT.MuzzleDevice_Priority = 4
 ATT.MuzzleParticle = "muzzleflash_suppressed"
 ATT.NoFlash = true
 ATT.BarrelLengthAdd = 5
+
 ATT.Silencer = true
 
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 5
+ATT.Category = {"eft_omega_silencer"}
 
-ATT.EFTErgoAdd = -24
-ATT.CustomCons = { Ergonomics = "-24" }
-ATT.RecoilMult = 0.87
-ATT.VisualRecoilMult = 0.87
-ATT.SpreadMult = 0.98
-ATT.HeatCapacityMult = 0.865
-ATT.PhysBulletMuzzleVelocityMult = 1.01
-
-ATT.Category = {"eft_tlok_silencer"}
-
-ARC9.LoadAttachment(ATT, "eft_silencer_ar10_tlok_srd")
+ARC9.LoadAttachment(ATT, "eft_muzzle_omegasilencer")
 
 
-///////////////////////////////////////      eft_muzzle_ar10_qdc_sup
+
+///////////////////////////////////////      eft_muzzle_asr338ac858
+
 
 ATT = {}
 
-ATT.PrintName = "AR-10 KAC QDC 7.62x51 Flash Suppressor Kit"
-ATT.CompactName = "KAC QDC"
-ATT.Icon = Material("entities/eft_ar10_attachments/kacqdc.png", "mips smooth")
-ATT.Description = [[Knight's Armament Company Flash Suppressor Kit is an effective flash hider that also serves as a platform for attaching a PRS QDC sound suppressor. It can be Installed on AR-10 platform weapons.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.PrintName = "SilencerCo AC-858 ASR .338 LM muzzle brake"
+ATT.CompactName = "AC-858"
+ATT.Icon = Material("entities/eft_axmc_attachments/ac858asr338.png", "mips smooth")
+ATT.Description = [[A .338 LM muzzle brake developed by SilencerCo.]]
 
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar10_kac_qdc_flash_supressor_kit_762x51.mdl"
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 4
-ATT.BarrelLengthAdd = 0.5
-
-
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
-ATT.RecoilMult = 0.92
-ATT.VisualRecoilMult = 0.92
-ATT.HeatCapacityMult = 0.99
-ATT.SpreadMult = 0.97
-ATT.PhysBulletMuzzleVelocityMult = 1.01
-
-ATT.Attachments = {
-    {
-        PrintName = "eft_cat_silencer",
-        Category = "eft_ar10_qdc_muzzle",
-        Pos = Vector(-0.35, 0, 0),
-        Icon_Offset = Vector(1, 0, 0),
-        Ang = Angle(0, 0, 0),
-    },
-}
-
-ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_ar10_qdc_sup")
-
-
-///////////////////////////////////////      eft_silencer_ar10_srdti
-
-ATT = {}
-
-ATT.PrintName = "SIG Sauer SRD762Ti 7.62x51 sound suppressor"
-ATT.CompactName = "SRD762"
-ATT.Icon = Material("entities/eft_ar10_attachments/srd.png", "mips smooth")
-ATT.Description = [[SRD762Ti is a Grade 5 titanium sound suppressor designed for use with .308/7.62/300BLK barrels, manufactured by SIG Sauer.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_all_sig_srd_762_762x51.mdl"
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 5
-ATT.MuzzleParticle = "muzzleflash_suppressed"
-ATT.NoFlash = true
-ATT.BarrelLengthAdd = 5
-ATT.Silencer = true
-
-ATT.EFTErgoAdd = -23
-ATT.CustomCons = { Ergonomics = "-23" }
-ATT.RecoilMult = 0.89
-ATT.VisualRecoilMult = 0.89
-ATT.SpreadMult = 0.98
-ATT.HeatCapacityMult = 0.86
-ATT.PhysBulletMuzzleVelocityMult = 1.01
-
-ATT.Category = {"eft_ar10_muzzle", "eft_mcx_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_silencer_ar10_srdti")
-
-
-///////////////////////////////////////      eft_muzzle_deltatek_dtk_ar15
-
-ATT = {}
-
-ATT.PrintName = "AR-15 Delta-Tek DTK-M16 5.56x45 muzzle brake"
-ATT.CompactName = "DTK-M16"
-ATT.Icon = Material("entities/eft_ar10_attachments/dtk.png", "mips smooth")
-ATT.Description = [[The DTK-M16 muzzle brake, designed for AR-15 and compatible systems. Greatly reduces recoil and muzzle rise due to the special compensation chamber. Manufactured by Delta-Tek.]]
-ATT.SortOrder = 0
-ATT.MenuCategory = "ARC9 - EFT Attachments"
-
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_deltatech_dtk.mdl"
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 4
-ATT.BarrelLengthAdd = 0.5
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_silencerco_ac858_asr_muzzle_brake.mdl"
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
-ATT.RecoilMult = 0.92
-ATT.VisualRecoilMult = 0.92
+ATT.RecoilMult = 0.9
+ATT.VisualRecoilMult = 0.9
+ATT.SpreadMult = 0.99
 
-ATT.Category = {"eft_ar15_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_deltatek_dtk_ar15")
-
-///////////////////////////////////////      eft_muzzle_carlson_ar15
-
-ATT = {}
-
-ATT.PrintName = "AR-15 DoubleStar Carlson Tac Comp 5.56x45 compensator"
-ATT.CompactName = "Carlson Tac"
-ATT.Icon = Material("entities/eft_ar10_attachments/carlson.png", "mips smooth")
-ATT.Description = [[The Carlson Tac Comp compensator designed for AR-15 and compatible systems. Reduces recoil impulse and muzzle rise. Ideal for short barrel weapons. Manufactured by DoubleStar.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_ar15_double_star_carlson.mdl"
-ATT.MuzzleDevice = true
-ATT.MuzzleDevice_Priority = 4
-ATT.BarrelLengthAdd = 0.5
+ATT.Category = {"eft_muzzle_338"}
 
-ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
-ATT.RecoilMult = 0.935
-ATT.VisualRecoilMult = 0.935
 
-ATT.Category = {"eft_ar15_muzzle"}
-
-ARC9.LoadAttachment(ATT, "eft_muzzle_carlson_ar15")
+ARC9.LoadAttachment(ATT, "eft_muzzle_asr338ac858")
