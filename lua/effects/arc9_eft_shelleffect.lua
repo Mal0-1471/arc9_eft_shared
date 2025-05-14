@@ -173,7 +173,8 @@ function EFFECT:Init(data)
 
     self.SpawnTime = CurTime()
 
-    self.SoundPlayedTimes = 0
+    self.DropSoundCount = 0
+    self.DropSoundNextPlay = 0
 end
 
 local OverrideToRealMaterial = {
@@ -219,8 +220,11 @@ local function ReplaceSound(soundd, surf)
 end
 
 function EFFECT:PlaySound(surf)
-    if self.SoundPlayedTimes > 1 then return end
-    self.SoundPlayedTimes = self.SoundPlayedTimes + 1
+    if self.DropSoundCount > 2 or self.DropSoundNextPlay > CurTime() then return end
+
+    self.DropSoundCount = self.DropSoundCount + 1
+    self.DropSoundNextPlay = CurTime() + 0.125
+
     self:StopSound("Default.ImpactHard")
 
     local soundtoplay = ReplaceSound(self.Sounds[math.random(#self.Sounds)], surf)

@@ -1402,6 +1402,13 @@ L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash
 L["setting.eft.dmgmult.melee.title"] = "Melee"
 L["setting.eft.dmgmult.melee.desc"] = "Melee weapons."
 
+L["setting.eft.dmgmult.explosive.title"] = "Explosions"
+L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
+- All grenades
+- 40mm & VOG projectiles
+- RShG-2 rockets
+]]
+
 L["setting.eft.reloadatts.desc"] = "You must reload attachments to apply the changes!"
 
 -- Additional Features
@@ -1426,5 +1433,5 @@ L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Ta
 L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
 
-L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
-L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
+L["setting.eft.rshg2.title"] = "RShG-2 - Remove after use"
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after shot. Disable if you want CoD-like experience - each RPG rocket will give you fresh launcher."

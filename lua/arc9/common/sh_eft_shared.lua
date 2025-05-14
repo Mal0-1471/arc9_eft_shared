@@ -411,6 +411,8 @@ local conVars = {
     {name = "eft_flashbang_ahmad", default = "0" },
     {name = "eft_nontpik_mode", default = "0", replicated = true },
     {name = "eft_singleuse_behaviour", default = "0", replicated = true },
+    {name = "eft_mult_explosive", default = "1", replicated = true },
+    -- {name = "eft_mult_ergo", default = "0.65", replicated = true },
 }
 
 for _, var in ipairs(conVars) do
@@ -452,6 +454,7 @@ if CLIENT then
             { sv = true, type = "slider", text = "setting.eft.dmgmult.338.title", convar = "eft_mult_338", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.338.desc" },
             { sv = true, type = "slider", text = "setting.eft.dmgmult.massive.title", convar = "eft_mult_massive", min = 0.1, max = 1.5, decimals = 2, desc = "setting.eft.dmgmult.massive.desc" },
             { sv = true, type = "slider", text = "setting.eft.dmgmult.melee.title", convar = "eft_mult_melee", min = 0.1, max = 3, decimals = 2, desc = "setting.eft.dmgmult.melee.desc" },
+            { sv = true, type = "slider", text = "setting.eft.dmgmult.explosive.title", convar = "eft_mult_explosive", min = 0.1, max = 3, decimals = 2, desc = "setting.eft.dmgmult.explosive.desc" },
 
             { sv = true, type = "button", text = "settings.server.developer.reloadatts.title", desc = "setting.eft.reloadatts.desc", content = "settings.server.developer.reload", func = function(self2)
                 RunConsoleCommand("arc9_reloadatts")
