@@ -4571,25 +4571,25 @@ L["eft_ammo_338_upz.compactname"] = "УПЗ"
 L["eft_ammo_338_upz.description"] = "Патрон .338 Lapua Magnum (8.6x70мм) УПЗ с пулей массой 16.2 грамма со свинцовым сердечником, в латунной оболочке, в латунной гильзе. Предназначен для охоты и спортивной стрельбы, произведен на Ульяновском Патронном Заводе. Обладает выдающимся останавливающим действием и даже способен пробивать броню базового уровня защиты. Однако, из-за своей конструкции, пуля имеет высокую вероятность отскока от различных поверхностей."
 
 -- [[ axmc ]] -- "DO_NOT_REMOVE" doesn't work on German atm; Will fix later
-L["eft_axmc_barrel308_20.printname"] = "Ствол 508мм для AI AXMC 7.62x51мм"
-L["eft_axmc_barrel308_20.compactname"] = "AXMC 508мм .308"
-L["eft_axmc_barrel308_20.description"] = "Ствол для AI AXMC под патрон 7.62x51 (.308) длиной 508мм (20 дюймов)."
+-- L["eft_axmc_barrel308_20.printname"] = "Ствол 508мм для AI AXMC 7.62x51мм"
+-- L["eft_axmc_barrel308_20.compactname"] = "AXMC 508мм .308"
+-- L["eft_axmc_barrel308_20.description"] = "Ствол для AI AXMC под патрон 7.62x51 (.308) длиной 508мм (20 дюймов)."
 
-L["eft_axmc_barrel308_24.printname"] = "Ствол 610мм для AI AXMC 7.62x51мм"
-L["eft_axmc_barrel308_24.compactname"] = "AXMC 610мм .308"
-L["eft_axmc_barrel308_24.description"] = "Ствол для AI AXMC под патрон 7.62x51 (.308) длиной 610мм (24 дюйма)."
+-- L["eft_axmc_barrel308_24.printname"] = "Ствол 610мм для AI AXMC 7.62x51мм"
+-- L["eft_axmc_barrel308_24.compactname"] = "AXMC 610мм .308"
+-- L["eft_axmc_barrel308_24.description"] = "Ствол для AI AXMC под патрон 7.62x51 (.308) длиной 610мм (24 дюйма)."
 
-L["eft_axmc_barrel308_26.printname"] = "Ствол 660мм для AI AXMC 7.62x51мм"
-L["eft_axmc_barrel308_26.compactname"] = "AXMC 660м .308"
-L["eft_axmc_barrel308_26.description"] = "Ствол для AI AXMC под патрон 7.62x51 (.308) длиной 660мм (26 дюймов)."
+-- L["eft_axmc_barrel308_26.printname"] = "Ствол 660мм для AI AXMC 7.62x51мм"
+-- L["eft_axmc_barrel308_26.compactname"] = "AXMC 660м .308"
+-- L["eft_axmc_barrel308_26.description"] = "Ствол для AI AXMC под патрон 7.62x51 (.308) длиной 660мм (26 дюймов)."
 
 L["eft_axmc_barrel338_28.printname"] = "Ствол 686мм для AI AXMC .338 LM"
 L["eft_axmc_barrel338_28.compactname"] = "AXMC 686мм .338LM"
 L["eft_axmc_barrel338_28.description"] = "Ствол для AI AXMC под патрон .338 Lapua Magnum длиной 686мм (28 дюймов)."
 
-L["eft_axmc_bolt308.printname"] = "Затвор под 7.62x51мм для AI AXMC"
-L["eft_axmc_bolt308.compactname"] = "AXMC .308"
-L["eft_axmc_bolt308.description"] = "Затвор под калибр .308 для снайперской винтовки Accuracy International AXMC."
+-- L["eft_axmc_bolt308.printname"] = "Затвор под 7.62x51мм для AI AXMC"
+-- L["eft_axmc_bolt308.compactname"] = "AXMC .308"
+-- L["eft_axmc_bolt308.description"] = "Затвор под калибр .308 для снайперской винтовки Accuracy International AXMC."
 
 L["eft_axmc_bolt338.printname"] = "Затвор под .338LM для AI AXMC"
 L["eft_axmc_bolt338.compactname"] = "AXMC .338LM"
@@ -4611,9 +4611,9 @@ L["eft_axmc_hg.printname"] = "Цевье AX KeySlot длиной 16 дюймов
 L["eft_axmc_hg.compactname"] = "AX 16\""
 L["eft_axmc_hg.description"] = "Цевьё \"AX\" длиной 16 дюймов для снайперской винтовки AXMC производства Accuracy International, снабженное запатентованным интерфейсом KeySlot для крепления дополнительного оборудования."
 
-L["eft_axmc_mag308.printname"] = "Магазин на 10 патронов 7.62x51 для AI AXMC"
-L["eft_axmc_mag308.compactname"] = "AXMC 308"
-L["eft_axmc_mag308.description"] = "10-зарядный магазин производства Accuracy International для снайперской винтовки AXMC, под патрон 7.62x51/.308."
+-- L["eft_axmc_mag308.printname"] = "Магазин на 10 патронов 7.62x51 для AI AXMC"
+-- L["eft_axmc_mag308.compactname"] = "AXMC 308"
+-- L["eft_axmc_mag308.description"] = "10-зарядный магазин производства Accuracy International для снайперской винтовки AXMC, под патрон 7.62x51/.308."
 
 L["eft_axmc_mag338.printname"] = "Магазин на 10 патронов .338 LM для AI AXMC"
 L["eft_axmc_mag338.compactname"] = "AXMC 338LM"
