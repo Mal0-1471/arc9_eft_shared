@@ -200,49 +200,54 @@ L["eft_trivia_calibr_26x75"] = "26x75мм"
 L["eft_trivia_calibr_30flare"] = "30мм патрон"
 L["eft_trivia_calibr_725heat"] = "72.5мм К.Б."
 
-L["eft_fmode_bolt"] = "СКОЛ."
-L["eft_fmode_manualreload"] = "MANUAL REL."
-L["eft_fmode_doubleaction"] = "ДВОЙ. ДЕЙСТ." -- ДВОЙНОГО ДЕЙСТВИЯ
-L["eft_fmode_singleaction"] = "ОДИН. ДЕЙСТ." -- ОДИНАРНОГО ДЕЙСТВИЯ
-L["eft_fmode_melee"] = "ХОЛОДНОЕ"
-L["eft_fmode_grenade"] = "ГРАНАТЫ"
+L["eft_fmode_bolt"] = "Болт."
+L["eft_fmode_manualreload"] = "Руч. зарядка"
+L["eft_fmode_doubleaction"] = "Двой. действ."
+L["eft_fmode_singleaction"] = "Один. действ."
+L["eft_fmode_melee"] = "Ближний бой"
+L["eft_fmode_grenade"] = "Граната"
+L["eft_fmode_pump"] = "Помпа"
+L["eft_fmode_throw"] = "Бросок"
+L["eft_fmode_tripwire"] = "Растяжка"
+L["eft_fmode_singleshot"] = "Одиноч."
+L["eft_fmode_doubletap"] = "Дуплет"
 
-L["eft_toggle_off"] = "Off"
+L["eft_toggle_off"] = "Выкл."
 
-L["eft_toggle_folded"] = "Folded"
-L["eft_toggle_unfolded"] = "Unfolded"
+L["eft_toggle_folded"] = "Сложен"
+L["eft_toggle_unfolded"] = "Разложен"
 
-L["eft_toggle_thermalwhite"] = "White hot"
-L["eft_toggle_thermalred"] = "Red hot"
-L["eft_toggle_thermalpurple"] = "Purple hot"
-L["eft_toggle_thermalyellow"] = "Yellow hot"
+L["eft_toggle_thermalwhite"] = "Белый горячий"
+L["eft_toggle_thermalred"] = "Красн. горячий"
+L["eft_toggle_thermalpurple"] = "Фиол. горячий"
+L["eft_toggle_thermalyellow"] = "Желт. горячий"
 
-L["eft_toggle_screen"] = "Screen"
+L["eft_toggle_screen"] = "Экран"
 
-L["eft_toggle_light"] = "Light"
+L["eft_toggle_light"] = "Свет"
 
-L["eft_toggle_laser"] = "Laser"
-L["eft_toggle_laser_red"] = "Red laser"
-L["eft_toggle_laser_green"] = "Green laser"
-L["eft_toggle_laser_blue"] = "Blue laser"
+L["eft_toggle_laser"] = "Лазер"
+L["eft_toggle_laser_red"] = "Кр. лазер"
+L["eft_toggle_laser_green"] = "Зел. лазер"
+L["eft_toggle_laser_blue"] = "Син. лазер"
 
-L["eft_toggle_light_laser"] = "Light + Laser"
-L["eft_toggle_light_laser_red"] = "Light + Red laser"
-L["eft_toggle_light_laser_green"] = "Light + Green laser"
-L["eft_toggle_light_laser_blue"] = "Light + Blue laser"
+L["eft_toggle_light_laser"] = "Свет + лазер"
+L["eft_toggle_light_laser_red"] = "Свет + кр. лазер"
+L["eft_toggle_light_laser_green"] = "Свет + зел. лазер"
+L["eft_toggle_light_laser_blue"] = "Свет + син. лазер"
 
-L["eft_toggle_light_ir"] = "IR Light"
-L["eft_toggle_laser_ir"] = "IR Laser"
-L["eft_toggle_light_laser_ir"] = "IR Light & Laser"
-L["eft_toggle_searchlight_ir"] = "IR Searchlight"
+L["eft_toggle_light_ir"] = "ИК свет"
+L["eft_toggle_laser_ir"] = "ИК лазер"
+L["eft_toggle_light_laser_ir"] = "ИК свет & лазер"
+L["eft_toggle_searchlight_ir"] = "ИК фонарь"
 
-L["eft_toggle_light_low"] = "Light, low power"
-L["eft_toggle_laser_low"] = "Laser, low power"
-L["eft_toggle_light_ir_low"] = "IR Light, low power"
+L["eft_toggle_light_low"] = "Свет, слабый"
+L["eft_toggle_laser_low"] = "Лазер, слабый"
+L["eft_toggle_light_ir_low"] = "ИК свет, слабый"
 
-L["eft_toggle_light_high"] = "Light, high power"
-L["eft_toggle_laser_high"] = "Laser, high power"
-L["eft_toggle_light_ir_high"] = "IR Light, high power"
+L["eft_toggle_light_high"] = "Свет, мощный"
+L["eft_toggle_laser_high"] = "Лазер, мощный"
+L["eft_toggle_light_ir_high"] = "ИК свет, мощный"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Эргономика"
@@ -252,17 +257,17 @@ L["Ergonomics"] = "Эргономика"
 L["eft_weapon_aa12"] = "AA-12"
 
 L["eft_weapon_m18_green"] = "M18 (Зеленый)"
-L["eft_weapon_m18_yellow"] = "M18 (Желтая)"
+L["eft_weapon_m18_yellow"] = "M18 (Желтый)"
 L["eft_weapon_m18_yellow_desc"] = "The M18 smoke grenade made in the USA. Used in the US Army since the Second World War. The smoke is yellow-colored."
 
 L["eft_weapon_rshg2"] = "РШГ-2"
 L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
 
-L["eft_weapon_labris"] = "Chained Labrys"
-L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_labris"] = "Лабрис \"Цепень\""
+L["eft_weapon_labris_desc"] = "Лабрис сделан из сточного люка... С таким весом достаточно одного удара, чтобы раскроить череп независимо от остроты лезвия.\n\nНельзя экипировать в игре. Портировано из <color=255,200,25>мода на SPT</color> от <color=255,200,25>ChocoMilk</color> с анимациями от <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_scythe"] = "Старая ручная коса"
-L["eft_weapon_scythe_desc"] = "Старая ручная коса с обломленной рукоятью. В дни осенней жатвы используется для сбора кровавого урожая.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_scythe_desc"] = "Старая ручная коса с обломленной рукоятью. В дни осенней жатвы используется для сбора кровавого урожая.\n\nНельзя экипировать в игре. Портировано из <color=255,200,25>мода на SPT</color> от <color=255,200,25>ChocoMilk</color> с анимациями от <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_mp5sd"] = "MP5SD"
 
@@ -311,7 +316,7 @@ L["eft_weapon_a2607d_alt"] = "A-2607 Дамаск"
 ///////////////////////////// EFT Attachments with Comments
 -- These are EFT attachments that should be in the "_bulk" files, but has
 -- additional comments included in the description of them.
-local bipodtext = "\n\n[ <color=255,200,25>Unlike EFT, this bipod does not need to be manually deployed</color> ]"
+local bipodtext = "\n\n[ <color=255,200,25>В отличии от EFT, эти сошки не нужно раскладывать вручнную</color> ]"
 
 ///////////// Shared
 -- Tactical
@@ -356,8 +361,8 @@ L["eft_m60_bipod.description"] = "Штатные сошки для пулеме�
 ///////////////////////////// Non-EFT Attachments
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
-local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
-local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
+local customatt = "\n\n[ <color=255,200,25>Это кастомный обвес несуществующий в игре</color> ]"
+local extrasatt = "\n\n[ <color=255,200,25>Это кастомный обвес из EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
 local attdir = {
@@ -375,7 +380,7 @@ L["eft_cat_camo1"] = "Camo 1"
 L["eft_cat_camo2"] = "Camo 2"
 L["eft_cat_camo3"] = "Camo 3"
 
-L["eft_cat_catch"] = "Bolt catch"
+L["eft_cat_catch"] = "Затвор"
 L["eft_cat_frontsight"] = "Мушка"
 L["eft_cat_rearsight"] = "Целик"
 L["eft_cat_hammer"] = "Курок"
@@ -383,9 +388,9 @@ L["eft_cat_muzzle"] = "Ствол"
 L["eft_cat_silencer"] = "Глушитель"
 L["eft_cat_tactical"] = "Такт."
 L["eft_cat_trigger"] = "Спуск"
-L["eft_cat_backup"] = "Backup sight"
-L["eft_cat_dovetail"] = "Ласточкин хвост"
-L["eft_cat_buffertube"] = "Труба приклада"
+L["eft_cat_backup"] = "Зап. прицел"
+L["eft_cat_dovetail"] = "Ласт. хвост"
+L["eft_cat_buffertube"] = "Труба"
 L["eft_cat_magwell"] = "Магазиноприемник"
 
 L["eft_cat_tactical_l"] = "Такт." .. attdir.l
@@ -499,9 +504,9 @@ L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
 
 -- p90
 -- 5cc70093e4a949033c734312
-L["eft_p90_mag_opaque.printname"] = "Магазин на 50 патронов 5.7x28 для FN P90 (Original)"
+L["eft_p90_mag_opaque.printname"] = "Магазин на 50 патронов 5.7x28 для FN P90 (Оригинал)"
 L["eft_p90_mag_opaque.compactname"] = "P90 50 (O)"
-L["eft_p90_mag_opaque.description"] = "Штатный 50-зарядный полимерный магазин для пистолетов-пулеметов FN P90, под патрон 5.7x28мм.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
+L["eft_p90_mag_opaque.description"] = "Штатный 50-зарядный полимерный магазин для пистолетов-пулеметов FN P90, под патрон 5.7x28мм.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
 -- ammo_20x70
@@ -688,7 +693,7 @@ L["eft_ammo_12x70_salt.compactname"] = "[!] S4LT"
 L["eft_ammo_12x70_salt.description"] = "Homemade 12/70 round for 12 gauge shotguns with salt loaded. Uses a cartridge case from a 12/70 \"5.25mm buckshot\" round." .. extrasatt
 
 -- [[ extras_stickers ]]
-local stickersatt = "\n[ <color=255,200,25>Allows you to place stickers on it</color> ]"
+local stickersatt = "\n[ <color=255,200,25>Позволяет наклеить стикер</color> ]"
 
 L["eft_g17_sticker_frame.printname"] = "Glock frame with Stickers"
 L["eft_g17_sticker_frame.compactname"] = "Glock [S]"
@@ -882,7 +887,7 @@ L["sticker_doom_hud.description"] = "Allows you to play DOOM on the MP-155 Ultim
 -- [[ grenadestuff ]]
 L["eft_grenade_tripwire.printname"] = "Набор для минирования"
 L["eft_grenade_tripwire.compactname"] = "М. набор"
-L["eft_grenade_tripwire.description"] = "Импровизированный набор для минирования состоит из палаточных колышков и проволоки с карабином. Позволяет хитро установить растяжку на поверхности, либо скрытно заминировать какой-нибудь объект.\n\n[ <color=255,200,25>+zoom</color> ] to activate."
+L["eft_grenade_tripwire.description"] = "Импровизированный набор для минирования состоит из палаточных колышков и проволоки с карабином. Позволяет хитро установить растяжку на поверхности, либо скрытно заминировать какой-нибудь объект.\n\n[ <color=255,200,25>+zoom</color> ] для активации."
 
 -- [[ M870 + FN40GL ]]
 -- [[ m2a1 ]]
@@ -926,9 +931,9 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- [[ SIG MCX + Spear + MPX + P226R ]]
 -- mcx_mpx
 -- 5894a05586f774094708ef75
-L["eft_mpx_mag_30_orig.printname"] = "Магазин на 30 патронов 9x19 для MPX (Original)"
+L["eft_mpx_mag_30_orig.printname"] = "Магазин на 30 патронов 9x19 для MPX (Оригинал)"
 L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (O)"
-L["eft_mpx_mag_30_orig.description"] = "Стандартный полупрозрачный магазин 9x19мм для MPX на 30 патронов, производство SIG Sauer.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
+L["eft_mpx_mag_30_orig.description"] = "Стандартный полупрозрачный магазин 9x19мм для MPX на 30 патронов, производство SIG Sauer.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 -- spear
 -- 6529366450dc782999054ba0
@@ -999,22 +1004,22 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 
 -- [[ H&K G36 + G28 ]]
 -- g28
-L["eft_g28_mag_10old.printname"] = "Магазин на 10 патронов 7.62x51 для HK417/G28 (Original)"
+L["eft_g28_mag_10old.printname"] = "Магазин на 10 патронов 7.62x51 для HK417/G28 (Оригинал)"
 L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (O)"
-L["eft_g28_mag_10old.description"] = "10-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
+L["eft_g28_mag_10old.description"] = "10-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
-L["eft_g28_mag_20old.printname"] = "Магазин на 20 патронов 7.62x51 для HK417/G28 (Original)"
+L["eft_g28_mag_20old.printname"] = "Магазин на 20 патронов 7.62x51 для HK417/G28 (Оригинал)"
 L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (O)"
-L["eft_g28_mag_20old.description"] = "20-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
+L["eft_g28_mag_20old.description"] = "20-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
 L["eft_g28_blk.compactname"] = "Black"
 L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a black color." .. customatt
 
 -- g36
-L["eft_g28_mag_30old.printname"] = "Магазин на 30 патронов 5.56x45 для HK G36 (Original)"
+L["eft_g28_mag_30old.printname"] = "Магазин на 30 патронов 5.56x45 для HK G36 (Оригинал)"
 L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
-L["eft_g28_mag_30old.description"] = "30-зарядный магазин 5.56x45 для штурмовой винтовки HK G36.\n\n[ <color=255,200,25>Original non-translucent version, just like in-game.</color> ]"
+L["eft_g28_mag_30old.description"] = "30-зарядный магазин 5.56x45 для штурмовой винтовки HK G36.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]
 -- 1911

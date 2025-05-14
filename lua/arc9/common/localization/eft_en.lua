@@ -200,12 +200,17 @@ L["eft_trivia_calibr_26x75"] = "26x75mm"
 L["eft_trivia_calibr_30flare"] = "30mm flare"
 L["eft_trivia_calibr_725heat"] = "72.5mm HEAT"
 
-L["eft_fmode_bolt"] = "BOLT"
-L["eft_fmode_manualreload"] = "MANUAL REL."
-L["eft_fmode_doubleaction"] = "D. ACT."
-L["eft_fmode_singleaction"] = "S. ACT."
-L["eft_fmode_melee"] = "MELEE"
-L["eft_fmode_grenade"] = "GRENADE"
+L["eft_fmode_bolt"] = "Bolt"
+L["eft_fmode_manualreload"] = "M. Reload"
+L["eft_fmode_doubleaction"] = "D. Act."
+L["eft_fmode_singleaction"] = "S. Act."
+L["eft_fmode_melee"] = "Melee"
+L["eft_fmode_grenade"] = "Grenade"
+L["eft_fmode_pump"] = "Pump"
+L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_tripwire"] = "Tripwire"
+L["eft_fmode_singleshot"] = "Single"
+L["eft_fmode_doubletap"] = "Double-Tap"
 
 L["eft_toggle_off"] = "Off"
 
@@ -259,10 +264,10 @@ L["eft_weapon_rshg2"] = "RShG-2"
 L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
 
 L["eft_weapon_labris"] = "Chained Labrys"
-L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nNot actually equippable in actual game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_scythe"] = "Old hand scythe"
-L["eft_weapon_scythe_desc"] = "An old hand scythe with a chipped handle. In the days of the fall harvest, it is used to gather the bloody haul.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_scythe_desc"] = "An old hand scythe with a chipped handle. In the days of the fall harvest, it is used to gather the bloody haul.\n\nNot actually equippable in actual game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_mp5sd"] = "MP5SD"
 
