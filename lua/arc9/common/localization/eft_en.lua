@@ -1359,6 +1359,11 @@ L["setting.eft.mindmg.desc"] = "How much maximum range all EFT weapons (excludin
 L["setting.eft.mindmg.sg.title"] = "   › For Shotguns"
 L["setting.eft.mindmg.sg.desc"] = "How much maximum range all EFT shotguns should have. Measured in meters.\nEFT default: 100"
 
+L["setting.eft.ergomult.title"] = "Ergonomics Multiplier"
+L["setting.eft.ergomult.desc"] = [[Affects aim down sights time, amount of weapon sway and duration of breath holding.
+
+Default value is 1 for max level PMC with full weapon proficiency.]]
+
 L["setting.eft.dmgmult.title"] = "Damage Multipliers"
 L["setting.eft.dmgmult.desc"] = "Damage multipliers for the various weapon calibers. True EFT experience is with everything set to 1x, but players there have 450 HP, so GMod could benefit from lower values."
 

@@ -368,30 +368,6 @@ else
     end)
 end
 
-local ergoadsmult = 0.65 -- default eft lvl1 character will be 1 here, but we are going to pretend we have high skill 
-
-ARC9EFT.ErgoHook = function(self, orig)
-    return ((100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) * 0.01 + 0.35) * ergoadsmult -- so real
-end
-
-ARC9EFT.ErgoBreathHook = function(self, orig)
-    if self:GetBipod() then return orig * 10 end
-    return orig - (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) / 3
-end
-
-ARC9EFT.ErgoAdsVolume = function(self, data)
-    if data.name == "exitsights" or data.name == "entersights" then
-        data.volume = 0.75 * (100 - math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)) / 100 -- real tarball
-    end
-    return data
-end
-
-ARC9EFT.SpreadBonus = function(wep, spread) 
-    if !wep:GetInSights() and !wep:GetCustomize() and wep:GetValue("EFTHipFireSpreadBonus") then 
-        return spread - (wep.SpreadAddHipFire or 0) * 0.5 
-    end
-end
-
 local conVars = {
     {name = "eft_mult_pistol", default = "0.5", replicated = true },
     {name = "eft_mult_shotgun", default = "0.5", replicated = true },
@@ -412,7 +388,7 @@ local conVars = {
     {name = "eft_nontpik_mode", default = "0", replicated = true },
     {name = "eft_singleuse_behaviour", default = "0", replicated = true },
     {name = "eft_mult_explosive", default = "1", replicated = true },
-    -- {name = "eft_mult_ergo", default = "0.65", replicated = true },
+    {name = "eft_mult_ergo", default = "1", replicated = true },
 }
 
 for _, var in ipairs(conVars) do
@@ -433,6 +409,47 @@ for _, var in ipairs(conVars) do
 end
 
 
+
+-- numbers from 0.16 spt on min and max ergo m4a1 builds, max skills max level
+
+--  0 ergo = 0.6s ads
+--  100 ergo = 0.15 ads
+
+-- but this is a bit incorrect because real eft takes weapon & atts weight as part of formula but there's no weight in arc9
+
+local ergomult = GetConVar("arc9_eft_mult_ergo")
+
+ARC9EFT.ErgoHook = function(self, orig)
+    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)
+    return math.max(0.05, (0.6 - ((ergo * 0.01) * 0.45)) * ergomult:GetFloat())
+end
+
+ARC9EFT.SwayErgoHook = function(self, orig) -- zero idea, it doesn't even work this way in eft
+    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100) * ergomult:GetFloat()
+    return math.max(0.05, orig * 0.5 + ((1 - ergo * 0.01) * 0.66))
+end
+
+ARC9EFT.ErgoBreathHook = function(self, orig)
+    if self:GetBipod() then return orig * 10 end
+    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100) * ergomult:GetFloat()
+    return math.max(1, orig - (100 - ergo) / 5)
+end
+
+ARC9EFT.ErgoAdsVolume = function(self, data) -- unused after they added ads sounds
+    if data.name == "exitsights" or data.name == "entersights" then
+        local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)
+        data.volume = 0.75 * (100 - ergo) / 100 -- real tarball
+    end
+    return data
+end
+
+ARC9EFT.SpreadBonus = function(wep, spread) 
+    if !wep:GetInSights() and !wep:GetCustomize() and wep:GetValue("EFTHipFireSpreadBonus") then 
+        return spread - (wep.SpreadAddHipFire or 0) * 0.5 
+    end
+end
+
+
 if CLIENT then
     timer.Simple(1, function()
     
@@ -443,6 +460,8 @@ if CLIENT then
  
             { sv = true, type = "slider", text = "setting.eft.mindmg.title", convar = "eft_mindmgrange", min = 50, max = 1000, desc = "setting.eft.mindmg.desc" },
             { sv = true, type = "slider", text = "setting.eft.mindmg.sg.title", convar = "eft_mindmgrange_sg", min = 5, max = 200, desc = "setting.eft.mindmg.sg.desc" },
+
+            { sv = true, type = "slider", text = "setting.eft.ergomult.title", convar = "eft_mult_ergo", min = 0.1, max = 3, decimals = 1, desc = "setting.eft.ergomult.desc" },
 
             { type = "label", text = "setting.eft.dmgmult.title", desc = "setting.eft.dmgmult.desc" },
 

@@ -103,12 +103,12 @@ SWEP.Spread = 99 * ARC9.MOAToAcc
 SWEP.SpreadAddHipFire = 0.02
 SWEP.SpreadMultMove = 1.5
 SWEP.SpreadAddMove = 0.015
-SWEP.SpreadHook = ARC9EFT.SpreadBonus or nil
+SWEP.SpreadHook = ARC9EFT.SpreadBonus
 SWEP.SpreadAddHot = 0.01 -- overheat debuff
 
 SWEP.AimDownSightsTime = 0.33
 SWEP.SprintToFireTime = 0.35
-SWEP.AimDownSightsTimeHook = ARC9EFT.ErgoHook or nil
+SWEP.AimDownSightsTimeHook = ARC9EFT.ErgoHook
 SWEP.AimDownSightsTimeMultShooting = 4
 
 SWEP.SpeedMult = 0.95
@@ -121,19 +121,18 @@ SWEP.SpeedMultBlindFire = 1
 SWEP.FreeAimRadius = 2
 SWEP.FreeAimRadiusSights = 0
 
-SWEP.Sway = 1
-SWEP.SwayMove = 0.5
-SWEP.SwayMidAir = 10
-SWEP.SwayMultCrouch = 0.75
-SWEP.SwayMultHipFire = 0.2
-SWEP.SwayMultSights = 0.25
+SWEP.Sway = 0.25
+SWEP.SwayAddMove = 0.25
+SWEP.SwayAddMidAir = 1.5
+SWEP.SwayMultCrouch = 0.6
+SWEP.SwayHook = ARC9EFT.SwayErgoHook
 
 SWEP.HoldBreathTime = 40
 SWEP.RestoreBreathTime = 30
 SWEP.BreathInSound = false 
 SWEP.BreathOutSound = false
 SWEP.BreathRunOutSound = "arc9_eft_shared/bear3_breath_sprint.ogg"
-SWEP.HoldBreathTimeHook = ARC9EFT.ErgoBreathHook or nil
+SWEP.HoldBreathTimeHook = ARC9EFT.ErgoBreathHook
 
 SWEP.RPM = 1
 SWEP.RPMMultHot = 0.85 -- overheat debuff
