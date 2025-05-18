@@ -57,7 +57,7 @@ ATT.Category = {"eft_ar10_muzzle"}
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_silencer",
+        PrintName = ARC9:GetPhrase("eft_cat_silencer"),
         Category = "eft_sdn6",
         Pos = Vector(-0.2, 0, 0),
         Icon_Offset = Vector(1, 0, 0),
@@ -94,7 +94,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.02
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_silencer",
+        PrintName = ARC9:GetPhrase("eft_cat_silencer"),
         Category = "eft_ar10_qdc_muzzle",
         Pos = Vector(-0.35, 0, 0),
         Icon_Offset = Vector(1, 0, 0),
@@ -133,7 +133,7 @@ ATT.PhysBulletMuzzleVelocityMult = 1.01
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_silencer",
+        PrintName = ARC9:GetPhrase("eft_cat_silencer"),
         Category = "eft_ar10_qdc_muzzle",
         Pos = Vector(-0.35, 0, 0),
         Icon_Offset = Vector(1, 0, 0),
@@ -254,7 +254,7 @@ ATT.Category = {"eft_ar15_muzzle", "eft_gemtechmount"}
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_silencer",
+        PrintName = ARC9:GetPhrase("eft_cat_silencer"),
         Category = "eft_gemtechone",
         Pos = Vector(-0.1, 0, 0),
         Icon_Offset = Vector(1, 0, 0),
@@ -415,7 +415,7 @@ ATT.Category = {"eft_ar15_muzzle", "eft_ak101_muzzle", "eft_ak103_muzzle", "eft_
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_silencer",
+        PrintName = ARC9:GetPhrase("eft_cat_silencer"),
         Category = "eft_dt_hybrid",
         Pos = Vector(-0.1, 0, 0),
         Ang = Angle(0, 0, 0),

@@ -211,27 +211,6 @@ L["eft_fmode_throw"] = "Бросок"
 L["eft_fmode_tripwire"] = "Растяжка"
 L["eft_fmode_singleshot"] = "Одиноч."
 L["eft_fmode_doubletap"] = "Дуплет"
-
-L["eft_toggle_off"] = "Выкл."
-
-L["eft_toggle_folded"] = "Сложен"
-L["eft_toggle_unfolded"] = "Разложен"
-
-L["eft_toggle_thermalwhite"] = "Белый горячий"
-L["eft_toggle_thermalred"] = "Красн. горячий"
-L["eft_toggle_thermalpurple"] = "Фиол. горячий"
-L["eft_toggle_thermalyellow"] = "Желт. горячий"
-
-L["eft_toggle_screen"] = "Экран"
-
-L["eft_toggle_light"] = "Свет"
-
-L["eft_toggle_laser"] = "Лазер"
-L["eft_toggle_laser_red"] = "Кр. лазер"
-L["eft_toggle_laser_green"] = "Зел. лазер"
-L["eft_toggle_laser_blue"] = "Син. лазер"
-
-L["eft_toggle_light_laser"] = "Свет + лазер"
 L["eft_toggle_light_laser_red"] = "Свет + кр. лазер"
 L["eft_toggle_light_laser_green"] = "Свет + зел. лазер"
 L["eft_toggle_light_laser_blue"] = "Свет + син. лазер"
@@ -466,7 +445,7 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
  -- loosely 622f02437762f55aaa68ac85
 L["eft_axmc_magwell.printname"] = "Магазиноприемник для AI AXMC 7.62x51mm"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
-L["eft_axmc_magwell.description"] = "Расширитель шахты магазина для винтовки AXMC." .. cuttedatt
+L["eft_axmc_magwell.description"] = "Расширитель шахты магазина для винтовки AXMC." .. customatt
 
 L["eft_axmc_barrel308_20.printname"] = "Ствол 508мм для AI AXMC 7.62x51мм"
 L["eft_axmc_barrel308_20.compactname"] = "AXMC 508мм .308"
@@ -523,12 +502,12 @@ L["eft_rec_g19x_black.description"] = "Штатный затвор для пис
 -- 57
 L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. convatt
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. cuttedatt
 
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = "Магазин на 50 патронов 5.7x28 для FN P90 (Оригинал)"
-L["eft_p90_mag_opaque.compactname"] = "P90 50 (O)"
+L["eft_p90_mag_opaque.compactname"] = "P90 50 (О)"
 L["eft_p90_mag_opaque.description"] = "Штатный 50-зарядный полимерный магазин для пистолетов-пулеметов FN P90, под патрон 5.7x28мм.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -922,7 +901,7 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. convatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. cuttedatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
@@ -955,7 +934,7 @@ L["eft_rsass_black.description"] = "Repaints the frame into a black color." .. c
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = "Магазин на 30 патронов 9x19 для MPX (Оригинал)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (O)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (О)"
 L["eft_mpx_mag_30_orig.description"] = "Стандартный полупрозрачный магазин 9x19мм для MPX на 30 патронов, производство SIG Sauer.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 -- spear
@@ -976,7 +955,7 @@ L["eft_spear_bolting.description"] = "Pull the charging handle when reloading in
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
 L["eft_aug_blk.compactname"] = "Black"
-L["eft_aug_blk.description"] = "Black colored parts." .. convatt
+L["eft_aug_blk.description"] = "Black colored parts." .. cuttedatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
@@ -1028,11 +1007,11 @@ L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading ins
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = "Магазин на 10 патронов 7.62x51 для HK417/G28 (Оригинал)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (O)"
+L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (О)"
 L["eft_g28_mag_10old.description"] = "10-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = "Магазин на 20 патронов 7.62x51 для HK417/G28 (Оригинал)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (O)"
+L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (О)"
 L["eft_g28_mag_20old.description"] = "20-зарядный двухрядный полимерный магазин под патрон 7.62x51 для HK417 и G28. Нижнюю пластину можно легко снять для разборки и очистки.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Black frame"
@@ -1041,7 +1020,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = "Магазин на 30 патронов 5.56x45 для HK G36 (Оригинал)"
-L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (О)"
 L["eft_g28_mag_30old.description"] = "30-зарядный магазин 5.56x45 для штурмовой винтовки HK G36.\n\n[ <color=255,200,25>Оригинальная непрозрачная версия, прямо как в игре.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]
@@ -1190,10 +1169,11 @@ L["setting.eft.dmgmult.massive.desc"] = [[Affects the following:
 - 12.7x55
 ]]
 
-L["setting.eft.dmgmult.grelau.title"] = "Grenade Cartridges"
-L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash damage on the following:
-- 40x46
-- 40x53
+L["setting.eft.dmgmult.explosive.title"] = "Explosive Ordnance"
+L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
+- All throwable grenades
+- All 40mm & VOG projectiles
+- RShG-2 rockets
 ]]
 
 L["setting.eft.dmgmult.melee.title"] = "Melee"
@@ -1223,5 +1203,5 @@ L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Ta
 L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
 
-L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
-L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
+L["setting.eft.rshg2.title"] = "RShG-2 - Remove after use"
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after it's been shot.\n\nDisable if you want a CoD-like experience, where each rocket will give a fresh launcher."

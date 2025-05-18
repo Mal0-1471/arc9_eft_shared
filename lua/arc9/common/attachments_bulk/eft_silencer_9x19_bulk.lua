@@ -39,7 +39,7 @@ ATT.Sights = {
 }
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_scope",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_micro"},
         Pos = Vector(-3, 0, -1.05),
         Ang = Angle(0, 0, 0),

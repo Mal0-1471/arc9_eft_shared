@@ -196,6 +196,18 @@ L["eft_fmode_singleaction"] = "S. ACT."
 L["eft_fmode_melee"] = "NÄRSTRID"
 L["eft_fmode_grenade"] = "GRANAT"
 
+L["eft_fmode_bolt"] = "Repeter"
+L["eft_fmode_manualreload"] = "M. Omladd."
+L["eft_fmode_doubleaction"] = "D. Act."
+L["eft_fmode_singleaction"] = "S. Act."
+L["eft_fmode_melee"] = "Närstridsvapen"
+L["eft_fmode_grenade"] = "Granat"
+L["eft_fmode_pump"] = "Pumprepeter"
+L["eft_fmode_throw"] = "Kastbar"
+L["eft_fmode_tripwire"] = "Snubbeltråd"
+L["eft_fmode_singleshot"] = "Enkelskott"
+L["eft_fmode_doubletap"] = "Dubbeltryck"
+
 L["eft_toggle_off"] = "Av"
 
 L["eft_toggle_folded"] = "Invikt"
@@ -1383,10 +1395,11 @@ L["setting.eft.dmgmult.massive.desc"] = [[Påverkar följande:
 - 12,7 x 55
 ]]
 
-L["setting.eft.dmgmult.grelau.title"] = "Granatskott"
-L["setting.eft.dmgmult.grelau.desc"] = [[Påverkar sprängradien och skadan på följande:
-- 40 x 46
-- 40 x 53
+L["setting.eft.dmgmult.explosive.title"] = "Sprängmedel"
+L["setting.eft.dmgmult.explosive.desc"] = [[Påverkar följande:
+- Alla kastbara granater
+- Alla 40 mm & VOG-projektiler
+- Raketer från RShG-2
 ]]
 
 L["setting.eft.dmgmult.melee.title"] = "Närstrid"
@@ -1416,5 +1429,5 @@ L["setting.eft.prtaran.desc"] = "[ Närstridspack ]\nOm en spelare tar fram när
 L["setting.eft.holdtypes.title"] = "Använd standard \"Hold types\" (icke-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Byter alla vapnens \"hold types\" till deras \"korrekta\" värden. Användbar när TPIK är avstängt, men det är inte exakt realistiskt.\n\nGlad nu, TPIK-hatare?\n\nKräver att kartan laddas om."
 
-L["setting.eft.rshg2.title"] = "RShG-2; Ta bort efter användning"
-L["setting.eft.rshg2.desc"] = "Om påslagen så kommer RShG-2:an tas bort från ditt lager efter dess användning. Beter sig som Call of Duty-spelens raketgevär."
+L["setting.eft.rshg2.title"] = "RShG-2 - Ta bort efter användning"
+L["setting.eft.rshg2.desc"] = "Om påslagen så kommer RShG-2:an tas bort från ditt lager efter dess användning.\n\nAvaktivera ifall du vill ha en CoD-liknande upplevelse, där varje raket ger dig ett nytt raketgevär."

@@ -200,12 +200,17 @@ L["eft_trivia_calibr_26x75"] = "26x75mm"
 L["eft_trivia_calibr_30flare"] = "30mm flare"
 L["eft_trivia_calibr_725heat"] = "72.5mm HEAT"
 
-L["eft_fmode_bolt"] = "OPAK."
-L["eft_fmode_manualreload"] = "MANUAL REL."
-L["eft_fmode_doubleaction"] = "D. ACT."
-L["eft_fmode_singleaction"] = "S. ACT."
-L["eft_fmode_melee"] = "ŘEZNÁ"
-L["eft_fmode_grenade"] = "GRANÁT"
+L["eft_fmode_bolt"] = "Opak."
+L["eft_fmode_manualreload"] = "M. Reload"
+L["eft_fmode_doubleaction"] = "D. Act."
+L["eft_fmode_singleaction"] = "S. Act."
+L["eft_fmode_melee"] = "Řezná"
+L["eft_fmode_grenade"] = "Granát"
+L["eft_fmode_pump"] = "Pump"
+L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_tripwire"] = "Tripwire"
+L["eft_fmode_singleshot"] = "Single"
+L["eft_fmode_doubletap"] = "Double-Tap"
 
 L["eft_toggle_off"] = "Off"
 
@@ -259,10 +264,10 @@ L["eft_weapon_rshg2"] = "RShG-2"
 L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
 
 L["eft_weapon_labris"] = "Chained Labrys"
-L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_scythe"] = "Stará ruční kosa"
-L["eft_weapon_scythe_desc"] = "Stará ruční kosa se zlomenou rukojetí. Ve dnech podzimní sklizně se používá ke sběru krvavé úrody.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_scythe_desc"] = "Stará ruční kosa se zlomenou rukojetí. Ve dnech podzimní sklizně se používá ke sběru krvavé úrody.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_mp5sd"] = "MP5SD"
 
@@ -357,6 +362,9 @@ L["eft_m60_bipod.description"] = "Standardní dvojnožka pro kulomet M60. Vyrobe
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
 local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
+local cuttedatt = "\n\n[ <color=255,200,25>This is an unused attachment cut from EFT, but found in its files</color> ]"
+local functionatt = "\n\n[ <color=255,200,25>This is a custom attachment functioning as some EFT mechanic</color> ]"
+local convatt = "\n\n[ <color=255,200,25>This attachment converts weapon into another variant. They are separate weapons in EFT</color> ]"
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
@@ -403,49 +411,49 @@ L["eft_cat_mount_b"] = "Montáž" .. attdir.b
  --  558022b54bdc2dac148b458d
 L["eft_optic_exps3.printname"] = "Holografický kolimátor EOTech EXPS3"
 L["eft_optic_exps3.compactname"] = "EXPS3"
-L["eft_optic_exps3.description"] = "Holografický zaměřovač EOTech EXPS3. Díky konstrukčním vlastnostem jej lze použít s širokou škálou zbraní, a to i s nesklopnými mířidly. Kompatibilní se zařízeními pro noční vidění díky NV režimu. Využíván Americkou jednotkou SOCOM jako zaměřovač pro operace v omezených prostorách." .. customatt
+L["eft_optic_exps3.description"] = "Holografický zaměřovač EOTech EXPS3. Díky konstrukčním vlastnostem jej lze použít s širokou škálou zbraní, a to i s nesklopnými mířidly. Kompatibilní se zařízeními pro noční vidění díky NV režimu. Využíván Americkou jednotkou SOCOM jako zaměřovač pro operace v omezených prostorách." .. cuttedatt
 
 -- Tactical
 L["eft_shared_fastreload.printname"] = "Dump Ammo on Reload"
 L["eft_shared_fastreload.compactname"] = "Fast Rel."
-L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
+L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. functionatt
 
 -- [[ AK Platform ]]
 -- mag_ak
  -- 5aaa4194e5b5b055d06310a5 & 59d6272486f77466146386ff
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "30-ranný zásobník Magpul PMAG 30 GEN M3 pro AK-74 5.45x39 (FDE)"
 L["eft_mag_ak_pmag_545_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_545_30_fde.description"] = "Polymerový zásobník Magpul Pmag 30 AK74 GEN M3 na 30 nábojů pro AK 5.45x39 a kompatibilní zbraně." .. customatt
+L["eft_mag_ak_pmag_545_30_fde.description"] = "Polymerový zásobník Magpul Pmag 30 AK74 GEN M3 na 30 nábojů pro AK 5.45x39 a kompatibilní zbraně." .. cuttedatt
 
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "30-ranný zásobník Magpul PMAG 30 GEN M3 pro AK 7.62x39 (FDE)"
 L["eft_mag_ak_pmag_762_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_762_30_fde.description"] = "Polymerový zásobník Magpul Pmag 30 AK/AKM GEN M3 na 30 nábojů pro AK 7.62x39 a kompatibilní zbraně. Lze použít i s náboji .366 TKM pro použití s odpovídající ráží zbraní kompatibilních s AK." .. customatt
+L["eft_mag_ak_pmag_762_30_fde.description"] = "Polymerový zásobník Magpul Pmag 30 AK/AKM GEN M3 na 30 nábojů pro AK 7.62x39 a kompatibilní zbraně. Lze použít i s náboji .366 TKM pro použití s odpovídající ráží zbraní kompatibilních s AK." .. cuttedatt
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
 L["eft_akn.printname"] = "Boční montáž pro \"N\""
 L["eft_akn.compactname"] = "AK-N"
-L["eft_akn.description"] = "Montáž pro instalaci mířidel a dalších zařízení na karabiny AKM/AK74." .. customatt
+L["eft_akn.description"] = "Montáž pro instalaci mířidel a dalších zařízení na karabiny AKM/AK74." .. convatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
  -- 595cfa8b86f77427437e845b
 L["eft_hg_ar15_lvoac_f.printname"] = "Předpažbí War Sport LVOA-C pro AR-15 (FDE)"
 L["eft_hg_ar15_lvoac_f.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_f.description"] = "Lehké předpažbí War Sport LVOA-C je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. customatt
+L["eft_hg_ar15_lvoac_f.description"] = "Lehké předpažbí War Sport LVOA-C je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. cuttedatt
 
 L["eft_hg_ar15_lvoac_g.printname"] = "Předpažbí War Sport LVOA-C pro AR-15 (Šedá)"
 L["eft_hg_ar15_lvoac_g.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_g.description"] = "Lehké předpažbí War Sport LVOA-C je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. customatt
+L["eft_hg_ar15_lvoac_g.description"] = "Lehké předpažbí War Sport LVOA-C je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. cuttedatt
 
 -- 595cf16b86f77427440c32e2
 L["eft_hg_ar15_lvoas_f.printname"] = "Předpažbí War Sport LVOA-S pro AR-15 (FDE)"
 L["eft_hg_ar15_lvoas_f.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_f.description"] = "Lehké předpažbí War Sport LVOA-S (SBR) je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. customatt
+L["eft_hg_ar15_lvoas_f.description"] = "Lehké předpažbí War Sport LVOA-S (SBR) je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. cuttedatt
 
 L["eft_hg_ar15_lvoas_g.printname"] = "Předpažbí War Sport LVOA-S pro AR-15 (Šedá)"
 L["eft_hg_ar15_lvoas_g.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_g.description"] = "Lehké předpažbí War Sport LVOA-S (SBR) je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. customatt
+L["eft_hg_ar15_lvoas_g.description"] = "Lehké předpažbí War Sport LVOA-S (SBR) je určeno pro použití se sportovními puškami na bázi pušek AR-15." .. cuttedatt
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
@@ -457,6 +465,26 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
 L["eft_axmc_magwell.printname"] = "Zásobníková šachta pro AI AXMC 7.62x51mm"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
 L["eft_axmc_magwell.description"] = "Běžná zásobníková šachta pro odstřelovací pušku AXMC." .. customatt
+
+L["eft_axmc_barrel308_20.printname"] = "20\" hlaveň pro AI AXMC 7.62x51"
+L["eft_axmc_barrel308_20.compactname"] = "AXMC 20\" .308"
+L["eft_axmc_barrel308_20.description"] = "Hlaveň dlouhá 20 palců (508mm) pro AI AXMC ráže 7.62x51 (.308)." .. cuttedatt
+
+L["eft_axmc_barrel308_24.printname"] = "24\" hlaveň pro AI AXMC 7.62x51"
+L["eft_axmc_barrel308_24.compactname"] = "AXMC 24\" .308"
+L["eft_axmc_barrel308_24.description"] = "Hlaveň dlouhá 24 palců (610mm) pro AI AXMC ráže 7.62x51 (.308)." .. cuttedatt
+
+L["eft_axmc_barrel308_26.printname"] = "26\" hlaveň pro AI AXMC 7.62x51"
+L["eft_axmc_barrel308_26.compactname"] = "AXMC 26\" .308"
+L["eft_axmc_barrel308_26.description"] = "Hlaveň dlouhá 26 palců (660mm) pro AI AXMC ráže 7.62x51 (.308)." .. cuttedatt
+
+L["eft_axmc_bolt308.printname"] = "Šroub pro AI AXMC 7.62x51mm"
+L["eft_axmc_bolt308.compactname"] = "AXMC .308"
+L["eft_axmc_bolt308.description"] = "Sestava závěru ráže .308 pro odstřelovací pušku Accuracy International AXMC." .. cuttedatt
+
+L["eft_axmc_mag308.printname"] = "10-ranný zásobník pro AXMC 7.62x51"
+L["eft_axmc_mag308.compactname"] = "AXMC 308"
+L["eft_axmc_mag308.description"] = "10-ranný zásobník pro odstřelovací pušku AXMC od společnosti Accuracy International pro náboje 7.62x51/.308." .. cuttedatt
 
  -- 628120dd308cb521f87a8fa1 & 628120d309427b40ab14e76d
 L["eft_axmc_railmid_b.printname"] = "Adaptér se středně dlouhou lištou pro AI AXMC (Černé)"
@@ -471,7 +499,7 @@ L["eft_axmc_railshort_b.description"] = "Krátká lišta pro instalaci na rozhra
 -- m3super90
 L["eft_m3s90_jonnwick.printname"] = "Quad shell loading (like John Wick!)"
 L["eft_m3s90_jonnwick.compactname"] = "Quad Load"
-L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. customatt
+L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. cuttedatt
 
 L["eft_m9a3_black.printname"] = "M9A3 Black frame"
 L["eft_m9a3_black.compactname"] = "Black"
@@ -493,7 +521,7 @@ L["eft_rec_g19x_black.description"] = "Standardní závěr pro pistoli Glock 19X
 -- 57
 L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. cuttedatt
 
 -- p90
 -- 5cc70093e4a949033c734312
@@ -519,11 +547,11 @@ L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
 
 L["eft_mp18_barrel_762x51.printname"] = "600mm hlaveň pro MP-18 7.62x51"
 L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
-L["eft_mp18_barrel_762x51.description"] = "Standardní továrně vyráběná 600mm hlaveň s hledím pro lovecké pušky MP-18 7.62x51."
+L["eft_mp18_barrel_762x51.description"] = "Standardní továrně vyráběná 600mm hlaveň s hledím pro lovecké pušky MP-18 7.62x51." .. cuttedatt
 
 L["eft_mp18_barrel_762x39.printname"] = "600mm hlaveň pro MP-18 7.62x39"
 L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
-L["eft_mp18_barrel_762x39.description"] = "Standardní továrně vyráběná 600mm hlaveň s hledím pro lovecké pušky MP-18 7.62x39."
+L["eft_mp18_barrel_762x39.description"] = "Standardní továrně vyráběná 600mm hlaveň s hledím pro lovecké pušky MP-18 7.62x39." .. cuttedatt
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -892,13 +920,13 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. customatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. cuttedatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
 L["eft_sks_op.printname"] = "Karabina Molot Arms Simonov OP-SKS 7.62x39"
 L["eft_sks_op.compactname"] = "OP-SKS"
-L["eft_sks_op.description"] = "Karabina Molot OP-SKS je navržena pro střelbu s municí 7.62x39 - nejpopulárnější typ munice. Váha a rozměry dělají tuto karabinu pohodlnou pro střelce jakéhokoliv věku a výšky.\nByla používána pro všechny druhy tradičního ruského lovu po více než 50 let. Odzkoušena na predátorech z Afriky, jihovýchodní Asie, střední Ameriky i blízkého východu."
+L["eft_sks_op.description"] = "Karabina Molot OP-SKS je navržena pro střelbu s municí 7.62x39 - nejpopulárnější typ munice. Váha a rozměry dělají tuto karabinu pohodlnou pro střelce jakéhokoliv věku a výšky.\nByla používána pro všechny druhy tradičního ruského lovu po více než 50 let. Odzkoušena na predátorech z Afriky, jihovýchodní Asie, střední Ameriky i blízkého východu." .. convatt
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -940,13 +968,13 @@ L["eft_spear_blk.description"] = "Repaints the frame and SLX68 suppressor into a
 
 L["eft_spear_bolting.printname"] = "SIG MCX-SPEAR - Use charging handle on reload"
 L["eft_spear_bolting.compactname"] = "C.H. Reload"
-L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ Steyr AUG A1 + A3 ]]
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
 L["eft_aug_blk.compactname"] = "Black"
-L["eft_aug_blk.description"] = "Black colored parts." .. customatt
+L["eft_aug_blk.description"] = "Black colored parts." .. cuttedatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
@@ -960,15 +988,15 @@ L["eft_aug_fde.description"] = "Flat Dark Earth (FDE) colored parts." .. customa
 -- kedr
 L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
 L["eft_kedr_stockk.compactname"] = "PP91-F"
-L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
+L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. functionatt
 
 L["eft_kedr_conv_b.printname"] = "Samopal PP-91-01 \"Kedr-B\" 9x18PM"
 L["eft_kedr_conv_b.compactname"] = "PP-91-01 \"Kedr-B\""
-L["eft_kedr_conv_b.description"] = "Vzácná tlumená verze samopalu PP-91 Kedr, označená jako PP-91-01 Kedr-B."
+L["eft_kedr_conv_b.description"] = "Vzácná tlumená verze samopalu PP-91 Kedr, označená jako PP-91-01 Kedr-B." .. convatt
 
 L["eft_kedr_conv_klin.printname"] = "Samopal PP-9 \"Klin\" 9x18PMM"
 L["eft_kedr_conv_klin.compactname"] = "PP-9 \"Klin\""
-L["eft_kedr_conv_klin.description"] = "PP-9 Klin je dalším vývojem samopalu Kedr. Má vyšší rychlost střelby a jeho komora je uzpůsobena pro použití náboje 9x18 PMM. Vyráběl se v letech 1996 až 2002 na objednávku ministerstva vnitra."
+L["eft_kedr_conv_klin.description"] = "PP-9 Klin je dalším vývojem samopalu Kedr. Má vyšší rychlost střelby a jeho komora je uzpůsobena pro použití náboje 9x18 PMM. Vyráběl se v letech 1996 až 2002 na objednávku ministerstva vnitra." .. convatt
 
 -- [[ sv98 ]]
 L["eft_sv98_black.printname"] = "Šasí CNC Guns OV-SV98 pro SV-98 (Černé)"
@@ -993,7 +1021,7 @@ L["eft_mk18_black.description"] = "Repaints the frame and SLX68 suppressor into 
 
 L["eft_mk18_bolting.printname"] = "Mk-18 - Use charging handle on reload"
 L["eft_mk18_bolting.compactname"] = "C.H. Reload"
-L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ H&K G36 + G28 ]]
 -- g28
@@ -1050,7 +1078,7 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 -- aa12
 L["eft_aa12_gen2.printname"] = "Automatická brokovnice MPS Auto Assault-12 Gen 2 12ga"
 L["eft_aa12_gen2.compactname"] = "AA-12 Gen 2"
-L["eft_aa12_gen2.description"] = "AA-12 (Auto Assault-12) Gen 2 je spolehlivá plně automatická brokovnice ráže 12ga. Druhá generace má montáž pro instalaci optiky. Vyniká specifickým způsobem kumulace zpětného rázu, díky němuž působí hladce, aniž by snižovala kadenci nebo zastavovací účinek. AA-12 je navržena pro vojenské a policejní jednotky. Vyrobena společností Military Police Systems."
+L["eft_aa12_gen2.description"] = "AA-12 (Auto Assault-12) Gen 2 je spolehlivá plně automatická brokovnice ráže 12ga. Druhá generace má montáž pro instalaci optiky. Vyniká specifickým způsobem kumulace zpětného rázu, díky němuž působí hladce, aniž by snižovala kadenci nebo zastavovací účinek. AA-12 je navržena pro vojenské a policejní jednotky. Vyrobena společností Military Police Systems." .. convatt
 
 -- [[ M700 + DVL-10 + T-5000 ]]
 -- dvl10
@@ -1062,7 +1090,7 @@ L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. cus
 -- uzi
 L["eft_uzipro_smg.printname"] = "Samopal IWI UZI PRO SMG 9x19"
 L["eft_uzipro_smg.compactname"] = "UZI PRO"
-L["eft_uzipro_smg.description"] = "UZI PRO SMG je samopal určený pro ozbrojené složky a vojenské použití. Tento ultra-kompaktní samopal je evolucí plnohodnotného samopalu UZI, ideální pro skryté nošení a nabízí vysokou kadenci střelby. Vyrobený společností Israel Weapon Industries."
+L["eft_uzipro_smg.description"] = "UZI PRO SMG je samopal určený pro ozbrojené složky a vojenské použití. Tento ultra-kompaktní samopal je evolucí plnohodnotného samopalu UZI, ideální pro skryté nošení a nabízí vysokou kadenci střelby. Vyrobený společností Israel Weapon Industries." .. convatt
 
 -- [[ MDR + MP-433 + RFB ]]
 -- mdr
@@ -1078,15 +1106,15 @@ L["eft_rhino_mag_std.description"] = "Buben na 6 nábojů pro revolvery Chiappa 
 
 L["eft_rhino_barrel_40ds.printname"] = "127mm hlaveň pro Chiappa Rhino 40DS"
 L["eft_rhino_barrel_40ds.compactname"] = "CR 40DS"
-L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. customatt
+L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. cuttedatt
 
 L["eft_rhino_barrel_60ds.printname"] = "152mm hlaveň pro Chiappa Rhino 60DS"
 L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
-L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. customatt
+L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. cuttedatt
 
 L["eft_rhino_speedloader.printname"] = "6-nábojový rychlonabíječ pro Chiappa Rhino"
 L["eft_rhino_speedloader.compactname"] = "CR rych."
-L["eft_rhino_speedloader.description"] = "Rychlonabíječ na 6 nábojů pro revolvery Chiappa Rhino. Umožňuje přebíjení bez nutnosti vkládat náboje po jednom do bubnu." .. customatt
+L["eft_rhino_speedloader.description"] = "Rychlonabíječ na 6 nábojů pro revolvery Chiappa Rhino. Umožňuje přebíjení bez nutnosti vkládat náboje po jednom do bubnu." .. cuttedatt
 
 -- [[ Sako ]]
 -- sako
@@ -1160,10 +1188,11 @@ L["setting.eft.dmgmult.massive.desc"] = [[Affects the following:
 - 12.7x55
 ]]
 
-L["setting.eft.dmgmult.grelau.title"] = "Grenade Cartridges"
-L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash damage on the following:
-- 40x46
-- 40x53
+L["setting.eft.dmgmult.explosive.title"] = "Explosive Ordnance"
+L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
+- All throwable grenades
+- All 40mm & VOG projectiles
+- RShG-2 rockets
 ]]
 
 L["setting.eft.dmgmult.melee.title"] = "Melee"
@@ -1193,5 +1222,5 @@ L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Ta
 L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
 
-L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
-L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
+L["setting.eft.rshg2.title"] = "RShG-2 - Remove after use"
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after it's been shot.\n\nDisable if you want a CoD-like experience, where each rocket will give a fresh launcher."

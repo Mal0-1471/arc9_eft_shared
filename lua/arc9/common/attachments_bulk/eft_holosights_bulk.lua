@@ -580,10 +580,10 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "None",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     },
     {
-        PrintName = "Laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
         Laser = true,
         LaserStrength = 0.6,
         LaserFlareMat = Material("effects/arc9_eft/laserdot"),
@@ -669,7 +669,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "Shade",
+        PrintName = ARC9:GetPhrase("eft_cat_misc"),
         Category = {"eft_ekp_shade"},
         Pos = Vector(0, -0, 0),
         --Pos = Vector(0, 0, 0),
@@ -1873,10 +1873,10 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "None",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     },
     {
-        PrintName = "Laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
         Laser = true,
         LaserStrength = 2,
         LaserFlareMat = Material("effects/arc9_eft/laserdot"),

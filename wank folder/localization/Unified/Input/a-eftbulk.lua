@@ -4571,25 +4571,25 @@ L["eft_ammo_338_upz.compactname"] = eftstring["5fc382c1016cce60e8341b20 ShortNam
 L["eft_ammo_338_upz.description"] = eftstring["5fc382c1016cce60e8341b20 Description"]
 
 -- [[ axmc ]] -- "DO_NOT_REMOVE" doesn't work on German atm; Will fix later
-L["eft_axmc_barrel308_20.printname"] = eftstring["628121651d5df4475f46a33c Name"]:gsub("!!!DO_NOT_USE!!!", "")
-L["eft_axmc_barrel308_20.compactname"] = eftstring["628121651d5df4475f46a33c ShortName"]
-L["eft_axmc_barrel308_20.description"] = eftstring["628121651d5df4475f46a33c Description"]
+-- L["eft_axmc_barrel308_20.printname"] = eftstring["628121651d5df4475f46a33c Name"]:gsub("!!!DO_NOT_USE!!!", "")
+-- L["eft_axmc_barrel308_20.compactname"] = eftstring["628121651d5df4475f46a33c ShortName"]
+-- L["eft_axmc_barrel308_20.description"] = eftstring["628121651d5df4475f46a33c Description"]
 
-L["eft_axmc_barrel308_24.printname"] = eftstring["6281215b4fa03b6b6c35dc6c Name"]:gsub("!!!DO_NOT_USE!!!", "")
-L["eft_axmc_barrel308_24.compactname"] = eftstring["6281215b4fa03b6b6c35dc6c ShortName"]
-L["eft_axmc_barrel308_24.description"] = eftstring["6281215b4fa03b6b6c35dc6c Description"]
+-- L["eft_axmc_barrel308_24.printname"] = eftstring["6281215b4fa03b6b6c35dc6c Name"]:gsub("!!!DO_NOT_USE!!!", "")
+-- L["eft_axmc_barrel308_24.compactname"] = eftstring["6281215b4fa03b6b6c35dc6c ShortName"]
+-- L["eft_axmc_barrel308_24.description"] = eftstring["6281215b4fa03b6b6c35dc6c Description"]
 
-L["eft_axmc_barrel308_26.printname"] = eftstring["6281214c1d5df4475f46a33a Name"]:gsub("!!!DO_NOT_USE!!!", "")
-L["eft_axmc_barrel308_26.compactname"] = eftstring["6281214c1d5df4475f46a33a ShortName"]
-L["eft_axmc_barrel308_26.description"] = eftstring["6281214c1d5df4475f46a33a Description"]
+-- L["eft_axmc_barrel308_26.printname"] = eftstring["6281214c1d5df4475f46a33a Name"]:gsub("!!!DO_NOT_USE!!!", "")
+-- L["eft_axmc_barrel308_26.compactname"] = eftstring["6281214c1d5df4475f46a33a ShortName"]
+-- L["eft_axmc_barrel308_26.description"] = eftstring["6281214c1d5df4475f46a33a Description"]
 
 L["eft_axmc_barrel338_28.printname"] = eftstring["628121434fa03b6b6c35dc6a Name"]:gsub("!!!DO_NOT_USE!!!", "")
 L["eft_axmc_barrel338_28.compactname"] = eftstring["628121434fa03b6b6c35dc6a ShortName"]
 L["eft_axmc_barrel338_28.description"] = eftstring["628121434fa03b6b6c35dc6a Description"]
 
-L["eft_axmc_bolt308.printname"] = eftstring["62811d61578c54356d6d67ea Name"]:gsub("!!!DO_NOT_USE!!!", "")
-L["eft_axmc_bolt308.compactname"] = eftstring["62811d61578c54356d6d67ea ShortName"]
-L["eft_axmc_bolt308.description"] = eftstring["62811d61578c54356d6d67ea Description"]
+-- L["eft_axmc_bolt308.printname"] = eftstring["62811d61578c54356d6d67ea Name"]:gsub("!!!DO_NOT_USE!!!", "")
+-- L["eft_axmc_bolt308.compactname"] = eftstring["62811d61578c54356d6d67ea ShortName"]
+-- L["eft_axmc_bolt308.description"] = eftstring["62811d61578c54356d6d67ea Description"]
 
 L["eft_axmc_bolt338.printname"] = eftstring["62811cd7308cb521f87a8f99 Name"]
 L["eft_axmc_bolt338.compactname"] = eftstring["62811cd7308cb521f87a8f99 ShortName"]
@@ -4611,9 +4611,9 @@ L["eft_axmc_hg.printname"] = eftstring["6281209662cba23f6c4d7a19 Name"]
 L["eft_axmc_hg.compactname"] = eftstring["6281209662cba23f6c4d7a19 ShortName"]
 L["eft_axmc_hg.description"] = eftstring["6281209662cba23f6c4d7a19 Description"]
 
-L["eft_axmc_mag308.printname"] = eftstring["628120f210e26c1f344e6558 Name"]:gsub("!!!DO_NOT_USE!!!", "")
-L["eft_axmc_mag308.compactname"] = eftstring["628120f210e26c1f344e6558 ShortName"]
-L["eft_axmc_mag308.description"] = eftstring["628120f210e26c1f344e6558 Description"]
+-- L["eft_axmc_mag308.printname"] = eftstring["628120f210e26c1f344e6558 Name"]:gsub("!!!DO_NOT_USE!!!", "")
+-- L["eft_axmc_mag308.compactname"] = eftstring["628120f210e26c1f344e6558 ShortName"]
+-- L["eft_axmc_mag308.description"] = eftstring["628120f210e26c1f344e6558 Description"]
 
 L["eft_axmc_mag338.printname"] = eftstring["628120fd5631d45211793c9f Name"]
 L["eft_axmc_mag338.compactname"] = eftstring["628120fd5631d45211793c9f ShortName"]

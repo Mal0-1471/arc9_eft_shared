@@ -264,10 +264,10 @@ L["eft_weapon_rshg2"] = "RShG-2"
 L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
 
 L["eft_weapon_labris"] = "Chained Labrys"
-L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nNot actually equippable in actual game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
+L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_scythe"] = "Old hand scythe"
-L["eft_weapon_scythe_desc"] = "An old hand scythe with a chipped handle. In the days of the fall harvest, it is used to gather the bloody haul.\n\nNot actually equippable in actual game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
+L["eft_weapon_scythe_desc"] = "An old hand scythe with a chipped handle. In the days of the fall harvest, it is used to gather the bloody haul.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_mp5sd"] = "MP5SD"
 
@@ -362,7 +362,7 @@ L["eft_m60_bipod.description"] = "A standard-issue bipod for the M60 machine gun
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
 local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
-local cuttedatt = "\n\n[ <color=255,200,25>This is a unused attachment found in EFT files (cut content)</color> ]"
+local cuttedatt = "\n\n[ <color=255,200,25>This is an unused attachment cut from EFT, but found in its files</color> ]"
 local functionatt = "\n\n[ <color=255,200,25>This is a custom attachment functioning as some EFT mechanic</color> ]"
 local convatt = "\n\n[ <color=255,200,25>This attachment converts weapon into another variant. They are separate weapons in EFT</color> ]"
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
@@ -414,14 +414,6 @@ L["eft_optic_exps3.compactname"] = "EXPS3"
 L["eft_optic_exps3.description"] = "The EOTech EXPS3 holographic sight. Thanks to design features it can be used with a wide range of weapons, even with non-folding sights. Compatible with night vision devices by means of the NV reticle mode. Utilized by US SOCOM as a sight for operations in confined spaces." .. cuttedatt
 
 -- Tactical
-L["eft_bipod_atlas_v8.printname"] = "BT10 V8 Atlas Bipod"
-L["eft_bipod_atlas_v8.compactname"] = "BT10"
-L["eft_bipod_atlas_v8.description"] = "The Atlas V8 series BT10 bipod. Lightweight, foldable, adjustable. Manufactured by B&T Industries L.L.C.\n\n[ <color=255,200,25>Unlike EFT, this bipod does not need to be manually deployed.</color> ]"
-
-L["eft_bipod_harris.printname"] = "Harris S-BRM 6-9\" Bipod"
-L["eft_bipod_harris.compactname"] = "S-BRM"
-L["eft_bipod_harris.description"] = "The S-BRM 6-9\" ultralight foldable bipod with a spring retraction mechanism. Used by service operators and civilian shooters worldwide. Manufactured by Harris.\n\n[ <color=255,200,25>Unlike EFT, this bipod does not need to be manually deployed.</color> ]"
-
 L["eft_shared_fastreload.printname"] = "Dump Ammo on Reload"
 L["eft_shared_fastreload.compactname"] = "Fast Rel."
 L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. functionatt
@@ -441,7 +433,7 @@ L["eft_mag_ak_pmag_762_30_fde.description"] = "A 30-round polymer Magpul Pmag 30
 -- modified 587e08ee245977446b4410cf
 L["eft_akn.printname"] = "\"N\" dovetail mount"
 L["eft_akn.compactname"] = "AK-N"
-L["eft_akn.description"] = "A mount for installation of sights and other additional devices on the AKM/AK74 assault rifles." .. cuttedatt
+L["eft_akn.description"] = "A mount for installation of sights and other additional devices on the AKM/AK74 assault rifles." .. convatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
@@ -472,7 +464,7 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
  -- loosely 622f02437762f55aaa68ac85
 L["eft_axmc_magwell.printname"] = "AI AXMC 7.62x51mm magwell"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
-L["eft_axmc_magwell.description"] = "A regular magazine well for the AXMC sniper rifle." .. cuttedatt
+L["eft_axmc_magwell.description"] = "A regular magazine well for the AXMC sniper rifle." .. customatt
 
 L["eft_axmc_barrel308_20.printname"] = "AI AXMC 7.62x51 20 inch barrel"
 L["eft_axmc_barrel308_20.compactname"] = "AXMC 20\" .308"
@@ -934,7 +926,7 @@ L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. c
 -- [[ sks ]]
 L["eft_sks_op.printname"] = "Molot Arms Simonov OP-SKS 7.62x39 carbine"
 L["eft_sks_op.compactname"] = "OP-SKS"
-L["eft_sks_op.description"] = "The Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East." .. cuttedatt
+L["eft_sks_op.description"] = "The Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East." .. convatt
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -1086,7 +1078,7 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 -- aa12
 L["eft_aa12_gen2.printname"] = "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
 L["eft_aa12_gen2.compactname"] = "AA-12 Gen 2"
-L["eft_aa12_gen2.description"] = "The AA-12 (Auto Assault-12) is a reliable full-auto 12-gauge shotgun. The second generation features a mount for installing optics. This shotgun is distinguished by its recoil pulse accumulation, which makes the recoil feel smooth without sacrificing fire rate and stopping power. The AA-12 is designed for military and police units. Manufactured by Military Police Systems." .. cuttedatt
+L["eft_aa12_gen2.description"] = "The AA-12 (Auto Assault-12) is a reliable full-auto 12-gauge shotgun. The second generation features a mount for installing optics. This shotgun is distinguished by its recoil pulse accumulation, which makes the recoil feel smooth without sacrificing fire rate and stopping power. The AA-12 is designed for military and police units. Manufactured by Military Police Systems." .. convatt
 
 -- [[ M700 + DVL-10 + T-5000 ]]
 -- dvl10
@@ -1098,7 +1090,7 @@ L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. cus
 -- uzi
 L["eft_uzipro_smg.printname"] = "IWI UZI PRO SMG 9x19 submachine gun"
 L["eft_uzipro_smg.compactname"] = "UZI PRO SMG"
-L["eft_uzipro_smg.description"] = "The UZI PRO SMG is a submachine gun for law enforcement and military use. This ultra-compact submachine gun is an evolution of the full-size UZI submachine gun, ideal for concealed carry and featuring a high rate of fire. Manufactured by Israel Weapon Industries." .. cuttedatt
+L["eft_uzipro_smg.description"] = "The UZI PRO SMG is a submachine gun for law enforcement and military use. This ultra-compact submachine gun is an evolution of the full-size UZI submachine gun, ideal for concealed carry and featuring a high rate of fire. Manufactured by Israel Weapon Industries." .. convatt
 
 -- [[ MDR + MP-433 + RFB ]]
 -- mdr
@@ -1421,21 +1413,15 @@ L["setting.eft.dmgmult.massive.desc"] = [[Affects the following:
 - 12.7x55
 ]]
 
-L["setting.eft.dmgmult.grelau.title"] = "Grenade Cartridges"
-L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash damage on the following:
-- 40x46
-- 40x53
+L["setting.eft.dmgmult.explosive.title"] = "Explosive Ordnance"
+L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
+- All throwable grenades
+- All 40mm & VOG projectiles
+- RShG-2 rockets
 ]]
 
 L["setting.eft.dmgmult.melee.title"] = "Melee"
 L["setting.eft.dmgmult.melee.desc"] = "Melee weapons."
-
-L["setting.eft.dmgmult.explosive.title"] = "Explosions"
-L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
-- All grenades
-- 40mm & VOG projectiles
-- RShG-2 rockets
-]]
 
 L["setting.eft.reloadatts.desc"] = "You must reload attachments to apply the changes!"
 
@@ -1462,4 +1448,4 @@ L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
 
 L["setting.eft.rshg2.title"] = "RShG-2 - Remove after use"
-L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after shot. Disable if you want CoD-like experience - each RPG rocket will give you fresh launcher."
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after it's been shot.\n\nDisable if you want a CoD-like experience, where each rocket will give a fresh launcher."

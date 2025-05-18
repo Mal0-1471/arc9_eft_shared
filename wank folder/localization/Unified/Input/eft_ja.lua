@@ -201,11 +201,16 @@ L["eft_trivia_calibr_30flare"] = "30mm flare"
 L["eft_trivia_calibr_725heat"] = "72.5mm HEAT"
 
 L["eft_fmode_bolt"] = "ボルトアクション"
-L["eft_fmode_manualreload"] = "MANUAL REL."
+L["eft_fmode_manualreload"] = "M. Reload"
 L["eft_fmode_doubleaction"] = "ダブルアクション"
 L["eft_fmode_singleaction"] = "シングルアクション"
 L["eft_fmode_melee"] = "近接"
 L["eft_fmode_grenade"] = "グレネード"
+L["eft_fmode_pump"] = "Pump"
+L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_tripwire"] = "Tripwire"
+L["eft_fmode_singleshot"] = "Single"
+L["eft_fmode_doubletap"] = "Double-Tap"
 
 L["eft_toggle_off"] = "Off"
 
@@ -259,10 +264,10 @@ L["eft_weapon_rshg2"] = "RShG-2"
 L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
 
 L["eft_weapon_labris"] = "Chained Labrys"
-L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_scythe"] = eftstring["63495c500c297e20065a08b1 Name"]
-L["eft_weapon_scythe_desc"] = eftstring["63495c500c297e20065a08b1 Description"] .. "\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_scythe_desc"] = eftstring["63495c500c297e20065a08b1 Description"] .. "\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_mp5sd"] = "MP5SD"
 
@@ -357,6 +362,9 @@ L["eft_m60_bipod.description"] = eftstring["66012d9a3dff5074ed002e33 Description
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
 local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
+local cuttedatt = "\n\n[ <color=255,200,25>This is an unused attachment cut from EFT, but found in its files</color> ]"
+local functionatt = "\n\n[ <color=255,200,25>This is a custom attachment functioning as some EFT mechanic</color> ]"
+local convatt = "\n\n[ <color=255,200,25>This attachment converts weapon into another variant. They are separate weapons in EFT</color> ]"
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
@@ -403,49 +411,49 @@ L["eft_cat_mount_b"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.b
  --  558022b54bdc2dac148b458d
 L["eft_optic_exps3.printname"] = "EOTech EXPS3 holographic sight"
 L["eft_optic_exps3.compactname"] = eftstring["558022b54bdc2dac148b458d ShortName"]
-L["eft_optic_exps3.description"] = eftstring["558022b54bdc2dac148b458d Description"] .. customatt
+L["eft_optic_exps3.description"] = eftstring["558022b54bdc2dac148b458d Description"] .. cuttedatt
 
 -- Tactical
 L["eft_shared_fastreload.printname"] = "Dump Ammo on Reload"
 L["eft_shared_fastreload.compactname"] = "Fast Rel."
-L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
+L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. functionatt
 
 -- [[ AK Platform ]]
 -- mag_ak
  -- 5aaa4194e5b5b055d06310a5 & 59d6272486f77466146386ff
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "AK-74 5.45x39 Magpul PMAG 30 GEN M3 30-round magazine (FDE)"
 L["eft_mag_ak_pmag_545_30_fde.compactname"] = eftstring["5aaa4194e5b5b055d06310a5 ShortName"] .. " 30"
-L["eft_mag_ak_pmag_545_30_fde.description"] = eftstring["5aaa4194e5b5b055d06310a5 Description"] .. customatt
+L["eft_mag_ak_pmag_545_30_fde.description"] = eftstring["5aaa4194e5b5b055d06310a5 Description"] .. cuttedatt
 
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine (FDE)"
 L["eft_mag_ak_pmag_762_30_fde.compactname"] = eftstring["59d6272486f77466146386ff ShortName"] .. " 30"
-L["eft_mag_ak_pmag_762_30_fde.description"] = eftstring["59d6272486f77466146386ff Description"] .. customatt
+L["eft_mag_ak_pmag_762_30_fde.description"] = eftstring["59d6272486f77466146386ff Description"] .. cuttedatt
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
 L["eft_akn.printname"] = "\"N\" dovetail mount"
 L["eft_akn.compactname"] = "AK-N"
-L["eft_akn.description"] = "A mount for installation of sights and other additional devices on the AKM/AK74 assault rifles." .. customatt
+L["eft_akn.description"] = "A mount for installation of sights and other additional devices on the AKM/AK74 assault rifles." .. convatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
  -- 595cfa8b86f77427437e845b
 L["eft_hg_ar15_lvoac_f.printname"] = "AR-15 War Sport LVOA-C handguard (FDE)"
 L["eft_hg_ar15_lvoac_f.compactname"] = eftstring["595cfa8b86f77427437e845b ShortName"]
-L["eft_hg_ar15_lvoac_f.description"] = eftstring["595cfa8b86f77427437e845b Description"] .. customatt
+L["eft_hg_ar15_lvoac_f.description"] = eftstring["595cfa8b86f77427437e845b Description"] .. cuttedatt
 
 L["eft_hg_ar15_lvoac_g.printname"] = "AR-15 War Sport LVOA-C handguard (Stealth Grey)"
 L["eft_hg_ar15_lvoac_g.compactname"] = eftstring["595cfa8b86f77427437e845b ShortName"]
-L["eft_hg_ar15_lvoac_g.description"] = eftstring["595cfa8b86f77427437e845b Description"] .. customatt
+L["eft_hg_ar15_lvoac_g.description"] = eftstring["595cfa8b86f77427437e845b Description"] .. cuttedatt
 
 -- 595cf16b86f77427440c32e2
 L["eft_hg_ar15_lvoas_f.printname"] = "AR-15 War Sport LVOA-S handguard (FDE)"
 L["eft_hg_ar15_lvoas_f.compactname"] = eftstring["595cf16b86f77427440c32e2 ShortName"]
-L["eft_hg_ar15_lvoas_f.description"] = eftstring["595cf16b86f77427440c32e2 Description"] .. customatt
+L["eft_hg_ar15_lvoas_f.description"] = eftstring["595cf16b86f77427440c32e2 Description"] .. cuttedatt
 
 L["eft_hg_ar15_lvoas_g.printname"] = "AR-15 War Sport LVOA-S handguard (Stealth Grey)"
 L["eft_hg_ar15_lvoas_g.compactname"] = eftstring["595cf16b86f77427440c32e2 ShortName"]
-L["eft_hg_ar15_lvoas_g.description"] = eftstring["595cf16b86f77427440c32e2 Description"] .. customatt
+L["eft_hg_ar15_lvoas_g.description"] = eftstring["595cf16b86f77427440c32e2 Description"] .. cuttedatt
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
@@ -457,6 +465,26 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
 L["eft_axmc_magwell.printname"] = "AI AXMC 7.62x51mm magwell"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
 L["eft_axmc_magwell.description"] = "A regular magazine well for the AXMC sniper rifle." .. customatt
+
+L["eft_axmc_barrel308_20.printname"] = eftstring["628121651d5df4475f46a33c Name"]:gsub("!!!DO_NOT_USE!!!", "")
+L["eft_axmc_barrel308_20.compactname"] = eftstring["628121651d5df4475f46a33c ShortName"]
+L["eft_axmc_barrel308_20.description"] = eftstring["628121651d5df4475f46a33c Description"] .. cuttedatt
+
+L["eft_axmc_barrel308_24.printname"] = eftstring["6281215b4fa03b6b6c35dc6c Name"]:gsub("!!!DO_NOT_USE!!!", "")
+L["eft_axmc_barrel308_24.compactname"] = eftstring["6281215b4fa03b6b6c35dc6c ShortName"]
+L["eft_axmc_barrel308_24.description"] = eftstring["6281215b4fa03b6b6c35dc6c Description"] .. cuttedatt
+
+L["eft_axmc_barrel308_26.printname"] = eftstring["6281214c1d5df4475f46a33a Name"]:gsub("!!!DO_NOT_USE!!!", "")
+L["eft_axmc_barrel308_26.compactname"] = eftstring["6281214c1d5df4475f46a33a ShortName"]
+L["eft_axmc_barrel308_26.description"] = eftstring["6281214c1d5df4475f46a33a Description"] .. cuttedatt
+
+L["eft_axmc_bolt308.printname"] = eftstring["62811d61578c54356d6d67ea Name"]:gsub("!!!DO_NOT_USE!!!", "")
+L["eft_axmc_bolt308.compactname"] = eftstring["62811d61578c54356d6d67ea ShortName"]
+L["eft_axmc_bolt308.description"] = eftstring["62811d61578c54356d6d67ea Description"] .. cuttedatt
+
+L["eft_axmc_mag308.printname"] = eftstring["628120f210e26c1f344e6558 Name"]:gsub("!!!DO_NOT_USE!!!", "")
+L["eft_axmc_mag308.compactname"] = eftstring["628120f210e26c1f344e6558 ShortName"]
+L["eft_axmc_mag308.description"] = eftstring["628120f210e26c1f344e6558 Description"] .. cuttedatt
 
  -- 628120dd308cb521f87a8fa1 & 628120d309427b40ab14e76d
 L["eft_axmc_railmid_b.printname"] = "AI AXMC Adapter Kit medium length rail (Black)"
@@ -471,7 +499,7 @@ L["eft_axmc_railshort_b.description"] = eftstring["628120d309427b40ab14e76d Desc
 -- m3super90
 L["eft_m3s90_jonnwick.printname"] = "Quad shell loading (like John Wick!)"
 L["eft_m3s90_jonnwick.compactname"] = "Quad Load"
-L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. customatt
+L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. cuttedatt
 
 L["eft_m9a3_black.printname"] = "M9A3 Black frame"
 L["eft_m9a3_black.compactname"] = "Black"
@@ -493,7 +521,7 @@ L["eft_rec_g19x_black.description"] = eftstring["63075cc5962d0247b029dc2a Descri
 -- 57
 L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. cuttedatt
 
 -- p90
 -- 5cc70093e4a949033c734312
@@ -519,11 +547,11 @@ L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
 
 L["eft_mp18_barrel_762x51.printname"] = "MP-18 7.62x51 600mm barrel"
 L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
-L["eft_mp18_barrel_762x51.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x51 hunting rifles."
+L["eft_mp18_barrel_762x51.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x51 hunting rifles." .. cuttedatt
 
 L["eft_mp18_barrel_762x39.printname"] = "MP-18 7.62x39 600mm barrel"
 L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
-L["eft_mp18_barrel_762x39.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x39 hunting rifles."
+L["eft_mp18_barrel_762x39.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x39 hunting rifles." .. cuttedatt
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -892,13 +920,13 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. customatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. cuttedatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
 L["eft_sks_op.printname"] = eftstring["587e02ff24597743df3deaeb Name"]
 L["eft_sks_op.compactname"] = eftstring["587e02ff24597743df3deaeb ShortName"]
-L["eft_sks_op.description"] = eftstring["587e02ff24597743df3deaeb Description"]
+L["eft_sks_op.description"] = eftstring["587e02ff24597743df3deaeb Description"] .. convatt
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -940,13 +968,13 @@ L["eft_spear_blk.description"] = "Repaints the frame and SLX68 suppressor into a
 
 L["eft_spear_bolting.printname"] = "SIG MCX-SPEAR - Use charging handle on reload"
 L["eft_spear_bolting.compactname"] = "C.H. Reload"
-L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ Steyr AUG A1 + A3 ]]
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
 L["eft_aug_blk.compactname"] = "Black"
-L["eft_aug_blk.description"] = "Black colored parts." .. customatt
+L["eft_aug_blk.description"] = "Black colored parts." .. cuttedatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
@@ -960,15 +988,15 @@ L["eft_aug_fde.description"] = "Flat Dark Earth (FDE) colored parts." .. customa
 -- kedr
 L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
 L["eft_kedr_stockk.compactname"] = "PP91-F"
-L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
+L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. functionatt
 
 L["eft_kedr_conv_b.printname"] = eftstring["57f3c6bd24597738e730fa2f Name"]
 L["eft_kedr_conv_b.compactname"] = eftstring["57f3c6bd24597738e730fa2f ShortName"]
-L["eft_kedr_conv_b.description"] = eftstring["57f3c6bd24597738e730fa2f Description"]
+L["eft_kedr_conv_b.description"] = eftstring["57f3c6bd24597738e730fa2f Description"] .. convatt
 
 L["eft_kedr_conv_klin.printname"] = eftstring["57f4c844245977379d5c14d1 Name"]
 L["eft_kedr_conv_klin.compactname"] = eftstring["57f4c844245977379d5c14d1 ShortName"]
-L["eft_kedr_conv_klin.description"] = eftstring["57f4c844245977379d5c14d1 Description"]
+L["eft_kedr_conv_klin.description"] = eftstring["57f4c844245977379d5c14d1 Description"] .. convatt
 
 -- [[ sv98 ]]
 L["eft_sv98_black.printname"] = "SV-98 CNC Guns OV-SV98 chassis (Black)"
@@ -993,7 +1021,7 @@ L["eft_mk18_black.description"] = "Repaints the frame and SLX68 suppressor into 
 
 L["eft_mk18_bolting.printname"] = "Mk-18 - Use charging handle on reload"
 L["eft_mk18_bolting.compactname"] = "C.H. Reload"
-L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ H&K G36 + G28 ]]
 -- g28
@@ -1050,7 +1078,7 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 -- aa12
 L["eft_aa12_gen2.printname"] = eftstring["67124dcfa3541f2a1f0e788b Name"]
 L["eft_aa12_gen2.compactname"] = eftstring["67124dcfa3541f2a1f0e788b ShortName"]
-L["eft_aa12_gen2.description"] = eftstring["67124dcfa3541f2a1f0e788b Description"]
+L["eft_aa12_gen2.description"] = eftstring["67124dcfa3541f2a1f0e788b Description"] .. convatt
 
 -- [[ M700 + DVL-10 + T-5000 ]]
 -- dvl10
@@ -1062,7 +1090,7 @@ L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. cus
 -- uzi
 L["eft_uzipro_smg.printname"] = eftstring["668e71a8dadf42204c032ce1 Name"]
 L["eft_uzipro_smg.compactname"] = eftstring["668e71a8dadf42204c032ce1 ShortName"]
-L["eft_uzipro_smg.description"] = eftstring["668e71a8dadf42204c032ce1 Description"]
+L["eft_uzipro_smg.description"] = eftstring["668e71a8dadf42204c032ce1 Description"] .. convatt
 
 -- [[ MDR + MP-433 + RFB ]]
 -- mdr
@@ -1078,15 +1106,15 @@ L["eft_rhino_mag_std.description"] = "A 6-round cylinder for Chiappa Rhino revol
 
 L["eft_rhino_barrel_40ds.printname"] = "Chiappa Rhino 40DS 127mm barrel"
 L["eft_rhino_barrel_40ds.compactname"] = "CR 40DS"
-L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. customatt
+L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. cuttedatt
 
 L["eft_rhino_barrel_60ds.printname"] = "Chiappa Rhino 60DS 152mm barrel"
 L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
-L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. customatt
+L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. cuttedatt
 
 L["eft_rhino_speedloader.printname"] = "Chiappa Rhino 6-round speedloader"
 L["eft_rhino_speedloader.compactname"] = "CR load"
-L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder." .. customatt
+L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder." .. cuttedatt
 
 -- [[ Sako ]]
 -- sako
@@ -1160,10 +1188,11 @@ L["setting.eft.dmgmult.massive.desc"] = [[Affects the following:
 - 12.7x55
 ]]
 
-L["setting.eft.dmgmult.grelau.title"] = "Grenade Cartridges"
-L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash damage on the following:
-- 40x46
-- 40x53
+L["setting.eft.dmgmult.explosive.title"] = "Explosive Ordnance"
+L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
+- All throwable grenades
+- All 40mm & VOG projectiles
+- RShG-2 rockets
 ]]
 
 L["setting.eft.dmgmult.melee.title"] = "Melee"
@@ -1193,5 +1222,5 @@ L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Ta
 L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
 
-L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
-L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
+L["setting.eft.rshg2.title"] = "RShG-2 - Remove after use"
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after it's been shot.\n\nDisable if you want a CoD-like experience, where each rocket will give a fresh launcher."

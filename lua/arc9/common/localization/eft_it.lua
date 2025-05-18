@@ -201,11 +201,16 @@ L["eft_trivia_calibr_30flare"] = "30mm flare"
 L["eft_trivia_calibr_725heat"] = "72.5mm HEAT"
 
 L["eft_fmode_bolt"] = "O.G.S." -- OTTURATORE GIREVOLE-SCORREVOLE
-L["eft_fmode_manualreload"] = "MANUAL REL."
-L["eft_fmode_doubleaction"] = "AZI. D."
-L["eft_fmode_singleaction"] = "AZI. S."
+L["eft_fmode_manualreload"] = "M. Reload"
+L["eft_fmode_doubleaction"] = "Azi. D."
+L["eft_fmode_singleaction"] = "Azi. S."
 L["eft_fmode_melee"] = "C. A C."
-L["eft_fmode_grenade"] = "GRANATA"
+L["eft_fmode_grenade"] = "Granata"
+L["eft_fmode_pump"] = "Pump"
+L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_tripwire"] = "Tripwire"
+L["eft_fmode_singleshot"] = "Single"
+L["eft_fmode_doubletap"] = "Double-Tap"
 
 L["eft_toggle_off"] = "Off"
 
@@ -259,10 +264,10 @@ L["eft_weapon_rshg2"] = "RShG-2"
 L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
 
 L["eft_weapon_labris"] = "Chained Labrys"
-L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_scythe"] = "Vecchia falce a mano"
-L["eft_weapon_scythe_desc"] = "Una vecchia falce a mano con il manico scheggiato. Nei giorni del raccolto autunnale, viene usata per raccogliere il bottino di sangue.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_scythe_desc"] = "Una vecchia falce a mano con il manico scheggiato. Nei giorni del raccolto autunnale, viene usata per raccogliere il bottino di sangue.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_mp5sd"] = "MP5SD"
 
@@ -357,6 +362,9 @@ L["eft_m60_bipod.description"] = "Bipiede di serie per la mitragliatrice M60. Pr
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
 local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
+local cuttedatt = "\n\n[ <color=255,200,25>This is an unused attachment cut from EFT, but found in its files</color> ]"
+local functionatt = "\n\n[ <color=255,200,25>This is a custom attachment functioning as some EFT mechanic</color> ]"
+local convatt = "\n\n[ <color=255,200,25>This attachment converts weapon into another variant. They are separate weapons in EFT</color> ]"
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
@@ -403,49 +411,49 @@ L["eft_cat_mount_b"] = "Supporto" .. attdir.b
  --  558022b54bdc2dac148b458d
 L["eft_optic_exps3.printname"] = "Mirino olografico EOTech EXPS3"
 L["eft_optic_exps3.compactname"] = "EXPS3"
-L["eft_optic_exps3.description"] = "Mirino olografico EOTech EXPS3. Grazie alle caratteristiche di design può essere utilizzato con una vasta gamma di armi, anche con mirini non pieghevoli. Compatibile con i dispositivi di visione notturna grazie alla modalità reticolo NV. Utilizzato dalla US SOCOM come ottica per le operazioni in spazi ristretti." .. customatt
+L["eft_optic_exps3.description"] = "Mirino olografico EOTech EXPS3. Grazie alle caratteristiche di design può essere utilizzato con una vasta gamma di armi, anche con mirini non pieghevoli. Compatibile con i dispositivi di visione notturna grazie alla modalità reticolo NV. Utilizzato dalla US SOCOM come ottica per le operazioni in spazi ristretti." .. cuttedatt
 
 -- Tactical
 L["eft_shared_fastreload.printname"] = "Dump Ammo on Reload"
 L["eft_shared_fastreload.compactname"] = "Fast Rel."
-L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
+L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. functionatt
 
 -- [[ AK Platform ]]
 -- mag_ak
  -- 5aaa4194e5b5b055d06310a5 & 59d6272486f77466146386ff
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Caricatore da 30 colpi AK-74 5.45x39 Magpul PMAG 30 GEN M3 (FDE)"
 L["eft_mag_ak_pmag_545_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_545_30_fde.description"] = "Un caricatore Magpul Pmag 30 AK74 GEN M3 in polimero da 30 colpi per armi 5.45x39 AK e compatibili." .. customatt
+L["eft_mag_ak_pmag_545_30_fde.description"] = "Un caricatore Magpul Pmag 30 AK74 GEN M3 in polimero da 30 colpi per armi 5.45x39 AK e compatibili." .. cuttedatt
 
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Caricatore da 30 colpi AK 7.62x39 Magpul PMAG 30 GEN M3 (FDE)"
 L["eft_mag_ak_pmag_762_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_762_30_fde.description"] = "Un caricatore in polimeri 7.62x39 Magpul Pmag 30 AK/AKM GEN M3 per AK 7.62x39 ed altre armi compatibili. Può essere anche caricato con proiettili .366 TKM usandolo con calibri corrispondenti per armi AK compatibili." .. customatt
+L["eft_mag_ak_pmag_762_30_fde.description"] = "Un caricatore in polimeri 7.62x39 Magpul Pmag 30 AK/AKM GEN M3 per AK 7.62x39 ed altre armi compatibili. Può essere anche caricato con proiettili .366 TKM usandolo con calibri corrispondenti per armi AK compatibili." .. cuttedatt
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
 L["eft_akn.printname"] = "Supporto a coda di rondine \"N\""
 L["eft_akn.compactname"] = "AK-N"
-L["eft_akn.description"] = "Un supporto per l'installazione di mirini ed altri dispositivi supplementari per caraine AKM/AK74." .. customatt
+L["eft_akn.description"] = "Un supporto per l'installazione di mirini ed altri dispositivi supplementari per caraine AKM/AK74." .. convatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
  -- 595cfa8b86f77427437e845b
 L["eft_hg_ar15_lvoac_f.printname"] = "Paramano AR-15 War Sport LVOA-C (Flat Dark Earth)"
 L["eft_hg_ar15_lvoac_f.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_f.description"] = "Il paramano leggero The War Sport LVOA-C, è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoac_f.description"] = "Il paramano leggero The War Sport LVOA-C, è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. cuttedatt
 
 L["eft_hg_ar15_lvoac_g.printname"] = "Paramano AR-15 War Sport LVOA-C (Stealth Grey)"
 L["eft_hg_ar15_lvoac_g.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_g.description"] = "Il paramano leggero The War Sport LVOA-C, è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoac_g.description"] = "Il paramano leggero The War Sport LVOA-C, è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. cuttedatt
 
 -- 595cf16b86f77427440c32e2
 L["eft_hg_ar15_lvoas_f.printname"] = "Paramano AR-15 War Sport LVOA-S (Flat Dark Earth)"
 L["eft_hg_ar15_lvoas_f.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_f.description"] = "Il paramano leggero The War Sport LVOA-S (SBR), è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoas_f.description"] = "Il paramano leggero The War Sport LVOA-S (SBR), è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. cuttedatt
 
 L["eft_hg_ar15_lvoas_g.printname"] = "Paramano AR-15 War Sport LVOA-S (Stealth Grey)"
 L["eft_hg_ar15_lvoas_g.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_g.description"] = "Il paramano leggero The War Sport LVOA-S (SBR), è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. customatt
+L["eft_hg_ar15_lvoas_g.description"] = "Il paramano leggero The War Sport LVOA-S (SBR), è progettato per essere usato con i fucili sportivi basati su fucili AR-15." .. cuttedatt
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
@@ -457,6 +465,26 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
 L["eft_axmc_magwell.printname"] = "Magwell AI AXMC 7.62x51mm"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
 L["eft_axmc_magwell.description"] = "Un caricatore normale per il fucile da cecchino AXMC." .. customatt
+
+L["eft_axmc_barrel308_20.printname"] = "Canna da 20\" AXMC 7.62x51"
+L["eft_axmc_barrel308_20.compactname"] = "AXMC 20\" .308"
+L["eft_axmc_barrel308_20.description"] = "Una canna da 20 pollici (508mm) per l'AI AXMC camerata in munizioni 7.62x51 (.308)." .. cuttedatt
+
+L["eft_axmc_barrel308_24.printname"] = "Canna da 24\" AXMC 7.62x51"
+L["eft_axmc_barrel308_24.compactname"] = "AXMC 24\" .308"
+L["eft_axmc_barrel308_24.description"] = "Una canna da 24 pollici (610mm) per l'AI AXMC camerata in munizioni 7.62x51 (.308)." .. cuttedatt
+
+L["eft_axmc_barrel308_26.printname"] = "Canna da 26\" AXMC 7.62x51"
+L["eft_axmc_barrel308_26.compactname"] = "AXMC 26\" .308"
+L["eft_axmc_barrel308_26.description"] = "Una canna da 26 pollici (660mm) per l'AI AXMC camerata in munizioni 7.62x51 (.308)." .. cuttedatt
+
+L["eft_axmc_bolt308.printname"] = "AI AXMC 7.62x51mm bolt assembly"
+L["eft_axmc_bolt308.compactname"] = "AXMC .308"
+L["eft_axmc_bolt308.description"] = "Un gruppo otturatore .308 per il fucile da cecchino Accuracy International AXMC." .. cuttedatt
+
+L["eft_axmc_mag308.printname"] = "Caricatore da 10 colpi AI AXMC 7.62x51"
+L["eft_axmc_mag308.compactname"] = "AXMC 308"
+L["eft_axmc_mag308.description"] = "Un caricatore per fucile di precisione AXMC da 10 colpi della Accuracy International, per cartucce 7.62x51/.308." .. cuttedatt
 
  -- 628120dd308cb521f87a8fa1 & 628120d309427b40ab14e76d
 L["eft_axmc_railmid_b.printname"] = "Kit di adattamento per slitta di media lunghezza AI AXMC (Nero)"
@@ -471,7 +499,7 @@ L["eft_axmc_railshort_b.description"] = "Un slitta corto per l'installazione sul
 -- m3super90
 L["eft_m3s90_jonnwick.printname"] = "Quad shell loading (like John Wick!)"
 L["eft_m3s90_jonnwick.compactname"] = "Quad Load"
-L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. customatt
+L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. cuttedatt
 
 L["eft_m9a3_black.printname"] = "M9A3 Black frame"
 L["eft_m9a3_black.compactname"] = "Black"
@@ -493,7 +521,7 @@ L["eft_rec_g19x_black.description"] = "Slitta standard per la pistola Glock 19X 
 -- 57
 L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. cuttedatt
 
 -- p90
 -- 5cc70093e4a949033c734312
@@ -519,11 +547,11 @@ L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
 
 L["eft_mp18_barrel_762x51.printname"] = "Canna da 600mm MP-18 7.62x51"
 L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
-L["eft_mp18_barrel_762x51.description"] = "Una canna standard prodotta in fabbrica da 600mm con mirino anteriore per fucili da caccia MP-18 7.62x51."
+L["eft_mp18_barrel_762x51.description"] = "Una canna standard prodotta in fabbrica da 600mm con mirino anteriore per fucili da caccia MP-18 7.62x51." .. cuttedatt
 
 L["eft_mp18_barrel_762x39.printname"] = "Canna da 600mm MP-18 7.62x39"
 L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
-L["eft_mp18_barrel_762x39.description"] = "Una canna standard prodotta in fabbrica da 600mm con mirino anteriore per fucili da caccia MP-18 7.62x39."
+L["eft_mp18_barrel_762x39.description"] = "Una canna standard prodotta in fabbrica da 600mm con mirino anteriore per fucili da caccia MP-18 7.62x39." .. cuttedatt
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -892,13 +920,13 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. customatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. cuttedatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
 L["eft_sks_op.printname"] = "Carabina Molot Arms Simonov OP-SKS 7.62x39"
 L["eft_sks_op.compactname"] = "OP-SKS"
-L["eft_sks_op.description"] = "La carabina Molot OP-SKS è progettata per essere caricata con 7,62x39, le munizioni più popolari. Il peso e le dimensioni rendono la carabina ergonomica per tiratori di qualsiasi età e altezza. Da oltre 50 anni viene utilizzato per tutti i tipi di caccia tradizionale russa. Testato su predatori in Africa, Sud-est asiatico, America Centrale, Medio Oriente."
+L["eft_sks_op.description"] = "La carabina Molot OP-SKS è progettata per essere caricata con 7,62x39, le munizioni più popolari. Il peso e le dimensioni rendono la carabina ergonomica per tiratori di qualsiasi età e altezza. Da oltre 50 anni viene utilizzato per tutti i tipi di caccia tradizionale russa. Testato su predatori in Africa, Sud-est asiatico, America Centrale, Medio Oriente." .. convatt
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -940,13 +968,13 @@ L["eft_spear_blk.description"] = "Repaints the frame and SLX68 suppressor into a
 
 L["eft_spear_bolting.printname"] = "SIG MCX-SPEAR - Use charging handle on reload"
 L["eft_spear_bolting.compactname"] = "C.H. Reload"
-L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ Steyr AUG A1 + A3 ]]
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
 L["eft_aug_blk.compactname"] = "Black"
-L["eft_aug_blk.description"] = "Black colored parts." .. customatt
+L["eft_aug_blk.description"] = "Black colored parts." .. cuttedatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
@@ -960,15 +988,15 @@ L["eft_aug_fde.description"] = "Flat Dark Earth (FDE) colored parts." .. customa
 -- kedr
 L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
 L["eft_kedr_stockk.compactname"] = "PP91-F"
-L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
+L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. functionatt
 
 L["eft_kedr_conv_b.printname"] = "Pistola mitragliatrice PP-91-01 \"Kedr-B\" 9x18PM"
 L["eft_kedr_conv_b.compactname"] = "PP-91-01 Kedr-B"
-L["eft_kedr_conv_b.description"] = "Una rara versione silenziata della pistola mitragliatrice PP-91 Kedr, denominato PP-91-01 Kedr-B."
+L["eft_kedr_conv_b.description"] = "Una rara versione silenziata della pistola mitragliatrice PP-91 Kedr, denominato PP-91-01 Kedr-B." .. convatt
 
 L["eft_kedr_conv_klin.printname"] = "Pistola mitragliatrice PP-9 \"Klin\" 9x18PMM"
 L["eft_kedr_conv_klin.compactname"] = "PP-9 Klin"
-L["eft_kedr_conv_klin.description"] = "Il PP-9 Klin è un'ulteriore evoluzione della pistola mitragliatrice Kedr. Ha una cadenza di fuoco più alta e la sua camera è progettata per utilizzare la cartuccia PMM 9x18. È stato prodotto dal 1996 al 2002 per ordine del Ministero dell'Interno."
+L["eft_kedr_conv_klin.description"] = "Il PP-9 Klin è un'ulteriore evoluzione della pistola mitragliatrice Kedr. Ha una cadenza di fuoco più alta e la sua camera è progettata per utilizzare la cartuccia PMM 9x18. È stato prodotto dal 1996 al 2002 per ordine del Ministero dell'Interno." .. convatt
 
 -- [[ sv98 ]]
 L["eft_sv98_black.printname"] = "Telaio SV-98 CNC Guns OV-SV98 (Nero)"
@@ -993,7 +1021,7 @@ L["eft_mk18_black.description"] = "Repaints the frame and SLX68 suppressor into 
 
 L["eft_mk18_bolting.printname"] = "Mk-18 - Use charging handle on reload"
 L["eft_mk18_bolting.compactname"] = "C.H. Reload"
-L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ H&K G36 + G28 ]]
 -- g28
@@ -1050,7 +1078,7 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 -- aa12
 L["eft_aa12_gen2.printname"] = "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
 L["eft_aa12_gen2.compactname"] = "AA-12 Gen 2"
-L["eft_aa12_gen2.description"] = "L'AA-12 (Auto Assault-12) Gen 1 è un affidabile fucile a pompa full-automatico calibro 12. La seconda generazione è dotata di supporto per le ottiche installate. Questo fucile si distingue per un buon assorbimento del rinculo, che rende affidabile e allo stesso tempo morbido senza sacrificare la velocità di fuoco e il potere di arresto. L'AA-12 è progettato per le unità militari e di polizia. Prodotto dalla Military Police Systems."
+L["eft_aa12_gen2.description"] = "L'AA-12 (Auto Assault-12) Gen 1 è un affidabile fucile a pompa full-automatico calibro 12. La seconda generazione è dotata di supporto per le ottiche installate. Questo fucile si distingue per un buon assorbimento del rinculo, che rende affidabile e allo stesso tempo morbido senza sacrificare la velocità di fuoco e il potere di arresto. L'AA-12 è progettato per le unità militari e di polizia. Prodotto dalla Military Police Systems." .. convatt
 
 -- [[ M700 + DVL-10 + T-5000 ]]
 -- dvl10
@@ -1062,7 +1090,7 @@ L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. cus
 -- uzi
 L["eft_uzipro_smg.printname"] = "Pistola mitragliatrice IWI UZI PRO SMG 9x19"
 L["eft_uzipro_smg.compactname"] = "UZI PRO SMG"
-L["eft_uzipro_smg.description"] = "L'UZI PRO SMG è una pistola mitragliatrice destinata alle forze dell'ordine e all'uso militare. Questa mitragliatrice ultracompatta è un'evoluzione della mitragliatrice UZI full-size, ideale per l'occultazione e caratterizzata da un'elevata cadenza di fuoco. Prodotto dalla Israel Weapon Industries."
+L["eft_uzipro_smg.description"] = "L'UZI PRO SMG è una pistola mitragliatrice destinata alle forze dell'ordine e all'uso militare. Questa mitragliatrice ultracompatta è un'evoluzione della mitragliatrice UZI full-size, ideale per l'occultazione e caratterizzata da un'elevata cadenza di fuoco. Prodotto dalla Israel Weapon Industries." .. convatt
 
 -- [[ MDR + MP-433 + RFB ]]
 -- mdr
@@ -1078,15 +1106,15 @@ L["eft_rhino_mag_std.description"] = "Un tamburo da 6 colpi per Revolver Chiappa
 
 L["eft_rhino_barrel_40ds.printname"] = "Canna Chiappa Rhino 40DS 127mm"
 L["eft_rhino_barrel_40ds.compactname"] = "CR 40DS"
-L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. customatt
+L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. cuttedatt
 
 L["eft_rhino_barrel_60ds.printname"] = "Canna Chiappa Rhino 60DS 152mm"
 L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
-L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. customatt
+L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. cuttedatt
 
 L["eft_rhino_speedloader.printname"] = "Chiappa Rhino 6-round speedloader"
 L["eft_rhino_speedloader.compactname"] = "CR load"
-L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder." .. customatt
+L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder." .. cuttedatt
 
 -- [[ Sako ]]
 -- sako
@@ -1160,10 +1188,11 @@ L["setting.eft.dmgmult.massive.desc"] = [[Affects the following:
 - 12.7x55
 ]]
 
-L["setting.eft.dmgmult.grelau.title"] = "Grenade Cartridges"
-L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash damage on the following:
-- 40x46
-- 40x53
+L["setting.eft.dmgmult.explosive.title"] = "Explosive Ordnance"
+L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
+- All throwable grenades
+- All 40mm & VOG projectiles
+- RShG-2 rockets
 ]]
 
 L["setting.eft.dmgmult.melee.title"] = "Melee"
@@ -1193,5 +1222,5 @@ L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Ta
 L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
 
-L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
-L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
+L["setting.eft.rshg2.title"] = "RShG-2 - Remove after use"
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after it's been shot.\n\nDisable if you want a CoD-like experience, where each rocket will give a fresh launcher."

@@ -99,7 +99,7 @@ ATT.VisualRecoilMult = 0.97
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_stock",
+        PrintName = ARC9:GetPhrase("eft_cat_stock"),
         Category = {"eft_ar_stock", "eft_ar_stock_notbuffer"},
         Pos = Vector(0.6, -3.5, 0.55),
         Ang = Angle(-5, -90, 0),
@@ -136,7 +136,7 @@ ATT.Category = {"eft_ak74m_stock"}
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_stock",
+        PrintName = ARC9:GetPhrase("eft_cat_stock"),
         Category = {"eft_stock_ak_pad"},
         Pos = Vector(0, 0, -0.15),
         Ang = Angle(0, 0, 0),
@@ -177,7 +177,7 @@ ATT.RequireElements = {"gasblock"}
 ATT.Category = {"eft_ak_handguard", "eft_vityaz_handguard"}
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_foregrip",
+        PrintName = ARC9:GetPhrase("eft_cat_foregrip"),
         Category = {"eft_foregrip_small"},
         Pos = Vector(0, 3.5, 1.6),
         Ang = Angle(0, -90, 0),
@@ -185,7 +185,7 @@ ATT.Attachments = {
         ExcludeElements = {"eft_ak_gp34"}
     },
     {
-        PrintName = "eft_cat_tactical",
+        PrintName = ARC9:GetPhrase("eft_cat_tactical"),
         Category = {"eft_tactical", "eft_b12"},
         Pos = Vector(1.05, 4.9, 0.4),
         Ang = Angle(0, -90, 90),

@@ -201,11 +201,16 @@ L["eft_trivia_calibr_30flare"] = "30mm flare"
 L["eft_trivia_calibr_725heat"] = "72.5mm HEAT"
 
 L["eft_fmode_bolt"] = "手動槍機"
-L["eft_fmode_manualreload"] = "MANUAL REL."
-L["eft_fmode_doubleaction"] = "D. ACT."
-L["eft_fmode_singleaction"] = "S. ACT."
+L["eft_fmode_manualreload"] = "M. Reload"
+L["eft_fmode_doubleaction"] = "D. Act."
+L["eft_fmode_singleaction"] = "S. Act."
 L["eft_fmode_melee"] = "近战"
 L["eft_fmode_grenade"] = "手雷"
+L["eft_fmode_pump"] = "Pump"
+L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_tripwire"] = "Tripwire"
+L["eft_fmode_singleshot"] = "Single"
+L["eft_fmode_doubletap"] = "Double-Tap"
 
 L["eft_toggle_off"] = "Off"
 
@@ -259,10 +264,10 @@ L["eft_weapon_rshg2"] = "RShG-2"
 L["eft_weapon_rshg2_desc"] = "A single-use 72.5mm rocket-propelled grenade launcher, designed to engage enemy personnel in open terrain, field shelters, and various types of structures. Manufactured by NPO Bazalt."
 
 L["eft_weapon_labris"] = "Chained Labrys"
-L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_labris_desc"] = "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not.\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_scythe"] = "老式手持镰刀"
-L["eft_weapon_scythe_desc"] = "老式的镰刀，已经有些破损了。在还有收成的年代，它是个生产工具。\n\nPart of <color=255,200,25>SPT mod</color> made by <color=255,200,25>ChocoMilk</color>."
+L["eft_weapon_scythe_desc"] = "老式的镰刀，已经有些破损了。在还有收成的年代，它是个生产工具。\n\nNot actually equippable in-game. Ported from <color=255,200,25>ChocoMilk</color>'s <color=255,200,25>SPT mod</color> with animations by <color=255,200,25>Fnuxray</color>."
 
 L["eft_weapon_mp5sd"] = "MP5SD"
 
@@ -357,6 +362,9 @@ L["eft_m60_bipod.description"] = "M60轻机枪的标准脚架。由U.S Ordnance�
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
 local customatt = "\n\n[ <color=255,200,25>This is a custom attachment not present in EFT</color> ]"
+local cuttedatt = "\n\n[ <color=255,200,25>This is an unused attachment cut from EFT, but found in its files</color> ]"
+local functionatt = "\n\n[ <color=255,200,25>This is a custom attachment functioning as some EFT mechanic</color> ]"
+local convatt = "\n\n[ <color=255,200,25>This attachment converts weapon into another variant. They are separate weapons in EFT</color> ]"
 local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
@@ -403,49 +411,49 @@ L["eft_cat_mount_b"] = attdir.l .. "导轨基座"
  --  558022b54bdc2dac148b458d
 L["eft_optic_exps3.printname"] = "EOTech EXPS3全息瞄准镜"
 L["eft_optic_exps3.compactname"] = "EXPS3"
-L["eft_optic_exps3.description"] = "Eotech EXPS3全息瞄准镜。由于它的设计特点，它能够被大部分武器使用，即便那些武器拥有非折叠的瞄具。通过调整为夜视准星模式，它可兼容夜视设备，并且它被美军特种作战司令部用于狭小空间的作战。" .. customatt
+L["eft_optic_exps3.description"] = "Eotech EXPS3全息瞄准镜。由于它的设计特点，它能够被大部分武器使用，即便那些武器拥有非折叠的瞄具。通过调整为夜视准星模式，它可兼容夜视设备，并且它被美军特种作战司令部用于狭小空间的作战。" .. cuttedatt
 
 -- Tactical
 L["eft_shared_fastreload.printname"] = "Dump Ammo on Reload"
 L["eft_shared_fastreload.compactname"] = "Fast Rel."
-L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. customatt
+L["eft_shared_fastreload.description"] = "Drops all remaining shells when reloading for a faster reload." .. functionatt
 
 -- [[ AK Platform ]]
 -- mag_ak
  -- 5aaa4194e5b5b055d06310a5 & 59d6272486f77466146386ff
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "Pmag 30 AK74 GEN M3 5.45x39 30发AK兼容武器弹匣 (FDE)"
 L["eft_mag_ak_pmag_545_30_fde.compactname"] = "Pmag30 AK74 GEN M3 30"
-L["eft_mag_ak_pmag_545_30_fde.description"] = "供AK兼容武器使用的30发Pmag 30 AK74 GEN M3 5.45x39聚合物弹匣。" .. customatt
+L["eft_mag_ak_pmag_545_30_fde.description"] = "供AK兼容武器使用的30发Pmag 30 AK74 GEN M3 5.45x39聚合物弹匣。" .. cuttedatt
 
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣 (FDE)"
 L["eft_mag_ak_pmag_762_30_fde.compactname"] = "AK/AKM 30发聚合弹匣 GEN M3 30"
-L["eft_mag_ak_pmag_762_30_fde.description"] = "Magpul的Pmag 30 AK/AKM GEN M3型7.62x39 30发AK兼容弹匣。" .. customatt
+L["eft_mag_ak_pmag_762_30_fde.description"] = "Magpul的Pmag 30 AK/AKM GEN M3型7.62x39 30发AK兼容弹匣。" .. cuttedatt
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
 L["eft_akn.printname"] = "「N」燕尾槽基座"
 L["eft_akn.compactname"] = "AK-N"
-L["eft_akn.description"] = "用于在AKM/AK74上安装瞄具及其他附加设备的基座。" .. customatt
+L["eft_akn.description"] = "用于在AKM/AK74上安装瞄具及其他附加设备的基座。" .. convatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
  -- 595cfa8b86f77427437e845b
 L["eft_hg_ar15_lvoac_f.printname"] = "War Sport LVOA-C (Flat Dark Earth) AR-15兼容护木"
 L["eft_hg_ar15_lvoac_f.compactname"] = "LVOA-C blk."
-L["eft_hg_ar15_lvoac_f.description"] = "War Sport的LVOA-C轻型护木，供AR-15枪族的运动步枪使用。" .. customatt
+L["eft_hg_ar15_lvoac_f.description"] = "War Sport的LVOA-C轻型护木，供AR-15枪族的运动步枪使用。" .. cuttedatt
 
 L["eft_hg_ar15_lvoac_g.printname"] = "War Sport LVOA-C (Stealth Grey) AR-15兼容护木"
 L["eft_hg_ar15_lvoac_g.compactname"] = "LVOA-C blk."
-L["eft_hg_ar15_lvoac_g.description"] = "War Sport的LVOA-C轻型护木，供AR-15枪族的运动步枪使用。" .. customatt
+L["eft_hg_ar15_lvoac_g.description"] = "War Sport的LVOA-C轻型护木，供AR-15枪族的运动步枪使用。" .. cuttedatt
 
 -- 595cf16b86f77427440c32e2
 L["eft_hg_ar15_lvoas_f.printname"] = "War Sport LVOA-S (Flat Dark Earth) AR-15兼容护木"
 L["eft_hg_ar15_lvoas_f.compactname"] = "LVOA-S blk."
-L["eft_hg_ar15_lvoas_f.description"] = "War Sport的LVOA-S（SBR）轻型护木，供AR-15枪族的运动步枪使用。" .. customatt
+L["eft_hg_ar15_lvoas_f.description"] = "War Sport的LVOA-S（SBR）轻型护木，供AR-15枪族的运动步枪使用。" .. cuttedatt
 
 L["eft_hg_ar15_lvoas_g.printname"] = "War Sport LVOA-S (Stealth Grey) AR-15兼容护木"
 L["eft_hg_ar15_lvoas_g.compactname"] = "LVOA-S blk."
-L["eft_hg_ar15_lvoas_g.description"] = "War Sport的LVOA-S（SBR）轻型护木，供AR-15枪族的运动步枪使用。" .. customatt
+L["eft_hg_ar15_lvoas_g.description"] = "War Sport的LVOA-S（SBR）轻型护木，供AR-15枪族的运动步枪使用。" .. cuttedatt
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
@@ -457,6 +465,26 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
 L["eft_axmc_magwell.printname"] = "AI AXMC 7.62x51mm 弹匣转换器"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
 L["eft_axmc_magwell.description"] = "AXMC标准弹匣口径转换器。." .. customatt
+
+L["eft_axmc_barrel308_20.printname"] = "AI AXMC 7.62x51 20英寸枪管"
+L["eft_axmc_barrel308_20.compactname"] = "AXMC 20寸 .308"
+L["eft_axmc_barrel308_20.description"] = "20英寸（508毫米）的AI AXMC 7.62x51 (.308) 枪管。" .. cuttedatt
+
+L["eft_axmc_barrel308_24.printname"] = "AI AXMC 7.62x51 24英寸枪管"
+L["eft_axmc_barrel308_24.compactname"] = "AXMC 24寸 .308"
+L["eft_axmc_barrel308_24.description"] = "24英寸（610毫米）的AI AXMC 7.62x51 (.308) 枪管。" .. cuttedatt
+
+L["eft_axmc_barrel308_26.printname"] = "AI AXMC 7.62x51 26英寸枪管"
+L["eft_axmc_barrel308_26.compactname"] = "AXMC 26寸 .308"
+L["eft_axmc_barrel308_26.description"] = "26英寸（660毫米）的AI AXMC 7.62x51 (.308) 枪管。" .. cuttedatt
+
+L["eft_axmc_bolt308.printname"] = "AI AXMC 7.62x51毫米枪栓零件套组"
+L["eft_axmc_bolt308.compactname"] = "AXMC .308"
+L["eft_axmc_bolt308.description"] = "用于Accuracy International AXMC狙击步枪的.308枪栓零件套组。" .. cuttedatt
+
+L["eft_axmc_mag308.printname"] = "AXMC 7.62x51 10发容量弹匣"
+L["eft_axmc_mag308.compactname"] = "AXMC 308"
+L["eft_axmc_mag308.description"] = "Accuracy International生产的AXMC狙击步枪7.62x51 / .308 10发容量弹匣。" .. cuttedatt
 
  -- 628120dd308cb521f87a8fa1 & 628120d309427b40ab14e76d
 L["eft_axmc_railmid_b.printname"] = "AI AXMC Adapter Kit中导轨 (Black)"
@@ -471,7 +499,7 @@ L["eft_axmc_railshort_b.description"] = "Accuracy International生产的AXMC狙�
 -- m3super90
 L["eft_m3s90_jonnwick.printname"] = "Quad shell loading (like John Wick!)"
 L["eft_m3s90_jonnwick.compactname"] = "Quad Load"
-L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. customatt
+L["eft_m3s90_jonnwick.description"] = "Load shells two at a time like an operator. Very tactical, but also a cheaty technique much faster than the default reload." .. cuttedatt
 
 L["eft_m9a3_black.printname"] = "M9A3 Black frame"
 L["eft_m9a3_black.compactname"] = "Black"
@@ -493,7 +521,7 @@ L["eft_rec_g19x_black.description"] = "Glock 19X 9x19手枪所使用的标准套
 -- 57
 L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. customatt
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. cuttedatt
 
 -- p90
 -- 5cc70093e4a949033c734312
@@ -519,11 +547,11 @@ L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
 
 L["eft_mp18_barrel_762x51.printname"] = "MP-18 7.62x51 600毫米枪管"
 L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
-L["eft_mp18_barrel_762x51.description"] = "带有准星的MP-18 7.62x51猎枪600毫米枪管，出厂标配。"
+L["eft_mp18_barrel_762x51.description"] = "带有准星的MP-18 7.62x51猎枪600毫米枪管，出厂标配。" .. cuttedatt
 
 L["eft_mp18_barrel_762x39.printname"] = "MP-18 7.62x39 600毫米枪管"
 L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
-L["eft_mp18_barrel_762x39.description"] = "带有准星的MP-18 7.62x39猎枪600毫米枪管，出厂标配。"
+L["eft_mp18_barrel_762x39.description"] = "带有准星的MP-18 7.62x39猎枪600毫米枪管，出厂标配。" .. cuttedatt
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -892,13 +920,13 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. customatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. cuttedatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
 L["eft_sks_op.printname"] = "西蒙诺夫 OP-SKS 7.62x39 卡宾枪"
 L["eft_sks_op.compactname"] = "OP-SKS"
-L["eft_sks_op.description"] = "Molot OP-SKS卡宾枪设计用于装填7.62×39这一最流行的弹药，重量和尺寸使卡宾枪符合人体工程学，适合任何年龄和身高的射手。\n它已经被用于各种传统的俄罗斯狩猎超过50年。对非洲、东南亚、中美洲、中东的食肉动物进行过测试。"
+L["eft_sks_op.description"] = "Molot OP-SKS卡宾枪设计用于装填7.62×39这一最流行的弹药，重量和尺寸使卡宾枪符合人体工程学，适合任何年龄和身高的射手。\n它已经被用于各种传统的俄罗斯狩猎超过50年。对非洲、东南亚、中美洲、中东的食肉动物进行过测试。" .. convatt
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -940,13 +968,13 @@ L["eft_spear_blk.description"] = "Repaints the frame and SLX68 suppressor into a
 
 L["eft_spear_bolting.printname"] = "SIG MCX-SPEAR - Use charging handle on reload"
 L["eft_spear_bolting.compactname"] = "C.H. Reload"
-L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_spear_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ Steyr AUG A1 + A3 ]]
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
 L["eft_aug_blk.compactname"] = "Black"
-L["eft_aug_blk.description"] = "Black colored parts." .. customatt
+L["eft_aug_blk.description"] = "Black colored parts." .. cuttedatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
@@ -960,15 +988,15 @@ L["eft_aug_fde.description"] = "Flat Dark Earth (FDE) colored parts." .. customa
 -- kedr
 L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
 L["eft_kedr_stockk.compactname"] = "PP91-F"
-L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
+L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. functionatt
 
 L["eft_kedr_conv_b.printname"] = "PP-91-01 Kedr-B 9x18PM冲锋枪"
 L["eft_kedr_conv_b.compactname"] = "PP-91-01 Kedr-B"
-L["eft_kedr_conv_b.description"] = "一款罕见的PP-91 Kedr消音型冲锋枪，被命名为PP-91-01 Kedr-B。"
+L["eft_kedr_conv_b.description"] = "一款罕见的PP-91 Kedr消音型冲锋枪，被命名为PP-91-01 Kedr-B。" .. convatt
 
 L["eft_kedr_conv_klin.printname"] = "PP-9 “楔子” 9x18PMM 微型冲锋枪"
 L["eft_kedr_conv_klin.compactname"] = "PP-9 Klin"
-L["eft_kedr_conv_klin.description"] = "Kedr冲锋枪的衍生型，使用新型9x18 PMM子弹，被命名为PP-9 Klin。在内务部的命令下自1996年生产至2002年。"
+L["eft_kedr_conv_klin.description"] = "Kedr冲锋枪的衍生型，使用新型9x18 PMM子弹，被命名为PP-9 Klin。在内务部的命令下自1996年生产至2002年。" .. convatt
 
 -- [[ sv98 ]]
 L["eft_sv98_black.printname"] = "SV-98 CNC Guns OV-SV98框架 (Black)"
@@ -993,7 +1021,7 @@ L["eft_mk18_black.description"] = "Repaints the frame and SLX68 suppressor into 
 
 L["eft_mk18_bolting.printname"] = "Mk-18 - Use charging handle on reload"
 L["eft_mk18_bolting.compactname"] = "C.H. Reload"
-L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ H&K G36 + G28 ]]
 -- g28
@@ -1050,7 +1078,7 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 -- aa12
 L["eft_aa12_gen2.printname"] = "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
 L["eft_aa12_gen2.compactname"] = "AA-12 Gen 2"
-L["eft_aa12_gen2.description"] = "The AA-12 (Auto Assault-12) is a reliable full-auto 12-gauge shotgun. The second generation features a mount for installing optics. This shotgun is distinguished by its recoil pulse accumulation, which makes the recoil feel smooth without sacrificing fire rate and stopping power. The AA-12 is designed for military and police units. Manufactured by Military Police Systems."
+L["eft_aa12_gen2.description"] = "The AA-12 (Auto Assault-12) is a reliable full-auto 12-gauge shotgun. The second generation features a mount for installing optics. This shotgun is distinguished by its recoil pulse accumulation, which makes the recoil feel smooth without sacrificing fire rate and stopping power. The AA-12 is designed for military and police units. Manufactured by Military Police Systems." .. convatt
 
 -- [[ M700 + DVL-10 + T-5000 ]]
 -- dvl10
@@ -1062,7 +1090,7 @@ L["eft_dvl10_blk.description"] = "Repaints the frame into a Black color." .. cus
 -- uzi
 L["eft_uzipro_smg.printname"] = "IWI UZI PRO SMG 9x19冲锋枪"
 L["eft_uzipro_smg.compactname"] = "UZI PRO冲锋枪"
-L["eft_uzipro_smg.description"] = "UZI PRO SMG是一款供执法部门和军队使用的冲锋枪。其超紧凑结构的实现使之前的全尺寸UZI冲锋枪得到了强力升级，称为十分理想的强力隐蔽携带武器。由Israel Weapon Industries制造。"
+L["eft_uzipro_smg.description"] = "UZI PRO SMG是一款供执法部门和军队使用的冲锋枪。其超紧凑结构的实现使之前的全尺寸UZI冲锋枪得到了强力升级，称为十分理想的强力隐蔽携带武器。由Israel Weapon Industries制造。" .. convatt
 
 -- [[ MDR + MP-433 + RFB ]]
 -- mdr
@@ -1078,15 +1106,15 @@ L["eft_rhino_mag_std.description"] = "Chiappa Rhino转轮手枪所使用的6发�
 
 L["eft_rhino_barrel_40ds.printname"] = "127毫米Chiappa Rhino 40DS枪管"
 L["eft_rhino_barrel_40ds.compactname"] = "CR 40DS"
-L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. customatt
+L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. cuttedatt
 
 L["eft_rhino_barrel_60ds.printname"] = "152毫米Chiappa Rhino 60DS枪管"
 L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
-L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. customatt
+L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. cuttedatt
 
 L["eft_rhino_speedloader.printname"] = "Chiappa Rhino 6发快速上弹器"
 L["eft_rhino_speedloader.compactname"] = "CR 上弹器"
-L["eft_rhino_speedloader.description"] = "Chiappa Rhino转轮手枪所使用的6发快速上弹器。它可以一次性完成上弹，无需向弹巢里一颗颗地装入子弹。" .. customatt
+L["eft_rhino_speedloader.description"] = "Chiappa Rhino转轮手枪所使用的6发快速上弹器。它可以一次性完成上弹，无需向弹巢里一颗颗地装入子弹。" .. cuttedatt
 
 -- [[ Sako ]]
 -- sako
@@ -1160,10 +1188,11 @@ L["setting.eft.dmgmult.massive.desc"] = [[Affects the following:
 - 12.7x55
 ]]
 
-L["setting.eft.dmgmult.grelau.title"] = "Grenade Cartridges"
-L["setting.eft.dmgmult.grelau.desc"] = [[Affects the explosive radius and splash damage on the following:
-- 40x46
-- 40x53
+L["setting.eft.dmgmult.explosive.title"] = "Explosive Ordnance"
+L["setting.eft.dmgmult.explosive.desc"] = [[Affects the following:
+- All throwable grenades
+- All 40mm & VOG projectiles
+- RShG-2 rockets
 ]]
 
 L["setting.eft.dmgmult.melee.title"] = "Melee"
@@ -1193,5 +1222,5 @@ L["setting.eft.prtaran.desc"] = "[ Melee Pack ]\nIf ANY player draws the \"PR-Ta
 L["setting.eft.holdtypes.title"] = "Use Regular Hold types (Non-TPIK)"
 L["setting.eft.holdtypes.desc"] = "Changes all weapon hold types to their \"correct\" values. Useful for cases when TPIK is disabled, but is not particularly realistic.\n\nHappy now, TPIK haters?\n\nRequires map restart."
 
-L["setting.eft.rshg2.title"] = "RShG-2; Remove after use"
-L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after its use, acting similar to Call of Duty rocket launchers."
+L["setting.eft.rshg2.title"] = "RShG-2 - Remove after use"
+L["setting.eft.rshg2.desc"] = "If enabled, the RShG-2 will be removed from your inventory after it's been shot.\n\nDisable if you want a CoD-like experience, where each rocket will give a fresh launcher."

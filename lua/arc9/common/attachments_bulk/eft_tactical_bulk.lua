@@ -41,7 +41,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_dbal_pl.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light",
+        PrintName = ARC9:GetPhrase("eft_toggle_light"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -55,7 +55,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_laser_green",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_green"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0.15,
@@ -66,7 +66,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },  
     {
-        PrintName = "eft_toggle_light_laser_green",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_green"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -88,7 +88,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     }, 
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -101,7 +101,7 @@ ATT.ToggleStats = {
         EFTMode1 = true
     },   
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0,
@@ -113,7 +113,7 @@ ATT.ToggleStats = {
         EFTMode1 = true
     },   
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -134,7 +134,7 @@ ATT.ToggleStats = {
         EFTMode1 = true
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -176,7 +176,7 @@ ATT.ModelBodygroups = "1"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -188,7 +188,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -208,7 +208,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserStrength = 0,
         LaserFlareMat = Material("effects/arc9_eft/laserdot"),
@@ -219,7 +219,7 @@ ATT.ToggleStats = {
         LaserIR = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -251,7 +251,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kleh2.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light",
+        PrintName = ARC9:GetPhrase("eft_toggle_light"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -265,7 +265,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_light_laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -286,7 +286,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_laser_red",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_red"),
         Laser = true,
         LaserStrength = 0.6,
         LaserFlareMat = Material("effects/arc9_eft/laserdot"),
@@ -296,7 +296,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },   
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -326,7 +326,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kleh2u.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light",
+        PrintName = ARC9:GetPhrase("eft_toggle_light"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -340,7 +340,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -371,7 +371,7 @@ ATT.ToggleOnF = true
 
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0.5,
@@ -383,7 +383,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },  
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0.0,
@@ -395,7 +395,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },    
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         Flashlight = true,
         FlashlightIR = true,
         FlashlightColor = Color(255, 8, 0),
@@ -409,7 +409,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },   
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -430,7 +430,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -467,7 +467,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_lastac2.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light",
+        PrintName = ARC9:GetPhrase("eft_toggle_light"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -481,7 +481,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -511,7 +511,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_ls321.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_laser_green",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_green"),
         Laser = true,
         LaserStrength = 0.15,
         LaserFlareMat = Material("effects/arc9_eft/laserdot"),
@@ -521,7 +521,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },  
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0,
@@ -533,7 +533,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },    
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -546,7 +546,7 @@ ATT.ToggleStats = {
         EFTMode2 = true,
     },   
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -568,7 +568,7 @@ ATT.ToggleStats = {
         EFTMode2 = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -606,7 +606,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_ncstar_tbl.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_laser_blue",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_blue"),
         Laser = true,
         LaserStrength = 1.3,
         LaserFlareMat = Material("effects/arc9_eft/laserdot"),
@@ -616,7 +616,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },   
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -646,7 +646,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0.5,
@@ -658,7 +658,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },  
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0.0,
@@ -670,7 +670,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },    
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         Flashlight = true,
         FlashlightIR = true,
         FlashlightColor = Color(255, 8, 0),
@@ -684,7 +684,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },   
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -705,7 +705,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -745,7 +745,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq2.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0,
@@ -756,7 +756,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -776,7 +776,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -806,7 +806,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_perst3.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0.5,
@@ -818,7 +818,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },        
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0,
@@ -830,7 +830,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },    
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         Flashlight = true,
         FlashlightIR = true,
         FlashlightColor = Color(255, 8, 0),
@@ -844,7 +844,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },   
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightIR = true,
         FlashlightColor = Color(255, 8, 0),
@@ -866,7 +866,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -975,11 +975,11 @@ end
 ATT.ToggleOnF = true -- This attachment is toggleable with the flashlight key.
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_screen",
+        PrintName = ARC9:GetPhrase("eft_toggle_screen"),
         EFTMode1 = true,
     },
     {
-        PrintName = "eft_toggle_laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
         EFTMode1 = true,
         Laser = true,
         LaserIR = true,
@@ -991,7 +991,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },    
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         EFTMode1 = true,
         Laser = true,
         LaserIR = true,
@@ -1003,7 +1003,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },    
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         EFTMode1 = true,
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
@@ -1016,7 +1016,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         EFTMode1 = true,
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
@@ -1037,7 +1037,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -1073,7 +1073,7 @@ ATT.ModelBodygroups = "1"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light_high",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_high"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -1087,7 +1087,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_light_low",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_low"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -1101,7 +1101,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -1133,7 +1133,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_wmx200.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light",
+        PrintName = ARC9:GetPhrase("eft_toggle_light"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -1147,7 +1147,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_searchlight_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_searchlight_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -1158,7 +1158,7 @@ ATT.ToggleStats = {
         FlashlightIR = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -1189,7 +1189,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_flashlights.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light_high",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_high"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -1203,7 +1203,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_light_low",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_low"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -1217,7 +1217,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -1246,7 +1246,7 @@ ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_flashlight",
+        PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
         Category = "eft_25mm",
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -1279,7 +1279,7 @@ ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_flashlight",
+        PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
         Category = "eft_25mm",
         Pos = Vector(0, -1, -0.35),
         Ang = Angle(0, 0, 0),
@@ -1315,7 +1315,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mawl_c1_plus.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_laser",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0.65,
@@ -1327,7 +1327,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },    
     {
-        PrintName = "eft_toggle_laser_high",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_high"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 1.6,
@@ -1339,7 +1339,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },    
     {
-        PrintName = "eft_toggle_light_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -1352,7 +1352,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },   
     {
-        PrintName = "eft_toggle_light_ir_high",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir_high"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -1365,7 +1365,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },   
     {
-        PrintName = "eft_toggle_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
         Laser = true,
         LaserIR = true,
         LaserStrength = 0,
@@ -1377,7 +1377,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },    
     {
-        PrintName = "eft_toggle_light_laser_ir",
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
         Flashlight = true,
         FlashlightColor = Color(255, 8, 0),
         FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
@@ -1397,7 +1397,7 @@ ATT.ToggleStats = {
         EFTMode1 = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -1434,7 +1434,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kr2.mdl"
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_light",
+        PrintName = ARC9:GetPhrase("eft_toggle_light"),
         Flashlight = true,
         FlashlightColor = Color(255, 255, 255),
         FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
@@ -1448,7 +1448,7 @@ ATT.ToggleStats = {
         EFTHipFireSpreadBonus = true,
     },
     {
-        PrintName = "eft_toggle_off",
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
     }
 }
 
@@ -1573,7 +1573,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_bipod",
+        PrintName = ARC9:GetPhrase("eft_cat_bipod"),
         Category = "eft_harris_bipod",
         Pos = Vector(0.366, 0, -0.7),
         Ang = Angle(0, 0, 0),
@@ -1609,7 +1609,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_custom_slot_revolver"}
 ATT.Attachments = {
     {
-        PrintName = "Custom slot",
+        PrintName = ARC9:GetPhrase("eft_cat_custom"),
         Pos = Vector(0, 0, 1),
         Ang = Angle(0, 0, 0),
         Category = {"eft_custom_slot"},

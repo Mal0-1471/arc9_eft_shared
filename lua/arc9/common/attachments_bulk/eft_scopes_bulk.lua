@@ -591,7 +591,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_backup_ta01"},
         Pos = Vector(3.65, 0, -1.5),
         Ang = Angle(0, 0, 0),
@@ -662,7 +662,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_backup_ta01"},
         Pos = Vector(3.65, 0, -1.5),
         Ang = Angle(0, 0, 0),
@@ -723,7 +723,7 @@ ATT.ScopeScreenRatio = 537/1080
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_backup_ta11d"},
         Pos = Vector(3.76, 0, -1.6),
         Ang = Angle(0, 0, 0),
@@ -785,7 +785,7 @@ ATT.ScopeScreenRatio = 695/1080
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_scope",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_small"},
         Pos = Vector(0.5, 0, -2.45),
         Ang = Angle(0, 0, 0),
@@ -1072,10 +1072,10 @@ ATT.Sights = {
 
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_thermalwhite",
+        PrintName = ARC9:GetPhrase("eft_toggle_thermalwhite"),
     },
     {
-        PrintName = "eft_toggle_thermalred",
+        PrintName = ARC9:GetPhrase("eft_toggle_thermalred"),
         RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
             ["$pp_colour_addr"] = 60/255,
             ["$pp_colour_addg"] = 50/255,
@@ -1211,7 +1211,7 @@ ATT.ScopeScreenRatio = 540/1080
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_backup",
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_deltapoint"},
         Pos = Vector(-0.7, 0, -2.32),
         Ang = Angle(0, 0, 0),
@@ -1424,7 +1424,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_misc",
+        PrintName = ARC9:GetPhrase("eft_cat_misc"),
         Category = {"eft_reapir_cup"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -1581,14 +1581,14 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_scope",
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_small"},
         Pos = Vector(-0.7, 0.85, -2.2),
         Ang = Angle(0, 0, 45),
         Icon_Offset = Vector(0, 0, 0),
     },
     {
-        PrintName = "eft_cat_misc",
+        PrintName = ARC9:GetPhrase("eft_cat_misc"),
         Category = {"eft_vulcan_cup"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
@@ -1661,7 +1661,7 @@ ATT.Sights = {
 
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_thermalred",
+        PrintName = ARC9:GetPhrase("eft_toggle_thermalred"),
         RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
             ["$pp_colour_addr"] = 0/255,
             ["$pp_colour_addg"] = 110/255,
@@ -1691,7 +1691,7 @@ ATT.ToggleStats = {
         end
     },
     {
-        PrintName = "eft_toggle_thermalpurple",
+        PrintName = ARC9:GetPhrase("eft_toggle_thermalpurple"),
     },
 }
 
@@ -1807,11 +1807,11 @@ local pattern = Material("vgui/arc9_eft_shared/HeatRamp.png")
 
 ATT.ToggleStats = {
     {
-        PrintName = "eft_toggle_thermalwhite",
+        PrintName = ARC9:GetPhrase("eft_toggle_thermalwhite"),
         RTScopeReticle = Reticle0
     },
     {
-        PrintName = "eft_toggle_thermalyellow",
+        PrintName = ARC9:GetPhrase("eft_toggle_thermalyellow"),
         RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
             ["$pp_colour_addr"] = 0,
             ["$pp_colour_addg"] = 0,
@@ -1898,14 +1898,14 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
     {
-        PrintName = "eft_cat_misc",
+        PrintName = ARC9:GetPhrase("eft_cat_misc"),
         Category = {"eft_zeus_cup"},
         Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(-4.5, 0, 2.2),
     },
     {
-        PrintName = "eft_cat_tactical_r",
+        PrintName = ARC9:GetPhrase("eft_cat_tactical_r"),
         Category = "eft_tactical_pistol",
         Pos = Vector(0.5, 1.4, -2),
         Ang = Angle(0, 0, 90),
