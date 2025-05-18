@@ -377,6 +377,9 @@ L["eft_cat_stock"] = "Kolv"
 -- These are non-EFT attachments requiring either manual localizing, or loose edits.
 -- All attachments will contain "customatt" after them.
 local customatt = "\n\n[ <color=255,200,25>Detta är ett anpassat tillbehör som inte finns med i EFT</color> ]"
+local cuttedatt = "\n\n[ <color=255,200,25>Detta är ett oanvänt tillbehör klippt från EFT, men finns i dess filer</color> ]"
+local functionatt = "\n\n[ <color=255,200,25>Detta tillbehöret fungerar likt en EFT-funktion</color> ]"
+local convatt = "\n\n[ <color=255,200,25>Detta tillbehöret ändrar vapnet till en variant. De är separata vapen i EFT</color> ]"
 local extrasatt = "\n\n[ <color=255,200,25>Detta är ett anpassat tillbehör från EFT Extras</color> ]"
 
 -- [[ EFT Category Names ]]
@@ -428,44 +431,44 @@ L["eft_optic_exps3.description"] = "The EOTech EXPS3 holographic sight. Thanks t
 -- Tactical
 L["eft_shared_fastreload.printname"] = "Dumpa ammo vid omladdning"
 L["eft_shared_fastreload.compactname"] = "Snabb omladd."
-L["eft_shared_fastreload.description"] = "Dumpar alla kvarstående patroner när du laddar om för en snabbare omladdning." .. customatt
+L["eft_shared_fastreload.description"] = "Dumpar alla kvarstående patroner när du laddar om för en snabbare omladdning." .. functionatt
 
 -- [[ AK Platform ]]
 -- mag_ak
  -- 5aaa4194e5b5b055d06310a5 & 59d6272486f77466146386ff
 L["eft_mag_ak_pmag_545_30_fde.printname"] = "30-skotts \"Magpul PMAG 30 GEN M3\"-magasin av 5,45 x 39 kaliber till AK-74 (FDE)"
 L["eft_mag_ak_pmag_545_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_545_30_fde.description"] = "Ett 30-skotts polymer \"Magpul Pmag 30 AK74 GEN M3\"-magasin till 5,45 x 39 AK och kompatibla vapen." .. customatt
+L["eft_mag_ak_pmag_545_30_fde.description"] = "Ett 30-skotts polymer \"Magpul Pmag 30 AK74 GEN M3\"-magasin till 5,45 x 39 AK och kompatibla vapen." .. cuttedatt
 
 L["eft_mag_ak_pmag_762_30_fde.printname"] = "30-skotts \"Magpul PMAG 30 GEN M3\"-magasin av 7,62 x 39 kaliber till AK (FDE)"
 L["eft_mag_ak_pmag_762_30_fde.compactname"] = "GEN M3 30"
-L["eft_mag_ak_pmag_762_30_fde.description"] = "Ett 30-skotts polymer \"Magpul Pmag 30 AK/AKM GEN M3\"-magasin till 7,62 x 39 AK och kompatibla vapen. Kan också användas med .366 TKM-patroner med rätt kaliber AK-kompatibla vapen." .. customatt
+L["eft_mag_ak_pmag_762_30_fde.description"] = "Ett 30-skotts polymer \"Magpul Pmag 30 AK/AKM GEN M3\"-magasin till 7,62 x 39 AK och kompatibla vapen. Kan också användas med .366 TKM-patroner med rätt kaliber AK-kompatibla vapen." .. cuttedatt
 
 -- rec_ak
 -- modified 587e08ee245977446b4410cf
 L["eft_akn.printname"] = "\"N\" laxstjärtskena"
 L["eft_akn.compactname"] = "AK-N"
-L["eft_akn.description"] = "En montering för installation av riktmedel och andra enheter på automatkarbinen AKM/AK74." .. customatt
+L["eft_akn.description"] = "En montering för installation av riktmedel och andra enheter på automatkarbinen AKM/AK74." .. convatt
 
 -- [[ AR15 & HK416 Platform ]]
 -- hg_ar15
  -- 595cfa8b86f77427437e845b
 L["eft_hg_ar15_lvoac_f.printname"] = "\"War Sport LVOA-C\"-handskydd till AR-15 (FDE)"
 L["eft_hg_ar15_lvoac_f.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_f.description"] = "Det lätta \"War Sport LVOA-C\"-handskyddet är designat för användning på sportvapen baserade på AR-15." .. customatt
+L["eft_hg_ar15_lvoac_f.description"] = "Det lätta \"War Sport LVOA-C\"-handskyddet är designat för användning på sportvapen baserade på AR-15." .. cuttedatt
 
 L["eft_hg_ar15_lvoac_g.printname"] = "\"War Sport LVOA-C\"-handskydd till AR-15 (Stealth Grey)"
 L["eft_hg_ar15_lvoac_g.compactname"] = "LVOA-C"
-L["eft_hg_ar15_lvoac_g.description"] = "Det lätta \"War Sport LVOA-C\"-handskyddet är designat för användning på sportvapen baserade på AR-15." .. customatt
+L["eft_hg_ar15_lvoac_g.description"] = "Det lätta \"War Sport LVOA-C\"-handskyddet är designat för användning på sportvapen baserade på AR-15." .. cuttedatt
 
 -- 595cf16b86f77427440c32e2
 L["eft_hg_ar15_lvoas_f.printname"] = "\"War Sport LVOA-S\"-handskydd till AR-15 (FDE)"
 L["eft_hg_ar15_lvoas_f.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_f.description"] = "Det lätta \"War Sport LVOA-S\"-handskyddet (SBR) är designat för användning på sportvapen baserade på AR-15." .. customatt
+L["eft_hg_ar15_lvoas_f.description"] = "Det lätta \"War Sport LVOA-S\"-handskyddet (SBR) är designat för användning på sportvapen baserade på AR-15." .. cuttedatt
 
 L["eft_hg_ar15_lvoas_g.printname"] = "\"War Sport LVOA-S\"-handskydd till AR-15 (Stealth Grey)"
 L["eft_hg_ar15_lvoas_g.compactname"] = "LVOA-S"
-L["eft_hg_ar15_lvoas_g.description"] = "Det lätta \"War Sport LVOA-S\"-handskyddet (SBR) är designat för användning på sportvapen baserade på AR-15." .. customatt
+L["eft_hg_ar15_lvoas_g.description"] = "Det lätta \"War Sport LVOA-S\"-handskyddet (SBR) är designat för användning på sportvapen baserade på AR-15." .. cuttedatt
 
 -- [[ AI AXMC .338/.308 ]]
 -- axmc
@@ -476,7 +479,27 @@ L["eft_axmc_black.description"] = "Färgar om alla FDE-delar till en svart färg
  -- loosely 622f02437762f55aaa68ac85
 L["eft_axmc_magwell.printname"] = "AI AXMC 7,62 x 51 mm magasinbrunn"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
-L["eft_axmc_magwell.description"] = "Standard magasinbrunn till prickskyttegeväret AXMC." .. customatt
+L["eft_axmc_magwell.description"] = "Standard magasinbrunn till prickskyttegeväret AXMC." .. cuttedatt
+
+L["eft_axmc_barrel308_20.printname"] = "AI AXMC 7.62x51 20 inch barrel"
+L["eft_axmc_barrel308_20.compactname"] = "AXMC 20\" .308"
+L["eft_axmc_barrel308_20.description"] = "A 20 inch (508mm) barrel for the AI AXMC chambered in 7.62x51 (.308) ammo." .. cuttedatt
+
+L["eft_axmc_barrel308_24.printname"] = "AI AXMC 7.62x51 24 inch barrel"
+L["eft_axmc_barrel308_24.compactname"] = "AXMC 24\" .308"
+L["eft_axmc_barrel308_24.description"] = "A 24 inch (610mm) barrel for the AI AXMC chambered in 7.62x51 (.308) ammo." .. cuttedatt
+
+L["eft_axmc_barrel308_26.printname"] = "AI AXMC 7.62x51 26 inch barrel"
+L["eft_axmc_barrel308_26.compactname"] = "AXMC 26\" .308"
+L["eft_axmc_barrel308_26.description"] = "A 26 inch (660mm) barrel for the AI AXMC chambered in 7.62x51 (.308) ammo." .. cuttedatt
+
+L["eft_axmc_bolt308.printname"] = "AI AXMC 7.62x51mm bolt assembly"
+L["eft_axmc_bolt308.compactname"] = "AXMC .308"
+L["eft_axmc_bolt308.description"] = "A .308 bolt assembly for the Accuracy International AXMC sniper rifle." .. cuttedatt
+
+L["eft_axmc_mag308.printname"] = "AI AXMC 7.62x51 10-round magazine"
+L["eft_axmc_mag308.compactname"] = "AXMC 308"
+L["eft_axmc_mag308.description"] = "A 10-round AXMC sniper rifle magazine by Accuracy International, for 7.62x51/.308 cartridges." .. cuttedatt
 
  -- 628120dd308cb521f87a8fa1 & 628120d309427b40ab14e76d
 L["eft_axmc_railmid_b.printname"] = "AI AXMC \"Adapter Kit\" medellängd skena (Svart)"
@@ -491,7 +514,7 @@ L["eft_axmc_railshort_b.description"] = "En kort skena till installering på Key
 -- m3super90
 L["eft_m3s90_jonnwick.printname"] = "4x patronladdning (som John Wick!)"
 L["eft_m3s90_jonnwick.compactname"] = "4x Laddning"
-L["eft_m3s90_jonnwick.description"] = "Laddar två patroner samtidigt, som en operatör. Väldigt taktiskt, men också en fuskig teknik mycket snabbare än normal omladdning." .. customatt
+L["eft_m3s90_jonnwick.description"] = "Laddar två patroner samtidigt, som en operatör. Väldigt taktiskt, men också en fuskig teknik mycket snabbare än normal omladdning." .. cuttedatt
 
 L["eft_m9a3_black.printname"] = "M9A3 Svart ram"
 L["eft_m9a3_black.compactname"] = "Svart"
@@ -518,7 +541,7 @@ L["eft_57_fde.description"] = "\"Flat Dark Earth\"-färgad ram." .. customatt
 -- p90
 -- 5cc70093e4a949033c734312
 L["eft_p90_mag_opaque.printname"] = "50-skottsmagasin av kaliber 5,7 x 28 till FN P90 (Original)"
-L["eft_p90_mag_opaque.compactname"] = "P90 50 (Orig.)"
+L["eft_p90_mag_opaque.compactname"] = "P90 50 (O)"
 L["eft_p90_mag_opaque.description"] = "Ett 50-skotts polymermagasin till kulsprutepistolen FN P90 av kaliber 5,7 x 28 mm.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 -- [[ TOZ-106 + MP-18 ]]
@@ -534,6 +557,16 @@ L["eft_ammo_20x70_explosive.description"] = "Hemmagjord 20/70-patron till kalibe
 L["eft_ammo_20x70_flechplus.printname"] = "20/70 Flechette+"
 L["eft_ammo_20x70_flechplus.compactname"] = "Flechette+"
 L["eft_ammo_20x70_flechplus.description"] = "Hemmagjord 20/70-patron till kaliber 20 hagelgevär, laddad med vassa flechettes och högt antal krut. Använder patronen från 20/70 7,5 mm hagelgskott." .. customatt
+
+L["eft_mp18_barrel_762x54r.compactname"] = "MP18 7.62x54R"
+
+L["eft_mp18_barrel_762x51.printname"] = "MP-18 7.62x51 600mm barrel"
+L["eft_mp18_barrel_762x51.compactname"] = "MP18 7.62x51"
+L["eft_mp18_barrel_762x51.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x51 hunting rifles." .. cuttedatt
+
+L["eft_mp18_barrel_762x39.printname"] = "MP-18 7.62x39 600mm barrel"
+L["eft_mp18_barrel_762x39.compactname"] = "MP18 7.62x39"
+L["eft_mp18_barrel_762x39.description"] = "A standard factory-produced 600mm barrel with a front sight for MP-18 7.62x39 hunting rifles." .. cuttedatt
 
 -- [[ EFT Extras ]]
 -- [[ extras ]]
@@ -902,13 +935,13 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. customatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. convatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
 L["eft_sks_op.printname"] = "Molot Arms Simonov OP-SKS 7.62x39 carbine"
 L["eft_sks_op.compactname"] = "OP-SKS"
-L["eft_sks_op.description"] = "The Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East."
+L["eft_sks_op.description"] = "The Molot OP-SKS Carbine is designed for loading with 7,62x39 — the most popular ammunition. The weight and dimensions make the carbine ergonomic for shooters of any age and height. It has been used for all types of traditional Russian hunting for more than 50 years. Tested on predators in Africa, Southeast Asia, Central America, Middle East." .. convatt
 
 -- [[ H&K MP7 + B&T MP9 ]]
 -- [[ mp7 ]]
@@ -935,7 +968,7 @@ L["eft_rsass_black.description"] = "Färgar om ramen till en svart färg." .. cu
 -- mcx_mpx
 -- 5894a05586f774094708ef75
 L["eft_mpx_mag_30_orig.printname"] = "MPX 9x19 30-round magazine (Original)"
-L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (Orig.)"
+L["eft_mpx_mag_30_orig.compactname"] = "MPX 30 (O)"
 L["eft_mpx_mag_30_orig.description"] = "A standard 30-round capacity semitransparent 9x19mm MPX magazine, manufactured by SIG Sauer.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 -- spear
@@ -956,7 +989,7 @@ L["eft_spear_bolting.description"] = "Pull the charging handle when reloading in
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Svart ram"
 L["eft_aug_blk.compactname"] = "Svart"
-L["eft_aug_blk.description"] = "Black colored parts." .. customatt
+L["eft_aug_blk.description"] = "Black colored parts." .. convatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
@@ -970,15 +1003,15 @@ L["eft_aug_fde.description"] = "Flat Dark Earth (FDE) colored parts." .. customa
 -- kedr
 L["eft_kedr_stockk.printname"] = "PP-91 Kedr folded stock"
 L["eft_kedr_stockk.compactname"] = "PP91-F"
-L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. customatt
+L["eft_kedr_stockk.description"] = "Folds the standard-issue stock on the PP-91 Kedr." .. functionatt
 
 L["eft_kedr_conv_b.printname"] = "PP-91-01 Kedr-B 9x18PM submachine gun"
 L["eft_kedr_conv_b.compactname"] = "PP-91-01 Kedr-B"
-L["eft_kedr_conv_b.description"] = "A rare silenced version of the PP-91 Kedr submachine gun, denominated as PP-91-01 Kedr-B."
+L["eft_kedr_conv_b.description"] = "A rare silenced version of the PP-91 Kedr submachine gun, denominated as PP-91-01 Kedr-B." .. convatt
 
 L["eft_kedr_conv_klin.printname"] = "PP-9 Klin 9x18PMM submachine gun"
 L["eft_kedr_conv_klin.compactname"] = "PP-9 Klin"
-L["eft_kedr_conv_klin.description"] = "The PP-9 Klin is a further evolution of the Kedr submachine gun. It has a higher rate of fire and its chamber is designed to use the 9x18 PMM cartridge. It was produced from 1996 to 2002 by order of the Ministry of Internal Affairs."
+L["eft_kedr_conv_klin.description"] = "The PP-9 Klin is a further evolution of the Kedr submachine gun. It has a higher rate of fire and its chamber is designed to use the 9x18 PMM cartridge. It was produced from 1996 to 2002 by order of the Ministry of Internal Affairs." .. convatt
 
 -- [[ sv98 ]]
 L["eft_sv98_black.printname"] = "SV-98 CNC Guns OV-SV98 chassis (Svart)"
@@ -1003,16 +1036,16 @@ L["eft_mk18_black.description"] = "Repaints the frame and SLX68 suppressor into 
 
 L["eft_mk18_bolting.printname"] = "Mk-18 - Use charging handle on reload"
 L["eft_mk18_bolting.compactname"] = "C.H. Reload"
-L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. customatt
+L["eft_mk18_bolting.description"] = "Pull the charging handle when reloading instead of using the bolt release." .. functionatt
 
 -- [[ H&K G36 + G28 ]]
 -- g28
 L["eft_g28_mag_10old.printname"] = "HK417/G28 7.62x51 10-round magazine (Original)"
-L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (Orig.)"
+L["eft_g28_mag_10old.compactname"] = "417 7.62 10 (O)"
 L["eft_g28_mag_10old.description"] = "A 10-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 L["eft_g28_mag_20old.printname"] = "HK417/G28 7.62x51 20-round magazine (Original)"
-L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (Orig.)"
+L["eft_g28_mag_20old.compactname"] = "417 7.62 20 (O)"
 L["eft_g28_mag_20old.description"] = "A 20-round double-stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 L["eft_g28_blk.printname"] = "HK G28 Svart ram"
@@ -1021,7 +1054,7 @@ L["eft_g28_blk.description"] = "Repaints the frame and most accessories into a b
 
 -- g36
 L["eft_g28_mag_30old.printname"] = "HK G36 5.56x45 30-round magazine (Original)"
-L["eft_g28_mag_30old.compactname"] = "G36 30 (Orig.)"
+L["eft_g28_mag_30old.compactname"] = "G36 30 (O)"
 L["eft_g28_mag_30old.description"] = "A 30-round 5.56x45 magazine designed for the HK G36.\n\n[ <color=255,200,25>Original icke-genomskinlig version, precis som i spelet.</color> ]"
 
 -- [[ MP5 + M1911/M45 ]]
@@ -1060,7 +1093,7 @@ L["eft_m60_e6fde.description"] = "Repaints the frame into a Flat Dark Earth (FDE
 -- aa12
 L["eft_aa12_gen2.printname"] = "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
 L["eft_aa12_gen2.compactname"] = "AA-12 Gen 2"
-L["eft_aa12_gen2.description"] = "The AA-12 (Auto Assault-12) is a reliable full-auto 12-gauge shotgun. The second generation features a mount for installing optics. This shotgun is distinguished by its recoil pulse accumulation, which makes the recoil feel smooth without sacrificing fire rate and stopping power. The AA-12 is designed for military and police units. Manufactured by Military Police Systems."
+L["eft_aa12_gen2.description"] = "The AA-12 (Auto Assault-12) is a reliable full-auto 12-gauge shotgun. The second generation features a mount for installing optics. This shotgun is distinguished by its recoil pulse accumulation, which makes the recoil feel smooth without sacrificing fire rate and stopping power. The AA-12 is designed for military and police units. Manufactured by Military Police Systems." .. convatt
 
 -- [[ M700 + DVL-10 + T-5000 ]]
 -- dvl10
@@ -1072,7 +1105,7 @@ L["eft_dvl10_blk.description"] = "Färgar om ramen till en svart färg." .. cust
 -- uzi
 L["eft_uzipro_smg.printname"] = "IWI UZI PRO SMG 9x19 submachine gun"
 L["eft_uzipro_smg.compactname"] = "UZI PRO SMG"
-L["eft_uzipro_smg.description"] = "The UZI PRO SMG is a submachine gun for law enforcement and military use. This ultra-compact submachine gun is an evolution of the full-size UZI submachine gun, ideal for concealed carry and featuring a high rate of fire. Manufactured by Israel Weapon Industries."
+L["eft_uzipro_smg.description"] = "The UZI PRO SMG is a submachine gun for law enforcement and military use. This ultra-compact submachine gun is an evolution of the full-size UZI submachine gun, ideal for concealed carry and featuring a high rate of fire. Manufactured by Israel Weapon Industries." .. convatt
 
 -- [[ MDR + MP-433 + RFB ]]
 -- mdr
@@ -1088,15 +1121,15 @@ L["eft_rhino_mag_std.description"] = "A 6-round cylinder for Chiappa Rhino revol
 
 L["eft_rhino_barrel_40ds.printname"] = "Chiappa Rhino 40DS 127mm barrel"
 L["eft_rhino_barrel_40ds.compactname"] = "CR 40DS"
-L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. customatt
+L["eft_rhino_barrel_40ds.description"] = "A 127mm long barrel for the Chiappa Rhino 40DS revolver." .. cuttedatt
 
 L["eft_rhino_barrel_60ds.printname"] = "Chiappa Rhino 60DS 152mm barrel"
 L["eft_rhino_barrel_60ds.compactname"] = "CR 60DS"
-L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. customatt
+L["eft_rhino_barrel_60ds.description"] = "A 152mm long barrel for the Chiappa Rhino 60DS revolver." .. cuttedatt
 
 L["eft_rhino_speedloader.printname"] = "Chiappa Rhino 6-round speedloader"
 L["eft_rhino_speedloader.compactname"] = "CR load"
-L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder." .. customatt
+L["eft_rhino_speedloader.description"] = "A 6-round speedloader for the Chiappa Rhino revolvers. Allows reloading without the need to insert each single cartridge into the cylinder." .. cuttedatt
 
 -- [[ Sako ]]
 -- sako

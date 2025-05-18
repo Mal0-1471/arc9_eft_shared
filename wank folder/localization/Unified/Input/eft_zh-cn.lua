@@ -464,7 +464,7 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
  -- loosely 622f02437762f55aaa68ac85
 L["eft_axmc_magwell.printname"] = "AI AXMC 7.62x51mm 弹匣转换器"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
-L["eft_axmc_magwell.description"] = "AXMC标准弹匣口径转换器。." .. customatt
+L["eft_axmc_magwell.description"] = "AXMC标准弹匣口径转换器。." .. cuttedatt
 
 L["eft_axmc_barrel308_20.printname"] = eftstring["628121651d5df4475f46a33c Name"]:gsub("!!!DO_NOT_USE!!!", "")
 L["eft_axmc_barrel308_20.compactname"] = eftstring["628121651d5df4475f46a33c ShortName"]
@@ -521,7 +521,7 @@ L["eft_rec_g19x_black.description"] = eftstring["63075cc5962d0247b029dc2a Descri
 -- 57
 L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. cuttedatt
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. convatt
 
 -- p90
 -- 5cc70093e4a949033c734312
@@ -920,7 +920,7 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. cuttedatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. convatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
@@ -974,7 +974,7 @@ L["eft_spear_bolting.description"] = "Pull the charging handle when reloading in
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
 L["eft_aug_blk.compactname"] = "Black"
-L["eft_aug_blk.description"] = "Black colored parts." .. cuttedatt
+L["eft_aug_blk.description"] = "Black colored parts." .. convatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
@@ -1133,6 +1133,15 @@ L["setting.eft.mindmg.desc"] = "How much maximum range all EFT weapons (excludin
 
 L["setting.eft.mindmg.sg.title"] = "   › For Shotguns"
 L["setting.eft.mindmg.sg.desc"] = "How much maximum range all EFT shotguns should have. Measured in meters.\nEFT default: 100"
+
+L["setting.eft.ergomult.title"] = "Ergonomics Multiplier"
+L["setting.eft.ergomult.desc"] = [[Affects the following stats:
+- Aiming Speed
+- Weapon Sway
+- Hold Breath Duration
+
+A max level PMC with full weapon proficiency has a 1x multiplier.
+]]
 
 L["setting.eft.dmgmult.title"] = "Damage Multipliers"
 L["setting.eft.dmgmult.desc"] = "Damage multipliers for the various weapon calibers. True EFT experience is with everything set to 1x, but players there have 450 HP, so GMod could benefit from lower values."
