@@ -445,7 +445,7 @@ L["eft_axmc_black.description"] = "Repaints all of the FDE parts into a black co
  -- loosely 622f02437762f55aaa68ac85
 L["eft_axmc_magwell.printname"] = "Магазиноприемник для AI AXMC 7.62x51mm"
 L["eft_axmc_magwell.compactname"] = "AXMC .308"
-L["eft_axmc_magwell.description"] = "Расширитель шахты магазина для винтовки AXMC." .. customatt
+L["eft_axmc_magwell.description"] = "Расширитель шахты магазина для винтовки AXMC." .. cuttedatt
 
 L["eft_axmc_barrel308_20.printname"] = "Ствол 508мм для AI AXMC 7.62x51мм"
 L["eft_axmc_barrel308_20.compactname"] = "AXMC 508мм .308"
@@ -502,7 +502,7 @@ L["eft_rec_g19x_black.description"] = "Штатный затвор для пис
 -- 57
 L["eft_57_fde.printname"] = "FN Five-seveN Mk2 FDE frame"
 L["eft_57_fde.compactname"] = "FDE"
-L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. cuttedatt
+L["eft_57_fde.description"] = "Flat Dark Earth colored frame." .. convatt
 
 -- p90
 -- 5cc70093e4a949033c734312
@@ -901,7 +901,7 @@ L["eft_fn40_black.description"] = "Repaints all of the FDE parts into a black co
 -- [[ scar ]]
 L["eft_scar_fde.printname"] = "FN SCAR FDE receiver"
 L["eft_scar_fde.compactname"] = "FDE"
-L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. cuttedatt
+L["eft_scar_fde.description"] = "Repaints the receiver into a black color." .. convatt
 
 -- [[ SKS + SVT + AVT ]]
 -- [[ sks ]]
@@ -955,7 +955,7 @@ L["eft_spear_bolting.description"] = "Pull the charging handle when reloading in
 -- aug
 L["eft_aug_blk.printname"] = "Steyr AUG Black frame"
 L["eft_aug_blk.compactname"] = "Black"
-L["eft_aug_blk.description"] = "Black colored parts." .. cuttedatt
+L["eft_aug_blk.description"] = "Black colored parts." .. convatt
 
 L["eft_aug_wht.printname"] = "Steyr AUG White frame"
 L["eft_aug_wht.compactname"] = "White"
