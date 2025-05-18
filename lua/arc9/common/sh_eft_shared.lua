@@ -425,14 +425,14 @@ ARC9EFT.ErgoHook = function(self, orig)
 end
 
 ARC9EFT.SwayErgoHook = function(self, orig) -- zero idea, it doesn't even work this way in eft
-    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100) * ergomult:GetFloat()
-    return math.max(0.05, orig * 0.5 + ((1 - ergo * 0.01) * 0.66))
+    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)
+    return math.max(0.05, orig * 0.5 + ((1 - ergo * 0.01) * 0.66) * ergomult:GetFloat())
 end
 
 ARC9EFT.ErgoBreathHook = function(self, orig)
     if self:GetBipod() then return orig * 10 end
-    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100) * ergomult:GetFloat()
-    return math.max(1, orig - (100 - ergo) / 5)
+    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)
+    return math.max(1, orig - (100 - ergo) / 5 * ergomult:GetFloat())
 end
 
 ARC9EFT.ErgoAdsVolume = function(self, data) -- unused after they added ads sounds
