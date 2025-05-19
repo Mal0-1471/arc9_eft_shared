@@ -378,23 +378,26 @@ local attdir = {
 L["eft_cat_ammo"] = "Munitions" -- Should never be seen, but better safe than sorry
 L["eft_cat_misc"] = eftstring["Misc"]
 
-L["eft_cat_custom"] = "Custom"
+L["eft_cat_custom"] = "Personnalisée"
+L["eft_cat_camo"] = "Camo "
 L["eft_cat_camo1"] = "Camo 1"
 L["eft_cat_camo2"] = "Camo 2"
 L["eft_cat_camo3"] = "Camo 3"
 
-L["eft_cat_catch"] = "Bolt catch"
+L["eft_cat_catch"] = "Loqueteau"
 L["eft_cat_frontsight"] = "Guidon"
 L["eft_cat_rearsight"] = "Hausse"
-L["eft_cat_hammer"] = "Marteau"
-L["eft_cat_muzzle"] = "Bouche"
-L["eft_cat_silencer"] = "Réducteur de son"
+L["eft_cat_hammer"] = "Percuteur"
+L["eft_cat_muzzle"] = "Museau"
+L["eft_cat_silencer"] = "Suppresseur"
 L["eft_cat_tactical"] = "Tactique"
-L["eft_cat_trigger"] = "Détente"
+L["eft_cat_trigger"] = "Gâchette"
 L["eft_cat_backup"] = "Mire de secours"
 L["eft_cat_dovetail"] = "Queue d'aronde"
 L["eft_cat_buffertube"] = "Tube de crosse"
-L["eft_cat_magwell"] = "Puits de chargeur"
+L["eft_cat_aux"] = "Auxiliaires"
+L["eft_cat_equipment"] = "Équipement"
+L["eft_cat_sticker"] = "Autocollant"
 
 L["eft_cat_tactical_l"] = "Tactique" .. attdir.l
 L["eft_cat_tactical_r"] = "Tactique" .. attdir.r
@@ -405,6 +408,30 @@ L["eft_cat_mount_l"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.l
 L["eft_cat_mount_r"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.r
 L["eft_cat_mount_u"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.u
 L["eft_cat_mount_b"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.b
+
+L["eft_cat_mlok_l"] = "M-LOK" .. attdir.l
+L["eft_cat_mlok_r"] = "M-LOK" .. attdir.r
+L["eft_cat_mlok_u"] = "M-LOK" .. attdir.u
+L["eft_cat_mlok_b"] = "M-LOK" .. attdir.b
+
+L["eft_cat_keymod_l"] = "KeyMod" .. attdir.l
+L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
+L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
+L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
+
+-- [[ EFT Folders ]]
+L["folder.Holo"] = "Holo"
+L["folder.Reflex"] = "Reflex"
+L["folder.Scopes"] = "Télescop."
+L["folder.Special"] = "Spécial"
+L["folder.Mounts"] = "Rail"
+
+L["folder.Zenit"] = "Zenit"
+L["folder.Soyuz-TM"] = "Soyuz-TM"
+
+-- EFT: Arena
+L["folder.Unique"] = "Unique" 
+L["folder.Solid"] = "Solid"
 
 -- [[ Shared ]]
 -- Optics

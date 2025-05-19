@@ -379,6 +379,7 @@ L["eft_cat_ammo"] = "弾薬" -- Should never be seen, but better safe than sorry
 L["eft_cat_misc"] = "その他"
 
 L["eft_cat_custom"] = "カスタム"
+L["eft_cat_camo"] = "Camo "
 L["eft_cat_camo1"] = "Camo 1"
 L["eft_cat_camo2"] = "Camo 2"
 L["eft_cat_camo3"] = "Camo 3"
@@ -394,7 +395,9 @@ L["eft_cat_trigger"] = "トリガー"
 L["eft_cat_backup"] = "バックアップリアサイト"
 L["eft_cat_dovetail"] = "Dovetail"
 L["eft_cat_buffertube"] = "Buffer tube"
-L["eft_cat_magwell"] = "Magwell"
+L["eft_cat_aux"] = "補助パーツ"
+L["eft_cat_equipment"] = "装備品"
+L["eft_cat_sticker"] = "Sticker"
 
 L["eft_cat_tactical_l"] = "タクティカル" .. attdir.l
 L["eft_cat_tactical_r"] = "タクティカル" .. attdir.r
@@ -405,6 +408,30 @@ L["eft_cat_mount_l"] = "マウント" .. attdir.l
 L["eft_cat_mount_r"] = "マウント" .. attdir.r
 L["eft_cat_mount_u"] = "マウント" .. attdir.u
 L["eft_cat_mount_b"] = "マウント" .. attdir.b
+
+L["eft_cat_mlok_l"] = "M-LOK" .. attdir.l
+L["eft_cat_mlok_r"] = "M-LOK" .. attdir.r
+L["eft_cat_mlok_u"] = "M-LOK" .. attdir.u
+L["eft_cat_mlok_b"] = "M-LOK" .. attdir.b
+
+L["eft_cat_keymod_l"] = "KeyMod" .. attdir.l
+L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
+L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
+L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
+
+-- [[ EFT Folders ]]
+L["folder.Holo"] = "Holo"
+L["folder.Reflex"] = "リフレックス"
+L["folder.Scopes"] = "スコープ"
+L["folder.Special"] = "スペシャル"
+L["folder.Mounts"] = "マウント"
+
+L["folder.Zenit"] = "Zenit"
+L["folder.Soyuz-TM"] = "Soyuz-TM"
+
+-- EFT: Arena
+L["folder.Unique"] = "Unique" 
+L["folder.Solid"] = "Solid"
 
 -- [[ Shared ]]
 -- Optics

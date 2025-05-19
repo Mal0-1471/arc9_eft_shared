@@ -379,6 +379,7 @@ L["eft_cat_ammo"] = "Munición" -- Should never be seen, but better safe than so
 L["eft_cat_misc"] = eftstring["Misc"]
 
 L["eft_cat_custom"] = "Personalizado"
+L["eft_cat_camo"] = "Camo "
 L["eft_cat_camo1"] = "Camo 1"
 L["eft_cat_camo2"] = "Camo 2"
 L["eft_cat_camo3"] = "Camo 3"
@@ -394,7 +395,9 @@ L["eft_cat_trigger"] = "Disparador"
 L["eft_cat_backup"] = "Alza de respaldo"
 L["eft_cat_dovetail"] = "Dovetail"
 L["eft_cat_buffertube"] = "Tubo amortiguador"
-L["eft_cat_magwell"] = "Magwell"
+L["eft_cat_aux"] = "Auxiliares"
+L["eft_cat_equipment"] = "Equipamiento"
+L["eft_cat_sticker"] = "Sticker"
 
 L["eft_cat_tactical_l"] = "Táctico" .. attdir.l
 L["eft_cat_tactical_r"] = "Táctico" .. attdir.r
@@ -405,6 +408,30 @@ L["eft_cat_mount_l"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.l
 L["eft_cat_mount_r"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.r
 L["eft_cat_mount_u"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.u
 L["eft_cat_mount_b"] = eftstring["55818b224bdc2dde698b456f Name"] .. attdir.b
+
+L["eft_cat_mlok_l"] = "M-LOK" .. attdir.l
+L["eft_cat_mlok_r"] = "M-LOK" .. attdir.r
+L["eft_cat_mlok_u"] = "M-LOK" .. attdir.u
+L["eft_cat_mlok_b"] = "M-LOK" .. attdir.b
+
+L["eft_cat_keymod_l"] = "KeyMod" .. attdir.l
+L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
+L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
+L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
+
+-- [[ EFT Folders ]]
+L["folder.Holo"] = "Holo"
+L["folder.Reflex"] = "Réflex"
+L["folder.Scopes"] = "Óptica"
+L["folder.Special"] = "Especiales"
+L["folder.Mounts"] = "Monturas"
+
+L["folder.Zenit"] = "Zenit"
+L["folder.Soyuz-TM"] = "Soyuz-TM"
+
+-- EFT: Arena
+L["folder.Unique"] = "Unique" 
+L["folder.Solid"] = "Solid"
 
 -- [[ Shared ]]
 -- Optics

@@ -379,10 +379,10 @@ L["eft_cat_ammo"] = "Боеприпас" -- Should never be seen, but better saf
 L["eft_cat_misc"] = "Разное"
 
 L["eft_cat_custom"] = "Кастом. слот"
-L["eft_cat_camo"] = "Камо "
-L["eft_cat_camo1"] = "Камо 1"
-L["eft_cat_camo2"] = "Камо 2"
-L["eft_cat_camo3"] = "Камо 3"
+L["eft_cat_camo"] = "Camo "
+L["eft_cat_camo1"] = "Camo 1"
+L["eft_cat_camo2"] = "Camo 2"
+L["eft_cat_camo3"] = "Camo 3"
 
 L["eft_cat_catch"] = "Затвор"
 L["eft_cat_frontsight"] = "Мушка"
@@ -395,10 +395,9 @@ L["eft_cat_trigger"] = "Спуск. крючок"
 L["eft_cat_backup"] = "Зап. прицел"
 L["eft_cat_dovetail"] = "Ласт. хвост"
 L["eft_cat_buffertube"] = "Труба"
--- L["eft_cat_magwell"] = "Магазиноприемник"
-L["eft_cat_aux"] = "Вспомогательное"
-L["eft_cat_equipment"] = "Оборудование"
-L["eft_cat_sticker"] = "Стикер"
+L["eft_cat_aux"] = "Вспомогательные"
+L["eft_cat_equipment"] = "Снаряжение"
+L["eft_cat_sticker"] = "Sticker"
 
 L["eft_cat_tactical_l"] = "Такт." .. attdir.l
 L["eft_cat_tactical_r"] = "Такт." .. attdir.r
@@ -420,6 +419,14 @@ L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
 L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
 L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
 
+-- Replaces a-eftbulk strings
+L["eft_cat_foregrip"] = "Так. рукоять"
+L["eft_cat_gasblock"] = "Газ. блок"
+L["eft_cat_launcher"] = "Подствол."
+L["eft_cat_pgrip"] = "Пист. рукоять"
+L["eft_cat_scope"] = "Прицел"
+
+-- [[ EFT Folders ]]
 L["folder.Holo"] = "Голограф."
 L["folder.Reflex"] = "Коллиматоры"
 L["folder.Scopes"] = "Оптические"
@@ -429,8 +436,9 @@ L["folder.Mounts"] = "Крепления"
 L["folder.Zenit"] = "Зенит"
 L["folder.Soyuz-TM"] = "Союз-ТМ"
 
-L["folder.Unique"] = "Уникальные" -- arena camos
-L["folder.Solid"] = "Сплошные" -- arena camos
+-- EFT: Arena
+L["folder.Unique"] = "Уникальные" 
+L["folder.Solid"] = "Сплошные"
 
 -- [[ Shared ]]
 -- Optics

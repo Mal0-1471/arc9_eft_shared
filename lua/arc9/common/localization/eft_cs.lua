@@ -369,42 +369,69 @@ local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT 
 
 -- [[ EFT Category Names ]]
 local attdir = {
-	l = " Vl.", -- Vlevo / Left
-	r = " Vp.", -- Vpravo / Right
-	u = " N", -- Nahore / Upper
-	b = " D" -- Dole / Bottom
+	l = " L", -- Levá / Left
+	r = " P", -- Pravá / Right
+	u = " H", -- Horní / Upper
+	b = " S" -- Spodní / Bottom
 }
 
 L["eft_cat_ammo"] = "Munice" -- Should never be seen, but better safe than sorry
 L["eft_cat_misc"] = "Různé"
 
-L["eft_cat_custom"] = "Vlastní"
-L["eft_cat_camo1"] = "Camo 1"
-L["eft_cat_camo2"] = "Camo 2"
-L["eft_cat_camo3"] = "Camo 3"
+L["eft_cat_custom"] = "Specialní slot"
+L["eft_cat_camo"] = "Kamufláž "
+L["eft_cat_camo1"] = "Kamufláž 1"
+L["eft_cat_camo2"] = "Kamufláž 2"
+L["eft_cat_camo3"] = "Kamufláž 3"
 
-L["eft_cat_catch"] = "Bolt catch"
+L["eft_cat_catch"] = "Záchyt závěru"
 L["eft_cat_frontsight"] = "Muška"
 L["eft_cat_rearsight"] = "Hledí"
-L["eft_cat_hammer"] = "Kladívko"
-L["eft_cat_muzzle"] = "Ústí"
+L["eft_cat_hammer"] = "Kohout"
+L["eft_cat_muzzle"] = "Úsťová brzda"
 L["eft_cat_silencer"] = "Tlumič"
-L["eft_cat_tactical"] = "Taktický"
-L["eft_cat_trigger"] = "Trigger"
-L["eft_cat_backup"] = "Záložní hledí"
-L["eft_cat_dovetail"] = "Boční"
-L["eft_cat_buffertube"] = "Trubice s vratnou pružinou"
-L["eft_cat_magwell"] = "Zásobníková šachta"
+L["eft_cat_tactical"] = "Speciální"
+L["eft_cat_trigger"] = "Spoušť"
+L["eft_cat_backup"] = "Záložní zaměřovač"
+L["eft_cat_dovetail"] = "Rybinová lišta"
+L["eft_cat_buffertube"] = "Trubice"
+L["eft_cat_aux"] = "Přídavné"
+L["eft_cat_equipment"] = "Vybavení"
+L["eft_cat_sticker"] = "Nálepka"
 
-L["eft_cat_tactical_l"] = "Taktický" .. attdir.l
-L["eft_cat_tactical_r"] = "Taktický" .. attdir.r
-L["eft_cat_tactical_u"] = "Taktický" .. attdir.u
-L["eft_cat_tactical_b"] = "Taktický" .. attdir.b
+L["eft_cat_tactical_l"] = "Speciální" .. attdir.l
+L["eft_cat_tactical_r"] = "Speciální" .. attdir.r
+L["eft_cat_tactical_u"] = "Speciální" .. attdir.u
+L["eft_cat_tactical_b"] = "Speciální" .. attdir.b
 
 L["eft_cat_mount_l"] = "Montáž" .. attdir.l
 L["eft_cat_mount_r"] = "Montáž" .. attdir.r
 L["eft_cat_mount_u"] = "Montáž" .. attdir.u
 L["eft_cat_mount_b"] = "Montáž" .. attdir.b
+
+L["eft_cat_mlok_l"] = "M-LOK" .. attdir.l
+L["eft_cat_mlok_r"] = "M-LOK" .. attdir.r
+L["eft_cat_mlok_u"] = "M-LOK" .. attdir.u
+L["eft_cat_mlok_b"] = "M-LOK" .. attdir.b
+
+L["eft_cat_keymod_l"] = "KeyMod" .. attdir.l
+L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
+L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
+L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
+
+-- [[ EFT Folders ]]
+L["folder.Holo"] = "Holograf."
+L["folder.Reflex"] = "Reflexní"
+L["folder.Scopes"] = "Optiky"
+L["folder.Special"] = "Speciální"
+L["folder.Mounts"] = "Montáže"
+
+L["folder.Zenit"] = "Zenit"
+L["folder.Soyuz-TM"] = "Soyuz-TM"
+
+-- EFT: Arena
+L["folder.Unique"] = "Unique" 
+L["folder.Solid"] = "Solid"
 
 -- [[ Shared ]]
 -- Optics

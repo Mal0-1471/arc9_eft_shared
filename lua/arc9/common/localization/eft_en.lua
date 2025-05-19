@@ -395,7 +395,6 @@ L["eft_cat_trigger"] = "Trigger"
 L["eft_cat_backup"] = "Backup sight"
 L["eft_cat_dovetail"] = "Dovetail"
 L["eft_cat_buffertube"] = "Buffer tube"
--- L["eft_cat_magwell"] = "Magwell" -- eft_cat_magshaft instead
 L["eft_cat_aux"] = "Auxiliary"
 L["eft_cat_equipment"] = "Equipment"
 L["eft_cat_sticker"] = "Sticker"
@@ -420,14 +419,19 @@ L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
 L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
 L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
 
+-- [[ EFT Folders ]]
 L["folder.Holo"] = "Holo"
 L["folder.Reflex"] = "Reflex"
 L["folder.Scopes"] = "Scopes"
 L["folder.Special"] = "Special"
 L["folder.Mounts"] = "Mounts"
 
-L["folder.Unique"] = "Unique" -- arena camos
-L["folder.Solid"] = "Solid" -- arena camos
+L["folder.Zenit"] = "Zenit"
+L["folder.Soyuz-TM"] = "Soyuz-TM"
+
+-- EFT: Arena
+L["folder.Unique"] = "Unique" 
+L["folder.Solid"] = "Solid"
 
 -- [[ Shared ]]
 -- Optics

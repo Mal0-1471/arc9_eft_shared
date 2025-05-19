@@ -379,6 +379,7 @@ L["eft_cat_ammo"] = "Amunicja" -- Should never be seen, but better safe than sor
 L["eft_cat_misc"] = "Różne"
 
 L["eft_cat_custom"] = "Własna"
+L["eft_cat_camo"] = "Camo "
 L["eft_cat_camo1"] = "Camo 1"
 L["eft_cat_camo2"] = "Camo 2"
 L["eft_cat_camo3"] = "Camo 3"
@@ -394,7 +395,9 @@ L["eft_cat_trigger"] = "Spust"
 L["eft_cat_backup"] = "Backup sight"
 L["eft_cat_dovetail"] = "Jaskółczy ogon"
 L["eft_cat_buffertube"] = "Prowadnica kolby"
-L["eft_cat_magwell"] = "Lejek gniazda mag."
+L["eft_cat_aux"] = "Pomocnicze"
+L["eft_cat_equipment"] = "Ekwipunek"
+L["eft_cat_sticker"] = "Sticker"
 
 L["eft_cat_tactical_l"] = "Taktyczny" .. attdir.l
 L["eft_cat_tactical_r"] = "Taktyczny" .. attdir.r
@@ -405,6 +408,30 @@ L["eft_cat_mount_l"] = "Montaż" .. attdir.l
 L["eft_cat_mount_r"] = "Montaż" .. attdir.r
 L["eft_cat_mount_u"] = "Montaż" .. attdir.u
 L["eft_cat_mount_b"] = "Montaż" .. attdir.b
+
+L["eft_cat_mlok_l"] = "M-LOK" .. attdir.l
+L["eft_cat_mlok_r"] = "M-LOK" .. attdir.r
+L["eft_cat_mlok_u"] = "M-LOK" .. attdir.u
+L["eft_cat_mlok_b"] = "M-LOK" .. attdir.b
+
+L["eft_cat_keymod_l"] = "KeyMod" .. attdir.l
+L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
+L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
+L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
+
+-- [[ EFT Folders ]]
+L["folder.Holo"] = "Holo"
+L["folder.Reflex"] = "Kolimat."
+L["folder.Scopes"] = "Luneta"
+L["folder.Special"] = "Specjalne"
+L["folder.Mounts"] = "Montaże"
+
+L["folder.Zenit"] = "Zenit"
+L["folder.Soyuz-TM"] = "Sojuz-TM"
+
+-- EFT: Arena
+L["folder.Unique"] = "Unique" 
+L["folder.Solid"] = "Solid"
 
 -- [[ Shared ]]
 -- Optics

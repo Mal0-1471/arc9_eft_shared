@@ -1,7 +1,14 @@
 Place all EFT .json localization files here, then run the .bat file. It'll convert all of them to functional Lua tables.
 
 Once complete, open all of them and ensure to replace the following:
-\u00A0 > " "
-\u202F > " "
-\uFEFF > ""
-\u3000 > "　"
+\u00A0 -> " "
+\u202F -> " "
+\uFEFF -> ""
+\u3000 -> "　"
+
+Polish changes:
+M140 -> M14
+RPD mag states 7,62 x 54 R -> 7,62 x 39
+
+Russian changes:
+"L6" short name -> "Desert Eagle L6"
