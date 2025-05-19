@@ -379,6 +379,7 @@ L["eft_cat_ammo"] = "Ammo" -- Should never be seen, but better safe than sorry
 L["eft_cat_misc"] = "Misc"
 
 L["eft_cat_custom"] = "Custom slot"
+L["eft_cat_camo"] = "Camo "
 L["eft_cat_camo1"] = "Camo 1"
 L["eft_cat_camo2"] = "Camo 2"
 L["eft_cat_camo3"] = "Camo 3"
@@ -394,7 +395,10 @@ L["eft_cat_trigger"] = "Trigger"
 L["eft_cat_backup"] = "Backup sight"
 L["eft_cat_dovetail"] = "Dovetail"
 L["eft_cat_buffertube"] = "Buffer tube"
-L["eft_cat_magwell"] = "Magwell"
+-- L["eft_cat_magwell"] = "Magwell" -- eft_cat_magshaft instead
+L["eft_cat_aux"] = "Auxiliary"
+L["eft_cat_equipment"] = "Equipment"
+L["eft_cat_sticker"] = "Sticker"
 
 L["eft_cat_tactical_l"] = "Tactical" .. attdir.l
 L["eft_cat_tactical_r"] = "Tactical" .. attdir.r
@@ -405,6 +409,16 @@ L["eft_cat_mount_l"] = "Mount" .. attdir.l
 L["eft_cat_mount_r"] = "Mount" .. attdir.r
 L["eft_cat_mount_u"] = "Mount" .. attdir.u
 L["eft_cat_mount_b"] = "Mount" .. attdir.b
+
+L["eft_cat_mlok_l"] = "M-LOK" .. attdir.l
+L["eft_cat_mlok_r"] = "M-LOK" .. attdir.r
+L["eft_cat_mlok_u"] = "M-LOK" .. attdir.u
+L["eft_cat_mlok_b"] = "M-LOK" .. attdir.b
+
+L["eft_cat_keymod_l"] = "KeyMod" .. attdir.l
+L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
+L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
+L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
 
 -- [[ Shared ]]
 -- Optics

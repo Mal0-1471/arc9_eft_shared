@@ -358,22 +358,26 @@ L["eft_cat_ammo"] = "Боеприпас" -- Should never be seen, but better saf
 L["eft_cat_misc"] = "Разное"
 
 L["eft_cat_custom"] = "Кастом. слот"
-L["eft_cat_camo1"] = "Camo 1"
-L["eft_cat_camo2"] = "Camo 2"
-L["eft_cat_camo3"] = "Camo 3"
+L["eft_cat_camo"] = "Камо "
+L["eft_cat_camo1"] = "Камо 1"
+L["eft_cat_camo2"] = "Камо 2"
+L["eft_cat_camo3"] = "Камо 3"
 
 L["eft_cat_catch"] = "Затвор"
 L["eft_cat_frontsight"] = "Мушка"
 L["eft_cat_rearsight"] = "Целик"
 L["eft_cat_hammer"] = "Курок"
-L["eft_cat_muzzle"] = "Ствол"
+L["eft_cat_muzzle"] = "Дуло"
 L["eft_cat_silencer"] = "Глушитель"
 L["eft_cat_tactical"] = "Такт."
-L["eft_cat_trigger"] = "Спуск"
+L["eft_cat_trigger"] = "Спуск. крючок"
 L["eft_cat_backup"] = "Зап. прицел"
 L["eft_cat_dovetail"] = "Ласт. хвост"
 L["eft_cat_buffertube"] = "Труба"
-L["eft_cat_magwell"] = "Магазиноприемник"
+-- L["eft_cat_magwell"] = "Магазиноприемник"
+L["eft_cat_aux"] = "Вспомогательное"
+L["eft_cat_equipment"] = "Оборудование"
+L["eft_cat_sticker"] = "Стикер"
 
 L["eft_cat_tactical_l"] = "Такт." .. attdir.l
 L["eft_cat_tactical_r"] = "Такт." .. attdir.r
@@ -385,7 +389,15 @@ L["eft_cat_mount_r"] = "Крепление" .. attdir.r
 L["eft_cat_mount_u"] = "Крепление" .. attdir.u
 L["eft_cat_mount_b"] = "Крепление" .. attdir.b
 
-L["eft_cat_scope"] = "Прицел"
+L["eft_cat_mlok_l"] = "M-LOK" .. attdir.l
+L["eft_cat_mlok_r"] = "M-LOK" .. attdir.r
+L["eft_cat_mlok_u"] = "M-LOK" .. attdir.u
+L["eft_cat_mlok_b"] = "M-LOK" .. attdir.b
+
+L["eft_cat_keymod_l"] = "KeyMod" .. attdir.l
+L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
+L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
+L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
 
 -- [[ Shared ]]
 -- Optics
