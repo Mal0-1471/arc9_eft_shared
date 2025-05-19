@@ -207,10 +207,10 @@ L["eft_fmode_singleaction"] = "Ação S."
 L["eft_fmode_melee"] = "C. A C."
 L["eft_fmode_grenade"] = "Granada"
 L["eft_fmode_pump"] = "Pump"
-L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_throw"] = "Arma arremessável"
 L["eft_fmode_tripwire"] = "Tripwire"
-L["eft_fmode_singleshot"] = "Single"
-L["eft_fmode_doubletap"] = "Double-Tap"
+L["eft_fmode_singleshot"] = "Tiro Único"
+L["eft_fmode_doubletap"] = "Tiro Duplo"
 
 L["eft_toggle_off"] = "Off"
 

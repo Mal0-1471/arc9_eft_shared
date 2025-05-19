@@ -207,10 +207,10 @@ L["eft_fmode_singleaction"] = "S. Act."
 L["eft_fmode_melee"] = "Yakın saldırı"
 L["eft_fmode_grenade"] = "El bombası"
 L["eft_fmode_pump"] = "Pump"
-L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_throw"] = "Fırlatılabilir silah"
 L["eft_fmode_tripwire"] = "Tripwire"
-L["eft_fmode_singleshot"] = "Single"
-L["eft_fmode_doubletap"] = "Double-Tap"
+L["eft_fmode_singleshot"] = "Tek atış"
+L["eft_fmode_doubletap"] = "Çifte atış"
 
 L["eft_toggle_off"] = "Off"
 

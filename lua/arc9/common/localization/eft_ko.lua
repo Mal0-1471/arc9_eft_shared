@@ -207,10 +207,10 @@ L["eft_fmode_singleaction"] = "싱글 액션"
 L["eft_fmode_melee"] = "근접무기"
 L["eft_fmode_grenade"] = "수류탄"
 L["eft_fmode_pump"] = "Pump"
-L["eft_fmode_throw"] = "Throw"
+L["eft_fmode_throw"] = "투척 무기"
 L["eft_fmode_tripwire"] = "Tripwire"
-L["eft_fmode_singleshot"] = "Single"
-L["eft_fmode_doubletap"] = "Double-Tap"
+L["eft_fmode_singleshot"] = "Single-shot"
+L["eft_fmode_doubletap"] = "2점사"
 
 L["eft_toggle_off"] = "Off"
 

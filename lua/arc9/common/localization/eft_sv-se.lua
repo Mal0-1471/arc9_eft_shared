@@ -189,13 +189,6 @@ L["eft_trivia_calibr_26x75"] = "26 x 75 mm"
 L["eft_trivia_calibr_30flare"] = "30 mm signalskott"
 L["eft_trivia_calibr_725heat"] = "72,5 mm pansarspräng."
 
-L["eft_fmode_bolt"] = "REPETER"
-L["eft_fmode_manualreload"] = "MANUELL OML."
-L["eft_fmode_doubleaction"] = "D. ACT."
-L["eft_fmode_singleaction"] = "S. ACT."
-L["eft_fmode_melee"] = "NÄRSTRID"
-L["eft_fmode_grenade"] = "GRANAT"
-
 L["eft_fmode_bolt"] = "Repeter"
 L["eft_fmode_manualreload"] = "M. Omladd."
 L["eft_fmode_doubleaction"] = "D. Act."
