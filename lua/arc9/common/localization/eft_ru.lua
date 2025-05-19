@@ -399,6 +399,18 @@ L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
 L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
 L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
 
+L["folder.Holo"] = "Голограф."
+L["folder.Reflex"] = "Коллиматоры"
+L["folder.Scopes"] = "Оптические"
+L["folder.Special"] = "Специальные"
+L["folder.Mounts"] = "Крепления"
+
+L["folder.Zenit"] = "Зенит"
+L["folder.Soyuz-TM"] = "Союз-ТМ"
+
+L["folder.Unique"] = "Уникальные" -- arena camos
+L["folder.Solid"] = "Сплошные" -- arena camos
+
 -- [[ Shared ]]
 -- Optics
  --  558022b54bdc2dac148b458d

@@ -420,6 +420,15 @@ L["eft_cat_keymod_r"] = "KeyMod" .. attdir.r
 L["eft_cat_keymod_u"] = "KeyMod" .. attdir.u
 L["eft_cat_keymod_b"] = "KeyMod" .. attdir.b
 
+L["folder.Holo"] = "Holo"
+L["folder.Reflex"] = "Reflex"
+L["folder.Scopes"] = "Scopes"
+L["folder.Special"] = "Special"
+L["folder.Mounts"] = "Mounts"
+
+L["folder.Unique"] = "Unique" -- arena camos
+L["folder.Solid"] = "Solid" -- arena camos
+
 -- [[ Shared ]]
 -- Optics
  --  558022b54bdc2dac148b458d
