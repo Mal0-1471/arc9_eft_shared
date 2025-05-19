@@ -371,8 +371,8 @@ local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT 
 local attdir = {
 	l = " G", -- Gauche / Left
 	r = " D", -- Droite / Right
-	u = " H", -- Haut / Upper
-	b = " B" -- Bas / Bottom
+	u = " Haut", -- Haut / Upper
+	b = " Bas" -- Bas / Bottom
 }
 
 L["eft_cat_ammo"] = "Munitions" -- Should never be seen, but better safe than sorry

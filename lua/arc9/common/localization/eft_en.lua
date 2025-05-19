@@ -371,7 +371,7 @@ local extrasatt = "\n\n[ <color=255,200,25>This is a custom attachment from EFT 
 local attdir = {
 	l = " L", -- Left
 	r = " R", -- Right
-	u = " U", -- Upper
+	u = " Top", -- Upper
 	b = " B" -- Bottom
 }
 
