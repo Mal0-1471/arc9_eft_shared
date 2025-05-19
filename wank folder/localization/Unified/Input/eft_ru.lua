@@ -379,10 +379,10 @@ L["eft_cat_ammo"] = "Боеприпас" -- Should never be seen, but better saf
 L["eft_cat_misc"] = eftstring["Misc"]
 
 L["eft_cat_custom"] = "Кастом. слот"
-L["eft_cat_camo"] = "Camo "
-L["eft_cat_camo1"] = "Camo 1"
-L["eft_cat_camo2"] = "Camo 2"
-L["eft_cat_camo3"] = "Camo 3"
+L["eft_cat_camo"] = "Камо "
+L["eft_cat_camo1"] = "Камо 1"
+L["eft_cat_camo2"] = "Камо 2"
+L["eft_cat_camo3"] = "Камо 3"
 
 L["eft_cat_catch"] = "Затвор"
 L["eft_cat_frontsight"] = "Мушка"
