@@ -211,6 +211,27 @@ L["eft_fmode_throw"] = "Бросок"
 L["eft_fmode_tripwire"] = "Растяжка"
 L["eft_fmode_singleshot"] = "Одиноч."
 L["eft_fmode_doubletap"] = "Дуплет"
+
+L["eft_toggle_off"] = "Выкл."
+
+L["eft_toggle_folded"] = "Сложен"
+L["eft_toggle_unfolded"] = "Разложен"
+
+L["eft_toggle_thermalwhite"] = "Белый горячий"
+L["eft_toggle_thermalred"] = "Красный горячий"
+L["eft_toggle_thermalpurple"] = "Фиол. горячий"
+L["eft_toggle_thermalyellow"] = "Желтый горячий"
+
+L["eft_toggle_screen"] = "Экран"
+
+L["eft_toggle_light"] = "Свет"
+
+L["eft_toggle_laser"] = "Лазер"
+L["eft_toggle_laser_red"] = "Красный лазер"
+L["eft_toggle_laser_green"] = "Зеленый лазер"
+L["eft_toggle_laser_blue"] = "Синий лазер"
+
+L["eft_toggle_light_laser"] = "Свет + лазер"
 L["eft_toggle_light_laser_red"] = "Свет + кр. лазер"
 L["eft_toggle_light_laser_green"] = "Свет + зел. лазер"
 L["eft_toggle_light_laser_blue"] = "Свет + син. лазер"
