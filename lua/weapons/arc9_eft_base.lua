@@ -244,6 +244,28 @@ SWEP.AfterShotParticleHook = function(swep, old)
     return false
 end
 
+local minreloadwindow, maxreloadwindow, reloadcooldown = 0.01, 0.2, 0.5
+
+SWEP.Hook_Think_TacReload = function(self)
+    if CLIENT then return end -- ?
+    
+    if self.EFT_HasTacReloads and self:Clip1() > 0 then
+        if self:GetReloading() then
+            local ct = CurTime()
+            if !self.EFT_StartedReloadTime then self.EFT_StartedReloadTime = ct end
+            if ct >= (self.EFT_StartedNextTacReload or 0) and ct >= self.EFT_StartedReloadTime + minreloadwindow and ct <= self.EFT_StartedReloadTime + maxreloadwindow and self:GetOwner():KeyPressed(IN_RELOAD) then
+                -- print(ct, "awoga")
+                self:CancelReload()
+                self.EFT_StartedTacReload = true
+                self.EFT_StartedNextTacReload = ct + reloadcooldown
+            end
+        else
+            self.EFT_StartedReloadTime = nil
+            self.EFT_StartedTacReload = nil
+        end
+    end
+end
+
 local fuckthis = 0 -- OVERHEAT GAS EFFECT
 SWEP.Hook_Think = function(self)
     if CLIENT then 
@@ -284,6 +306,8 @@ SWEP.Hook_Think = function(self)
             end
         end
     end
+
+    self:Hook_Think_TacReload()
 end
 
 SWEP.CaseEffectQCA = 2
