@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "M18 smoke grenade (Green)"
 L["eft_weapon_m18_desc"] = "The M18 smoke grenade made in the USA. Used in the US Army since the Second World War. The smoke is green-colored."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "RDG-2B smoke grenade"
-L["eft_weapon_rgd2b_desc"] = "A Soviet-made smoke hand grenade, designed to create smoke zones with covering or target designation purposes. Cheap and pretty common in post-soviet countries."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "RDG-2B smoke grenade"
+L["eft_weapon_rdg2b_desc"] = "A Soviet-made smoke hand grenade, designed to create smoke zones with covering or target designation purposes. Cheap and pretty common in post-soviet countries."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

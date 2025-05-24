@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "Granada de humo M18 (Verde)"
 L["eft_weapon_m18_desc"] = "Una granada de humo M18 hecha en Estados Unidos de América. Usada por el Ejército de los Estados Unidos desde la Segunda Guerra Mundial. El humo es de color verde."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "Granada de humo RGD-2B"
-L["eft_weapon_rgd2b_desc"] = "Una granada de humo de fabricación soviética, diseñada para crear zonas de humo para cobertura o para la designación de objetivos. Barata y muy común en los países de la antigua Unión Soviética."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "Granada de humo RGD-2B"
+L["eft_weapon_rdg2b_desc"] = "Una granada de humo de fabricación soviética, diseñada para crear zonas de humo para cobertura o para la designación de objetivos. Barata y muy común en los países de la antigua Unión Soviética."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

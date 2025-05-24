@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "M18烟雾弹 （绿色）"
 L["eft_weapon_m18_desc"] = "美制M18烟雾弹。二战时被美军采用。绿色烟雾。"
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "RDG-2B烟雾弹"
-L["eft_weapon_rgd2b_desc"] = "苏制烟雾手榴弹，设计用于创建烟雾区域进行掩护，或指示目标。在前苏联国家里既便宜又很常见。"
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "RDG-2B烟雾弹"
+L["eft_weapon_rdg2b_desc"] = "苏制烟雾手榴弹，设计用于创建烟雾区域进行掩护，或指示目标。在前苏联国家里既便宜又很常见。"
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

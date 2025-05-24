@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "Granata fumogena M18 (Verde)"
 L["eft_weapon_m18_desc"] = "La granata fumogena M18 prodotta negli Stati Uniti. Utilizzata nell'esercito degli Stati Uniti dalla seconda guerra mondiale. Il fumo è di colore verde."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "Granata fumogena RDG-2B"
-L["eft_weapon_rgd2b_desc"] = "Una granata fumogena di fabbricazione sovietica, progettata per creare zone fumogene con scopi di copertura o designazione del bersaglio. Economica e piuttosto comune nei paesi post-sovietici."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "Granata fumogena RDG-2B"
+L["eft_weapon_rdg2b_desc"] = "Una granata fumogena di fabbricazione sovietica, progettata per creare zone fumogene con scopi di copertura o designazione del bersaglio. Economica e piuttosto comune nei paesi post-sovietici."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

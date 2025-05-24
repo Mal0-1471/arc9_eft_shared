@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "M18 sis bombası (yeşil)"
 L["eft_weapon_m18_desc"] = "ABD'de yapılan M18 duman bombası. İkinci Dünya Savaşı'ndan beri ABD Ordusunda kullanılmaktadır. Duman yeşil renklidir."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "RDG-2B Sis Bombası"
-L["eft_weapon_rgd2b_desc"] = "Sovyet yapımı duman bombası, duman perdesi oluşturmak veya hedef işaretlemek amacı ile yapıldı. Eskiden sovietlere bağlı olan ülkelerde yaygın ve ucuzdur."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "RDG-2B Sis Bombası"
+L["eft_weapon_rdg2b_desc"] = "Sovyet yapımı duman bombası, duman perdesi oluşturmak veya hedef işaretlemek amacı ile yapıldı. Eskiden sovietlere bağlı olan ülkelerde yaygın ve ucuzdur."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

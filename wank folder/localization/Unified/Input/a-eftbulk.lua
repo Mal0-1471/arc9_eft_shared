@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = eftstring["617aa4dd8166f034d57de9c5 ShortName"]
 L["eft_weapon_m18_full"] = eftstring["617aa4dd8166f034d57de9c5 Name"]
 L["eft_weapon_m18_desc"] = eftstring["617aa4dd8166f034d57de9c5 Description"]
 
-L["eft_weapon_rgd2b"] = eftstring["5a2a57cfc4a2826c6e06d44a ShortName"]
-L["eft_weapon_rgd2b_full"] = eftstring["5a2a57cfc4a2826c6e06d44a Name"]
-L["eft_weapon_rgd2b_desc"] = eftstring["5a2a57cfc4a2826c6e06d44a Description"]
+L["eft_weapon_rdg2b"] = eftstring["5a2a57cfc4a2826c6e06d44a ShortName"]
+L["eft_weapon_rdg2b_full"] = eftstring["5a2a57cfc4a2826c6e06d44a Name"]
+L["eft_weapon_rdg2b_desc"] = eftstring["5a2a57cfc4a2826c6e06d44a Description"]
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = eftstring["619256e5f8af2c1a4e1f5d92 ShortName"]

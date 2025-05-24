@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "Granat dymny M18 (zielony)"
 L["eft_weapon_m18_desc"] = "Granat dymny M18 wyprodukowany w USA. Używany w armii amerykańskiej od czasów II wojny światowej. Dym jest koloru zielonego."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "Granat dymny RDG-2B"
-L["eft_weapon_rgd2b_desc"] = "Radziecki granat przeznaczony do tworzenia stref dymu przeznaczonych do osłony albo oznaczenia celu. Tanie i dość powszechne w krajach byłego Związku Radzieckiego."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "Granat dymny RDG-2B"
+L["eft_weapon_rdg2b_desc"] = "Radziecki granat przeznaczony do tworzenia stref dymu przeznaczonych do osłony albo oznaczenia celu. Tanie i dość powszechne w krajach byłego Związku Radzieckiego."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

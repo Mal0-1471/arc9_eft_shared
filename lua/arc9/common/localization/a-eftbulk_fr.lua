@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "Grenade fumigène M18 (verte)"
 L["eft_weapon_m18_desc"] = "La grenade fumigène M18 est produite aux USA. Elle est utilisée dans l'armée américaine depuis la seconde guerre mondiale. La fumée est de couleur verte."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "Grenade fumigène RDG-2B"
-L["eft_weapon_rgd2b_desc"] = "Une grenade fumigène de fabrication soviétique, conçue pour enfumer des zones afin de créer une couverture ou de désigner des cibles. Peu chère et assez commune dans les pays post-soviétiques."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "Grenade fumigène RDG-2B"
+L["eft_weapon_rdg2b_desc"] = "Une grenade fumigène de fabrication soviétique, conçue pour enfumer des zones afin de créer une couverture ou de désigner des cibles. Peu chère et assez commune dans les pays post-soviétiques."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

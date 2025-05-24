@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "Kouřový granát M18 (Zelený)"
 L["eft_weapon_m18_desc"] = "Kouřový granát M18 vyrobený v USA. V americké armádě se používá od druhé světové války. Kouř je zelené barvy."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "Kouřový granát RDG-2B"
-L["eft_weapon_rgd2b_desc"] = "Kouřový ruční granát sovětské výroby, určený k vytváření kouřových zón pro účely krytí nebo označení cíle. Levný a v postsovětských zemích docela běžný."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "Kouřový granát RDG-2B"
+L["eft_weapon_rdg2b_desc"] = "Kouřový ruční granát sovětské výroby, určený k vytváření kouřových zón pro účely krytí nebo označení cíle. Levný a v postsovětských zemích docela běžný."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"

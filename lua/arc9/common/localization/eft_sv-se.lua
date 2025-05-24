@@ -1373,7 +1373,7 @@ L["eft_weapon_freeman"] = "Kofot"
 
 /////// Throwable smoke
 -- L["eft_weapon_m18"] = "M18"
--- L["eft_weapon_rgd2b"] = "RDG-2B"
+-- L["eft_weapon_rdg2b"] = "RDG-2B"
 
 /////// Throwable stun
 -- L["eft_weapon_m7290"] = "M7290"

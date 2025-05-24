@@ -735,9 +735,9 @@ L["eft_weapon_m18"] = "M18"
 L["eft_weapon_m18_full"] = "M18 green 연막 수류탄 (초록색)"
 L["eft_weapon_m18_desc"] = "The M18 smoke grenade made in the USA. Used in the US Army since the Second World War. The smoke is green-colored."
 
-L["eft_weapon_rgd2b"] = "RDG-2B"
-L["eft_weapon_rgd2b_full"] = "RDG-2B 연막 수류탄 "
-L["eft_weapon_rgd2b_desc"] = "소련제 연막 수류탄으로, 표적 지시 또는 은폐 목적으로 사용되기 위해 고안되었습니다. 구 소련 소속 국가들에서 꽤 싸고 흔하게 구할 수 있습니다."
+L["eft_weapon_rdg2b"] = "RDG-2B"
+L["eft_weapon_rdg2b_full"] = "RDG-2B 연막 수류탄 "
+L["eft_weapon_rdg2b_desc"] = "소련제 연막 수류탄으로, 표적 지시 또는 은폐 목적으로 사용되기 위해 고안되었습니다. 구 소련 소속 국가들에서 꽤 싸고 흔하게 구할 수 있습니다."
 
 /////// Throwable stun
 L["eft_weapon_m7290"] = "M7290"
