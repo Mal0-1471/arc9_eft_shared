@@ -18,7 +18,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x25mm TT LRNPC"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_lrnpc.printname")
 
 ATT.DamageMax = 66 * mult9
 ATT.DamageMin = 42.13 * mult9
@@ -93,7 +93,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x25mm TT LRN"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_lrn.printname")
 
 ATT.DamageMax = 64 * mult9
 ATT.DamageMin = 43.08 * mult9
@@ -168,7 +168,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x25mm TT FMJ43"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_fmj.printname")
 
 ATT.DamageMax = 60 * mult9
 ATT.DamageMin = 33.85 * mult9
@@ -243,7 +243,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x25mm TT P gl"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_p.printname")
 
 ATT.DamageMax = 58 * mult9
 ATT.DamageMin = 36.91 * mult9
@@ -318,7 +318,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x25mm TT AKBS"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_akbs.printname")
 
 ATT.DamageMax = 58 * mult9
 ATT.DamageMin = 36.98 * mult9
@@ -393,7 +393,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x25mm TT PT gzh"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_pt.printname")
 
 ATT.DamageMax = 55 * mult9
 ATT.DamageMin = 35.02 * mult9
@@ -468,7 +468,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.HasAmmoooooooo = true 
 
-ATT.EFTRoundName = "7.62x25mm TT Pst gzh"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_pst.printname")
 
 ATT.DamageMax = 50 * mult9
 ATT.DamageMin = 31.7 * mult9

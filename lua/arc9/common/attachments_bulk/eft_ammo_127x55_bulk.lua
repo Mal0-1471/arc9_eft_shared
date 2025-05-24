@@ -19,7 +19,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"12755"}
 
-ATT.EFTRoundName = "12.7x55mm PS12"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_12755_ps12.printname")
 
 ATT.DamageMax = 115 * mult12755
 ATT.DamageMin = 99 * mult12755
@@ -96,7 +96,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"12755"}
 
-ATT.EFTRoundName = "12.7x55mm PS12A"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_12755_ps12a.printname")
 
 ATT.DamageMax = 165 * mult12755
 ATT.DamageMin = 103 * mult12755
@@ -173,7 +173,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"12755"}
 
-ATT.EFTRoundName = "12.7x55mm PS12B"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_12755_ps12b.printname")
 
 ATT.DamageMax = 102 * mult12755
 ATT.DamageMin = 71.5 * mult12755
@@ -262,7 +262,7 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasAmmoooooooo = true 
 ATT.ActivateElements = {"338"}
 
-ATT.EFTRoundName = ".338 Lapua Magnum FMJ"
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_338_fmj.printname")
 
 ATT.DamageMax = 122 * mult338
 ATT.DamageMin = 85 * mult338
