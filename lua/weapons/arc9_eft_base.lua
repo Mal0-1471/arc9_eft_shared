@@ -246,11 +246,13 @@ end
 
 local minreloadwindow, maxreloadwindow, reloadcooldown = 0.01, 0.2, 0.5
 
+local sp = game.SinglePlayer()
+
 SWEP.Hook_Think_TacReload = function(self)
-    if CLIENT then return end -- ?
-    
-    if self.EFT_HasTacReloads and self:Clip1() > 0 then
-        if self:GetReloading() then
+    if CLIENT and sp then return end -- sounds dont play + previus animtion still playing in mp
+
+    if self.EFT_HasTacReloads then
+        if self:GetReloading() and self:Clip1() > 0 and (!self:GetShouldShotgunReload() or self.EFT_HasTacReloadsAlways) then
             local ct = CurTime()
             if !self.EFT_StartedReloadTime then self.EFT_StartedReloadTime = ct end
             if ct >= (self.EFT_StartedNextTacReload or 0) and ct >= self.EFT_StartedReloadTime + minreloadwindow and ct <= self.EFT_StartedReloadTime + maxreloadwindow and self:GetOwner():KeyPressed(IN_RELOAD) then
@@ -308,6 +310,8 @@ SWEP.Hook_Think = function(self)
     end
 
     self:Hook_Think_TacReload()
+    
+    if self.Hook_Think2 then self:Hook_Think2() end
 end
 
 SWEP.CaseEffectQCA = 2
