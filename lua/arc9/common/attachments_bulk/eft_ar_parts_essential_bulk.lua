@@ -80,6 +80,7 @@ ATT.Attachments = {
     },
 }
 
+ATT.AdvancedCamoSupport = true
 
 ARC9.LoadAttachment(ATT, "eft_ar_buffertube_std")
 
