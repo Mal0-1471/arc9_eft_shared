@@ -2,107 +2,107 @@ ARC9EFT = ARC9EFT or {}
 ARC9EFTBASE = true
 
 ARC9EFT.RicochetSounds = {
-    "arc9_eft_shared/ricochet/ricochet1.ogg",
-    "arc9_eft_shared/ricochet/ricochet2.ogg",
-    "arc9_eft_shared/ricochet/ricochet3.ogg",
-    "arc9_eft_shared/ricochet/ricochet4.ogg",
-    "arc9_eft_shared/ricochet/ricochet5.ogg",
-    "arc9_eft_shared/ricochet/ricochet6.ogg",
-    "arc9_eft_shared/ricochet/ricochet7.ogg",
-    "arc9_eft_shared/ricochet/ricochet9.ogg",
-    "arc9_eft_shared/ricochet/ricochet10.ogg",
-    "arc9_eft_shared/ricochet/ricochet11.ogg",
-    "arc9_eft_shared/ricochet/ricochet12.ogg",
-    "arc9_eft_shared/ricochet/ricochet13.ogg",
+    ")arc9_eft_shared/ricochet/ricochet1.wav",
+    ")arc9_eft_shared/ricochet/ricochet2.wav",
+    ")arc9_eft_shared/ricochet/ricochet3.wav",
+    ")arc9_eft_shared/ricochet/ricochet4.wav",
+    ")arc9_eft_shared/ricochet/ricochet5.wav",
+    ")arc9_eft_shared/ricochet/ricochet6.wav",
+    ")arc9_eft_shared/ricochet/ricochet7.wav",
+    ")arc9_eft_shared/ricochet/ricochet9.wav",
+    ")arc9_eft_shared/ricochet/ricochet10.wav",
+    ")arc9_eft_shared/ricochet/ricochet11.wav",
+    ")arc9_eft_shared/ricochet/ricochet12.wav",
+    ")arc9_eft_shared/ricochet/ricochet13.wav",
 }
 
 ARC9EFT.Shells556 = {
-    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/556mm_shell_concrete1.wav", ")arc9_eft_shared/shells/556mm_shell_concrete2.wav", ")arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/556mm_shell_concrete1.wav", ")arc9_eft_shared/shells/556mm_shell_concrete2.wav", ")arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/556mm_shell_concrete1.wav", ")arc9_eft_shared/shells/556mm_shell_concrete2.wav", ")arc9_eft_shared/shells/556mm_shell_concrete3.wav",
 }
 ARC9EFT.Shells9mm = {
-    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
-    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/9mm_shell_concrete1.wav", ")arc9_eft_shared/shells/9mm_shell_concrete2.wav", ")arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/9mm_shell_concrete1.wav", ")arc9_eft_shared/shells/9mm_shell_concrete2.wav", ")arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/9mm_shell_concrete1.wav", ")arc9_eft_shared/shells/9mm_shell_concrete2.wav", ")arc9_eft_shared/shells/9mm_shell_concrete3.wav",
 }
 ARC9EFT.Shells12cal = {
-    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
-    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
-    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/12cal_shell_concrete1.wav", ")arc9_eft_shared/shells/12cal_shell_concrete2.wav", ")arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/12cal_shell_concrete1.wav", ")arc9_eft_shared/shells/12cal_shell_concrete2.wav", ")arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/12cal_shell_concrete1.wav", ")arc9_eft_shared/shells/12cal_shell_concrete2.wav", ")arc9_eft_shared/shells/12cal_shell_concrete3.wav",
 }
 ARC9EFT.ShellsHeavy = {
-    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
-    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
-    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/heavy_shell_concrete1.wav", ")arc9_eft_shared/shells/heavy_shell_concrete2.wav", ")arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/heavy_shell_concrete1.wav", ")arc9_eft_shared/shells/heavy_shell_concrete2.wav", ")arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    ")arc9_eft_shared/shells/heavy_shell_concrete1.wav", ")arc9_eft_shared/shells/heavy_shell_concrete2.wav", ")arc9_eft_shared/shells/heavy_shell_concrete3.wav",
 }
 
 ARC9EFT.ADSMachineGun = {
-    "arc9_eft_shared/ads/aim_on_machinegun_01.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_02.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_03.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_04.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_05.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_06.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_07.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_08.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_09.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_10.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_11.ogg", 
-    "arc9_eft_shared/ads/aim_on_machinegun_12.ogg", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_01.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_02.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_03.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_04.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_05.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_06.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_07.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_08.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_09.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_10.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_11.wav", 
+    ")arc9_eft_shared/ads/aim_on_machinegun_12.wav", 
 }
 
 ARC9EFT.ADSPistol = {
-    "arc9_eft_shared/ads/aim_on_pistol_01.ogg", 
-    "arc9_eft_shared/ads/aim_on_pistol_02.ogg", 
-    "arc9_eft_shared/ads/aim_on_pistol_03.ogg", 
-    "arc9_eft_shared/ads/aim_on_pistol_04.ogg", 
-    "arc9_eft_shared/ads/aim_on_pistol_05.ogg", 
-    "arc9_eft_shared/ads/aim_on_pistol_06.ogg", 
-    -- "arc9_eft_shared/ads/aim_on_pistol_07.ogg", 
-    "arc9_eft_shared/ads/aim_on_pistol_08.ogg", 
+    ")arc9_eft_shared/ads/aim_on_pistol_01.wav", 
+    ")arc9_eft_shared/ads/aim_on_pistol_02.wav", 
+    ")arc9_eft_shared/ads/aim_on_pistol_03.wav", 
+    ")arc9_eft_shared/ads/aim_on_pistol_04.wav", 
+    ")arc9_eft_shared/ads/aim_on_pistol_05.wav", 
+    ")arc9_eft_shared/ads/aim_on_pistol_06.wav", 
+    -- ")arc9_eft_shared/ads/aim_on_pistol_07.wav", 
+    ")arc9_eft_shared/ads/aim_on_pistol_08.wav", 
 }
 
 ARC9EFT.ADSRifle = {
-    "arc9_eft_shared/ads/aim_on_riffle_04.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_03.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_05.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_06.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_08.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_11.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_12.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_14.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_15.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_16.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_17.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_18.ogg",
+    ")arc9_eft_shared/ads/aim_on_riffle_04.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_03.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_05.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_06.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_08.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_11.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_12.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_14.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_15.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_16.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_17.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_18.wav",
 }
 
 ARC9EFT.ADSRifleOut = {
-    "arc9_eft_shared/ads/aim_on_riffle_02.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_03.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_07.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_09.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_12.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_16.ogg", 
+    ")arc9_eft_shared/ads/aim_on_riffle_02.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_03.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_07.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_09.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_12.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_16.wav", 
 
-    "arc9_eft_shared/ads/aim_on_riffle_15.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_17.ogg", 
-    "arc9_eft_shared/ads/aim_on_riffle_18.ogg", 
+    ")arc9_eft_shared/ads/aim_on_riffle_15.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_17.wav", 
+    ")arc9_eft_shared/ads/aim_on_riffle_18.wav", 
 }
 
 ARC9EFT.ADSSMG = {
-    "arc9_eft_shared/ads/aim_on_smg_01.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_02.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_03.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_04.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_05.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_06.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_07.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_08.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_09.ogg", 
-    "arc9_eft_shared/ads/aim_on_smg_10.ogg",
-    "arc9_eft_shared/ads/aim_on_smg_11.ogg",
+    ")arc9_eft_shared/ads/aim_on_smg_01.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_02.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_03.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_04.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_05.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_06.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_07.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_08.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_09.wav", 
+    ")arc9_eft_shared/ads/aim_on_smg_10.wav",
+    ")arc9_eft_shared/ads/aim_on_smg_11.wav",
 }
 
 if SERVER then
@@ -221,7 +221,7 @@ else
         notif:MoveTo(ScrW() - ss(166.5), ScrH(), 0.25, 2.5, 1, function() notif:Remove() end) -- out
 
         notif:MoveToBack()
-        surface.PlaySound("arc9_eft_shared/notification_exp.ogg")
+        surface.PlaySound(")arc9_eft_shared/notification_exp.ogg")
 
         notif.Paint = function(self2, w, h) 
             surface.SetDrawColor(0, 0, 0, 250)
@@ -313,7 +313,7 @@ else
         minnextjam = CurTime() + 1.0
         jammed1 = true
         jammedstarted = IsValid(LocalPlayer()) and LocalPlayer():GetActiveWeapon()
-        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
+        surface.PlaySound(")arc9_eft_shared/battle_malfunction_examined.ogg")
 
 
         timer.Simple(0.75, function() jammed1 = false end)
@@ -330,20 +330,20 @@ else
     end)    
     
     net.Receive("arc9eftmissingparts", function(len)
-        -- surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
+        -- surface.PlaySound(")arc9_eft_shared/battle_malfunction_examined.ogg")
         jammed1 = true
         makeeftnotif(ARC9:GetPhrase("eft_hud_missing"), jammat)
         timer.Simple(1.2, function() jammed1 = false end)
     end)
 
     net.Receive("arc9eftquestionnotif", function(len)
-        surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
+        surface.PlaySound(")arc9_eft_shared/battle_malfunction_examined.ogg")
         makeeftnotif("???", magcheckmat)
         timer.Simple(1.2, function() jammed1 = false end)
     end)
 
     net.Receive("arc9eftbadtripwire", function(len)
-        surface.PlaySound("arc9_eft_shared/notification_exp.ogg")
+        surface.PlaySound(")arc9_eft_shared/notification_exp.ogg")
         makeeftnotif(ARC9:GetPhrase("eft_hud_badtrip"), jammat)
         timer.Simple(1.2, function() jammed1 = false end)
     end)
