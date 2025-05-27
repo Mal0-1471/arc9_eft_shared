@@ -17,24 +17,24 @@ ARC9EFT.RicochetSounds = {
 }
 
 ARC9EFT.Shells556 = {
-    "arc9_eft_shared/shells/556mm_shell_concrete1.ogg", "arc9_eft_shared/shells/556mm_shell_concrete2.ogg", "arc9_eft_shared/shells/556mm_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/556mm_shell_concrete1.ogg", "arc9_eft_shared/shells/556mm_shell_concrete2.ogg", "arc9_eft_shared/shells/556mm_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/556mm_shell_concrete1.ogg", "arc9_eft_shared/shells/556mm_shell_concrete2.ogg", "arc9_eft_shared/shells/556mm_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/556mm_shell_concrete1.wav", "arc9_eft_shared/shells/556mm_shell_concrete2.wav", "arc9_eft_shared/shells/556mm_shell_concrete3.wav",
 }
 ARC9EFT.Shells9mm = {
-    "arc9_eft_shared/shells/9mm_shell_concrete1.ogg", "arc9_eft_shared/shells/9mm_shell_concrete2.ogg", "arc9_eft_shared/shells/9mm_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/9mm_shell_concrete1.ogg", "arc9_eft_shared/shells/9mm_shell_concrete2.ogg", "arc9_eft_shared/shells/9mm_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/9mm_shell_concrete1.ogg", "arc9_eft_shared/shells/9mm_shell_concrete2.ogg", "arc9_eft_shared/shells/9mm_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
+    "arc9_eft_shared/shells/9mm_shell_concrete1.wav", "arc9_eft_shared/shells/9mm_shell_concrete2.wav", "arc9_eft_shared/shells/9mm_shell_concrete3.wav",
 }
 ARC9EFT.Shells12cal = {
-    "arc9_eft_shared/shells/12cal_shell_concrete1.ogg", "arc9_eft_shared/shells/12cal_shell_concrete2.ogg", "arc9_eft_shared/shells/12cal_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/12cal_shell_concrete1.ogg", "arc9_eft_shared/shells/12cal_shell_concrete2.ogg", "arc9_eft_shared/shells/12cal_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/12cal_shell_concrete1.ogg", "arc9_eft_shared/shells/12cal_shell_concrete2.ogg", "arc9_eft_shared/shells/12cal_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
+    "arc9_eft_shared/shells/12cal_shell_concrete1.wav", "arc9_eft_shared/shells/12cal_shell_concrete2.wav", "arc9_eft_shared/shells/12cal_shell_concrete3.wav",
 }
 ARC9EFT.ShellsHeavy = {
-    "arc9_eft_shared/shells/heavy_shell_concrete1.ogg", "arc9_eft_shared/shells/heavy_shell_concrete2.ogg", "arc9_eft_shared/shells/heavy_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/heavy_shell_concrete1.ogg", "arc9_eft_shared/shells/heavy_shell_concrete2.ogg", "arc9_eft_shared/shells/heavy_shell_concrete3.ogg",
-    "arc9_eft_shared/shells/heavy_shell_concrete1.ogg", "arc9_eft_shared/shells/heavy_shell_concrete2.ogg", "arc9_eft_shared/shells/heavy_shell_concrete3.ogg",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
+    "arc9_eft_shared/shells/heavy_shell_concrete1.wav", "arc9_eft_shared/shells/heavy_shell_concrete2.wav", "arc9_eft_shared/shells/heavy_shell_concrete3.wav",
 }
 
 ARC9EFT.ADSMachineGun = {
@@ -310,7 +310,7 @@ else
         local jid = net.ReadUInt(3)
         if CurTime() < minnextjam then return end
         if !GetConVar("arc9_eft_jam_hud"):GetBool() then return end
-        minnextjam = CurTime() + 0.5
+        minnextjam = CurTime() + 1.0
         jammed1 = true
         jammedstarted = IsValid(LocalPlayer()) and LocalPlayer():GetActiveWeapon()
         surface.PlaySound("arc9_eft_shared/battle_malfunction_examined.ogg")
