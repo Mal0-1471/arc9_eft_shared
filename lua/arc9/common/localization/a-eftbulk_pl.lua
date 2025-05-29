@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Szczerbinka do karabinu Mosina"
 L["eft_mosin_std_rs.compactname"] = "Sz. Mosin"
 L["eft_mosin_std_rs.description"] = "Standardowa szczerbinka do karabinu Mosina."
 
-L["eft_mosin_carb_rs.printname"] = "9 x 19 mm AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "Nabój 9 × 19 mm Parabellum AP 6.3 z dwuczęściowym kontrolowanym przeciwpancernym pociskiem fragmentacyjnym z mosiężnym sabotem i penetratorem z utwardzonej stali o rozmiarze 6,3 mm. Dzięki konstrukcji tego pocisku AP (Armor-Piercing – „przeciwpancerny”), mimo posiadania przeciętnej prędkości wylotowej w porównaniu do innych nabojów tego kalibru, pocisk w tym naboju ma możliwości przebić podstawowe i niektóre pośrednie ochrony balistyczne ciała."
+L["eft_mosin_carb_rs.printname"] = "Szczerbinka do karabinka Mosina"
+L["eft_mosin_carb_rs.compactname"] = "Sz. Mosin"
+L["eft_mosin_carb_rs.description"] = "Standardowa szczerbinka do karabinka Mosina."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Chwyt pistoletowy do karabinu Mosina TacFire"
 L["eft_mosin_pgrip_tacfire.compactname"] = "Mosin"

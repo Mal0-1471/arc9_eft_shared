@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Целик для Винтовки Мосин
 L["eft_mosin_std_rs.compactname"] = "Мосина"
 L["eft_mosin_std_rs.description"] = "Штатный целик для Винтовки Мосина."
 
-L["eft_mosin_carb_rs.printname"] = "9x19мм AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "Патрон 9x19мм Парабеллум AP 6.3 (Armor-Piercing - \"Бронебойная\") с двухэлементной бронебойной пулей с 6.3мм наконечником из закаленной стали и латунным поддоном. Несмотря на то, что пуля имеет среднюю начальную скорость относительно других патронов того же калибра, она обладает высокой бронепробиваемостью против базового и среднего уровня защиты и поражающей способностью."
+L["eft_mosin_carb_rs.printname"] = "Целик для Карабина Мосина"
+L["eft_mosin_carb_rs.compactname"] = "Мосина"
+L["eft_mosin_carb_rs.description"] = "Штатный целик для карабина Мосина."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Пистолетная рукоятка Tacfire для Винтовки Мосина"
 L["eft_mosin_pgrip_tacfire.compactname"] = "Мосин"

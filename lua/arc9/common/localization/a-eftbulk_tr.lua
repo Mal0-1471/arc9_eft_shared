@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Mosin Gez"
 L["eft_mosin_std_rs.compactname"] = "Mosin gz."
 L["eft_mosin_std_rs.description"] = "Mosin tüfeği için standart gez."
 
-L["eft_mosin_carb_rs.printname"] = "9x19 mm AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "9x19 mm AP 6.3 Mermi."
+L["eft_mosin_carb_rs.printname"] = "Mosin karabina gez"
+L["eft_mosin_carb_rs.compactname"] = "Mosin gz."
+L["eft_mosin_carb_rs.description"] = "Mosin karabina için sıradan gez."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Mosin tüfeği için Tacfire kabza"
 L["eft_mosin_pgrip_tacfire.compactname"] = "mntk"

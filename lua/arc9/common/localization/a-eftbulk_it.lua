@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Tacca di mira fucile Mosin"
 L["eft_mosin_std_rs.compactname"] = "Mosin MA"
 L["eft_mosin_std_rs.description"] = "Una tacca di mira standard per il fucile Mosin."
 
-L["eft_mosin_carb_rs.printname"] = "9x19mm AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "Una cartuccia Parabellum AP 6.3 da 9x19mm con un proiettile a frammentazione controllata in due parti, un proiettile perforante dotato di un sabot in ottone e un penetratore in acciaio temprato di 6.3 mm. Grazie al design di questo proiettile AP (Armor-Piercing) e nonostante abbia una velocità iniziale media rispetto ad altre cartucce dello stesso calibro, ha capacità di perforare la protezione balistica di base del corpo insieme ad alcuni modelli intermedi."
+L["eft_mosin_carb_rs.printname"] = "Tacca di mira per carabina Mosin Rifle"
+L["eft_mosin_carb_rs.compactname"] = "Mosin MP"
+L["eft_mosin_carb_rs.description"] = "Una tacca di mira standard in ferro per la carabina Mosin."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Impugnatura a pistola Mosin Rifle Tacfire"
 L["eft_mosin_pgrip_tacfire.compactname"] = "Mosin"

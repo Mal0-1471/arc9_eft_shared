@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Mosin 가늠자 "
 L["eft_mosin_std_rs.compactname"] = "Mosin 가늠자"
 L["eft_mosin_std_rs.description"] = "Mosin 소총용 표준 가늠자입니다."
 
-L["eft_mosin_carb_rs.printname"] = "9x19mm AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "A 9x19mm Parabellum AP 6.3 cartridge with a two-part controlled fragmenting projectile, an armor-piercing bullet that features a brass sabot and a hardened steel penetrator of 6.3mm. Thanks to the design of this AP bullet (Armor-Piercing) and despite having an average muzzle velocity relative to other cartridges of the same caliber, it has capabilities of piercing basic ballistic body protection along with some intermediate models."
+L["eft_mosin_carb_rs.printname"] = "Mosin 소총 카빈 가늠자 "
+L["eft_mosin_carb_rs.compactname"] = "Mosin 가늠자"
+L["eft_mosin_carb_rs.description"] = "A standard rear iron sight for the Mosin carbine."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Mosin 소총 Tacfire 권총 손잡이 "
 L["eft_mosin_pgrip_tacfire.compactname"] = "Mosin"

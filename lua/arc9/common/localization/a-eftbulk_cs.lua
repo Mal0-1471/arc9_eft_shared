@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Hledí pro pušku Mosin"
 L["eft_mosin_std_rs.compactname"] = "Mosin HL"
 L["eft_mosin_std_rs.description"] = "Standardní hledí pro pušku Mosin."
 
-L["eft_mosin_carb_rs.printname"] = "9x19mm AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "Náboj 9x19mm Parabellum AP 6,3 s dvoudílnou střelou s řízenou fragmentací, průraznou střelou s mosaznou sabotáží a kaleným ocelovým penetrátorem 6.3mm. Díky konstrukci této střely AP (Armor-Piercing) a navzdory tomu, že má průměrnou úsťovou rychlost vzhledem k ostatním nábojům stejné ráže, má schopnosti prorazit základní balistickou ochranu těla spolu s některými středními modely."
+L["eft_mosin_carb_rs.printname"] = "Hledí pro karabinu Mosin"
+L["eft_mosin_carb_rs.compactname"] = "Mosin HL"
+L["eft_mosin_carb_rs.description"] = "Standardní hledí pro karabinu Mosin."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Pažbička Tacfire pro pušku Mosin"
 L["eft_mosin_pgrip_tacfire.compactname"] = "Mosin"

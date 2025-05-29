@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "莫辛照门"
 L["eft_mosin_std_rs.compactname"] = "莫辛照门"
 L["eft_mosin_std_rs.description"] = "莫辛步枪标准照门"
 
-L["eft_mosin_carb_rs.printname"] = "9x19毫米 AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "9x19毫米的AP 6.3子弹。"
+L["eft_mosin_carb_rs.printname"] = "莫辛卡宾枪照门"
+L["eft_mosin_carb_rs.compactname"] = "莫辛照门"
+L["eft_mosin_carb_rs.description"] = "莫辛卡宾枪用标准照门。"
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Tacfire莫辛步枪手枪式握把"
 L["eft_mosin_pgrip_tacfire.compactname"] = "PGMN"

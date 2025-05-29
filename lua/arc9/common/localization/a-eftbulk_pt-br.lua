@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Alça de mira Mosin"
 L["eft_mosin_std_rs.compactname"] = "MT Mosin."
 L["eft_mosin_std_rs.description"] = "Alça de Mira padrão para Rifle Mosin."
 
-L["eft_mosin_carb_rs.printname"] = "9x19mm AP 6.3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6.3"
-L["eft_mosin_carb_rs.description"] = "Um cartucho Parabellum AP 6.3 de 9x19mm com um projétil de fragmentação controlado em duas partes, uma bala perfurante que apresenta um sabot de latão e um penetrador de aço endurecido de 6,3mm. Graças ao design desta bala AP (Armor-Piercing) e apesar de ter uma velocidade média do cano em relação a outros cartuchos do mesmo calibre, tem capacidade de perfurar a proteção balística básica do corpo junto com alguns modelos intermediários."
+L["eft_mosin_carb_rs.printname"] = "Alça de mira Mosin"
+L["eft_mosin_carb_rs.compactname"] = "Mosin MT."
+L["eft_mosin_carb_rs.description"] = "Alça de mira regular para Mosin."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Empunhadura para rifle Mosin da Tacfire"
 L["eft_mosin_pgrip_tacfire.compactname"] = "emms"

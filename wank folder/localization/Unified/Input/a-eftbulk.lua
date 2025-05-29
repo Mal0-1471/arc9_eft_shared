@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = eftstring["5ae099925acfc4001a5fc7b3 Name"]
 L["eft_mosin_std_rs.compactname"] = eftstring["5ae099925acfc4001a5fc7b3 ShortName"]
 L["eft_mosin_std_rs.description"] = eftstring["5ae099925acfc4001a5fc7b3 Description"]
 
-L["eft_mosin_carb_rs.printname"] = eftstring["5c925fa22e221601da359b7b Name"]
-L["eft_mosin_carb_rs.compactname"] = eftstring["5c925fa22e221601da359b7b ShortName"]
-L["eft_mosin_carb_rs.description"] = eftstring["5c925fa22e221601da359b7b Description"]
+L["eft_mosin_carb_rs.printname"] = eftstring["5bfd4c980db834001b73449d Name"]
+L["eft_mosin_carb_rs.compactname"] = eftstring["5bfd4c980db834001b73449d ShortName"]
+L["eft_mosin_carb_rs.description"] = eftstring["5bfd4c980db834001b73449d Description"]
 
 L["eft_mosin_pgrip_tacfire.printname"] = eftstring["5bbde41ed4351e003562b038 Name"]
 L["eft_mosin_pgrip_tacfire.compactname"] = eftstring["5bbde41ed4351e003562b038 ShortName"]

@@ -5589,9 +5589,9 @@ L["eft_mosin_std_rs.printname"] = "Alza para Fusil Mosin"
 L["eft_mosin_std_rs.compactname"] = "A. Mosin"
 L["eft_mosin_std_rs.description"] = "Un alza estándar para el fusil Mosin."
 
-L["eft_mosin_carb_rs.printname"] = "Cartucho de 9x19 mm - AP 6,3"
-L["eft_mosin_carb_rs.compactname"] = "AP 6,3"
-L["eft_mosin_carb_rs.description"] = "Munición de 9x19 mm Parabellum AP 6,3 - Es un cartucho con un proyectil perforante de fragmentación controlada de dos partes, la bala consta de una Sabot de latón y un penetrador de acero endurecido de 6,3 mm. Gracias al diseño de esta bala AP (Armor-Piercing; Perforante) y a pesar de tener una velocidad de salida promedio en relación con otros cartuchos del mismo calibre, esta tiene capacidades para atravesar protecciones balísticas corporales básicas, así como algunos modelos intermedios."
+L["eft_mosin_carb_rs.printname"] = "Alza de carabina para Fusil Mosin"
+L["eft_mosin_carb_rs.compactname"] = "A. Mosin"
+L["eft_mosin_carb_rs.description"] = "Un alza metálica estándar para el fusil Mosin en su versión carabina."
 
 L["eft_mosin_pgrip_tacfire.printname"] = "Pistolete Tacfire para fusil Mosin"
 L["eft_mosin_pgrip_tacfire.compactname"] = "P. Mosin"
