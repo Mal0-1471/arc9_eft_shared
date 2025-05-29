@@ -309,7 +309,10 @@ L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
 L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
+
 L["eft_weapon_v40_alt"] = "V40 Mini"
+L["eft_weapon_v40_full_alt"] = "V40 Mini-Grenade"
+L["eft_weapon_v40_desc_alt"] = "A Dutch fragmentation hand grenade. The grenade is the size of a standard golf ball and has a guaranteed lethal radius of only one meter."
 
 L["eft_weapon_a2607d_alt"] = "Damascus A-2607"
 

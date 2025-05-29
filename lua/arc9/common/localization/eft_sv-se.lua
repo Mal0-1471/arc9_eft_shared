@@ -16,7 +16,7 @@ L["eft_hud_misfire"] = "Torrklick"
 L["eft_hud_eject"] = "Tömningsfel"
 L["eft_hud_feed"] = "Matningsfel"
 L["eft_hud_bolt"] = "Fast slutstycke"
-L["eft_hud_missing"] = "Ditt vapen saknar några viktiga delar"
+L["eft_hud_missing"] = "Ditt vapen saknar några viktiga delar."
 L["eft_hud_badtrip"] = "Kunde inte placera snubbeltråd"
 
 -- [[ Weapon Classes ]] - Need to be edited manually
@@ -298,7 +298,10 @@ L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
 L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
+
 L["eft_weapon_v40_alt"] = "V40 Mini"
+L["eft_weapon_v40_full_alt"] = "V40 Mini-Grenade"
+L["eft_weapon_v40_desc_alt"] = "Splittergranat från nederländerna. Granaten är i storleken av en normal golfboll och har endast en garanterad dödlig radie på en meter."
 
 L["eft_weapon_a2607d_alt"] = "A-2607 Damaskus"
 

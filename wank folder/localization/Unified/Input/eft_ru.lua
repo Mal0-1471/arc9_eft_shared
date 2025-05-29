@@ -309,7 +309,10 @@ L["eft_weapon_deaglel550ae_alt"] = "Desert Eagle L5 .50 AE"
 L["eft_weapon_deaglel6wts_alt"] = "Desert Eagle L6 (WTS)"
 
 L["eft_weapon_m32a1_alt"] = "Milkor M32A1"
+
 L["eft_weapon_v40_alt"] = "V40 Mini"
+L["eft_weapon_v40_full_alt"] = "V40 Mini-Grenade"
+L["eft_weapon_v40_desc_alt"] = "V40 Mini-Grenade — нидерландская ручная осколочная граната. Граната по размеру не больше стандартного мяча для гольфа и гарантированный радиус поражения всего один метр. Предназначена для поражения живой силы в бою."
 
 L["eft_weapon_a2607d_alt"] = "A-2607 Дамаск"
 
