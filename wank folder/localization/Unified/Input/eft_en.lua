@@ -316,6 +316,10 @@ L["eft_weapon_v40_desc_alt"] = "A Dutch fragmentation hand grenade. The grenade 
 
 L["eft_weapon_a2607d_alt"] = "A-2607 Damascus"
 
+L["eft_weapon_f1rd_suffix"] = " (Reduced delay)"
+L["eft_weapon_f1rd_suffix_short"] = " (RD)"
+L["eft_weapon_f1rd_desc"] = "The F-1 hand grenade (GRAU Index 57-G-721) is an anti-personnel fragmentation grenade, designed for neutralizing enemy personnel in defensive combat. This version is personally modified by Partisan and has a shortened fuze, intended for explosive tripwires."
+
 ///////////////////////////// EFT Attachments with Comments
 -- These are EFT attachments that should be in the "_bulk" files, but has
 -- additional comments included in the description of them.

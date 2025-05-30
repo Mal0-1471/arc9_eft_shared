@@ -316,6 +316,10 @@ L["eft_weapon_v40_desc_alt"] = "V40 Mini-Grenade — нидерландская 
 
 L["eft_weapon_a2607d_alt"] = "A-2607 Дамаск"
 
+L["eft_weapon_f1rd_suffix"] = " (Сокр. задержка)"
+L["eft_weapon_f1rd_suffix_short"] = " (СЗ)"
+L["eft_weapon_f1rd_desc"] = "Ф-1 — ручная противопехотная граната. Эта версия модифицирована лично Партизаном и имеет сокращенный замедлитель. Предназначается для использования в растяжках."
+
 ///////////////////////////// EFT Attachments with Comments
 -- These are EFT attachments that should be in the "_bulk" files, but has
 -- additional comments included in the description of them.
