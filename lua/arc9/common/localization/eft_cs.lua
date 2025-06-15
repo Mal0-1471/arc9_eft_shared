@@ -561,7 +561,7 @@ L["eft_p90_mag_opaque.description"] = "Polymerový zásobník na 50 nábojů pro
 
 -- [[ TOZ-106 + MP-18 ]]
 -- ammo_20x70
-L["eft_ammo_20x70_elephant.printname"] = "Náboj 20/70 se střelou \"Elephant Killer\"",
+L["eft_ammo_20x70_elephant.printname"] = "Náboj 20/70 se střelou \"Elephant Killer\""
 L["eft_ammo_20x70_elephant.compactname"] = "Elephant"
 L["eft_ammo_20x70_elephant.description"] = "Homemade 20/70 cartridge for 20 gauge shotguns with a specially sharpened projectile and a huge amount of gunpowder. The recipe is in the top 10 according to \"Homemade Reloads\" magazine. Uses a casing from a 20/70 \"Devastator\" round." .. customatt
 
