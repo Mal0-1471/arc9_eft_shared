@@ -934,7 +934,7 @@ ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_backup"),
         Category = {"eft_elcan_mount"},
-        Pos = Vector(-0.7, 0, -2.32),
+        Pos = Vector(1.058, 0, -2.32),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
@@ -1019,6 +1019,16 @@ ATT.ScopeScreenRatio = 623/1080
 
 
 ATT.AdvancedCamoSupport = true
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
+        Category = {"eft_elcan_mount"},
+        Pos = Vector(1.058, 0, -2.32),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 ARC9.LoadAttachment(ATT, "eft_scope_elcan_fde")
 

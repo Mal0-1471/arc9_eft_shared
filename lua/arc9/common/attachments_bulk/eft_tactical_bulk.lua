@@ -1637,7 +1637,7 @@ ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_scout"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_flashlights.mdl"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/flashlight_surefire_m600_ultra_scout.mdl"
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -1716,7 +1716,7 @@ ATT.CompactName = "Inline KM"
 ATT.Icon = Material("entities/eft_attachments/689c8a2b4b91399db3085f27.png", "mips smooth")
 ATT.Description = "A weapon light mount designed for KeyMod interface. Manufactured by Arisaka."
 
-ATT.Category = {"eft_tactical"}
+ATT.Category = {"eft_mount_keymod", "eft_mount_keymod2", "eft_mount_keymod_casv2"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl" -- keymod
 
@@ -1727,8 +1727,8 @@ ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
         Category = "eft_scout",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
+        Pos = Vector(-1.175, -0.2, 0),
+        Ang = Angle(0, 0, -90),
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
@@ -1745,10 +1745,10 @@ ATT.CompactName = "Inline M-LOK"
 ATT.Icon = Material("entities/eft_attachments/689c8b454b91399db3085f2a.png", "mips smooth")
 ATT.Description = "A weapon light mount designed for M-LOK interface. Manufactured by Arisaka."
 
-ATT.Category = {"eft_tactical"}
+ATT.Category = {"eft_mount_mlok"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl" 
-ATT.ModelBodyGroups = "1" -- mlok
+ATT.ModelBodygroups = "1" -- mlok
 
 ATT.EFTErgoAdd = -0.2
 ATT.CustomCons = { Ergonomics = "-0.2" }
@@ -1757,8 +1757,8 @@ ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
         Category = "eft_scout",
-        Pos = Vector(0, 0, 0),
-        Ang = Angle(0, 0, 0),
+        Pos = Vector(-1.37, -0.2, 0),
+        Ang = Angle(0, 0, -90),
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }

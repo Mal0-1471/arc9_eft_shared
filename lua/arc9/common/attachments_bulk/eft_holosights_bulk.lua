@@ -1924,7 +1924,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -0.57),
+        Pos = Vector(0, 10, -0.8),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 53
@@ -1964,7 +1964,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -0.57),
+        Pos = Vector(0, 10, -0.8),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 53
@@ -2014,7 +2014,7 @@ ATT.HoloSight = true
 ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
-ATT.HoloSightSize = 400
+ATT.HoloSightSize = 250
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
@@ -2053,7 +2053,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 10, -1.75),
+        Pos = Vector(0, 10, -1.32),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 53
@@ -2066,6 +2066,7 @@ ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flag
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 3, 15)*5) -- bright color
 ATT.HoloSightSize = 360
 ATT.HoloSightColorable = false
+-- ATT.HoloSightDepthAdjustment = 0.8
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
@@ -2132,7 +2133,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 9, -1),
+        Pos = Vector(0, 9, -1.74),
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 53
