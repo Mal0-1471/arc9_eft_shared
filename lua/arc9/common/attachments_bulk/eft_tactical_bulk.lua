@@ -1618,3 +1618,149 @@ ARC9.LoadAttachment(ATT, "eft_mount_kac_bipod")
 -- }
 
 -- ARC9.LoadAttachment(ATT, "eft_shared_fastreload")
+
+
+
+///////////////////////////////////////      eft_tactical_scout
+
+
+ATT = {}
+
+ATT.PrintName = "SureFire M600 Ultra Scout Light"
+ATT.CompactName = "M600U"
+ATT.Icon = Material("entities/eft_attachments/689c887cd18a3665b8045743.png", "mips smooth")
+ATT.Description = "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire."
+
+ATT.EFTErgoAdd = -1.5
+ATT.CustomCons = { Ergonomics = "-1.5" }
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"eft_scout"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_flashlights.mdl"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_high"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 255, 255),
+        FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
+        FlashlightDistance = 4096,
+        FlashlightFOV = 85,
+        FlashlightAttachment = 1,
+        Flare = true,
+        FlareColor = Color(255, 255, 255),
+        FlareSize = 125,
+        FlareAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_low"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 255, 255),
+        FlashlightMaterial = "effects/arc9_eft/weapon_flashlight_cookie",
+        FlashlightDistance = 2048,
+        FlashlightFOV = 75,
+        FlashlightAttachment = 1,
+        Flare = true,
+        FlareColor = Color(255, 255, 255),
+        FlareSize = 125,
+        FlareAttachment = 1,
+        EFTHipFireSpreadBonus = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+
+ARC9.LoadAttachment(ATT, "eft_tactical_scout")
+
+///////////////////////////////////////      eft_mount_scout_pic
+
+
+ATT = {}
+
+ATT.PrintName = "SureFire M600 Scout Light Thumbscrew Mount"
+ATT.CompactName = "M600"
+ATT.Icon = Material("entities/eft_attachments/689c8981bce76ccfbf01862f.png", "mips smooth")
+ATT.Description = "A Picatinny/Weaver mount for M600/M300 series weapon lights. Manufactured by SureFire."
+
+ATT.Category = {"eft_tactical"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_surefire_scout_thumbscrew.mdl"
+
+ATT.EFTErgoAdd = -0.1
+ATT.CustomCons = { Ergonomics = "-0.1" }
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
+        Category = "eft_scout",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1.5),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_scout_pic")
+
+///////////////////////////////////////      eft_mount_scout_keymod
+
+
+ATT = {}
+
+ATT.PrintName = "Arisaka Inline Scout Mount KeyMod"
+ATT.CompactName = "Inline KM"
+ATT.Icon = Material("entities/eft_attachments/689c8a2b4b91399db3085f27.png", "mips smooth")
+ATT.Description = "A weapon light mount designed for KeyMod interface. Manufactured by Arisaka."
+
+ATT.Category = {"eft_tactical"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl" -- keymod
+
+ATT.EFTErgoAdd = -0.2
+ATT.CustomCons = { Ergonomics = "-0.2" }
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
+        Category = "eft_scout",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1.5),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_scout_keymod")
+
+///////////////////////////////////////      eft_mount_scout_mlok
+
+
+ATT = {}
+
+ATT.PrintName = "Arisaka Inline Scout Mount M-LOK"
+ATT.CompactName = "Inline M-LOK"
+ATT.Icon = Material("entities/eft_attachments/689c8b454b91399db3085f2a.png", "mips smooth")
+ATT.Description = "A weapon light mount designed for M-LOK interface. Manufactured by Arisaka."
+
+ATT.Category = {"eft_tactical"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl" 
+ATT.ModelBodyGroups = "1" -- mlok
+
+ATT.EFTErgoAdd = -0.2
+ATT.CustomCons = { Ergonomics = "-0.2" }
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
+        Category = "eft_scout",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1.5),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_scout_mlok")

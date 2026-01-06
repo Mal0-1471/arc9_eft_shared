@@ -1903,3 +1903,250 @@ end
 ARC9.LoadAttachment(ATT, "eft_optic_boss")
 
 
+
+///////////////////////////////////////      eft_optic_sro
+
+
+ATT = {}
+
+ATT.PrintName = "Trijicon SRO reflex sight"
+ATT.CompactName = "SRO"
+ATT.Icon = Material("entities/eft_attachments/688b44cb28bf8d85cd0ff108.png", "mips smooth")
+ATT.Description = "The SRO (Specialized Reflex Optic) is a rugged, compact reflex sight. It can be used as a primary or backup optic. Requires a compatible base to mount on Weaver-style rails. Manufactured by Trijicon."
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_trijicon_sro.mdl"
+
+ATT.Category = {"eft_rmr"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -0.57),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
+ATT.HoloSightSize = 400
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+
+ARC9.LoadAttachment(ATT, "eft_optic_sro")
+
+///////////////////////////////////////      eft_optic_sro_fde
+
+
+ATT = {}
+
+ATT.PrintName = "Trijicon SRO reflex sight (FDE)"
+ATT.CompactName = "SRO"
+ATT.Icon = Material("entities/eft_attachments/688b4bd81cef2a61d0052738.png", "mips smooth")
+ATT.Description = "The SRO (Specialized Reflex Optic) is a rugged, compact reflex sight. It can be used as a primary or backup optic. Requires a compatible base to mount on Weaver-style rails. Manufactured by Trijicon. Flat Dark Earth version."
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_trijicon_sro.mdl"
+ATT.ModelSkin = 1
+
+ATT.Category = {"eft_rmr"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -0.57),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
+ATT.HoloSightSize = 400
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+
+ARC9.LoadAttachment(ATT, "eft_optic_sro_fde")
+
+///////////////////////////////////////      eft_optic_justice
+
+
+ATT = {}
+
+ATT.PrintName = "SwampFox Justice reflex sight"
+ATT.CompactName = "Justice"
+ATT.Icon = Material("entities/eft_attachments/68a5ac69b55a6b93c20a2bc7.png", "mips smooth")
+ATT.Description = "A rugged everyday carry reflex sight, made for use on pistols, carbines, or shotguns. Can be used as a main or backup sight, requires a corresponding Weaver mount. Manufactured by SwampFox."  
+ATT.SortOrder = 1
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_swampfox_justice.mdl"
+
+ATT.Category = {"eft_rmr"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -0.57),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
+ATT.HoloSightSize = 400
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.AdvancedCamoSupport = true
+
+ARC9.LoadAttachment(ATT, "eft_optic_justice")
+
+
+///////////////////////////////////////      eft_optic_falke
+
+
+ATT = {}
+
+ATT.PrintName = "FALKE LE reflex sight"
+ATT.CompactName = "FALKE LE"
+ATT.Icon = Material("entities/eft_attachments/68a5ab09c44fa287ba0a97b5.png", "mips smooth")
+ATT.Description = "A rugged reflex sight made for withstanding harsh environmental conditions, compatible with NVGs and various weapon builds. Manufactured by FALKE."
+
+ATT.SortOrder = 1
+
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_falke_le.mdl"
+ATT.Folder = "Reflex"
+
+ATT.Category = {"eft_optic_medium"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ATT.EFTErgoAdd = -2
+ATT.CustomCons = { Ergonomics = "-2" }
+
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.75),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_falke_falke_le_LOD0_linza.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(1, 3, 15)*5) -- bright color
+ATT.HoloSightSize = 360
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.AdvancedCamoSupport = true
+
+ARC9.LoadAttachment(ATT, "eft_optic_falke")
+
+///////////////////////////////////////      eft_mount_mepro
+
+
+ATT = {}
+
+ATT.PrintName = "MeproLight Mepro red dot mount"
+ATT.CompactName = "Mepro"
+ATT.Icon = Material("entities/eft_attachments/688a0bf28cdd409ce60911ce.png", "mips smooth")
+ATT.Description = "A Picatinny/Weaver quick-detach mount base for Mepro series red dot sights. Manufactured by MeproLight."
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_meprolight_mepro_m21.mdl"
+ATT.Folder = "Reflex/Mounts"
+
+ATT.Category = {"eft_optic_medium"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.EFTErgoAdd = -0.2
+ATT.CustomCons = { Ergonomics = "-0.2" }
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
+        Category = {"eft_mepro"},
+        Pos = Vector(0, 0, 0),
+        --Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ARC9.LoadAttachment(ATT, "eft_mount_mepro")
+
+
+///////////////////////////////////////      eft_optic_mepro
+
+
+ATT = {}
+
+ATT.PrintName = "MeproLight Mepro M21 reflex sight"
+ATT.CompactName = "Mepro M21"
+ATT.Icon = Material("entities/eft_attachments/688a0b38467521f9080693a3.png", "mips smooth")
+ATT.Description = "A fiber optic red dot sight manufactured by MeproLight. Installed on a proprietary mount."
+
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_meprolight_mepro_m21.mdl"
+
+ATT.Category = {"eft_mepro"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.EFTErgoAdd = -1
+ATT.CustomCons = { Ergonomics = "-1" }
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 9, -1),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_meprolight_mepro_m21_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(1.5, 10, 10) * 0.8) -- bright color
+ATT.HoloSightSize = 350
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+
+ARC9.LoadAttachment(ATT, "eft_optic_mepro")
