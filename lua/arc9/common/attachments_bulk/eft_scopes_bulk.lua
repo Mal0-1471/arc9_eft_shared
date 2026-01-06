@@ -462,7 +462,6 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
-        RTScopeFOV = 36/1,
     },
 }
 
@@ -504,9 +503,7 @@ ATT.RTScopeDrawFunc = function(swep, rtsize, sight)
 
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
-    -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2)
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
+    surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
 end
 
 ATT.ZoomSound = false
@@ -688,7 +685,7 @@ ATT.SortOrder = 3
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_acog_ta11.mdl"
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
-ATT.Category = "eft_scope_compact"
+ATT.Category = {"eft_scope_trijicon", "eft_scope_compact"}
 
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
@@ -932,6 +929,16 @@ ATT.RTScopeBlackBoxShadow = true
 ATT.ScopeScreenRatio = 623/1080
 
 ATT.AdvancedCamoSupport = true
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_backup"),
+        Category = {"eft_elcan_mount"},
+        Pos = Vector(-0.7, 0, -2.32),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_elcan")

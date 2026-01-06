@@ -33,7 +33,7 @@ ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_stock"),
         Category = "eft_ar_stock_a2",
-        Pos = Vector(2.75, 0, 0.9),
+        Pos = Vector(3, 0, 0.9),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
         ExcludeElements = {"pgrip_stock"},

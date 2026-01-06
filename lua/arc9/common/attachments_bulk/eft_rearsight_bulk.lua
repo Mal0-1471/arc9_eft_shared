@@ -216,7 +216,7 @@ ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_scope_trijicon", "eft_m4carry"},
-        Pos = Vector(-3, 0, -1),
+        Pos = Vector(-1.5, 0, -1),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0, 0),
     },
