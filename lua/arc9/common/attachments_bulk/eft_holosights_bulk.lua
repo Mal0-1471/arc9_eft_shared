@@ -418,12 +418,13 @@ ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks2.png", "mips smooth")
 ATT.RTScopeReticle:SetInt("$flags", bit.bor(ATT.RTScopeReticle:GetInt("$flags"), 128)) -- additive
 ATT.RTScopeReticle:SetVector("$color2", Vector(60, 10, 100)) -- bright color
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 0.54
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 ATT.ScopeScreenRatio = 767/1080
+ATT.RTScopeNew_ShadowScale = 0.85
 
 ATT.DrawFunc = function(swep, model, wm) 
     if !wm then
@@ -508,12 +509,13 @@ ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks2.png", "mips smooth")
 ATT.RTScopeReticle:SetInt("$flags", bit.bor(ATT.RTScopeReticle:GetInt("$flags"), 128)) -- additive
 ATT.RTScopeReticle:SetVector("$color2", Vector(60, 10, 100)) -- bright color
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 0.54
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 ATT.ScopeScreenRatio = 767/1080
+ATT.RTScopeNew_ShadowScale = 0.85
 
 ATT.DrawFunc = function(swep, model, wm) 
     if !wm then
@@ -1354,7 +1356,8 @@ local flirtable = {
         ["$pp_colour_colour"] = 0.2,
         ["$pp_colour_mulr"] = 0,
         ["$pp_colour_mulg"] = 0,
-        ["$pp_colour_mulb"] = 0
+        ["$pp_colour_mulb"] = 0,
+        ["$pp_colour_invert"] = 0,
     }, 
     RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
         ["$pp_colour_addr"] = 3.25,
@@ -1365,7 +1368,8 @@ local flirtable = {
         ["$pp_colour_colour"] = 1,
         ["$pp_colour_mulr"] = 0,
         ["$pp_colour_mulg"] = 0,
-        ["$pp_colour_mulb"] = 0
+        ["$pp_colour_mulb"] = 0,
+        ["$pp_colour_invert"] = 0,
     }
 }
 
@@ -2151,3 +2155,168 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 
 ARC9.LoadAttachment(ATT, "eft_optic_mepro")
+
+
+
+
+
+
+///////////////////////////////////////      eft_mount_fc1
+
+
+ATT = {}
+
+ATT.PrintName = "DI Optical FC1 sight mount"
+ATT.CompactName = "FC1 SM"
+ATT.Icon = Material("entities/eft_attachments/6985bed26be2752c150e6898.png", "mips smooth")
+ATT.Description = "A special mount for the FC1 reflex sight. Manufactured by DI Optical."
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/di_optical_fc1_mount.mdl"
+ATT.Folder = "Reflex/Mounts"
+
+ATT.Category = {"eft_optic_medium"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
+        Category = {"eft_fc1", "eft_fc1_spacer"},
+        Pos = Vector(0, 0, 0),
+        --Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ATT.AdvancedCamoSupport = true
+
+ARC9.LoadAttachment(ATT, "eft_mount_fc1")
+
+///////////////////////////////////////      eft_mount_fc1_spacer
+
+
+ATT = {}
+
+ATT.PrintName = "DI Optical FC1 Spacer"
+ATT.CompactName = "FC1 spc."
+ATT.Icon = Material("entities/eft_attachments/6985bee16be2752c150e689b.png", "mips smooth")
+ATT.Description = "A riser for the FC1 reflex sight. Manufactured by DI Optical."
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/di_optical_fc1_spacer.mdl"
+
+ATT.Category = {"eft_fc1_spacer"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, -0)
+ATT.EFTErgoAdd = -0.5
+ATT.CustomCons = { Ergonomics = "-0.5" }
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_scope"),
+        Category = {"eft_fc1"},
+        Pos = Vector(0, 0, -0.406),
+        --Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1),
+    },
+}
+
+ATT.AdvancedCamoSupport = true
+
+ARC9.LoadAttachment(ATT, "eft_mount_fc1_spacer")
+
+
+///////////////////////////////////////      eft_optic_fc1
+
+
+ATT = {}
+
+ATT.PrintName = "DI Optical FC1 reflex sight"
+ATT.CompactName = "FC1"
+ATT.Icon = Material("entities/eft_attachments/6985bebd812f88c79b0eed3b.png", "mips smooth")
+ATT.Description = "A prismatic red dot reflex sight manufactured by DI Optical."
+
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/di_optical_fc1.mdl"
+
+ATT.Category = {"eft_fc1"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 9, -1.13),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(4.25, 2, 2) * 0.3) -- bright color
+ATT.HoloSightSize = 350
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.AdvancedCamoSupport = true
+
+
+ARC9.LoadAttachment(ATT, "eft_optic_fc1")
+
+
+
+///////////////////////////////////////      eft_optic_r1x
+
+
+ATT = {}
+
+ATT.PrintName = "Steiner R1X reflex sight"
+ATT.CompactName = "R1X"
+ATT.Icon = Material("entities/eft_attachments/6985beb1812f88c79b0eed39.png", "mips smooth")
+ATT.Description = "The R1X reflex sight, designed for precision shooting for modern sporting rifles and shotguns. Manufactured by Steiner."
+ATT.SortOrder = 1
+
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/steiner_r1x.mdl"
+ATT.Folder = "Reflex"
+
+ATT.Category = {"eft_optic_medium"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+ATT.EFTErgoAdd = -2.5
+ATT.CustomCons = { Ergonomics = "-2.5" }
+
+
+
+ATT.FoldSights = true
+
+ATT.Sights = {
+    {
+        Pos = Vector(0, 10, -1.2),
+        Ang = Angle(0, 0, 0),
+        Magnification = 1.25,
+        ViewModelFOV = 53
+    }
+}
+
+ATT.HoloSight = true
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
+ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
+ATT.HoloSightReticle:SetVector("$color2", Vector(4.25, 2, 2) * 0.3) -- bright color
+ATT.HoloSightSize = 350
+ATT.HoloSightColorable = false
+
+ATT.ModelOffset = Vector(0, 0, -0)
+
+ATT.AdvancedCamoSupport = true
+
+ARC9.LoadAttachment(ATT, "eft_optic_r1x")

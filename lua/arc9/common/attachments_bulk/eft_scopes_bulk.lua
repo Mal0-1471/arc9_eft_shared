@@ -28,7 +28,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 13, 0),        
+        Pos = Vector(0, 12.1, 0),        
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -60,23 +60,23 @@ end
 local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/March Tactical 3-24x42 Mark_f.png", "mips")
 local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/March Tactical 3-24x42 Mark_q.png", "mips")
 
-local scale = 1
-local finalsize = 18 * scale
+local scale = 1.25
+local finalsize = 6.25 * scale
 ATT.RTScopeDrawFunc = function(swep, rtsize, sight) 
     local scrollevel = sight.SmoothScrollLevel or 0
     local size = (rtsize + rtsize * (1 - scrollevel) * finalsize) * scale
     local mat = Reticle_full
 
-    if scrollevel <= 0.8 then 
-        size = size / 4
+    if scrollevel <= 0.85 then 
+        size = size / 3
         mat = Reticle_quarter
     end
 
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
-    -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = ARC9.NewRTScopesEnabled and 0 or (swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2))
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
+    surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
+    -- local counterrotation = ARC9.NewRTScopesEnabled and 0 or (swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2))
+    -- surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -98,6 +98,7 @@ ATT.RTScopeBlackBox = true
 ATT.RTScopeBlackBoxShadow = true 
 
 ATT.ScopeScreenRatio = 622/1080
+ATT.RTScopeNew_ShadowScale = 1.1
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_march")
@@ -128,7 +129,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 12.6, 0),
+        Pos = Vector(0, 11.7, 0),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -169,13 +170,14 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_30mm_leupold_mark4_lr_6,5_20x50_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 0.95
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
 
 ATT.ScopeScreenRatio = 0.5833
+ATT.RTScopeNew_ShadowScale = 1.3
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_mark4")
@@ -204,7 +206,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 12.9, 0),
+        Pos = Vector(0, 12.3, 0),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -245,7 +247,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_30mm_razor_hd_gen_2_1_6x24_mark.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.2
+ATT.RTScopeReticleScale = 1.1
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
@@ -282,7 +284,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 16.15, 0),
+        Pos = Vector(0, 14.8, 0),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -315,23 +317,23 @@ end
 local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/PM_II_1-8x24_mark_f.png", "mips")
 local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/PM_II_1-8x24_mark_q.png", "mips")
 
-local scale = 1
-local finalsize = 10 * scale
+local scale = 0.625
+local finalsize = 10.5 * scale
 ATT.RTScopeDrawFunc = function(swep, rtsize, sight) 
     local scrollevel = sight.SmoothScrollLevel or 0
     local size = (rtsize + rtsize * (1 - scrollevel) * finalsize) * scale
     local mat = Reticle_full
 
-    if scrollevel <= 0.7 then 
+    if scrollevel <= 0.3 then 
         size = size / 4
         mat = Reticle_quarter
     end
 
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
-    -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = ARC9.NewRTScopesEnabled and 0 or (swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2))
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
+    surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
+    -- local counterrotation = ARC9.NewRTScopesEnabled and 0 or (swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2))
+    -- surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -341,6 +343,7 @@ ATT.RTScopeAdjustmentLevels = 8
 ATT.RTScopeMagnification = 1
 ATT.RTScopeMagnificationMin = 1
 ATT.RTScopeMagnificationMax = 8
+ATT.RTScopeNew_ShadowScale = 1.1
 
 
 ATT.RTScope = true
@@ -382,7 +385,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 12.8, 0),
+        Pos = Vector(0, 13.1, 0),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -423,11 +426,12 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_30mm_burris_fullfield_tac30_1_4x24_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.05
+ATT.RTScopeReticleScale = 0.85
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeNew_ShadowScale = 1.1
 
 ATT.ScopeScreenRatio = 802/1080
 
@@ -458,7 +462,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 13.9, 0),
+        Pos = Vector(0, 13.2, 0),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -467,9 +471,9 @@ ATT.Sights = {
 
 local prevscroll = 0
 ATT.DrawFunc = function(swep, model, wm) 
-    if !wm then
+    -- if !wm then
         -- swep:GetSight().slottbl.Address
-        local active = swep:GetInSights() and model.slottbl.Address == swep:GetActiveSightSlotTable().Address
+        local active = swep:GetSightAmount() > 0.85 and model.slottbl.Address == swep:GetActiveSightSlotTable().Address
 
         if active then
             local scrollevel = swep:GetSight().SmoothScrollLevel or 0
@@ -483,29 +487,29 @@ ATT.DrawFunc = function(swep, model, wm)
             end
             prevscroll = roundedscroll
         end
-    end
+    -- end
 end
 
 local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/vudu_f.png", "mips")
 local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/vudu_q.png", "mips")
 
-local scale = 0.5
-local finalsize = 14 * scale
+local scale = 0.28
+local finalsize = 20 * scale
 ATT.RTScopeDrawFunc = function(swep, rtsize, sight) 
     local scrollevel = sight.SmoothScrollLevel or 0
     local size = (rtsize + rtsize * (1 - scrollevel) * finalsize) * scale
     local mat = Reticle_full
 
-    if scrollevel <= 0.25 then 
+    if scrollevel <= 0.18 then 
         size = size / 4
         mat = Reticle_quarter
     end
 
     surface.SetMaterial(mat)
     surface.SetDrawColor(255, 255, 255)
-    -- surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
-    local counterrotation = ARC9.NewRTScopesEnabled and 0 or (swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2))
-    surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
+    surface.DrawTexturedRect(rtsize / 2 - size / 2, rtsize / 2 - size / 2, size, size)
+    -- local counterrotation = ARC9.NewRTScopesEnabled and 0 or (swep.LastViewModelAng.z - sight.Ang.z + (arc9_cheapscopes:GetBool() and 0 or swep.SubtleVisualRecoilAng.z * 2))
+    -- surface.DrawTexturedRectRotated(rtsize / 2, rtsize / 2, size, size, -counterrotation)
 end
 
 ATT.ZoomSound = false
@@ -570,14 +574,15 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 36/4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_ta01.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.975
+ATT.RTScopeReticleScale = 0.75
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeNew_ShadowScale = 0.9
 
 ATT.ScopeScreenRatio = 580/1080
 
@@ -641,14 +646,15 @@ ATT.Sights = {
 }
 
 ATT.RTScope = true
-ATT.RTScopeSubmatIndex = 2
+ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 36/4
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/eft_reticle_ta01.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.975
+ATT.RTScopeReticleScale = 0.75
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeNew_ShadowScale = 0.9
 
 ATT.ScopeScreenRatio = 580/1080
 
@@ -696,7 +702,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 8.5, -1.445),
+        Pos = Vector(0, 8.8, -1.445),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -712,11 +718,13 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 36/3.5
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_trijicon_acog_ta11_3.5x35_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.99
+ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+
+ATT.RTScopeNew_ShadowScale = 0.85
 
 ATT.ScopeScreenRatio = 537/1080
 
@@ -774,7 +782,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_bravo4_4x30_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 1
+ATT.RTScopeReticleScale = 0.77
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
@@ -822,7 +830,7 @@ local R1 = Material("vgui/arc9_eft_shared/reticles/scope_all_monstrum_compact_pr
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 9.0, -1.152),
+        Pos = Vector(0, 8.8, -1.152),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -845,11 +853,12 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_monstrum_compact_prism_scope_2x32_mark_0.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.25
+ATT.RTScopeReticleScale = 1.5
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeNew_ShadowScale = 0.6
 
 ATT.ScopeScreenRatio = 382/1080
 
@@ -922,11 +931,12 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_elcan_specter_DR_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.04
+ATT.RTScopeReticleScale = 0.88
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeNew_ShadowScale = 0.8
 
 ATT.ScopeScreenRatio = 623/1080
 
@@ -1107,10 +1117,10 @@ ATT.ToggleStats = {
             ["$pp_colour_mulb"] = 0
         },
         RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-            ["$pp_colour_addr"] = 0.5,
+            ["$pp_colour_addr"] = 0.8,
             ["$pp_colour_addg"] = 0.1,
             ["$pp_colour_addb"] = 0.05,
-            ["$pp_colour_brightness"] = -0.55,
+            ["$pp_colour_brightness"] = -0.3,
             ["$pp_colour_contrast"] = 1,
             ["$pp_colour_colour"] = 0.8,
             ["$pp_colour_mulr"] = 0,
@@ -1129,12 +1139,24 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.97
+ATT.RTScopeReticleScale = 0.88
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
-ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = false 
-ATT.RTScopeNoShadow = true 
+-- ATT.RTScopeBlackBox = true 
+-- ATT.RTScopeBlackBoxShadow = false 
+-- ATT.RTScopeNoShadow = true 
+ATT.RTScopeNew_ReticleBlackBox = true 
+ATT.RTScopeNew_DisableShader = true 
+
+-- ATT.RTScopeNew_FrontShadow = false 
+ATT.RTScopeNew_BackShadow = true  
+ATT.RTScopeNew_FrontShadowScale = 4
+ATT.RTScopeNew_BackShadowScale = 1.1
+ATT.RTScopeNew_ChromaticAberrationMult = 0.7
+ATT.RTScopeNew_ShadowIntensity = 0.9
+
+ATT.RTScopeNew_FPSLock = 21
+
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -1153,8 +1175,8 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
     ["$pp_colour_addr"] = 0.49,
     ["$pp_colour_addg"] = 0.49,
     ["$pp_colour_addb"] = 0.49,
-    ["$pp_colour_brightness"] = -0.59,
-    ["$pp_colour_contrast"] = 1,
+    ["$pp_colour_brightness"] = 0.4,
+    ["$pp_colour_contrast"] = 0.5,
     ["$pp_colour_colour"] = 0,
     ["$pp_colour_mulr"] = 0,
     ["$pp_colour_mulg"] = 0,
@@ -1220,11 +1242,12 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_leupold_mark4_hamr_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeReticleScale = 0.95
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeNew_ShadowScale = 0.8
 
 ATT.ScopeScreenRatio = 540/1080
 
@@ -1266,7 +1289,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 8.9, -1.405),
+        Pos = Vector(0, 8.98, -1.405),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -1279,11 +1302,12 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
 ATT.RTScopeFOV = 36/2.5
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_primary_arms_compact_prism_scope_25x_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.3
+ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 10
 ATT.RTScopeBlackBox = true 
 ATT.RTScopeBlackBoxShadow = true 
+ATT.RTScopeNew_ShadowScale = 0.8
 
 ATT.ScopeScreenRatio = 530/1080
 
@@ -1317,17 +1341,17 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 7.6, -1.52),
+        Pos = Vector(0, 7.2, -1.52),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
         InvertColors = true,
         ExtraSightData = {
             RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
-                ["$pp_colour_addr"] = 1 - 0,
-                ["$pp_colour_addg"] = 1 - 1,
-                ["$pp_colour_addb"] = 1 - 0.063,
-                ["$pp_colour_brightness"] = 0.7,
+                ["$pp_colour_addr"] = 0,
+                ["$pp_colour_addg"] = 1,
+                ["$pp_colour_addb"] = 0.063,
+                ["$pp_colour_brightness"] = 3,
                 ["$pp_colour_contrast"] = 0.15,
                 ["$pp_colour_colour"] = 0.4,
                 ["$pp_colour_mulr"] = 0,
@@ -1335,12 +1359,12 @@ ATT.Sights = {
                 ["$pp_colour_mulb"] = 0
             },
             RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-                ["$pp_colour_addr"] = 1 - 0,
-                ["$pp_colour_addg"] = 1 - 0.2,
-                ["$pp_colour_addb"] = 1 - 0.02,
-                ["$pp_colour_brightness"] = 0.1,
-                ["$pp_colour_contrast"] = 0.9,
-                ["$pp_colour_colour"] = 0.8,
+                ["$pp_colour_addr"] = 0,
+                ["$pp_colour_addg"] = 0.2,
+                ["$pp_colour_addb"] = 0.02,
+                ["$pp_colour_brightness"] = -0.1,
+                ["$pp_colour_contrast"] = 0.5,
+                ["$pp_colour_colour"] = 0.1,
                 ["$pp_colour_mulr"] = 0,
                 ["$pp_colour_mulg"] = 0,
                 ["$pp_colour_mulb"] = 0
@@ -1353,7 +1377,7 @@ ATT.Sights = {
         }
     },
     {
-        Pos = Vector(0, 7.6, -1.52),
+        Pos = Vector(0, 7.2, -1.52),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -1362,8 +1386,8 @@ ATT.Sights = {
                 ["$pp_colour_addr"] = 0,
                 ["$pp_colour_addg"] = 1,
                 ["$pp_colour_addb"] = 0.063,
-                ["$pp_colour_brightness"] = 0.7,
-                ["$pp_colour_contrast"] = 0.15,
+                ["$pp_colour_brightness"] = 0.4,
+                ["$pp_colour_contrast"] = 0.1,
                 ["$pp_colour_colour"] = 0.4,
                 ["$pp_colour_mulr"] = 0,
                 ["$pp_colour_mulg"] = 0,
@@ -1371,11 +1395,11 @@ ATT.Sights = {
             },
             RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
                 ["$pp_colour_addr"] = 0,
-                ["$pp_colour_addg"] = 0.2,
+                ["$pp_colour_addg"] = 0.72,
                 ["$pp_colour_addb"] = 0.02,
-                ["$pp_colour_brightness"] = 0.1,
-                ["$pp_colour_contrast"] = 0.9,
-                ["$pp_colour_colour"] = 0.8,
+                ["$pp_colour_brightness"] = 1.4,
+                ["$pp_colour_contrast"] = 0.4,
+                ["$pp_colour_colour"] = 0.2,
                 ["$pp_colour_mulr"] = 0,
                 ["$pp_colour_mulg"] = 0,
                 ["$pp_colour_mulb"] = 0
@@ -1394,12 +1418,24 @@ ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/reap_ir_reticle.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeReticleScale = 0.79
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
-ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = false 
-ATT.RTScopeNoShadow = true 
+-- ATT.RTScopeBlackBox = true 
+-- ATT.RTScopeBlackBoxShadow = false 
+-- ATT.RTScopeNoShadow = true 
+ATT.RTScopeNew_ReticleBlackBox = true 
+-- ATT.RTScopeNew_DisableShader = true 
+
+-- ATT.RTScopeNew_FrontShadow = false 
+ATT.RTScopeNew_BackShadow = true  
+ATT.RTScopeNew_FrontShadowScale = 3
+ATT.RTScopeNew_BackShadowScale = 1.2
+ATT.RTScopeNew_ChromaticAberrationMult = 0.8
+ATT.RTScopeNew_ShadowIntensity = 0.9
+
+ATT.RTScopeNew_FPSLock = 35
+
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -1481,7 +1517,7 @@ ATT.FoldSights = true
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 8.0, -1.496),
+        Pos = Vector(0, 8.3, -1.496),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -1492,7 +1528,7 @@ ATT.Sights = {
         RTScopeMagnification = 1,
     },
     {
-        Pos = Vector(0, 8.0, -1.496),
+        Pos = Vector(0, 8.3, -1.496),
         Ang = Angle(0, 0, 0),
         Magnification = 1.15,
         ViewModelFOV = 36,
@@ -1514,7 +1550,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_valday_ps320_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.95
+ATT.RTScopeReticleScale = 0.85
 ATT.RTScopeColorable = true
 ATT.RTScopeShadowIntensity = 20
 ATT.RTScopeBlackBox = true 
@@ -1523,6 +1559,7 @@ ATT.RTScopeBlackBoxShadow = true
 ATT.ScopeScreenRatio = 713/1080
 
 ATT.AdvancedCamoSupport = true
+ATT.RTScopeNew_ShadowScale = 0.75
 
 
 ARC9.LoadAttachment(ATT, "eft_scope_valday_ps320")
@@ -1565,12 +1602,13 @@ ATT.RTScopeSubmatIndex = 4
 ATT.RTScopeFOV = 12
 ATT.RTScopeMagnification = 3
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_vulcan_gen3_bravo_mg_35x_marks.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.1
+ATT.RTScopeReticleScale = 0.8
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 6
 ATT.RTScopeBlackBox = true 
 -- ATT.RTScopeBlackBoxShadow = false 
 -- ATT.RTScopeNoShadow = true 
+ATT.RTScopeNew_ShadowScale = 0.85
 
 ATT.RTScopeNightVision = true
 ATT.RTScopeNightVisionMonochrome = true
@@ -1581,7 +1619,7 @@ ATT.RTScopeNightVisionCC = {
     -- ["$pp_colour_brightness"] = -2,
     -- ["$pp_colour_contrast"] = 3.5,
     -- ["$pp_colour_colour"] = 0.09,
-    ["$pp_colour_brightness"] = -0.2,
+    ["$pp_colour_brightness"] = -0.5,
     ["$pp_colour_contrast"] = 2.5,
     ["$pp_colour_colour"] = 0.05,
     ["$pp_colour_mulr"] = 0,
@@ -1718,12 +1756,21 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 36/9
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_00.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.97
+ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeColorable = false
-ATT.RTScopeShadowIntensity = 5
-ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = false 
-ATT.RTScopeNoShadow = true 
+ATT.RTScopeShadowIntensity = 1
+-- ATT.RTScopeBlackBox = true 
+-- ATT.RTScopeBlackBoxShadow = false 
+-- ATT.RTScopeNoShadow = true 
+ATT.RTScopeNew_ReticleBlackBox = true 
+-- ATT.RTScopeNew_DisableShader = true 
+
+-- ATT.RTScopeNew_FrontShadow = false 
+ATT.RTScopeNew_BackShadow = true  
+ATT.RTScopeNew_FrontShadowScale = 6
+ATT.RTScopeNew_BackShadowScale = 1.3
+ATT.RTScopeNew_ChromaticAberrationMult = 0.2
+ATT.RTScopeNew_ShadowIntensity = 0.9
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -1750,6 +1797,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
     ["$pp_colour_mulb"] = 0
     }
 
+ATT.RTScopeNew_FPSLock = 21
 ATT.RTScopeCustomPPFunc = function(swep)
     -- DrawMotionBlur(0.95, 1, 1/21)
             DrawBloom(0.06, 2, 55, 55, 0, 0.7, 1, 0.5, 0.5)
@@ -1867,32 +1915,43 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 12
 ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "mips smooth")
-ATT.RTScopeReticleScale = 0.97
+ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
-ATT.RTScopeBlackBox = true 
-ATT.RTScopeBlackBoxShadow = true  
-ATT.RTScopeNoShadow = false  
+-- ATT.RTScopeBlackBox = true 
+-- ATT.RTScopeBlackBoxShadow = false 
+-- ATT.RTScopeNoShadow = true 
+ATT.RTScopeNew_ReticleBlackBox = true 
+ATT.RTScopeNew_DisableShader = true 
+
+-- ATT.RTScopeNew_FrontShadow = false 
+ATT.RTScopeNew_BackShadow = true  
+ATT.RTScopeNew_FrontShadowScale = 4
+ATT.RTScopeNew_BackShadowScale = 1.1
+ATT.RTScopeNew_ChromaticAberrationMult = 0.7
+ATT.RTScopeNew_ShadowIntensity = 0.9
+
+ATT.RTScopeNew_FPSLock = 21
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
 ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
-    ["$pp_colour_addr"] = 100/255,
-    ["$pp_colour_addg"] = 33/255,
-    ["$pp_colour_addb"] = 10/255,
+    ["$pp_colour_addr"] = 0,
+    ["$pp_colour_addg"] = 0,
+    ["$pp_colour_addb"] = 0,
     ["$pp_colour_brightness"] = 0.1,
-    ["$pp_colour_contrast"] = 0.6,
+    ["$pp_colour_contrast"] = 0.2,
     ["$pp_colour_colour"] = 0.1,
     ["$pp_colour_mulr"] = 0,
     ["$pp_colour_mulg"] = 0,
     ["$pp_colour_mulb"] = 0
 }
 ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
-    ["$pp_colour_addr"] = 0.49,
-    ["$pp_colour_addg"] = 0.49,
-    ["$pp_colour_addb"] = 0.49,
-    ["$pp_colour_brightness"] = -0.59,
-    ["$pp_colour_contrast"] = 1,
+    ["$pp_colour_addr"] = 0,
+    ["$pp_colour_addg"] = 0,
+    ["$pp_colour_addb"] = 0,
+    ["$pp_colour_brightness"] = 0.6,
+    ["$pp_colour_contrast"] = 0.5,
     ["$pp_colour_colour"] = 0,
     ["$pp_colour_mulr"] = 0,
     ["$pp_colour_mulg"] = 0,
@@ -1901,7 +1960,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
 
 ATT.RTScopeCustomPPFunc = function(swep)
     -- DrawMotionBlur(0.95, 1, 1/21)
-    DrawBloom(0.12, 2, 5.5, 5.5, 0, 0.1, 71/255, 1, 93/255)
+    DrawBloom(0.12, 2, 5.5, 5.5, 0, 0.1, 1, 1, 1)
 
     -- DrawSharpen(4, 0.6)
 end

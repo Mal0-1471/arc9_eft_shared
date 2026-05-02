@@ -18,6 +18,7 @@ $bodygroup "switch"
 }
 
 $cdmaterials "models/weapons/arc9/darsu_eft/mods"
+$cdmaterials "effects/arc9/"
 
 $surfaceprop "weapon"
 

@@ -490,7 +490,7 @@ if CLIENT then
 
         }
         
-        table.insert(ARC9.SettingsTable, 333, eftsettings)
+        table.insert(ARC9.SettingsTable, 331, eftsettings)
     
     end)
 end
