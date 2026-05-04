@@ -1418,6 +1418,11 @@ ATT.Hook_DoRT = function(swep)
     rtsurf:SetTexture("$basetexture", rtmat)
 end
 
+-- not actually doing anything, just for autostats
+ATT.RTScopeNew_FPSLock = 10
+ATT.RTScopeNew_Pixelation = 64
+
+
 ATT.DrawFunc = function(swep, model, wm)
     if !swep:GetOwner() or wm then return end
     model:SetSubMaterial()

@@ -1069,8 +1069,8 @@ ATT.CustomCons = { Ergonomics = "-11" }
 
 ATT.FoldSights = true
 
-local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "mips smooth")
-local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_9x.png", "mips smooth")
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_9x.png", "")
 
 ATT.Sights = {
     {
@@ -1138,7 +1138,7 @@ ATT.ToggleStats = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 12
-ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "mips smooth")
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "")
 ATT.RTScopeReticleScale = 0.88
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
@@ -1152,10 +1152,11 @@ ATT.RTScopeNew_DisableShader = true
 ATT.RTScopeNew_BackShadow = true  
 ATT.RTScopeNew_FrontShadowScale = 4
 ATT.RTScopeNew_BackShadowScale = 1.1
-ATT.RTScopeNew_ChromaticAberrationMult = 0.7
+ATT.RTScopeNew_ChromaticAberrationMult = 0.1
 ATT.RTScopeNew_ShadowIntensity = 0.9
 
 ATT.RTScopeNew_FPSLock = 21
+ATT.RTScopeNew_Pixelation = 360
 
 
 ATT.RTScopeFLIR = true
@@ -1351,7 +1352,7 @@ ATT.Sights = {
                 ["$pp_colour_addr"] = 0,
                 ["$pp_colour_addg"] = 1,
                 ["$pp_colour_addb"] = 0.063,
-                ["$pp_colour_brightness"] = 3,
+                ["$pp_colour_brightness"] = 4.5,
                 ["$pp_colour_contrast"] = 0.15,
                 ["$pp_colour_colour"] = 0.4,
                 ["$pp_colour_mulr"] = 0,
@@ -1386,7 +1387,7 @@ ATT.Sights = {
                 ["$pp_colour_addr"] = 0,
                 ["$pp_colour_addg"] = 1,
                 ["$pp_colour_addb"] = 0.063,
-                ["$pp_colour_brightness"] = 0.4,
+                ["$pp_colour_brightness"] = 3.0,
                 ["$pp_colour_contrast"] = 0.1,
                 ["$pp_colour_colour"] = 0.4,
                 ["$pp_colour_mulr"] = 0,
@@ -1435,6 +1436,7 @@ ATT.RTScopeNew_ChromaticAberrationMult = 0.8
 ATT.RTScopeNew_ShadowIntensity = 0.9
 
 ATT.RTScopeNew_FPSLock = 35
+ATT.RTScopeNew_Pixelation = 360
 
 
 ATT.RTScopeFLIR = true
@@ -1686,8 +1688,8 @@ ATT.CustomCons = { Ergonomics = "-10" }
 
 ATT.FoldSights = true
 
-local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_00.png", "mips smooth")
-local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_01.png", "mips smooth")
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_00.png", "")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_01.png", "")
 
 ATT.Sights = {
     {
@@ -1723,7 +1725,7 @@ ATT.ToggleStats = {
             ["$pp_colour_addr"] = 0/255,
             ["$pp_colour_addg"] = 110/255,
             ["$pp_colour_addb"] = 70/255,
-            ["$pp_colour_brightness"] = 0.15,
+            ["$pp_colour_brightness"] = 1,
             ["$pp_colour_contrast"] = 0.12,
             ["$pp_colour_colour"] = 0.4,
             ["$pp_colour_mulr"] = 0,
@@ -1734,8 +1736,8 @@ ATT.ToggleStats = {
             ["$pp_colour_addr"] = 1,
             ["$pp_colour_addg"] = 0.01,
             ["$pp_colour_addb"] = 0.01,
-            ["$pp_colour_brightness"] = -0.75,
-            ["$pp_colour_contrast"] = 1,
+            ["$pp_colour_brightness"] = 0.2,
+            ["$pp_colour_contrast"] = 0.5,
             ["$pp_colour_colour"] = 0.8,
             ["$pp_colour_mulr"] = 0,
             ["$pp_colour_mulg"] = 0,
@@ -1755,7 +1757,7 @@ ATT.ToggleStats = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 36/9
-ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_00.png", "mips smooth")
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_sig_sauer_echo1_thermal_reflex_sight_1_2x_30hz_LOD0_mark_00.png", "")
 ATT.RTScopeReticleScale = 0.9
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 1
@@ -1798,6 +1800,7 @@ ATT.RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
     }
 
 ATT.RTScopeNew_FPSLock = 21
+ATT.RTScopeNew_Pixelation = 300
 ATT.RTScopeCustomPPFunc = function(swep)
     -- DrawMotionBlur(0.95, 1, 1/21)
             DrawBloom(0.06, 2, 55, 55, 0, 0.7, 1, 0.5, 0.5)
@@ -1840,8 +1843,8 @@ ATT.EFTErgoAdd = -18
 ATT.CustomCons = { Ergonomics = "-18" }
 
 ATT.FoldSights = true
-local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_00.png", "mips smooth")
-local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_01.png", "mips smooth")
+local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_00.png", "")
+local Reticle1 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_01.png", "")
 
 ATT.Sights = {
     {
@@ -1892,7 +1895,7 @@ ATT.ToggleStats = {
         },
         RTScopeFLIRCCHot = { -- Color correction drawn only on FLIR targets
 
-            ["$pp_colour_addr"] = -0.5,
+            ["$pp_colour_addr"] = 0.5,
             ["$pp_colour_addg"] = -0.5,
             ["$pp_colour_addb"] = 0.5,
             ["$pp_colour_brightness"] = 11,
@@ -1914,7 +1917,7 @@ ATT.ToggleStats = {
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 1
 ATT.RTScopeFOV = 12
-ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "mips smooth")
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_flir_rs32_225_9x_35_60hz_mark_225x.png", "")
 ATT.RTScopeReticleScale = 0.6
 ATT.RTScopeColorable = false
 ATT.RTScopeShadowIntensity = 5
@@ -1932,6 +1935,7 @@ ATT.RTScopeNew_ChromaticAberrationMult = 0.7
 ATT.RTScopeNew_ShadowIntensity = 0.9
 
 ATT.RTScopeNew_FPSLock = 21
+ATT.RTScopeNew_Pixelation = 360
 
 ATT.RTScopeFLIR = true
 ATT.RTScopeFLIRSolid = false -- Solid color FLIR instead of like a shaded look
@@ -1939,7 +1943,7 @@ ATT.RTScopeFLIRCCCold = { -- Color correction drawn only on FLIR targets
     ["$pp_colour_addr"] = 0,
     ["$pp_colour_addg"] = 0,
     ["$pp_colour_addb"] = 0,
-    ["$pp_colour_brightness"] = 0.1,
+    ["$pp_colour_brightness"] = 0.8,
     ["$pp_colour_contrast"] = 0.2,
     ["$pp_colour_colour"] = 0.1,
     ["$pp_colour_mulr"] = 0,
