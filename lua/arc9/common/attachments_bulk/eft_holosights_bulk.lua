@@ -391,7 +391,7 @@ ATT.Sights = {
         ViewModelFOV = 53,
         ShadowPos = Vector(16,0,0),
         Disassociate = true,
-        Blur = true,
+        -- Blur = true,
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("1x") end
         end,
@@ -402,7 +402,7 @@ ATT.Sights = {
         Magnification = 1.25,
         ViewModelFOV = 38,
         RTScopeFOV = 38/6,
-        Blur = false,
+        -- Blur = false,
         OnSwitchToSight = function(self, slottbl)
             if CLIENT then ARC9EFTdrawnumber("3x") end
         end,
@@ -1421,6 +1421,8 @@ end
 -- not actually doing anything, just for autostats
 ATT.RTScopeNew_FPSLock = 10
 ATT.RTScopeNew_Pixelation = 64
+
+ATT.RTScopeNew_BlurTexture = "models/weapons/arc9/darsu_eft/mods/torrey_reticle"
 
 
 ATT.DrawFunc = function(swep, model, wm)
