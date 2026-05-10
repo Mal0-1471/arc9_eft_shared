@@ -502,17 +502,17 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.EFTErgoAdd = -2
 ATT.CustomCons = { Ergonomics = "-2" }
 
-ATT.ModelOffset = Vector(0, 0, -0)
+ATT.ModelOffset = Vector(0, 0, 0.1)
 
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
         Category = {"eft_optic_small", "eft_t12w"},
-        Pos = Vector(0, 0.85, -0.2),
+        Pos = Vector(0, 0.85, -0.3),
         --Pos = Vector(0, 0, 0),
         Ang = Angle(0, 0, 45),
         Icon_Offset = Vector(0, 0, 1),
-        ExtraSightDistance = 4
+        ExtraSightDistance = 0
     },
 }
 

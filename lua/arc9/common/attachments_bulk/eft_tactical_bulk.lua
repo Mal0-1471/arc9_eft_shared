@@ -1484,8 +1484,8 @@ ATT.SwayAddBipod = -10
 ATT.EnterBipodSound = false 
 ATT.ExitBipodSound = false
 
-ATT.BipodPos = Vector(-1.7, -3.5, 1)
-ATT.BipodAng = Angle(0, 0, 0)
+-- ATT.BipodPos = Vector(-1.7, -3.5, -2)
+-- ATT.BipodAng = Angle(0, 0, 0)
 
 ATT.Category = {"eft_bipod"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1533,8 +1533,8 @@ ATT.SwayAddBipod = -10
 ATT.EnterBipodSound = false 
 ATT.ExitBipodSound = false
 
-ATT.BipodPos = Vector(-1.7, -3.5, 1)
-ATT.BipodAng = Angle(0, 0, 0)
+-- ATT.BipodPos = Vector(-1.7, -3.5, -2)
+-- ATT.BipodAng = Angle(0, 0, 0)
 
 ATT.Category = {"eft_harris_bipod"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"

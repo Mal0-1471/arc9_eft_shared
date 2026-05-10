@@ -661,7 +661,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_aksion_ekp_8_18_marks_00")
+ATT.HoloSightReticle = R0
 ATT.HoloSightSize = 375
 ATT.HoloSightColorable = false
 -- ATT.HoloSightDepthAdjustment = 0.01
@@ -797,7 +797,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_walther_mrs_mark_000")
+ATT.HoloSightReticle = R0
 ATT.HoloSightSize = 470
 ATT.HoloSightColorable = false
 -- ATT.HoloSightDepthAdjustment = 0.01
@@ -912,7 +912,7 @@ ATT.Sights = {
     },
 }
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_vomz_pilad_p1x42_mark_mode_000")
+ATT.HoloSightReticle = R0
 ATT.HoloSightSize = 650
 ATT.HoloSightColorable = false
 
@@ -952,7 +952,7 @@ ATT.Sights = {
         Ang = Angle(0, 0, 0),
         Magnification = 1.25,
         ViewModelFOV = 53,
-        Reticle = R0
+        Reticle = R0,
     },
     {
         Pos = Vector(0, 10.7, -1.05),
@@ -971,7 +971,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_belomo_pk_06_mark_000")
+ATT.HoloSightReticle = R0
 ATT.HoloSightSize = 550
 ATT.HoloSightColorable = false
 
@@ -1374,17 +1374,29 @@ local flirtable = {
 }
 
 ATT.Hook_DoRT = function(swep)
-    if !swep:GetOwner() then return end
-
     if !(CurTime() > rtnextdraw) then return end
+
+    if !swep:GetOwner() then return end
     rtnextdraw = CurTime() + 1/10
-    local fovv = swep:GetViewModelFOV()/10
+    -- local fovv = swep:GetViewModelFOV()/10
+    
+    local viewstup = render.GetViewSetup()
+    local magnification = 5
+    local rtfov = viewstup.fov_unscaled / magnification
+
 
     if ARC9.OverDraw then return end
     
     local rtpos, rtang = swep:GetShootPos()
 
     rtang.r = rtang.r + EyeAngles().z -- lean fix
+    
+    local model = swep.RTScope_ForceBlurModel
+    
+    if IsValid(model) then
+        rtang.r = rtang.r + model:GetAngles().z
+    end
+    -- rtang.r = EyeAngles().z
 
     local sighttbl = swep:GetSight()
 
@@ -1396,8 +1408,8 @@ ATT.Hook_DoRT = function(swep)
         angles = rtang,
         origin = rtpos,
         drawviewmodel = false,
-        fov = 3.5,
-        fov = fovv,
+        -- fov = 3.5,
+        fov = rtfov,
         znear = 16,
         zfar = 16000
     }
@@ -1409,7 +1421,7 @@ ATT.Hook_DoRT = function(swep)
     ARC9.OverDraw = false
 
     cam.Start3D(rtpos, rtang, fovv, 0, 0, rtsize, rtsize, 16, 16000)
-        swep:DoFLIR(flirtable)
+        swep:DoFLIR(flirtable, _, true)
     cam.End3D()
     render.UpdateScreenEffectTexture()
 
@@ -1528,7 +1540,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_leapers_utg_38_ita_1x30_mark")
+ATT.HoloSightReticle = R0
 ATT.HoloSightSize = 640
 ATT.HoloSightColorable = false
 
@@ -1875,7 +1887,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/scope_all_wilcox_boss_xe_hp_mark_000.png", "mips smooth")
+ATT.HoloSightReticle = R0
 ATT.HoloSightSize = 320
 ATT.HoloSightColorable = false
 
