@@ -18,7 +18,6 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_alpha_dog_a
 ATT.VisualRecoilMult = 0.92
 ATT.RecoilMult = 0.92
 ATT.EFTErgoAdd = -13
-ATT.CustomCons = { Ergonomics = "-13" }
 ATT.SpreadMult = 0.98
 ATT.PhysBulletMuzzleVelocityMult = 1.02
 ATT.HeatCapacityAdd = -60*0.5
@@ -74,7 +73,6 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_aac_illusio
 ATT.VisualRecoilMult = 0.93
 ATT.RecoilMult = 0.93
 ATT.EFTErgoAdd = -15
-ATT.CustomCons = { Ergonomics = "-15" }
 ATT.SpreadMult = 0.98
 ATT.PhysBulletMuzzleVelocityMult = 1.015
 ATT.HeatCapacityAdd = -62*0.5
@@ -111,7 +109,6 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_silencerco_
 ATT.VisualRecoilMult = 0.88
 ATT.RecoilMult = 0.88
 ATT.EFTErgoAdd = -17
-ATT.CustomCons = { Ergonomics = "-17" }
 ATT.SpreadMult = 0.98
 ATT.PhysBulletMuzzleVelocityMult = 1.005
 ATT.HeatCapacityAdd = -65*0.5
@@ -149,7 +146,6 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_rotor_43_v1
 ATT.VisualRecoilMult = 0.935
 ATT.RecoilMult = 0.935
 ATT.EFTErgoAdd = -17
-ATT.CustomCons = { Ergonomics = "-17" }
 ATT.SpreadMult = 1.02
 ATT.PhysBulletMuzzleVelocityMult = 0.75
 ATT.HeatCapacityAdd = -50*0.5
@@ -185,7 +181,6 @@ ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_sig_srd_9_9
 ATT.VisualRecoilMult = 0.92
 ATT.RecoilMult = 0.92
 ATT.EFTErgoAdd = -15
-ATT.CustomCons = { Ergonomics = "-15" }
 ATT.SpreadMult = 0.99
 ATT.PhysBulletMuzzleVelocityMult = 1.01
 ATT.HeatCapacityAdd = -50*0.5

@@ -22,7 +22,6 @@ ATT.ExcludeElements = {"pgrip_stock"}
 
 
 -- ATT.EFTErgoAdd = 4
--- ATT.CustomPros = { Ergonomics = "+4" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
@@ -63,7 +62,6 @@ ATT.RecoilMult = 0.99
 ATT.VisualRecoilMult = 0.99
 
 -- ATT.EFTErgoAdd = 4
--- ATT.CustomPros = { Ergonomics = "+4" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
@@ -105,7 +103,6 @@ ATT.RecoilMult = 0.68
 ATT.VisualRecoilMult = 0.68
 
 ATT.EFTErgoAdd = 4
-ATT.CustomPros = { Ergonomics = "+4" }
 
 ATT.ExcludeElements = {"pgrip_stock"}
 
@@ -150,7 +147,6 @@ ATT.RecoilMult = 0.83
 ATT.VisualRecoilMult = 0.83
 
 ATT.EFTErgoAdd = 4
-ATT.CustomPros = { Ergonomics = "+4" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
@@ -179,7 +175,6 @@ ATT.RecoilMult = 0.66
 ATT.VisualRecoilMult = 0.66
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
@@ -208,7 +203,6 @@ ATT.RecoilMult = 0.73
 ATT.VisualRecoilMult = 0.73
 
 ATT.EFTErgoAdd = 15
-ATT.CustomPros = { Ergonomics = "+15" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
@@ -238,7 +232,6 @@ ATT.RecoilMult = 0.68
 ATT.VisualRecoilMult = 0.68
 
 ATT.EFTErgoAdd = 2
-ATT.CustomPros = { Ergonomics = "+2" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
@@ -267,7 +260,6 @@ ATT.RecoilMult = 0.66
 ATT.VisualRecoilMult = 0.66
 
 ATT.EFTErgoAdd = 2
-ATT.CustomPros = { Ergonomics = "+2" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock_a2"
@@ -297,7 +289,6 @@ ATT.RecoilMult = 0.81
 ATT.VisualRecoilMult = 0.81
 
 ATT.EFTErgoAdd = 6
-ATT.CustomPros = { Ergonomics = "+6" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar_stock"
@@ -336,7 +327,6 @@ ATT.HasBolt = true
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/charge_ar15_masp_ambi_battle_charging_handle.mdl"
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 ATT.Category = {"eft_ar15_charge"}
 
 -- EFT ID: 6033749e88382f4fab3fd2c5
@@ -370,7 +360,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_colt_a2.mdl"
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 5
-ATT.CustomPros = { Ergonomics = "+5" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
@@ -398,7 +387,6 @@ ATT.ModelSkin = 1
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 5.5
-ATT.CustomPros = { Ergonomics = "+5.5" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
@@ -424,7 +412,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_dlg_123.mdl"
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 5.5
-ATT.CustomPros = { Ergonomics = "+5.5" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
@@ -450,7 +437,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_hk_battle_grip_b
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 7
-ATT.CustomPros = { Ergonomics = "+7" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
@@ -476,7 +462,6 @@ ATT.ModelSkin = 1
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 7
-ATT.CustomPros = { Ergonomics = "+7" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip_m4"
@@ -502,7 +487,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_hogue_overmolded
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 9
-ATT.CustomPros = { Ergonomics = "+9" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
@@ -529,7 +513,6 @@ ATT.ModelSkin = 1
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 9
-ATT.CustomPros = { Ergonomics = "+9" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
@@ -556,7 +539,6 @@ ATT.ModelSkin = 3
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 9
-ATT.CustomPros = { Ergonomics = "+9" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
@@ -583,7 +565,6 @@ ATT.ModelSkin = 4
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 9
-ATT.CustomPros = { Ergonomics = "+9" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
@@ -610,7 +591,6 @@ ATT.ModelSkin = 2
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 9
-ATT.CustomPros = { Ergonomics = "+9" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"
@@ -637,7 +617,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ar15_magpul_miad_gen_
 ATT.HasGrip = true
 
 ATT.EFTErgoAdd = 8
-ATT.CustomPros = { Ergonomics = "+8" }
 
 ATT.SortOrder = 0
 ATT.Category = "eft_ar15_pgrip"

@@ -15,7 +15,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -6
 ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
-ATT.CustomCons = { Ergonomics = "-6" }
 ATT.MalfunctionMeanShotsToFailMult = 0.83
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_bigstick_33.mdl"
@@ -48,7 +47,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
-ATT.CustomCons = { Ergonomics = "-1" }
 -- ATT.MalfunctionMeanShotsToFailMult = 0.85
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_std_17.mdl"
@@ -76,7 +74,6 @@ ATT.Icon = Material("entities/eft_sa58_attachments/20.png", "mips smooth")
 ATT.Description = [[A 20-round double-stack steel magazine for FAL/SA-58 7.62x51 NATO rounds.]]
 
 ATT.EFTErgoAdd = -5
-ATT.CustomCons = { Ergonomics = "-5" }
 ATT.MalfunctionMeanShotsToFailMult = 0.85
 
 ATT.SortOrder = 0

@@ -18,7 +18,6 @@ ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = 0.5
-ATT.CustomPros = { Ergonomics = "+0.5" }
 
 ATT.Attachments = {
     {
@@ -59,7 +58,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_geissele_super_precisi
 ATT.ModelSkin = 1
 
 ATT.EFTErgoAdd = 0.5
-ATT.CustomPros = { Ergonomics = "+0.5" }
 
 ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
@@ -106,7 +104,6 @@ ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Attachments = {
     {
@@ -148,7 +145,6 @@ ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Attachments = {
     {
@@ -184,7 +180,6 @@ ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -218,7 +213,6 @@ ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),

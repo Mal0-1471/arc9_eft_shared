@@ -61,7 +61,6 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
@@ -109,7 +108,6 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)
@@ -157,7 +155,6 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)
@@ -254,7 +251,6 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)
@@ -303,7 +299,6 @@ ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)

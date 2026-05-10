@@ -18,7 +18,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
@@ -125,7 +124,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes/Mounts"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -222,7 +220,6 @@ ATT.Description = [[A regular top ring cap for the Geissele Super Precision moun
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_geissele_tops.mdl"
 
 ATT.EFTErgoAdd = 0.5
-ATT.CustomPros = { Ergonomics = "+0.5" }
 ATT.Category = {"eft_mount_geis"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
@@ -247,7 +244,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_geissele_tops.mdl"
 ATT.ModelSkin = 1
 
 ATT.EFTErgoAdd = 0.5
-ATT.CustomPros = { Ergonomics = "+0.5" }
 ATT.Category = {"eft_mount_geis"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
@@ -443,7 +439,6 @@ ATT.Max = 1
 
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
@@ -515,7 +510,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 ATT.ModelOffset = Vector(0, 0, 0.1)
 
@@ -591,7 +585,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -626,7 +619,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -661,7 +653,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -695,7 +686,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 ATT.Sights = {
     {
         Pos = Vector(0, 5.5, -1.07),
@@ -799,7 +789,6 @@ ATT.Folder = "Scopes/Mounts"
 
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
@@ -830,7 +819,6 @@ ATT.Description = [[The UM Tactical UM3 sight mount. Allows mounting of addition
 ATT.Icon = Material("entities/eft_attachments/tactical/um3.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Category = {"eft_um3"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -876,7 +864,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_vulcan_gen3.mdl"
 ATT.Folder = "Special"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -916,7 +903,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_zeus_pro.mdl"
 ATT.Folder = "Special"
 
 -- ATT.EFTErgoAdd = -1
--- ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -955,7 +941,6 @@ ATT.Category = {"eft_optic_large"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
@@ -995,7 +980,6 @@ ATT.Category = {"eft_optic_large"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {

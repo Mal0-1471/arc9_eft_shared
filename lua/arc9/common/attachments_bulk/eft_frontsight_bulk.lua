@@ -18,7 +18,6 @@ ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.ModelOffset = Vector(0, 0, -0)
@@ -47,7 +46,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
@@ -83,7 +81,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)
@@ -120,7 +117,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)
@@ -157,7 +153,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)
@@ -195,7 +190,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)
@@ -232,7 +226,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = 1
-ATT.CustomPros = { Ergonomics = "+1" }
 
 
 ATT.DrawFunc = function(swep, model)

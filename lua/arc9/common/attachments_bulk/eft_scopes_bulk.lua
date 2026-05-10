@@ -21,7 +21,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 
 
 ATT.FoldSights = true
@@ -201,7 +200,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 
 ATT.FoldSights = true
 
@@ -557,7 +555,6 @@ ATT.Category = {"eft_scope_trijicon", "eft_scope_compact"}
 
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 ATT.FoldSights = true
@@ -630,7 +627,6 @@ ATT.Category = {"eft_scope_trijicon", "eft_scope_compact"}
 
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 ATT.FoldSights = true
@@ -700,7 +696,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_scope_trijicon", "eft_scope_compact"}
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 ATT.FoldSights = true
 
@@ -765,7 +760,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 ATT.FoldSights = true
 
@@ -892,7 +886,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 
 ATT.FoldSights = true
 
@@ -984,7 +977,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 ATT.FoldSights = true
 
 ATT.Sights = {
@@ -1073,7 +1065,6 @@ ATT.Folder = "Special"
 
 
 ATT.EFTErgoAdd = -11
-ATT.CustomCons = { Ergonomics = "-11" }
 
 ATT.FoldSights = true
 
@@ -1233,7 +1224,6 @@ ATT.Folder = "Scopes"
 
 
 ATT.EFTErgoAdd = -3.5
-ATT.CustomCons = { Ergonomics = "-3.5" }
 
 ATT.FoldSights = true
 
@@ -1346,7 +1336,6 @@ ATT.Category = "eft_reapir_mount"
 
 
 ATT.EFTErgoAdd = -13
-ATT.CustomCons = { Ergonomics = "-13" }
 
 ATT.FoldSights = true
 
@@ -1524,7 +1513,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -5
-ATT.CustomCons = { Ergonomics = "-5" }
 
 ATT.FoldSights = true
 
@@ -1596,7 +1584,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_vulcan_scope"
 
 ATT.EFTErgoAdd = -15
-ATT.CustomCons = { Ergonomics = "-15" }
 
 
 
@@ -1697,7 +1684,6 @@ ATT.Folder = "Special"
 
 
 ATT.EFTErgoAdd = -10
-ATT.CustomCons = { Ergonomics = "-10" }
 
 ATT.FoldSights = true
 
@@ -1854,7 +1840,6 @@ ATT.Category = "eft_zeus_scope"
 
 
 ATT.EFTErgoAdd = -18
-ATT.CustomCons = { Ergonomics = "-18" }
 
 ATT.FoldSights = true
 local Reticle0 = Material("vgui/arc9_eft_shared/reticles/scope_base_armasight_zeus_pro_640_2_16x50_30hz_LOD0_mark_00.png", "")

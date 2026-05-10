@@ -24,7 +24,6 @@ ATT.Description = [[The Steiner DBAL-PL tactical device with an LED flashlight a
 ATT.Icon = Material("entities/eft_attachments/tactical/dbal.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -163,7 +162,6 @@ ATT.Description = [[An underbarrel-mounted LED flashlight "Klesch-2IKS + IR LAM"
 ATT.Icon = Material("entities/eft_attachments/tactical/k2iks.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -241,7 +239,6 @@ ATT.Description = [[An underbarrel-mounted LED flashlight "Klesch-2P + LAM" manu
 ATT.Icon = Material("entities/eft_attachments/tactical/k2p.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -319,7 +316,6 @@ ATT.Description = [[The "Klesch-2U" LED tactical flashlight with a mount on the 
 ATT.Icon = Material("entities/eft_attachments/tactical/k2u.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical"}
@@ -364,7 +360,6 @@ ATT.Description = [[The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL
 ATT.Icon = Material("entities/eft_attachments/tactical/la5b.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -462,7 +457,6 @@ ATT.Description = [[A tactical LED flashlight manufactured by Steiner.]]
 ATT.Icon = Material("entities/eft_attachments/tactical/lastac.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -507,7 +501,6 @@ ATT.Description = [[Holosun LS321 is a multi-laser tactical device with green la
 ATT.Icon = Material("entities/eft_attachments/tactical/ls321.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -603,7 +596,6 @@ ATT.Description = [[A compact tactical Laser Aiming Module with a blue dot. Moun
 ATT.Icon = Material("entities/eft_attachments/tactical/tbl.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -644,7 +636,6 @@ ATT.Description = [[The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL
 ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -740,7 +731,6 @@ ATT.Description = [[ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN
 ATT.Icon = Material("entities/eft_attachments/tactical/peq2.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 -- ATT.Category = {"eft_tactical_top"}
@@ -806,7 +796,6 @@ ATT.Description = [[Perst-3 is a tactical device that combines laser designators
 ATT.Icon = Material("entities/eft_attachments/tactical/perst3.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -903,7 +892,6 @@ ATT.Description = [[The early generation of the tactical device called "RAPTAR" 
 ATT.Icon = Material("entities/eft_attachments/tactical/raptar.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.SortOrder = 0
@@ -1074,7 +1062,6 @@ ATT.Description = [[A simple but powerful LED flashlight with a sturdy body, dur
 ATT.Icon = Material("entities/eft_attachments/tactical/wf.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_25mm"}
@@ -1134,7 +1121,6 @@ ATT.Description = [[The WMX200 tactical flashlight manufactured by Insight Techn
 ATT.Icon = Material("entities/eft_attachments/tactical/wmx200.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical"}
@@ -1193,7 +1179,6 @@ ATT.Description = [[A powerful flashlight in a heavy-duty frame, manufactured by
 ATT.Icon = Material("entities/eft_attachments/tactical/xhp35.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_25mm"}
@@ -1257,7 +1242,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mount_25mm.mdl"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Attachments = {
     {
@@ -1291,7 +1275,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mount_dd_offset_25mm.mdl"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Attachments = {
     {
@@ -1322,7 +1305,6 @@ ATT.Description = [[Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E
 ATT.Icon = Material("entities/eft_attachments/tactical/mawl.png", "mips smooth")
 
 ATT.EFTErgoAdd = -1.5
-ATT.CustomCons = { Ergonomics = "-1.5" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical_top"}
@@ -1442,7 +1424,6 @@ ATT.Description = [[The 2D tactical flashlight, installed on a KR-2 mount. Manuf
 ATT.Icon = Material("entities/eft_attachments/tactical/kr2.png", "mips smooth")
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -1490,7 +1471,6 @@ ATT.Icon = Material("entities/eft_attachments/tactical/bipod.png", "mips smooth"
 ATT.SortOrder = -2
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 ATT.Bipod = true 
 ATT.RecoilMultBipod = 0.33
@@ -1540,7 +1520,6 @@ ATT.Icon = Material("entities/eft_attachments/tactical/harris.png", "mips smooth
 ATT.SortOrder = -2
 
 ATT.EFTErgoAdd = -5
-ATT.CustomCons = { Ergonomics = "-5" }
 
 ATT.Bipod = true 
 ATT.RecoilMultBipod = 0.33
@@ -1621,7 +1600,6 @@ ATT.Icon = Material("entities/eft_attachments/689c887cd18a3665b8045743.png", "mi
 ATT.Description = "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire."
 
 ATT.EFTErgoAdd = -1.5
-ATT.CustomCons = { Ergonomics = "-1.5" }
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_scout"}
@@ -1682,7 +1660,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_surefire_scout_thumbscrew.mdl"
 
 ATT.EFTErgoAdd = -0.1
-ATT.CustomCons = { Ergonomics = "-0.1" }
 
 ATT.Attachments = {
     {
@@ -1712,7 +1689,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl" -- keymod
 
 ATT.EFTErgoAdd = -0.2
-ATT.CustomCons = { Ergonomics = "-0.2" }
 
 ATT.Attachments = {
     {
@@ -1743,7 +1719,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl"
 ATT.ModelBodygroups = "1" -- mlok
 
 ATT.EFTErgoAdd = -0.2
-ATT.CustomCons = { Ergonomics = "-0.2" }
 
 ATT.Attachments = {
     {

@@ -17,7 +17,6 @@ ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1.5
-ATT.CustomCons = { Ergonomics = "-1.5" }
 ATT.RecoilMult = 0.885
 ATT.VisualRecoilMult = 0.885
 ATT.HeatCapacityMult = 0.987
@@ -48,7 +47,6 @@ ATT.BarrelLengthAdd = 0.5
 
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.RecoilMult = 0.93
 ATT.VisualRecoilMult = 0.93
 ATT.SpreadMult = 0.97
@@ -87,7 +85,6 @@ ATT.MuzzleDevice_Priority = 4
 ATT.BarrelLengthAdd = 0.5
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.RecoilMult = 0.87
 ATT.VisualRecoilMult = 0.87
 ATT.HeatCapacityMult = 0.99
@@ -127,7 +124,6 @@ ATT.BarrelLengthAdd = 0.5
 
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.RecoilMult = 0.92
 ATT.VisualRecoilMult = 0.92
 ATT.HeatCapacityMult = 0.99
@@ -170,7 +166,6 @@ ATT.Silencer = true
 ATT.MuzzleDevice = true
 ATT.MuzzleDevice_Priority = 6
 ATT.EFTErgoAdd = -23
-ATT.CustomCons = { Ergonomics = "-23" }
 ATT.RecoilMult = 0.88
 ATT.VisualRecoilMult = 0.88
 ATT.SpreadMult = 1.02
@@ -203,7 +198,6 @@ ATT.BarrelLengthAdd = 5
 ATT.Silencer = true
 
 ATT.EFTErgoAdd = -23
-ATT.CustomCons = { Ergonomics = "-23" }
 ATT.RecoilMult = 0.89
 ATT.VisualRecoilMult = 0.89
 ATT.SpreadMult = 0.98
@@ -234,7 +228,6 @@ ATT.ModelAngleOffset = Angle(0, 90, 0)
 ATT.Category = {"eft_awcpsr"}
 
 ATT.EFTErgoAdd = 2
-ATT.CustomPros = { Ergonomics = "+2" }
 
 -- EFT ID: 612e0e04568c120fdd294258
 ARC9.LoadAttachment(ATT, "eft_muzzle_psr_protector")
@@ -294,7 +287,6 @@ ATT.MuzzleDevice = true
 ATT.MuzzleDevice_Priority = 5
 
 ATT.EFTErgoAdd = -20
-ATT.CustomCons = { Ergonomics = "-20" }
 ATT.RecoilMult = 0.91
 ATT.VisualRecoilMult = 0.91
 ATT.SpreadMult = 0.98
@@ -327,7 +319,6 @@ ATT.MuzzleDevice = true
 ATT.MuzzleDevice_Priority = 5
 
 ATT.EFTErgoAdd = -17
-ATT.CustomCons = { Ergonomics = "-17" }
 ATT.RecoilMult = 0.92
 ATT.VisualRecoilMult = 0.92
 ATT.SpreadMult = 1.01
@@ -360,7 +351,6 @@ ATT.MuzzleDevice = true
 ATT.MuzzleDevice_Priority = 5
 
 ATT.EFTErgoAdd = -23
-ATT.CustomCons = { Ergonomics = "-23" }
 ATT.RecoilMult = 0.87
 ATT.VisualRecoilMult = 0.87
 ATT.SpreadMult = 1.03
@@ -394,7 +384,6 @@ ATT.MuzzleDevice = true
 ATT.MuzzleDevice_Priority = 5
 
 ATT.EFTErgoAdd = -26
-ATT.CustomCons = { Ergonomics = "-26" }
 ATT.RecoilMult = 0.86
 ATT.VisualRecoilMult = 0.86
 ATT.SpreadMult = 1.02
@@ -453,7 +442,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_mount_silencerco_hybrid_46_multi.mdl"
 
 ATT.EFTErgoAdd = -17
-ATT.CustomCons = { Ergonomics = "-17" }
 ATT.RecoilMult = 0.905
 ATT.VisualRecoilMult = 0.905
 ATT.HeatCapacityMult = 1.15
@@ -487,7 +475,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/silencer_base_silencerco_omega_45k.mdl"
 
 ATT.EFTErgoAdd = -20
-ATT.CustomCons = { Ergonomics = "-20" }
 ATT.RecoilMult = 0.9
 ATT.VisualRecoilMult = 0.9
 ATT.SpreadMult = 0.98
@@ -522,7 +509,6 @@ ATT.Description = [[A .338 LM muzzle brake developed by SilencerCo.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/muzzle_all_silencerco_ac858_asr_muzzle_brake.mdl"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 ATT.RecoilMult = 0.9
 ATT.VisualRecoilMult = 0.9
 ATT.SpreadMult = 0.99

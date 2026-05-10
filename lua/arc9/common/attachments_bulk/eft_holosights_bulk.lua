@@ -107,7 +107,6 @@ ATT.Category = {"eft_compm4"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 ATT.FoldSights = true
@@ -202,7 +201,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 
@@ -251,7 +249,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 
@@ -562,7 +559,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 
 
 
@@ -710,7 +706,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -4.5
-ATT.CustomCons = { Ergonomics = "-4.5" }
 
 
 ATT.FoldSights = true
@@ -843,7 +838,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 
 
 ATT.FoldSights = true
@@ -1010,7 +1004,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 
 
 ATT.FoldSights = true
@@ -1055,7 +1048,6 @@ ATT.Category = {"eft_compm4"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 ATT.FoldSights = true
@@ -1097,7 +1089,6 @@ ATT.Description = [[A rubber eyecup for the Trijicon REAP-IR thermal scope.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/optic_reapir_eyecup.mdl"
 
 ATT.EFTErgoAdd = 6
-ATT.CustomPros = { Ergonomics = "+6" }
 
 ATT.Category = {"eft_reapir_cup"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1210,7 +1201,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -3.5
-ATT.CustomCons = { Ergonomics = "-3.5" }
 
 
 ATT.FoldSights = true
@@ -1255,7 +1245,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 
 ATT.FoldSights = true
@@ -1342,7 +1331,6 @@ ATT.Category = {"eft_optic_medium", "eft_t12w"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 
 ATT.FoldSights = true
@@ -1488,7 +1476,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -4
-ATT.CustomCons = { Ergonomics = "-4" }
 
 
 ATT.FoldSights = true
@@ -1583,7 +1570,6 @@ ATT.Description = [[A rubber eyecup for the Vulcan MG riflescope, manufactured b
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_vulcan_eyecup.mdl"
 ATT.EFTErgoAdd = 6
-ATT.CustomPros = { Ergonomics = "+6" }
 
 
 ATT.Category = {"eft_vulcan_cup"}
@@ -1617,7 +1603,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 
@@ -1666,7 +1651,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 ATT.FoldSights = true
@@ -1714,7 +1698,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.EFTErgoAdd = 3
-ATT.CustomPros = { Ergonomics = "+3" }
 
 
 
@@ -1751,7 +1734,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 
@@ -1841,7 +1823,6 @@ ATT.Description = [[A rubber eyecup for the Zeus Pro riflescope. Manufactured by
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_zeus_armasight_eyecup.mdl"
 
 ATT.EFTErgoAdd = 5
-ATT.CustomPros = { Ergonomics = "+5" }
 
 ATT.Category = {"eft_zeus_cup"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1868,7 +1849,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 ATT.FoldSights = true
 
@@ -2099,7 +2079,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -2
-ATT.CustomCons = { Ergonomics = "-2" }
 
 
 
@@ -2148,7 +2127,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.EFTErgoAdd = -0.2
-ATT.CustomCons = { Ergonomics = "-0.2" }
 
 ATT.Attachments = {
     {
@@ -2182,7 +2160,6 @@ ATT.Category = {"eft_mepro"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 
 
 ATT.FoldSights = true
@@ -2265,7 +2242,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.EFTErgoAdd = -0.5
-ATT.CustomCons = { Ergonomics = "-0.5" }
 
 ATT.Attachments = {
     {
@@ -2349,7 +2325,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
 ATT.EFTErgoAdd = -2.5
-ATT.CustomCons = { Ergonomics = "-2.5" }
 
 
 

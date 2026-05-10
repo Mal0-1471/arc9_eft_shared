@@ -14,7 +14,6 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = 5
-ATT.CustomPros = { Ergonomics = "+5" }
 ATT.HeatCapacityMult = 1.045
 
 ATT.HasHG = true
@@ -42,7 +41,6 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = 6
-ATT.CustomPros = { Ergonomics = "+6" }
 
 ATT.HasGrip = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/ak_pgrip_ak74_plastic.mdl"
@@ -66,7 +64,6 @@ ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.EFTErgoAdd = 11.5
-ATT.CustomPros = { Ergonomics = "+11.5" }
 
 ATT.HasGrip = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ak_pufgun_sg_m2.mdl"
@@ -96,7 +93,6 @@ ATT.HasStock = true
 ATT.Category = {"eft_ak74m_stock", "eft_vityaz_stock"}
 
 ATT.EFTErgoAdd = -1
-ATT.CustomCons = { Ergonomics = "-1" }
 ATT.RecoilMult = 0.97
 ATT.VisualRecoilMult = 0.97
 
@@ -132,7 +128,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/ak_stock_ak74m_std.mdl"
 ATT.HasStock = true
 
 ATT.EFTErgoAdd = 5
-ATT.CustomPros = { Ergonomics = "+5" }
 ATT.RecoilMult = 0.68
 ATT.VisualRecoilMult = 0.68
 
@@ -172,7 +167,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/ak_hg_zenit_b10.mdl"
 ATT.LHIK = true
 
 ATT.EFTErgoAdd = 3
-ATT.CustomPros = { Ergonomics = "+3" }
 ATT.RecoilMult = 0.99
 ATT.VisualRecoilMult = 0.99
 ATT.HeatCapacityMult = 1.023
