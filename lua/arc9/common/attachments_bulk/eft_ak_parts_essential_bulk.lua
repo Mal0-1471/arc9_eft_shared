@@ -25,6 +25,7 @@ ATT.RequireElements = {"gasblock"}
 ATT.Category = {"eft_ak_handguard", "eft_vityaz_handguard"}
 
 
+-- EFT ID: 5cbda9f4ae9215000e5b9bfc
 ARC9.LoadAttachment(ATT, "eft_hg_ak_6p20sb9")
 
 
@@ -49,6 +50,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/ak_pgrip_ak74_plastic.mdl"
 ATT.Category = {"eft_ak_grip"}
 
 
+-- EFT ID: 5649ade84bdc2d1b2b8b4587
 ARC9.LoadAttachment(ATT, "eft_grip_ak_6p1sb8")
 
 ///////////////////////////////////////      eft_grip_ak_puf
@@ -71,6 +73,7 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ak_pufgun_sg_m2.mdl"
 ATT.ModelOffset = Vector(0, 0.05, -0.06)
 ATT.Category = {"eft_ak_grip"}
 
+-- EFT ID: 651580dc71a4f10aec4b6056
 ARC9.LoadAttachment(ATT, "eft_grip_ak_puf")
 
 
@@ -108,6 +111,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5cf50fc5d7f00c056c53f83c
 ARC9.LoadAttachment(ATT, "eft_stock_ak74m_caa_akts")
 
 
@@ -145,6 +149,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5ac50c185acfc400163398d4
 ARC9.LoadAttachment(ATT, "eft_stock_ak74m_std")
 
 ///////////////////////////////////////      eft_hg_ak_b10
@@ -194,4 +199,5 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5c617a5f2e2216000f1e81b3
 ARC9.LoadAttachment(ATT, "eft_hg_ak_b10")

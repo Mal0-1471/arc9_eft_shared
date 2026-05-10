@@ -78,6 +78,7 @@ ATT.DamageLookupTable = {
 
 ATT.Category = {"eft_ammo_762x25tt"}
 
+-- EFT ID: 573602322459776445391df1
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_lrnpc")
 
 ///////////////////////////////////////      eft_ammo_762x25tt_lrn
@@ -153,6 +154,7 @@ ATT.DamageLookupTable = {
 
 ATT.Category = {"eft_ammo_762x25tt"}
 
+-- EFT ID: 573601b42459776410737435
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_lrn")
 
 ///////////////////////////////////////      eft_ammo_762x25tt_fmj
@@ -228,6 +230,7 @@ ATT.DamageLookupTable = {
 
 ATT.Category = {"eft_ammo_762x25tt"}
 
+-- EFT ID: 5735ff5c245977640e39ba7e
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_fmj")
 
 ///////////////////////////////////////      eft_ammo_762x25tt_p
@@ -303,6 +306,7 @@ ATT.DamageLookupTable = {
 
 ATT.Category = {"eft_ammo_762x25tt"}
 
+-- EFT ID: 5736026a245977644601dc61
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_p")
 
 ///////////////////////////////////////      eft_ammo_762x25tt_akbs
@@ -378,6 +382,7 @@ ATT.DamageLookupTable = {
 
 ATT.Category = {"eft_ammo_762x25tt"}
 
+-- EFT ID: 5735fdcd2459776445391d61
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_akbs")
 
 ///////////////////////////////////////      eft_ammo_762x25tt_pt
@@ -453,6 +458,7 @@ ATT.DamageLookupTable = {
 
 ATT.Category = {"eft_ammo_762x25tt"}
 
+-- EFT ID: 573603c924597764442bd9cb
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_pt")
 
 ///////////////////////////////////////      eft_ammo_762x25tt_pst
@@ -528,4 +534,5 @@ ATT.DamageLookupTable = {
 
 ATT.Category = {"eft_ammo_762x25tt"}
 
+-- EFT ID: 573603562459776430731618
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_pst")

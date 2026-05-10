@@ -52,6 +52,7 @@ ATT.Category = {"eft_9mm_muzzle", "eft_glock_muzzle"}
 ATT.Silencer = true
 
 
+-- EFT ID: 5a33a8ebc4a282000c5a950d
 ARC9.LoadAttachment(ATT, "eft_silencer_alpha9")
 
 
@@ -89,6 +90,7 @@ ATT.Category = {"eft_9mm_muzzle", "eft_glock_muzzle"}
 ATT.Silencer = true
 
 
+-- EFT ID: 5c7e8fab2e22165df16b889b
 ARC9.LoadAttachment(ATT, "eft_silencer_illusion")
 
 
@@ -125,6 +127,7 @@ ATT.Category = {"eft_pp1901_muzzle", "eft_9mm_muzzle", "eft_glock_muzzle"}
 ATT.Silencer = true
 
 
+-- EFT ID: 5a32a064c4a28200741e22de
 ARC9.LoadAttachment(ATT, "eft_silencer_osprey9")
 
 
@@ -161,6 +164,7 @@ ATT.Category = {"eft_pp1901_muzzle", "eft_9mm_muzzle"}
 ATT.Silencer = true
 
 
+-- EFT ID: 5a9fb739a2750c003215717f
 ARC9.LoadAttachment(ATT, "eft_silencer_r43_9x19")
 
 
@@ -198,5 +202,6 @@ ATT.Category = {"eft_pp1901_muzzle", "eft_9mm_muzzle", "eft_glock_muzzle"}
 ATT.Silencer = true
 
 
+-- EFT ID: 5c6165902e22160010261b28
 ARC9.LoadAttachment(ATT, "eft_silencer_srd9")
 

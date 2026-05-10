@@ -29,6 +29,7 @@ ATT.ActivateElements = {"hasmag"}
 ATT.Category = {"eft_g17_mag"}
 
 
+-- EFT ID: 5a7ad2e851dfba0016153692
 ARC9.LoadAttachment(ATT, "eft_mag_g17_bigstick_33")
 
 
@@ -61,6 +62,7 @@ ATT.ActivateElements = {"hasmag"}
 ATT.Category = {"eft_g17_mag"}
 
 
+-- EFT ID: 5a718b548dc32e000d46d262
 ARC9.LoadAttachment(ATT, "eft_mag_g17_std_17")
 
 
@@ -91,6 +93,7 @@ ATT.DropMagazineAmount = 1
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_fal_ds_arms_fal_sa58_762x51_20.mdl"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_fal_ds_arms_fal_sa58_762x51_20.mdl"
 
+-- EFT ID: 5b099ac65acfc400186331e1
 ARC9.LoadAttachment(ATT, "eft_sa58_mag_20")
 
 
@@ -105,7 +108,6 @@ ATT.Icon = Material("entities/eft_ar10_attachments/magpmag.png", "mips smooth")
 ATT.Description = [[A 20-round double-stack Magpul PMAG SR/LR GEN M3 20 magazine for 7.62x51 NATO ammunition.]]
 
 ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
 ATT.MalfunctionMeanShotsToFailMult = 0.98
 
 ATT.SortOrder = 0
@@ -123,4 +125,5 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_ar10_magpul_pmag_sr_gen_3_76
 ATT.AdvancedCamoSupport = true
 
 
+-- EFT ID: 5a3501acc4a282000d72293a
 ARC9.LoadAttachment(ATT, "eft_ar10_mag_pmag20")

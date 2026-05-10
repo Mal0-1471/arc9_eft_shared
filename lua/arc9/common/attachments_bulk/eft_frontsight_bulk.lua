@@ -25,6 +25,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 55d4af3a4bdc2d972f8b456f
 ARC9.LoadAttachment(ATT, "eft_frontsight_a2")
 
 
@@ -60,6 +61,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5c17804b2e2216152006c02f
 ARC9.LoadAttachment(ATT, "eft_frontsight_kac")
 
 
@@ -96,6 +98,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5dfa3d950dee1b22f862eae0
 ARC9.LoadAttachment(ATT, "eft_frontsight_kacmicro")
 
 
@@ -132,6 +135,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5fb6567747ce63734e3fa1dc
 ARC9.LoadAttachment(ATT, "eft_frontsight_kriss_defiance")
 
 
@@ -168,6 +172,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5bc09a30d4351e00367fb7c8
 ARC9.LoadAttachment(ATT, "eft_frontsight_mbus")
 
 
@@ -205,6 +210,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5c18b90d2e2216152142466b
 ARC9.LoadAttachment(ATT, "eft_frontsight_mbus_fde")
 
 
@@ -241,6 +247,7 @@ ATT.ModelOffset = Vector(0, -0.03, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5fc0fa362770a0045c59c677
 ARC9.LoadAttachment(ATT, "eft_frontsight_mcx")
 
 
@@ -274,6 +281,7 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5ba26b01d4351e0085325a51
 ARC9.LoadAttachment(ATT, "eft_frontsight_mp7")
 
 
@@ -307,5 +315,6 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+-- EFT ID: 5894a73486f77426d259076c
 ARC9.LoadAttachment(ATT, "eft_frontsight_mpx")
 

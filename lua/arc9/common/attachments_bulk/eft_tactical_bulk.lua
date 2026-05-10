@@ -146,6 +146,7 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 
+-- EFT ID: 5d2369418abbc306c62e0c80
 ARC9.LoadAttachment(ATT, "eft_tactical_dbal_pl")
 
 
@@ -224,6 +225,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 5a5f1ce64f39f90b401987bc
 ARC9.LoadAttachment(ATT, "eft_tactical_k2iks")
 
 
@@ -301,6 +303,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 560d657b4bdc2da74d8b4572
 ARC9.LoadAttachment(ATT, "eft_tactical_k2p")
 
 
@@ -345,6 +348,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 5b3a337e5acfc4704b4a19a0
 ARC9.LoadAttachment(ATT, "eft_tactical_k2u")
 
 
@@ -442,6 +446,7 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 
+-- EFT ID: 5c06595c0db834001a66af6c
 ARC9.LoadAttachment(ATT, "eft_tactical_la5b")
 
 
@@ -486,6 +491,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 5b07dd285acfc4001754240d
 ARC9.LoadAttachment(ATT, "eft_tactical_lastac2")
 
 
@@ -581,6 +587,7 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 2, meow_offset2, meow_green)
 end
 
+-- EFT ID: 57fd23e32459772d0805bcf1
 ARC9.LoadAttachment(ATT, "eft_tactical_ls321")
 
 
@@ -621,6 +628,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 5cc9c20cd7f00c001336c65d
 ARC9.LoadAttachment(ATT, "eft_tactical_nstar_tbl")
 
 
@@ -716,6 +724,7 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 1, meow_offset1, meow_green)
 end
 
+-- EFT ID: 544909bb4bdc2d6f028b4577
 ARC9.LoadAttachment(ATT, "eft_tactical_peq15")
 
 
@@ -781,6 +790,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 5d10b49bd7ad1a1a560708b0
 ARC9.LoadAttachment(ATT, "eft_tactical_peq2")
 
 
@@ -877,6 +887,7 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 1, meow_offset1, meow_green)
 end
 
+-- EFT ID: 5c5952732e2216398b5abda2
 ARC9.LoadAttachment(ATT, "eft_tactical_perst3")
 
 
@@ -1047,6 +1058,7 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+-- EFT ID: 61605d88ffa6e502ac5e7eeb
 ARC9.LoadAttachment(ATT, "eft_tactical_raptar")
 
 
@@ -1106,6 +1118,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 57d17c5e2459775a5c57d17d
 ARC9.LoadAttachment(ATT, "eft_tactical_wf501b")
 
 
@@ -1163,6 +1176,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 626becf9582c3e319310b837
 ARC9.LoadAttachment(ATT, "eft_tactical_wmx200")
 
 
@@ -1222,6 +1236,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 59d790f486f77403cb06aec6
 ARC9.LoadAttachment(ATT, "eft_tactical_xhp35")
 
 
@@ -1255,6 +1270,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 57d17e212459775a1179a0f5
 ARC9.LoadAttachment(ATT, "eft_mount_25mm")
 
 
@@ -1288,6 +1304,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 6267c6396b642f77f56f5c1c
 ARC9.LoadAttachment(ATT, "eft_mount_25mm_dd_offset")
 
 
@@ -1408,6 +1425,7 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 1, meow_offset1, meow_red)
 end
 
+-- EFT ID: 644a3df63b0b6f03e101e065
 ARC9.LoadAttachment(ATT, "eft_tactical_mawlc")
 
 -- 0.14
@@ -1453,6 +1471,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 646f62fee779812413011ab7
 ARC9.LoadAttachment(ATT, "eft_tactical_2d")
 
 
@@ -1503,6 +1522,7 @@ ATT.DrawFunc = function(self, model, wm)
 end
 
 
+-- EFT ID: 6644920d49817dc7d505ca71
 ARC9.LoadAttachment(ATT, "eft_bipod_atlas_v8")
 
 -- 0.15.5 but actually way older (mounts for it were just added)
@@ -1552,6 +1572,7 @@ ATT.DrawFunc = function(self, model, wm)
 end
 
 
+-- EFT ID: 5888961624597754281f93f3
 ARC9.LoadAttachment(ATT, "eft_bipod_harris")
 
 ///////////////////////////////////////      eft_mount_kac_bipod
@@ -1582,42 +1603,10 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 676175bb48fa5c377e06fc36
 ARC9.LoadAttachment(ATT, "eft_mount_kac_bipod")
 
 
-
--- not required anymore due to new quick relaod system
-
--- ///////////////////////////////////////      eft_shared_fastreload
-
-
--- ATT = {}
-
--- ATT.PrintName = "Dump cylinder on every reload"
--- ATT.CompactName = "Fast reload"
--- ATT.Icon = Material("entities/eft_ash12_attachments/fastreload.png", "mips smooth")
--- ATT.Description = [[Attachment instead of double pressing R in EFT.
--- Drops all ammo on ground on any reload for faster reload.]]
-
--- ATT.EFTForceFastReload = true
-
--- ATT.AttNotForNPCs = true 
--- ATT.Max = 1
-
--- ATT.SortOrder = 0
--- ATT.MenuCategory = "ARC9 - EFT Attachments"
-
--- ATT.Category = {"eft_custom_slot_revolver"}
--- ATT.Attachments = {
---     {
---         PrintName = ARC9:GetPhrase("eft_cat_custom"),
---         Pos = Vector(0, 0, 1),
---         Ang = Angle(0, 0, 0),
---         Category = {"eft_custom_slot"},
---     },
--- }
-
--- ARC9.LoadAttachment(ATT, "eft_shared_fastreload")
 
 
 
@@ -1675,6 +1664,7 @@ ATT.ToggleStats = {
 }
 
 
+-- EFT ID: 689c887cd18a3665b8045743
 ARC9.LoadAttachment(ATT, "eft_tactical_scout")
 
 ///////////////////////////////////////      eft_mount_scout_pic
@@ -1704,6 +1694,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 689c8981bce76ccfbf01862f
 ARC9.LoadAttachment(ATT, "eft_mount_scout_pic")
 
 ///////////////////////////////////////      eft_mount_scout_keymod
@@ -1733,6 +1724,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 689c8a2b4b91399db3085f27
 ARC9.LoadAttachment(ATT, "eft_mount_scout_keymod")
 
 ///////////////////////////////////////      eft_mount_scout_mlok
@@ -1763,4 +1755,5 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 689c8b454b91399db3085f2a
 ARC9.LoadAttachment(ATT, "eft_mount_scout_mlok")

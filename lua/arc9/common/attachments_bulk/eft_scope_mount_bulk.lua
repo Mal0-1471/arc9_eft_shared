@@ -39,6 +39,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 618b9643526131765025ab35
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_geis")
 
 
@@ -83,6 +84,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 618bab21526131765025ab3f
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_geis_tan")
 
 
@@ -125,6 +127,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 5a37ca54c4a282000d72296a
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_jp")
 
 
@@ -159,6 +162,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 57c69dd424597774c03b7bbc
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_lobaev")
 
 
@@ -193,6 +197,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 5b3b99265acfc4704b4a1afb
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_nf")
 
 
@@ -240,5 +245,6 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 5b2389515acfc4771e1be0c0
 ARC9.LoadAttachment(ATT, "eft_mount_30mm_pepr")
 

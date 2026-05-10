@@ -33,6 +33,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5a33b652c4a28232996e407c
 ARC9.LoadAttachment(ATT, "eft_mount_ac32062")
 
 
@@ -68,6 +69,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 58d39d3d86f77445bb794ae7
 ARC9.LoadAttachment(ATT, "eft_mount_amm")
 
 
@@ -101,6 +103,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 58d39b0386f77443380bf13c
 ARC9.LoadAttachment(ATT, "eft_mount_amsh")
 
 
@@ -134,6 +137,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5c1cdd302e221602b3137250
 ARC9.LoadAttachment(ATT, "eft_mount_compact")
 
 
@@ -167,6 +171,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 58d2664f86f7747fec5834f6
 ARC9.LoadAttachment(ATT, "eft_mount_deltapoint")
 
 
@@ -200,6 +205,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 577d128124597739d65d0e56
 ARC9.LoadAttachment(ATT, "eft_mount_ffwb")
 
 
@@ -221,6 +227,7 @@ ATT.Category = {"eft_mount_geis"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
+-- EFT ID: 618b9671d14d6d5ab879c5ea
 ARC9.LoadAttachment(ATT, "eft_mount_geis_cap")
 
 
@@ -245,6 +252,7 @@ ATT.Category = {"eft_mount_geis"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
+-- EFT ID: 618ba91477b82356f91ae0e8
 ARC9.LoadAttachment(ATT, "eft_mount_geis_cap_ddc")
 
 
@@ -276,6 +284,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 618b9682a3884f56c957ca78
 ARC9.LoadAttachment(ATT, "eft_mount_geis_rmr")
 
 
@@ -310,6 +319,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 618ba92152ecee1505530bd3
 ARC9.LoadAttachment(ATT, "eft_mount_geis_rmr_ddc")
 
 
@@ -343,6 +353,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 616554fe50224f204c1da2aa
 ARC9.LoadAttachment(ATT, "eft_mount_h2")
 
 
@@ -376,6 +387,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5c7d55f52e221644f31bff6a
 ARC9.LoadAttachment(ATT, "eft_mount_lrp")
 
 
@@ -409,6 +421,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5c7d560b2e22160bc12c6139
 ARC9.LoadAttachment(ATT, "eft_mount_lrp_spacer")
 
 
@@ -445,6 +458,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5c064c400db834001d23f468
 ARC9.LoadAttachment(ATT, "eft_mount_lt101")
 
 
@@ -478,6 +492,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 615d8d878004cc50514c3233
 ARC9.LoadAttachment(ATT, "eft_mount_nar")
 
 
@@ -517,6 +532,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5649a2464bdc2d91118b45a8
 ARC9.LoadAttachment(ATT, "eft_mount_ncstar")
 
 
@@ -550,6 +566,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 616584766ef05c2ce828ef57
 ARC9.LoadAttachment(ATT, "eft_mount_qrp2")
 
 
@@ -586,6 +603,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5a1ead28fcdbcb001912fa9f
 ARC9.LoadAttachment(ATT, "eft_mount_reapir")
 
 
@@ -621,6 +639,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5a33b2c9c4a282000c5a9511
 ARC9.LoadAttachment(ATT, "eft_mount_rm33")
 
 
@@ -655,6 +674,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5a33bab6c4a28200741e22f8
 ARC9.LoadAttachment(ATT, "eft_mount_rm35")
 
 ///////////////////////////////////////      eft_mount_acogrs
@@ -687,6 +707,7 @@ ATT.Sights = {
 }
 
 
+-- EFT ID: 5c05295e0db834001a66acbb
 ARC9.LoadAttachment(ATT, "eft_mount_acogrs")
 
 
@@ -720,6 +741,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5b31163c5acfc400153b71cb
 ARC9.LoadAttachment(ATT, "eft_mount_romeo")
 
 
@@ -753,6 +775,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 61714b2467085e45ef140b2c
 ARC9.LoadAttachment(ATT, "eft_mount_t1sun")
 
 
@@ -791,6 +814,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 59db7eed86f77461f8380365
 ARC9.LoadAttachment(ATT, "eft_mount_trijicon")
 
 
@@ -832,6 +856,7 @@ ATT.Attachments = {
 
 
 
+-- EFT ID: 5a7b4900e899ef197b331a2a
 ARC9.LoadAttachment(ATT, "eft_mount_um3")
 
 
@@ -869,6 +894,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5b3b6dc75acfc47a8773fb1e
 ARC9.LoadAttachment(ATT, "eft_mount_vulcan")
 
 
@@ -908,6 +934,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 63fc449f5bd61c6cf3784a88
 ARC9.LoadAttachment(ATT, "eft_mount_zeus")
 
 -- 0.14
@@ -948,6 +975,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 65392f611406374f82152ba5
 ARC9.LoadAttachment(ATT, "eft_mount_hydra")
 
 ///////////////////////////////////////      eft_mount_hydra_fde
@@ -987,6 +1015,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 653931da5db71d30ab1d6296
 ARC9.LoadAttachment(ATT, "eft_mount_hydra_fde")
 
 

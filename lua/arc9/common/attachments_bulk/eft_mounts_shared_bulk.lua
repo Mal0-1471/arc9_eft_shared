@@ -31,6 +31,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 623c2f652febb22c2777d8d7
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_cnc2")
 
 
@@ -64,6 +65,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 623c2f4242aee3103f1c44b7
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_cnc4")
 
 
@@ -97,6 +99,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5a9d6d00a2750c5c985b5305
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_si4")
 
 
@@ -129,6 +132,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5a9d6d13a2750c00164f6b03
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_si6")
 
 
@@ -162,6 +166,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 59e0bdb186f774156f04ce82
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_vltor2")
 
 
@@ -195,6 +200,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 59e0be5d86f7742d48765bd2
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_vltor4")
 
 
@@ -228,6 +234,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 59e0bed186f774156f04ce84
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_vltor6")
 
 ///////////////////////////////////////      eft_mount_keymod_bipodd
@@ -256,6 +263,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 67112695fe5c8bf33f02476d
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_bipodd")
 
 ///////////////////////////////////////      eft_mount_keymod_corvus18
@@ -288,6 +296,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 67111094d1758189fc0bd223
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_corvus18")
 
 ///////////////////////////////////////      eft_mount_keymod_corvus68
@@ -317,6 +326,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 6711109e723c2733410161eb
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_corvus68")
 
 
@@ -356,6 +366,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5b7be47f5acfc400170e2dd2
 ARC9.LoadAttachment(ATT, "eft_mount_mlok25")
 
 
@@ -388,6 +399,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5b7be4895acfc400170e2dd5
 ARC9.LoadAttachment(ATT, "eft_mount_mlok41")
 
 
@@ -418,6 +430,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 6269220d70b6c02e665f2635
 ARC9.LoadAttachment(ATT, "eft_mount_mlokcanti")
 
 
@@ -450,6 +463,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 6269545d0e57f218e4548ca2
 ARC9.LoadAttachment(ATT, "eft_mount_mlokoffset")
 
 ///////////////////////////////////////      eft_mount_mlok093
@@ -481,6 +495,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 669a6a4a525be1d2d004b8eb
 ARC9.LoadAttachment(ATT, "eft_mount_mlok093")
 
 ///////////////////////////////////////      eft_mount_mlok_bipodd
@@ -510,6 +525,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 671126b049e181972e0681fa
 ARC9.LoadAttachment(ATT, "eft_mount_mlok_bipodd")
 
 
@@ -559,6 +575,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5b4736a986f774040571e998
 ARC9.LoadAttachment(ATT, "eft_mount_qars32")
 
 
@@ -591,5 +608,6 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5b4736b986f77405cb415c10
 ARC9.LoadAttachment(ATT, "eft_mount_qars42")
 

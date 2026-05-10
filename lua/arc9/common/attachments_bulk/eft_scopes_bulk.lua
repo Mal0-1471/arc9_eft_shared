@@ -101,6 +101,7 @@ ATT.ScopeScreenRatio = 622/1080
 ATT.RTScopeNew_ShadowScale = 1.1
 
 
+-- EFT ID: 57c5ac0824597754771e88a9
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_march")
 
 
@@ -123,7 +124,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
 ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.FoldSights = true
 
@@ -180,6 +180,7 @@ ATT.ScopeScreenRatio = 0.5833
 ATT.RTScopeNew_ShadowScale = 1.3
 
 
+-- EFT ID: 5a37cb10c4a282329a73b4e7
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_mark4")
 
 
@@ -258,6 +259,7 @@ ATT.ScopeScreenRatio = 0.5824
 ATT.RTScopeMagnification = 6
 
 
+-- EFT ID: 618ba27d9008e4636a67f61d
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_razor")
 
 
@@ -278,7 +280,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
 ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.FoldSights = true
 
@@ -359,6 +360,7 @@ ATT.RTScopeBlackBoxShadow = true
 ATT.ScopeScreenRatio = 627/1080
 
 
+-- EFT ID: 617151c1d92c473c770214ab
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_sb_pmii1")
 
 
@@ -379,7 +381,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
 ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.FoldSights = true
 
@@ -436,6 +437,7 @@ ATT.RTScopeNew_ShadowScale = 1.1
 ATT.ScopeScreenRatio = 802/1080
 
 
+-- EFT ID: 5b2388675acfc4771e1be0be
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_tac30")
 
 
@@ -456,7 +458,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_optic_30mm"
 
 ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.FoldSights = true
 
@@ -533,6 +534,7 @@ ATT.RTScopeBlackBoxShadow = true
 ATT.ScopeScreenRatio = 648/1080
 
 
+-- EFT ID: 5b3b99475acfc432ff4dcbee
 ARC9.LoadAttachment(ATT, "eft_scope_30mm_vudu")
 
 
@@ -604,6 +606,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5c05293e0db83400232fff80
 ARC9.LoadAttachment(ATT, "eft_scope_acog_ta01")
 
 
@@ -676,6 +679,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5c052a900db834001a66acbd
 ARC9.LoadAttachment(ATT, "eft_scope_acog_ta01_tan")
 
 
@@ -738,6 +742,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 59db7e1086f77448be30ddf3
 ARC9.LoadAttachment(ATT, "eft_scope_acog_ta11d")
 
 
@@ -801,6 +806,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 57adff4f24597737f373b6e6
 ARC9.LoadAttachment(ATT, "eft_scope_bravo4")
 
 
@@ -822,7 +828,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper", "eft_optic_prism"
 ATT.Folder = "Scopes"
 
 ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.FoldSights = true
 local R0 = Material("vgui/arc9_eft_shared/reticles/scope_all_monstrum_compact_prism_scope_2x32_mark_0.png", "mips smooth")
@@ -865,6 +870,7 @@ ATT.ScopeScreenRatio = 382/1080
 ATT.RTScopeMagnification = 2
 
 
+-- EFT ID: 5d2dc3e548f035404a1a4798
 ARC9.LoadAttachment(ATT, "eft_scope_compactprism")
 
 
@@ -953,6 +959,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 57ac965c24597706be5f975c
 ARC9.LoadAttachment(ATT, "eft_scope_elcan")
 
 
@@ -1042,6 +1049,7 @@ ATT.Attachments = {
     },
 }
 
+-- EFT ID: 57aca93d2459771f2c7e26db
 ARC9.LoadAttachment(ATT, "eft_scope_elcan_fde")
 
 
@@ -1202,6 +1210,7 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 
 
+-- EFT ID: 5d1b5e94d7ad1a2b865a96b0
 ARC9.LoadAttachment(ATT, "eft_scope_flir")
 
 
@@ -1263,6 +1272,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 544a3a774bdc2d3a388b4567
 ARC9.LoadAttachment(ATT, "eft_scope_hamr")
 
 
@@ -1284,7 +1294,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = "eft_scope_compact"
 
 ATT.EFTErgoAdd = -3
-ATT.CustomCons = { Ergonomics = "-3" }
 
 ATT.FoldSights = true
 
@@ -1313,6 +1322,7 @@ ATT.RTScopeNew_ShadowScale = 0.8
 ATT.ScopeScreenRatio = 530/1080
 
 
+-- EFT ID: 5c1cdd512e22161b267d91ae
 ARC9.LoadAttachment(ATT, "eft_scope_pa_prism")
 
 
@@ -1490,6 +1500,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5a1eaa87fcdbcb001865f75e
 ARC9.LoadAttachment(ATT, "eft_scope_reapir")
 
 
@@ -1564,6 +1575,7 @@ ATT.AdvancedCamoSupport = true
 ATT.RTScopeNew_ShadowScale = 0.75
 
 
+-- EFT ID: 5c0517910db83400232ffee5
 ARC9.LoadAttachment(ATT, "eft_scope_valday_ps320")
 
 
@@ -1656,6 +1668,7 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 5b3b6e495acfc4330140bd88
 ARC9.LoadAttachment(ATT, "eft_scope_vulcan")
 
 
@@ -1817,6 +1830,7 @@ ATT.FlareAttachment = 1
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
+-- EFT ID: 6478641c19d732620e045e17
 ARC9.LoadAttachment(ATT, "eft_scope_echo1")
 
 
@@ -1996,4 +2010,5 @@ ATT.Attachments = {
 }
 
 
+-- EFT ID: 63fc44e2429a8a166c7f61e6
 ARC9.LoadAttachment(ATT, "eft_scope_zeuspro")
