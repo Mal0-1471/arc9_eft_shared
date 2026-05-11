@@ -488,12 +488,13 @@ function ARC9EFT.GenerateEFTAttachment(inputtbl, ammotype)
     local lATT = {}
 
     if inputtbl.damage then
-        lATT.DamageMax = inputtbl.damage
         lATT.BallisticCoefficient = inputtbl.ballisticCoeficient or 0.250
         lATT.PhysBulletMuzzleVelocity = (inputtbl.initialSpeed or 800) / 0.0254
-        lATT.SpreadMult = 1 - (inputtbl.accuracyModifier2 or 0)
+        lATT.SpreadMult = 1 - (inputtbl.accuracyModifier or 0)
 
-        local LUT = ARC9EFT.GenerateDamgeLUT(lATT.DamageMax, lATT.BallisticCoefficient, ammotype or "rifle")
+        local LUT = ARC9EFT.GenerateDamgeLUT(inputtbl.damage, lATT.BallisticCoefficient, ammotype or "rifle")
+        lATT.DamageLookupTable = LUT
+        lATT.DamageMax = LUT[1][2]
         lATT.DamageMin = LUT[#LUT][2]
         lATT.RangeMin = 5
         lATT.RangeMax = LUT[#LUT][1]
@@ -537,8 +538,8 @@ function ARC9EFT.GenerateEFTAttachment(inputtbl, ammotype)
         lATT.VisualRecoilMult = (100 + inputtbl.recoilModifier) / 100
     end
 
-    if inputtbl.accuracyModifier and inputtbl.accuracyModifier != 0 then
-        lATT.SpreadMult = 1 - (100 - inputtbl.accuracyModifier) / 100
+    if !inputtbl.damage and inputtbl.accuracyModifier and inputtbl.accuracyModifier != 0 then
+        lATT.SpreadMult = 1 - (inputtbl.accuracyModifier or 0) / 100
     end
 
     if inputtbl.malfunctionChance and inputtbl.malfunctionChance != 0 then
