@@ -426,13 +426,15 @@ end
 
 ARC9EFT.SwayErgoHook = function(self, orig) -- zero idea, it doesn't even work this way in eft
     local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)
-    return math.max(0.05, orig * 0.5 + ((1 - ergo * 0.01) * 0.66) * ergomult:GetFloat())
+    local weight = math.Clamp((self:GetValue("EFTWeight") or 0), 1, 20)
+    return math.max(0.05, orig * 0.5 + ((1 - ergo * 0.01) * 0.1) * ergomult:GetFloat() + weight / 25)
 end
 
 ARC9EFT.ErgoBreathHook = function(self, orig)
     if self:GetBipod() then return orig * 10 end
-    local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)
-    return math.max(1, orig - (100 - ergo) / 5 * ergomult:GetFloat())
+    -- local ergo = math.Clamp((self:GetValue("EFTErgo") or 0), 0, 100)
+    local weight = math.Clamp((self:GetValue("EFTWeight") or 0), 1, 20)
+    return math.max(1, orig - weight * 2.5)
 end
 
 ARC9EFT.ErgoAdsVolume = function(self, data) -- unused after they added ads sounds
@@ -441,6 +443,10 @@ ARC9EFT.ErgoAdsVolume = function(self, data) -- unused after they added ads soun
         data.volume = 0.75 * (100 - ergo) / 100 -- real tarball
     end
     return data
+end
+
+ARC9EFT.SpeedHook = function(self, orig)
+    return orig * ((100 - math.Clamp((self:GetValue("EFTWeight") or 0) * 2, 0, 50)) / 100)
 end
 
 ARC9EFT.SpreadBonus = function(wep, spread) 
@@ -496,11 +502,11 @@ function ARC9EFT.GenerateEFTAttachment(inputtbl, ammotype)
         lATT.DamageLookupTable = LUT
         lATT.DamageMax = LUT[1][2]
         lATT.DamageMin = LUT[#LUT][2]
-        lATT.RangeMin = 5
+        lATT.RangeMin = LUT[1][1]
         lATT.RangeMax = LUT[#LUT][1]
         lATT.Penetration = (inputtbl.penetrationPower or 50) * ARC9EFT.PenetrationStatMult
         lATT.PenetrationDelta = (inputtbl.armorDamage or 15) * 0.01
-        lATT.PenetrationChance = inputtbl.penetrationChance or 0.5
+        lATT.EFTPenetrationChance = inputtbl.penetrationChance or 0.5
         lATT.ArmorPiercing = (inputtbl.armorDamage or 15) * 0.01
         lATT.RicochetChance = inputtbl.ricochetChance or 0.0
 

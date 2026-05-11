@@ -111,20 +111,25 @@ SWEP.SprintToFireTime = 0.35
 SWEP.AimDownSightsTimeHook = ARC9EFT.ErgoHook
 SWEP.AimDownSightsTimeMultShooting = 4
 
-SWEP.SpeedMult = 0.95
+SWEP.SpeedMult = 0.97
 SWEP.SpeedMultSights = 0.75
 SWEP.SpeedMultShooting = 0.7
 SWEP.SpeedMultMelee = 0.75
 SWEP.SpeedMultCrouch = 1
 SWEP.SpeedMultBlindFire = 1
 
+SWEP.SpeedHook = ARC9EFT.SpeedHook
+SWEP.SpeedMultHook = ARC9EFT.SpeedHook
+
 SWEP.FreeAimRadius = 2
 SWEP.FreeAimRadiusSights = 0
 
-SWEP.Sway = 0.25
+SWEP.Sway = 0.02
 SWEP.SwayAddMove = 0.25
 SWEP.SwayAddMidAir = 1.5
+SWEP.SwayMultSights = 0.75
 SWEP.SwayMultCrouch = 0.6
+SWEP.SwayMultHipFire = 0.5
 SWEP.SwayHook = ARC9EFT.SwayErgoHook
 
 SWEP.HoldBreathTime = 40
