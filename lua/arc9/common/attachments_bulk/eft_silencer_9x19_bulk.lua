@@ -51,6 +51,14 @@ ATT.Category = {"eft_9mm_muzzle", "eft_glock_muzzle"}
 ATT.Silencer = true
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -10,
+    recoilModifier = -2,
+    weight = 0.29,
+    velocity = 0.7,
+}))
+
+
 -- EFT ID: 5a33a8ebc4a282000c5a950d
 ARC9.LoadAttachment(ATT, "eft_silencer_alpha9")
 
@@ -70,10 +78,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_aac_illusion_9_9x19.mdl"
 
-ATT.VisualRecoilMult = 0.93
-ATT.RecoilMult = 0.93
-ATT.EFTErgoAdd = -15
-ATT.SpreadMult = 0.98
 ATT.PhysBulletMuzzleVelocityMult = 1.015
 ATT.HeatCapacityAdd = -62*0.5
 
@@ -86,6 +90,14 @@ ATT.BarrelLengthAdd = 5
 ATT.Category = {"eft_9mm_muzzle", "eft_glock_muzzle"}
 
 ATT.Silencer = true
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -12,
+    recoilModifier = -2.5,
+    weight = 0.294,
+    velocity = 0.8,
+}))
 
 
 -- EFT ID: 5c7e8fab2e22165df16b889b
@@ -106,10 +118,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_silencerco_osprey_9_9x19.mdl"
 
-ATT.VisualRecoilMult = 0.88
-ATT.RecoilMult = 0.88
-ATT.EFTErgoAdd = -17
-ATT.SpreadMult = 0.98
 ATT.PhysBulletMuzzleVelocityMult = 1.005
 ATT.HeatCapacityAdd = -65*0.5
 
@@ -122,6 +130,14 @@ ATT.BarrelLengthAdd = 5
 ATT.Category = {"eft_pp1901_muzzle", "eft_9mm_muzzle", "eft_glock_muzzle"}
 
 ATT.Silencer = true
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -17,
+    recoilModifier = -8,
+    weight = 0.27,
+    velocity = 0.7,
+}))
 
 
 -- EFT ID: 5a32a064c4a28200741e22de
@@ -143,10 +159,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_rotor_43_v1.mdl"
 
-ATT.VisualRecoilMult = 0.935
-ATT.RecoilMult = 0.935
-ATT.EFTErgoAdd = -17
-ATT.SpreadMult = 1.02
 ATT.PhysBulletMuzzleVelocityMult = 0.75
 ATT.HeatCapacityAdd = -50*0.5
 
@@ -158,6 +170,14 @@ ATT.NoFlash = true
 ATT.Category = {"eft_pp1901_muzzle", "eft_9mm_muzzle"}
 
 ATT.Silencer = true
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -11,
+    recoilModifier = -2,
+    weight = 0.49,
+    velocity = 0.6,
+}))
 
 
 -- EFT ID: 5a9fb739a2750c003215717f
@@ -178,10 +198,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.Model = "models/weapons/arc9_eft_shared/atts/muzzle/silencer_all_sig_srd_9_9x19.mdl"
 
-ATT.VisualRecoilMult = 0.92
-ATT.RecoilMult = 0.92
-ATT.EFTErgoAdd = -15
-ATT.SpreadMult = 0.99
 ATT.PhysBulletMuzzleVelocityMult = 1.01
 ATT.HeatCapacityAdd = -50*0.5
 
@@ -195,6 +211,14 @@ ATT.BarrelLengthAdd = 5
 ATT.Category = {"eft_pp1901_muzzle", "eft_9mm_muzzle", "eft_glock_muzzle"}
 
 ATT.Silencer = true
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -5,
+    recoilModifier = -1,
+    weight = 0.255,
+    velocity = 0.7,
+}))
 
 
 -- EFT ID: 5c6165902e22160010261b28

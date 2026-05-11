@@ -17,11 +17,16 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fs_a2.mdl"
 ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.5,
+    weight = 0.176,
+}))
 
 
 -- EFT ID: 55d4af3a4bdc2d972f8b456f
@@ -45,7 +50,6 @@ ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = 1
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
@@ -57,6 +61,12 @@ end
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.07,
+}))
 
 
 -- EFT ID: 5c17804b2e2216152006c02f
@@ -80,7 +90,6 @@ ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -93,6 +102,12 @@ end
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.07,
+}))
 
 
 -- EFT ID: 5dfa3d950dee1b22f862eae0
@@ -116,7 +131,6 @@ ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -129,6 +143,12 @@ end
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.02,
+}))
 
 
 -- EFT ID: 5fb6567747ce63734e3fa1dc
@@ -152,7 +172,6 @@ ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -165,6 +184,12 @@ end
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.034,
+}))
 
 
 -- EFT ID: 5bc09a30d4351e00367fb7c8
@@ -189,7 +214,6 @@ ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -202,6 +226,12 @@ end
 
 ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.034,
+}))
 
 
 -- EFT ID: 5c18b90d2e2216152142466b
@@ -225,7 +255,6 @@ ATT.Category = {"eft_frontsight"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -238,6 +267,11 @@ end
 
 ATT.ModelOffset = Vector(0, -0.03, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.065,
+}))
 
 
 -- EFT ID: 5fc0fa362770a0045c59c677
@@ -274,6 +308,11 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.13,
+}))
+
+
 -- EFT ID: 5ba26b01d4351e0085325a51
 ARC9.LoadAttachment(ATT, "eft_frontsight_mp7")
 
@@ -306,6 +345,11 @@ end
 
 ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.13,
+}))
 
 
 -- EFT ID: 5894a73486f77426d259076c

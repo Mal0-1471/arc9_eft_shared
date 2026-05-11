@@ -140,6 +140,7 @@ SWEP.RPMMultHot = 0.85 -- overheat debuff
 SWEP.EFTErgo = 0
 SWEP.BarrelLength = 36
 SWEP.Ammo = "ar2"
+SWEP.EFTWeight = 1
 
 -- SWEP.Firemodes = {
 --     { Mode = -1, PoseParam = 3},

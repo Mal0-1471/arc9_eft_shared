@@ -13,9 +13,7 @@ ATT.Description = [[A factory-produced 33-round 9x19 magazine for Glock pistols.
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -6
 ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
-ATT.MalfunctionMeanShotsToFailMult = 0.83
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_bigstick_33.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_bigstick_33.mdl"
@@ -26,6 +24,13 @@ ATT.SuppressEmptySuffix = false
 ATT.ActivateElements = {"hasmag"}
 
 ATT.Category = {"eft_g17_mag"}
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3.5,
+    weight = 0.15,
+    malfunctionChance = 0.182,
+}))
 
 
 -- EFT ID: 5a7ad2e851dfba0016153692
@@ -45,9 +50,7 @@ ATT.Description = [[A standard-issue 17-round 9x19 magazine for Glock pistols.]]
 
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Improved check accuracy"] = "Yes" }
--- ATT.MalfunctionMeanShotsToFailMult = 0.85
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_glock_std_17.mdl"
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_glock_std_17.mdl"
@@ -58,6 +61,12 @@ ATT.SuppressEmptySuffix = false
 ATT.ActivateElements = {"hasmag"}
 
 ATT.Category = {"eft_g17_mag"}
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.096,
+    malfunctionChance = 0.085,
+}))
 
 
 -- EFT ID: 5a718b548dc32e000d46d262
@@ -73,9 +82,6 @@ ATT.CompactName = "SA58/FAL 20"
 ATT.Icon = Material("entities/eft_sa58_attachments/20.png", "mips smooth")
 ATT.Description = [[A 20-round double-stack steel magazine for FAL/SA-58 7.62x51 NATO rounds.]]
 
-ATT.EFTErgoAdd = -5
-ATT.MalfunctionMeanShotsToFailMult = 0.85
-
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
@@ -89,6 +95,13 @@ ATT.SuppressEmptySuffix = false
 ATT.DropMagazineAmount = 1
 ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_fal_ds_arms_fal_sa58_762x51_20.mdl"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_fal_ds_arms_fal_sa58_762x51_20.mdl"
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.35,
+    malfunctionChance = 0.15,
+}))
+
 
 -- EFT ID: 5b099ac65acfc400186331e1
 ARC9.LoadAttachment(ATT, "eft_sa58_mag_20")
@@ -104,9 +117,6 @@ ATT.CompactName = "PMAG 20"
 ATT.Icon = Material("entities/eft_ar10_attachments/magpmag.png", "mips smooth")
 ATT.Description = [[A 20-round double-stack Magpul PMAG SR/LR GEN M3 20 magazine for 7.62x51 NATO ammunition.]]
 
-ATT.EFTErgoAdd = -3
-ATT.MalfunctionMeanShotsToFailMult = 0.98
-
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
@@ -120,6 +130,13 @@ ATT.DropMagazineModel = "models/weapons/arc9/darsu_eft/mods/mag_ar10_magpul_pmag
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mag_ar10_magpul_pmag_sr_gen_3_762x51_20.mdl"
 
 ATT.AdvancedCamoSupport = true
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.35,
+    malfunctionChance = 0.02,
+}))
 
 
 -- EFT ID: 5a3501acc4a282000d72293a

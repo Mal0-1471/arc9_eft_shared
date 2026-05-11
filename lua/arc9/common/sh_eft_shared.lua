@@ -449,6 +449,104 @@ ARC9EFT.SpreadBonus = function(wep, spread)
     end
 end
 
+local dmgrangecvar = GetConVar("arc9_eft_mindmgrange")
+local dmgrangesgcvar = GetConVar("arc9_eft_mindmgrange_sg")
+
+local dmgtypecvars = {
+    ["pistol"] = GetConVar("arc9_eft_mult_pistol"),
+    ["shotgun"] = GetConVar("arc9_eft_mult_shotgun"),
+    ["carbine"] = GetConVar("arc9_eft_mult_carabine"),
+    ["rifle"] = GetConVar("arc9_eft_mult_rifle"),
+    ["bigrifle"] = GetConVar("arc9_eft_mult_bigrifle"),
+    ["338"] = GetConVar("arc9_eft_mult_338"),
+    ["massive"] = GetConVar("arc9_eft_mult_massive"),
+}
+
+function ARC9EFT.GenerateDamgeLUT(startdmg, coeff, bullettype)
+    local rangemult = (bullettype == "shotgun" and dmgrangesgcvar:GetInt() or dmgrangecvar:GetInt()) / 1000
+    local dmgmult = (dmgtypecvars[bullettype]):GetFloat()
+
+    startdmg = startdmg * dmgmult
+
+    local floor = startdmg * 0.583
+
+    local output = {}
+    for i = 0, 9 do
+        local range = 5 + (i * (995 / 9))
+        local decayPower = -coeff * ((range - 5) / 100)
+        local dmg = ((startdmg - floor) * math.exp(decayPower)) + floor
+        
+        table.insert(output, { range / 0.0254 * rangemult, dmg })
+    end
+    
+    return output
+end
+
+ARC9EFT.PenetrationStatMult = 2.54 / 100 / 0.0254
+
+function ARC9EFT.GenerateEFTAttachment(inputtbl, ammotype)
+    local lATT = {}
+
+    if inputtbl.damage then
+        lATT.DamageMax = inputtbl.damage
+        lATT.BallisticCoefficient = inputtbl.ballisticCoeficient or 0.250
+        lATT.PhysBulletMuzzleVelocity = (inputtbl.initialSpeed or 800) / 0.0254
+        lATT.SpreadMult = 1 - (inputtbl.accuracyModifier2 or 0)
+
+        local LUT = ARC9EFT.GenerateDamgeLUT(lATT.DamageMax, lATT.BallisticCoefficient, ammotype or "rifle")
+        lATT.DamageMin = LUT[#LUT][2]
+        lATT.RangeMin = 5
+        lATT.RangeMax = LUT[#LUT][1]
+        lATT.Penetration = (inputtbl.penetrationPower or 50) * ARC9EFT.PenetrationStatMult
+        lATT.PenetrationDelta = (inputtbl.armorDamage or 15) * 0.01
+        lATT.PenetrationChance = inputtbl.penetrationChance or 0.5
+        lATT.ArmorPiercing = (inputtbl.armorDamage or 15) * 0.01
+        lATT.RicochetChance = inputtbl.ricochetChance or 0.0
+
+        if inputtbl.heatFactor and inputtbl.heatFactor != 1 then
+            lATT.HeatPerShotMult = inputtbl.heatFactor
+        end
+
+        if inputtbl.lightBleedModifier and inputtbl.lightBleedModifier != 0 then
+            lATT.BleedLightChance = inputtbl.lightBleedModifier
+        end
+
+        if inputtbl.heavyBleedModifier and inputtbl.heavyBleedModifier != 0 then
+            lATT.BleedHeavyChance = inputtbl.heavyBleedModifier
+        end
+
+        if inputtbl.failureToFeedChance and inputtbl.failureToFeedChance != 0 then
+            lATT.MalfunctionMeanShotsToFailMult = 1 - (inputtbl.malfunctionChance2)
+        end
+
+    if inputtbl.ergonomicsModifier and inputtbl.ergonomicsModifier != 0 then
+        lATT.EFTErgoAdd = inputtbl.ergonomicsModifier
+    end
+
+    if inputtbl.recoilModifier and inputtbl.recoilModifier != 0 then
+        lATT.RecoilMult = (100 + inputtbl.recoilModifier) / 100
+        lATT.VisualRecoilMult = (100 + inputtbl.recoilModifier) / 100
+    end
+
+    if inputtbl.accuracyModifier and inputtbl.accuracyModifier != 0 then
+        lATT.SpreadMult = 1 - (100 - inputtbl.accuracyModifier) / 100
+    end
+
+    if inputtbl.malfunctionChance and inputtbl.malfunctionChance != 0 then
+        lATT.MalfunctionMeanShotsToFailMult = 1 - inputtbl.malfunctionChance
+    end
+
+    if inputtbl.velocity and inputtbl.velocity != 0 then
+        lATT.PhysBulletMuzzleVelocityMult = (100 + velocity) / 100
+    end
+
+    if inputtbl.weight and inputtbl.weight != 0 then
+        lATT.EFTWeightAdd = inputtbl.weight
+    end
+    
+    return lATT
+end
+
 
 if CLIENT then
     timer.Simple(1, function()

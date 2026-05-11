@@ -23,7 +23,6 @@ ATT.Description = [[The Steiner DBAL-PL tactical device with an LED flashlight a
 
 ATT.Icon = Material("entities/eft_attachments/tactical/dbal.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -145,6 +144,12 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.153,
+}))
+
+
 -- EFT ID: 5d2369418abbc306c62e0c80
 ARC9.LoadAttachment(ATT, "eft_tactical_dbal_pl")
 
@@ -161,7 +166,6 @@ ATT.Description = [[An underbarrel-mounted LED flashlight "Klesch-2IKS + IR LAM"
 
 ATT.Icon = Material("entities/eft_attachments/tactical/k2iks.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -223,6 +227,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.17,
+}))
+
+
 -- EFT ID: 5a5f1ce64f39f90b401987bc
 ARC9.LoadAttachment(ATT, "eft_tactical_k2iks")
 
@@ -238,7 +248,6 @@ ATT.Description = [[An underbarrel-mounted LED flashlight "Klesch-2P + LAM" manu
 
 ATT.Icon = Material("entities/eft_attachments/tactical/k2p.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -300,6 +309,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.17,
+}))
+
+
 -- EFT ID: 560d657b4bdc2da74d8b4572
 ARC9.LoadAttachment(ATT, "eft_tactical_k2p")
 
@@ -315,7 +330,6 @@ ATT.Description = [[The "Klesch-2U" LED tactical flashlight with a mount on the 
 
 ATT.Icon = Material("entities/eft_attachments/tactical/k2u.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical"}
@@ -344,6 +358,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.259,
+}))
+
+
 -- EFT ID: 5b3a337e5acfc4704b4a19a0
 ARC9.LoadAttachment(ATT, "eft_tactical_k2u")
 
@@ -359,7 +379,6 @@ ATT.Description = [[The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL
 
 ATT.Icon = Material("entities/eft_attachments/tactical/la5b.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -441,6 +460,12 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.21,
+}))
+
+
 -- EFT ID: 5c06595c0db834001a66af6c
 ARC9.LoadAttachment(ATT, "eft_tactical_la5b")
 
@@ -456,7 +481,6 @@ ATT.Description = [[A tactical LED flashlight manufactured by Steiner.]]
 
 ATT.Icon = Material("entities/eft_attachments/tactical/lastac.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -485,6 +509,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.086,
+}))
+
+
 -- EFT ID: 5b07dd285acfc4001754240d
 ARC9.LoadAttachment(ATT, "eft_tactical_lastac2")
 
@@ -500,7 +530,6 @@ ATT.Description = [[Holosun LS321 is a multi-laser tactical device with green la
 
 ATT.Icon = Material("entities/eft_attachments/tactical/ls321.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -580,6 +609,12 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 2, meow_offset2, meow_green)
 end
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.19,
+}))
+
+
 -- EFT ID: 57fd23e32459772d0805bcf1
 ARC9.LoadAttachment(ATT, "eft_tactical_ls321")
 
@@ -595,7 +630,6 @@ ATT.Description = [[A compact tactical Laser Aiming Module with a blue dot. Moun
 
 ATT.Icon = Material("entities/eft_attachments/tactical/tbl.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -620,6 +654,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.05,
+}))
+
+
 -- EFT ID: 5cc9c20cd7f00c001336c65d
 ARC9.LoadAttachment(ATT, "eft_tactical_nstar_tbl")
 
@@ -635,7 +675,6 @@ ATT.Description = [[The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL
 
 ATT.Icon = Material("entities/eft_attachments/tactical/peq15.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -715,6 +754,12 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 1, meow_offset1, meow_green)
 end
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.21,
+}))
+
+
 -- EFT ID: 544909bb4bdc2d6f028b4577
 ARC9.LoadAttachment(ATT, "eft_tactical_peq15")
 
@@ -730,7 +775,6 @@ ATT.Description = [[ATPIAL (Advanced Target Pointer Illuminator Aiming Laser) AN
 
 ATT.Icon = Material("entities/eft_attachments/tactical/peq2.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 -- ATT.Category = {"eft_tactical_top"}
@@ -780,6 +824,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.21,
+}))
+
+
 -- EFT ID: 5d10b49bd7ad1a1a560708b0
 ARC9.LoadAttachment(ATT, "eft_tactical_peq2")
 
@@ -795,7 +845,6 @@ ATT.Description = [[Perst-3 is a tactical device that combines laser designators
 
 ATT.Icon = Material("entities/eft_attachments/tactical/perst3.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
@@ -876,6 +925,12 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 1, meow_offset1, meow_green)
 end
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.3,
+}))
+
+
 -- EFT ID: 5c5952732e2216398b5abda2
 ARC9.LoadAttachment(ATT, "eft_tactical_perst3")
 
@@ -891,7 +946,6 @@ ATT.Description = [[The early generation of the tactical device called "RAPTAR" 
 
 ATT.Icon = Material("entities/eft_attachments/tactical/raptar.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.SortOrder = 0
@@ -1046,6 +1100,12 @@ ATT.Scale = 1
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.308,
+}))
+
+
 -- EFT ID: 61605d88ffa6e502ac5e7eeb
 ARC9.LoadAttachment(ATT, "eft_tactical_raptar")
 
@@ -1061,7 +1121,6 @@ ATT.Description = [[A simple but powerful LED flashlight with a sturdy body, dur
 
 ATT.Icon = Material("entities/eft_attachments/tactical/wf.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_25mm"}
@@ -1105,6 +1164,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.12,
+}))
+
+
 -- EFT ID: 57d17c5e2459775a5c57d17d
 ARC9.LoadAttachment(ATT, "eft_tactical_wf501b")
 
@@ -1120,7 +1185,6 @@ ATT.Description = [[The WMX200 tactical flashlight manufactured by Insight Techn
 
 ATT.Icon = Material("entities/eft_attachments/tactical/wmx200.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical"}
@@ -1162,6 +1226,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.21,
+}))
+
+
 -- EFT ID: 626becf9582c3e319310b837
 ARC9.LoadAttachment(ATT, "eft_tactical_wmx200")
 
@@ -1178,7 +1248,6 @@ ATT.Description = [[A powerful flashlight in a heavy-duty frame, manufactured by
 
 ATT.Icon = Material("entities/eft_attachments/tactical/xhp35.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_25mm"}
@@ -1221,6 +1290,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.12,
+}))
+
+
 -- EFT ID: 59d790f486f77403cb06aec6
 ARC9.LoadAttachment(ATT, "eft_tactical_xhp35")
 
@@ -1241,7 +1316,6 @@ ATT.Category = {"eft_tactical"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mount_25mm.mdl"
 
-ATT.EFTErgoAdd = -1
 
 ATT.Attachments = {
     {
@@ -1252,6 +1326,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.085,
+}))
 
 
 -- EFT ID: 57d17e212459775a1179a0f5
@@ -1274,7 +1354,6 @@ ATT.Category = {"eft_tactical"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_mount_dd_offset_25mm.mdl"
 
-ATT.EFTErgoAdd = -1
 
 ATT.Attachments = {
     {
@@ -1285,6 +1364,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.06,
+}))
 
 
 -- EFT ID: 6267c6396b642f77f56f5c1c
@@ -1304,7 +1389,6 @@ ATT.Description = [[Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E
 
 ATT.Icon = Material("entities/eft_attachments/tactical/mawl.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1.5
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical_top"}
@@ -1407,6 +1491,12 @@ ATT.DrawFunc = function(swep, model, wm)
     drawlight(swep, model, 1, meow_offset1, meow_red)
 end
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1.5,
+    weight = 0.286,
+}))
+
+
 -- EFT ID: 644a3df63b0b6f03e101e065
 ARC9.LoadAttachment(ATT, "eft_tactical_mawlc")
 
@@ -1423,7 +1513,6 @@ ATT.Description = [[The 2D tactical flashlight, installed on a KR-2 mount. Manuf
 
 ATT.Icon = Material("entities/eft_attachments/tactical/kr2.png", "mips smooth")
 
-ATT.EFTErgoAdd = -2
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
@@ -1452,6 +1541,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.25,
+}))
+
+
 -- EFT ID: 646f62fee779812413011ab7
 ARC9.LoadAttachment(ATT, "eft_tactical_2d")
 
@@ -1470,7 +1565,6 @@ A bit improvised version of EFT bipods, does not need manual unfolding.]]
 ATT.Icon = Material("entities/eft_attachments/tactical/bipod.png", "mips smooth")
 ATT.SortOrder = -2
 
-ATT.EFTErgoAdd = -1
 
 ATT.Bipod = true 
 ATT.RecoilMultBipod = 0.33
@@ -1502,6 +1596,12 @@ ATT.DrawFunc = function(self, model, wm)
 end
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3,
+    weight = 0.312,
+}))
+
+
 -- EFT ID: 6644920d49817dc7d505ca71
 ARC9.LoadAttachment(ATT, "eft_bipod_atlas_v8")
 
@@ -1519,7 +1619,6 @@ A bit improvised version of EFT bipods, does not need manual unfolding.]]
 ATT.Icon = Material("entities/eft_attachments/tactical/harris.png", "mips smooth")
 ATT.SortOrder = -2
 
-ATT.EFTErgoAdd = -5
 
 ATT.Bipod = true 
 ATT.RecoilMultBipod = 0.33
@@ -1549,6 +1648,12 @@ ATT.DrawFunc = function(self, model, wm)
 		model:SetBodygroup(0, 0)
 	end
 end
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -5,
+    weight = 0.277,
+}))
 
 
 -- EFT ID: 5888961624597754281f93f3
@@ -1582,6 +1687,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.042,
+}))
+
+
 -- EFT ID: 676175bb48fa5c377e06fc36
 ARC9.LoadAttachment(ATT, "eft_mount_kac_bipod")
 
@@ -1599,7 +1710,6 @@ ATT.CompactName = "M600U"
 ATT.Icon = Material("entities/eft_attachments/689c887cd18a3665b8045743.png", "mips smooth")
 ATT.Description = "A modern lightweight tactical weapon light, installed on special compatible mounts. Manufactured by SureFire."
 
-ATT.EFTErgoAdd = -1.5
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
 ATT.Category = {"eft_scout"}
@@ -1642,6 +1752,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1.5,
+    weight = 0.224,
+}))
+
+
 -- EFT ID: 689c887cd18a3665b8045743
 ARC9.LoadAttachment(ATT, "eft_tactical_scout")
 
@@ -1659,7 +1775,6 @@ ATT.Category = {"eft_tactical"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_surefire_scout_thumbscrew.mdl"
 
-ATT.EFTErgoAdd = -0.1
 
 ATT.Attachments = {
     {
@@ -1670,6 +1785,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.026,
+}))
+
 
 -- EFT ID: 689c8981bce76ccfbf01862f
 ARC9.LoadAttachment(ATT, "eft_mount_scout_pic")
@@ -1688,7 +1809,6 @@ ATT.Category = {"eft_mount_keymod", "eft_mount_keymod2", "eft_mount_keymod_casv2
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl" -- keymod
 
-ATT.EFTErgoAdd = -0.2
 
 ATT.Attachments = {
     {
@@ -1699,6 +1819,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.017,
+}))
+
 
 -- EFT ID: 689c8a2b4b91399db3085f27
 ARC9.LoadAttachment(ATT, "eft_mount_scout_keymod")
@@ -1718,7 +1844,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_arisaka_inline.mdl" 
 ATT.ModelBodygroups = "1" -- mlok
 
-ATT.EFTErgoAdd = -0.2
 
 ATT.Attachments = {
     {
@@ -1729,6 +1854,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.017,
+}))
+
 
 -- EFT ID: 689c8b454b91399db3085f2a
 ARC9.LoadAttachment(ATT, "eft_mount_scout_mlok")

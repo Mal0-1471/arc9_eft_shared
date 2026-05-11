@@ -1,10 +1,5 @@
 local ATT = {}
 
-
-local dmgrange = (GetConVar("arc9_eft_mindmgrange"):GetInt() or 1000)/1000
-local mult9 = GetConVar("arc9_eft_mult_pistol"):GetFloat() or 0.5
-
-
 ///////////////////////////////////////      eft_ammo_9x18_sp7
 
 ATT = {}
@@ -20,63 +15,27 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_sp7.printname")
 
-ATT.DamageMax = 77 * mult9
-ATT.DamageMin = 43.98 * mult9
-ATT.PhysBulletMuzzleVelocity = 420 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 0.94
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      2 *2.54/100/0.0254
-ATT.PenetrationDelta = 5/100
-ATT.ArmorPiercing =    5/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    77 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    64 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    59 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    55 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    52 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    50 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    47.76 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    46 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    45 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    44.2 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    43.98 * mult9     },
-}
-
 -- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
 -- 64 	    58.99 	55.3 	52.32 	49.81 	47.75 	46.11 	44.92 	44.21 	43.98
 
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.011,
+    damage = 77,
+    ballisticCoeficient = 0.069,
+    initialSpeed = 420,
+    penetrationPower = 2,
+    armorDamage = 5,
+    penetrationChance = 0.1,
+    ricochetChance = 0.05,
+    heatFactor = 0.9348,
+    failureToFeedChance = 0.01,
+    misfireChance = 0.14,
+    lightBleedModifier = 0.25,
+    heavyBleedModifier = 0.1,
+}), "pistol")
+
 
 -- EFT ID: 57372140245977611f70ee91
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_sp7")
@@ -96,63 +55,23 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_psv.printname")
 
-ATT.DamageMax = 69 * mult9
-ATT.DamageMin = 46.32 * mult9
-ATT.PhysBulletMuzzleVelocity = 280 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 0.92
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      3 *2.54/100/0.0254
-ATT.PenetrationDelta = 5/100
-ATT.ArmorPiercing =    5/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    69 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    64.77 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    61.5 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    59 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    56.2 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    54 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    52 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    50 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    49 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    47.5 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    46.32 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 64.77 	61.49 	58.72 	56.24 	54.03 	52.06 	50.3 	48.74 	47.43 	46.32
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.012,
+    damage = 69,
+    ballisticCoeficient = 0.124,
+    initialSpeed = 280,
+    penetrationPower = 3,
+    armorDamage = 5,
+    penetrationChance = 0.05,
+    ricochetChance = 0.01,
+    heatFactor = 0.912,
+    failureToFeedChance = 0.01,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.1,
+}), "pistol")
+
 
 -- EFT ID: 5737207f24597760ff7b25f2
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_psv")
@@ -172,63 +91,24 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_sp8.printname")
 
-ATT.DamageMax = 67 * mult9
-ATT.DamageMin = 42.28 * mult9
-ATT.PhysBulletMuzzleVelocity = 250 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 0.85
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      1 *2.54/100/0.0254
-ATT.PenetrationDelta = 2/100
-ATT.ArmorPiercing =    2/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    67 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    61.7 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    57.4* mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    54 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    50.6 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    48 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    46 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    44* mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    43 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    42.4 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    42.28 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 61.69 	57.43 	53.82 	50.77 	48.12 	45.96 	44.26 	43.06 	42.41 	42.28
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.009,
+    damage = 67,
+    ballisticCoeficient = 0.083,
+    initialSpeed = 250,
+    penetrationPower = 1,
+    armorDamage = 2,
+    penetrationChance = 0.01,
+    ricochetChance = 0.05,
+    heatFactor = 0.855,
+    failureToFeedChance = 0.02,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.15,
+    heavyBleedModifier = 0.1,
+}), "pistol")
+
 
 -- EFT ID: 5737218f245977612125ba51
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_sp8")
@@ -248,63 +128,22 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_rg028.printname")
 
-ATT.DamageMax = 65 * mult9
-ATT.DamageMin = 41.21 * mult9
-ATT.PhysBulletMuzzleVelocity = 330 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 0.93
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      13 *2.54/100/0.0254
-ATT.PenetrationDelta = 26/100
-ATT.ArmorPiercing =    26/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    65 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    59.36 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    55.7 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    53 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    50.5 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    48.4 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    46.5 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    45 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    43.4 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    42 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    41.21 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 59.36 	55.71 	52.88 	50.49 	48.34 	46.46 	44.81 	43.39 	42.18 	41.21
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.011,
+    damage = 65,
+    ballisticCoeficient = 0.106,
+    initialSpeed = 330,
+    penetrationPower = 13,
+    armorDamage = 26,
+    penetrationChance = 0.1,
+    ricochetChance = 0.05,
+    heatFactor = 0.9234,
+    failureToFeedChance = 0.01,
+    misfireChance = 0.175,
+}), "pistol")
+
 
 -- EFT ID: 573720e02459776143012541
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_rg028")
@@ -324,63 +163,23 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_ppe.printname")
 
-ATT.DamageMax = 61 * mult9
-ATT.DamageMin = 37.97 * mult9
-ATT.PhysBulletMuzzleVelocity = 297 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 0.93
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      7 *2.54/100/0.0254
-ATT.PenetrationDelta = 15/100
-ATT.ArmorPiercing =    15/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    61 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    56 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    52.3 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    49.3 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    46.75 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    44.5 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    42.6 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    41 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    39.65 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    38.64 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    37.97 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 55.84 	52.28 	49.3 	46.75 	44.53 	42.61 	40.98 	39.65 	38.64 	37.97
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.009,
+    damage = 61,
+    ballisticCoeficient = 0.092,
+    initialSpeed = 297,
+    penetrationPower = 7,
+    armorDamage = 15,
+    penetrationChance = 0.08,
+    ricochetChance = 0.05,
+    heatFactor = 0.92625,
+    failureToFeedChance = 0.01,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.15,
+}), "pistol")
+
 
 -- EFT ID: 57371b192459775a9f58a5e0
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_ppe")
@@ -400,63 +199,27 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_ppt.printname")
 
-ATT.DamageMax = 59 * mult9
-ATT.DamageMin = 37.65 * mult9
-ATT.PhysBulletMuzzleVelocity = 301 /0.0254
 ATT.TracerNum = 1
 ATT.TracerColor = Color(255, 16, 16)
-ATT.SpreadMult = 1.05
-ATT.RecoilMult = 0.93
-ATT.VisualRecoilMult = 0.93
-ATT.HeatPerShotMult = 1.03
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      8 *2.54/100/0.0254
-ATT.PenetrationDelta = 22/100
-ATT.ArmorPiercing =    22/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    59 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    54.4 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    51.2* mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    48.5 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    46.26 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    44.22 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    42.5 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    40.9 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    39.5 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    38.5 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    37.65 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 54.43 	51.2 	48.56 	46.26 	44.22 	42.46 	40.89 	39.57 	38.48 	37.65
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.01,
+    damage = 59,
+    ballisticCoeficient = 0.104,
+    initialSpeed = 301,
+    accuracyModifier = -0.05,
+    recoilModifier = -0.07,
+    penetrationPower = 8,
+    armorDamage = 22,
+    penetrationChance = 0.09,
+    ricochetChance = 0.1,
+    heatFactor = 1.0317,
+    failureToFeedChance = 0.02,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.15,
+}), "pistol")
+
 
 -- EFT ID: 57371e4124597760ff7b25f1
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_ppt")
@@ -476,63 +239,24 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_pstm.printname")
 
-ATT.DamageMax = 58 * mult9
-ATT.DamageMin = 34.81 * mult9
-ATT.PhysBulletMuzzleVelocity = 302 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
-ATT.RecoilMult = 1.05
-ATT.VisualRecoilMult = 1.05
-ATT.HeatPerShotMult = 0.9
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      6 *2.54/100/0.0254
-ATT.PenetrationDelta = 16/100
-ATT.ArmorPiercing =    16/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    58 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    49.7 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    46.4 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    44 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    42 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    40.4 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    38.85 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    37.56 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    34.5 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    35.5 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    34.81 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 49.72 	46.4 	43.98 	42.03 	40.34 	38.85 	37.56 	36.45 	35.54 	34.81
 ATT.RequireElements = {"pmmallowed"}
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.009,
+    damage = 58,
+    ballisticCoeficient = 0.096,
+    initialSpeed = 420,
+    recoilModifier = 0.05,
+    penetrationPower = 24,
+    armorDamage = 33,
+    penetrationChance = 0.11,
+    ricochetChance = 0.075,
+    heatFactor = 1.083,
+    failureToFeedChance = 0.088,
+    misfireChance = 0.21,
+}), "pistol")
+
 
 -- EFT ID: 57371aab2459775a77142f22
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_pstm")
@@ -552,63 +276,24 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_prs.printname")
 
-ATT.DamageMax = 58 * mult9
-ATT.DamageMin = 36.75 * mult9
-ATT.PhysBulletMuzzleVelocity = 420 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 1.08
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      24 *2.54/100/0.0254
-ATT.PenetrationDelta = 33/100
-ATT.ArmorPiercing =    33/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    58 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    53.4 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    50 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    47.5 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    45.2 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    43.18 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    41.5 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    40 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    38.5 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    37.5 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    36.75 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 53.38 	50.15 	47.48 	45.21 	43.18 	41.41 	39.89 	38.59 	37.53 	36.75
 
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.011,
+    damage = 58,
+    ballisticCoeficient = 0.101,
+    initialSpeed = 302,
+    penetrationPower = 6,
+    armorDamage = 16,
+    penetrationChance = 0.085,
+    ricochetChance = 0.005,
+    heatFactor = 0.9006,
+    failureToFeedChance = 0.02,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.15,
+}), "pistol")
+
 
 -- EFT ID: 57371eb62459776125652ac1
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_prs")
@@ -628,63 +313,23 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_psppo.printname")
 
-ATT.DamageMax = 55 * mult9
-ATT.DamageMin = 34.71 * mult9
-ATT.PhysBulletMuzzleVelocity = 330 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 0.92
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      6 *2.54/100/0.0254
-ATT.PenetrationDelta = 16/100
-ATT.ArmorPiercing =    16/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    55 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    50 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    47 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    44.6 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    42.6 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    40.7 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    39 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    37.7 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    36.5 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    35.5 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    34.71 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 50.16 	47.05 	44.64 	42.57 	40.73 	39.14 	37.73 	36.53 	35.51 	34.71
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.01,
+    damage = 55,
+    ballisticCoeficient = 0.104,
+    initialSpeed = 330,
+    penetrationPower = 6,
+    armorDamage = 16,
+    penetrationChance = 0.085,
+    ricochetChance = 0.03,
+    heatFactor = 0.9177,
+    failureToFeedChance = 0.02,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.15,
+}), "pistol")
+
 
 -- EFT ID: 57371f2b24597761224311f1
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_psppo")
@@ -704,63 +349,24 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_pso.printname")
 
-ATT.DamageMax = 52 * mult9
-ATT.DamageMin = 33.89 * mult9
-ATT.PhysBulletMuzzleVelocity = 315 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
-ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 0.91
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      5 *2.54/100/0.0254
-ATT.PenetrationDelta = 13/100
-ATT.ArmorPiercing =    13/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    52 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    49.3 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    46.8 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    43.8 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    41.69 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    40 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    38.2 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    37 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    35.5 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    34.6 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    33.89 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 49.35 	46.28 	43.84 	41.69 	39.82 	38.2 	36.78 	35.58 	34.61 	33.89
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.008,
+    damage = 54,
+    ballisticCoeficient = 0.099,
+    initialSpeed = 315,
+    accuracyModifier = 0.1,
+    penetrationPower = 5,
+    armorDamage = 13,
+    penetrationChance = 0.085,
+    ricochetChance = 0.065,
+    heatFactor = 0.9063,
+    failureToFeedChance = 0.02,
+    misfireChance = 0.266,
+    lightBleedModifier = 0.15,
+}), "pistol")
+
 
 -- EFT ID: 57371f8d24597761006c6a81
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_pso")
@@ -780,63 +386,24 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_bzht.printname")
 
-ATT.DamageMax = 53 * mult9
-ATT.DamageMin = 31.38 * mult9
-ATT.PhysBulletMuzzleVelocity = 325 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 1.04
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      18 *2.54/100/0.0254
-ATT.PenetrationDelta = 28/100
-ATT.ArmorPiercing =    28/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    53 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    46.7 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    42.9 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    40 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    37.4 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    35.35 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    33.71 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    32.47 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    31.66 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    31.32 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    31.38 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 46.68 	42.87 	39.89 	37.4 	35.35 	33.71 	32.47 	31.66 	31.32 	31.38
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.01,
+    damage = 53,
+    ballisticCoeficient = 0.067,
+    initialSpeed = 325,
+    penetrationPower = 18,
+    armorDamage = 28,
+    penetrationChance = 0.11,
+    ricochetChance = 0.095,
+    heatFactor = 1.0431,
+    failureToFeedChance = 0.01,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.15,
+    heavyBleedModifier = 0.1,
+}), "pistol")
+
 
 -- EFT ID: 573718ba2459775a75491131
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_bzht")
@@ -856,63 +423,22 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_pst.printname")
 
-ATT.DamageMax = 50 * mult9
-ATT.DamageMin = 31.45 * mult9
-ATT.PhysBulletMuzzleVelocity = 298 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 1.03
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      12 *2.54/100/0.0254
-ATT.PenetrationDelta = 26/100
-ATT.ArmorPiercing =    26/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    50 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    46 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    43 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    40.75 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    38.73 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    37 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    35.4 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    34 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    33 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    32 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    31.45 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 45.99 	43.12 	40.75 	38.73 	36.94 	35.4 	34.06 	32.95 	32.07 	31.45
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.01,
+    damage = 50,
+    ballisticCoeficient = 0.097,
+    initialSpeed = 298,
+    penetrationPower = 12,
+    armorDamage = 26,
+    penetrationChance = 0.1,
+    ricochetChance = 0.1,
+    heatFactor = 1.0374,
+    failureToFeedChance = 0.02,
+    misfireChance = 0.175,
+}), "pistol")
+
 
 -- EFT ID: 5737201124597760fc4431f1
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_pst")
@@ -932,63 +458,23 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_p.printname")
 
-ATT.DamageMax = 50 * mult9
-ATT.DamageMin = 31.68 * mult9
-ATT.PhysBulletMuzzleVelocity = 298 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
--- ATT.RecoilMult = 1.1
--- ATT.VisualRecoilMult = 1.1
-ATT.HeatPerShotMult = 1.14
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      5 *2.54/100/0.0254
-ATT.PenetrationDelta = 12/100
-ATT.ArmorPiercing =    12/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    50 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    46 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    43 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    41 * mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    39 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    37.23 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    35.7 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    34.4 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    33.3 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    32.36 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    31.68 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 46.01 	43.23 	40.93 	38.97 	37.23 	35.7 	34.39 	33.27 	32.36 	31.68
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.011,
+    damage = 50,
+    ballisticCoeficient = 0.101,
+    initialSpeed = 302,
+    penetrationPower = 5,
+    armorDamage = 16,
+    penetrationChance = 0.085,
+    ricochetChance = 0.065,
+    heatFactor = 0.9291,
+    failureToFeedChance = 0.02,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.1,
+}), "pistol")
+
 
 -- EFT ID: 573719762459775a626ccbc1
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_p")
@@ -1008,63 +494,23 @@ ATT.HasAmmoooooooo = true
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_9x18_pbm.printname")
 
-ATT.DamageMax = 40 * mult9
-ATT.DamageMin = 22.21 * mult9
-ATT.PhysBulletMuzzleVelocity = 519 /0.0254
--- ATT.TracerNum = 1
--- ATT.TracerColor = Color(255, 16, 16)
--- ATT.SpreadMult = 0.9
-ATT.RecoilMult = 1.04
-ATT.VisualRecoilMult = 1.04
--- ATT.HeatPerShotMult = 1
-
-ATT.RangeMin = 10
-ATT.RangeMax = 1000 /0.0254 * dmgrange
-
-ATT.Penetration =      28 *2.54/100/0.0254
-ATT.PenetrationDelta = 30/100
-ATT.ArmorPiercing =    30/100
-ATT.RicochetChance =   10/100
-
-ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    40 * mult9     },
-
-    {   100 /0.0254 * dmgrange, 
-    31 * mult9     },
-
-    {   200 /0.0254 * dmgrange, 
-    28.5 * mult9     },
-
-    {   300 /0.0254 * dmgrange, 
-    37* mult9     },
-
-    {   400 /0.0254 * dmgrange, 
-    25.5 * mult9     },
-
-    {   500 /0.0254 * dmgrange, 
-    24.35 * mult9     },
-
-    {   600 /0.0254 * dmgrange, 
-    23.5 * mult9     },
-
-    {   700 /0.0254 * dmgrange, 
-    22.8 * mult9     },
-
-    {   800 /0.0254 * dmgrange, 
-    22.36 * mult9     },
-
-    {   900 /0.0254 * dmgrange, 
-    22.17 * mult9     },
-
-    {   1000 /0.0254 * dmgrange, 
-    22.21 * mult9     },
-}
-
--- 100m     200m    300m    400m    500m    600m    700m    800m    900m    1000m
--- 30.97 	28.53 	26.85 	25.46 	24.35 	23.46 	22.79 	22.36 	22.17 	22.21
-
 ATT.Category = {"eft_ammo_9x18"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.007,
+    damage = 40,
+    ballisticCoeficient = 0.061,
+    initialSpeed = 519,
+    recoilModifier = 0.04,
+    penetrationPower = 28,
+    armorDamage = 30,
+    penetrationChance = 0.12,
+    ricochetChance = 0.09,
+    heatFactor = 1.14,
+    failureToFeedChance = 0.078,
+    misfireChance = 0.196,
+}), "pistol")
+
 
 -- EFT ID: 573719df2459775a626ccbc2
 ARC9.LoadAttachment(ATT, "eft_ammo_9x18_pbm")

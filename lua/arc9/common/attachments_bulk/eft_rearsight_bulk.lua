@@ -35,6 +35,12 @@ ATT.Sights = {
 
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.5,
+    weight = 0.15,
+}))
+
+
 -- EFT ID: 55d5f46a4bdc2d1b198b4567
 ARC9.LoadAttachment(ATT, "eft_rearsight_a2")
 
@@ -60,7 +66,6 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
-ATT.EFTErgoAdd = 1
 
 ATT.DrawFunc = function(swep, model)
     if swep:GetValue("FoldSights") then
@@ -80,6 +85,12 @@ ATT.Sights = {
         IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.08,
+}))
 
 
 -- EFT ID: 5c1780312e221602b66cc189
@@ -107,7 +118,6 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -127,6 +137,12 @@ ATT.Sights = {
         IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.08,
+}))
 
 
 -- EFT ID: 5dfa3d7ac41b2312ea33362a
@@ -154,7 +170,6 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -174,6 +189,12 @@ ATT.Sights = {
         IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.02,
+}))
 
 
 -- EFT ID: 5fb6564947ce63734e3fa1da
@@ -225,6 +246,12 @@ ATT.Attachments = {
 
 ATT.AdvancedCamoSupport = true
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.15,
+}))
+
+
 -- EFT ID: 5ae30bad5acfc400185c2dc4
 ARC9.LoadAttachment(ATT, "eft_rearsight_m4carry")
 
@@ -250,7 +277,6 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -270,6 +296,12 @@ ATT.Sights = {
         IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.036,
+}))
 
 
 -- EFT ID: 5bc09a18d4351e003562b68e
@@ -298,7 +330,6 @@ ATT.ModelOffset = Vector(0, 0, -0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
 
 
-ATT.EFTErgoAdd = 1
 
 
 ATT.DrawFunc = function(swep, model)
@@ -318,6 +349,12 @@ ATT.Sights = {
         IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.036,
+}))
 
 
 -- EFT ID: 5c18b9192e2216398b5a8104
@@ -360,6 +397,11 @@ ATT.Sights = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.13,
+}))
+
+
 -- EFT ID: 5fc0fa957283c4046c58147e
 ARC9.LoadAttachment(ATT, "eft_rearsight_mcx")
 
@@ -398,6 +440,11 @@ ATT.Sights = {
         IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.14,
+}))
 
 
 -- EFT ID: 5ba26b17d4351e00367f9bdd
@@ -444,6 +491,11 @@ ATT.Sights = {
         IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.14,
+}))
 
 
 -- EFT ID: 5894a81786f77427140b8347

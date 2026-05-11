@@ -5,7 +5,7 @@ local ATT = {}
 
 ATT = {}
 
-ATT.PrintName = "AK-74 polymer handguard (6P20 Sb.9)"
+ATT.PrintName = "AK-74M polymer handguard (6P20 Sb.9)"
 ATT.CompactName = "6P20 Sb.9"
 ATT.Icon = Material("entities/eft_ak_attachments/hg/74m.png", "mips smooth")
 ATT.Description = [[A polymer handguard for AK-74 automatic rifles which replaced the classic wooden one.
@@ -13,7 +13,6 @@ Manufactured by Izhmash.]]
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = 5
 ATT.HeatCapacityMult = 1.045
 
 ATT.HasHG = true
@@ -24,7 +23,13 @@ ATT.RequireElements = {"gasblock"}
 ATT.Category = {"eft_ak_handguard", "eft_vityaz_handguard"}
 
 
--- EFT ID: 5cbda9f4ae9215000e5b9bfc
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 12,
+    weight = 0.25,
+}))
+
+
+-- EFT ID: 5648b1504bdc2d9d488b4584
 ARC9.LoadAttachment(ATT, "eft_hg_ak_6p20sb9")
 
 
@@ -40,12 +45,16 @@ ATT.Description = [[An Izhmash polymer pistol grip for AK and compatibles, desig
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = 6
-
 ATT.HasGrip = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/ak_pgrip_ak74_plastic.mdl"
 
 ATT.Category = {"eft_ak_grip"}
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 3,
+    weight = 0.065,
+}))
 
 
 -- EFT ID: 5649ade84bdc2d1b2b8b4587
@@ -63,12 +72,17 @@ ATT.Description = [[The SG-M2 pistol grip for AK and compatible rifles. Manufact
 ATT.SortOrder = 0
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = 11.5
-
 ATT.HasGrip = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/pistolgrip_ak_pufgun_sg_m2.mdl"
 ATT.ModelOffset = Vector(0, 0.05, -0.06)
 ATT.Category = {"eft_ak_grip"}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 3,
+    recoilModifier = -1,
+    weight = 0.132,
+}))
+
 
 -- EFT ID: 651580dc71a4f10aec4b6056
 ARC9.LoadAttachment(ATT, "eft_grip_ak_puf")
@@ -92,10 +106,6 @@ ATT.HasStock = true
 
 ATT.Category = {"eft_ak74m_stock", "eft_vityaz_stock"}
 
-ATT.EFTErgoAdd = -1
-ATT.RecoilMult = 0.97
-ATT.VisualRecoilMult = 0.97
-
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_stock"),
@@ -105,6 +115,13 @@ ATT.Attachments = {
         Icon_Offset = Vector(-1, 0, 0.5),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    recoilModifier = -0.5,
+    weight = 0.25,
+}))
 
 
 -- EFT ID: 5cf50fc5d7f00c056c53f83c
@@ -127,10 +144,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/ak_stock_ak74m_std.mdl"
 
 ATT.HasStock = true
 
-ATT.EFTErgoAdd = 5
-ATT.RecoilMult = 0.68
-ATT.VisualRecoilMult = 0.68
-
 ATT.Category = {"eft_ak74m_stock"}
 
 ATT.Attachments = {
@@ -142,6 +155,13 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, -9.7, -1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 5,
+    recoilModifier = -22,
+    weight = 0.35,
+}))
 
 
 -- EFT ID: 5ac50c185acfc400163398d4
@@ -165,10 +185,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.HasHG = true
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/ak_hg_zenit_b10.mdl"
 ATT.LHIK = true
-
-ATT.EFTErgoAdd = 3
-ATT.RecoilMult = 0.99
-ATT.VisualRecoilMult = 0.99
 ATT.HeatCapacityMult = 1.023
 
 ATT.RequireElements = {"gasblock"}
@@ -191,6 +207,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 14,
+    weight = 0.15,
+}))
 
 
 -- EFT ID: 5c617a5f2e2216000f1e81b3

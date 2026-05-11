@@ -17,7 +17,6 @@ ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = 0.5
 
 ATT.Attachments = {
     {
@@ -36,6 +35,12 @@ ATT.Attachments = {
     },
 }
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.194,
+}))
 
 
 -- EFT ID: 618b9643526131765025ab35
@@ -57,7 +62,6 @@ Desert Dirt Color version.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_all_geissele_super_precision.mdl"
 ATT.ModelSkin = 1
 
-ATT.EFTErgoAdd = 0.5
 
 ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
@@ -80,6 +84,12 @@ ATT.Attachments = {
     },
 }
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.194,
+}))
 
 
 -- EFT ID: 618bab21526131765025ab3f
@@ -103,7 +113,6 @@ ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 
 ATT.Attachments = {
     {
@@ -122,6 +131,12 @@ ATT.Attachments = {
     },
 }
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.194,
+}))
 
 
 -- EFT ID: 5a37ca54c4a282000d72296a
@@ -144,7 +159,6 @@ ATT.Category = {"eft_optic_large", "eft_mount_lobaev_only"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 
 ATT.Attachments = {
     {
@@ -156,6 +170,12 @@ ATT.Attachments = {
     },
 }
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.25,
+}))
 
 
 -- EFT ID: 57c69dd424597774c03b7bbc
@@ -179,7 +199,6 @@ ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -190,6 +209,12 @@ ATT.Attachments = {
     },
 }
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.19,
+}))
 
 
 -- EFT ID: 5b3b99265acfc4704b4a1afb
@@ -212,7 +237,6 @@ ATT.Category = {"eft_optic_large"}
 ATT.Folder = "Scopes/Mounts"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -237,6 +261,12 @@ ATT.Attachments = {
     },
 }
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.246,
+}))
 
 
 -- EFT ID: 5b2389515acfc4771e1be0c0

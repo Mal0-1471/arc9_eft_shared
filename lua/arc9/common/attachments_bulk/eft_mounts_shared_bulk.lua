@@ -31,6 +31,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.15,
+    weight = 0.05,
+}))
+
+
 -- EFT ID: 623c2f652febb22c2777d8d7
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_cnc2")
 
@@ -63,6 +69,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.07,
+}))
 
 
 -- EFT ID: 623c2f4242aee3103f1c44b7
@@ -99,6 +111,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.15,
+    weight = 0.07,
+}))
+
+
 -- EFT ID: 5a9d6d00a2750c5c985b5305
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_si4")
 
@@ -130,6 +148,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, -1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.075,
+}))
 
 
 -- EFT ID: 5a9d6d13a2750c00164f6b03
@@ -166,6 +190,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.15,
+    weight = 0.065,
+}))
+
+
 -- EFT ID: 59e0bdb186f774156f04ce82
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_vltor2")
 
@@ -198,6 +228,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.07,
+}))
 
 
 -- EFT ID: 59e0be5d86f7742d48765bd2
@@ -234,6 +270,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.25,
+    weight = 0.075,
+}))
+
+
 -- EFT ID: 59e0bed186f774156f04ce84
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_vltor6")
 
@@ -262,6 +304,11 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.021,
+}))
+
 
 -- EFT ID: 67112695fe5c8bf33f02476d
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_bipodd")
@@ -296,6 +343,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.21,
+}))
+
+
 -- EFT ID: 67111094d1758189fc0bd223
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_corvus18")
 
@@ -325,6 +378,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, -1),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.25,
+    weight = 0.057,
+}))
+
 
 -- EFT ID: 6711109e723c2733410161eb
 ARC9.LoadAttachment(ATT, "eft_mount_keymod_corvus68")
@@ -366,6 +425,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.05,
+}))
+
+
 -- EFT ID: 5b7be47f5acfc400170e2dd2
 ARC9.LoadAttachment(ATT, "eft_mount_mlok25")
 
@@ -399,6 +464,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.07,
+}))
+
+
 -- EFT ID: 5b7be4895acfc400170e2dd5
 ARC9.LoadAttachment(ATT, "eft_mount_mlok41")
 
@@ -428,6 +499,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.05,
+}))
 
 
 -- EFT ID: 6269220d70b6c02e665f2635
@@ -463,6 +540,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.037,
+}))
+
+
 -- EFT ID: 6269545d0e57f218e4548ca2
 ARC9.LoadAttachment(ATT, "eft_mount_mlokoffset")
 
@@ -495,6 +577,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.035,
+}))
+
+
 -- EFT ID: 669a6a4a525be1d2d004b8eb
 ARC9.LoadAttachment(ATT, "eft_mount_mlok093")
 
@@ -523,6 +611,11 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.03,
+}))
 
 
 -- EFT ID: 671126b049e181972e0681fa
@@ -575,6 +668,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.15,
+    weight = 0.045,
+}))
+
+
 -- EFT ID: 5b4736a986f774040571e998
 ARC9.LoadAttachment(ATT, "eft_mount_qars32")
 
@@ -606,6 +705,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, -1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.065,
+}))
 
 
 -- EFT ID: 5b4736b986f77405cb415c10

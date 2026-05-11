@@ -16,14 +16,17 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_afg.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 6
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Magpul"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.082,
+}))
 
 
 -- EFT ID: 588226d124597767ad33f787
@@ -46,14 +49,17 @@ ATT.ModelSkin = 1
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 6
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Magpul"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.082,
+}))
 
 
 -- EFT ID: 588226dd24597767ad33f789
@@ -76,14 +82,17 @@ ATT.ModelSkin = 2
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 6
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Magpul"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.082,
+}))
 
 
 -- EFT ID: 588226e62459776e3e094af7
@@ -106,14 +115,17 @@ ATT.ModelSkin = 3
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 6
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Magpul"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.082,
+}))
 
 
 -- EFT ID: 588226ef24597767af46e39c
@@ -135,9 +147,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_b25u.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 2
-ATT.RecoilMult = 0.97
-ATT.VisualRecoilMult = 0.97
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
@@ -145,6 +154,13 @@ ATT.Category = {"eft_foregrip_small", "eft_foregrip_b25u"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    recoilModifier = -2.5,
+    weight = 0.18,
+}))
+
 
 -- EFT ID: 5c1cd46f2e22164bef5cfedb
 ARC9.LoadAttachment(ATT, "eft_foregrip_b25u")
@@ -165,13 +181,16 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_kac.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
--- ATT.RecoilMult = 0.97
--- ATT.VisualRecoilMult = 0.97
-
+-- -- 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    recoilModifier = -1.5,
+    weight = 0.072,
+}))
 
 
 -- EFT ID: 5c87ca002e221600114cb150
@@ -194,15 +213,18 @@ ATT.ModelSkin = 0
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
 ATT.ModelAngleOffset = Angle(0, 0, 90)
 ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.042,
+}))
 
 
 -- EFT ID: 57cffb66245977632f391a99
@@ -225,15 +247,18 @@ ATT.ModelSkin = 1
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
 ATT.ModelAngleOffset = Angle(0, 0, 90)
 ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.042,
+}))
 
 
 -- EFT ID: 57cffcd624597763133760c5
@@ -256,15 +281,18 @@ ATT.ModelSkin = 2
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
 ATT.ModelAngleOffset = Angle(0, 0, 90)
 ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.042,
+}))
 
 
 -- EFT ID: 57cffcdd24597763f5110006
@@ -287,15 +315,18 @@ ATT.ModelSkin = 3
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_mlok"
 ATT.ModelAngleOffset = Angle(0, 0, 90)
 ATT.ModelOffset = Vector(1.2, 0, 0)
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 8,
+    weight = 0.042,
+}))
 
 
 -- EFT ID: 57cffce524597763b31685d8
@@ -317,14 +348,18 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rk0.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 3
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 4,
+    recoilModifier = -1,
+    weight = 0.138,
+}))
 
 
 -- EFT ID: 5c1bc4812e22164bef5cfde7
@@ -346,9 +381,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rk1.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 1
-ATT.RecoilMult = 0.97
-ATT.VisualRecoilMult = 0.97
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
@@ -356,6 +388,13 @@ ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    recoilModifier = -2.5,
+    weight = 0.17,
+}))
+
 
 -- EFT ID: 5c1bc5612e221602b5429350
 ARC9.LoadAttachment(ATT, "eft_foregrip_rk1")
@@ -376,9 +415,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rk2.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = -8
-ATT.RecoilMult = 0.96
-ATT.VisualRecoilMult = 0.96
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
@@ -386,6 +422,13 @@ ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    recoilModifier = -3.5,
+    weight = 0.2,
+}))
+
 
 -- EFT ID: 5c1bc5af2e221602b412949b
 ARC9.LoadAttachment(ATT, "eft_foregrip_rk2")
@@ -406,14 +449,18 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rk4.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 4
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 4,
+    recoilModifier = -1,
+    weight = 0.127,
+}))
 
 
 -- EFT ID: 5c1bc5fb2e221602b1779b32
@@ -435,14 +482,18 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rk5.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 5
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 4,
+    recoilModifier = -1,
+    weight = 0.127,
+}))
 
 
 -- EFT ID: 5c1bc7432e221602b412949d
@@ -464,14 +515,17 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rk6.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 5
-ATT.RecoilMult = 0.99
-ATT.VisualRecoilMult = 0.99
 
 ATT.Folder = "Zenit"
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 12,
+    weight = 0.1,
+}))
 
 
 -- EFT ID: 5c1bc7752e221602b1779b34
@@ -495,11 +549,16 @@ ATT.ModelAngleOffset = Angle(0, 90, 0)
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
 
 ATT.SortOrder = 0
 ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    recoilModifier = -1.5,
+    weight = 0.068,
+}))
 
 
 -- EFT ID: 619386379fb0c665d5490dbe
@@ -521,9 +580,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/fg_rvg.mdl"
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Magpul"
 ATT.SortOrder = 0
@@ -531,6 +587,13 @@ ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 4,
+    recoilModifier = -1,
+    weight = 0.082,
+}))
+
 
 -- EFT ID: 59fc48e086f77463b1118392
 ARC9.LoadAttachment(ATT, "eft_foregrip_rvg")
@@ -552,9 +615,6 @@ ATT.ModelSkin = 1
 ATT.LHIK_Priority = 2
 ATT.LHIK = true
 
-ATT.EFTErgoAdd = 7
-ATT.RecoilMult = 0.98
-ATT.VisualRecoilMult = 0.98
 
 ATT.Folder = "Magpul"
 ATT.SortOrder = 0
@@ -562,6 +622,13 @@ ATT.Category = "eft_foregrip_small"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 4,
+    recoilModifier = -1,
+    weight = 0.082,
+}))
+
 
 -- EFT ID: 5fce0cf655375d18a253eff0
 ARC9.LoadAttachment(ATT, "eft_foregrip_rvg_fde")

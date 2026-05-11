@@ -20,7 +20,6 @@ ATT.Folder = "Holo"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -3
 
 
 ATT.FoldSights = true
@@ -43,6 +42,12 @@ ATT.HoloSightColorable = false
 -- ATT.HoloSightDepthAdjustment = -0.005
 
 ATT.ModelOffset = Vector(0, 0, -0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2.5,
+    weight = 0.349,
+}))
 
 
 -- EFT ID: 570fd6c2d2720bc6458b457f
@@ -86,6 +91,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.06,
+}))
+
+
 -- EFT ID: 616442e4faa1272e43152193
 ARC9.LoadAttachment(ATT, "eft_optic_acrop1")
 
@@ -106,7 +116,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_base_aimpooint_comp_m4.mdl
 ATT.Category = {"eft_compm4"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 
 
 ATT.FoldSights = true
@@ -128,6 +137,12 @@ ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.37,
+}))
 
 
 -- EFT ID: 5c7d55de2e221644f31bff68
@@ -173,6 +188,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.053,
+}))
+
+
 -- EFT ID: 58d268fc86f774111273f8c2
 ARC9.LoadAttachment(ATT, "eft_optic_deltapoint")
 
@@ -200,7 +220,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -2
 
 
 
@@ -223,6 +242,12 @@ ATT.HoloSightSize = 400
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.317,
+}))
 
 
 -- EFT ID: 558022b54bdc2dac148b458d
@@ -248,7 +273,6 @@ ATT.Folder = "Holo"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 
 
 
@@ -271,6 +295,12 @@ ATT.HoloSightSize = 400
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.317,
+}))
 
 
 -- EFT ID: 558022b54bdc2dac148b458d
@@ -314,6 +344,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.025,
+}))
+
+
 -- EFT ID: 577d141e24597739c5255e01
 ARC9.LoadAttachment(ATT, "eft_optic_ff3")
 
@@ -355,6 +390,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.094,
+}))
+
+
 -- EFT ID: 61657230d92c473c770213d7
 ARC9.LoadAttachment(ATT, "eft_optic_h2")
 
@@ -380,7 +420,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -3
 
 
 
@@ -447,6 +486,12 @@ ATT.HoloSightDepthAdjustment = -0.004
 ATT.ModelOffset = Vector(1.5, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3,
+    weight = 0.635,
+}))
+
+
 -- EFT ID: 5c07dd120db834001c39092d
 ARC9.LoadAttachment(ATT, "eft_optic_hhs1")
 
@@ -473,7 +518,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -3
 
 
 
@@ -538,6 +582,12 @@ ATT.HoloSightDepthAdjustment = -0.004
 ATT.ModelOffset = Vector(1.5, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3,
+    weight = 0.635,
+}))
+
+
 -- EFT ID: 5c0a2cec0db834001b7ce47d
 ARC9.LoadAttachment(ATT, "eft_optic_hhs1_tan")
 
@@ -558,7 +608,6 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -4
 
 
 
@@ -599,6 +648,12 @@ ATT.ToggleStats = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -4,
+    weight = 0.36,
+}))
+
+
 -- EFT ID: 5b30b0dc5acfc400153b7124
 ARC9.LoadAttachment(ATT, "eft_optic_hs401g5")
 
@@ -621,7 +676,6 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -3
 
 
 
@@ -684,6 +738,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.273,
+}))
+
+
 -- EFT ID: 591c4efa86f7741030027726
 ARC9.LoadAttachment(ATT, "eft_optic_kobra")
 
@@ -705,7 +765,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -4.5
 
 
 ATT.FoldSights = true
@@ -729,6 +788,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -4.5,
+    weight = 0.35,
+}))
+
+
 -- EFT ID: 609a63b6e2ff132951242d09
 ARC9.LoadAttachment(ATT, "eft_optic_krechet")
 
@@ -749,7 +814,6 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -3
 
 
 
@@ -814,6 +878,12 @@ ATT.DrawFunc = function(swep, model, wm)
 end
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3,
+    weight = 0.113,
+}))
+
+
 -- EFT ID: 570fd721d2720bc5458b4596
 ARC9.LoadAttachment(ATT, "eft_optic_mrs")
 
@@ -837,7 +907,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -4
 
 
 ATT.FoldSights = true
@@ -858,6 +927,12 @@ ATT.HoloSightColorable = false
 ATT.HoloSightDepthAdjustment = -0.0035
 
 ATT.ModelOffset = Vector(0, 0, -0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -4,
+    weight = 0.255,
+}))
 
 
 -- EFT ID: 570fd79bd2720bc7458b4583
@@ -881,7 +956,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -3
 
 
 ATT.FoldSights = true
@@ -920,6 +994,12 @@ ATT.HoloSightSize = 650
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, -0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3,
+    weight = 0.16,
+}))
 
 
 -- EFT ID: 584984812459776a704a82a6
@@ -982,6 +1062,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.09,
+}))
+
+
 -- EFT ID: 57ae0171245977343c27bfcf
 ARC9.LoadAttachment(ATT, "eft_optic_pk06")
 
@@ -1003,7 +1088,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -4
 
 
 ATT.FoldSights = true
@@ -1027,6 +1111,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -4,
+    weight = 0.297,
+}))
+
+
 -- EFT ID: 5c0505e00db834001b735073
 ARC9.LoadAttachment(ATT, "eft_optic_pk120")
 
@@ -1047,7 +1137,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_base_aimpoint_pro.mdl"
 ATT.Category = {"eft_compm4"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 
 
 ATT.FoldSights = true
@@ -1071,6 +1160,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.27,
+}))
+
+
 -- EFT ID: 61659f79d92c473c770213ee
 ARC9.LoadAttachment(ATT, "eft_optic_pro")
 
@@ -1088,7 +1183,6 @@ ATT.Description = [[A rubber eyecup for the Trijicon REAP-IR thermal scope.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/optic_reapir_eyecup.mdl"
 
-ATT.EFTErgoAdd = 6
 
 ATT.Category = {"eft_reapir_cup"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -1096,6 +1190,12 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AdditionalSightDistance = 2
 
 ATT.ModelOffset = Vector(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 6,
+    weight = 0.005,
+}))
 
 
 -- EFT ID: 5a1eacb3fcdbcb09800872be
@@ -1139,6 +1239,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.025,
+}))
+
+
 -- EFT ID: 5a32aa8bc4a2826c6e06d737
 ARC9.LoadAttachment(ATT, "eft_optic_rmr")
 
@@ -1180,6 +1285,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.089,
+}))
+
+
 -- EFT ID: 5b3116595acfc40019476364
 ARC9.LoadAttachment(ATT, "eft_optic_romeo4")
 
@@ -1200,7 +1310,6 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -3.5
 
 
 ATT.FoldSights = true
@@ -1224,6 +1333,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3.5,
+    weight = 0.388,
+}))
+
+
 -- EFT ID: 60a23797a37c940de7062d02
 ARC9.LoadAttachment(ATT, "eft_optic_romeo8t")
 
@@ -1244,7 +1359,6 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 
 
 ATT.FoldSights = true
@@ -1268,6 +1382,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.39,
+}))
+
 
 -- EFT ID: 5d2da1e948f035477b1ce2ba
 ARC9.LoadAttachment(ATT, "eft_optic_srs02")
@@ -1310,6 +1430,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.084,
+}))
+
+
 -- EFT ID: 58d399e486f77442e0016fe7
 ARC9.LoadAttachment(ATT, "eft_optic_t1")
 
@@ -1330,7 +1455,6 @@ ATT.Folder = "Special"
 ATT.Category = {"eft_optic_medium", "eft_t12w"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 
 
 ATT.FoldSights = true
@@ -1453,6 +1577,12 @@ end
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.063,
+}))
+
+
 -- EFT ID: 609bab8b455afd752b2e6138
 ARC9.LoadAttachment(ATT, "eft_optic_t12w")
 
@@ -1475,7 +1605,6 @@ ATT.Folder = "Holo"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -4
 
 
 ATT.FoldSights = true
@@ -1500,6 +1629,12 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.AdvancedCamoSupport = true
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -4,
+    weight = 0.334,
+}))
+
+
 -- EFT ID: 59f9d81586f7744c7506ee62
 ARC9.LoadAttachment(ATT, "eft_optic_uh1")
 
@@ -1520,7 +1655,6 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -3
 
 
 
@@ -1554,6 +1688,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3,
+    weight = 0.227,
+}))
+
+
 -- EFT ID: 6165ac8c290d254f5e6b2f6c
 ARC9.LoadAttachment(ATT, "eft_optic_utg")
 
@@ -1569,7 +1709,6 @@ ATT.Icon = Material("entities/eft_attachments/scopes/vulcancup.png", "mips smoot
 ATT.Description = [[A rubber eyecup for the Vulcan MG riflescope, manufactured by Armasight.]]
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_vulcan_eyecup.mdl"
-ATT.EFTErgoAdd = 6
 
 
 ATT.Category = {"eft_vulcan_cup"}
@@ -1578,6 +1717,12 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.AdditionalSightDistance = 1.5
 
 ATT.ModelOffset = Vector(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 6,
+    weight = 0.005,
+}))
 
 
 -- EFT ID: 5b3cbc235acfc4001863ac44
@@ -1602,7 +1747,6 @@ ATT.Folder = "Holo"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 
 
 
@@ -1628,6 +1772,12 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.AdvancedCamoSupport = true
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.255,
+}))
+
+
 -- EFT ID: 58491f3324597764bc48fa02
 ARC9.LoadAttachment(ATT, "eft_optic_xps3_0")
 
@@ -1650,7 +1800,6 @@ ATT.Folder = "Holo"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 
 
 ATT.FoldSights = true
@@ -1675,6 +1824,12 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.AdvancedCamoSupport = "eft_optic_xps3_0"
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.255,
+}))
+
+
 -- EFT ID: 584924ec24597768f12ae244
 ARC9.LoadAttachment(ATT, "eft_optic_xps3_2")
 
@@ -1697,8 +1852,13 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
-ATT.EFTErgoAdd = 3
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 3,
+    weight = 0.005,
+}))
 
 
 -- EFT ID: 591c4e1186f77410354b316e
@@ -1733,7 +1893,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -2
 
 
 
@@ -1759,6 +1918,12 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.AdvancedCamoSupport = true
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.433,
+}))
+
+
 -- EFT ID: 64785e7c19d732620e045e15
 ARC9.LoadAttachment(ATT, "eft_optic_elcan_hco")
 
@@ -1781,7 +1946,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -3
 
 
 
@@ -1806,6 +1970,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -3,
+    weight = 0.354,
+}))
+
+
 -- EFT ID: 6477772ea8a38bb2050ed4db
 ARC9.LoadAttachment(ATT, "eft_optic_sig_romeo7")
 
@@ -1822,12 +1992,17 @@ ATT.Description = [[A rubber eyecup for the Zeus Pro riflescope. Manufactured by
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_zeus_armasight_eyecup.mdl"
 
-ATT.EFTErgoAdd = 5
 
 ATT.Category = {"eft_zeus_cup"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.AdditionalSightDistance = 2
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 5,
+    weight = 0.005,
+}))
+
 
 -- EFT ID: 63fc4533b10b17385349b565
 ARC9.LoadAttachment(ATT, "eft_optic_zeus_eyecup")
@@ -1848,7 +2023,6 @@ ATT.Folder = "Reflex"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 
 ATT.FoldSights = true
 
@@ -1930,6 +2104,12 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.25,
+}))
+
+
 -- EFT ID: 655f13e0a246670fb0373245
 ARC9.LoadAttachment(ATT, "eft_optic_boss")
 
@@ -1970,6 +2150,11 @@ ATT.HoloSightSize = 400
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.025,
+}))
 
 
 -- EFT ID: 688b44cb28bf8d85cd0ff108
@@ -2013,6 +2198,11 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, 0)
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.025,
+}))
+
+
 -- EFT ID: 688b4bd81cef2a61d0052738
 ARC9.LoadAttachment(ATT, "eft_optic_sro_fde")
 
@@ -2054,6 +2244,11 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.AdvancedCamoSupport = true
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.025,
+}))
+
+
 -- EFT ID: 68a5ac69b55a6b93c20a2bc7
 ARC9.LoadAttachment(ATT, "eft_optic_justice")
 
@@ -2078,7 +2273,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -2
 
 
 
@@ -2105,6 +2299,12 @@ ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.AdvancedCamoSupport = true
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.349,
+}))
+
+
 -- EFT ID: 68a5ab09c44fa287ba0a97b5
 ARC9.LoadAttachment(ATT, "eft_optic_falke")
 
@@ -2126,7 +2326,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
-ATT.EFTErgoAdd = -0.2
 
 ATT.Attachments = {
     {
@@ -2138,6 +2337,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.132,
+}))
+
 
 -- EFT ID: 688a0bf28cdd409ce60911ce
 ARC9.LoadAttachment(ATT, "eft_mount_mepro")
@@ -2159,7 +2364,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/scope_meprolight_mepro_m21.mdl"
 ATT.Category = {"eft_mepro"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 
 
 ATT.FoldSights = true
@@ -2181,6 +2385,12 @@ ATT.HoloSightSize = 350
 ATT.HoloSightColorable = false
 
 ATT.ModelOffset = Vector(0, 0, 0)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.24,
+}))
 
 
 -- EFT ID: 688a0b38467521f9080693a3
@@ -2222,6 +2432,11 @@ ATT.Attachments = {
 
 ATT.AdvancedCamoSupport = true
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.03,
+}))
+
+
 -- EFT ID: 6985bed26be2752c150e6898
 ARC9.LoadAttachment(ATT, "eft_mount_fc1")
 
@@ -2241,7 +2456,6 @@ ATT.Category = {"eft_fc1_spacer"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
-ATT.EFTErgoAdd = -0.5
 
 ATT.Attachments = {
     {
@@ -2255,6 +2469,12 @@ ATT.Attachments = {
 }
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.5,
+    weight = 0.02,
+}))
+
 
 -- EFT ID: 6985bee16be2752c150e689b
 ARC9.LoadAttachment(ATT, "eft_mount_fc1_spacer")
@@ -2300,6 +2520,11 @@ ATT.ModelOffset = Vector(0, 0, 0)
 ATT.AdvancedCamoSupport = true
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.13,
+}))
+
+
 -- EFT ID: 6985bebd812f88c79b0eed3b
 ARC9.LoadAttachment(ATT, "eft_optic_fc1")
 
@@ -2324,7 +2549,6 @@ ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -2.5
 
 
 
@@ -2349,6 +2573,12 @@ ATT.HoloSightColorable = false
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.AdvancedCamoSupport = true
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2.5,
+    weight = 0.272,
+}))
+
 
 -- EFT ID: 6985beb1812f88c79b0eed39
 ARC9.LoadAttachment(ATT, "eft_optic_r1x")

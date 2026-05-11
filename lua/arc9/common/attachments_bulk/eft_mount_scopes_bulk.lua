@@ -17,7 +17,6 @@ ATT.Folder = "Reflex/Mounts"
 ATT.Category = {"eft_optic_medium"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -1
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
@@ -30,6 +29,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.017,
+}))
 
 
 -- EFT ID: 5a33b652c4a28232996e407c
@@ -68,6 +73,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.015,
+}))
+
+
 -- EFT ID: 58d39d3d86f77445bb794ae7
 ARC9.LoadAttachment(ATT, "eft_mount_amm")
 
@@ -102,6 +112,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.015,
+}))
+
+
 -- EFT ID: 58d39b0386f77443380bf13c
 ARC9.LoadAttachment(ATT, "eft_mount_amsh")
 
@@ -123,7 +139,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes/Mounts"
 
-ATT.EFTErgoAdd = -1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -133,6 +148,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(-1, 0, 1.5),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.11,
+}))
 
 
 -- EFT ID: 5c1cdd302e221602b3137250
@@ -169,6 +190,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.045,
+}))
+
+
 -- EFT ID: 58d2664f86f7747fec5834f6
 ARC9.LoadAttachment(ATT, "eft_mount_deltapoint")
 
@@ -203,6 +229,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.017,
+}))
+
+
 -- EFT ID: 577d128124597739d65d0e56
 ARC9.LoadAttachment(ATT, "eft_mount_ffwb")
 
@@ -219,9 +250,14 @@ ATT.Description = [[A regular top ring cap for the Geissele Super Precision moun
 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_geissele_tops.mdl"
 
-ATT.EFTErgoAdd = 0.5
 ATT.Category = {"eft_mount_geis"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.02,
+}))
 
 
 -- EFT ID: 618b9671d14d6d5ab879c5ea
@@ -243,9 +279,14 @@ Desert Dirt Color version.]]
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_geissele_tops.mdl"
 ATT.ModelSkin = 1
 
-ATT.EFTErgoAdd = 0.5
 ATT.Category = {"eft_mount_geis"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = 0.5,
+    weight = 0.02,
+}))
 
 
 -- EFT ID: 618ba91477b82356f91ae0e8
@@ -278,6 +319,11 @@ ATT.Attachments = {
     },
 }
 
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.02,
+}))
 
 
 -- EFT ID: 618b9682a3884f56c957ca78
@@ -315,6 +361,11 @@ ATT.Attachments = {
 
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.02,
+}))
+
+
 -- EFT ID: 618ba92152ecee1505530bd3
 ARC9.LoadAttachment(ATT, "eft_mount_geis_rmr_ddc")
 
@@ -347,6 +398,11 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.015,
+}))
 
 
 -- EFT ID: 616554fe50224f204c1da2aa
@@ -383,6 +439,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.075,
+}))
+
+
 -- EFT ID: 5c7d55f52e221644f31bff6a
 ARC9.LoadAttachment(ATT, "eft_mount_lrp")
 
@@ -417,6 +478,12 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.025,
+}))
+
+
 -- EFT ID: 5c7d560b2e22160bc12c6139
 ARC9.LoadAttachment(ATT, "eft_mount_lrp_spacer")
 
@@ -438,7 +505,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Max = 1
 
 
-ATT.EFTErgoAdd = -1
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
@@ -451,6 +517,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 0.2),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.11,
+}))
 
 
 -- EFT ID: 5c064c400db834001d23f468
@@ -487,6 +559,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.07,
+}))
+
+
 -- EFT ID: 615d8d878004cc50514c3233
 ARC9.LoadAttachment(ATT, "eft_mount_nar")
 
@@ -509,7 +586,6 @@ ATT.Category = {"eft_backupmount"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 
-ATT.EFTErgoAdd = -2
 
 ATT.ModelOffset = Vector(0, 0, 0.1)
 
@@ -524,6 +600,12 @@ ATT.Attachments = {
         ExtraSightDistance = 0
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.04,
+}))
 
 
 -- EFT ID: 5649a2464bdc2d91118b45a8
@@ -560,6 +642,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.098,
+}))
+
+
 -- EFT ID: 616584766ef05c2ce828ef57
 ARC9.LoadAttachment(ATT, "eft_mount_qrp2")
 
@@ -584,7 +671,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
-ATT.EFTErgoAdd = -1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -594,6 +680,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.113,
+}))
 
 
 -- EFT ID: 5a1ead28fcdbcb001912fa9f
@@ -618,7 +710,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
-ATT.EFTErgoAdd = -1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -629,6 +720,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.017,
+}))
 
 
 -- EFT ID: 5a33b2c9c4a282000c5a9511
@@ -652,7 +749,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
-ATT.EFTErgoAdd = -1
 ATT.Attachments = {
     {
         PrintName = ARC9:GetPhrase("eft_cat_scope"),
@@ -663,6 +759,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.02,
+}))
 
 
 -- EFT ID: 5a33bab6c4a28200741e22f8
@@ -685,7 +787,6 @@ ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
-ATT.EFTErgoAdd = 1
 ATT.Sights = {
     {
         Pos = Vector(0, 5.5, -1.07),
@@ -695,6 +796,11 @@ ATT.Sights = {
         -- IsIronSight = true
     }
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.034,
+}))
 
 
 -- EFT ID: 5c05295e0db834001a66acbb
@@ -731,6 +837,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.015,
+}))
+
+
 -- EFT ID: 5b31163c5acfc400153b71cb
 ARC9.LoadAttachment(ATT, "eft_mount_romeo")
 
@@ -765,6 +876,11 @@ ATT.Attachments = {
 }
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.015,
+}))
+
+
 -- EFT ID: 61714b2467085e45ef140b2c
 ARC9.LoadAttachment(ATT, "eft_mount_t1sun")
 
@@ -788,7 +904,6 @@ ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.Folder = "Scopes/Mounts"
 
 
-ATT.EFTErgoAdd = -1
 
 ATT.ModelOffset = Vector(0, 0, -0)
 
@@ -801,6 +916,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(-1, 0, 1.5),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.113,
+}))
 
 
 -- EFT ID: 59db7eed86f77461f8380365
@@ -818,7 +939,6 @@ ATT.Description = [[The UM Tactical UM3 sight mount. Allows mounting of addition
 
 ATT.Icon = Material("entities/eft_attachments/tactical/um3.png", "mips smooth")
 
-ATT.EFTErgoAdd = -1
 
 ATT.Category = {"eft_um3"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -844,6 +964,12 @@ ATT.Attachments = {
 
 
 
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.12,
+}))
+
+
 -- EFT ID: 5a7b4900e899ef197b331a2a
 ARC9.LoadAttachment(ATT, "eft_mount_um3")
 
@@ -863,7 +989,6 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_vulcan_gen3.mdl"
 ATT.Folder = "Special"
 
-ATT.EFTErgoAdd = -1
 
 ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
@@ -879,6 +1004,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1.5),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.017,
+}))
 
 
 -- EFT ID: 5b3b6dc75acfc47a8773fb1e
@@ -902,8 +1033,7 @@ ATT.Scale = 1
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/mount_zeus_pro.mdl"
 ATT.Folder = "Special"
 
--- ATT.EFTErgoAdd = -1
-
+-- 
 ATT.Category = {"eft_optic_large", "eft_optic_large_nosniper"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
@@ -918,6 +1048,11 @@ ATT.Attachments = {
         Icon_Offset = Vector(-1, 0, 2.0),
     },
 }
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.017,
+}))
 
 
 -- EFT ID: 63fc449f5bd61c6cf3784a88
@@ -940,7 +1075,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/gbrs_hydra.mdl"
 ATT.Category = {"eft_optic_large"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
@@ -959,6 +1093,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.141,
+}))
+
 
 -- EFT ID: 65392f611406374f82152ba5
 ARC9.LoadAttachment(ATT, "eft_mount_hydra")
@@ -979,7 +1119,6 @@ ATT.ModelSkin = 1
 ATT.Category = {"eft_optic_large"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
-ATT.EFTErgoAdd = -2
 ATT.ModelOffset = Vector(0, 0, -0)
 
 ATT.Attachments = {
@@ -998,6 +1137,12 @@ ATT.Attachments = {
         Icon_Offset = Vector(0, 0, 1),
     },
 }
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -2,
+    weight = 0.141,
+}))
+
 
 -- EFT ID: 653931da5db71d30ab1d6296
 ARC9.LoadAttachment(ATT, "eft_mount_hydra_fde")
