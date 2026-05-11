@@ -233,5 +233,6 @@ L["eft_toggle_laser_high"] = "Laser, high power"
 L["eft_toggle_light_ir_high"] = "IR Light, high power"
 
 -- [[ Customization ]]
-L["Ergonomics"] = "Ergonomics"
+L["Ergonomics"] = "Ewgonomicss"
+L["autostat.EFTErgo"] = "Ewgonomicss"
 -- L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."

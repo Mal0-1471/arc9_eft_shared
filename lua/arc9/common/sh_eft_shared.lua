@@ -515,9 +515,18 @@ function ARC9EFT.GenerateEFTAttachment(inputtbl, ammotype)
             lATT.BleedHeavyChance = inputtbl.heavyBleedModifier
         end
 
+        local jamchan = 0
         if inputtbl.failureToFeedChance and inputtbl.failureToFeedChance != 0 then
-            lATT.MalfunctionMeanShotsToFailMult = 1 - (inputtbl.malfunctionChance2)
+            jamchan = jamchan + inputtbl.failureToFeedChance
         end
+        if inputtbl.misfireChance and inputtbl.misfireChance != 0 then
+            jamchan = jamchan + inputtbl.misfireChance / 10
+        end
+
+        if jamchan != 0 then
+            lATT.MalfunctionMeanShotsToFailMult = 1 - jamchan
+        end
+    end
 
     if inputtbl.ergonomicsModifier and inputtbl.ergonomicsModifier != 0 then
         lATT.EFTErgoAdd = inputtbl.ergonomicsModifier
@@ -537,7 +546,7 @@ function ARC9EFT.GenerateEFTAttachment(inputtbl, ammotype)
     end
 
     if inputtbl.velocity and inputtbl.velocity != 0 then
-        lATT.PhysBulletMuzzleVelocityMult = (100 + velocity) / 100
+        lATT.PhysBulletMuzzleVelocityMult = (100 + inputtbl.velocity) / 100
     end
 
     if inputtbl.weight and inputtbl.weight != 0 then

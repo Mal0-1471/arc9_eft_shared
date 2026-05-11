@@ -463,8 +463,8 @@ ATT.RequireElements = {"eft_mag_ar15_airsoft"}
 
 ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_556_bb.printname")
 
-ATT.DamageMax = 1 * mult556
-ATT.DamageMin = 0.63 * mult556
+ATT.DamageMax = 1
+ATT.DamageMin = 0.63
 ATT.PhysBulletMuzzleVelocity = 100 /0.0254
 -- ATT.TracerNum = 1
 -- ATT.TracerColor = Color(255, 16, 16)
@@ -482,11 +482,11 @@ ATT.ArmorPiercing =    1/100
 ATT.RicochetChance =   100/100
 
 ATT.DamageLookupTable = {
-    {   10/0.0254 * dmgrange, 
-    1 * mult556     },
+    {   10/0.0254 * 1, 
+    1     },
 
-    {   100 /0.0254 * dmgrange, 
-    0.63 * mult556     },
+    {   100 /0.0254 * 0.5, 
+    0.63 * 1     },
 }
 
 ATT.Category = {"eft_ammo_556bb"}

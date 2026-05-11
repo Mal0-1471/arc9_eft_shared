@@ -251,7 +251,10 @@ L["eft_toggle_light_ir_high"] = "IR Light, high power"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomics"
-L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed and stamina drain."
+L["autostat.EFTErgo"] = "Ergonomics"
+L["autostat.EFTWeight"] = "Weight"
+L["Ergonomics.desc"] = "[ EFT ] Affects aim down sight speed."
+L["EFTWeight.desc"] = "[ EFT ] Affects stamina drain."
 
 ///////////////////////////// Non-EFT Weapon Names
 L["eft_weapon_aa12"] = "AA-12"

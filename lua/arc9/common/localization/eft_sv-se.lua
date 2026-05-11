@@ -240,6 +240,7 @@ L["eft_toggle_light_ir_high"] = "IR-Lampa, hög kraft"
 
 -- [[ Customization ]]
 L["Ergonomics"] = "Ergonomi"
+L["autostat.EFTErgo"] = "Ergonomi"
 L["Ergonomics.desc"] = "[ EFT ] Påverkar siktehastigheten och uthållighetstömning."
 
 ///////////////////////////// Non-EFT Weapon Names
