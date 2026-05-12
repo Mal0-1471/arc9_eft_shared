@@ -188,6 +188,8 @@ SWEP.RecoilAutoControl_DontTryToReturnBack = true
 SWEP.RecoilResetTime = 0.03
 SWEP.RecoilFullResetTime = 0.2
 
+SWEP.PhysicalVisualRecoilForce = true 
+
 SWEP.UseVisualRecoil = true 
 SWEP.VisualRecoilMultHipFire = 1
 SWEP.VisualRecoilMultSights = 1
