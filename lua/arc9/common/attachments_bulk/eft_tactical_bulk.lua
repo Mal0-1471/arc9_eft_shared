@@ -680,6 +680,7 @@ ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 ATT.Category = {"eft_tactical", "eft_tactical_top"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+ATT.ModelMaterial = "models/weapons/arc9/darsu_eft/mods/tactical_all_insight_anpeq15_LOD0_fde"
 
 ATT.ToggleOnF = true
 ATT.ToggleStats = {
@@ -762,6 +763,105 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
 
 -- EFT ID: 544909bb4bdc2d6f028b4577
 ARC9.LoadAttachment(ATT, "eft_tactical_peq15")
+
+///////////////////////////////////////      eft_tactical_peq15_blk
+
+
+ATT = {}
+
+ATT.PrintName = "AN/PEQ-15 tactical device (Black)"
+ATT.CompactName = "AN/PEQ-15"
+ATT.Description = [[The Advanced Target Pointer Illuminator Aiming Laser (ATPIAL) produced by L3 Technologies is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator. Black.]]
+
+ATT.Icon = Material("entities/eft_attachments/68bedc0365e7dcf94f0cb0fc.png", "mips smooth")
+
+ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
+
+ATT.Category = {"eft_tactical", "eft_tactical_top"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_anpeq15.mdl"
+
+ATT.ToggleOnF = true
+ATT.ToggleStats = {
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.5,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },  
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_laser_ir"),
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },    
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_ir"),
+        Flashlight = true,
+        FlashlightIR = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },   
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_light_laser_ir"),
+        Flashlight = true,
+        FlashlightColor = Color(255, 8, 0),
+        FlashlightMaterial = "effects/arc9_eft/FlashlightCookie",
+        FlashlightDistance = 1024,
+        FlashlightFOV = 30,
+        FlashlightAttachment = 1,
+        FlashlightBrightness = 0,
+        FlashlightIR = true,
+        
+        Laser = true,
+        LaserIR = true,
+        LaserStrength = 0.0,
+        LaserFlareMat = Material("effects/arc9_eft/laserdot"),
+        LaserTraceMat = Material("effects/arc9_eft/lasertrace"),
+        LaserColor = Color(238, 27, 27),
+        LaserAttachment = 2,
+        EFTHipFireSpreadBonus = true,
+        EFTMode1 = true,
+    },
+    {
+        PrintName = ARC9:GetPhrase("eft_toggle_off"),
+    }
+}
+
+local meow_offset1 = Vector(-1.8, -0.208151, 0.826)
+ATT.DrawFunc = function(swep, model, wm)
+    if wm then return end
+
+    drawlight(swep, model, 1, meow_offset1, meow_green)
+end
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -1,
+    weight = 0.21,
+}))
+
+
+-- EFT ID: 68bedc0365e7dcf94f0cb0fc
+ARC9.LoadAttachment(ATT, "eft_tactical_peq15_blk")
 
 
 ///////////////////////////////////////      eft_tactical_peq2
@@ -1507,15 +1607,48 @@ ARC9.LoadAttachment(ATT, "eft_tactical_mawlc")
 
 ATT = {}
 
+ATT.PrintName = "Zenit KR-2 old gen mount"
+ATT.CompactName = "KR-2"
+ATT.Description = [[The KR-2 mount designed for installing various tactical illumination devices on Weaver type rails. Manufactured by Zenit. ]]
+
+ATT.Icon = Material("entities/eft_attachments/646f6322f43d0c5d62063715.png", "mips smooth")
+
+ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kr2_mount.mdl"
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_flashlight"),
+        Category = "eft_kr2",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(0, 0, 1.5),
+    },
+}
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.036,
+}))
+
+-- EFT ID: 646f6322f43d0c5d62063715
+ARC9.LoadAttachment(ATT, "eft_tactical_2d")
+
+///////////////////////////////////////      eft_tactical_2d_flashlight
+
+
+ATT = {}
+
 ATT.PrintName = "Zenit 2D flashlight"
 ATT.CompactName = "2D"
-ATT.Description = [[The 2D tactical flashlight, installed on a KR-2 mount. Manufactured by Zenit.]]
+ATT.Description = [[The 2D tactical flashlight, installed on a special mount. Manufactured by Zenit.]]
 
 ATT.Icon = Material("entities/eft_attachments/tactical/kr2.png", "mips smooth")
 
 ATT.CustomPros = { ["Hipfire Spread if on (Cannot be stacked)"] = "-50%" }
 
-ATT.Category = {"eft_tactical", "eft_tactical_pistol"}
+ATT.Category = {"eft_kr2"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/tac_kr2.mdl"
 
@@ -1548,7 +1681,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
 
 
 -- EFT ID: 646f62fee779812413011ab7
-ARC9.LoadAttachment(ATT, "eft_tactical_2d")
+ARC9.LoadAttachment(ATT, "eft_tactical_2d_flashlight")
 
 
 -- 0.15

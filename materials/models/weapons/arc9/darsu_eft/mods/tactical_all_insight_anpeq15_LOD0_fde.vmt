@@ -3,7 +3,7 @@
 
 "VertexLitGeneric"
 {
-    "$basetexture"      "models/weapons/arc9/darsu_eft/mods/tactical_all_insight_anpeq15_LOD0_diff"
+    "$basetexture"      "models/weapons/arc9/darsu_eft/mods/tactical_all_insight_anpeq15_LOD0_diff_fde"
     "$bumpmap"          "models/weapons/arc9/darsu_eft/mods/tactical_all_insight_anpeq15_LOD0_nrm"
     "$phongexponenttexture" "models/weapons/arc9/darsu_eft/mods/tactical_all_insight_anpeq15_LOD0_gloss"
     "$phong"            "1"
