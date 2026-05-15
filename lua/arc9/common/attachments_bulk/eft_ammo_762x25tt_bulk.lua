@@ -258,3 +258,118 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
 
 -- EFT ID: 573603562459776430731618
 ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_pst")
+
+///////////////////////////////////////      eft_ammo_762x25tt_m855a1
+
+ATT = {}
+
+ATT.PrintName = "7.62x25mm TT M855A1"
+ATT.CompactName = "TT 855A1"
+ATT.Icon = Material("entities/eft_attachments/68c15a033173b556890b5959.png", "mips smooth")
+ATT.Description = "A 7.62x25mm TT cartridge fitted with a Western 4 gram M855A1 armor-piercing bullet. Neat."
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_m855a1.printname")
+
+ATT.Category = {"eft_ammo_762x25tt"}
+
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.013,
+    damage = 34,
+    ballisticCoeficient = 0.17,
+    initialSpeed = 900,
+    penetrationPower = 31,
+    armorDamage = 33,
+    penetrationChance = 0.28,
+    ricochetChance = 0.065,
+    heatFactor = 1.08,
+    failureToFeedChance = 0.09,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.17,
+    heavyBleedModifier = 0.06,
+}))
+-- EFT ID: 68c15a033173b556890b5959
+ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_m855a1")
+
+///////////////////////////////////////      eft_ammo_762x25tt_m856a1
+
+ATT = {}
+
+ATT.PrintName = "7.62x25mm TT M856A1"
+ATT.CompactName = "TT 856A1"
+ATT.Icon = Material("entities/eft_attachments/68c15b4bb30038a118088bd6.png", "mips smooth")
+ATT.Description = "A 7.62x25mm TT cartridge fitted with a Western 3.6 gram M856A1 armor-piercing tracer bullet. Tracer color: Red."
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_m856a1.printname")
+
+ATT.Category = {"eft_ammo_762x25tt"}
+
+ATT.TracerNum = 1
+ATT.TracerColor = Color(255, 16, 16)
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.0132,
+    damage = 36,
+    ballisticCoeficient = 0.18,
+    initialSpeed = 900,
+    penetrationPower = 27,
+    armorDamage = 31,
+    penetrationChance = 0.26,
+    ricochetChance = 0.065,
+    heatFactor = 1.06,
+    failureToFeedChance = 0.09,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.26,
+    heavyBleedModifier = 0.07,
+}))
+-- EFT ID: 68c15b4bb30038a118088bd6
+ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_m856a1")
+
+///////////////////////////////////////      eft_ammo_762x25tt_m995
+
+ATT = {}
+
+ATT.PrintName = "7.62x25mm TT M995"
+ATT.CompactName = "TT 995"
+ATT.Icon = Material("entities/eft_attachments/68c15f77ed3d7df9220debd6.png", "mips smooth")
+ATT.Description = "A 7.62x25mm TT cartridge fitted with a Western 3.4 gram M995 armor-piercing bullet. Neat."
+
+ATT.SortOrder = 0
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.HasAmmoooooooo = true 
+
+ATT.EFTRoundName = ARC9:GetPhrase("eft_ammo_762x25tt_m995.printname")
+
+ATT.Category = {"eft_ammo_762x25tt"}
+
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    weight = 0.014,
+    damage = 32,
+    ballisticCoeficient = 0.23,
+    initialSpeed = 940,
+    penetrationPower = 37,
+    armorDamage = 36,
+    penetrationChance = 0.32,
+    ricochetChance = 0.065,
+    heatFactor = 1.12,
+    failureToFeedChance = 0.095,
+    misfireChance = 0.175,
+    lightBleedModifier = 0.14,
+    heavyBleedModifier = 0.04,
+}))
+-- EFT ID: 68c15f77ed3d7df9220debd6
+ARC9.LoadAttachment(ATT, "eft_ammo_762x25tt_m995")

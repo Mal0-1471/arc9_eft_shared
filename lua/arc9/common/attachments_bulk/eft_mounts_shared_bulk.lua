@@ -626,19 +626,6 @@ ARC9.LoadAttachment(ATT, "eft_mount_mlok_bipodd")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ///////////////////////////////////////      eft_mount_qars32
 
 
@@ -716,3 +703,121 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
 -- EFT ID: 5b4736b986f77405cb415c10
 ARC9.LoadAttachment(ATT, "eft_mount_qars42")
 
+
+
+
+
+
+
+
+///////////////////////////////////////      eft_mount_keymod_casv2
+
+
+ATT = {}
+
+ATT.PrintName = "Vltor CASV 2 inch rail"
+ATT.CompactName = "Vltor 2\""
+ATT.Icon = Material("entities/eft_attachments/5b7be4575acfc400161d0832.png", "mips smooth")
+ATT.Description = "The Vltor CASV 2 inch rail allows installation of additional equipment on the handguards with the standard CASV interface."
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/casv.mdl"
+ATT.ModelBodygroups = "0"
+
+ATT.Category = {"eft_mount_keymod_casv2"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_tactical"),
+        Category = "eft_tactical",
+        RejectAttachments = { ["eft_tactical_raptar"] = true },
+        Pos = Vector(-0.2, -0.32, 0),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.1,
+    weight = 0.05,
+}))
+-- EFT ID: 5b7be4575acfc400161d0832
+ARC9.LoadAttachment(ATT, "eft_mount_keymod_casv2")
+
+///////////////////////////////////////      eft_mount_keymod_casv4
+
+
+ATT = {}
+
+ATT.PrintName = "Vltor CASV 4 inch rail"
+ATT.CompactName = "Vltor 4\""
+ATT.Icon = Material("entities/eft_attachments/5b7be4645acfc400170e2dcc.png", "mips smooth")
+ATT.Description = "The Vltor CASV 4 inch rail allows installation of additional equipment on the handguards with the standard CASV interface."
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/casv.mdl"
+ATT.ModelBodygroups = "1"
+
+ATT.Category = {"eft_mount_keymod_casv4"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_tactical"),
+        Category = {"eft_tactical_top", "eft_tactical"},
+        RejectAttachments = { ["eft_tactical_raptar"] = true },
+        Pos = Vector(-0.2, -0.32, 0),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(0, 0, 0),
+    },
+}
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.15,
+    weight = 0.06,
+}))
+-- EFT ID: 5b7be4645acfc400170e2dcc
+ARC9.LoadAttachment(ATT, "eft_mount_keymod_casv4")
+
+
+
+///////////////////////////////////////      eft_mount_keymod_casv6
+
+
+ATT = {}
+
+ATT.PrintName = "Vltor CASV 5 inch rail"
+ATT.CompactName = "Vltor 5\""
+ATT.Icon = Material("entities/eft_attachments/5b7be46e5acfc400170e2dcf.png", "mips smooth")
+ATT.Description = "The Vltor CASV 5 inch rail allows installation of additional equipment on the handguards equipped with a standard CASV interface."
+
+ATT.Model = "models/weapons/arc9/darsu_eft/mods/casv.mdl"
+ATT.ModelBodygroups = "2"
+
+ATT.Category = {"eft_mount_keymod"}
+ATT.MenuCategory = "ARC9 - EFT Attachments"
+
+ATT.ModelOffset = Vector(0, 0, 0)
+
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_foregrip"),
+        Category = {"eft_foregrip_small"},
+        Pos = Vector(0, 0, 0.3),
+        Ang = Angle(0, -90, 0),
+        Icon_Offset = Vector(0, 0, -1),
+    },
+}
+
+
+table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
+    ergonomicsModifier = -0.2,
+    weight = 0.07,
+}))
+-- EFT ID: 5b7be46e5acfc400170e2dcf
+ARC9.LoadAttachment(ATT, "eft_mount_keymod_casv6")

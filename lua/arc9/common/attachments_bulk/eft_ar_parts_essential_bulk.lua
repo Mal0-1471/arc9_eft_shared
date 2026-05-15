@@ -107,8 +107,6 @@ ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_double_star_ace_socom
 
 ATT.HasBufferTube = true
 
-
-
 ATT.ExcludeElements = {"pgrip_stock"}
 
 
@@ -116,6 +114,15 @@ ATT.SortOrder = 0
 ATT.Category = "eft_ar15_buffertube"
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
+ATT.Attachments = {
+    {
+        PrintName = ARC9:GetPhrase("eft_cat_stock"),
+        Category = "eft_doublestar_buttpad",
+        Pos = Vector(0, 0, 0),
+        Ang = Angle(0, 0, 0),
+        Icon_Offset = Vector(-4.2, 0, -1),
+    },
+}
 
 table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     ergonomicsModifier = 13,
@@ -237,37 +244,6 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
 
 -- EFT ID: 602e620f9b513876d4338d9a
 ARC9.LoadAttachment(ATT, "eft_ar_stock_glcore")
-
-
--- ///////////////////////////////////////      eft_ar_stock_glcore_rl
-
-
--- ATT = {}
-
--- ATT.PrintName = "FAB Defense GL-CORE buttstock (Redline)"
--- ATT.CompactName = "GL CORE RL"
--- ATT.Description = [[A telescopic stock, manufactured by FAB Defense. The integrated cheek weld, ergonomic buttpad and an interchanging tube adapter provide an unmatched fit on Mil-Spec and Commercial buffer tubes, with a high level of efficiency and comfort. Includes an ergonomically shaped rubberized butt-pad for quick shouldering and easy maneuvering of the weapon.]]
--- ATT.Icon = Material("entities/eft_attachments/stocks/glcorerl.png", "mips smooth")
-
--- ATT.Model = "models/weapons/arc9/darsu_eft/mods/stock_ar15_fab_defense_gl_core.mdl"
-
--- ATT.HasStock = true
-
--- ATT.SortOrder = 0
--- ATT.Category = "eft_ar_stock"
--- ATT.MenuCategory = "ARC9 - EFT Attachments"
--- ATT.Folder = "FAB"
-
-
--- table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
---     ergonomicsModifier = 11,
---     recoilModifier = -21,
---     weight = 0.271,
--- }))
-
-
--- -- EFT ID: 6981f3e2f819a41431029302
--- ARC9.LoadAttachment(ATT, "eft_ar_stock_glcore_rl")
 
 
 ///////////////////////////////////////      eft_ar_stock_mftbus
@@ -732,8 +708,6 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
 -- EFT ID: 57c55f172459772d27602381
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_hogod")
 
-
-
 ///////////////////////////////////////      eft_ar_pgrip_miad
 
 
@@ -763,3 +737,4 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
 
 -- EFT ID: 5a339805c4a2826c6e06d73d
 ARC9.LoadAttachment(ATT, "eft_ar_pgrip_miad")
+

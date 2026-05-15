@@ -2707,9 +2707,9 @@ L["eft_tactical_mawlc.printname"] = "Dispositivo tattico MAWL-C1+"
 L["eft_tactical_mawlc.compactname"] = "MAWL-C1+"
 L["eft_tactical_mawlc.description"] = "Modular Advanced Weapon Laser C1+ (MAWL-C1+) prodotto dalla B.E. Meyers è un sistema di mira robusto, collaudato in combattimento e facile da usare con laser infrarossi e ottiche integrate e un illuminatore a infrarossi."
 
-L["eft_tactical_2d.printname"] = "Torcia Zenit 2D"
-L["eft_tactical_2d.compactname"] = "2D"
-L["eft_tactical_2d.description"] = "La torcia tattica 2D, installata su un supporto speciale. Prodotto dalla Zenit."
+-- L["eft_tactical_2d.printname"] = "Torcia Zenit 2D"
+-- L["eft_tactical_2d.compactname"] = "2D"
+-- L["eft_tactical_2d.description"] = "La torcia tattica 2D, installata su un supporto speciale. Prodotto dalla Zenit."
 
 -- L["eft_bipod_atlas_v8.printname"] = "Bipiede BT10 V8 Atlas"
 -- L["eft_bipod_atlas_v8.compactname"] = "BT10"

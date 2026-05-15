@@ -2707,9 +2707,9 @@ L["eft_tactical_mawlc.printname"] = "Taktické zařízení MAWL-C1+"
 L["eft_tactical_mawlc.compactname"] = "MAWL-C1+"
 L["eft_tactical_mawlc.description"] = "Modulární pokročilý laser C1+ (MAWL-C1+) od společnosti B.E. Meyers je robustní, v boji osvědčený a snadno použitelný zaměřovací systém s integrovaným infračerveným a viditelným laserem a infračerveným přísvitem."
 
-L["eft_tactical_2d.printname"] = "Svítilna Zenit 2D"
-L["eft_tactical_2d.compactname"] = "2D"
-L["eft_tactical_2d.description"] = "Taktická 2D svítilna, instalovaná na speciální montáži. Vyrábí společnost Zenit."
+-- L["eft_tactical_2d.printname"] = "Svítilna Zenit 2D"
+-- L["eft_tactical_2d.compactname"] = "2D"
+-- L["eft_tactical_2d.description"] = "Taktická 2D svítilna, instalovaná na speciální montáži. Vyrábí společnost Zenit."
 
 -- L["eft_bipod_atlas_v8.printname"] = "Dvojnožka BT10 V8 Atlas"
 -- L["eft_bipod_atlas_v8.compactname"] = "BT10"

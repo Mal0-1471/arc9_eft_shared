@@ -2414,7 +2414,7 @@ ATT.Description = "A special mount for the FC1 reflex sight. Manufactured by DI 
 ATT.Model = "models/weapons/arc9/darsu_eft/mods/di_optical_fc1_mount.mdl"
 ATT.Folder = "Reflex/Mounts"
 
-ATT.Category = {"eft_optic_medium"}
+ATT.Category = {"eft_optic_small"}
 ATT.MenuCategory = "ARC9 - EFT Attachments"
 
 ATT.ModelOffset = Vector(0, 0, -0)

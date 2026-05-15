@@ -2707,9 +2707,9 @@ L["eft_tactical_mawlc.printname"] = "Urządzenie taktyczne MAWL-C1+"
 L["eft_tactical_mawlc.compactname"] = "MAWL-C1+"
 L["eft_tactical_mawlc.description"] = "Modułowy celownik laserowy Advanced Weapon Laser C1+ (MAWL-C1+) to wytrzymały, sprawdzony w warunkach bojowych i łatwy w obsłudze system celowniczy ze zintegrowanym wskaźnikiem laserowym w paśmie podczerwieni i paśmie widocznym oraz reflektorem podczerwonym. Wyprodukowany przez firmę B.E. Meyers."
 
-L["eft_tactical_2d.printname"] = "Latarka Zenit 2D"
-L["eft_tactical_2d.compactname"] = "2D"
-L["eft_tactical_2d.description"] = "Latarka taktyczna 2D montowana na specjalnym montażu. Wyprodukowana przez firmę Zenit."
+-- L["eft_tactical_2d.printname"] = "Latarka Zenit 2D"
+-- L["eft_tactical_2d.compactname"] = "2D"
+-- L["eft_tactical_2d.description"] = "Latarka taktyczna 2D montowana na specjalnym montażu. Wyprodukowana przez firmę Zenit."
 
 -- L["eft_bipod_atlas_v8.printname"] = "Dwójnóg BT10 V8 Atlas"
 -- L["eft_bipod_atlas_v8.compactname"] = "BT10"

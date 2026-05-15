@@ -2707,9 +2707,9 @@ L["eft_tactical_mawlc.printname"] = "B.E. Meyers MAWL-C1+ tactical device"
 L["eft_tactical_mawlc.compactname"] = "MAWL-C1+"
 L["eft_tactical_mawlc.description"] = "Modular Advanced Weapon Laser C1+ (MAWL-C1+) produced by B.E. Meyers is a rugged, combat-proven and easy-to-use aiming system with integrated infrared and visible aim lasers as well as an infrared illuminator."
 
-L["eft_tactical_2d.printname"] = "Zenit 2D flashlight"
-L["eft_tactical_2d.compactname"] = "2D"
-L["eft_tactical_2d.description"] = "The 2D tactical flashlight, installed on a special mount. Manufactured by Zenit."
+-- L["eft_tactical_2d.printname"] = "Zenit 2D flashlight"
+-- L["eft_tactical_2d.compactname"] = "2D"
+-- L["eft_tactical_2d.description"] = "The 2D tactical flashlight, installed on a special mount. Manufactured by Zenit."
 
 -- L["eft_bipod_atlas_v8.printname"] = "BT10 V8 Atlas Zweibein"
 -- L["eft_bipod_atlas_v8.compactname"] = "BT10"

@@ -2707,9 +2707,9 @@ L["eft_tactical_mawlc.printname"] = "MAWL-C1+战术装置"
 L["eft_tactical_mawlc.compactname"] = "MAWL-C1+"
 L["eft_tactical_mawlc.description"] = "由B.E. Meyers公司生产的模块化先进武器激光系统C1+ （MAWL-C1+）。一种结合了可见光激光指示、红外波段激光指示和红外探照灯的战术设备。"
 
-L["eft_tactical_2d.printname"] = "Zenit 2D战术手电"
-L["eft_tactical_2d.compactname"] = "2D"
-L["eft_tactical_2d.description"] = "安装在特殊基座上的2D战术手电，由Zenit制造。"
+-- L["eft_tactical_2d.printname"] = "Zenit 2D战术手电"
+-- L["eft_tactical_2d.compactname"] = "2D"
+-- L["eft_tactical_2d.description"] = "安装在特殊基座上的2D战术手电，由Zenit制造。"
 
 -- L["eft_bipod_atlas_v8.printname"] = "BT10 V8 Atlas折叠脚架"
 -- L["eft_bipod_atlas_v8.compactname"] = "BT10"

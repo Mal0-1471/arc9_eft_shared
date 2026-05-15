@@ -2707,9 +2707,9 @@ L["eft_tactical_mawlc.printname"] = "MAWL-C1+ taktiksel cihazı"
 L["eft_tactical_mawlc.compactname"] = "MAWL-C1+"
 L["eft_tactical_mawlc.description"] = "B.E. tarafından üretilen Modüler Gelişmiş Silah Lazeri C1+ (MAWL-C1+). Meyers, entegre kızılötesi ve görünür nişan alma lazerlerinin yanı sıra bir kızılötesi aydınlatıcıya sahip, sağlam, savaşta kanıtlanmış ve kullanımı kolay bir nişan alma sistemidir."
 
-L["eft_tactical_2d.printname"] = "Zenit 2D flashlight"
-L["eft_tactical_2d.compactname"] = "2D"
-L["eft_tactical_2d.description"] = "The 2D tactical flashlight, installed on a special mount. Manufactured by Zenit."
+-- L["eft_tactical_2d.printname"] = "Zenit 2D flashlight"
+-- L["eft_tactical_2d.compactname"] = "2D"
+-- L["eft_tactical_2d.description"] = "The 2D tactical flashlight, installed on a special mount. Manufactured by Zenit."
 
 -- L["eft_bipod_atlas_v8.printname"] = "BT10 V8 Atlas Bipod"
 -- L["eft_bipod_atlas_v8.compactname"] = "BT10"
