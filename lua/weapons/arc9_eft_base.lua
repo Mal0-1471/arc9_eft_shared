@@ -256,6 +256,10 @@ local minreloadwindow, maxreloadwindow, reloadcooldown = 0.01, 0.2, 0.5
 
 local sp = game.SinglePlayer()
 
+SWEP.SPTacReloadThing = function(self)
+    self.EFT_StartedNextTacReload = CurTime() + 5
+end
+
 SWEP.Hook_Think_TacReload = function(self)
     if CLIENT and sp then return end -- sounds dont play + previus animtion still playing in mp
 
@@ -268,6 +272,8 @@ SWEP.Hook_Think_TacReload = function(self)
                 self:CancelReload()
                 self.EFT_StartedTacReload = true
                 self.EFT_StartedNextTacReload = ct + reloadcooldown
+
+                if sp then self:CallOnClient("SPTacReloadThing") end
             end
         else
             self.EFT_StartedReloadTime = nil
@@ -358,12 +364,13 @@ SWEP.SuppressEmptySuffix = false
 ------------------------- |||           Dropped magazines            ||| -------------------------
 
 SWEP.DropMagazineAmount = 1
-SWEP.DropMagazineSounds = { }
+SWEP.DropMagazineSounds = ARC9EFT.MagDropPlastic
 SWEP.DropMagazineQCA = 4
 SWEP.DropMagazinePos = Vector(0, 0, 0)
 SWEP.DropMagazineTime = 0.63
 SWEP.DropMagazineAng = Angle(-180, 90, 0)
 SWEP.DropMagazineVelocity = Vector(0, -10, -30)
+SWEP.DropMagazineEffect = "arc9_eft_magdropeffect"
 
 ------------------------- |||           Animations            ||| -------------------------
 

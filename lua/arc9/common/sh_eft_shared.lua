@@ -105,6 +105,38 @@ ARC9EFT.ADSSMG = {
     ")arc9_eft_shared/ads/aim_on_smg_11.wav",
 }
 
+ARC9EFT.MagDropDrumEmpty = {
+    ")arc9_eft_shared/magdrop/drum_empty_metal_mag_drop_concrete_01.ogg",
+    ")arc9_eft_shared/magdrop/drum_empty_metal_mag_drop_concrete_02.ogg",
+    ")arc9_eft_shared/magdrop/drum_empty_metal_mag_drop_concrete_03.ogg",
+    ")arc9_eft_shared/magdrop/drum_empty_metal_mag_drop_concrete_04.ogg",
+    ")arc9_eft_shared/magdrop/drum_empty_metal_mag_drop_concrete_05.ogg",
+}
+
+ARC9EFT.MagDropDrumFull = {
+    ")arc9_eft_shared/magdrop/machine_gun_full_metal_mag_drop_concrete_01.ogg",
+    ")arc9_eft_shared/magdrop/machine_gun_full_metal_mag_drop_concrete_02.ogg",
+    ")arc9_eft_shared/magdrop/machine_gun_full_metal_mag_drop_concrete_03.ogg",
+    ")arc9_eft_shared/magdrop/machine_gun_full_metal_mag_drop_concrete_04.ogg",
+    ")arc9_eft_shared/magdrop/machine_gun_full_metal_mag_drop_concrete_05.ogg",
+}
+
+ARC9EFT.MagDropMetal = {
+    ")arc9_eft_shared/magdrop/riffle_empty_metal_mag_drop_concrete_01.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_metal_mag_drop_concrete_02.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_metal_mag_drop_concrete_03.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_metal_mag_drop_concrete_04.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_metal_mag_drop_concrete_05.ogg",
+}
+
+ARC9EFT.MagDropPlastic = {
+    ")arc9_eft_shared/magdrop/riffle_empty_plastic_mag_drop_concrete_01.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_plastic_mag_drop_concrete_02.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_plastic_mag_drop_concrete_03.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_plastic_mag_drop_concrete_04.ogg",
+    ")arc9_eft_shared/magdrop/riffle_empty_plastic_mag_drop_concrete_05.ogg",
+}
+
 if SERVER then
     util.AddNetworkString("arc9eftjam")
     util.AddNetworkString("arc9eftmissingparts")
