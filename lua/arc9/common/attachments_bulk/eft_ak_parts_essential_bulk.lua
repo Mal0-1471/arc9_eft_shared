@@ -163,6 +163,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     weight = 0.35,
 }))
 
+ATT.AdvancedCamoSupport = true
 
 -- EFT ID: 5ac50c185acfc400163398d4
 ARC9.LoadAttachment(ATT, "eft_stock_ak74m_std")

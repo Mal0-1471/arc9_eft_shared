@@ -20,6 +20,11 @@
 	"$envmaptint" "[0.05 0.05 0.05]"
 	"$color2" "[0.88 0.88 0.88]"
 
+    "$detail" "arc9/fullheat"
+    "$detailscale" "1"
+    "$detailblendfactor" "0"
+    "$detailblendmode" "5"
+	
 	"Proxies"
      {
         "Arc9EnvMapTint"
@@ -28,5 +33,8 @@
             "min" "0"
             "max" "0.05"
         }
+    	"ARC9_Heat" {
+			blend $detailblendfactor
+    	}
      }
 }
