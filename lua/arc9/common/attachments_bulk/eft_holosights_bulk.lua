@@ -34,7 +34,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 15, 15)) -- bright color
 ATT.HoloSightSize = 465
@@ -82,7 +82,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_acro_p1_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_acro_p1_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1.5, 0.64, 0.64)) -- bright color
 ATT.HoloSightSize = 444
@@ -130,7 +130,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1.5, 10, 10) * 0.8) -- bright color
 ATT.HoloSightSize = 350
@@ -179,7 +179,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_leupold_deltapoint_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_leupold_deltapoint_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1.2, 10, 10)) -- bright color
 ATT.HoloSightSize = 300
@@ -235,7 +235,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 15, 15)) -- bright color
 ATT.HoloSightSize = 400
@@ -288,7 +288,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 15, 15)) -- bright color
 ATT.HoloSightSize = 400
@@ -335,7 +335,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_walther_mrs_mark_000.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_walther_mrs_mark_000.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(2, 2, 2)) -- bright color
 ATT.HoloSightSize = 550
@@ -381,7 +381,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(4.25, 2, 2) * 0.3) -- bright color
 ATT.HoloSightSize = 450
@@ -457,7 +457,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 38/4
 ATT.RTScopeMagnification = 3
-ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks2.png", "mips smooth")
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks2.png", "smooth")
 ATT.RTScopeReticle:SetInt("$flags", bit.bor(ATT.RTScopeReticle:GetInt("$flags"), 128)) -- additive
 ATT.RTScopeReticle:SetVector("$color2", Vector(60, 10, 100)) -- bright color
 ATT.RTScopeReticleScale = 0.54
@@ -476,7 +476,7 @@ end
 
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(0.92, 10, 20)) -- bright color
 ATT.HoloSightSize = 350
@@ -553,7 +553,7 @@ ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 3
 ATT.RTScopeFOV = 38/4
 ATT.RTScopeMagnification = 3
-ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks2.png", "mips smooth")
+ATT.RTScopeReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks2.png", "smooth")
 ATT.RTScopeReticle:SetInt("$flags", bit.bor(ATT.RTScopeReticle:GetInt("$flags"), 128)) -- additive
 ATT.RTScopeReticle:SetVector("$color2", Vector(60, 10, 100)) -- bright color
 ATT.RTScopeReticleScale = 0.54
@@ -572,7 +572,7 @@ end
 
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-4_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(0.92, 10, 20)) -- bright color
 ATT.HoloSightSize = 350
@@ -623,7 +623,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(4.25, 2, 2) * 0.3) -- bright color
 ATT.HoloSightSize = 500
@@ -779,7 +779,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_valday_krechet_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_valday_krechet_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1.35, 20, 20)) -- bright color
 ATT.HoloSightSize = 333
@@ -1102,7 +1102,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_valday_1p87_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_valday_1p87_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(0.75, 2, 2)*1.3) -- bright color
 ATT.HoloSightSize = 545
@@ -1151,7 +1151,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1.5, 10, 10) * 0.8) -- bright color
 ATT.HoloSightSize = 350
@@ -1230,7 +1230,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
 ATT.HoloSightSize = 400
@@ -1276,7 +1276,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_sig_romeo_4_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 4, 4) * 1.2) -- bright color
 ATT.HoloSightSize = 450
@@ -1324,7 +1324,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_sig_romeo_8t_LOD0_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_sig_romeo_8t_LOD0_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(2, 5, 20)) -- bright color
 ATT.HoloSightSize = 450
@@ -1373,7 +1373,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_t1_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(4, 2, 2) * 0.5) -- bright color
 ATT.HoloSightSize = 450
@@ -1421,7 +1421,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_t1_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(4, 2, 2) * 1) -- bright color
 ATT.HoloSightSize = 500
@@ -1619,7 +1619,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_vortex_razor_amg_uh-1_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_vortex_razor_amg_uh-1_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(2, 15, 15)) -- bright color
 ATT.HoloSightSize = 350
@@ -1762,7 +1762,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-0_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 15, 15)) -- bright color
 ATT.HoloSightSize = 450
@@ -1814,7 +1814,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-2_marks.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_eotech_xps3-2_marks.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(3, 15, 25)) -- bright color
 ATT.HoloSightSize = 450
@@ -1908,7 +1908,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_elcan_specter_hco_LOD0_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_elcan_specter_hco_LOD0_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 3, 15)*5) -- bright color
 ATT.HoloSightSize = 360
@@ -1961,7 +1961,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_t1_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_t1_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(4, 0.4, 0.5) * 1) -- bright color
 ATT.HoloSightSize = 740
@@ -2143,7 +2143,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
 ATT.HoloSightSize = 400
@@ -2189,7 +2189,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
 ATT.HoloSightSize = 400
@@ -2234,7 +2234,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_trijicon_rmr_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(10, 0.8, 0.5)) -- bright color
 ATT.HoloSightSize = 250
@@ -2288,7 +2288,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_falke_falke_le_LOD0_linza.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_all_falke_falke_le_LOD0_linza.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1, 3, 15)*5) -- bright color
 ATT.HoloSightSize = 360
@@ -2378,7 +2378,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_meprolight_mepro_m21_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_meprolight_mepro_m21_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(1.5, 10, 10) * 0.8) -- bright color
 ATT.HoloSightSize = 350
@@ -2509,7 +2509,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(4.25, 2, 2) * 0.3) -- bright color
 ATT.HoloSightSize = 350
@@ -2564,7 +2564,7 @@ ATT.Sights = {
 }
 
 ATT.HoloSight = true
-ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "mips smooth")
+ATT.HoloSightReticle = Material("vgui/arc9_eft_shared/reticles/new/scope_base_aimpoint_micro_h2_mark.png", "smooth")
 ATT.HoloSightReticle:SetInt("$flags", bit.bor(ATT.HoloSightReticle:GetInt("$flags"), 128)) -- additive
 ATT.HoloSightReticle:SetVector("$color2", Vector(4.25, 2, 2) * 0.3) -- bright color
 ATT.HoloSightSize = 350
