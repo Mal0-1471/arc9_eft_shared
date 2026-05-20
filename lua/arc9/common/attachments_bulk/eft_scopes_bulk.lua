@@ -55,8 +55,8 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
-local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/March Tactical 3-24x42 Mark_f.png", "mips")
-local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/March Tactical 3-24x42 Mark_q.png", "mips")
+local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/March Tactical 3-24x42 Mark_f.png", "")
+local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/March Tactical 3-24x42 Mark_q.png", "")
 
 local scale = 1.25
 local finalsize = 6.25 * scale
@@ -327,8 +327,8 @@ ATT.DrawFunc = function(swep, model, wm)
     end
 end
 
-local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/PM_II_1-8x24_mark_f.png", "mips")
-local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/PM_II_1-8x24_mark_q.png", "mips")
+local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/PM_II_1-8x24_mark_f.png", "")
+local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/PM_II_1-8x24_mark_q.png", "")
 
 local scale = 0.625
 local finalsize = 10.5 * scale
@@ -513,8 +513,8 @@ ATT.DrawFunc = function(swep, model, wm)
     -- end
 end
 
-local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/vudu_f.png", "mips")
-local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/vudu_q.png", "mips")
+local Reticle_full = Material("vgui/arc9_eft_shared/reticles/adjustable/vudu_f.png", "")
+local Reticle_quarter = Material("vgui/arc9_eft_shared/reticles/adjustable/vudu_q.png", "")
 
 local scale = 0.28
 local finalsize = 20 * scale
