@@ -806,11 +806,11 @@ ATT.ModelOffset = Vector(0, 0, 0)
 
 ATT.Attachments = {
     {
-        PrintName = ARC9:GetPhrase("eft_cat_foregrip"),
-        Category = {"eft_foregrip_small"},
-        Pos = Vector(0, 0, 0.3),
-        Ang = Angle(0, -90, 0),
-        Icon_Offset = Vector(0, 0, -1),
+        PrintName = ARC9:GetPhrase("eft_cat_tactical"),
+        Category = {"eft_tactical_top","eft_tactical_top_big", "eft_tactical"},
+        Pos = Vector(-0.2, -0.32, 0),
+        Ang = Angle(0, 0, -90),
+        Icon_Offset = Vector(0, 0, 0),
     },
 }
 
