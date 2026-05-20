@@ -33,7 +33,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.21,
     lightBleedModifier = 0.3,
     heavyBleedModifier = 0.1,
-}), "massive")
+}, "massive"))
 
 
 -- EFT ID: 59e6658b86f77411d949b250
@@ -75,7 +75,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.21,
     lightBleedModifier = 0.2,
     heavyBleedModifier = 0.25,
-}), "massive")
+}, "massive"))
 
 
 -- EFT ID: 59e6542b86f77411dc52a77a
@@ -118,7 +118,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.102,
     misfireChance = 0.224,
     heavyBleedModifier = 0.1,
-}), "massive")
+}, "massive"))
 
 
 -- EFT ID: 5f0596629e22f464da6bbdd9
@@ -160,7 +160,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.01,
     misfireChance = 0.266,
     heavyBleedModifier = 0.2,
-}), "massive")
+}, "massive"))
 
 
 -- EFT ID: 59e655cb86f77411dc52a77b

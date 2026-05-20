@@ -31,7 +31,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.13645,
     failureToFeedChance = 0.086,
     misfireChance = 0.196,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5c925fa22e221601da359b7b
@@ -71,7 +71,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.14,
     lightBleedModifier = 0.2,
     heavyBleedModifier = 0.2,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5a3c16fe86f77452b62de32a
@@ -111,7 +111,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.19,
     failureToFeedChance = 0.077,
     misfireChance = 0.21,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5efb0da7a29a85116f6ea05f
@@ -149,7 +149,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.0115,
     failureToFeedChance = 0.02,
     misfireChance = 0.196,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 58864a4f2459770fcc257101
@@ -187,7 +187,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.071,
     failureToFeedChance = 0.02,
     misfireChance = 0.175,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 56d59d3ad2720bdb418b4577
@@ -224,7 +224,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.071,
     failureToFeedChance = 0.02,
     misfireChance = 0.175,
-}), "pistol")
+}, "pistol"))
 -- EFT ID: 64b7bbb74b75259c590fa897
 ARC9.LoadAttachment(ATT, "eft_ammo_9x19_fmj_m882")
 
@@ -264,7 +264,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.126,
     lightBleedModifier = 0.15,
     heavyBleedModifier = 0.22,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5efb0e16aeb21837e749c7ff
@@ -305,7 +305,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.196,
     lightBleedModifier = 0.3,
     heavyBleedModifier = 0.1,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5c0d56a986f774449d5de529
@@ -348,7 +348,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.1305,
     failureToFeedChance = 0.01,
     misfireChance = 0.14,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5c3df7d588a4501f290594e5

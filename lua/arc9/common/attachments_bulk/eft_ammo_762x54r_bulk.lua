@@ -33,7 +33,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 2.57,
     failureToFeedChance = 0.0874,
     misfireChance = 0.196,
-}), "bigrifle")
+}, "bigrifle"))
 
 
 -- EFT ID: 5e023d48186a883be655e551
@@ -77,7 +77,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 2.4415,
     failureToFeedChance = 0.0917,
     misfireChance = 0.182,
-}), "bigrifle")
+}, "bigrifle"))
 
 
 -- EFT ID: 5e023d34e8a400319a28ed44
@@ -116,7 +116,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.534,
     failureToFeedChance = 0.02,
     misfireChance = 0.168,
-}), "bigrifle")
+}, "bigrifle"))
 -- EFT ID: 64b8f7968532cf95ee0a0dbf
 ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_fmj")
 
@@ -153,7 +153,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.357,
     failureToFeedChance = 0.02,
     misfireChance = 0.168,
-}), "bigrifle")
+}, "bigrifle"))
 -- EFT ID: 64b8f7c241772715af0f9c3d
 ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_hpbt")
 
@@ -190,7 +190,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 2.313,
     failureToFeedChance = 0.02,
     misfireChance = 0.168,
-}), "bigrifle")
+}, "bigrifle"))
 
 
 -- EFT ID: 5887431f2459777e1612938f
@@ -231,7 +231,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 2.1845,
     failureToFeedChance = 0.082,
     misfireChance = 0.175,
-}), "bigrifle")
+}, "bigrifle"))
 
 
 -- EFT ID: 59e77a2386f7742ee578960a
@@ -271,7 +271,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 2.3387,
     failureToFeedChance = 0.095,
     misfireChance = 0.168,
-}), "bigrifle")
+}, "bigrifle"))
 
 
 -- EFT ID: 560d61e84bdc2da74d8b4571
@@ -311,7 +311,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.423,
     failureToFeedChance = 0.02,
     misfireChance = 0.168,
-}), "bigrifle")
+}, "bigrifle"))
 -- EFT ID: 64b8f7b5389d7ffd620ccba2
 ARC9.LoadAttachment(ATT, "eft_ammo_762x54r_spbt")
 
@@ -352,7 +352,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 2.056,
     failureToFeedChance = 0.01,
     misfireChance = 0.154,
-}), "bigrifle")
+}, "bigrifle"))
 
 
 -- EFT ID: 5e023cf8186a883be655e54f

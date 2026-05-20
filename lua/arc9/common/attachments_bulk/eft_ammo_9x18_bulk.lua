@@ -34,7 +34,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.14,
     lightBleedModifier = 0.25,
     heavyBleedModifier = 0.1,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 57372140245977611f70ee91
@@ -70,7 +70,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.01,
     misfireChance = 0.175,
     lightBleedModifier = 0.1,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5737207f24597760ff7b25f2
@@ -107,7 +107,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.175,
     lightBleedModifier = 0.15,
     heavyBleedModifier = 0.1,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5737218f245977612125ba51
@@ -142,7 +142,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 0.9234,
     failureToFeedChance = 0.01,
     misfireChance = 0.175,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 573720e02459776143012541
@@ -178,7 +178,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.01,
     misfireChance = 0.175,
     lightBleedModifier = 0.15,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 57371b192459775a9f58a5e0
@@ -218,7 +218,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.02,
     misfireChance = 0.175,
     lightBleedModifier = 0.15,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 57371e4124597760ff7b25f1
@@ -255,7 +255,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.083,
     failureToFeedChance = 0.088,
     misfireChance = 0.21,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 57371aab2459775a77142f22
@@ -292,7 +292,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.02,
     misfireChance = 0.175,
     lightBleedModifier = 0.15,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 57371eb62459776125652ac1
@@ -328,7 +328,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.02,
     misfireChance = 0.175,
     lightBleedModifier = 0.15,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 57371f2b24597761224311f1
@@ -365,7 +365,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.02,
     misfireChance = 0.266,
     lightBleedModifier = 0.15,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 57371f8d24597761006c6a81
@@ -402,7 +402,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.175,
     lightBleedModifier = 0.15,
     heavyBleedModifier = 0.1,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 573718ba2459775a75491131
@@ -437,7 +437,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.0374,
     failureToFeedChance = 0.02,
     misfireChance = 0.175,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 5737201124597760fc4431f1
@@ -473,7 +473,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     failureToFeedChance = 0.02,
     misfireChance = 0.175,
     lightBleedModifier = 0.1,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 573719762459775a626ccbc1
@@ -509,7 +509,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     heatFactor = 1.14,
     failureToFeedChance = 0.078,
     misfireChance = 0.196,
-}), "pistol")
+}, "pistol"))
 
 
 -- EFT ID: 573719df2459775a626ccbc2
