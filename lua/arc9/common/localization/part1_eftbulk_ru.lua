@@ -1037,7 +1037,6 @@ L["eft_ammo_556_m995.description"] = "Патрон 5.56x45мм НАТО M995 с 
 
 L["eft_ammo_556_bb.printname"] = "Пластиковые шары 6мм"
 L["eft_ammo_556_bb.compactname"] = "6мм BB"
-L["eft_ammo_556_bb.description"] = "6 миллиметровые пластиковые шары массой 0.2 грамма."
 
 -- [[ ammo_762x51 ]]
 L["eft_ammo_762x51_bpzfmj.printname"] = "7.62x51мм БПЗ FMJ"

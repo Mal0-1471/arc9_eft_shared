@@ -1037,7 +1037,6 @@ L["eft_ammo_556_m995.description"] = "Zırh delici M995 mermi"
 
 L["eft_ammo_556_bb.printname"] = "Airsoft 6mm BB"
 L["eft_ammo_556_bb.compactname"] = "6mm BB"
-L["eft_ammo_556_bb.description"] = "Airsoft 6mm 0.2g BBs."
 
 -- [[ ammo_762x51 ]]
 L["eft_ammo_762x51_bpzfmj.printname"] = "7.62x51 mm BPZ FMJ"

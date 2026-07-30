@@ -1037,7 +1037,6 @@ L["eft_ammo_556_m995.description"] = "M995穿甲弹"
 
 L["eft_ammo_556_bb.printname"] = "Airsoft 6毫米 BB"
 L["eft_ammo_556_bb.compactname"] = "6毫米 BB"
-L["eft_ammo_556_bb.description"] = "Airsoft 6毫米 0.2克BB弹。"
 
 -- [[ ammo_762x51 ]]
 L["eft_ammo_762x51_bpzfmj.printname"] = "7.62x51毫米 BPZ FMJ"

@@ -1037,7 +1037,6 @@ L["eft_ammo_556_m995.description"] = "Um cartucho OTAN M995 de 5.56x45mm com uma
 
 L["eft_ammo_556_bb.printname"] = "BB 6mm Airsoft"
 L["eft_ammo_556_bb.compactname"] = "BB 6mm"
-L["eft_ammo_556_bb.description"] = "BBs de 6mm 0.20g para airsoft."
 
 -- [[ ammo_762x51 ]]
 L["eft_ammo_762x51_bpzfmj.printname"] = "7.62x51mm BCP FMJ"

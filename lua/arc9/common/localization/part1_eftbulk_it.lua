@@ -1037,7 +1037,6 @@ L["eft_ammo_556_m995.description"] = "Una cartuccia NATO M995 da 5.56x45 mm con 
 
 L["eft_ammo_556_bb.printname"] = "Airsoft 6mm BB"
 L["eft_ammo_556_bb.compactname"] = "BB 6mm"
-L["eft_ammo_556_bb.description"] = "Pallini Airsoft 6mm 0.2g."
 
 -- [[ ammo_762x51 ]]
 L["eft_ammo_762x51_bpzfmj.printname"] = "7.62x51mm BCP FMJ"

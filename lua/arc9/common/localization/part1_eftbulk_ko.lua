@@ -1037,7 +1037,6 @@ L["eft_ammo_556_m995.description"] = "A 5.56x45mm NATO M995 cartridge with a 3.4
 
 L["eft_ammo_556_bb.printname"] = "Airsoft 6mm BB"
 L["eft_ammo_556_bb.compactname"] = "6mm BB"
-L["eft_ammo_556_bb.description"] = "에어소프트용 6mm구경의 0.2g BB탄입니다."
 
 -- [[ ammo_762x51 ]]
 L["eft_ammo_762x51_bpzfmj.printname"] = "7.62x51mm BCP FMJ"

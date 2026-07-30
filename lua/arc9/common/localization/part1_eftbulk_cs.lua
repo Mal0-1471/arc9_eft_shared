@@ -1037,7 +1037,6 @@ L["eft_ammo_556_m995.description"] = "Náboj 5.56x45mm NATO M995 s 3,4gramovou p
 
 L["eft_ammo_556_bb.printname"] = "Airsoft 6mm BB"
 L["eft_ammo_556_bb.compactname"] = "6mm BB"
-L["eft_ammo_556_bb.description"] = "Airsoftové 6mm kuličky (0.2g)."
 
 -- [[ ammo_762x51 ]]
 L["eft_ammo_762x51_bpzfmj.printname"] = "7.62x51mm BCP FMJ"
