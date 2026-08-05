@@ -173,7 +173,7 @@ table.Merge(ATT, ARC9EFT.GenerateEFTAttachment({
     misfireChance = 0.175,
     lightBleedModifier = 0.35,
     heavyBleedModifier = 0.5,
-}, "massive"))
+}, "338"))
 
 
 -- EFT ID: 5fc275cf85fd526b824a571a
