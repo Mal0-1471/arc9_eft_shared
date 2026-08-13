@@ -154,12 +154,25 @@ else
         bind = function(self, mat, ent)
             mat:SetFloat(self.Frame, 30 - self.Minusframe)
             
-            if IsValid(ent) and IsValid(ent.weapon) then ent = ent.weapon end
-
-            if IsValid(ent) and IsValid(ent:GetOwner()) and IsValid(ent:GetOwner():GetActiveWeapon()) and ent:GetClass() != "arc9_droppedmag" then
-                local weapon = ent:GetOwner():GetActiveWeapon()
-                if weapon and weapon.ARC9 then
-                    mat:SetFloat(self.Frame, math.Clamp(30-weapon:GetLoadedRounds()+1, 0,  30 - self.Minusframe))
+            if IsValid(ent) then
+                if ent:GetClass() == "class CLuaEffect" then -- is dropped
+                    if IsValid(ent.weapon) and ent.weapon.ARC9 then
+                        self.LastRound = math.Clamp(30 - ent.weapon:GetLoadedRounds() + 1, 0,  30 - self.Minusframe)
+                        ent.weapon = nil
+                    end
+                    
+                    mat:SetFloat(self.Frame, self.LastRound or 30)
+                else
+                    if !ent.weapon then -- in case its viewmodel
+                        local ownr = ent:GetOwner()
+                        if IsValid(ownr) then
+                            ent.weapon = ownr:GetActiveWeapon()
+                        end
+                    end
+                    
+                    if IsValid(ent.weapon) and ent.weapon.ARC9 then -- is gun
+                        mat:SetFloat(self.Frame, math.Clamp(30 - ent.weapon:GetLoadedRounds() + 1, 0,  30 - self.Minusframe))
+                    end
                 end
             end
         end
